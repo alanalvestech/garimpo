@@ -29,9 +29,11 @@ sources:
     license: sem licença declarada
     ext: [.md]
 
-  - name: Daily Update
+  # O DailyUpdate organiza por subpasta (Digest, Overview, HackerNews, Papers...),
+  # e os arquivos ficam com data no nome dentro de cada uma.
+  - name: Daily Update (Hacker News)
     repo: osa-mayor/DailyUpdate
-    path: .
+    path: HackerNews
     mode: link
     license: sem licença declarada
     ext: [.md]
