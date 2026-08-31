@@ -1,0 +1,37 @@
+# Fontes do radar.
+#
+# repo:    owner/nome no GitHub
+# path:    pasta dentro do repo onde ficam os arquivos diários
+# mode:    "full" republica o conteúdo traduzido (só para fonte com licença que permite)
+#          "link" guarda apenas título e link para o arquivo original
+# license: registrado aqui para justificar o mode escolhido
+# ext:     extensões consideradas
+
+sources:
+  - name: AI Research Arm
+    repo: guzus/ai-research-arm
+    path: research
+    mode: full
+    license: MIT
+    ext: [.md]
+
+  - name: Product Hunt Daily
+    repo: imjszhang/producthunt-daily-hot
+    path: data
+    mode: full
+    license: MIT
+    ext: [.md]
+
+  - name: AI CG News Update
+    repo: zq52xy/AI-CG-NEWS-UPDATE
+    path: daily_news
+    mode: link
+    license: sem licença declarada
+    ext: [.md]
+
+  - name: Daily Update
+    repo: osa-mayor/DailyUpdate
+    path: .
+    mode: link
+    license: sem licença declarada
+    ext: [.md]

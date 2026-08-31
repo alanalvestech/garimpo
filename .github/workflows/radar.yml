@@ -1,0 +1,39 @@
+name: radar
+
+on:
+  schedule:
+    - cron: "0 10 * * *" # 07:00 em Brasília
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pyyaml
+
+      - name: Coletar e traduzir
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/collect.py
+
+      - name: Commitar o que mudou
+        run: |
+          git config user.name "radar"
+          git config user.email "radar@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "nada novo"
+          else
+            git commit -m "radar: $(date -u +%Y-%m-%d)"
+            git push
+          fi
