@@ -60,17 +60,48 @@ sources:
     license: MIT
     ext: [.md]
 
-  - category: CGNews
+  # O AI-CG-NEWS-UPDATE junta vários blocos no mesmo arquivo diário, e cada
+  # bloco é uma origem diferente. O campo section recorta um deles. Product Hunt,
+  # Hacker News e arXiv também estão lá, mas ficaram de fora porque já entram por
+  # fonte com licença, que permite republicar traduzido em vez de só linkar.
+  - category: GitHubTrending
     name: AI CG News Update
     repo: zq52xy/AI-CG-NEWS-UPDATE
     path: daily_news
+    section: GitHub Trending
+    mode: link
+    license: sem licença declarada
+    ext: [.md]
+
+  - category: HuggingFacePapers
+    name: AI CG News Update
+    repo: zq52xy/AI-CG-NEWS-UPDATE
+    path: daily_news
+    section: Hugging Face Papers
+    mode: link
+    license: sem licença declarada
+    ext: [.md]
+
+  - category: CG
+    name: AI CG News Update
+    repo: zq52xy/AI-CG-NEWS-UPDATE
+    path: daily_news
+    section: CG 图形学
     mode: link
     license: sem licença declarada
     ext: [.md]
 
   # O DailyUpdate organiza por seção, uma pasta por tipo de conteúdo, e cada
-  # seção vira uma categoria aqui. Product ficou de fora porque o Product Hunt
-  # já entra pelo imjszhang, que tem licença e permite republicar.
+  # seção vira uma categoria aqui. Archive ficou de fora porque só tem um
+  # archive_index.json, sem arquivo diário.
+  - category: Product
+    name: Daily Update
+    repo: osa-mayor/DailyUpdate
+    path: Product
+    mode: link
+    license: sem licença declarada
+    ext: [.md]
+
   - category: HackerNews
     name: Daily Update
     repo: osa-mayor/DailyUpdate

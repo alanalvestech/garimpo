@@ -62,10 +62,15 @@ def http_json(url):
         return json.load(r)
 
 
+CACHE_TEXTO = {}  # o mesmo arquivo alimenta várias categorias, baixa uma vez só
+
+
 def http_texto(url):
-    req = urllib.request.Request(url, headers=cabecalhos())
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return r.read().decode("utf-8", errors="replace")
+    if url not in CACHE_TEXTO:
+        req = urllib.request.Request(url, headers=cabecalhos())
+        with urllib.request.urlopen(req, timeout=60) as r:
+            CACHE_TEXTO[url] = r.read().decode("utf-8", errors="replace")
+    return CACHE_TEXTO[url]
 
 
 def cabecalhos():
@@ -74,6 +79,27 @@ def cabecalhos():
     if token:
         h["Authorization"] = f"Bearer {token}"
     return h
+
+
+def ancora(titulo):
+    """Reproduz a âncora que o GitHub gera para um título de seção."""
+    limpo = "".join(c for c in titulo.lower() if c.isalnum() or c in " -_")
+    return "#" + limpo.strip("_").replace(" ", "-")
+
+
+def recortar_secao(texto, secao):
+    """Devolve (titulo, corpo) do bloco cujo título contém `secao`, ou None."""
+    linhas = texto.splitlines()
+    inicio = None
+    for i, linha in enumerate(linhas):
+        if linha.startswith("## "):
+            if inicio is not None:
+                return linhas[inicio], "\n".join(linhas[inicio + 1 : i]).strip()
+            if secao.lower() in linha.lower():
+                inicio = i
+    if inicio is None:
+        return None
+    return linhas[inicio], "\n".join(linhas[inicio + 1 :]).strip()
 
 
 def data_no_nome(nome):
@@ -154,16 +180,20 @@ def gravar(fonte, arq, texto, agora):
     dia = arq["data"].isoformat()
     pasta = DIR_DADOS / fonte["category"]
     pasta.mkdir(parents=True, exist_ok=True)
+    url = arq["html_url"]
+    if arq.get("titulo_secao"):
+        url += ancora(arq["titulo_secao"])
 
     registro = {
         "categoria": fonte["category"],
         "fonte": fonte["name"],
         "repo": fonte["repo"],
         "arquivo": arq["nome"],
+        "secao": fonte.get("section"),
         "data": dia,
         "modo": fonte["mode"],
         "licenca": fonte["license"],
-        "url": arq["html_url"],
+        "url": url,
         "gerado_em": agora,
         "conteudo": texto,
     }
@@ -171,9 +201,12 @@ def gravar(fonte, arq, texto, agora):
         json.dumps(registro, ensure_ascii=False, indent=2)
     )
 
+    origem = arq["nome"]
+    if fonte.get("section"):
+        origem += f" · bloco {fonte['section']}"
     cabecalho = (
         f"# {fonte['name']} · {dia}\n\n"
-        f"Origem: [{arq['nome']}]({arq['html_url']}) · licença {fonte['license']}\n\n"
+        f"Origem: [{origem}]({url}) · licença {fonte['license']}\n\n"
     )
     corpo = texto or (
         "Sem licença de redistribuição, então aqui fica só o ponteiro para o original."
@@ -196,6 +229,7 @@ def main():
     corte = date.today() - timedelta(days=DIAS)
     agora = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     escritos = 0
+    falhas = 0
 
     for fonte in fontes:
         print(f"[{fonte['name']}] {fonte['repo']}")
@@ -207,17 +241,50 @@ def main():
                 continue
 
             print(f"  {arq['nome']}")
-            texto = None
-            if fonte["mode"] == "full":
-                texto = traduzir(http_texto(arq["download_url"]))
-                if not texto or texto.strip() == "SEM CONTEUDO":
-                    print("  nada aproveitável")
+            try:
+                if not processar(fonte, arq, agora):
                     continue
-
-            gravar(fonte, arq, texto, agora)
+            except Exception as e:
+                # Falha numa fonte não pode derrubar as outras, senão uma cota
+                # estourada no meio do caminho perde a coleta do dia inteiro.
+                print(f"  [erro] {arq['nome']}: {e}", file=sys.stderr)
+                falhas += 1
+                continue
             escritos += 1
 
-    print("nada novo" if not escritos else f"{escritos} arquivos novos")
+    print(f"{escritos} arquivos novos" if escritos else "nada novo")
+    if falhas:
+        print(f"{falhas} arquivo(s) falharam", file=sys.stderr)
+
+
+def processar(fonte, arq, agora):
+    """Baixa, recorta o bloco se houver, traduz se a licença permitir, e grava.
+
+    Devolve False quando não há o que gravar.
+    """
+    bruto = None
+    if fonte.get("section") or fonte["mode"] == "full":
+        bruto = http_texto(arq["download_url"])
+
+    if fonte.get("section"):
+        # A fonte junta vários blocos num arquivo só, e cada bloco vira uma
+        # categoria. Sem o bloco, não há o que gravar.
+        recorte = recortar_secao(bruto, fonte["section"])
+        if recorte is None:
+            print(f"  sem o bloco {fonte['section']}")
+            return False
+        arq["titulo_secao"] = recorte[0].lstrip("# ")
+        bruto = f"{recorte[0]}\n\n{recorte[1]}"
+
+    texto = None
+    if fonte["mode"] == "full":
+        texto = traduzir(bruto)
+        if not texto or texto.strip() == "SEM CONTEUDO":
+            print("  nada aproveitável")
+            return False
+
+    gravar(fonte, arq, texto, agora)
+    return True
 
 
 if __name__ == "__main__":
