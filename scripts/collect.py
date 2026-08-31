@@ -1,5 +1,13 @@
 """Lê os arquivos mais recentes das fontes, traduz com o Gemini e grava em data/.
 
+Cada categoria tem sua pasta, e cada dia vira um par de arquivos:
+
+    data/<Categoria>/AAAA-MM-DD.md
+    data/<Categoria>/AAAA-MM-DD.json
+
+A data no nome é a do arquivo de origem, não a do dia em que a coleta rodou.
+Dia já gravado é pulado, então rodar de novo não regrava nem gasta chamada.
+
 Uso:
     GEMINI_API_KEY=... python scripts/collect.py
 
@@ -8,6 +16,7 @@ Variáveis:
     GEMINI_MODEL    padrão gemini-2.5-flash
     GITHUB_TOKEN    opcional, só para elevar o limite da API do GitHub
     RADAR_DAYS      quantos dias para trás considerar um arquivo recente (padrão 2)
+    RADAR_FORCE     "1" regrava dias que já existem
 """
 
 import json
@@ -25,6 +34,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 DIR_DADOS = RAIZ / "data"
 MODELO = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 DIAS = int(os.environ.get("RADAR_DAYS", "2"))
+FORCAR = os.environ.get("RADAR_FORCE") == "1"
 LIMITE_CARACTERES = 12000  # corta arquivo gigante antes de mandar pro modelo
 
 PROMPT = """Você recebe o conteúdo bruto de um arquivo diário de um agregador de notícias de tecnologia, escrito em inglês ou chinês.
@@ -139,77 +149,75 @@ def traduzir(conteudo):
         return ""
 
 
+def gravar(fonte, arq, texto, agora):
+    """Grava o par .md/.json da fonte na data do arquivo de origem."""
+    dia = arq["data"].isoformat()
+    pasta = DIR_DADOS / fonte["category"]
+    pasta.mkdir(parents=True, exist_ok=True)
+
+    registro = {
+        "categoria": fonte["category"],
+        "fonte": fonte["name"],
+        "repo": fonte["repo"],
+        "arquivo": arq["nome"],
+        "data": dia,
+        "modo": fonte["mode"],
+        "licenca": fonte["license"],
+        "url": arq["html_url"],
+        "gerado_em": agora,
+        "conteudo": texto,
+    }
+    (pasta / f"{dia}.json").write_text(
+        json.dumps(registro, ensure_ascii=False, indent=2)
+    )
+
+    cabecalho = (
+        f"# {fonte['name']} · {dia}\n\n"
+        f"Origem: [{arq['nome']}]({arq['html_url']}) · licença {fonte['license']}\n\n"
+    )
+    corpo = texto or (
+        "Sem licença de redistribuição, então aqui fica só o ponteiro para o original."
+    )
+    (pasta / f"{dia}.md").write_text(cabecalho + corpo + "\n")
+    print(f"  escrito data/{fonte['category']}/{dia}.md")
+
+
 def main():
     if not os.environ.get("GEMINI_API_KEY"):
         sys.exit("GEMINI_API_KEY não definida")
 
     fontes = yaml.safe_load((RAIZ / "config" / "sources.yaml").read_text())["sources"]
-    corte = date.today() - timedelta(days=DIAS)
-    hoje = date.today().isoformat()
+    categorias = [f["category"] for f in fontes]
+    repetidas = {c for c in categorias if categorias.count(c) > 1}
+    if repetidas:
+        # Duas fontes na mesma categoria sobrescreveriam o arquivo uma da outra.
+        sys.exit(f"categoria repetida em sources.yaml: {', '.join(sorted(repetidas))}")
 
-    blocos_md = []
-    registros = []
+    corte = date.today() - timedelta(days=DIAS)
+    agora = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    escritos = 0
 
     for fonte in fontes:
         print(f"[{fonte['name']}] {fonte['repo']}")
         for arq in arquivos_recentes(fonte, corte):
+            dia = arq["data"].isoformat()
+            destino = DIR_DADOS / fonte["category"] / f"{dia}.json"
+            if destino.exists() and not FORCAR:
+                print(f"  {arq['nome']}: já gravado")
+                continue
+
             print(f"  {arq['nome']}")
-            if fonte["mode"] == "link":
-                registros.append(
-                    {
-                        "fonte": fonte["name"],
-                        "repo": fonte["repo"],
-                        "arquivo": arq["nome"],
-                        "data": arq["data"].isoformat(),
-                        "modo": "link",
-                        "url": arq["html_url"],
-                        "conteudo": None,
-                    }
-                )
-                blocos_md.append(
-                    f"## {fonte['name']}\n\n"
-                    f"Sem licença de redistribuição, então aqui vai só o ponteiro: "
-                    f"[{arq['nome']}]({arq['html_url']})\n"
-                )
-                continue
+            texto = None
+            if fonte["mode"] == "full":
+                texto = traduzir(http_texto(arq["download_url"]))
+                if not texto or texto.strip() == "SEM CONTEUDO":
+                    print("  nada aproveitável")
+                    continue
 
-            bruto = http_texto(arq["download_url"])
-            texto = traduzir(bruto)
-            if not texto or texto.strip() == "SEM CONTEUDO":
-                continue
-            registros.append(
-                {
-                    "fonte": fonte["name"],
-                    "repo": fonte["repo"],
-                    "arquivo": arq["nome"],
-                    "data": arq["data"].isoformat(),
-                    "modo": "full",
-                    "url": arq["html_url"],
-                    "conteudo": texto,
-                }
-            )
-            blocos_md.append(
-                f"## {fonte['name']}\n\n"
-                f"Origem: [{arq['nome']}]({arq['html_url']}) · licença {fonte['license']}\n\n"
-                f"{texto}\n"
-            )
+            gravar(fonte, arq, texto, agora)
+            escritos += 1
 
-    if not registros:
-        print("nada novo hoje")
-        return
-
-    DIR_DADOS.mkdir(exist_ok=True)
-    agora = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    md = f"# Radar {hoje}\n\nGerado em {agora}.\n\n" + "\n".join(blocos_md)
-    (DIR_DADOS / f"{hoje}.md").write_text(md)
-    (DIR_DADOS / f"{hoje}.json").write_text(
-        json.dumps(
-            {"data": hoje, "gerado_em": agora, "itens": registros},
-            ensure_ascii=False,
-            indent=2,
-        )
-    )
-    print(f"escrito data/{hoje}.md e data/{hoje}.json ({len(registros)} itens)")
+    print("nada novo" if not escritos else f"{escritos} arquivos novos")
 
 
 if __name__ == "__main__":

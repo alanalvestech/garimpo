@@ -1,39 +1,70 @@
 # Fontes do radar.
 #
-# repo:    owner/nome no GitHub
-# path:    pasta dentro do repo onde ficam os arquivos diários
-# mode:    "full" republica o conteúdo traduzido (só para fonte com licença que permite)
-#          "link" guarda apenas título e link para o arquivo original
-# license: registrado aqui para justificar o mode escolhido
-# ext:     extensões consideradas
+# category: pasta dentro de data/, nomeada pelo tipo de conteúdo, não pela fonte.
+#           Duas fontes não podem dividir a mesma categoria.
+# repo:     owner/nome no GitHub
+# path:     pasta dentro do repo onde ficam os arquivos diários
+# mode:     "full" republica o conteúdo traduzido (só para fonte com licença que permite)
+#           "link" guarda apenas o ponteiro para o arquivo original
+# license:  registrado aqui para justificar o mode escolhido
+# ext:      extensões consideradas
 
 sources:
-  - name: AI Research Arm
+  - category: AINews
+    name: AI Research Arm
     repo: guzus/ai-research-arm
     path: research
     mode: full
     license: MIT
     ext: [.md]
 
-  - name: Product Hunt Daily
+  - category: ProductHunt
+    name: Product Hunt Daily
     repo: imjszhang/producthunt-daily-hot
     path: data
     mode: full
     license: MIT
     ext: [.md]
 
-  - name: AI CG News Update
+  - category: CGNews
+    name: AI CG News Update
     repo: zq52xy/AI-CG-NEWS-UPDATE
     path: daily_news
     mode: link
     license: sem licença declarada
     ext: [.md]
 
-  # O DailyUpdate organiza por subpasta (Digest, Overview, HackerNews, Papers...),
-  # e os arquivos ficam com data no nome dentro de cada uma.
-  - name: Daily Update (Hacker News)
+  # O DailyUpdate organiza por seção, uma pasta por tipo de conteúdo, e cada
+  # seção vira uma categoria aqui. Product ficou de fora porque o Product Hunt
+  # já entra pelo imjszhang, que tem licença e permite republicar.
+  - category: HackerNews
+    name: Daily Update
     repo: osa-mayor/DailyUpdate
     path: HackerNews
+    mode: link
+    license: sem licença declarada
+    ext: [.md]
+
+  - category: GoogleNews
+    name: Daily Update
+    repo: osa-mayor/DailyUpdate
+    path: GoogleNews
+    mode: link
+    license: sem licença declarada
+    ext: [.md]
+
+  - category: Papers
+    name: Daily Update
+    repo: osa-mayor/DailyUpdate
+    path: Papers
+    mode: link
+    license: sem licença declarada
+    ext: [.md]
+
+  - category: Reddit
+    name: Daily Update
+    repo: osa-mayor/DailyUpdate
+    path: Reddit
     mode: link
     license: sem licença declarada
     ext: [.md]
