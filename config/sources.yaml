@@ -10,16 +10,10 @@
 # ext:      extensões consideradas
 
 sources:
-  - category: AINews
-    name: AI Research Arm
-    repo: guzus/ai-research-arm
-    path: research
-    mode: full
-    license: MIT
-    ext: [.md]
-
   # O ai-research-arm separa por origem dentro de research/, e cada pasta dessas
-  # vira uma categoria. Tudo MIT, então entra traduzido.
+  # vira uma categoria. Tudo MIT, então entra traduzido. A raiz de research/ e a
+  # pasta digest/ ficaram de fora: são texto sintetizado a partir das outras
+  # pastas, não fonte.
   - category: Arxiv
     name: AI Research Arm
     repo: guzus/ai-research-arm
@@ -48,6 +42,22 @@ sources:
     name: AI Research Arm
     repo: guzus/ai-research-arm
     path: research/youtube
+    mode: full
+    license: MIT
+    ext: [.md]
+
+  - category: RSS
+    name: AI Research Arm
+    repo: guzus/ai-research-arm
+    path: research/rss
+    mode: full
+    license: MIT
+    ext: [.md]
+
+  - category: Blogs
+    name: AI Research Arm
+    repo: guzus/ai-research-arm
+    path: research/blogs
     mode: full
     license: MIT
     ext: [.md]
