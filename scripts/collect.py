@@ -36,7 +36,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 FORCE = os.environ.get("RADAR_FORCE") == "1"
-CHAR_LIMIT = 12000  # trims a huge file before sending it to the model
+CHAR_LIMIT = 60000  # trims a huge file before sending it to the model
 
 RULES = """- Drop items with no link, plus ads, footers, tables of contents and indexes.
 - Keep the links intact, in the order they appear, and always point to the
@@ -59,6 +59,7 @@ Return the list of items in the file, in Brazilian Portuguese, each with:
 
 - title: the item's title, translated.
 - summary: at most two sentences with what the item says.
+- authors: the item's authors, when the text names them. Skip it otherwise.
 - links: every link of that item.
 
 Rules:
@@ -90,6 +91,7 @@ SCHEMA = {
         "properties": {
             "title": {"type": "STRING"},
             "summary": {"type": "STRING"},
+            "authors": {"type": "ARRAY", "items": {"type": "STRING"}},
             "links": {"type": "ARRAY", "items": {"type": "STRING"}},
         },
         "required": ["title", "links"],
@@ -191,6 +193,8 @@ def translate(content, mode):
         f"https://generativelanguage.googleapis.com/v1beta/models/"
         f"{MODEL}:generateContent"
     )
+    if len(content) > CHAR_LIMIT:
+        print(f"  trimmed to {CHAR_LIMIT} of {len(content)} chars")
     payload = {
         "contents": [
             {"parts": [{"text": prompt.format(content=content[:CHAR_LIMIT])}]}
@@ -231,6 +235,8 @@ def translate(content, mode):
             # Only a source whose license allows republishing gets a summary; on
             # the others the item keeps the minimum: title and link.
             clean["summary"] = no_dashes(item["summary"])
+        if item.get("authors"):
+            clean["authors"] = item["authors"]
         items.append(clean)
     return items
 
@@ -248,6 +254,8 @@ def to_markdown(items):
     for item in items:
         links = ", ".join(f"[{u}]({u})" for u in item["links"])
         block = f"**{item['title']}** {links}"
+        if item.get("authors"):
+            block += f"\nAutores: {', '.join(item['authors'])}"
         if item.get("summary"):
             block += f"\n{item['summary']}"
         blocks.append(block)

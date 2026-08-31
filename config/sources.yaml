@@ -15,10 +15,13 @@ sources:
   # becomes a category. All MIT, so summaries are allowed. The root of research/
   # and digest/ are left out: they are text synthesized from the other folders,
   # not a source.
+  # Only the Highlights block: the rest of the file is a flat list, while the
+  # highlights carry authors and a TL;DR for each paper.
   - category: Arxiv
     name: AI Research Arm
     repo: guzus/ai-research-arm
     path: research/arxiv
+    section: Highlights
     mode: full
     license: MIT
     ext: [.md]

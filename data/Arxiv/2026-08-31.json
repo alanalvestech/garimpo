@@ -1,7 +1,7 @@
 {
   "category": "Arxiv",
   "date": "2026-08-31",
-  "generated_at": "2026-08-31 22:56 UTC",
+  "generated_at": "2026-08-31 23:22 UTC",
   "pending": false,
   "items": [
     {
@@ -9,238 +9,70 @@
       "links": [
         "https://arxiv.org/abs/2608.28560"
       ],
-      "summary": "Limites superiores teóricos da informação na recuperação do significado pretendido por um falante a partir de *qualquer* extrator de características de um enunciado, incluindo estados ocultos de LLMs. A incerteza restante se divide em uma parte irredutível e uma parte que apenas o contexto extralinguístico pode resolver; ambas são intrínsecas à linguagem, então nenhuma quantidade de texto ou supervisão pode superá-las, seja em um espaço de significado discreto ou contínuo."
+      "summary": "O estudo estabelece limites superiores teóricos da informação para recuperar o significado pretendido por um falante a partir de qualquer caracterizador de uma enunciação, incluindo estados ocultos de LLMs. A incerteza restante se divide em uma parte irredutível e outra que apenas o contexto extralinguístico pode resolver, ambas intrínsecas à linguagem e insuperáveis por qualquer quantidade de texto ou supervisão.",
+      "authors": [
+        "Emily Cheng",
+        "Ryan Cotterell"
+      ]
     },
     {
-      "title": "Atenção de Janela Deslizante Supera a Atenção Linear",
+      "title": "Atenção de Janela Deslizante Supera Atenção Linear",
       "links": [
         "https://arxiv.org/abs/2608.28444"
       ],
-      "summary": "A adaptação popular de LLMs pré-treinados para atenção linear é comparada a uma linha de base que a maioria dos artigos ignora: atenção de janela deslizante com 'sinks', sem pós-treinamento adicional. A SWA iguala ou supera modelos lineares pós-treinados em várias tarefas, e é 2 a 10 vezes mais forte em Needle-in-a-Haystack e BABILong, mantendo-se mais rápida e barata."
+      "summary": "A comparação entre o retrofit de LLMs pré-treinados para atenção linear e a atenção de janela deslizante (SWA) mostra que a SWA supera ou iguala modelos lineares pós-treinados em várias tarefas. A SWA é 2 a 10 vezes mais forte em testes específicos, mantendo-se mais rápida e barata, sugerindo que a atenção linear exige treinamento do zero ou adaptação mais intensa para competir.",
+      "authors": [
+        "Alexia Jolicoeur-Martineau",
+        "Rhea Sanjay Sukthanker",
+        "Pashmina Cameron",
+        "Emy Gervais"
+      ]
     },
     {
-      "title": "Até Onde 5.500 Horas de Condução Podem Levar Você? Uma Análise da Lei de Escala para Modelos de Difusão de Vídeo",
+      "title": "Até Onde 5.500 Horas de Direção Podem Levar Você? Uma Análise de Lei de Escala de Modelos de Difusão de Vídeo",
       "links": [
         "https://arxiv.org/abs/2608.28404"
       ],
-      "summary": "Vídeos de condução não podem ser coletados em escala web, então os autores mapeiam uma família de difusão de 1M a 9B treinada do zero com até 5.500 horas. A perda de validação segue leis de potência no tamanho do modelo e na exposição ao treinamento; a perda diminui muito mais rápido com mais passos do que com mais parâmetros, mas modelos maiores ainda vencem assintoticamente, então o escalonamento computacionalmente ótimo ainda aumenta o tamanho quando o orçamento permite."
+      "summary": "Os autores mapearam uma família de modelos de difusão de 1M a 9B, treinados do zero com até 5.500 horas de vídeo de direção, um domínio com dados escassos. A perda de validação segue leis de potência no tamanho do modelo e exposição ao treinamento, mostrando que modelos maiores ainda vencem assintoticamente e que o treinamento mais longo supera um modelo maior até que o orçamento seja grande.",
+      "authors": [
+        "Victor Besnier",
+        "Anh-Quan Cao",
+        "Elias Ramzi",
+        "Spyros Gidaris",
+        "Tuan-Hung Vu",
+        "Andrei Bursuc",
+        "Eloi Zablocki",
+        "Matthieu Cord"
+      ]
     },
     {
       "title": "LongPIBench: Um Benchmark de Contexto Longo para Injeção de Prompt",
       "links": [
         "https://arxiv.org/abs/2608.28411"
       ],
-      "summary": "Os benchmarks existentes de injeção de prompt são de contexto curto, o que infla o sucesso relatado das defesas. O LongPIBench abrange revisão por pares, triagem de currículos, revisão de código e resumo de e-mails com milhares a dezenas de milhares de tokens, com conjuntos sintéticos *e* do mundo real."
+      "summary": "O LongPIBench é um novo benchmark de injeção de prompt para contextos longos, cobrindo tarefas como revisão por pares e triagem de currículos com milhares de tokens. Ele revela que injeções heurísticas simples conseguem altas taxas de sucesso e rotineiramente contornam as defesas atuais de última geração, indicando que os benchmarks existentes subestimam a ameaça real.",
+      "authors": [
+        "Yupei Liu",
+        "Yuqi Jia",
+        "Neil Zhenqiang Gong",
+        "Jinyuan Jia"
+      ]
     },
     {
       "title": "ContextPilot: Ensinando Agentes para Gerenciamento Proativo de Contexto via RL de Granularidade Fina",
       "links": [
         "https://arxiv.org/abs/2608.28476"
       ],
-      "summary": "Agentes de longo horizonte se afogam em um contexto de trabalho em constante crescimento. O ContextPilot expande o conjunto de ferramentas de edição (planejamento, memória de longo prazo, descarregamento suave) e então treina ações de contexto com RL de granularidade fina que se ramifica em edições de alto impacto e atribui vantagens no nível da ação em vez de uma única recompensa de trajetória."
-    },
-    {
-      "title": "CE-MoE: Especialistas Eficientes em Comunicação via Reconfiguração de Camadas",
-      "links": [
-        "https://arxiv.org/abs/2608.28511"
-      ],
-      "summary": "Profundidade heterogênea: concentra MoE roteado em poucas camadas, mantém mistura de tokens/FFN densa em outros lugares; 31.5B usa 33.3% menos horas de GPU com perda correspondente e melhor desempenho downstream + throughput."
-    },
-    {
-      "title": "DARTS: Cirurgia de Representação Ciente do Decodificador",
-      "links": [
-        "https://arxiv.org/abs/2608.28547"
-      ],
-      "summary": "LMs de decodificador mesclados acumulam viés de representação dependente da posição; correção por posição ponderada por entropia (+0.1% de parâmetros) melhora HumanEval/GSM8K/AlpacaEval (EMNLP Main)."
-    },
-    {
-      "title": "Leis de Escala do OpenEuroLLM",
-      "links": [
-        "https://arxiv.org/abs/2608.28308"
-      ],
-      "summary": "Escalonamento conjunto *e* marginal de LR/batch sob WSD; ganhos de annealing e transferência estável→decadência; disponibiliza a coleção completa de execuções de pré-treinamento."
-    },
-    {
-      "title": "Uma Interpretação Probabilística da Evicção de Cache KV",
-      "links": [
-        "https://arxiv.org/abs/2608.28293"
-      ],
-      "summary": "Formaliza a evicção como estimativa de expectativa rígida; heurísticas existentes são estimadores enviesados de variância zero; a correção em tempo de decodificação torna a evicção mais robusta à tarefa."
-    },
-    {
-      "title": "PASK: Persistência KV Condicionada por Parser",
-      "links": [
-        "https://arxiv.org/abs/2608.28276"
-      ],
-      "summary": "Usa o estado do parser de decodificação restrita para decidir qual KV manter; +17.4pp vs a linha de base comprimida mais forte com 0.33 de orçamento KV, até 2.2× de throughput."
-    },
-    {
-      "title": "Escadas no Caos: TTS para Tradução Automática",
-      "links": [
-        "https://arxiv.org/abs/2608.28496"
-      ],
-      "summary": "O escalonamento sequencial em tempo de teste tem um teto de MT mais alto do que o paralelo; ele proporciona fluência/naturalidade, mas pode *prejudicar* a precisão em grandes orçamentos (EMNLP Findings)."
-    },
-    {
-      "title": "Quando a Confiança Linguística e Interna Divergem",
-      "links": [
-        "https://arxiv.org/abs/2608.28382"
-      ],
-      "summary": "Em 30 modelos, a confiança verbalizada é um canal com perdas: associação fraca de instâncias, o ajuste de instruções infla as pontuações e *piora* a calibração."
-    },
-    {
-      "title": "CultureConverse",
-      "links": [
-        "https://arxiv.org/abs/2608.28405"
-      ],
-      "summary": "Sistema de assistência cultural multi-turn para 10 regiões do Leste/Sudeste Asiático; 14.6k episódios de avaliação, leaderboard de 18 modelos; SFT se transfere para MCQ cultural e segurança (EMNLP)."
-    },
-    {
-      "title": "VISTA: OPSD de Aluno para Professor",
-      "links": [
-        "https://arxiv.org/abs/2608.28306"
-      ],
-      "summary": "Adapta o professor OPSD privilegiado em direção ao aluno em tokens de alta KL passados pelo verificador; +0.6, 2.1 Avg@12 em AIME/HMMT vs OPSD unidirecional."
-    },
-    {
-      "title": "GeoNeXt: Modelos Generativos de Vídeo como Aprendizes de Geometria",
-      "links": [
-        "https://arxiv.org/abs/2608.28549"
-      ],
-      "summary": "Reformula profundidade/normais como previsão do próximo quadro a partir de um gerador de vídeo pré-treinado; rivaliza com o SOTA discriminativo treinado com 100 vezes mais dados."
-    },
-    {
-      "title": "Ariadne: Especialização Semântica de Cabeças",
-      "links": [
-        "https://arxiv.org/abs/2608.28383"
-      ],
-      "summary": "As cabeças do ViT se dividem em especialistas de objeto vs. fundo (SHS); o SHS-Index prevê a qualidade downstream; o Ariadne híbrido iguala a atenção completa com 6.5 vezes menos computação."
-    },
-    {
-      "title": "LayerRecall",
-      "links": [
-        "https://arxiv.org/abs/2608.28460"
-      ],
-      "summary": "Um roteador de memória seletivo por camada injeta K/V histórico apenas em camadas DiT sensíveis à memória; supera MemoBench/MovieBench com autocorreção guiada pela memória."
-    },
-    {
-      "title": "GraspHOI",
-      "links": [
-        "https://arxiv.org/abs/2608.28386"
-      ],
-      "summary": "Primeiro HOI de corpo inteiro de imagem única que *otimiza a articulação dos dedos* contra um objeto reconstruído agnóstico à categoria."
-    },
-    {
-      "title": "MAP: Planejamento de Acessibilidade Multimodal",
-      "links": [
-        "https://arxiv.org/abs/2608.28384"
-      ],
-      "summary": "Primeiro benchmark para verificar/recomendar locais do mundo real sob restrições de acessibilidade, com verificação de reivindicações e recuperação de evidências visuais."
-    },
-    {
-      "title": "PersonaForge",
-      "links": [
-        "https://arxiv.org/abs/2608.28378"
-      ],
-      "summary": "75.9% de 16k sessões reais de agentes são multi-turn; o treinamento simulado por persona eleva o Qwen3.5-27B em +4.1 composto, com os maiores ganhos em conclusão e qualidade."
-    },
-    {
-      "title": "Prove2Me",
-      "links": [
-        "https://arxiv.org/abs/2608.28433"
-      ],
-      "summary": "Plataforma de missão aberta onde agentes de IA formalizam colaborativamente matemática em Lean, reutilizam os lemas uns dos outros e verificam a correção por máquina."
-    },
-    {
-      "title": "PLVR: Aprendizado de Programa com Recompensas Verificáveis",
-      "links": [
-        "https://arxiv.org/abs/2608.28421"
-      ],
-      "summary": "Coloca o raciocínio *fora* dos pesos como programas tipados; a retropropagação simbólica é a regra da cadeia sobre assinaturas primitivas; 30B + PLVR supera RL de orçamento correspondente em 27.8 pontos."
-    },
-    {
-      "title": "LoopArena",
-      "links": [
-        "https://arxiv.org/abs/2608.28281"
-      ],
-      "summary": "Isola o *controlador* que direciona um trabalhador de codificação fixo; a melhor Taxa de Sucesso Estrito é de 24.69%, a engenharia de loop, não apenas o codificador, é o gargalo."
-    },
-    {
-      "title": "Logos: Estrutura de Agente Cross-Processo",
-      "links": [
-        "https://arxiv.org/abs/2608.28553"
-      ],
-      "summary": "Processos pares semelhantes ao ROS com um registro somente de adição; uma falha mata um nó, não todas as sessões co-residentes (80 testes de interrupção e reinício)."
-    },
-    {
-      "title": "NL2AGBench",
-      "links": [
-        "https://arxiv.org/abs/2608.28481"
-      ],
-      "summary": "DSL NL→AlphaGeometry verificada por execução; modelos fechados >80% executáveis, modelos abertos ainda descartam restrições geométricas."
-    },
-    {
-      "title": "Fidelidade Não é Suficiente",
-      "links": [
-        "https://arxiv.org/abs/2608.28439"
-      ],
-      "summary": "Um modelo 'passou' na extração sem abrir a folha de dados; rastreamentos de ferramentas em nível de despacho detectam fabricação silenciosa sem ferramenta que as pontuações de fidelidade consideram sucesso (EMNLP Industry)."
-    },
-    {
-      "title": "EvoUndo",
-      "links": [
-        "https://arxiv.org/abs/2608.28363"
-      ],
-      "summary": "197 automutações de agentes que melhoram a capacidade falham na recuperabilidade; a autoevolução confiável precisa de fundamentação de estado + uma linguagem de desfazer rica o suficiente, não mais prompting."
-    },
-    {
-      "title": "CamoDocs",
-      "links": [
-        "https://arxiv.org/abs/2608.28389"
-      ],
-      "summary": "Envenenamento de RAG sem inclusão de consulta; ASR 61.8% GPT-5.4-mini / 55.1% Claude-Haiku-4.5; TrustRAG reduz ASR apenas ao prejudicar a utilidade (EMNLP)."
-    },
-    {
-      "title": "Quando Robôs Nos Entendem Mal",
-      "links": [
-        "https://arxiv.org/abs/2608.28518"
-      ],
-      "summary": "Erros de ASR em comandos de IA incorporada preservam ambiguidade prejudicial ou enfraquecem a recusa; a autocorreção ajuda apenas às vezes."
-    },
-    {
-      "title": "Defesas de LLM em Camadas como um Ensemble",
-      "links": [
-        "https://arxiv.org/abs/2608.28327"
-      ],
-      "summary": "Defesas empilhadas falham nas *mesmas* entradas (φ 0.30, 0.75); o ASR residual supera a previsão de independência em até 0.172, e a pilha recusa 4/5 prompts benignos."
-    },
-    {
-      "title": "Como as Regras de Pontuação Adequadas Moldam a Previsão de LLM",
-      "links": [
-        "https://arxiv.org/abs/2608.28482"
-      ],
-      "summary": "Cinco pontuações adequadas *não* são objetivos de treinamento intercambiáveis, Brier vs log produzem diferentes perfis de calibração/viés/ruído com precisão semelhante."
-    },
-    {
-      "title": "GRACE: Coresets de Gradiente para Desaprendizagem",
-      "links": [
-        "https://arxiv.org/abs/2608.28361"
-      ],
-      "summary": "Infere conjuntos de esquecimento/retenção a partir de alguns exemplos ruins via correspondência de gradiente; melhor utilidade com qualidade de esquecimento correspondente (EMNLP Findings)."
-    },
-    {
-      "title": "AIM: Desaprendizagem de Identidade para MLLMs",
-      "links": [
-        "https://arxiv.org/abs/2608.28312"
-      ],
-      "summary": "Identidade vs. percepção ocupam regiões distintas de estado oculto; 'anchor-then-match' esquece uma pessoa sem imagens de retenção (EMNLP Findings)."
-    },
-    {
-      "title": "Fronteira Tamanho-Peso para Inferência Aumentada por Sintéticos",
-      "links": [
-        "https://arxiv.org/abs/2608.28576"
-      ],
-      "summary": "Cobertura de amostra finita para quantos exemplos sintéticos de LLM, com qual peso, você pode adicionar antes que a cobertura da inferência se rompa."
+      "summary": "ContextPilot expande o conjunto de ferramentas de edição (planejamento, memória de longo prazo, descarregamento suave) e treina ações de contexto com RL de granularidade fina. Em QA de contexto longo e busca profunda, ele supera métodos anteriores de memória proativa com um contexto de trabalho menor.",
+      "authors": [
+        "Zhuoshi Pan",
+        "Qizhi Pei",
+        "Junru Lu",
+        "Honglin Lin",
+        "H. Vicky Zhao",
+        "Di Yin",
+        "Xing Sun"
+      ]
     }
   ]
 }
