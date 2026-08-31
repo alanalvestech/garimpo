@@ -1,12 +1,15 @@
-"""Lê os arquivos mais recentes das fontes, traduz com o Gemini e grava em data/.
+"""Lê o último arquivo de cada fonte, traduz com o Gemini e grava em data/.
 
-Cada categoria tem sua pasta, e cada dia vira um par de arquivos:
+Cada categoria tem sua pasta, e a pasta guarda só o dia mais recente que a
+fonte publicou:
 
     data/<Categoria>/AAAA-MM-DD.md
     data/<Categoria>/AAAA-MM-DD.json
 
-A data no nome é a do arquivo de origem, não a do dia em que a coleta rodou.
-Dia já gravado é pulado, então rodar de novo não regrava nem gasta chamada.
+A data no nome é a do arquivo de origem, não a do dia em que a coleta rodou:
+fonte atrasada aparece com a data dela. Quando um dia novo entra, o anterior
+sai da pasta e fica só no histórico do git. Dia já gravado é pulado, então
+rodar de novo não regrava nem gasta chamada.
 
 Uso:
     GEMINI_API_KEY=... python scripts/collect.py
@@ -15,8 +18,7 @@ Variáveis:
     GEMINI_API_KEY  obrigatória
     GEMINI_MODEL    padrão gemini-2.5-flash
     GITHUB_TOKEN    opcional, só para elevar o limite da API do GitHub
-    RADAR_DAYS      quantos dias para trás considerar um arquivo recente (padrão 2)
-    RADAR_FORCE     "1" regrava dias que já existem
+    RADAR_FORCE     "1" regrava o dia que já existe
 """
 
 import json
@@ -25,7 +27,7 @@ import re
 import sys
 import urllib.error
 import urllib.request
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 import yaml
@@ -33,7 +35,6 @@ import yaml
 RAIZ = Path(__file__).resolve().parent.parent
 DIR_DADOS = RAIZ / "data"
 MODELO = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
-DIAS = int(os.environ.get("RADAR_DAYS", "2"))
 FORCAR = os.environ.get("RADAR_FORCE") == "1"
 LIMITE_CARACTERES = 12000  # corta arquivo gigante antes de mandar pro modelo
 
@@ -113,18 +114,18 @@ def data_no_nome(nome):
         return None
 
 
-def arquivos_recentes(fonte, corte):
-    """Lista arquivos da pasta da fonte cuja data no nome é >= corte."""
+def ultimo_arquivo(fonte):
+    """Devolve o arquivo com a data mais recente na pasta da fonte."""
     caminho = fonte["path"].strip("./")
     url = f"https://api.github.com/repos/{fonte['repo']}/contents/{caminho}"
     try:
         itens = http_json(url)
     except urllib.error.HTTPError as e:
         print(f"  [erro] {fonte['repo']}/{caminho}: HTTP {e.code}", file=sys.stderr)
-        return []
+        return None
 
     if not isinstance(itens, list):
-        return []
+        return None
 
     achados = []
     for item in itens:
@@ -134,7 +135,7 @@ def arquivos_recentes(fonte, corte):
         if not any(nome.endswith(e) for e in fonte.get("ext", [".md"])):
             continue
         d = data_no_nome(nome)
-        if d is None or d < corte:
+        if d is None:
             continue
         achados.append(
             {
@@ -144,8 +145,9 @@ def arquivos_recentes(fonte, corte):
                 "html_url": item["html_url"],
             }
         )
-    achados.sort(key=lambda a: a["data"], reverse=True)
-    return achados
+    if not achados:
+        return None
+    return max(achados, key=lambda a: a["data"])
 
 
 def traduzir(conteudo):
@@ -239,35 +241,49 @@ def main():
         # Duas fontes na mesma categoria sobrescreveriam o arquivo uma da outra.
         sys.exit(f"categoria repetida em sources.yaml: {', '.join(sorted(repetidas))}")
 
-    corte = date.today() - timedelta(days=DIAS)
     agora = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     escritos = 0
     falhas = 0
 
     for fonte in fontes:
-        print(f"[{fonte['name']}] {fonte['repo']}")
-        for arq in arquivos_recentes(fonte, corte):
-            dia = arq["data"].isoformat()
-            destino = DIR_DADOS / fonte["category"] / f"{dia}.json"
-            if destino.exists() and not FORCAR and not repescar(destino, tem_chave):
-                print(f"  {arq['nome']}: já gravado")
-                continue
+        print(f"[{fonte['category']}] {fonte['repo']}/{fonte['path']}")
+        arq = ultimo_arquivo(fonte)
+        if arq is None:
+            print("  nenhum arquivo com data no nome")
+            continue
 
-            print(f"  {arq['nome']}")
-            try:
-                if not processar(fonte, arq, agora, tem_chave):
-                    continue
-            except Exception as e:
-                # Falha numa fonte não pode derrubar as outras, senão uma cota
-                # estourada no meio do caminho perde a coleta do dia inteiro.
-                print(f"  [erro] {arq['nome']}: {e}", file=sys.stderr)
-                falhas += 1
+        dia = arq["data"].isoformat()
+        pasta = DIR_DADOS / fonte["category"]
+        destino = pasta / f"{dia}.json"
+        if destino.exists() and not FORCAR and not repescar(destino, tem_chave):
+            print(f"  {arq['nome']}: já gravado")
+            limpar(pasta, dia)
+            continue
+
+        print(f"  {arq['nome']}")
+        try:
+            if not processar(fonte, arq, agora, tem_chave):
                 continue
-            escritos += 1
+        except Exception as e:
+            # Falha numa fonte não pode derrubar as outras, senão uma cota
+            # estourada no meio do caminho perde a coleta do dia inteiro.
+            print(f"  [erro] {arq['nome']}: {e}", file=sys.stderr)
+            falhas += 1
+            continue
+        limpar(pasta, dia)
+        escritos += 1
 
     print(f"{escritos} arquivos novos" if escritos else "nada novo")
     if falhas:
         print(f"{falhas} arquivo(s) falharam", file=sys.stderr)
+
+
+def limpar(pasta, dia):
+    """Deixa na pasta só o dia atual: o anterior fica no histórico do git."""
+    for velho in pasta.glob("*.*"):
+        if velho.stem != dia:
+            velho.unlink()
+            print(f"  removido {velho.relative_to(RAIZ)}")
 
 
 def repescar(destino, tem_chave):
