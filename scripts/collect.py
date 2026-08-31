@@ -151,10 +151,9 @@ def ultimo_arquivo(fonte):
 
 
 def traduzir(conteudo):
-    chave = os.environ["GEMINI_API_KEY"]
     url = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
-        f"{MODELO}:generateContent?key={chave}"
+        f"{MODELO}:generateContent"
     )
     corpo = {
         "contents": [
@@ -165,7 +164,12 @@ def traduzir(conteudo):
     req = urllib.request.Request(
         url,
         data=json.dumps(corpo).encode(),
-        headers={"Content-Type": "application/json"},
+        headers={
+            "Content-Type": "application/json",
+            # No cabeçalho, não na query: URL com chave vaza em mensagem de erro,
+            # traceback e log de proxy.
+            "x-goog-api-key": os.environ["GEMINI_API_KEY"],
+        },
         method="POST",
     )
     with urllib.request.urlopen(req, timeout=180) as r:
