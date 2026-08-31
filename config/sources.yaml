@@ -1,19 +1,20 @@
-# Fontes do radar.
+# Radar sources.
 #
-# category: pasta dentro de data/, nomeada pelo tipo de conteúdo, não pela fonte.
-#           Duas fontes não podem dividir a mesma categoria.
-# repo:     owner/nome no GitHub
-# path:     pasta dentro do repo onde ficam os arquivos diários
-# mode:     "full" republica o conteúdo traduzido (só para fonte com licença que permite)
-#           "link" guarda apenas o ponteiro para o arquivo original
-# license:  registrado aqui para justificar o mode escolhido
-# ext:      extensões consideradas
+# category: folder under data/, named after the kind of content, not the source.
+#           Two sources cannot share a category.
+# repo:     owner/name on GitHub
+# path:     folder inside the repo holding the daily files
+# mode:     "full" keeps title, links and a translated summary (license allows it)
+#           "link" keeps title and links only, no summary
+# license:  recorded here to justify the chosen mode
+# ext:      file extensions considered
+# section:  cuts one block out of a file that packs several origins together
 
 sources:
-  # O ai-research-arm separa por origem dentro de research/, e cada pasta dessas
-  # vira uma categoria. Tudo MIT, então entra traduzido. A raiz de research/ e a
-  # pasta digest/ ficaram de fora: são texto sintetizado a partir das outras
-  # pastas, não fonte.
+  # ai-research-arm splits by origin under research/, and each of those folders
+  # becomes a category. All MIT, so summaries are allowed. The root of research/
+  # and digest/ are left out: they are text synthesized from the other folders,
+  # not a source.
   - category: Arxiv
     name: AI Research Arm
     repo: guzus/ai-research-arm
@@ -70,17 +71,17 @@ sources:
     license: MIT
     ext: [.md]
 
-  # O AI-CG-NEWS-UPDATE junta vários blocos no mesmo arquivo diário, e cada
-  # bloco é uma origem diferente. O campo section recorta um deles. Product Hunt,
-  # Hacker News e arXiv também estão lá, mas ficaram de fora porque já entram por
-  # fonte com licença, que permite republicar traduzido em vez de só linkar.
+  # AI-CG-NEWS-UPDATE packs several blocks into the same daily file, each one a
+  # different origin. The section field cuts one out. Product Hunt, Hacker News
+  # and arXiv are in there too, but they are left out: each already comes from a
+  # licensed source, which allows a translated summary instead of links only.
   - category: GitHubTrending
     name: AI CG News Update
     repo: zq52xy/AI-CG-NEWS-UPDATE
     path: daily_news
     section: GitHub Trending
     mode: link
-    license: sem licença declarada
+    license: no license declared
     ext: [.md]
 
   - category: HuggingFacePapers
@@ -89,7 +90,7 @@ sources:
     path: daily_news
     section: Hugging Face Papers
     mode: link
-    license: sem licença declarada
+    license: no license declared
     ext: [.md]
 
   - category: CG
@@ -98,18 +99,18 @@ sources:
     path: daily_news
     section: CG 图形学
     mode: link
-    license: sem licença declarada
+    license: no license declared
     ext: [.md]
 
-  # O DailyUpdate organiza por seção, uma pasta por tipo de conteúdo, e cada
-  # seção vira uma categoria aqui. Archive ficou de fora porque só tem um
-  # archive_index.json, sem arquivo diário.
+  # DailyUpdate is organized by section, one folder per kind of content, and
+  # each section becomes a category here. Archive is left out: it holds a single
+  # archive_index.json, with no daily file.
   - category: Product
     name: Daily Update
     repo: osa-mayor/DailyUpdate
     path: Product
     mode: link
-    license: sem licença declarada
+    license: no license declared
     ext: [.md]
 
   - category: HackerNews
@@ -117,7 +118,7 @@ sources:
     repo: osa-mayor/DailyUpdate
     path: HackerNews
     mode: link
-    license: sem licença declarada
+    license: no license declared
     ext: [.md]
 
   - category: GoogleNews
@@ -125,7 +126,7 @@ sources:
     repo: osa-mayor/DailyUpdate
     path: GoogleNews
     mode: link
-    license: sem licença declarada
+    license: no license declared
     ext: [.md]
 
   - category: Papers
@@ -133,7 +134,7 @@ sources:
     repo: osa-mayor/DailyUpdate
     path: Papers
     mode: link
-    license: sem licença declarada
+    license: no license declared
     ext: [.md]
 
   - category: Reddit
@@ -141,5 +142,5 @@ sources:
     repo: osa-mayor/DailyUpdate
     path: Reddit
     mode: link
-    license: sem licença declarada
+    license: no license declared
     ext: [.md]

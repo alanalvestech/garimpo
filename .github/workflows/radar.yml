@@ -2,11 +2,11 @@ name: radar
 
 on:
   schedule:
-    - cron: "0 10 * * *" # 07:00 em Brasília
+    - cron: "0 10 * * *" # 07:00 in São Paulo
   workflow_dispatch:
     inputs:
       force:
-        description: "Regrava o dia atual mesmo se já estiver gravado"
+        description: "Rewrite the current day even if it is already saved"
         type: boolean
         default: false
 
@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 jobs:
-  coletar:
+  collect:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -25,20 +25,20 @@ jobs:
 
       - run: pip install pyyaml
 
-      - name: Coletar e traduzir
+      - name: Collect and translate
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RADAR_FORCE: ${{ inputs.force && '1' || '0' }}
         run: python scripts/collect.py
 
-      - name: Commitar o que mudou
+      - name: Commit what changed
         run: |
           git config user.name "radar"
           git config user.email "radar@users.noreply.github.com"
           git add data/
           if git diff --staged --quiet; then
-            echo "nada novo"
+            echo "nothing new"
           else
             git commit -m "radar: $(date -u +%Y-%m-%d)"
             git push

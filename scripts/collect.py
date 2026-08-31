@@ -1,24 +1,24 @@
-"""Lê o último arquivo de cada fonte, traduz com o Gemini e grava em data/.
+"""Reads the latest file of each source, translates it with Gemini, writes data/.
 
-Cada categoria tem sua pasta, e a pasta guarda só o dia mais recente que a
-fonte publicou:
+Every category has its own folder, and the folder keeps only the most recent day
+the source published:
 
-    data/<Categoria>/AAAA-MM-DD.md
-    data/<Categoria>/AAAA-MM-DD.json
+    data/<Category>/YYYY-MM-DD.md
+    data/<Category>/YYYY-MM-DD.json
 
-A data no nome é a do arquivo de origem, não a do dia em que a coleta rodou:
-fonte atrasada aparece com a data dela. Quando um dia novo entra, o anterior
-sai da pasta e fica só no histórico do git. Dia já gravado é pulado, então
-rodar de novo não regrava nem gasta chamada.
+The date in the name is the source file's, not the day the collection ran: a
+source that lags shows up with its own date. When a new day comes in, the
+previous one leaves the folder and lives on in the git history. A day already
+saved is skipped, so running again neither rewrites it nor spends a call.
 
-Uso:
+Usage:
     GEMINI_API_KEY=... python scripts/collect.py
 
-Variáveis:
-    GEMINI_API_KEY  obrigatória
-    GEMINI_MODEL    padrão gemini-2.5-flash
-    GITHUB_TOKEN    opcional, só para elevar o limite da API do GitHub
-    RADAR_FORCE     "1" regrava o dia que já existe
+Environment:
+    GEMINI_API_KEY  required
+    GEMINI_MODEL    defaults to gemini-2.5-flash
+    GITHUB_TOKEN    optional, only raises the GitHub API rate limit
+    RADAR_FORCE     "1" rewrites the day that already exists
 """
 
 import json
@@ -32,89 +32,89 @@ from pathlib import Path
 
 import yaml
 
-RAIZ = Path(__file__).resolve().parent.parent
-DIR_DADOS = RAIZ / "data"
-MODELO = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
-FORCAR = os.environ.get("RADAR_FORCE") == "1"
-LIMITE_CARACTERES = 12000  # corta arquivo gigante antes de mandar pro modelo
+ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT / "data"
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+FORCE = os.environ.get("RADAR_FORCE") == "1"
+CHAR_LIMIT = 12000  # trims a huge file before sending it to the model
 
-REGRAS = """- Descarte item sem link, propaganda, rodapé, sumário e índice.
-- Mantenha os links intactos, na ordem em que aparecem, e aponte sempre para a
-  página original do item, nunca para o arquivo que você está lendo.
-- Não invente informação que não está no texto.
-- Não use travessão em nenhuma hipótese.
-- Se o arquivo não tiver nada aproveitável, devolva uma lista vazia.
+RULES = """- Drop items with no link, plus ads, footers, tables of contents and indexes.
+- Keep the links intact, in the order they appear, and always point to the
+  item's original page, never to the file you are reading.
+- Do not invent information that is not in the text.
+- Never use an em dash.
+- If there is nothing usable in the file, return an empty list.
 
-Conteúdo:
+Content:
 
 ---
-{conteudo}
+{content}
 ---
 """
 
-PROMPT_RESUMO = (
-    """Você recebe o conteúdo bruto de um arquivo diário de um agregador de notícias de tecnologia, escrito em inglês ou chinês.
+SUMMARY_PROMPT = (
+    """You get the raw content of a daily file from a tech news aggregator, written in English or Chinese.
 
-Devolva a lista de itens do arquivo, em português do Brasil, cada um com:
+Return the list of items in the file, in Brazilian Portuguese, each with:
 
-- titulo: o título do item, traduzido.
-- resumo: no máximo duas frases com o que o item diz.
-- links: todos os links daquele item.
+- title: the item's title, translated.
+- summary: at most two sentences with what the item says.
+- links: every link of that item.
 
-Regras:
-
-"""
-    + REGRAS
-)
-
-PROMPT_TITULO = (
-    """Você recebe o conteúdo bruto de um arquivo diário de um agregador de notícias de tecnologia, escrito em inglês ou chinês.
-
-Devolva a lista de itens do arquivo, cada um com:
-
-- titulo: o título do item, traduzido para português do Brasil.
-- links: todos os links daquele item.
-
-Não escreva resumo: só o título e os links.
-
-Regras:
+Rules:
 
 """
-    + REGRAS
+    + RULES
 )
 
-ESQUEMA = {
+TITLE_PROMPT = (
+    """You get the raw content of a daily file from a tech news aggregator, written in English or Chinese.
+
+Return the list of items in the file, each with:
+
+- title: the item's title, translated to Brazilian Portuguese.
+- links: every link of that item.
+
+Do not write a summary: only the title and the links.
+
+Rules:
+
+"""
+    + RULES
+)
+
+SCHEMA = {
     "type": "ARRAY",
     "items": {
         "type": "OBJECT",
         "properties": {
-            "titulo": {"type": "STRING"},
-            "resumo": {"type": "STRING"},
+            "title": {"type": "STRING"},
+            "summary": {"type": "STRING"},
             "links": {"type": "ARRAY", "items": {"type": "STRING"}},
         },
-        "required": ["titulo", "links"],
+        "required": ["title", "links"],
     },
 }
 
 
 def http_json(url):
-    req = urllib.request.Request(url, headers=cabecalhos())
+    req = urllib.request.Request(url, headers=headers())
     with urllib.request.urlopen(req, timeout=60) as r:
         return json.load(r)
 
 
-CACHE_TEXTO = {}  # o mesmo arquivo alimenta várias categorias, baixa uma vez só
+TEXT_CACHE = {}  # the same file feeds several categories, download it once
 
 
-def http_texto(url):
-    if url not in CACHE_TEXTO:
-        req = urllib.request.Request(url, headers=cabecalhos())
+def http_text(url):
+    if url not in TEXT_CACHE:
+        req = urllib.request.Request(url, headers=headers())
         with urllib.request.urlopen(req, timeout=60) as r:
-            CACHE_TEXTO[url] = r.read().decode("utf-8", errors="replace")
-    return CACHE_TEXTO[url]
+            TEXT_CACHE[url] = r.read().decode("utf-8", errors="replace")
+    return TEXT_CACHE[url]
 
 
-def cabecalhos():
+def headers():
     h = {"User-Agent": "radar", "Accept": "application/vnd.github+json"}
     token = os.environ.get("GITHUB_TOKEN")
     if token:
@@ -122,24 +122,24 @@ def cabecalhos():
     return h
 
 
-def recortar_secao(texto, secao):
-    """Devolve (titulo, corpo) do bloco cujo título contém `secao`, ou None."""
-    linhas = texto.splitlines()
-    inicio = None
-    for i, linha in enumerate(linhas):
-        if linha.startswith("## "):
-            if inicio is not None:
-                return linhas[inicio], "\n".join(linhas[inicio + 1 : i]).strip()
-            if secao.lower() in linha.lower():
-                inicio = i
-    if inicio is None:
+def extract_section(text, section):
+    """Returns (heading, body) of the block whose heading holds `section`."""
+    lines = text.splitlines()
+    start = None
+    for i, line in enumerate(lines):
+        if line.startswith("## "):
+            if start is not None:
+                return lines[start], "\n".join(lines[start + 1 : i]).strip()
+            if section.lower() in line.lower():
+                start = i
+    if start is None:
         return None
-    return linhas[inicio], "\n".join(linhas[inicio + 1 :]).strip()
+    return lines[start], "\n".join(lines[start + 1 :]).strip()
 
 
-def data_no_nome(nome):
-    """Extrai uma data de nomes tipo 2026-08-31.md ou 20260831.md."""
-    m = re.search(r"(20\d{2})[-_]?(\d{2})[-_]?(\d{2})", nome)
+def date_from_name(name):
+    """Pulls a date out of names like 2026-08-31.md or 20260831.md."""
+    m = re.search(r"(20\d{2})[-_]?(\d{2})[-_]?(\d{2})", name)
     if not m:
         return None
     try:
@@ -148,237 +148,244 @@ def data_no_nome(nome):
         return None
 
 
-def ultimo_arquivo(fonte):
-    """Devolve o arquivo com a data mais recente na pasta da fonte."""
-    caminho = fonte["path"].strip("./")
-    url = f"https://api.github.com/repos/{fonte['repo']}/contents/{caminho}"
+def latest_file(source):
+    """Returns the file with the most recent date in the source's folder."""
+    path = source["path"].strip("./")
+    url = f"https://api.github.com/repos/{source['repo']}/contents/{path}"
     try:
-        itens = http_json(url)
+        entries = http_json(url)
     except urllib.error.HTTPError as e:
-        print(f"  [erro] {fonte['repo']}/{caminho}: HTTP {e.code}", file=sys.stderr)
+        print(f"  [error] {source['repo']}/{path}: HTTP {e.code}", file=sys.stderr)
         return None
 
-    if not isinstance(itens, list):
+    if not isinstance(entries, list):
         return None
 
-    achados = []
-    for item in itens:
-        if item.get("type") != "file":
+    found = []
+    for entry in entries:
+        if entry.get("type") != "file":
             continue
-        nome = item["name"]
-        if not any(nome.endswith(e) for e in fonte.get("ext", [".md"])):
+        name = entry["name"]
+        if not any(name.endswith(e) for e in source.get("ext", [".md"])):
             continue
-        d = data_no_nome(nome)
+        d = date_from_name(name)
         if d is None:
             continue
-        achados.append(
+        found.append(
             {
-                "nome": nome,
-                "data": d,
-                "download_url": item["download_url"],
-                "html_url": item["html_url"],
+                "name": name,
+                "date": d,
+                "download_url": entry["download_url"],
+                "html_url": entry["html_url"],
             }
         )
-    if not achados:
+    if not found:
         return None
-    return max(achados, key=lambda a: a["data"])
+    return max(found, key=lambda f: f["date"])
 
 
-def traduzir(conteudo, modo):
-    """Devolve a lista de itens do arquivo, com titulo, links e (se full) resumo."""
-    prompt = PROMPT_RESUMO if modo == "full" else PROMPT_TITULO
+def translate(content, mode):
+    """Returns the file's items, each with title, links and (if full) summary."""
+    prompt = SUMMARY_PROMPT if mode == "full" else TITLE_PROMPT
     url = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
-        f"{MODELO}:generateContent"
+        f"{MODEL}:generateContent"
     )
-    corpo = {
+    payload = {
         "contents": [
-            {"parts": [{"text": prompt.format(conteudo=conteudo[:LIMITE_CARACTERES])}]}
+            {"parts": [{"text": prompt.format(content=content[:CHAR_LIMIT])}]}
         ],
         "generationConfig": {
             "temperature": 0.2,
-            # O modelo devolve JSON no formato do esquema, então não é preciso
-            # extrair item por item de um texto solto depois.
+            # The model answers with JSON shaped by the schema, so there is no
+            # item-by-item parsing of loose text afterwards.
             "responseMimeType": "application/json",
-            "responseSchema": ESQUEMA,
+            "responseSchema": SCHEMA,
         },
     }
     req = urllib.request.Request(
         url,
-        data=json.dumps(corpo).encode(),
+        data=json.dumps(payload).encode(),
         headers={
             "Content-Type": "application/json",
-            # No cabeçalho, não na query: URL com chave vaza em mensagem de erro,
-            # traceback e log de proxy.
+            # In the header, not in the query: a URL carrying the key leaks in
+            # error messages, tracebacks and proxy logs.
             "x-goog-api-key": os.environ["GEMINI_API_KEY"],
         },
         method="POST",
     )
     with urllib.request.urlopen(req, timeout=180) as r:
-        resposta = json.load(r)
+        response = json.load(r)
     try:
-        bruto = resposta["candidates"][0]["content"]["parts"][0]["text"]
+        raw = response["candidates"][0]["content"]["parts"][0]["text"]
     except (KeyError, IndexError):
-        print(f"  [erro] resposta inesperada do Gemini: {resposta}", file=sys.stderr)
+        print(f"  [error] unexpected Gemini response: {response}", file=sys.stderr)
         return []
-    itens = json.loads(bruto)
-    limpos = []
-    for i in itens:
-        if not i.get("titulo") or not i.get("links"):
+
+    items = []
+    for item in json.loads(raw):
+        if not item.get("title") or not item.get("links"):
             continue
-        item = {"titulo": i["titulo"], "links": i["links"]}
-        if modo == "full" and i.get("resumo"):
-            # Só a fonte com licença que permite republicar ganha resumo; nas
-            # outras fica o mínimo: o título e o link para o original.
-            item["resumo"] = i["resumo"]
-        limpos.append(item)
-    return limpos
+        clean = {"title": no_dashes(item["title"]), "links": item["links"]}
+        if mode == "full" and item.get("summary"):
+            # Only a source whose license allows republishing gets a summary; on
+            # the others the item keeps the minimum: title and link.
+            clean["summary"] = no_dashes(item["summary"])
+        items.append(clean)
+    return items
 
 
-def como_markdown(itens):
-    """Monta o corpo do .md a partir dos mesmos itens que vão para o .json."""
-    blocos = []
-    for item in itens:
+def no_dashes(text):
+    """Drops em and en dashes: the prompt asks for it, the model still slips."""
+    for dash in ("—", "–"):
+        text = text.replace(f" {dash} ", ", ").replace(dash, ", ")
+    return text
+
+
+def to_markdown(items):
+    """Builds the .md body out of the same items that go into the .json."""
+    blocks = []
+    for item in items:
         links = ", ".join(f"[{u}]({u})" for u in item["links"])
-        bloco = f"**{item['titulo']}** {links}"
-        if item.get("resumo"):
-            bloco += f"\n{item['resumo']}"
-        blocos.append(bloco)
-    return "\n\n".join(blocos)
+        block = f"**{item['title']}** {links}"
+        if item.get("summary"):
+            block += f"\n{item['summary']}"
+        blocks.append(block)
+    return "\n\n".join(blocks)
 
 
-def gravar(fonte, arq, itens, agora, pendente=False):
-    """Grava o par .md/.json da categoria na data do arquivo de origem.
+def write_day(source, entry, items, now, pending=False):
+    """Writes the category's .md/.json pair under the source file's date.
 
-    O arquivo guarda os itens e os links deles, que apontam para a publicação
-    original. O repositório onde o radar leu a lista não entra: ele é o caminho,
-    não a fonte.
+    The files hold the items and their links, which point at the original
+    publication. The repository the radar read the list from stays out: it is
+    the route, not the source.
     """
-    dia = arq["data"].isoformat()
-    pasta = DIR_DADOS / fonte["category"]
-    pasta.mkdir(parents=True, exist_ok=True)
+    day = entry["date"].isoformat()
+    folder = DATA_DIR / source["category"]
+    folder.mkdir(parents=True, exist_ok=True)
 
-    registro = {
-        "categoria": fonte["category"],
-        "data": dia,
-        "gerado_em": agora,
-        "pendente": pendente,
-        "itens": itens or [],
+    record = {
+        "category": source["category"],
+        "date": day,
+        "generated_at": now,
+        "pending": pending,
+        "items": items or [],
     }
-    (pasta / f"{dia}.json").write_text(
-        json.dumps(registro, ensure_ascii=False, indent=2)
+    (folder / f"{day}.json").write_text(
+        json.dumps(record, ensure_ascii=False, indent=2)
     )
 
-    cabecalho = f"# {fonte['category']} · {dia}\n\n"
-    if itens:
-        corpo = como_markdown(itens)
-    elif pendente:
-        corpo = (
+    header = f"# {source['category']} · {day}\n\n"
+    if items:
+        body = to_markdown(items)
+    elif pending:
+        body = (
             "Coleta pendente. Os itens entram na próxima rodada que tiver o "
             "GEMINI_API_KEY definido."
         )
     else:
-        corpo = "Nada aproveitável neste dia."
-    (pasta / f"{dia}.md").write_text(cabecalho + corpo + "\n")
-    print(f"  escrito data/{fonte['category']}/{dia}.md")
+        body = "Nada aproveitável neste dia."
+    (folder / f"{day}.md").write_text(header + body + "\n")
+    print(f"  written data/{source['category']}/{day}.md")
 
 
-def main():
-    tem_chave = bool(os.environ.get("GEMINI_API_KEY"))
-    if not tem_chave:
-        # Sem chave o dia fica registrado vazio e marcado como pendente, e a
-        # próxima coleta com chave regrava com os itens.
-        print("GEMINI_API_KEY não definida: gravando vazio", file=sys.stderr)
-
-    fontes = yaml.safe_load((RAIZ / "config" / "sources.yaml").read_text())["sources"]
-    categorias = [f["category"] for f in fontes]
-    repetidas = {c for c in categorias if categorias.count(c) > 1}
-    if repetidas:
-        # Duas fontes na mesma categoria sobrescreveriam o arquivo uma da outra.
-        sys.exit(f"categoria repetida em sources.yaml: {', '.join(sorted(repetidas))}")
-
-    agora = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    escritos = 0
-    falhas = 0
-
-    for fonte in fontes:
-        print(f"[{fonte['category']}] {fonte['repo']}/{fonte['path']}")
-        arq = ultimo_arquivo(fonte)
-        if arq is None:
-            print("  nenhum arquivo com data no nome")
-            continue
-
-        dia = arq["data"].isoformat()
-        pasta = DIR_DADOS / fonte["category"]
-        destino = pasta / f"{dia}.json"
-        if destino.exists() and not FORCAR and not repescar(destino, tem_chave):
-            print(f"  {arq['nome']}: já gravado")
-            limpar(pasta, dia)
-            continue
-
-        print(f"  {arq['nome']}")
-        try:
-            if not processar(fonte, arq, agora, tem_chave):
-                continue
-        except Exception as e:
-            # Falha numa fonte não pode derrubar as outras, senão uma cota
-            # estourada no meio do caminho perde a coleta do dia inteiro.
-            print(f"  [erro] {arq['nome']}: {e}", file=sys.stderr)
-            falhas += 1
-            continue
-        limpar(pasta, dia)
-        escritos += 1
-
-    print(f"{escritos} arquivos novos" if escritos else "nada novo")
-    if falhas:
-        print(f"{falhas} arquivo(s) falharam", file=sys.stderr)
+def prune(folder, day):
+    """Keeps only the current day: the previous one lives in the git history."""
+    for old in folder.glob("*.*"):
+        if old.stem != day:
+            old.unlink()
+            print(f"  removed {old.relative_to(ROOT)}")
 
 
-def limpar(pasta, dia):
-    """Deixa na pasta só o dia atual: o anterior fica no histórico do git."""
-    for velho in pasta.glob("*.*"):
-        if velho.stem != dia:
-            velho.unlink()
-            print(f"  removido {velho.relative_to(RAIZ)}")
-
-
-def repescar(destino, tem_chave):
-    """Diz se um dia já gravado deve ser refeito, por ter ficado pendente."""
-    if not tem_chave:
+def needs_retry(target, has_key):
+    """Says whether a saved day should be redone, having been left pending."""
+    if not has_key:
         return False
     try:
-        return json.loads(destino.read_text()).get("pendente", False)
+        return json.loads(target.read_text()).get("pending", False)
     except (json.JSONDecodeError, OSError):
         return False
 
 
-def processar(fonte, arq, agora, tem_chave):
-    """Baixa, recorta o bloco se houver, traduz se a licença permitir, e grava.
+def process(source, entry, now, has_key):
+    """Downloads, cuts the block if any, translates, and writes the day.
 
-    Devolve False quando não há o que gravar.
+    Returns False when there is nothing to write.
     """
-    bruto = http_texto(arq["download_url"]) if tem_chave else None
+    raw = http_text(entry["download_url"]) if has_key else None
 
-    if fonte.get("section") and bruto:
-        # A fonte junta vários blocos num arquivo só, e cada bloco vira uma
-        # categoria. Sem o bloco, não há o que gravar.
-        recorte = recortar_secao(bruto, fonte["section"])
-        if recorte is None:
-            print(f"  sem o bloco {fonte['section']}")
+    if source.get("section") and raw:
+        # The source packs several blocks into one file, and each block becomes
+        # a category. With no block there is nothing to write.
+        section = extract_section(raw, source["section"])
+        if section is None:
+            print(f"  block {source['section']} not found")
             return False
-        bruto = f"{recorte[0]}\n\n{recorte[1]}"
+        raw = f"{section[0]}\n\n{section[1]}"
 
-    if not tem_chave:
-        gravar(fonte, arq, None, agora, pendente=True)
+    if not has_key:
+        write_day(source, entry, None, now, pending=True)
         return True
 
-    itens = traduzir(bruto, fonte["mode"])
-    if not itens:
-        print("  nada aproveitável")
+    items = translate(raw, source["mode"])
+    if not items:
+        print("  nothing usable")
         return False
 
-    gravar(fonte, arq, itens, agora)
+    write_day(source, entry, items, now)
     return True
+
+
+def main():
+    has_key = bool(os.environ.get("GEMINI_API_KEY"))
+    if not has_key:
+        # With no key the day is recorded empty and flagged as pending, and the
+        # next collection that has a key rewrites it with the items.
+        print("GEMINI_API_KEY not set: writing empty days", file=sys.stderr)
+
+    sources = yaml.safe_load((ROOT / "config" / "sources.yaml").read_text())["sources"]
+    categories = [s["category"] for s in sources]
+    duplicates = {c for c in categories if categories.count(c) > 1}
+    if duplicates:
+        # Two sources in one category would overwrite each other's file.
+        sys.exit(f"duplicate category in sources.yaml: {', '.join(sorted(duplicates))}")
+
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    written = 0
+    failures = 0
+
+    for source in sources:
+        print(f"[{source['category']}] {source['repo']}/{source['path']}")
+        entry = latest_file(source)
+        if entry is None:
+            print("  no file with a date in the name")
+            continue
+
+        day = entry["date"].isoformat()
+        folder = DATA_DIR / source["category"]
+        target = folder / f"{day}.json"
+        if target.exists() and not FORCE and not needs_retry(target, has_key):
+            print(f"  {entry['name']}: already saved")
+            prune(folder, day)
+            continue
+
+        print(f"  {entry['name']}")
+        try:
+            if not process(source, entry, now, has_key):
+                continue
+        except Exception as e:
+            # One failing source must not take the others down, otherwise a
+            # quota blown midway loses the whole day's collection.
+            print(f"  [error] {entry['name']}: {e}", file=sys.stderr)
+            failures += 1
+            continue
+        prune(folder, day)
+        written += 1
+
+    print(f"{written} new files" if written else "nothing new")
+    if failures:
+        print(f"{failures} file(s) failed", file=sys.stderr)
 
 
 if __name__ == "__main__":
