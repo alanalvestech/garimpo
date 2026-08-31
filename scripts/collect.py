@@ -38,17 +38,9 @@ MODELO = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 FORCAR = os.environ.get("RADAR_FORCE") == "1"
 LIMITE_CARACTERES = 12000  # corta arquivo gigante antes de mandar pro modelo
 
-PROMPT = """Você recebe o conteúdo bruto de um arquivo diário de um agregador de notícias de tecnologia, escrito em inglês ou chinês.
-
-Devolva a lista de itens do arquivo, traduzidos e resumidos para português do Brasil:
-
-- titulo: o título do item, traduzido.
-- resumo: no máximo duas frases, em português, com o que o item diz.
-- links: todos os links daquele item, intactos, na ordem em que aparecem.
-
-Regras:
-
-- Descarte item sem link, propaganda, rodapé, sumário e índice.
+REGRAS = """- Descarte item sem link, propaganda, rodapé, sumário e índice.
+- Mantenha os links intactos, na ordem em que aparecem, e aponte sempre para a
+  página original do item, nunca para o arquivo que você está lendo.
 - Não invente informação que não está no texto.
 - Não use travessão em nenhuma hipótese.
 - Se o arquivo não tiver nada aproveitável, devolva uma lista vazia.
@@ -60,6 +52,37 @@ Conteúdo:
 ---
 """
 
+PROMPT_RESUMO = (
+    """Você recebe o conteúdo bruto de um arquivo diário de um agregador de notícias de tecnologia, escrito em inglês ou chinês.
+
+Devolva a lista de itens do arquivo, em português do Brasil, cada um com:
+
+- titulo: o título do item, traduzido.
+- resumo: no máximo duas frases com o que o item diz.
+- links: todos os links daquele item.
+
+Regras:
+
+"""
+    + REGRAS
+)
+
+PROMPT_TITULO = (
+    """Você recebe o conteúdo bruto de um arquivo diário de um agregador de notícias de tecnologia, escrito em inglês ou chinês.
+
+Devolva a lista de itens do arquivo, cada um com:
+
+- titulo: o título do item, traduzido para português do Brasil.
+- links: todos os links daquele item.
+
+Não escreva resumo: só o título e os links.
+
+Regras:
+
+"""
+    + REGRAS
+)
+
 ESQUEMA = {
     "type": "ARRAY",
     "items": {
@@ -69,7 +92,7 @@ ESQUEMA = {
             "resumo": {"type": "STRING"},
             "links": {"type": "ARRAY", "items": {"type": "STRING"}},
         },
-        "required": ["titulo", "resumo", "links"],
+        "required": ["titulo", "links"],
     },
 }
 
@@ -97,12 +120,6 @@ def cabecalhos():
     if token:
         h["Authorization"] = f"Bearer {token}"
     return h
-
-
-def ancora(titulo):
-    """Reproduz a âncora que o GitHub gera para um título de seção."""
-    limpo = "".join(c for c in titulo.lower() if c.isalnum() or c in " -_")
-    return "#" + limpo.strip("_").replace(" ", "-")
 
 
 def recortar_secao(texto, secao):
@@ -167,15 +184,16 @@ def ultimo_arquivo(fonte):
     return max(achados, key=lambda a: a["data"])
 
 
-def traduzir(conteudo):
-    """Devolve a lista de itens traduzidos, cada um com titulo, resumo e links."""
+def traduzir(conteudo, modo):
+    """Devolve a lista de itens do arquivo, com titulo, links e (se full) resumo."""
+    prompt = PROMPT_RESUMO if modo == "full" else PROMPT_TITULO
     url = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
         f"{MODELO}:generateContent"
     )
     corpo = {
         "contents": [
-            {"parts": [{"text": PROMPT.format(conteudo=conteudo[:LIMITE_CARACTERES])}]}
+            {"parts": [{"text": prompt.format(conteudo=conteudo[:LIMITE_CARACTERES])}]}
         ],
         "generationConfig": {
             "temperature": 0.2,
@@ -204,7 +222,17 @@ def traduzir(conteudo):
         print(f"  [erro] resposta inesperada do Gemini: {resposta}", file=sys.stderr)
         return []
     itens = json.loads(bruto)
-    return [i for i in itens if i.get("titulo") and i.get("links")]
+    limpos = []
+    for i in itens:
+        if not i.get("titulo") or not i.get("links"):
+            continue
+        item = {"titulo": i["titulo"], "links": i["links"]}
+        if modo == "full" and i.get("resumo"):
+            # Só a fonte com licença que permite republicar ganha resumo; nas
+            # outras fica o mínimo: o título e o link para o original.
+            item["resumo"] = i["resumo"]
+        limpos.append(item)
+    return limpos
 
 
 def como_markdown(itens):
@@ -212,29 +240,27 @@ def como_markdown(itens):
     blocos = []
     for item in itens:
         links = ", ".join(f"[{u}]({u})" for u in item["links"])
-        blocos.append(f"**{item['titulo']}** {links}\n{item['resumo']}")
+        bloco = f"**{item['titulo']}** {links}"
+        if item.get("resumo"):
+            bloco += f"\n{item['resumo']}"
+        blocos.append(bloco)
     return "\n\n".join(blocos)
 
 
 def gravar(fonte, arq, itens, agora, pendente=False):
-    """Grava o par .md/.json da fonte na data do arquivo de origem."""
+    """Grava o par .md/.json da categoria na data do arquivo de origem.
+
+    O arquivo guarda os itens e os links deles, que apontam para a publicação
+    original. O repositório onde o radar leu a lista não entra: ele é o caminho,
+    não a fonte.
+    """
     dia = arq["data"].isoformat()
     pasta = DIR_DADOS / fonte["category"]
     pasta.mkdir(parents=True, exist_ok=True)
-    url = arq["html_url"]
-    if arq.get("titulo_secao"):
-        url += ancora(arq["titulo_secao"])
 
     registro = {
         "categoria": fonte["category"],
-        "fonte": fonte["name"],
-        "repo": fonte["repo"],
-        "arquivo": arq["nome"],
-        "secao": fonte.get("section"),
         "data": dia,
-        "modo": fonte["mode"],
-        "licenca": fonte["license"],
-        "url": url,
         "gerado_em": agora,
         "pendente": pendente,
         "itens": itens or [],
@@ -243,25 +269,16 @@ def gravar(fonte, arq, itens, agora, pendente=False):
         json.dumps(registro, ensure_ascii=False, indent=2)
     )
 
-    origem = arq["nome"]
-    if fonte.get("section"):
-        origem += f" · bloco {fonte['section']}"
-    cabecalho = (
-        f"# {fonte['name']} · {dia}\n\n"
-        f"Origem: [{origem}]({url}) · licença {fonte['license']}\n\n"
-    )
+    cabecalho = f"# {fonte['category']} · {dia}\n\n"
     if itens:
         corpo = como_markdown(itens)
     elif pendente:
         corpo = (
-            "Tradução pendente. O conteúdo entra na próxima coleta que rodar "
-            "com o GEMINI_API_KEY definido."
+            "Coleta pendente. Os itens entram na próxima rodada que tiver o "
+            "GEMINI_API_KEY definido."
         )
     else:
-        corpo = (
-            "Sem licença de redistribuição, então aqui fica só o ponteiro "
-            "para o original."
-        )
+        corpo = "Nada aproveitável neste dia."
     (pasta / f"{dia}.md").write_text(cabecalho + corpo + "\n")
     print(f"  escrito data/{fonte['category']}/{dia}.md")
 
@@ -269,9 +286,9 @@ def gravar(fonte, arq, itens, agora, pendente=False):
 def main():
     tem_chave = bool(os.environ.get("GEMINI_API_KEY"))
     if not tem_chave:
-        # Sem chave a fonte com licença fica registrada como ponteiro, marcada
-        # como pendente, e a próxima coleta com chave regrava com o conteúdo.
-        print("GEMINI_API_KEY não definida: gravando só ponteiro", file=sys.stderr)
+        # Sem chave o dia fica registrado vazio e marcado como pendente, e a
+        # próxima coleta com chave regrava com os itens.
+        print("GEMINI_API_KEY não definida: gravando vazio", file=sys.stderr)
 
     fontes = yaml.safe_load((RAIZ / "config" / "sources.yaml").read_text())["sources"]
     categorias = [f["category"] for f in fontes]
@@ -340,30 +357,25 @@ def processar(fonte, arq, agora, tem_chave):
 
     Devolve False quando não há o que gravar.
     """
-    bruto = None
-    if fonte.get("section") or (fonte["mode"] == "full" and tem_chave):
-        bruto = http_texto(arq["download_url"])
+    bruto = http_texto(arq["download_url"]) if tem_chave else None
 
-    if fonte.get("section"):
+    if fonte.get("section") and bruto:
         # A fonte junta vários blocos num arquivo só, e cada bloco vira uma
         # categoria. Sem o bloco, não há o que gravar.
         recorte = recortar_secao(bruto, fonte["section"])
         if recorte is None:
             print(f"  sem o bloco {fonte['section']}")
             return False
-        arq["titulo_secao"] = recorte[0].lstrip("# ")
         bruto = f"{recorte[0]}\n\n{recorte[1]}"
 
-    if fonte["mode"] == "full" and not tem_chave:
+    if not tem_chave:
         gravar(fonte, arq, None, agora, pendente=True)
         return True
 
-    itens = None
-    if fonte["mode"] == "full":
-        itens = traduzir(bruto)
-        if not itens:
-            print("  nada aproveitável")
-            return False
+    itens = traduzir(bruto, fonte["mode"])
+    if not itens:
+        print("  nada aproveitável")
+        return False
 
     gravar(fonte, arq, itens, agora)
     return True
