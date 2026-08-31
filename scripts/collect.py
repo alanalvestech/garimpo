@@ -143,7 +143,7 @@ def main():
     if not os.environ.get("GEMINI_API_KEY"):
         sys.exit("GEMINI_API_KEY não definida")
 
-    fontes = yaml.safe_load((RAIZ / "sources.yaml").read_text())["sources"]
+    fontes = yaml.safe_load((RAIZ / "config" / "sources.yaml").read_text())["sources"]
     corte = date.today() - timedelta(days=DIAS)
     hoje = date.today().isoformat()
 
