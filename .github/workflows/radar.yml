@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 10 * * *" # 07:00 em Brasília
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Regrava o dia atual mesmo se já estiver gravado"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -24,6 +29,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RADAR_FORCE: ${{ inputs.force && '1' || '0' }}
         run: python scripts/collect.py
 
       - name: Commitar o que mudou
