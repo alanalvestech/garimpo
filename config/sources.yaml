@@ -18,6 +18,40 @@ sources:
     license: MIT
     ext: [.md]
 
+  # O ai-research-arm separa por origem dentro de research/, e cada pasta dessas
+  # vira uma categoria. Tudo MIT, então entra traduzido.
+  - category: Arxiv
+    name: AI Research Arm
+    repo: guzus/ai-research-arm
+    path: research/arxiv
+    mode: full
+    license: MIT
+    ext: [.md]
+
+  - category: Twitter
+    name: AI Research Arm
+    repo: guzus/ai-research-arm
+    path: research/twitter
+    mode: full
+    license: MIT
+    ext: [.md]
+
+  - category: Bluesky
+    name: AI Research Arm
+    repo: guzus/ai-research-arm
+    path: research/bluesky
+    mode: full
+    license: MIT
+    ext: [.md]
+
+  - category: Youtube
+    name: AI Research Arm
+    repo: guzus/ai-research-arm
+    path: research/youtube
+    mode: full
+    license: MIT
+    ext: [.md]
+
   - category: ProductHunt
     name: Product Hunt Daily
     repo: imjszhang/producthunt-daily-hot
