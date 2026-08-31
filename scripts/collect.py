@@ -40,14 +40,18 @@ LIMITE_CARACTERES = 12000  # corta arquivo gigante antes de mandar pro modelo
 
 PROMPT = """Você recebe o conteúdo bruto de um arquivo diário de um agregador de notícias de tecnologia, escrito em inglês ou chinês.
 
-Traduza e resuma para português do Brasil, seguindo estas regras:
+Devolva a lista de itens do arquivo, traduzidos e resumidos para português do Brasil:
 
-- Uma linha por item, no formato: **título** seguido do link, e abaixo um resumo de no máximo duas frases.
-- Mantenha os links originais intactos.
-- Descarte itens sem link, propaganda, rodapé, sumário e índice.
+- titulo: o título do item, traduzido.
+- resumo: no máximo duas frases, em português, com o que o item diz.
+- links: todos os links daquele item, intactos, na ordem em que aparecem.
+
+Regras:
+
+- Descarte item sem link, propaganda, rodapé, sumário e índice.
 - Não invente informação que não está no texto.
 - Não use travessão em nenhuma hipótese.
-- Se o arquivo não tiver nada aproveitável, responda exatamente: SEM CONTEUDO
+- Se o arquivo não tiver nada aproveitável, devolva uma lista vazia.
 
 Conteúdo:
 
@@ -55,6 +59,19 @@ Conteúdo:
 {conteudo}
 ---
 """
+
+ESQUEMA = {
+    "type": "ARRAY",
+    "items": {
+        "type": "OBJECT",
+        "properties": {
+            "titulo": {"type": "STRING"},
+            "resumo": {"type": "STRING"},
+            "links": {"type": "ARRAY", "items": {"type": "STRING"}},
+        },
+        "required": ["titulo", "resumo", "links"],
+    },
+}
 
 
 def http_json(url):
@@ -151,6 +168,7 @@ def ultimo_arquivo(fonte):
 
 
 def traduzir(conteudo):
+    """Devolve a lista de itens traduzidos, cada um com titulo, resumo e links."""
     url = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
         f"{MODELO}:generateContent"
@@ -159,7 +177,13 @@ def traduzir(conteudo):
         "contents": [
             {"parts": [{"text": PROMPT.format(conteudo=conteudo[:LIMITE_CARACTERES])}]}
         ],
-        "generationConfig": {"temperature": 0.2},
+        "generationConfig": {
+            "temperature": 0.2,
+            # O modelo devolve JSON no formato do esquema, então não é preciso
+            # extrair item por item de um texto solto depois.
+            "responseMimeType": "application/json",
+            "responseSchema": ESQUEMA,
+        },
     }
     req = urllib.request.Request(
         url,
@@ -175,13 +199,24 @@ def traduzir(conteudo):
     with urllib.request.urlopen(req, timeout=180) as r:
         resposta = json.load(r)
     try:
-        return resposta["candidates"][0]["content"]["parts"][0]["text"].strip()
+        bruto = resposta["candidates"][0]["content"]["parts"][0]["text"]
     except (KeyError, IndexError):
         print(f"  [erro] resposta inesperada do Gemini: {resposta}", file=sys.stderr)
-        return ""
+        return []
+    itens = json.loads(bruto)
+    return [i for i in itens if i.get("titulo") and i.get("links")]
 
 
-def gravar(fonte, arq, texto, agora, pendente=False):
+def como_markdown(itens):
+    """Monta o corpo do .md a partir dos mesmos itens que vão para o .json."""
+    blocos = []
+    for item in itens:
+        links = ", ".join(f"[{u}]({u})" for u in item["links"])
+        blocos.append(f"**{item['titulo']}** {links}\n{item['resumo']}")
+    return "\n\n".join(blocos)
+
+
+def gravar(fonte, arq, itens, agora, pendente=False):
     """Grava o par .md/.json da fonte na data do arquivo de origem."""
     dia = arq["data"].isoformat()
     pasta = DIR_DADOS / fonte["category"]
@@ -202,7 +237,7 @@ def gravar(fonte, arq, texto, agora, pendente=False):
         "url": url,
         "gerado_em": agora,
         "pendente": pendente,
-        "conteudo": texto,
+        "itens": itens or [],
     }
     (pasta / f"{dia}.json").write_text(
         json.dumps(registro, ensure_ascii=False, indent=2)
@@ -215,8 +250,8 @@ def gravar(fonte, arq, texto, agora, pendente=False):
         f"# {fonte['name']} · {dia}\n\n"
         f"Origem: [{origem}]({url}) · licença {fonte['license']}\n\n"
     )
-    if texto:
-        corpo = texto
+    if itens:
+        corpo = como_markdown(itens)
     elif pendente:
         corpo = (
             "Tradução pendente. O conteúdo entra na próxima coleta que rodar "
@@ -323,14 +358,14 @@ def processar(fonte, arq, agora, tem_chave):
         gravar(fonte, arq, None, agora, pendente=True)
         return True
 
-    texto = None
+    itens = None
     if fonte["mode"] == "full":
-        texto = traduzir(bruto)
-        if not texto or texto.strip() == "SEM CONTEUDO":
+        itens = traduzir(bruto)
+        if not itens:
             print("  nada aproveitável")
             return False
 
-    gravar(fonte, arq, texto, agora)
+    gravar(fonte, arq, itens, agora)
     return True
 
 
