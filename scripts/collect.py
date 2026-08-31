@@ -175,7 +175,7 @@ def traduzir(conteudo):
         return ""
 
 
-def gravar(fonte, arq, texto, agora):
+def gravar(fonte, arq, texto, agora, pendente=False):
     """Grava o par .md/.json da fonte na data do arquivo de origem."""
     dia = arq["data"].isoformat()
     pasta = DIR_DADOS / fonte["category"]
@@ -195,6 +195,7 @@ def gravar(fonte, arq, texto, agora):
         "licenca": fonte["license"],
         "url": url,
         "gerado_em": agora,
+        "pendente": pendente,
         "conteudo": texto,
     }
     (pasta / f"{dia}.json").write_text(
@@ -208,16 +209,28 @@ def gravar(fonte, arq, texto, agora):
         f"# {fonte['name']} · {dia}\n\n"
         f"Origem: [{origem}]({url}) · licença {fonte['license']}\n\n"
     )
-    corpo = texto or (
-        "Sem licença de redistribuição, então aqui fica só o ponteiro para o original."
-    )
+    if texto:
+        corpo = texto
+    elif pendente:
+        corpo = (
+            "Tradução pendente. O conteúdo entra na próxima coleta que rodar "
+            "com o GEMINI_API_KEY definido."
+        )
+    else:
+        corpo = (
+            "Sem licença de redistribuição, então aqui fica só o ponteiro "
+            "para o original."
+        )
     (pasta / f"{dia}.md").write_text(cabecalho + corpo + "\n")
     print(f"  escrito data/{fonte['category']}/{dia}.md")
 
 
 def main():
-    if not os.environ.get("GEMINI_API_KEY"):
-        sys.exit("GEMINI_API_KEY não definida")
+    tem_chave = bool(os.environ.get("GEMINI_API_KEY"))
+    if not tem_chave:
+        # Sem chave a fonte com licença fica registrada como ponteiro, marcada
+        # como pendente, e a próxima coleta com chave regrava com o conteúdo.
+        print("GEMINI_API_KEY não definida: gravando só ponteiro", file=sys.stderr)
 
     fontes = yaml.safe_load((RAIZ / "config" / "sources.yaml").read_text())["sources"]
     categorias = [f["category"] for f in fontes]
@@ -236,13 +249,13 @@ def main():
         for arq in arquivos_recentes(fonte, corte):
             dia = arq["data"].isoformat()
             destino = DIR_DADOS / fonte["category"] / f"{dia}.json"
-            if destino.exists() and not FORCAR:
+            if destino.exists() and not FORCAR and not repescar(destino, tem_chave):
                 print(f"  {arq['nome']}: já gravado")
                 continue
 
             print(f"  {arq['nome']}")
             try:
-                if not processar(fonte, arq, agora):
+                if not processar(fonte, arq, agora, tem_chave):
                     continue
             except Exception as e:
                 # Falha numa fonte não pode derrubar as outras, senão uma cota
@@ -257,13 +270,23 @@ def main():
         print(f"{falhas} arquivo(s) falharam", file=sys.stderr)
 
 
-def processar(fonte, arq, agora):
+def repescar(destino, tem_chave):
+    """Diz se um dia já gravado deve ser refeito, por ter ficado pendente."""
+    if not tem_chave:
+        return False
+    try:
+        return json.loads(destino.read_text()).get("pendente", False)
+    except (json.JSONDecodeError, OSError):
+        return False
+
+
+def processar(fonte, arq, agora, tem_chave):
     """Baixa, recorta o bloco se houver, traduz se a licença permitir, e grava.
 
     Devolve False quando não há o que gravar.
     """
     bruto = None
-    if fonte.get("section") or fonte["mode"] == "full":
+    if fonte.get("section") or (fonte["mode"] == "full" and tem_chave):
         bruto = http_texto(arq["download_url"])
 
     if fonte.get("section"):
@@ -275,6 +298,10 @@ def processar(fonte, arq, agora):
             return False
         arq["titulo_secao"] = recorte[0].lstrip("# ")
         bruto = f"{recorte[0]}\n\n{recorte[1]}"
+
+    if fonte["mode"] == "full" and not tem_chave:
+        gravar(fonte, arq, None, agora, pendente=True)
+        return True
 
     texto = None
     if fonte["mode"] == "full":
