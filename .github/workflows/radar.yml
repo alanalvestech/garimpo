@@ -32,11 +32,14 @@ jobs:
           RADAR_FORCE: ${{ inputs.force && '1' || '0' }}
         run: python scripts/collect.py
 
+      - name: Build the RSS feeds
+        run: python scripts/feeds.py
+
       - name: Commit what changed
         run: |
           git config user.name "radar"
           git config user.email "radar@users.noreply.github.com"
-          git add data/
+          git add data/ feeds/
           if git diff --staged --quiet; then
             echo "nothing new"
           else

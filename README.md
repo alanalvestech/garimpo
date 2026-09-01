@@ -4,6 +4,17 @@ Notícias diárias de tecnologia, em português, reunidas de agregadores públic
 
 Todo dia de manhã uma rotina lê o que as fontes publicaram, traduz e resume. Em [`data/`](data) cada pasta é um tipo de conteúdo (Arxiv, HackerNews, ProductHunt, Twitter e por aí), e guarda o último dia que aquela fonte publicou, em Markdown para ler e em JSON para consultar. Os dias anteriores ficam no histórico do git.
 
+## Assinar
+
+Cada categoria tem um feed RSS em [`feeds/`](feeds), e `all.xml` junta todas. Para assinar, cole no seu leitor a URL do arquivo cru:
+
+```
+https://raw.githubusercontent.com/alanalvestech/radar/main/feeds/all.xml
+https://raw.githubusercontent.com/alanalvestech/radar/main/feeds/Arxiv.xml
+```
+
+O feed guarda os últimos 50 itens, então quem abre o leitor uma vez por semana não perde o que já saiu de `data/`.
+
 ## Fontes e direitos
 
 Cada item traz o link para a publicação original. Os agregadores de onde o radar lê a lista não aparecem nos arquivos: eles são o caminho, não a fonte.
