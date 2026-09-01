@@ -358,7 +358,7 @@ def as_br(iso):
     return f"{day}/{month}/{year}"
 
 
-def to_markdown(items, day):
+def to_markdown(items):
     """Builds the .md body out of the same items that go into the .json.
 
     The title carries the first link, so reading the file is one click away
@@ -376,7 +376,7 @@ def to_markdown(items, day):
             lines.append("")
 
         footer = []
-        if item.get("date") and item["date"] != day:
+        if item.get("date"):
             footer.append(as_br(item["date"]))
         # Only the extra links: the first one is already in the title.
         footer += [f"[{domain(u)}]({u})" for u in rest]
@@ -410,7 +410,7 @@ def write_day(source, entry, items, now, pending=False):
 
     header = f"# {source['category']} · {day}\n\n"
     if items:
-        body = to_markdown(items, day)
+        body = to_markdown(items)
     elif pending:
         body = (
             "Coleta pendente. Os itens entram na próxima rodada que tiver o "
