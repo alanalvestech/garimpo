@@ -20,7 +20,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
-SITE = "https://github.com/alanalvestech/radar"
+SITE = "https://github.com/alanalvestech/garimpo"
 ITEM_CAP = 50
 
 
@@ -119,13 +119,13 @@ def main():
         everything += items
         write_feed(
             record_path.parent / f"{record['category'].lower()}.xml",
-            f"radar · {record['category']}",
+            f"garimpo · {record['category']}",
             f"Notícias de {record['category']}, em português.",
             items,
         )
     write_feed(
         ROOT / "rss.xml",
-        "radar",
+        "garimpo",
         "Notícias diárias de tecnologia, em português.",
         everything,
     )

@@ -1,4 +1,4 @@
-name: radar
+name: garimpo
 
 on:
   schedule:
@@ -31,7 +31,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RADAR_FORCE: ${{ inputs.force && '1' || '0' }}
+          GARIMPO_FORCE: ${{ inputs.force && '1' || '0' }}
         run: python scripts/collect.py
 
       - name: Build the RSS feeds
@@ -39,7 +39,7 @@ jobs:
 
       - name: Commit what changed
         run: |
-          # The Actions bot, not "radar": that no-reply address belongs to a
+          # The Actions bot, not a plain name: a no-reply address like that
           # real GitHub account and the commits were being credited to them.
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -47,6 +47,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "nothing new"
           else
-            git commit -m "radar: $(date -u +%Y-%m-%d)"
+            git commit -m "garimpo: $(date -u +%Y-%m-%d)"
             git push
           fi

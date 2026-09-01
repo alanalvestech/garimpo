@@ -18,7 +18,7 @@ Environment:
     GEMINI_API_KEY  required
     GEMINI_MODEL    defaults to gemini-2.5-flash
     GITHUB_TOKEN    optional, only raises the GitHub API rate limit
-    RADAR_FORCE     "1" rewrites the day that already exists
+    GARIMPO_FORCE     "1" rewrites the day that already exists
 """
 
 import json
@@ -41,7 +41,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
-FORCE = os.environ.get("RADAR_FORCE") == "1"
+FORCE = os.environ.get("GARIMPO_FORCE") == "1"
 CHAR_LIMIT = 60000  # trims a huge file before sending it to the model
 PUBLISHED_CAP = 3000  # links remembered per category, so nothing repeats
 BREAKOUT_RATE = 300  # stars a day; below this, a repo already out stays out
@@ -163,7 +163,7 @@ def http_text(url):
 
 def headers(url):
     """The GitHub credential goes to GitHub only, never to a third-party host."""
-    h = {"User-Agent": "radar"}
+    h = {"User-Agent": "garimpo"}
     if not url.startswith("https://api.github.com/"):
         return h
     h["Accept"] = "application/vnd.github+json"
@@ -200,7 +200,7 @@ def date_from_name(name):
 
 
 def closed_day():
-    """Yesterday: the day the radar is reporting on.
+    """Yesterday: the day being reported on.
 
     Every folder is named after this, whatever the source called its own file.
     A source names the file after the day it published, not the day it covers:
@@ -679,7 +679,7 @@ def write_day(source, entry, items, now, pending=False, new_route=True):
     """Writes the category's .md/.json pair under the source file's date.
 
     The files hold the items and their links, which point at the original
-    publication. The repository the radar read the list from stays out: it is
+    publication. The repository the list was read from stays out: it is
     the route, not the source.
     """
     day = entry["date"].isoformat()
@@ -759,7 +759,7 @@ def prune(folder, day):
     """
     for old in folder.glob("*.*"):
         # Older only: a day ahead of this one is not garbage, it is a day the
-        # radar already published and must not walk back over.
+        # already published and must not walk back over.
         if re.fullmatch(r"\d{4}-\d{2}-\d{2}", old.stem) and old.stem < day:
             old.unlink()
             print(f"  removed {old.relative_to(ROOT)}")
