@@ -585,17 +585,17 @@ def run_discovery(source, folder, now, has_key):
     kind = source["kind"]
     print(f"[{source['category']}] {kind}")
     today = date.today()
-    day = today.isoformat()
-    target = folder / f"{day}.json"
-    if target.exists() and not FORCE and not needs_retry(target, has_key):
-        print("  already saved")
-        prune(folder, day)
-        return False
-
     seen_path = folder / "seen.json"
     known, seen_now = {}, None
+    day_of = today
+
     if kind == "trackawesomelist":
-        items = discover.from_trackawesomelist(source, http_json, http_text, today)
+        items, digest_day = discover.from_trackawesomelist(
+            source, http_json, http_text, today
+        )
+        if digest_day is None:
+            return False
+        day_of = digest_day
     elif kind == "youtube_channel":
         seen = json.loads(seen_path.read_text()) if seen_path.exists() else []
         items, seen_now = discover.from_youtube(source, http_text, set(seen))
@@ -605,11 +605,18 @@ def run_discovery(source, folder, now, has_key):
     else:
         sys.exit(f"unknown kind in sources.yaml: {kind}")
 
+    day = day_of.isoformat()
+    target = folder / f"{day}.json"
+    if target.exists() and not FORCE and not needs_retry(target, has_key):
+        print("  already saved")
+        prune(folder, day)
+        return False
+
     if not items:
         print("  nada novo")
         return False
 
-    entry = {"name": kind, "date": today}
+    entry = {"name": kind, "date": day_of}
     if has_key:
         fill_github_repos(items, known)
     write_day(source, entry, items, now, pending=not has_key)

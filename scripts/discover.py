@@ -59,13 +59,22 @@ def drop_owner_dumps(names):
 
 
 def from_trackawesomelist(source, http_json, http_text, today):
-    """Reads the day's digest of what entered each awesome list."""
-    url = f"https://www.trackawesomelist.com/{today:%Y/%m/%d}/"
-    try:
-        html = http_text(url)
-    except urllib.error.HTTPError as e:
-        print(f"  digest do dia não publicado: HTTP {e.code}")
-        return []
+    """Reads the digest of what entered each awesome list, on a closed day.
+
+    Always the day before, never today: the digest fills up as the day goes,
+    and the collection runs in the morning, so today's is half written. Falls
+    back further when a day was not published at all.
+    """
+    html, day = None, None
+    for back in (1, 2, 3):
+        day = today - timedelta(days=back)
+        try:
+            html = http_text(f"https://www.trackawesomelist.com/{day:%Y/%m/%d}/")
+            break
+        except urllib.error.HTTPError as e:
+            print(f"  {day}: digest não publicado, HTTP {e.code}")
+    if html is None:
+        return [], None
 
     # The page groups entries by list, and the list is what tells a real find
     # from a reorganization, so the split has to happen before the dedup.
@@ -96,7 +105,7 @@ def from_trackawesomelist(source, http_json, http_text, today):
         if repo["stargazers_count"] >= MANY_STARS and age > OLD_ENOUGH:
             continue  # old and famous: it was re-listed, not found
         kept.append(name)
-    return [as_item(n) for n in kept]
+    return [as_item(n) for n in kept], day
 
 
 def from_youtube(source, http_text, seen):
