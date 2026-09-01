@@ -1,7 +1,7 @@
 {
   "category": "Arxiv",
   "date": "2026-08-31",
-  "generated_at": "2026-08-31 23:58 UTC",
+  "generated_at": "2026-09-01 00:08 UTC",
   "pending": false,
   "items": [
     {
@@ -9,7 +9,7 @@
       "links": [
         "https://arxiv.org/abs/2608.28560"
       ],
-      "summary": "Este trabalho estabelece limites superiores teóricos de informação para recuperar o significado pretendido de um falante a partir de qualquer representação de uma enunciação. Ele sugere que a forma não é uma estatística suficiente para a intenção do falante, impondo um limite rígido ao que a escala de corpus pode ensinar a um modelo sobre significado.",
+      "summary": "Limites superiores teóricos da informação restringem a recuperação do significado pretendido por um falante a partir de qualquer extrator de características de um enunciado, incluindo estados ocultos de LLMs. A incerteza restante divide-se em uma parte irredutível e outra que apenas o contexto extralinguístico pode resolver, ambas intrínsecas à linguagem.",
       "authors": [
         "Emily Cheng",
         "Ryan Cotterell"
@@ -20,7 +20,7 @@
       "links": [
         "https://arxiv.org/abs/2608.28444"
       ],
-      "summary": "A atenção de janela deslizante (SWA) com \"sinks\" supera ou iguala modelos lineares pós-treinados em várias tarefas, sendo 2 a 10 vezes mais forte em testes específicos, mantendo-se mais rápida e barata. Este método oferece uma alternativa eficaz e de baixo custo que pode substituir grande parte do trabalho de adaptação de atenção linear.",
+      "summary": "A atenção de janela deslizante (SWA) com sinks, sem pós-treinamento adicional, supera ou iguala modelos lineares pós-treinados em diversas tarefas. A SWA é 2 a 10 vezes mais forte em Needle-in-a-Haystack e BABILong, sendo mais rápida e barata.",
       "authors": [
         "Alexia Jolicoeur-Martineau",
         "Rhea Sanjay Sukthanker",
@@ -29,11 +29,11 @@
       ]
     },
     {
-      "title": "Até Onde 5.500 Horas de Condução Podem Levar Você? Uma Análise da Lei de Escala de Modelos de Difusão de Vídeo",
+      "title": "Até Onde 5.500 Horas de Condução Podem Levar Você? Uma Análise da Lei de Escala para Modelos de Difusão de Vídeo",
       "links": [
         "https://arxiv.org/abs/2608.28404"
       ],
-      "summary": "Este estudo mapeia uma família de modelos de difusão de vídeo de 1M a 9B treinados do zero com até 5.500 horas de vídeo de condução, mostrando que a perda de validação segue leis de potência. O treinamento mais longo supera um modelo maior até que o orçamento permita o aumento do tamanho, estabelecendo um novo estado da arte em nuScenes com um modelo de 9B.",
+      "summary": "A perda de validação em modelos de difusão de vídeo de condução segue leis de potência em tamanho do modelo e exposição ao treinamento. A perda diminui mais rapidamente com mais passos de treinamento do que com mais parâmetros, mas modelos maiores ainda vencem assintoticamente.",
       "authors": [
         "Victor Besnier",
         "Anh-Quan Cao",
@@ -50,7 +50,7 @@
       "links": [
         "https://arxiv.org/abs/2608.28411"
       ],
-      "summary": "LongPIBench é um novo benchmark de injeção de prompt que aborda contextos longos, revelando que as defesas atuais são facilmente contornadas por injeções heurísticas simples. Isso demonstra que as aplicações de contexto longo representam a verdadeira superfície de ameaça, ao contrário dos benchmarks de contexto curto existentes.",
+      "summary": "Benchmarks existentes para injeção de prompt usam contexto curto, o que superestima o sucesso das defesas. O LongPIBench, com contexto de milhares a dezenas de milhares de tokens, mostra que injeções heurísticas simples conseguem altas taxas de sucesso e contornam defesas atuais.",
       "authors": [
         "Yupei Liu",
         "Yuqi Jia",
@@ -59,11 +59,11 @@
       ]
     },
     {
-      "title": "ContextPilot: Ensinando Agentes para Gerenciamento Proativo de Contexto via RL de Granularidade Fina",
+      "title": "ContextPilot: Ensinando Agentes para Gerenciamento Proativo de Contexto via RL Granular",
       "links": [
         "https://arxiv.org/abs/2608.28476"
       ],
-      "summary": "ContextPilot ensina agentes a gerenciar proativamente o contexto usando RL de granularidade fina, expandindo o conjunto de ferramentas de edição e treinando ações de contexto com vantagens em nível de ação. Este método supera abordagens anteriores de memória proativa em QA de contexto longo e busca profunda, utilizando um contexto de trabalho menor.",
+      "summary": "ContextPilot expande o conjunto de ferramentas de edição (planejamento, memória de longo prazo, descarregamento suave) e treina ações de contexto com RL granular. Isso ramifica em edições de alto impacto e atribui vantagens no nível da ação, em vez de uma única recompensa de trajetória.",
       "authors": [
         "Zhuoshi Pan",
         "Qizhi Pei",

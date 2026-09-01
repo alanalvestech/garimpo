@@ -43,8 +43,25 @@ RULES = """- Drop items with no link, plus ads, footers, tables of contents and 
 - Keep the links intact, in the order they appear, and always point to the
   item's original page, never to the file you are reading.
 - Do not invent information that is not in the text.
-- Never use an em dash.
 - If there is nothing usable in the file, return an empty list.
+
+How to write, in every field:
+
+- Lead with the fact. No warm-up, no scene setting, no restating the title.
+- Length follows content. One sentence that says it beats two that pad it.
+- Active voice, concrete verbs. Cut any adjective or adverb that does not
+  change what the reader would decide.
+- Never use an em dash or an en dash. Use a comma, a colon, parentheses or a
+  full stop instead.
+- Banned shapes: "não é X, é Y", a punchy line closing the text, a dramatic
+  colon, vague attribution ("especialistas apontam", "estudos mostram"), and
+  renaming the same thing every sentence to sound varied.
+- No LinkedIn, coaching or sales register: no motivational imperative, no
+  rhetorical question, no promise of transformation, no empty superlative
+  ("revolucionário", "definitivo", "o único"), no call to action.
+- The test for every sentence: does it inform or does it perform? If it only
+  performs, cut it. Write like someone answering a technical colleague, not
+  like someone competing for attention in a feed.
 
 Content:
 
@@ -270,10 +287,10 @@ def to_markdown(items):
         if item.get("summary"):
             lines.append(item["summary"])
             lines.append("")
-        origins = [f"[{domain(first)}]({first})"]
-        origins += [f"[{domain(u)}]({u})" for u in rest]
-        lines.append(" · ".join(origins))
-        blocks.append("\n".join(lines))
+        if rest:
+            # Only the extra links: the first one is already in the title.
+            lines.append(" · ".join(f"[{domain(u)}]({u})" for u in rest))
+        blocks.append("\n".join(lines).rstrip())
     return "\n\n".join(blocks)
 
 
