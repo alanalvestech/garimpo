@@ -36,7 +36,10 @@ def read_feed(path):
         channel = ET.parse(path).getroot().find("channel")
     except ET.ParseError:
         return []
-    return [{tag.tag: (tag.text or "") for tag in node} for node in channel]
+    return [
+        {tag.tag: (tag.text or "") for tag in node}
+        for node in channel.findall("item")
+    ]
 
 
 def edition_time(archive):
@@ -108,8 +111,17 @@ def main():
         if archive.get("items"):
             fresh += as_feed_items(archive)
 
+    # An item that already went out keeps the date it went out with: once
+    # published, its place in the feed is settled, and tomorrow's rebuild must
+    # not walk it back to midnight.
+    published = read_feed(FEED)
+    dated = {item["guid"]: item["pubDate"] for item in published}
+    for item in fresh:
+        if item["guid"] in dated:
+            item["pubDate"] = dated[item["guid"]]
+
     merged, seen = [], set()
-    for item in fresh + read_feed(FEED):
+    for item in fresh + published:
         if item["guid"] in seen:
             continue
         seen.add(item["guid"])
