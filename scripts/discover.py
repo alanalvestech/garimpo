@@ -61,12 +61,12 @@ def drop_owner_dumps(names):
 def from_trackawesomelist(source, http_json, http_text, today):
     """Reads the digest of what entered each awesome list, on a closed day.
 
-    Always the day before, never today: the digest fills up as the day goes,
-    and the collection runs in the morning, so today's is half written. Falls
-    back further when a day was not published at all.
+    Reads the closed day it is given, never the running one: the digest fills
+    up as the day goes and the collection runs in the morning. Falls back
+    further when a day was not published at all.
     """
     html, day = None, None
-    for back in (1, 2, 3):
+    for back in (0, 1, 2):
         day = today - timedelta(days=back)
         try:
             html = http_text(f"https://www.trackawesomelist.com/{day:%Y/%m/%d}/")
@@ -183,9 +183,12 @@ def from_github_search(source, http_json, today):
     candidates, fetched = {}, {}
     for days, size in zip(windows, sizes):
         since = today - timedelta(days=days)
+        # A closed range, not "from X on": a repo created today belongs to a
+        # day that has not ended yet.
         url = (
             "https://api.github.com/search/repositories"
-            f"?q=created:>{since:%Y-%m-%d}&sort=stars&order=desc&per_page={size}"
+            f"?q=created:{since:%Y-%m-%d}..{today:%Y-%m-%d}"
+            f"&sort=stars&order=desc&per_page={size}"
         )
         try:
             answer = http_json(url)

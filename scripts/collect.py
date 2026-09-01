@@ -29,7 +29,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import yaml
@@ -199,8 +199,20 @@ def date_from_name(name):
         return None
 
 
+def closed_day():
+    """The last day that is over everywhere: yesterday.
+
+    Sources publish in their own timezone. A Japanese aggregator writes the
+    file named after today half past midnight local time, which is the middle
+    of yesterday afternoon here, so reading today's file at 7am gets half an
+    hour of content. The radar always works on the day that already closed.
+    """
+    return date.today() - timedelta(days=1)
+
+
 def latest_file(source):
-    """Returns the file with the most recent date in the source's folder."""
+    """Returns the most recent file of the source, never one from today."""
+    cutoff = closed_day()
     path = source["path"].strip("./")
     url = f"https://api.github.com/repos/{source['repo']}/contents/{path}"
     try:
@@ -220,7 +232,7 @@ def latest_file(source):
         if not any(name.endswith(e) for e in source.get("ext", [".md"])):
             continue
         d = date_from_name(name)
-        if d is None:
+        if d is None or d > cutoff:
             continue
         found.append(
             {
@@ -746,7 +758,9 @@ def prune(folder, day):
     state a collector keeps live in the same folder and stay.
     """
     for old in folder.glob("*.*"):
-        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", old.stem) and old.stem != day:
+        # Older only: a day ahead of this one is not garbage, it is a day the
+        # radar already published and must not walk back over.
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", old.stem) and old.stem < day:
             old.unlink()
             print(f"  removed {old.relative_to(ROOT)}")
 
@@ -865,7 +879,7 @@ def run_discovery(source, folder, now, has_key, shared_day):
     """
     kind = source["kind"]
     print(f"[{source['category']}] {kind}")
-    today = date.today()
+    today = closed_day()
     seen_path = folder / "seen.json"
     known, seen_now = {}, None
     day_of = today
@@ -935,7 +949,7 @@ def main():
 
     for source in sources:
         folder = DATA_DIR / source["category"]
-        shared_day = date.today() if source["category"] in shared else None
+        shared_day = closed_day() if source["category"] in shared else None
         try:
             if source.get("kind", "file") == "file":
                 done = run_file_source(source, folder, now, has_key, shared_day)
