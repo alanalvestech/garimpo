@@ -1,7 +1,7 @@
 {
   "category": "RSS",
   "date": "2026-08-29",
-  "generated_at": "2026-09-01 00:17 UTC",
+  "generated_at": "2026-09-01 00:30 UTC",
   "pending": false,
   "items": [
     {
@@ -9,7 +9,7 @@
       "links": [
         "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
       ],
-      "summary": "A OpenAI está encerrando seu contrato de fornecimento de modelos OpenAI para a Cursor, após a aquisição da Cursor pela SpaceX.",
+      "summary": "A OpenAI está encerrando seu contrato de fornecimento de modelos OpenAI para a Cursor após a aquisição da Cursor pela SpaceX.",
       "date": "2026-08-28"
     },
     {
@@ -21,22 +21,19 @@
       "date": "2026-08-28"
     },
     {
-      "title": "Um pesquisador da Anthropic nos deu uma prévia da IA autoaperfeiçoável",
+      "title": "Um pesquisador da Anthropic nos deu um vislumbre da IA autoaperfeiçoável",
       "links": [
         "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/"
       ],
-      "summary": "Sistemas automatizados melhoraram o desempenho em 10 benchmarks para comportamentos desalinhados específicos, sem degradar o desempenho geral.",
+      "summary": "Sistemas automatizados melhoraram o desempenho em dez benchmarks para comportamentos desalinhados específicos. Isso ocorreu sem degradar o desempenho geral.",
       "date": "2026-08-28"
     },
     {
-      "title": "Um mero rumor de um bug é suficiente para encontrar uma falha de segurança atualmente",
+      "title": "Apenas um boato de um bug é suficiente para encontrar uma exploração de segurança hoje em dia",
       "links": [
         "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/"
       ],
-      "summary": "Anil Madhavapeddy relata que discussões sobre patches OCaml receberam sondagens automatizadas de exploração em cerca de 10 minutos. Agentes de codificação LLM modernos são eficazes em encontrar falhas, o que pode quebrar as práticas de embargo de código aberto existentes.",
-      "authors": [
-        "Anil Madhavapeddy"
-      ],
+      "summary": "Anil Madhavapeddy relata que discussões sobre patches OCaml recebem sondas de exploração automatizadas em cerca de 10 minutos. Agentes de codificação LLM modernos são eficazes o suficiente para encontrar falhas, quebrando as práticas de embargo de código aberto existentes.",
       "date": "2026-08-28"
     },
     {
@@ -48,126 +45,307 @@
       "date": "2026-08-29"
     },
     {
-      "title": "Anthropic busca replicar para hardware físico o que seu Protocolo de Contexto de Modelo fez para software",
+      "title": "A Anthropic quer fazer pelo hardware físico o que seu Model Context Protocol fez pelo software",
       "links": [
         "https://the-decoder.com/anthropic-wants-to-do-for-physical-hardware-what-its-model-context-protocol-did-for-software/"
       ],
-      "summary": "O Model Hardware Standard (MHS) da Anthropic oferece aos agentes de IA uma interface unificada para dispositivos físicos, como braços robóticos e instrumentos de laboratório. Em testes iniciais, o tempo de integração diminuiu de semanas para horas.",
+      "summary": "O Model Hardware Standard (MHS) da Anthropic oferece aos agentes de IA uma interface unificada para dispositivos físicos. Em testes iniciais, o tempo de integração caiu de semanas para horas.",
       "date": "2026-08-29"
     },
     {
-      "title": "OpenAI corta acesso da Cursor após aquisição pela SpaceX, citando histórico de Musk de quebra de contratos",
+      "title": "OpenAI corta Cursor após aquisição pela SpaceX, citando o histórico de Musk de quebrar contratos",
       "links": [
         "https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts/"
       ],
-      "summary": "A OpenAI está cortando o acesso da ferramenta de codificação de IA Cursor após a aquisição da empresa pela SpaceX, citando o histórico de Elon Musk de quebra de contratos. O cofundador da Cursor, Michael Truell, minimiza a decisão.",
-      "authors": [
-        "Michael Truell"
-      ],
+      "summary": "A OpenAI está cortando o acesso à ferramenta de codificação de IA Cursor após a aquisição da empresa pela SpaceX. A decisão cita o histórico de Elon Musk de quebrar contratos.",
       "date": "2026-08-29"
     },
     {
-      "title": "CorporateBench: Benchmarking de Perguntas e Respostas em Larga Escala com Bases de Conhecimento Temporais",
+      "title": "CorporateBench: Large-Scale Q&A Benchmarking with Temporal Knowledge Bases",
       "links": [
         "https://arxiv.org/abs/2608.27391"
+      ],
+      "date": "2026-08-27",
+      "authors": [
+        "Sil Hamilton",
+        "Albert Yu Sun",
+        "Oscar J. Romero",
+        "Carl-Leander Henneking",
+        "David Mimno",
+        "Bishan Yang",
+        "Igor Labutov"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.IR",
+        "cs.LG"
       ]
     },
     {
-      "title": "Aprendendo um Escore Contínuo de Gravidade de Sepse Sem Supervisão Hora a Hora: Um Estudo Retrospectivo em Dois Locais",
+      "title": "Learning a Continuous Sepsis Severity Score Without Hour-by-Hour Supervision: A Two-Site Retrospective Study",
       "links": [
         "https://arxiv.org/abs/2608.27421"
+      ],
+      "date": "2026-08-27",
+      "authors": [
+        "Kevin Zhu",
+        "Ryan Zhang",
+        "Baraa Abed",
+        "Tilendra Choudhary",
+        "Malvern Madondo",
+        "Mehak Arora",
+        "Yixuan Yang",
+        "Alasdair Gent",
+        "Aditya Nagori",
+        "Omer T. Inan",
+        "Krista L. Haines",
+        "Patrick Georgoff",
+        "Suresh M. Agarwal",
+        "Vijay Krishnamoorthy",
+        "Tetsu Ohnuma",
+        "Mihai V. Podgoreanu",
+        "Michael R. Pinsky",
+        "Gilles Clermont",
+        "Craig M. Coopersmith",
+        "Craig S. Jabaley",
+        "Rishikesan Kamaleswaran"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
       ]
     },
     {
-      "title": "Previsão de Reação Mecanicista via Correspondência de Fluxo Discreto em Ocupação de Elétrons Estruturada em Grafo",
+      "title": "Mechanistic Reaction Prediction via Discrete Flow Matching on Graph-Structured Electron Occupation",
       "links": [
         "https://arxiv.org/abs/2608.27429"
+      ],
+      "date": "2026-08-27",
+      "authors": [
+        "Nguyen Xuan-Vu",
+        "Octavian Susanu",
+        "Daniel Armstrong",
+        "Philippe Schwaller"
+      ],
+      "categories": [
+        "cs.AI"
       ]
     },
     {
-      "title": "WikiSkill: Compilando a Experiência do Agente em Conhecimento Persistente para Evolução de Habilidades",
+      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
       "links": [
         "https://arxiv.org/abs/2608.27454"
+      ],
+      "date": "2026-08-27",
+      "authors": [
+        "Liyan Tang",
+        "Cyrus Rashtchian",
+        "Chun-Sung Ferng",
+        "Andrew Tomkins",
+        "Da-Cheng Juan",
+        "Tu Vu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
       ]
     },
     {
-      "title": "Recuperabilidade Específica da Propriedade de PPG de Contato para rPPG de Câmera sob Condições de Observação Heterogêneas",
+      "title": "Property-Specific Recoverability from Contact PPG to Camera rPPG under Heterogeneous Observation Conditions",
       "links": [
         "https://arxiv.org/abs/2608.27392"
+      ],
+      "date": "2026-08-27",
+      "authors": [
+        "Timothy Oladunni",
+        "Farouk Ganiyu-Adewumi"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.SP"
       ]
     },
     {
-      "title": "LeVJEPA: Pré-treinamento de Vídeo Eficiente e Escalável sem Heurísticas",
+      "title": "LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics",
       "links": [
         "https://arxiv.org/abs/2608.27395"
+      ],
+      "date": "2026-08-27",
+      "authors": [
+        "Lukas Kuhn",
+        "Lucas Maes",
+        "Giuseppe Serra",
+        "Quentin Le Lidec",
+        "Yann LeCun",
+        "Randall Balestriero",
+        "Florian Buettner"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
       ]
     },
     {
-      "title": "Tornando Modelos de Linguagem Clínicos Auditáveis: Ajuste Fino Guiado por Conceitos para Previsão Robusta",
+      "title": "Making Clinical Language Models Auditable: Concept-Guided Fine-Tuning for Robust Prediction",
       "links": [
         "https://arxiv.org/abs/2608.27397"
+      ],
+      "date": "2026-08-27",
+      "authors": [
+        "Jin Mu",
+        "Guanhua Chen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
       ]
     },
     {
-      "title": "Como Modelos de Linguagem Organizam e Estruturam o Conhecimento Moral",
+      "title": "How Language Models Organize and Structure Moral Knowledge",
       "links": [
         "https://arxiv.org/abs/2608.27402"
+      ],
+      "date": "2026-08-27",
+      "authors": [
+        "Orion Reblitz-Richardson"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
       ]
     },
     {
-      "title": "CLAP: Modelos de Mundo de Vídeo de Múltiplas Incorporações são Simuladores Físicos Zero-Shot",
+      "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
       "links": [
         "https://arxiv.org/abs/2608.27406"
+      ],
+      "date": "2026-08-27",
+      "authors": [
+        "Kechen Liu",
+        "Ola Shorinwa"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
       ]
     },
     {
-      "title": "Além do F1: Avaliando Cobertura e Recuperação de Falhas em Scanners de Segurança de Modelos de IA",
+      "title": "Beyond F1: Evaluating Coverage and Failure Recovery in AI Model Security Scanners",
       "links": [
         "https://arxiv.org/abs/2608.27424"
+      ],
+      "date": "2026-08-27",
+      "authors": [
+        "Qianlong Lan",
+        "Vinothini Pandurangan",
+        "Anuj Kaul",
+        "Indranil Sanyal"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
       ]
     },
     {
-      "title": "Separação Persona-Execução: Um Padrão de Arquitetura para Agentes LLM em Evolução sob Auditoria de Execução",
+      "title": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
       "links": [
         "https://arxiv.org/abs/2608.27427"
+      ],
+      "date": "2026-08-27",
+      "authors": [
+        "Yisen Xi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
       ]
     },
     {
-      "title": "RedEvoAgent: Agente de Red-Teaming Automático com Evolução de Habilidades Orientada pela Experiência",
+      "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
       "links": [
         "https://arxiv.org/abs/2608.27439"
+      ],
+      "date": "2026-08-27",
+      "authors": [
+        "Junjie Zhang",
+        "Hui Liu",
+        "Kecheng Chen",
+        "Xianbo Mo",
+        "Changsheng Chen",
+        "Haoliang Li"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR"
       ]
     },
     {
-      "title": "De Estático a Dinâmico: Benchmarking de Revisão de Código do Mundo Real com MCR-Bench",
+      "title": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
       "links": [
         "https://arxiv.org/abs/2608.27442"
+      ],
+      "date": "2026-08-27",
+      "authors": [
+        "Dewu Zheng",
+        "Yanlin Wang",
+        "Xiwen Wang",
+        "Kefeng Duan",
+        "Hongyu Zhang",
+        "Xilin Liu",
+        "Yuchi Ma",
+        "Zibin Zheng"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SE"
       ]
     },
     {
-      "title": "SWE-Prime: Menos Trajetórias, Melhor Desempenho",
+      "title": "SWE-Prime: Fewer Trajectories, Better Performance",
       "links": [
         "https://arxiv.org/abs/2608.27449"
+      ],
+      "date": "2026-08-27",
+      "authors": [
+        "Dewu Zheng",
+        "Ruizhe Ye",
+        "Yanlin Wang",
+        "Yang Ye",
+        "Hongyu Zhang",
+        "Ensheng Shi",
+        "Xilin Liu",
+        "Yuchi Ma",
+        "Jianxing Yu",
+        "Zibin Zheng"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SE"
       ]
     },
     {
-      "title": "A vantagem da Nvidia em IA vai além da GPU",
+      "title": "A vantagem da Nvidia em IA está indo além da GPU",
       "links": [
         "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/"
       ],
-      "summary": "A nova geração de sistemas de data center está aumentando a eficiência com controle de tráfego mais inteligente, em vez de apenas mais ciclos de processador.",
+      "summary": "A nova geração de sistemas de data center está aumentando a eficiência com controle de tráfego mais inteligente. Isso substitui a dependência exclusiva de mais ciclos de processador.",
       "date": "2026-08-29"
     },
     {
-      "title": "Músicos que viraram detetives caçam golpistas de IA",
+      "title": "Músicos-detetives estão caçando golpistas de IA",
       "links": [
         "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai"
       ],
-      "summary": "Com o avanço das ferramentas de áudio generativas, músicos estão rastreando faixas geradas por IA. Essas faixas têm melodias e vocais derivados algoritmicamente do trabalho de artistas humanos.",
+      "summary": "Músicos estão rastreando faixas geradas por IA cujas melodias e vocais são derivados algoritmicamente do trabalho de artistas humanos. Isso ocorre à medida que as ferramentas de áudio generativas se tornam mais sofisticadas.",
       "date": "2026-08-29"
     },
     {
-      "title": "Vídeos gerados por IA já estão substituindo atores e livestreamers na indústria do entretenimento da China",
+      "title": "Vídeos gerados por IA já estão deslocando atores e livestreamers na indústria do entretenimento da China",
       "links": [
         "https://the-decoder.com/ai-generated-videos-are-already-displacing-actors-and-livestreamers-across-chinas-entertainment-industry/"
       ],
@@ -175,11 +353,11 @@
       "date": "2026-08-29"
     },
     {
-      "title": "WikiSkill do Google oferece aos agentes de IA uma memória persistente de erros passados para aprimorar o desempenho futuro",
+      "title": "O WikiSkill do Google dá aos agentes de IA uma memória persistente de erros passados para aprimorar o desempenho futuro",
       "links": [
         "https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes/"
       ],
-      "summary": "O WikiSkill do Google Research oferece aos agentes de IA uma base de conhecimento persistente, semelhante a uma wiki. Em vez de descartar o que aprenderam após cada execução, os agentes documentam falhas e sucessos, reutilizando-os em diferentes tarefas.",
+      "summary": "O WikiSkill do Google Research oferece aos agentes de IA uma base de conhecimento persistente, semelhante a uma wiki. Os agentes documentam falhas e sucessos, reutilizando-os em diferentes tarefas em vez de descartar o aprendizado após cada execução.",
       "date": "2026-08-29"
     }
   ]

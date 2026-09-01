@@ -25,6 +25,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -209,6 +210,76 @@ def latest_file(source):
     return max(found, key=lambda f: f["date"])
 
 
+ARXIV_ID = re.compile(r"arxiv\.org/(?:abs|pdf)/(\d{4}\.\d{4,5})")
+ARXIV_BATCH = 200  # the API takes more, but the URL gets long past this
+
+
+def arxiv_metadata(ids):
+    """Maps arXiv id to date, authors and categories, from the arXiv API.
+
+    Free, no key. The API asks for one request every three seconds, so the ids
+    go in batches instead of one call per paper. The abstract also comes in the
+    answer and is left out on purpose: it belongs to the authors, and the item
+    already carries the aggregator's TL;DR.
+    """
+    found = {}
+    for start in range(0, len(ids), ARXIV_BATCH):
+        batch = ids[start : start + ARXIV_BATCH]
+        if start:
+            time.sleep(3)
+        url = (
+            "http://export.arxiv.org/api/query"
+            f"?id_list={','.join(batch)}&max_results={len(batch)}"
+        )
+        try:
+            with urllib.request.urlopen(url, timeout=90) as r:
+                xml = r.read().decode("utf-8", errors="replace")
+        except Exception as e:
+            print(f"  [error] arXiv API: {e}", file=sys.stderr)
+            continue
+        for entry in xml.split("<entry>")[1:]:
+            paper = re.search(r"<id>https?://arxiv\.org/abs/([\d.]+)", entry)
+            published = re.search(r"<published>(\d{4}-\d{2}-\d{2})", entry)
+            if not paper:
+                continue
+            found[paper.group(1)] = {
+                "date": published.group(1) if published else None,
+                "authors": re.findall(r"<name>([^<]+)</name>", entry),
+                "categories": sorted(
+                    set(re.findall(r'<category term="([^"]+)"', entry))
+                ),
+            }
+    return found
+
+
+def fill_from_arxiv(items):
+    """Completes items linking to arXiv with what the API states first-hand."""
+    wanted = {}
+    for item in items:
+        for link in item["links"]:
+            m = ARXIV_ID.search(link)
+            if m:
+                wanted.setdefault(m.group(1), []).append(item)
+                break
+    if not wanted:
+        return
+    metadata = arxiv_metadata(list(wanted))
+    for paper, targets in wanted.items():
+        data = metadata.get(paper)
+        if not data:
+            continue
+        for item in targets:
+            # The API is the publisher: its date, authors and categories beat
+            # whatever the model read off the aggregator's file.
+            if data["date"]:
+                item["date"] = data["date"]
+            if data["authors"]:
+                item["authors"] = data["authors"]
+            if data["categories"]:
+                item["categories"] = data["categories"]
+    print(f"  {len(metadata)}/{len(wanted)} itens completados pela API do arXiv")
+
+
 def item_date(value, file_date):
     """Keeps the item's own date only if it is ISO and close to the file's.
 
@@ -311,6 +382,8 @@ def to_markdown(items, day):
             meta.append(f"*{', '.join(item['authors'])}*")
         if item.get("date") and item["date"] != day:
             meta.append(item["date"])
+        if item.get("categories"):
+            meta.append(" ".join(f"`{c}`" for c in item["categories"]))
         if meta:
             lines.append(" · ".join(meta))
             lines.append("")
@@ -399,6 +472,7 @@ def process(source, entry, now, has_key):
         return True
 
     items = translate(raw, source["mode"], entry["date"])
+    fill_from_arxiv(items)
     if not items:
         print("  nothing usable")
         return False

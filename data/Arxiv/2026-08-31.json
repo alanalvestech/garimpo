@@ -1,7 +1,7 @@
 {
   "category": "Arxiv",
   "date": "2026-08-31",
-  "generated_at": "2026-09-01 00:17 UTC",
+  "generated_at": "2026-09-01 00:30 UTC",
   "pending": false,
   "items": [
     {
@@ -9,10 +9,14 @@
       "links": [
         "https://arxiv.org/abs/2608.28560"
       ],
-      "summary": "Este trabalho estabelece limites superiores teóricos de informação para recuperar o significado pretendido de um falante a partir de qualquer representação de uma enunciação. A incerteza restante é intrínseca à linguagem, indicando que a forma não é uma estatística suficiente para a intenção do falante, e nenhum volume de texto ou supervisão pode superá-la.",
+      "summary": "Limites superiores teóricos da informação demonstram a recuperação do significado pretendido por um falante a partir de qualquer featurizador de uma enunciação. A incerteza restante é intrínseca à linguagem, não podendo ser superada por texto ou supervisão, e a forma não é uma estatística suficiente para a intenção do falante.",
       "authors": [
         "Emily Cheng",
         "Ryan Cotterell"
+      ],
+      "date": "2026-08-28",
+      "categories": [
+        "cs.CL"
       ]
     },
     {
@@ -20,20 +24,25 @@
       "links": [
         "https://arxiv.org/abs/2608.28444"
       ],
-      "summary": "A atenção de janela deslizante (SWA) com sinks supera ou iguala modelos lineares pós-treinados em diversas tarefas, sendo 2 a 10 vezes mais forte em testes específicos, mantendo-se mais rápida e barata. Este método oferece uma alternativa eficaz e de baixo custo que pode substituir grande parte do trabalho de adaptação da atenção linear.",
+      "summary": "A atenção de janela deslizante com \"sinks\" supera ou iguala modelos lineares pós-treinados em várias tarefas, sendo 2 a 10 vezes mais forte em testes específicos, mantendo-se mais rápida e barata. Este método oferece uma alternativa eficaz e de baixo custo que pode substituir grande parte do trabalho de adaptação da atenção linear.",
       "authors": [
         "Alexia Jolicoeur-Martineau",
         "Rhea Sanjay Sukthanker",
         "Pashmina Cameron",
         "Emy Gervais"
+      ],
+      "date": "2026-08-28",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
       ]
     },
     {
-      "title": "Até Onde 5.500 Horas de Direção Podem Levar Você? Uma Análise da Lei de Escala para Modelos de Difusão de Vídeo",
+      "title": "Até Onde 5.500 Horas de Condução Podem Levar Você? Uma Análise da Lei de Escala para Modelos de Difusão de Vídeo",
       "links": [
         "https://arxiv.org/abs/2608.28404"
       ],
-      "summary": "Pesquisadores mapearam uma família de modelos de difusão de 1M a 9B usando até 5.500 horas de vídeo de direção, um domínio com dados escassos. A perda de validação segue leis de potência, mostrando que o treinamento mais longo supera um modelo maior até que o orçamento permita o aumento do tamanho.",
+      "summary": "Pesquisadores mapearam uma família de modelos de difusão de 1M a 9B em até 5.500 horas de vídeo de condução, mostrando que a perda de validação segue leis de potência. O treinamento mais longo supera um modelo maior até que o orçamento permita o aumento do tamanho, estabelecendo um novo estado da arte em nuScenes com um modelo de 9B.",
       "authors": [
         "Victor Besnier",
         "Anh-Quan Cao",
@@ -43,6 +52,10 @@
         "Andrei Bursuc",
         "Eloi Zablocki",
         "Matthieu Cord"
+      ],
+      "date": "2026-08-28",
+      "categories": [
+        "cs.CV"
       ]
     },
     {
@@ -50,20 +63,25 @@
       "links": [
         "https://arxiv.org/abs/2608.28411"
       ],
-      "summary": "LongPIBench é um novo benchmark para injeção de prompt que utiliza contextos longos, de milhares a dezenas de milhares de tokens, em cenários reais e sintéticos. Ele revela que as defesas atuais são facilmente contornadas por injeções heurísticas simples, expondo a verdadeira superfície de ameaça em aplicações de contexto longo.",
+      "summary": "O LongPIBench é um novo benchmark para injeção de prompt que utiliza contextos longos, de milhares a dezenas de milhares de tokens, em cenários reais e sintéticos. Injeções heurísticas simples alcançam altas taxas de sucesso e contornam defesas atuais de ponta, revelando que as avaliações de defesa existentes subestimam a ameaça real.",
       "authors": [
         "Yupei Liu",
         "Yuqi Jia",
         "Neil Zhenqiang Gong",
         "Jinyuan Jia"
+      ],
+      "date": "2026-08-28",
+      "categories": [
+        "cs.AI",
+        "cs.CR"
       ]
     },
     {
-      "title": "ContextPilot: Ensinando Agentes para Gerenciamento Proativo de Contexto via RL de Granularidade Fina",
+      "title": "ContextPilot: Ensinando Agentes para Gerenciamento Proativo de Contexto via RL Refinado",
       "links": [
         "https://arxiv.org/abs/2608.28476"
       ],
-      "summary": "ContextPilot ensina agentes a gerenciar proativamente o contexto usando aprendizado por reforço de granularidade fina, expandindo as ferramentas de edição e treinando ações contextuais. Este método supera abordagens anteriores de memória proativa em tarefas de QA de contexto longo e busca profunda, utilizando um contexto de trabalho menor.",
+      "summary": "ContextPilot ensina agentes a gerenciar proativamente o contexto usando RL refinado, expandindo o conjunto de ferramentas de edição e treinando ações de contexto com vantagens em nível de ação. Este método supera abordagens anteriores de memória proativa em QA de contexto longo e busca profunda, utilizando um contexto de trabalho menor.",
       "authors": [
         "Zhuoshi Pan",
         "Qizhi Pei",
@@ -72,6 +90,10 @@
         "H. Vicky Zhao",
         "Di Yin",
         "Xing Sun"
+      ],
+      "date": "2026-08-28",
+      "categories": [
+        "cs.CL"
       ]
     }
   ]
