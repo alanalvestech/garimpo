@@ -78,6 +78,8 @@ Return the list of items in the file, in Brazilian Portuguese, each with:
 - title: the item's title, translated.
 - summary: at most two sentences with what the item says.
 - authors: the item's authors, when the text names them. Skip it otherwise.
+- date: the item's own publication date as YYYY-MM-DD, only when the text
+  states it. Never guess it and never copy the file's date. Skip it otherwise.
 - links: every link of that item.
 
 Rules:
@@ -92,6 +94,8 @@ TITLE_PROMPT = (
 Return the list of items in the file, each with:
 
 - title: the item's title, translated to Brazilian Portuguese.
+- date: the item's own publication date as YYYY-MM-DD, only when the text
+  states it. Never guess it and never copy the file's date. Skip it otherwise.
 - links: every link of that item.
 
 Do not write a summary: only the title and the links.
@@ -110,6 +114,7 @@ SCHEMA = {
             "title": {"type": "STRING"},
             "summary": {"type": "STRING"},
             "authors": {"type": "ARRAY", "items": {"type": "STRING"}},
+            "date": {"type": "STRING"},
             "links": {"type": "ARRAY", "items": {"type": "STRING"}},
         },
         "required": ["title", "links"],
@@ -204,7 +209,24 @@ def latest_file(source):
     return max(found, key=lambda f: f["date"])
 
 
-def translate(content, mode):
+def item_date(value, file_date):
+    """Keeps the item's own date only if it is ISO and close to the file's.
+
+    The model is told never to guess a date, and this is the net for when it
+    guesses anyway: anything unparseable or far from the file's day is dropped.
+    """
+    if not isinstance(value, str):
+        return None
+    try:
+        parsed = date.fromisoformat(value)
+    except ValueError:
+        return None
+    if not -365 <= (parsed - file_date).days <= 1:
+        return None
+    return parsed.isoformat()
+
+
+def translate(content, mode, file_date):
     """Returns the file's items, each with title, links and (if full) summary."""
     prompt = SUMMARY_PROMPT if mode == "full" else TITLE_PROMPT
     url = (
@@ -255,6 +277,9 @@ def translate(content, mode):
             clean["summary"] = no_dashes(item["summary"])
         if item.get("authors"):
             clean["authors"] = item["authors"]
+        when = item_date(item.get("date"), file_date)
+        if when:
+            clean["date"] = when
         items.append(clean)
     return items
 
@@ -271,7 +296,7 @@ def domain(url):
     return urllib.parse.urlparse(url).netloc.removeprefix("www.")
 
 
-def to_markdown(items):
+def to_markdown(items, day):
     """Builds the .md body out of the same items that go into the .json.
 
     The title carries the first link, so reading the file is one click away
@@ -281,8 +306,13 @@ def to_markdown(items):
     for item in items:
         first, *rest = item["links"]
         lines = [f"### [{item['title']}]({first})", ""]
+        meta = []
         if item.get("authors"):
-            lines.append(f"*{', '.join(item['authors'])}*")
+            meta.append(f"*{', '.join(item['authors'])}*")
+        if item.get("date") and item["date"] != day:
+            meta.append(item["date"])
+        if meta:
+            lines.append(" · ".join(meta))
             lines.append("")
         if item.get("summary"):
             lines.append(item["summary"])
@@ -318,7 +348,7 @@ def write_day(source, entry, items, now, pending=False):
 
     header = f"# {source['category']} · {day}\n\n"
     if items:
-        body = to_markdown(items)
+        body = to_markdown(items, day)
     elif pending:
         body = (
             "Coleta pendente. Os itens entram na próxima rodada que tiver o "
@@ -368,7 +398,7 @@ def process(source, entry, now, has_key):
         write_day(source, entry, None, now, pending=True)
         return True
 
-    items = translate(raw, source["mode"])
+    items = translate(raw, source["mode"], entry["date"])
     if not items:
         print("  nothing usable")
         return False
