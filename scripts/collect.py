@@ -682,7 +682,7 @@ def write_day(source, entry, items, now, pending=False, new_route=True):
     publication. The repository the list was read from stays out: it is
     the route, not the source.
     """
-    day = entry["date"].isoformat()
+    day = closed_day().isoformat()
     folder = DATA_DIR / source["category"]
     folder.mkdir(parents=True, exist_ok=True)
 
@@ -765,17 +765,26 @@ def prune(folder, day):
             print(f"  removed {old.relative_to(ROOT)}")
 
 
-def done_today(source, folder, day, has_key):
-    """Whether this source already delivered that day, on its own."""
+def done_today(source, folder, day, has_key, alone):
+    """Whether this source already delivered that day, on its own.
+
+    With a single source in the folder, the day's file answers it. With more
+    than one, it does not: the file may have been written by another route, so
+    those folders keep a state file saying which route delivered which day.
+    """
     if FORCE:
         return False
     target = folder / f"{day}.json"
     if target.exists() and needs_retry(target, has_key):
         return False
+    if alone:
+        return target.exists()
     return load_state(folder).get(source_key(source)) == day
 
 
-def mark_done(source, folder, day):
+def mark_done(source, folder, day, alone):
+    if alone:
+        return  # nothing to remember: the day's file is the whole state
     state = load_state(folder)
     state[source_key(source)] = day
     save_state(folder, state)
@@ -847,7 +856,7 @@ def process(source, entry, now, has_key, new_route=True):
     return True
 
 
-def run_file_source(source, folder, now, has_key):
+def run_file_source(source, folder, now, has_key, alone):
     """A source that publishes one file per day in a GitHub repository."""
     print(f"[{source['category']}] {source['repo']}/{source['path']}")
     entry = latest_file(source)
@@ -856,21 +865,21 @@ def run_file_source(source, folder, now, has_key):
         return False
 
     day = closed_day().isoformat()
-    if done_today(source, folder, day, has_key):
+    if done_today(source, folder, day, has_key, alone):
         print(f"  {entry['name']}: already saved")
         prune(folder, day)
         return False
 
     print(f"  {entry['name']}")
-    new_route = load_state(folder).get(source_key(source)) != day
+    new_route = alone or load_state(folder).get(source_key(source)) != day
     if not process(source, entry, now, has_key, new_route):
         return False
-    mark_done(source, folder, day)
+    mark_done(source, folder, day, alone)
     prune(folder, day)
     return True
 
 
-def run_discovery(source, folder, now, has_key):
+def run_discovery(source, folder, now, has_key, alone):
     """A source that goes looking for repositories instead of reading a file.
 
     The day here is the day of the run: these are finds, not an edition someone
@@ -898,7 +907,7 @@ def run_discovery(source, folder, now, has_key):
         sys.exit(f"unknown kind in sources.yaml: {kind}")
 
     day = closed_day().isoformat()
-    if done_today(source, folder, day, has_key):
+    if done_today(source, folder, day, has_key, alone):
         print("  already saved")
         prune(folder, day)
         return False
@@ -917,11 +926,11 @@ def run_discovery(source, folder, now, has_key):
         items,
         now,
         pending=not has_key,
-        new_route=load_state(folder).get(source_key(source)) != day,
+        new_route=alone or load_state(folder).get(source_key(source)) != day,
     )
     if seen_now is not None:
         seen_path.write_text(json.dumps(seen_now, indent=2))
-    mark_done(source, folder, day)
+    mark_done(source, folder, day, alone)
     prune(folder, day)
     return True
 
@@ -938,13 +947,15 @@ def main():
     written = 0
     failures = 0
 
+    counted = [s["category"] for s in sources]
     for source in sources:
         folder = DATA_DIR / source["category"]
+        alone = counted.count(source["category"]) == 1
         try:
             if source.get("kind", "file") == "file":
-                done = run_file_source(source, folder, now, has_key)
+                done = run_file_source(source, folder, now, has_key, alone)
             else:
-                done = run_discovery(source, folder, now, has_key)
+                done = run_discovery(source, folder, now, has_key, alone)
         except Exception as e:
             # One failing source must not take the others down, otherwise a
             # quota blown midway loses the whole day's collection.
