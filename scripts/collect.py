@@ -200,13 +200,13 @@ def date_from_name(name):
 
 
 def closed_day():
-    """Yesterday, for the sources that fill a page as the day goes.
+    """Yesterday: the day the radar is reporting on.
 
-    Only those need it. The aggregators write each daily file once, complete,
-    and never touch it again, so for them the newest file is always a closed
-    one: an aggregator in Asia, twelve hours ahead, has today's file written
-    and finished before this side of the world wakes up. Holding those back a
-    day would just serve older news.
+    Every folder is named after this, whatever the source called its own file.
+    A source names the file after the day it published, not the day it covers:
+    the aggregator in Asia writes "2026-09-01" at 23:28 on the 31st here, and
+    the arXiv digest named "2026-09-01" comes out this morning carrying the
+    31st. Naming by the day being reported keeps every folder in step.
     """
     return date.today() - timedelta(days=1)
 
@@ -847,7 +847,7 @@ def process(source, entry, now, has_key, new_route=True):
     return True
 
 
-def run_file_source(source, folder, now, has_key, shared_day):
+def run_file_source(source, folder, now, has_key):
     """A source that publishes one file per day in a GitHub repository."""
     print(f"[{source['category']}] {source['repo']}/{source['path']}")
     entry = latest_file(source)
@@ -855,7 +855,7 @@ def run_file_source(source, folder, now, has_key, shared_day):
         print("  no file with a date in the name")
         return False
 
-    day = (shared_day or entry["date"]).isoformat()
+    day = closed_day().isoformat()
     if done_today(source, folder, day, has_key):
         print(f"  {entry['name']}: already saved")
         prune(folder, day)
@@ -863,7 +863,6 @@ def run_file_source(source, folder, now, has_key, shared_day):
 
     print(f"  {entry['name']}")
     new_route = load_state(folder).get(source_key(source)) != day
-    entry = {**entry, "date": date.fromisoformat(day)}
     if not process(source, entry, now, has_key, new_route):
         return False
     mark_done(source, folder, day)
@@ -871,7 +870,7 @@ def run_file_source(source, folder, now, has_key, shared_day):
     return True
 
 
-def run_discovery(source, folder, now, has_key, shared_day):
+def run_discovery(source, folder, now, has_key):
     """A source that goes looking for repositories instead of reading a file.
 
     The day here is the day of the run: these are finds, not an edition someone
@@ -882,7 +881,6 @@ def run_discovery(source, folder, now, has_key, shared_day):
     today = closed_day()
     seen_path = folder / "seen.json"
     known, seen_now = {}, None
-    day_of = today
 
     if kind == "trackawesomelist":
         items, digest_day = discover.from_trackawesomelist(
@@ -890,7 +888,6 @@ def run_discovery(source, folder, now, has_key, shared_day):
         )
         if digest_day is None:
             return False
-        day_of = digest_day
     elif kind == "youtube_channel":
         seen = json.loads(seen_path.read_text()) if seen_path.exists() else []
         items, seen_now = discover.from_youtube(source, http_text, set(seen))
@@ -900,7 +897,7 @@ def run_discovery(source, folder, now, has_key, shared_day):
     else:
         sys.exit(f"unknown kind in sources.yaml: {kind}")
 
-    day = (shared_day or day_of).isoformat()
+    day = closed_day().isoformat()
     if done_today(source, folder, day, has_key):
         print("  already saved")
         prune(folder, day)
@@ -937,26 +934,17 @@ def main():
         print("GEMINI_API_KEY not set: writing empty days", file=sys.stderr)
 
     sources = yaml.safe_load((ROOT / "config" / "sources.yaml").read_text())["sources"]
-    categories = [s["category"] for s in sources]
-    # When a category has more than one source, they all write the same day, the
-    # day of the run: each source has its own idea of what day its file is, and
-    # a folder holds one day. The item's own date stays on the item.
-    shared = {c for c in categories if categories.count(c) > 1}
-
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     written = 0
     failures = 0
 
     for source in sources:
         folder = DATA_DIR / source["category"]
-        # The edition day, when several routes feed one folder: what each
-        # route brings is already closed, the file is today's edition of it.
-        shared_day = date.today() if source["category"] in shared else None
         try:
             if source.get("kind", "file") == "file":
-                done = run_file_source(source, folder, now, has_key, shared_day)
+                done = run_file_source(source, folder, now, has_key)
             else:
-                done = run_discovery(source, folder, now, has_key, shared_day)
+                done = run_discovery(source, folder, now, has_key)
         except Exception as e:
             # One failing source must not take the others down, otherwise a
             # quota blown midway loses the whole day's collection.
