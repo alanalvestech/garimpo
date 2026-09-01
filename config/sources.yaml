@@ -9,6 +9,9 @@
 # license:  recorded here to justify the chosen mode
 # ext:      file extensions considered
 # section:  cuts one block out of a file that packs several origins together
+# kind:     "file" (default) reads the daily file of a repo. The others go
+#           looking for repositories: "trackawesomelist", "youtube_channel"
+#           and "github_search", each with its own filter in discover.py
 
 sources:
   # ai-research-arm splits by origin under research/, and each of those folders
@@ -138,3 +141,23 @@ sources:
     mode: link
     license: no license declared
     ext: [.md]
+
+  # Three ways of finding a repository, each with its own kind of noise.
+  - category: AwesomeLists
+    name: Track Awesome List
+    kind: trackawesomelist
+    mode: link
+
+  - category: GitHubAwesome
+    name: GithubAwesome
+    kind: youtube_channel
+    channel: UC9Rrud-8CaHokDtK9FszvRg
+    max_videos: 3
+    mode: link
+
+  - category: GitHubNew
+    name: GitHub Search
+    kind: github_search
+    windows: [1, 7, 30]
+    per_page: [10, 20, 30]
+    mode: link

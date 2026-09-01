@@ -34,6 +34,10 @@ from pathlib import Path
 
 import yaml
 
+import discover
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
@@ -295,7 +299,7 @@ def translate_lines(lines):
     return answer if len(answer) == len(lines) else lines
 
 
-def fill_github_repos(items):
+def fill_github_repos(items, known=None):
     """Gives repo items the description its own owner wrote, translated.
 
     The aggregator's file has a description too, in Chinese and written by the
@@ -312,13 +316,16 @@ def fill_github_repos(items):
     if not targets:
         return
 
+    known = known or {}
     described = []
     for item, full_name in targets.values():
-        try:
-            repo = http_json(f"https://api.github.com/repos/{full_name}")
-        except Exception as e:
-            print(f"  [error] GitHub API {full_name}: {e}", file=sys.stderr)
-            continue
+        repo = known.get(full_name)
+        if repo is None:
+            try:
+                repo = http_json(f"https://api.github.com/repos/{full_name}")
+            except Exception as e:
+                print(f"  [error] GitHub API {full_name}: {e}", file=sys.stderr)
+                continue
         if repo.get("description"):
             described.append((item, repo))
 
@@ -497,11 +504,11 @@ def write_day(source, entry, items, now, pending=False):
 def prune(folder, day):
     """Keeps only the current day: the previous one lives in the git history.
 
-    The category's feed lives in the same folder and stays: it is the running
-    history, not a day.
+    Only files named after a day are pruned. The category's feed and whatever
+    state a collector keeps live in the same folder and stay.
     """
     for old in folder.glob("*.*"):
-        if old.suffix in (".md", ".json") and old.stem != day:
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", old.stem) and old.stem != day:
             old.unlink()
             print(f"  removed {old.relative_to(ROOT)}")
 
@@ -547,6 +554,71 @@ def process(source, entry, now, has_key):
     return True
 
 
+def run_file_source(source, folder, now, has_key):
+    """A source that publishes one file per day in a GitHub repository."""
+    print(f"[{source['category']}] {source['repo']}/{source['path']}")
+    entry = latest_file(source)
+    if entry is None:
+        print("  no file with a date in the name")
+        return False
+
+    day = entry["date"].isoformat()
+    target = folder / f"{day}.json"
+    if target.exists() and not FORCE and not needs_retry(target, has_key):
+        print(f"  {entry['name']}: already saved")
+        prune(folder, day)
+        return False
+
+    print(f"  {entry['name']}")
+    if not process(source, entry, now, has_key):
+        return False
+    prune(folder, day)
+    return True
+
+
+def run_discovery(source, folder, now, has_key):
+    """A source that goes looking for repositories instead of reading a file.
+
+    The day here is the day of the run: these are finds, not an edition someone
+    else published.
+    """
+    kind = source["kind"]
+    print(f"[{source['category']}] {kind}")
+    today = date.today()
+    day = today.isoformat()
+    target = folder / f"{day}.json"
+    if target.exists() and not FORCE and not needs_retry(target, has_key):
+        print("  already saved")
+        prune(folder, day)
+        return False
+
+    seen_path = folder / "seen.json"
+    known, seen_now = {}, None
+    if kind == "trackawesomelist":
+        items = discover.from_trackawesomelist(source, http_json, http_text, today)
+    elif kind == "youtube_channel":
+        seen = json.loads(seen_path.read_text()) if seen_path.exists() else []
+        items, seen_now = discover.from_youtube(source, http_text, set(seen))
+        seen_now = (seen_now + seen)[:200]
+    elif kind == "github_search":
+        items, known = discover.from_github_search(source, http_json, today)
+    else:
+        sys.exit(f"unknown kind in sources.yaml: {kind}")
+
+    if not items:
+        print("  nada novo")
+        return False
+
+    entry = {"name": kind, "date": today}
+    if has_key:
+        fill_github_repos(items, known)
+    write_day(source, entry, items, now, pending=not has_key)
+    if seen_now is not None:
+        seen_path.write_text(json.dumps(seen_now, indent=2))
+    prune(folder, day)
+    return True
+
+
 def main():
     has_key = bool(os.environ.get("GEMINI_API_KEY"))
     if not has_key:
@@ -566,32 +638,19 @@ def main():
     failures = 0
 
     for source in sources:
-        print(f"[{source['category']}] {source['repo']}/{source['path']}")
-        entry = latest_file(source)
-        if entry is None:
-            print("  no file with a date in the name")
-            continue
-
-        day = entry["date"].isoformat()
         folder = DATA_DIR / source["category"]
-        target = folder / f"{day}.json"
-        if target.exists() and not FORCE and not needs_retry(target, has_key):
-            print(f"  {entry['name']}: already saved")
-            prune(folder, day)
-            continue
-
-        print(f"  {entry['name']}")
         try:
-            if not process(source, entry, now, has_key):
-                continue
+            if source.get("kind", "file") == "file":
+                done = run_file_source(source, folder, now, has_key)
+            else:
+                done = run_discovery(source, folder, now, has_key)
         except Exception as e:
             # One failing source must not take the others down, otherwise a
             # quota blown midway loses the whole day's collection.
-            print(f"  [error] {entry['name']}: {e}", file=sys.stderr)
+            print(f"  [error] {source['category']}: {e}", file=sys.stderr)
             failures += 1
             continue
-        prune(folder, day)
-        written += 1
+        written += 1 if done else 0
 
     print(f"{written} new files" if written else "nothing new")
     if failures:
