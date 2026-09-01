@@ -26,6 +26,7 @@ import os
 import re
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -248,17 +249,31 @@ def no_dashes(text):
     return text
 
 
+def domain(url):
+    """Host of a URL, without www, to label a link by where it lands."""
+    return urllib.parse.urlparse(url).netloc.removeprefix("www.")
+
+
 def to_markdown(items):
-    """Builds the .md body out of the same items that go into the .json."""
+    """Builds the .md body out of the same items that go into the .json.
+
+    The title carries the first link, so reading the file is one click away
+    from the original. Extra links land on their own line, named by host.
+    """
     blocks = []
     for item in items:
-        links = ", ".join(f"[{u}]({u})" for u in item["links"])
-        block = f"**{item['title']}** {links}"
+        first, *rest = item["links"]
+        lines = [f"### [{item['title']}]({first})", ""]
         if item.get("authors"):
-            block += f"\nAutores: {', '.join(item['authors'])}"
+            lines.append(f"*{', '.join(item['authors'])}*")
+            lines.append("")
         if item.get("summary"):
-            block += f"\n{item['summary']}"
-        blocks.append(block)
+            lines.append(item["summary"])
+            lines.append("")
+        origins = [f"[{domain(first)}]({first})"]
+        origins += [f"[{domain(u)}]({u})" for u in rest]
+        lines.append(" · ".join(origins))
+        blocks.append("\n".join(lines))
     return "\n\n".join(blocks)
 
 
