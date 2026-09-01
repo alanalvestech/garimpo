@@ -404,13 +404,13 @@ def star_rate(item, published):
     return (item["stars"] - known["stars"]) / days
 
 
-def breakouts(items, folder):
+def breakouts(items, category):
     """Of what already went out, keeps only what is climbing fast now.
 
     Total stars say a repo is big, which is usually old news. The rate says it
     is happening now, and that is what earns a second appearance.
     """
-    published = seen_before(folder)
+    published = seen_before(category)
     kept = []
     for item in items:
         rate = star_rate(item, published)
@@ -456,7 +456,7 @@ def item_date(value, file_date):
     return parsed.isoformat()
 
 
-def pick_repos(items, folder, day, known=None):
+def pick_repos(items, category, day, known=None):
     """Decides which repository items go out today, and why.
 
     New ones go out. Ones already out come back only on a breakout. Poison is
@@ -465,13 +465,13 @@ def pick_repos(items, folder, day, known=None):
     plain = [i for i in items if not GITHUB_REPO.search(i["links"][0])]
     repos = [i for i in items if GITHUB_REPO.search(i["links"][0])]
     if not repos:
-        fresh, _ = drop_republished(plain, folder, day)
+        fresh, _ = drop_republished(plain, category, day)
         return fresh
 
-    fresh, again = drop_republished(repos, folder, day)
+    fresh, again = drop_republished(repos, category, day)
     fresh = drop_poisoned(github_metadata(fresh, known))
-    again = breakouts(github_metadata(again, known), folder)
-    keep_plain, _ = drop_republished(plain, folder, day)
+    again = breakouts(github_metadata(again, known), category)
+    keep_plain, _ = drop_republished(plain, category, day)
     return fresh + again + keep_plain
 
 
@@ -552,15 +552,15 @@ def link_key(item):
     return item["links"][0].rstrip("/").lower()
 
 
-def seen_before(folder):
+def seen_before(category):
     """Link to the day and the star count of when it last went out."""
     return {
         link_key(i): {"day": i.get("day"), "stars": i.get("stars")}
-        for i in load_archive(folder.name)["items"]
+        for i in load_archive(category)["items"]
     }
 
 
-def drop_republished(items, folder, day):
+def drop_republished(items, category, day):
     """Separates what is new from what this category already published.
 
     A repository can be trending today and again tomorrow, and a story can stay
@@ -571,7 +571,7 @@ def drop_republished(items, folder, day):
     tomorrow they reach the same answer for free, and a repo that grows a
     second contributor or rewrites its description deserves a fresh look.
     """
-    published = seen_before(folder)
+    published = seen_before(category)
     fresh, again = [], []
     for item in items:
         known = published.get(link_key(item))
@@ -582,8 +582,11 @@ def drop_republished(items, folder, day):
     return fresh, again
 
 
+STATE_DIR = DATA_DIR / ".state"
+
+
 def archive_path(category):
-    return DATA_DIR / category / f"{category.lower()}.json"
+    return DATA_DIR / f"{category.lower()}.json"
 
 
 def load_archive(category):
@@ -660,7 +663,7 @@ def write_day(source, entry, items, now, pending=False, new_route=True):
     print(f"  {added} novos em data/{category}/{path.name} ({len(archive['items'])} no total)")
 
 
-def done_today(source, folder, day, has_key, alone):
+def done_today(source, day, has_key, alone):
     """Whether this source already delivered that day, on its own.
 
     With a single source in the folder, the archive answers it: the day is
@@ -670,20 +673,20 @@ def done_today(source, folder, day, has_key, alone):
     """
     if FORCE:
         return False
-    archive = load_archive(folder.name)
+    archive = load_archive(source['category'])
     if has_key and archive.get("pending"):
         return False  # written with no key: it went out empty, redo it
     if alone:
         return any(item.get("day") == day for item in archive["items"])
-    return load_state(folder).get(source_key(source)) == day
+    return load_state(source['category']).get(source_key(source)) == day
 
 
-def mark_done(source, folder, day, alone):
+def mark_done(source, category, day, alone):
     if alone:
         return  # nothing to remember: the day's file is the whole state
-    state = load_state(folder)
+    state = load_state(category)
     state[source_key(source)] = day
-    save_state(folder, state)
+    save_state(category, state)
 
 
 def source_key(source):
@@ -694,8 +697,8 @@ def source_key(source):
     return f"{kind}:{source.get('channel', '')}"
 
 
-def load_state(folder):
-    path = folder / "state.json"
+def load_state(category):
+    path = STATE_DIR / f"{category.lower()}.json"
     if not path.exists():
         return {}
     try:
@@ -704,9 +707,11 @@ def load_state(folder):
         return {}
 
 
-def save_state(folder, state):
-    folder.mkdir(parents=True, exist_ok=True)
-    (folder / "state.json").write_text(json.dumps(state, indent=2, sort_keys=True))
+def save_state(category, state):
+    STATE_DIR.mkdir(parents=True, exist_ok=True)
+    (STATE_DIR / f"{category.lower()}.json").write_text(
+        json.dumps(state, indent=2, sort_keys=True)
+    )
 
 
 def process(source, entry, now, has_key, new_route=True):
@@ -730,8 +735,7 @@ def process(source, entry, now, has_key, new_route=True):
         return True
 
     items = translate(raw, source["mode"], entry["date"])
-    folder = DATA_DIR / source["category"]
-    items = pick_repos(items, folder, entry["date"].isoformat())
+    items = pick_repos(items, source["category"], entry["date"].isoformat())
     if not items:
         print("  nothing new")
         return False
@@ -742,7 +746,7 @@ def process(source, entry, now, has_key, new_route=True):
     return True
 
 
-def run_file_source(source, folder, now, has_key, alone):
+def run_file_source(source, now, has_key, alone):
     """A source that publishes one file per day in a GitHub repository."""
     print(f"[{source['category']}] {source['repo']}/{source['path']}")
     entry = latest_file(source)
@@ -751,19 +755,19 @@ def run_file_source(source, folder, now, has_key, alone):
         return False
 
     day = closed_day().isoformat()
-    if done_today(source, folder, day, has_key, alone):
+    if done_today(source, day, has_key, alone):
         print(f"  {entry['name']}: already saved")
         return False
 
     print(f"  {entry['name']}")
-    new_route = alone or load_state(folder).get(source_key(source)) != day
+    new_route = alone or load_state(source['category']).get(source_key(source)) != day
     if not process(source, entry, now, has_key, new_route):
         return False
-    mark_done(source, folder, day, alone)
+    mark_done(source, source['category'], day, alone)
     return True
 
 
-def run_discovery(source, folder, now, has_key, alone):
+def run_discovery(source, now, has_key, alone):
     """A source that goes looking for repositories instead of reading a file.
 
     The day here is the day of the run: these are finds, not an edition someone
@@ -772,7 +776,7 @@ def run_discovery(source, folder, now, has_key, alone):
     kind = source["kind"]
     print(f"[{source['category']}] {kind}")
     today = closed_day()
-    seen_path = folder / "seen.json"
+    seen_path = STATE_DIR / f"{source['category'].lower()}-seen.json"
     known, seen_now = {}, None
 
     if kind == "trackawesomelist":
@@ -791,11 +795,11 @@ def run_discovery(source, folder, now, has_key, alone):
         sys.exit(f"unknown kind in sources.yaml: {kind}")
 
     day = closed_day().isoformat()
-    if done_today(source, folder, day, has_key, alone):
+    if done_today(source, day, has_key, alone):
         print("  already saved")
         return False
 
-    items = pick_repos(items, folder, day, known)
+    items = pick_repos(items, source["category"], day, known)
     if not items:
         print("  nada novo")
         return False
@@ -809,11 +813,12 @@ def run_discovery(source, folder, now, has_key, alone):
         items,
         now,
         pending=not has_key,
-        new_route=alone or load_state(folder).get(source_key(source)) != day,
+        new_route=alone or load_state(source['category']).get(source_key(source)) != day,
     )
     if seen_now is not None:
+        STATE_DIR.mkdir(parents=True, exist_ok=True)
         seen_path.write_text(json.dumps(seen_now, indent=2))
-    mark_done(source, folder, day, alone)
+    mark_done(source, source['category'], day, alone)
     return True
 
 
@@ -831,13 +836,12 @@ def main():
 
     counted = [s["category"] for s in sources]
     for source in sources:
-        folder = DATA_DIR / source["category"]
         alone = counted.count(source["category"]) == 1
         try:
             if source.get("kind", "file") == "file":
-                done = run_file_source(source, folder, now, has_key, alone)
+                done = run_file_source(source, now, has_key, alone)
             else:
-                done = run_discovery(source, folder, now, has_key, alone)
+                done = run_discovery(source, now, has_key, alone)
         except Exception as e:
             # One failing source must not take the others down, otherwise a
             # quota blown midway loses the whole day's collection.
