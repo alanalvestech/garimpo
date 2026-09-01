@@ -200,19 +200,19 @@ def date_from_name(name):
 
 
 def closed_day():
-    """The last day that is over everywhere: yesterday.
+    """Yesterday, for the sources that fill a page as the day goes.
 
-    Sources publish in their own timezone. A Japanese aggregator writes the
-    file named after today half past midnight local time, which is the middle
-    of yesterday afternoon here, so reading today's file at 7am gets half an
-    hour of content. The radar always works on the day that already closed.
+    Only those need it. The aggregators write each daily file once, complete,
+    and never touch it again, so for them the newest file is always a closed
+    one: an aggregator in Asia, twelve hours ahead, has today's file written
+    and finished before this side of the world wakes up. Holding those back a
+    day would just serve older news.
     """
     return date.today() - timedelta(days=1)
 
 
 def latest_file(source):
-    """Returns the most recent file of the source, never one from today."""
-    cutoff = closed_day()
+    """Returns the file with the most recent date in the source's folder."""
     path = source["path"].strip("./")
     url = f"https://api.github.com/repos/{source['repo']}/contents/{path}"
     try:
@@ -232,7 +232,7 @@ def latest_file(source):
         if not any(name.endswith(e) for e in source.get("ext", [".md"])):
             continue
         d = date_from_name(name)
-        if d is None or d > cutoff:
+        if d is None:
             continue
         found.append(
             {
@@ -949,7 +949,9 @@ def main():
 
     for source in sources:
         folder = DATA_DIR / source["category"]
-        shared_day = closed_day() if source["category"] in shared else None
+        # The edition day, when several routes feed one folder: what each
+        # route brings is already closed, the file is today's edition of it.
+        shared_day = date.today() if source["category"] in shared else None
         try:
             if source.get("kind", "file") == "file":
                 done = run_file_source(source, folder, now, has_key, shared_day)
