@@ -265,6 +265,75 @@ def fill_arxiv_dates(items):
     print(f"  {len(dates)}/{len(wanted)} datas vindas da API do arXiv")
 
 
+GITHUB_REPO = re.compile(r"github\.com/([\w.-]+)/([\w.-]+)/?$")
+
+TRANSLATION_SCHEMA = {"type": "ARRAY", "items": {"type": "STRING"}}
+
+TRANSLATION_PROMPT = """Translate each line to Brazilian Portuguese, keeping the
+same order and the same number of lines. Keep product names, library names and
+code identifiers as they are. Never use an em dash. Answer with the list only.
+
+Lines:
+
+{content}
+"""
+
+
+def translate_lines(lines):
+    """Translates short texts in one call, keeping the order."""
+    payload = {
+        "contents": [
+            {"parts": [{"text": TRANSLATION_PROMPT.format(content="\n".join(lines))}]}
+        ],
+        "generationConfig": {
+            "temperature": 0.2,
+            "responseMimeType": "application/json",
+            "responseSchema": TRANSLATION_SCHEMA,
+        },
+    }
+    answer = gemini(payload)
+    return answer if len(answer) == len(lines) else lines
+
+
+def fill_github_repos(items):
+    """Gives repo items the description its own owner wrote, translated.
+
+    The aggregator's file has a description too, in Chinese and written by the
+    aggregator, whose repository declares no license. This one comes from the
+    GitHub API: the owner's own words about their project, first-hand.
+    """
+    targets = {}
+    for item in items:
+        for link in item["links"]:
+            m = GITHUB_REPO.search(link)
+            if m:
+                targets[item["title"]] = (item, f"{m.group(1)}/{m.group(2)}")
+                break
+    if not targets:
+        return
+
+    described = []
+    for item, full_name in targets.values():
+        try:
+            repo = http_json(f"https://api.github.com/repos/{full_name}")
+        except Exception as e:
+            print(f"  [error] GitHub API {full_name}: {e}", file=sys.stderr)
+            continue
+        if repo.get("description"):
+            described.append((item, repo))
+
+    if not described:
+        return
+    traduzidas = translate_lines([r["description"] for _, r in described])
+    for (item, repo), description in zip(described, traduzidas):
+        stars = f"{repo['stargazers_count']:,}".replace(",", ".")
+        marks = [f"{stars} estrelas"]
+        if repo.get("language"):
+            marks.append(repo["language"])
+        item["summary"] = f"{description} ({', '.join(marks)})"
+    print(f"  {len(described)}/{len(targets)} descrições vindas da API do GitHub")
+
+
 def item_date(value, file_date):
     """Keeps the item's own date only if it is ISO and close to the file's.
 
@@ -282,27 +351,12 @@ def item_date(value, file_date):
     return parsed.isoformat()
 
 
-def translate(content, mode, file_date):
-    """Returns the file's items, each with title, links and (if full) summary."""
-    prompt = SUMMARY_PROMPT if mode == "full" else TITLE_PROMPT
+def gemini(payload):
+    """Posts to Gemini and returns the parsed JSON the schema asked for."""
     url = (
         f"https://generativelanguage.googleapis.com/v1beta/models/"
         f"{MODEL}:generateContent"
     )
-    if len(content) > CHAR_LIMIT:
-        print(f"  trimmed to {CHAR_LIMIT} of {len(content)} chars")
-    payload = {
-        "contents": [
-            {"parts": [{"text": prompt.format(content=content[:CHAR_LIMIT])}]}
-        ],
-        "generationConfig": {
-            "temperature": 0.2,
-            # The model answers with JSON shaped by the schema, so there is no
-            # item-by-item parsing of loose text afterwards.
-            "responseMimeType": "application/json",
-            "responseSchema": SCHEMA,
-        },
-    }
     req = urllib.request.Request(
         url,
         data=json.dumps(payload).encode(),
@@ -317,13 +371,31 @@ def translate(content, mode, file_date):
     with urllib.request.urlopen(req, timeout=180) as r:
         response = json.load(r)
     try:
-        raw = response["candidates"][0]["content"]["parts"][0]["text"]
-    except (KeyError, IndexError):
+        return json.loads(response["candidates"][0]["content"]["parts"][0]["text"])
+    except (KeyError, IndexError, json.JSONDecodeError):
         print(f"  [error] unexpected Gemini response: {response}", file=sys.stderr)
         return []
 
+
+def translate(content, mode, file_date):
+    """Returns the file's items, each with title, links and (if full) summary."""
+    prompt = SUMMARY_PROMPT if mode == "full" else TITLE_PROMPT
+    if len(content) > CHAR_LIMIT:
+        print(f"  trimmed to {CHAR_LIMIT} of {len(content)} chars")
+    payload = {
+        "contents": [
+            {"parts": [{"text": prompt.format(content=content[:CHAR_LIMIT])}]}
+        ],
+        "generationConfig": {
+            "temperature": 0.2,
+            # The model answers with JSON shaped by the schema, so there is no
+            # item-by-item parsing of loose text afterwards.
+            "responseMimeType": "application/json",
+            "responseSchema": SCHEMA,
+        },
+    }
     items = []
-    for item in json.loads(raw):
+    for item in gemini(payload):
         if not item.get("title") or not item.get("links"):
             continue
         clean = {"title": no_dashes(item["title"]), "links": item["links"]}
@@ -466,6 +538,7 @@ def process(source, entry, now, has_key):
 
     items = translate(raw, source["mode"], entry["date"])
     fill_arxiv_dates(items)
+    fill_github_repos(items)
     if not items:
         print("  nothing usable")
         return False
