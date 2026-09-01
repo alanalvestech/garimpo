@@ -2,7 +2,9 @@ name: radar
 
 on:
   schedule:
-    - cron: "0 10 * * *" # 07:00 in São Paulo
+    # Not on the hour: the Actions queue peaks at :00 and a scheduled
+    # run gets delayed or dropped there.
+    - cron: "23 10 * * *" # 07:23 in São Paulo
   workflow_dispatch:
     inputs:
       force:
