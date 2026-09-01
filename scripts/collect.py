@@ -44,6 +44,22 @@ MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 FORCE = os.environ.get("RADAR_FORCE") == "1"
 CHAR_LIMIT = 60000  # trims a huge file before sending it to the model
 PUBLISHED_CAP = 3000  # links remembered per category, so nothing repeats
+BREAKOUT_RATE = 300  # stars a day; below this, a repo already out stays out
+
+# What never goes out, whatever the star count. A repo caught here is recorded
+# with the reason, so it is never triaged again.
+POISON = [
+    ("gambling", r"\b(gambling|casino|betting|aposta|bookmaker|slot machine)\b"),
+    ("cripto especulativa", r"\b(memecoin|airdrop|token sniper|trading bot|pump\.fun"
+                            r"|binance|kucoin|okx|arbitrage bot)\b"),
+    ("doxxing", r"\b(phone lookup|getcontact|people search|doxx|leak(ed)? database)\b"),
+    ("abuso de conta", r"\b(auto[- ]?register|account generator|mass mailer"
+                       r"|otp bypass|sms bomber)\b"),
+    ("pirataria", r"\b(crack(ed)?|nulled|keygen|license bypass|pirat)\b"),
+    ("adulto", r"\b(coomer|nsfw scraper|porn|onlyfans)\b"),
+    ("reconstrução não oficial", r"\b(reconstructed|reverse[- ]engineered clone"
+                                 r"|unofficial rebuild)\b"),
+]
 
 RULES = """- Drop items with no link, plus ads, footers, tables of contents and indexes.
 - Keep the links intact, in the order they appear, and always point to the
@@ -129,7 +145,7 @@ SCHEMA = {
 
 
 def http_json(url):
-    req = urllib.request.Request(url, headers=headers())
+    req = urllib.request.Request(url, headers=headers(url))
     with urllib.request.urlopen(req, timeout=60) as r:
         return json.load(r)
 
@@ -139,14 +155,18 @@ TEXT_CACHE = {}  # the same file feeds several categories, download it once
 
 def http_text(url):
     if url not in TEXT_CACHE:
-        req = urllib.request.Request(url, headers=headers())
+        req = urllib.request.Request(url, headers=headers(url))
         with urllib.request.urlopen(req, timeout=60) as r:
             TEXT_CACHE[url] = r.read().decode("utf-8", errors="replace")
     return TEXT_CACHE[url]
 
 
-def headers():
-    h = {"User-Agent": "radar", "Accept": "application/vnd.github+json"}
+def headers(url):
+    """The GitHub credential goes to GitHub only, never to a third-party host."""
+    h = {"User-Agent": "radar"}
+    if not url.startswith("https://api.github.com/"):
+        return h
+    h["Accept"] = "application/vnd.github+json"
     token = os.environ.get("GITHUB_TOKEN")
     if token:
         h["Authorization"] = f"Bearer {token}"
@@ -300,46 +320,112 @@ def translate_lines(lines):
     return answer if len(answer) == len(lines) else lines
 
 
-def fill_github_repos(items, known=None):
+def github_metadata(items, known=None):
+    """Attaches the GitHub API answer to every item that points at a repo."""
+    known = known or {}
+    for item in items:
+        for link in item["links"]:
+            m = GITHUB_REPO.search(link)
+            if not m:
+                continue
+            full_name = f"{m.group(1)}/{m.group(2)}"
+            repo = known.get(full_name)
+            if repo is None:
+                try:
+                    repo = http_json(f"https://api.github.com/repos/{full_name}")
+                except Exception as e:
+                    print(f"  [error] GitHub API {full_name}: {e}", file=sys.stderr)
+                    break
+            item["repo"] = repo
+            item["stars"] = repo["stargazers_count"]
+            if repo.get("language"):
+                item["language"] = repo["language"]
+            if (repo.get("license") or {}).get("spdx_id") not in (None, "NOASSERTION"):
+                item["license"] = repo["license"]["spdx_id"]
+            break
+    return [item for item in items if "repo" in item]
+
+
+def poison_in_text(text):
+    """The reason this never goes out, or None when it is clean."""
+    text = text.lower()
+    for reason, pattern in POISON:
+        if re.search(pattern, text):
+            return reason
+    return None
+
+
+def poison_in(repo):
+    return poison_in_text(f"{repo['full_name']} {repo.get('description') or ''}")
+
+
+def poison_in_item(item):
+    """Same check over a saved item, which no longer carries the API answer."""
+    return poison_in_text(
+        f"{item['links'][0]} {item['title']} {item.get('summary', '')}"
+    )
+
+
+def drop_poisoned(items, folder):
+    """Refuses what would cost more in brand than it gives in content."""
+    kept = []
+    for item in items:
+        reason = poison_in(item["repo"]) if "repo" in item else None
+        if reason:
+            print(f"  {item['repo']['full_name']}: {reason}, fora")
+            record_drop(folder, item, reason)
+            continue
+        kept.append(item)
+    return kept
+
+
+def star_rate(item, published):
+    """Stars a day since this repo last went out, or None when it is new."""
+    known = published.get(link_key(item))
+    if not known or "stars" not in known or item.get("stars") is None:
+        return None
+    try:
+        days = (date.today() - date.fromisoformat(known["day"])).days
+    except ValueError:
+        return None
+    if days < 1:
+        return None
+    return (item["stars"] - known["stars"]) / days
+
+
+def breakouts(items, folder):
+    """Of what already went out, keeps only what is climbing fast now.
+
+    Total stars say a repo is big, which is usually old news. The rate says it
+    is happening now, and that is what earns a second appearance.
+    """
+    published = load_published(folder)
+    kept = []
+    for item in items:
+        rate = star_rate(item, published)
+        if rate is None or rate < BREAKOUT_RATE:
+            continue
+        item["stars_per_day"] = round(rate)
+        item["breakout"] = True
+        print(f"  {item['repo']['full_name']}: +{round(rate)} estrelas/dia, volta")
+        kept.append(item)
+    return kept
+
+
+def describe(items):
     """Gives repo items the description its own owner wrote, translated.
 
     The aggregator's file has a description too, in Chinese and written by the
     aggregator, whose repository declares no license. This one comes from the
     GitHub API: the owner's own words about their project, first-hand.
     """
-    targets = {}
-    for item in items:
-        for link in item["links"]:
-            m = GITHUB_REPO.search(link)
-            if m:
-                targets[item["title"]] = (item, f"{m.group(1)}/{m.group(2)}")
-                break
-    if not targets:
-        return
-
-    known = known or {}
-    described = []
-    for item, full_name in targets.values():
-        repo = known.get(full_name)
-        if repo is None:
-            try:
-                repo = http_json(f"https://api.github.com/repos/{full_name}")
-            except Exception as e:
-                print(f"  [error] GitHub API {full_name}: {e}", file=sys.stderr)
-                continue
-        if repo.get("description"):
-            described.append((item, repo))
-
+    described = [i for i in items if (i.get("repo") or {}).get("description")]
     if not described:
         return
-    traduzidas = translate_lines([r["description"] for _, r in described])
-    for (item, repo), description in zip(described, traduzidas):
+    traduzidas = translate_lines([i["repo"]["description"] for i in described])
+    for item, description in zip(described, traduzidas):
         item["summary"] = description
-        # Fields, not text glued to the summary: this is what sorts the day.
-        item["stars"] = repo["stargazers_count"]
-        if repo.get("language"):
-            item["language"] = repo["language"]
-    print(f"  {len(described)}/{len(targets)} descrições vindas da API do GitHub")
+    print(f"  {len(described)} descrições vindas da API do GitHub")
 
 
 def item_date(value, file_date):
@@ -357,6 +443,25 @@ def item_date(value, file_date):
     if not -365 <= (parsed - file_date).days <= 1:
         return None
     return parsed.isoformat()
+
+
+def pick_repos(items, folder, day, known=None):
+    """Decides which repository items go out today, and why.
+
+    New ones go out. Ones already out come back only on a breakout. Poison is
+    refused and remembered. Items that are not repositories pass through.
+    """
+    plain = [i for i in items if not GITHUB_REPO.search(i["links"][0])]
+    repos = [i for i in items if GITHUB_REPO.search(i["links"][0])]
+    if not repos:
+        fresh, _ = drop_republished(plain, folder, day)
+        return fresh
+
+    fresh, again = drop_republished(repos, folder, day)
+    fresh = drop_poisoned(github_metadata(fresh, known), folder)
+    again = breakouts(github_metadata(again, known), folder)
+    keep_plain, _ = drop_republished(plain, folder, day)
+    return fresh + again + keep_plain
 
 
 def gemini(payload):
@@ -457,9 +562,16 @@ def to_markdown(items):
 
         footer = []
         if item.get("stars") is not None:
-            footer.append(f"{item['stars']:,}".replace(",", ".") + " estrelas")
+            stars = f"{item['stars']:,}".replace(",", ".") + " estrelas"
+            if item.get("stars_per_day"):
+                stars += f" (+{item['stars_per_day']}/dia)"
+            footer.append(stars)
         if item.get("language"):
             footer.append(item["language"])
+        if item.get("license"):
+            footer.append(item["license"])
+        if item.get("found_by", 1) > 1:
+            footer.append(f"achado por {item['found_by']} fontes")
         if item.get("date"):
             footer.append(as_br(item["date"]))
         # Only the extra links: the first one is already in the title.
@@ -471,45 +583,74 @@ def to_markdown(items):
 
 
 def load_published(folder):
+    """What this category has seen: what went out, and what was refused."""
     path = folder / "published.json"
     if not path.exists():
         return {}
     try:
-        return json.loads(path.read_text())
+        saved = json.loads(path.read_text())
     except (json.JSONDecodeError, OSError):
         return {}
+    # The file used to be {link: day}; keep reading it.
+    return {
+        link: ({"day": value} if isinstance(value, str) else value)
+        for link, value in saved.items()
+    }
 
 
-def drop_republished(items, folder, day):
-    """Drops what this category already published on an earlier day.
-
-    A repository can be trending today and again tomorrow, and a story can stay
-    on the front page for a week. The radar shows what is new, so a link that
-    already went out only comes back if it is the same day being rewritten.
-    """
-    published = load_published(folder)
-    fresh = [
-        item
-        for item in items
-        if published.get(item["links"][0].rstrip("/").lower(), day) == day
-    ]
-    if len(fresh) < len(items):
-        print(f"  {len(items) - len(fresh)} já publicados antes, fora")
-    return fresh
+def link_key(item):
+    return item["links"][0].rstrip("/").lower()
 
 
-def mark_published(items, folder, day):
-    """Records what went out today, keeping the newest PUBLISHED_CAP links."""
-    published = load_published(folder)
-    for item in items:
-        published[item["links"][0].rstrip("/").lower()] = day
+def save_published(folder, published):
     if len(published) > PUBLISHED_CAP:
-        newest = sorted(published.items(), key=lambda kv: kv[1], reverse=True)
+        newest = sorted(published.items(), key=lambda kv: kv[1].get("day", ""), reverse=True)
         published = dict(newest[:PUBLISHED_CAP])
     folder.mkdir(parents=True, exist_ok=True)
     (folder / "published.json").write_text(
-        json.dumps(published, indent=2, sort_keys=True)
+        json.dumps(published, indent=2, sort_keys=True, ensure_ascii=False)
     )
+
+
+def record_drop(folder, item, reason):
+    """A refusal is memory too: it is what stops the same triage tomorrow."""
+    published = load_published(folder)
+    published[link_key(item)] = {"day": "", "status": "drop", "reason": reason}
+    save_published(folder, published)
+
+
+def drop_republished(items, folder, day):
+    """Separates what is new from what this category already handled.
+
+    A repository can be trending today and again tomorrow, and a story can stay
+    on the front page for a week. What already went out comes back only if it
+    broke out since, so it leaves here as `again` for the caller to measure.
+    Refused before means refused now, with no second triage.
+    """
+    published = load_published(folder)
+    fresh, again, refused = [], [], 0
+    for item in items:
+        known = published.get(link_key(item))
+        if known is None or known.get("day") == day:
+            fresh.append(item)
+        elif known.get("status") == "drop":
+            refused += 1
+        else:
+            again.append(item)
+    if refused:
+        print(f"  {refused} já recusados antes, fora sem nova triagem")
+    return fresh, again
+
+
+def mark_published(items, folder, day):
+    """Records what went out today, with the star count that dates it."""
+    published = load_published(folder)
+    for item in items:
+        entry = {"day": day, "status": "out"}
+        if item.get("stars") is not None:
+            entry["stars"] = item["stars"]
+        published[link_key(item)] = entry
+    save_published(folder, published)
 
 
 def already_saved(path):
@@ -522,7 +663,7 @@ def already_saved(path):
         return []
 
 
-def write_day(source, entry, items, now, pending=False):
+def write_day(source, entry, items, now, pending=False, new_route=True):
     """Writes the category's .md/.json pair under the source file's date.
 
     The files hold the items and their links, which point at the original
@@ -535,16 +676,42 @@ def write_day(source, entry, items, now, pending=False):
 
     # Several sources can feed one category, so the day's file is merged, not
     # overwritten, and an item found twice is kept once.
-    merged, seen = [], set()
+    merged, at = [], {}
     for item in already_saved(folder / f"{day}.json") + (items or []):
-        key = item["links"][0].rstrip("/").lower()
-        if key in seen:
+        reason = poison_in_item(item)
+        if reason:
+            # The filter also cleans what an earlier run had already written.
+            print(f"  {item['title']}: {reason}, sai do dia")
+            record_drop(folder, item, reason)
             continue
-        seen.add(key)
+        key = link_key(item)
+        if key in at:
+            # Two routes finding the same repo on one day is heat, not a
+            # duplicate: the count is the signal, so it is kept.
+            first = merged[at[key]]
+            if new_route:
+                first["found_by"] = first.get("found_by", 1) + 1
+            for field in ("summary", "stars", "language", "license", "date"):
+                if field in item:
+                    first.setdefault(field, item[field])
+            continue
+        at[key] = len(merged)
         merged.append(item)
-    # Where the day is a pile of repositories, the star count is the ranking.
+
     if merged and all("stars" in item for item in merged):
-        merged.sort(key=lambda item: item["stars"], reverse=True)
+        # What is climbing now beats what is merely big, and a repo two routes
+        # found on the same day beats one that only a single route saw.
+        merged.sort(
+            key=lambda i: (
+                i.get("found_by", 1),
+                i.get("stars_per_day", 0),
+                i["stars"],
+            ),
+            reverse=True,
+        )
+
+    for item in merged:
+        item.pop("repo", None)
 
     record = {
         "category": source["category"],
@@ -633,7 +800,7 @@ def needs_retry(target, has_key):
         return False
 
 
-def process(source, entry, now, has_key):
+def process(source, entry, now, has_key, new_route=True):
     """Downloads, cuts the block if any, translates, and writes the day.
 
     Returns False when there is nothing to write.
@@ -654,14 +821,15 @@ def process(source, entry, now, has_key):
         return True
 
     items = translate(raw, source["mode"], entry["date"])
-    items = drop_republished(items, DATA_DIR / source["category"], entry["date"].isoformat())
+    folder = DATA_DIR / source["category"]
+    items = pick_repos(items, folder, entry["date"].isoformat())
     if not items:
         print("  nothing new")
         return False
     fill_arxiv_dates(items)
-    fill_github_repos(items)
+    describe(items)
 
-    write_day(source, entry, items, now)
+    write_day(source, entry, items, now, new_route=new_route)
     return True
 
 
@@ -680,8 +848,9 @@ def run_file_source(source, folder, now, has_key, shared_day):
         return False
 
     print(f"  {entry['name']}")
+    new_route = load_state(folder).get(source_key(source)) != day
     entry = {**entry, "date": date.fromisoformat(day)}
-    if not process(source, entry, now, has_key):
+    if not process(source, entry, now, has_key, new_route):
         return False
     mark_done(source, folder, day)
     prune(folder, day)
@@ -723,15 +892,22 @@ def run_discovery(source, folder, now, has_key, shared_day):
         prune(folder, day)
         return False
 
-    items = drop_republished(items, folder, day)
+    items = pick_repos(items, folder, day, known)
     if not items:
         print("  nada novo")
         return False
 
     entry = {"name": kind, "date": date.fromisoformat(day)}
     if has_key:
-        fill_github_repos(items, known)
-    write_day(source, entry, items, now, pending=not has_key)
+        describe(items)
+    write_day(
+        source,
+        entry,
+        items,
+        now,
+        pending=not has_key,
+        new_route=load_state(folder).get(source_key(source)) != day,
+    )
     if seen_now is not None:
         seen_path.write_text(json.dumps(seen_now, indent=2))
     mark_done(source, folder, day)

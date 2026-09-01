@@ -114,10 +114,15 @@ def from_youtube(source, http_text, seen):
     The repos are in the description, not in the video, and the source of an
     item is the video's URL, never the channel's.
     """
-    feed = http_text(
-        "https://www.youtube.com/feeds/videos.xml"
-        f"?channel_id={source['channel']}"
-    )
+    try:
+        feed = http_text(
+            "https://www.youtube.com/feeds/videos.xml"
+            f"?channel_id={source['channel']}"
+        )
+    except Exception as e:
+        # The feeds endpoint answers 404 in bursts even for a live channel.
+        print(f"  feed do canal indisponível: {e}")
+        return [], []
     ids = re.findall(r"<yt:videoId>([^<]+)</yt:videoId>", feed)
     fresh = [v for v in ids if v not in seen][: source.get("max_videos", 3)]
     if not fresh:
