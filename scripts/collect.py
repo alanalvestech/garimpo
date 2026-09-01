@@ -465,6 +465,16 @@ def to_markdown(items):
     return "\n\n".join(blocks)
 
 
+def already_saved(path):
+    """Items already written for that day, so a second source adds to them."""
+    if not path.exists():
+        return []
+    try:
+        return json.loads(path.read_text()).get("items", [])
+    except (json.JSONDecodeError, OSError):
+        return []
+
+
 def write_day(source, entry, items, now, pending=False):
     """Writes the category's .md/.json pair under the source file's date.
 
@@ -476,20 +486,30 @@ def write_day(source, entry, items, now, pending=False):
     folder = DATA_DIR / source["category"]
     folder.mkdir(parents=True, exist_ok=True)
 
+    # Several sources can feed one category, so the day's file is merged, not
+    # overwritten, and an item found twice is kept once.
+    merged, seen = [], set()
+    for item in already_saved(folder / f"{day}.json") + (items or []):
+        key = item["links"][0].rstrip("/").lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        merged.append(item)
+
     record = {
         "category": source["category"],
         "date": day,
         "generated_at": now,
         "pending": pending,
-        "items": items or [],
+        "items": merged,
     }
     (folder / f"{day}.json").write_text(
         json.dumps(record, ensure_ascii=False, indent=2)
     )
 
     header = f"# {source['category']} · {day}\n\n"
-    if items:
-        body = to_markdown(items)
+    if merged:
+        body = to_markdown(merged)
     elif pending:
         body = (
             "Coleta pendente. Os itens entram na próxima rodada que tiver o "
@@ -511,6 +531,45 @@ def prune(folder, day):
         if re.fullmatch(r"\d{4}-\d{2}-\d{2}", old.stem) and old.stem != day:
             old.unlink()
             print(f"  removed {old.relative_to(ROOT)}")
+
+
+def done_today(source, folder, day, has_key):
+    """Whether this source already delivered that day, on its own."""
+    if FORCE:
+        return False
+    target = folder / f"{day}.json"
+    if target.exists() and needs_retry(target, has_key):
+        return False
+    return load_state(folder).get(source_key(source)) == day
+
+
+def mark_done(source, folder, day):
+    state = load_state(folder)
+    state[source_key(source)] = day
+    save_state(folder, state)
+
+
+def source_key(source):
+    """Identifies a source inside a category, for the state file."""
+    kind = source.get("kind", "file")
+    if kind == "file":
+        return f"file:{source['repo']}/{source['path']}:{source.get('section', '')}"
+    return f"{kind}:{source.get('channel', '')}"
+
+
+def load_state(folder):
+    path = folder / "state.json"
+    if not path.exists():
+        return {}
+    try:
+        return json.loads(path.read_text())
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
+def save_state(folder, state):
+    folder.mkdir(parents=True, exist_ok=True)
+    (folder / "state.json").write_text(json.dumps(state, indent=2, sort_keys=True))
 
 
 def needs_retry(target, has_key):
@@ -554,7 +613,7 @@ def process(source, entry, now, has_key):
     return True
 
 
-def run_file_source(source, folder, now, has_key):
+def run_file_source(source, folder, now, has_key, shared_day):
     """A source that publishes one file per day in a GitHub repository."""
     print(f"[{source['category']}] {source['repo']}/{source['path']}")
     entry = latest_file(source)
@@ -562,21 +621,22 @@ def run_file_source(source, folder, now, has_key):
         print("  no file with a date in the name")
         return False
 
-    day = entry["date"].isoformat()
-    target = folder / f"{day}.json"
-    if target.exists() and not FORCE and not needs_retry(target, has_key):
+    day = (shared_day or entry["date"]).isoformat()
+    if done_today(source, folder, day, has_key):
         print(f"  {entry['name']}: already saved")
         prune(folder, day)
         return False
 
     print(f"  {entry['name']}")
+    entry = {**entry, "date": date.fromisoformat(day)}
     if not process(source, entry, now, has_key):
         return False
+    mark_done(source, folder, day)
     prune(folder, day)
     return True
 
 
-def run_discovery(source, folder, now, has_key):
+def run_discovery(source, folder, now, has_key, shared_day):
     """A source that goes looking for repositories instead of reading a file.
 
     The day here is the day of the run: these are finds, not an edition someone
@@ -605,9 +665,8 @@ def run_discovery(source, folder, now, has_key):
     else:
         sys.exit(f"unknown kind in sources.yaml: {kind}")
 
-    day = day_of.isoformat()
-    target = folder / f"{day}.json"
-    if target.exists() and not FORCE and not needs_retry(target, has_key):
+    day = (shared_day or day_of).isoformat()
+    if done_today(source, folder, day, has_key):
         print("  already saved")
         prune(folder, day)
         return False
@@ -616,12 +675,13 @@ def run_discovery(source, folder, now, has_key):
         print("  nada novo")
         return False
 
-    entry = {"name": kind, "date": day_of}
+    entry = {"name": kind, "date": date.fromisoformat(day)}
     if has_key:
         fill_github_repos(items, known)
     write_day(source, entry, items, now, pending=not has_key)
     if seen_now is not None:
         seen_path.write_text(json.dumps(seen_now, indent=2))
+    mark_done(source, folder, day)
     prune(folder, day)
     return True
 
@@ -635,10 +695,10 @@ def main():
 
     sources = yaml.safe_load((ROOT / "config" / "sources.yaml").read_text())["sources"]
     categories = [s["category"] for s in sources]
-    duplicates = {c for c in categories if categories.count(c) > 1}
-    if duplicates:
-        # Two sources in one category would overwrite each other's file.
-        sys.exit(f"duplicate category in sources.yaml: {', '.join(sorted(duplicates))}")
+    # When a category has more than one source, they all write the same day, the
+    # day of the run: each source has its own idea of what day its file is, and
+    # a folder holds one day. The item's own date stays on the item.
+    shared = {c for c in categories if categories.count(c) > 1}
 
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     written = 0
@@ -646,11 +706,12 @@ def main():
 
     for source in sources:
         folder = DATA_DIR / source["category"]
+        shared_day = date.today() if source["category"] in shared else None
         try:
             if source.get("kind", "file") == "file":
-                done = run_file_source(source, folder, now, has_key)
+                done = run_file_source(source, folder, now, has_key, shared_day)
             else:
-                done = run_discovery(source, folder, now, has_key)
+                done = run_discovery(source, folder, now, has_key, shared_day)
         except Exception as e:
             # One failing source must not take the others down, otherwise a
             # quota blown midway loses the whole day's collection.

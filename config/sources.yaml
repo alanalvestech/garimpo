@@ -1,7 +1,8 @@
 # Radar sources.
 #
 # category: folder under data/, named after the kind of content, not the source.
-#           Two sources cannot share a category.
+#           Sources can share a category: the day's file gets all of them, with
+#           no repeated item, and the file is named after the collection day.
 # repo:     owner/name on GitHub
 # path:     folder inside the repo holding the daily files
 # mode:     "full" keeps title, links and a translated summary (license allows it)
@@ -142,20 +143,22 @@ sources:
     license: no license declared
     ext: [.md]
 
-  # Three ways of finding a repository, each with its own kind of noise.
-  - category: AwesomeLists
+  # Three more ways into GitHubTrending, each with its own kind of noise. A
+  # repository is a repository, wherever it was found, so they all land in the
+  # same folder as the aggregator's block above.
+  - category: GitHubTrending
     name: Track Awesome List
     kind: trackawesomelist
     mode: link
 
-  - category: GitHubAwesome
+  - category: GitHubTrending
     name: GithubAwesome
     kind: youtube_channel
     channel: UC9Rrud-8CaHokDtK9FszvRg
     max_videos: 3
     mode: link
 
-  - category: GitHubNew
+  - category: GitHubTrending
     name: GitHub Search
     kind: github_search
     windows: [1, 7, 30]
