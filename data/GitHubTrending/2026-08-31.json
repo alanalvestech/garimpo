@@ -5,46 +5,668 @@
   "pending": false,
   "items": [
     {
-      "title": "archify",
+      "title": "deepseek-harness",
       "links": [
-        "https://github.com/tt-a1i/archify"
+        "https://github.com/deepseek-ai/deepseek-harness"
       ],
-      "summary": "Habilidade de agente para diagramas de arquitetura, fluxo de trabalho, sequência, fluxo de dados e ciclo de vida bonitos e verificáveis HTML autocontido com movimento e exportação nítida. (38.975 estrelas, JavaScript)"
+      "summary": "DeepSeek Harness: Tudo é um Plugin.",
+      "stars": 206609,
+      "language": "TypeScript"
     },
     {
-      "title": "OpenMAIC",
+      "title": "crawl4ai",
       "links": [
-        "https://github.com/THU-MAIC/OpenMAIC"
+        "https://github.com/unclecode/crawl4ai"
       ],
-      "summary": "Open Multi-Agent Interactive Classroom Obtenha uma experiência de aprendizado imersiva e multiagente em apenas um clique. (27.290 estrelas, TypeScript)"
+      "summary": "🚀🤖 Crawl4AI: Web Crawler & Scraper de código aberto amigável para LLM. Não seja tímido, junte-se aqui: https://discord.gg/jP8KfhDhyN",
+      "stars": 80605,
+      "language": "Python"
+    },
+    {
+      "title": "ghidra",
+      "links": [
+        "https://github.com/NationalSecurityAgency/ghidra"
+      ],
+      "summary": "Ghidra é um framework de engenharia reversa de software (SRE)",
+      "stars": 74164,
+      "language": "Java"
+    },
+    {
+      "title": "last30days-skill",
+      "links": [
+        "https://github.com/mvanhorn/last30days-skill"
+      ],
+      "summary": "Habilidade de agente de IA que pesquisa qualquer tópico no Reddit, X, YouTube, HN, Polymarket e na web e então sintetiza um resumo fundamentado.",
+      "stars": 60797,
+      "language": "Python"
+    },
+    {
+      "title": "CLIProxyAPI",
+      "links": [
+        "https://github.com/router-for-me/CLIProxyAPI"
+      ],
+      "summary": "Empacote Antigravity, ChatGPT Codex, Claude Code, Grok Build como um serviço de API compatível com OpenAI/Gemini/Claude/Codex, permitindo que você aproveite os modelos gratuitos Gemini 3.1 Pro, GPT 5.6 Series, Grok 4.5, Claude através da API.",
+      "stars": 49649,
+      "language": "Go"
     },
     {
       "title": "scientific-agent-skills",
       "links": [
         "https://github.com/K-Dense-AI/scientific-agent-skills"
       ],
-      "summary": "Transforme qualquer agente de IA em um Cientista de IA. A biblioteca #1 de Agent Skills para ciência, usada por mais de 190.000 cientistas em todo o mundo. 165 habilidades validadas prontas para uso, mais de 100 bancos de dados científicos cobrindo biologia, química, medicina e descoberta de medicamentos. Compatível com Cursor, Claude Code, Codex, Pi, Antigravity e o padrão aberto Agent Skills. (40.784 estrelas, Python)"
+      "summary": "Transforme qualquer agente de IA em um Cientista de IA. A biblioteca #1 de Agent Skills para ciência, usada por mais de 190.000 cientistas em todo o mundo. 165 habilidades validadas prontas para uso, mais de 100 bancos de dados científicos cobrindo biologia, química, medicina e descoberta de medicamentos. Compatível com Cursor, Claude Code, Codex, Pi, Antigravity e o padrão aberto Agent Skills.",
+      "stars": 40784,
+      "language": "Python"
     },
     {
-      "title": "freellmapi",
+      "title": "archify",
       "links": [
-        "https://github.com/tashfeenahmed/freellmapi"
+        "https://github.com/tt-a1i/archify"
       ],
-      "summary": "7,4 bilhões de tokens por mês. 34 provedores de LLM gratuitos. 635 endpoints de modelo gratuitos. Tudo por trás de um endpoint /v1, mais qualquer endpoint personalizado compatível com OpenAI. Roteamento inteligente, failover automático, chaves criptografadas. Apenas para experimentação pessoal. (23.344 estrelas, TypeScript)"
-    },
-    {
-      "title": "open-seo",
-      "links": [
-        "https://github.com/every-app/open-seo"
-      ],
-      "summary": "Alternativa de código aberto para Semrush e Ahrefs (15.789 estrelas, TypeScript)"
+      "summary": "Habilidade de agente para diagramas de arquitetura, fluxo de trabalho, sequência, fluxo de dados e ciclo de vida bonitos e verificáveis HTML autocontido com movimento e exportação nítida.",
+      "stars": 38975,
+      "language": "JavaScript"
     },
     {
       "title": "heretic",
       "links": [
         "https://github.com/p-e-w/heretic"
       ],
-      "summary": "Remoção de censura totalmente automática para modelos de linguagem (29.686 estrelas, Python)"
+      "summary": "Remoção de censura totalmente automática para modelos de linguagem",
+      "stars": 29686,
+      "language": "Python"
+    },
+    {
+      "title": "OpenMAIC",
+      "links": [
+        "https://github.com/THU-MAIC/OpenMAIC"
+      ],
+      "summary": "Open Multi-Agent Interactive Classroom Obtenha uma experiência de aprendizado imersiva e multiagente em apenas um clique.",
+      "stars": 27290,
+      "language": "TypeScript"
+    },
+    {
+      "title": "freellmapi",
+      "links": [
+        "https://github.com/tashfeenahmed/freellmapi"
+      ],
+      "summary": "7,4 bilhões de tokens por mês. 34 provedores de LLM gratuitos. 635 endpoints de modelo gratuitos. Tudo por trás de um endpoint /v1, mais qualquer endpoint personalizado compatível com OpenAI. Roteamento inteligente, failover automático, chaves criptografadas. Apenas para experimentação pessoal.",
+      "stars": 23344,
+      "language": "TypeScript"
+    },
+    {
+      "title": "watermarks-remover",
+      "links": [
+        "https://github.com/guillaumemeyer/watermarks-remover"
+      ],
+      "summary": "Um aplicativo focado em privacidade que remove marcas d'água de IA de conteúdo que você possui.",
+      "stars": 19692,
+      "language": "Python"
+    },
+    {
+      "title": "anydoc",
+      "links": [
+        "https://github.com/firecrawl/anydoc"
+      ],
+      "summary": "Converta Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV e PDF para Markdown limpo. Construído em Rust, com bindings para Node.js e Python.",
+      "stars": 19687,
+      "language": "Rust"
+    },
+    {
+      "title": "open-seo",
+      "links": [
+        "https://github.com/every-app/open-seo"
+      ],
+      "summary": "Alternativa de código aberto para Semrush e Ahrefs",
+      "stars": 15789,
+      "language": "TypeScript"
+    },
+    {
+      "title": "awesome-dsh-plugin",
+      "links": [
+        "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin"
+      ],
+      "summary": "Uma lista selecionada de plugins para DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "stars": 13909,
+      "language": "Python"
+    },
+    {
+      "title": "dsh-web",
+      "links": [
+        "https://github.com/zhu1090093659/dsh-web"
+      ],
+      "summary": "Ecossistema de Agregação de Plugins Web DeepSeek Harness (DSH) · Tudo é um plugin, distribuído via Creative Workshop",
+      "stars": 6602,
+      "language": "TypeScript"
+    },
+    {
+      "title": "PRAXIST",
+      "links": [
+        "https://github.com/sapientinc/PRAXIST"
+      ],
+      "summary": "Sistema de pesquisa autônomo para pesquisa mensurável e executável por computador.",
+      "stars": 5455,
+      "language": "Python"
+    },
+    {
+      "title": "microduck",
+      "links": [
+        "https://github.com/pollen-robotics/microduck"
+      ],
+      "summary": "Um pequeno robô pato bípede 🦆",
+      "stars": 4974,
+      "language": "Rust"
+    },
+    {
+      "title": "threeui",
+      "links": [
+        "https://github.com/MengTo/threeui"
+      ],
+      "summary": "Catálogo da Comunidade ThreeUI de código aberto com componentes interativos ao vivo e código-fonte completo da Comunidade.",
+      "stars": 4793,
+      "language": "HTML"
+    },
+    {
+      "title": "anti-slop",
+      "links": [
+        "https://github.com/dmmulroy/anti-slop"
+      ],
+      "summary": "Regras opinativas do Oxlint para rejeitar padrões de TypeScript e JavaScript com baixa evidência",
+      "stars": 3940,
+      "language": "TypeScript"
+    },
+    {
+      "title": "dsh-anchored-standard",
+      "links": [
+        "https://github.com/xiaobright/dsh-anchored-standard"
+      ],
+      "summary": "Predefinição DeepSeek Harness de duas fases: bootstrap minimamente alinhado, depois ferramentas Standard completas (Project2 98/99)",
+      "stars": 3814,
+      "language": "JavaScript"
+    },
+    {
+      "title": "OpenBot",
+      "links": [
+        "https://github.com/CopilotKit/OpenBot"
+      ],
+      "summary": "Colegas de trabalho de IA de código aberto que cada um recebe seu próprio computador: um navegador, arquivos e ferramentas, com cada ação decidida antes de acontecer e registrada depois. Traga qualquer agente AG-UI.",
+      "stars": 3618,
+      "language": "TypeScript"
+    },
+    {
+      "title": "dsh-desktop",
+      "links": [
+        "https://github.com/dataelement/dsh-desktop"
+      ],
+      "summary": "DSHDesktop: DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
+      "stars": 3564,
+      "language": "TypeScript"
+    },
+    {
+      "title": "cumora",
+      "links": [
+        "https://github.com/yetone/cumora"
+      ],
+      "summary": "Onde equipes de agentes se reúnem. Chat de equipe multiplataforma onde agentes de IA são colegas de equipe de primeira classe — com cérebros na nuvem ou próprios (Claude Code / Codex).",
+      "stars": 3353,
+      "language": "TypeScript"
+    },
+    {
+      "title": "DSH-better-sidebar",
+      "links": [
+        "https://github.com/omdsh-dev/DSH-better-sidebar"
+      ],
+      "summary": "开放的侧边栏底座，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/侧边对话/Git/子代理页面 | Base de barra lateral aberta, suporta extensões de terceiros para registrar novas páginas de barra lateral. Renderização/edição de arquivos integrada, terminal, chat lateral, Git e páginas de sub-agentes.",
+      "stars": 3184,
+      "language": "TypeScript"
+    },
+    {
+      "title": "Fuxi",
+      "links": [
+        "https://github.com/fuxicodex/Fuxi"
+      ],
+      "summary": "FuXi é um agente de codificação de IA rápido e autocontido que vive no seu terminal — edite código, execute comandos e use ferramentas, com roteamento consciente de custos entre provedores de LLM.",
+      "stars": 3126,
+      "language": "Python"
+    },
+    {
+      "title": "sprix-sage-router",
+      "links": [
+        "https://github.com/wang2122/sprix-sage-router"
+      ],
+      "summary": "Sprix AI na 屿智同行 — roteamento SELF/COLLABORATE/HANDOFF consciente do estado para redes de agentes A2A.",
+      "stars": 3104,
+      "language": "Python"
+    },
+    {
+      "title": "novelWriter",
+      "links": [
+        "https://github.com/saga-soft/novelWriter"
+      ],
+      "summary": "novelWriter é um editor de texto simples de código aberto projetado para escrever romances.",
+      "stars": 3100,
+      "language": "Python"
+    },
+    {
+      "title": "anatomy",
+      "links": [
+        "https://github.com/thebuggeddev/anatomy"
+      ],
+      "summary": "Um explorador interativo de anatomia humana 3D construído usando threejs com GPT 5.6 Sol",
+      "stars": 3019,
+      "language": "TypeScript"
+    },
+    {
+      "title": "mycontext",
+      "links": [
+        "https://github.com/openTrinity/mycontext"
+      ],
+      "summary": "MyContext é um aplicativo de desktop local-first para comunicação diária e trabalho de conhecimento",
+      "stars": 3007,
+      "language": "TypeScript"
+    },
+    {
+      "title": "ASu-skills",
+      "links": [
+        "https://github.com/Hisn00w/ASu-skills"
+      ],
+      "summary": "简历包装",
+      "stars": 2988,
+      "language": "HTML"
+    },
+    {
+      "title": "Snapzy",
+      "links": [
+        "https://github.com/duongductrong/Snapzy"
+      ],
+      "summary": "Um aplicativo nativo de código aberto para macOS de captura de tela e gravação de tela. Uma alternativa ao CleanShot X.",
+      "stars": 2962,
+      "language": "Swift"
+    },
+    {
+      "title": "dsh-market",
+      "links": [
+        "https://github.com/dsh-market/dsh-market"
+      ],
+      "summary": "O mercado de plugins dentro do DeepSeek Harness — navegue, pesquise, instale com um clique · DSH 可视化插件市场",
+      "stars": 2936,
+      "language": "TypeScript"
+    },
+    {
+      "title": "codex-with-chatgpt",
+      "links": [
+        "https://github.com/XiaoDuoYa/codex-with-chatgpt"
+      ],
+      "summary": "ChatGPT pensa. Codex funciona. Use o ChatGPT como o cérebro de planejamento enquanto mantém o harness do Codex.",
+      "stars": 1870,
+      "language": "TypeScript"
+    },
+    {
+      "title": "anti-mage",
+      "links": [
+        "https://github.com/N4darae/anti-mage"
+      ],
+      "summary": "O teste de navegador utiliza vários métodos e algoritmos, e realiza cálculos baseados em múltiplos parâmetros.",
+      "stars": 1286,
+      "language": "Go"
+    },
+    {
+      "title": "sepia",
+      "links": [
+        "https://github.com/Nanako0129/sepia"
+      ],
+      "summary": "Habilidade de escrita De-AI para qualquer agente compatível com Agent Skills (77+ via Skills CLI), com plugins nativos para Claude Code, Codex, Grok Build e Antigravity. Reparo de arquitetura narrativa para ficção, regras adaptadas ao local para prosa profissional. Baseado em StoryScope (arXiv:2604.03136).",
+      "stars": 1242
+    },
+    {
+      "title": "memorax-code",
+      "links": [
+        "https://github.com/memorax-ai/memorax-code"
+      ],
+      "summary": "Um plugin de memória para codificação de IA que transforma experiência de engenharia, conhecimento de repositório e sua forma de trabalhar em memória que permanece útil em tarefas futuras.",
+      "stars": 1165,
+      "language": "JavaScript"
+    },
+    {
+      "title": "4DAnyone",
+      "links": [
+        "https://github.com/ant-research/4DAnyone"
+      ],
+      "summary": "[SIGGRAPH Asia 2026] 4DAnyone: Crie Qualquer Pessoa em 4D a partir de um Vídeo Monocular Casual",
+      "stars": 1048,
+      "language": "Python"
+    },
+    {
+      "title": "WeMM-Embedding",
+      "links": [
+        "https://github.com/Tencent/WeMM-Embedding"
+      ],
+      "summary": "WeMM-Embedding é uma família de modelos de embedding multimodal universais da WeChat Vision Team na Tencent, suportando compreensão e recuperação multimodal.",
+      "stars": 1008,
+      "language": "Python"
+    },
+    {
+      "title": "goldie",
+      "links": [
+        "https://github.com/kacperkapusciak/goldie"
+      ],
+      "summary": "✨ prévias e capturas de tela da loja de aplicativos agentic",
+      "stars": 1007,
+      "language": "TypeScript"
+    },
+    {
+      "title": "qwen38-27b-rtx3090",
+      "links": [
+        "https://github.com/syv-ai/qwen38-27b-rtx3090"
+      ],
+      "summary": "Qwen3.8-27B em uma única RTX 3090 com vLLM: ~1.000 tok/s com 64 concorrentes (int8 tensor-core GEMMs, estado fp16 DeltaNet), ~114 tok/s para um único usuário com amostragem padrão / ~124 ganancioso (MTP drafts, own-output draft vocab, calibrated int4 lm_head, split-KV verify attention), contexto de 150k-262k; patches, scripts de requantização, benchmarks",
+      "stars": 965,
+      "language": "Python"
+    },
+    {
+      "title": "WolfCut",
+      "links": [
+        "https://github.com/jub0t/WolfCut"
+      ],
+      "summary": "Substituição gratuita e de código aberto para CapCut. (anteriormente WolfCut)",
+      "stars": 923,
+      "language": "TypeScript"
+    },
+    {
+      "title": "headcount",
+      "links": [
+        "https://github.com/cbrock84/headcount"
+      ],
+      "summary": "Uma organização de agentes para Claude Code, estruturada como uma empresa – mais de 15 departamentos, mais de 125 habilidades, cada uma instalável independentemente.",
+      "stars": 857,
+      "language": "Markdown"
+    },
+    {
+      "title": "experiential",
+      "links": [
+        "https://github.com/experientiallabs/experiential"
+      ],
+      "summary": "Um gateway de modelo de código aberto que fornece um plano de controle único para modelos fechados, de código aberto, locais e personalizados.",
+      "stars": 802,
+      "language": "Python"
+    },
+    {
+      "title": "fastpotify",
+      "links": [
+        "https://github.com/crmne/fastpotify"
+      ],
+      "summary": "Spotify, nativo e rápido. Um aplicativo Rust leve para toda a sua biblioteca, reprodução local e Spotify Connect no Linux, macOS e Windows.",
+      "stars": 760,
+      "language": "Rust"
+    },
+    {
+      "title": "breakscale",
+      "links": [
+        "https://github.com/xevrion/breakscale"
+      ],
+      "summary": "Construa um sistema, carregue-o até quebrar e observe o porquê. Um simulador de design de sistemas para aprender sistemas distribuídos.",
+      "stars": 754,
+      "language": "TypeScript"
+    },
+    {
+      "title": "boop",
+      "links": [
+        "https://github.com/chrisgreg/boop"
+      ],
+      "summary": "Uma pequena caixa de entrada de notificações auto-hospedada para desenvolvedores. Algo aconteceu em um dos seus aplicativos; Boop avisa você no seu telefone.",
+      "stars": 666,
+      "language": "Go"
+    },
+    {
+      "title": "shrimply",
+      "links": [
+        "https://github.com/soirihiroka/shrimply"
+      ],
+      "summary": "você está me dizendo que um camarão fez este vídeo?",
+      "stars": 545,
+      "language": "Rust"
+    },
+    {
+      "title": "project_superdex",
+      "links": [
+        "https://github.com/facebookresearch/project_superdex"
+      ],
+      "summary": "SuperDex reúne um motor de física construído para fins específicos, ferramentas de autoria de robótica e uma interface escalável de aprendizado por reforço em uma plataforma de simulação unificada, com teleoperação baseada em VR e capacidades adicionais planejadas para futuras versões.",
+      "stars": 520,
+      "language": "C++"
+    },
+    {
+      "title": "refactoring-ui-skill",
+      "links": [
+        "https://github.com/s0xDk/refactoring-ui-skill"
+      ],
+      "summary": "Uma habilidade do Claude Code que aplica as regras de design concretas do livro Refactoring UI (Wathan & Schoger) – escalas restritas de espaçamento/tipo/cor/sombra, hierarquia através de peso e cor, e profundidade através de luz emulada – para construir e corrigir interfaces.",
+      "stars": 465,
+      "language": "CSS"
+    },
+    {
+      "title": "jot-gemini-transcribe-macOS",
+      "links": [
+        "https://github.com/google-gemini/jot-gemini-transcribe-macOS"
+      ],
+      "summary": "Demonstração do Gemini 3.5 Transcribe. Segure uma tecla. Fale. Ele digita. Ditado inteligente para macOS.",
+      "stars": 405,
+      "language": "Swift"
+    },
+    {
+      "title": "fire-your-seo-agency",
+      "links": [
+        "https://github.com/leopard627/fire-your-seo-agency"
+      ],
+      "summary": "Demita sua agência de SEO·GEO 🔥 Uma habilidade do Claude Code que audita e otimiza SEO·AEO·GEO·LLMO·NEO(Naver) por si mesma — 월 50~350만 원짜리 'AI 검색 최적화' 대행, AI 에이전트가 대체합니다",
+      "stars": 380
+    },
+    {
+      "title": "EpicInfographics",
+      "links": [
+        "https://github.com/OrRon/EpicInfographics"
+      ],
+      "summary": "Uma habilidade simples que fará seu Agente criar belos Infográficos",
+      "stars": 354,
+      "language": "JavaScript"
+    },
+    {
+      "title": "snagtime",
+      "links": [
+        "https://github.com/nateherkai/snagtime"
+      ],
+      "summary": "Aplicativo de agendamento gratuito e auto-hospedável com links de reserva, sincronização com o Google Calendar, notificações SMTP e pagamentos de teste Stripe.",
+      "stars": 295,
+      "language": "TypeScript"
+    },
+    {
+      "title": "lemmalog",
+      "links": [
+        "https://github.com/JordyZomer/lemmalog"
+      ],
+      "summary": "Um motor Datalog para memória de agente LLM: regras estratificadas, fatos com proveniência rastreada, derivação incremental e um servidor MCP que permite que seu harness o use como um cérebro compartilhado.",
+      "stars": 237,
+      "language": "Rust"
+    },
+    {
+      "title": "acryl",
+      "links": [
+        "https://github.com/acryldev/acryl"
+      ],
+      "summary": "ACRYL - Agent Context Relay Yielding Lifecycles. Um espaço de trabalho persistente, um contexto canônico, qualquer agente de codificação.",
+      "stars": 233,
+      "language": "TypeScript"
+    },
+    {
+      "title": "OpenInstinct",
+      "links": [
+        "https://github.com/Merit-Systems/OpenInstinct"
+      ],
+      "summary": "Assistente pessoal do iMessage + cofre de senhas",
+      "stars": 222,
+      "language": "TypeScript"
+    },
+    {
+      "title": "whip",
+      "links": [
+        "https://github.com/context-labs/whip"
+      ],
+      "summary": "Um harness rápido para agentes de codificação em Go. Loop de uso de ferramentas, bubbletea TUI, modelos roteáveis por provedor com descoberta de catálogo ao vivo, suporte MCP, subagentes em segundo plano. Um binário, sem tempo de execução, construído para modelos de código aberto.",
+      "stars": 198,
+      "language": "Go"
+    },
+    {
+      "title": "open-pstack",
+      "links": [
+        "https://github.com/ericlitman/open-pstack"
+      ],
+      "summary": "pstack para Claude Code e Codex, rastreando o pstack upstream do Cursor",
+      "stars": 180,
+      "language": "TypeScript"
+    },
+    {
+      "title": "highball",
+      "links": [
+        "https://github.com/gauthierpiarrette/highball"
+      ],
+      "summary": "Execute jogos do Windows no Apple Silicon – gratuito, de código aberto, com um banco de dados de compatibilidade aberto que informa o que realmente funciona.",
+      "stars": 166,
+      "language": "Swift"
+    },
+    {
+      "title": "create-photo-flipbook-ui",
+      "links": [
+        "https://github.com/HaichaoLihc/create-photo-flipbook-ui"
+      ],
+      "summary": "Habilidade do Codex para construir sites de flipbook de fotos 3D responsivos a partir de imagens fornecidas pelo usuário",
+      "stars": 165,
+      "language": "Python"
+    },
+    {
+      "title": "control-center",
+      "links": [
+        "https://github.com/mreflow/control-center"
+      ],
+      "summary": "Um painel de business intelligence local-first, orientado por configurações.",
+      "stars": 165,
+      "language": "TypeScript"
+    },
+    {
+      "title": "confetti",
+      "links": [
+        "https://github.com/rhevorn/confetti"
+      ],
+      "summary": "Confetti – uma extensão do VS Code para toml, yaml, ini, nginx, dotenv, gitignore, hosts e mais de 16 arquivos de configuração. Local, rápido, sem telemetria.",
+      "stars": 164,
+      "language": "TypeScript"
+    },
+    {
+      "title": "tare",
+      "links": [
+        "https://github.com/kelviq/tare"
+      ],
+      "summary": "Pergunte ao Claude Code para onde foi seu uso. Auditoria de tokens, diagnóstico de limites e forense de uso – construído a partir dos logs de sessão já em sua máquina, nada a deixa.",
+      "stars": 163,
+      "language": "Python"
+    },
+    {
+      "title": "pgterm",
+      "links": [
+        "https://github.com/pgrundev/pgterm"
+      ],
+      "summary": "Terminal Postgres",
+      "stars": 142,
+      "language": "Rust"
+    },
+    {
+      "title": "open-steps",
+      "links": [
+        "https://github.com/kharmanskyi/open-steps"
+      ],
+      "summary": "Habilidades que traduzem a saída do seu agente de codificação para linguagem simples: relatórios honestos, veredictos diretos, passos que você pode seguir. MIT.",
+      "stars": 135,
+      "language": "Shell"
+    },
+    {
+      "title": "tsrx",
+      "links": [
+        "https://github.com/tsrx-org/tsrx"
+      ],
+      "summary": "Linguagem TSRX, compiladores, ferramentas e integrações de editor",
+      "stars": 122,
+      "language": "JavaScript"
+    },
+    {
+      "title": "ask",
+      "links": [
+        "https://github.com/benja/ask"
+      ],
+      "summary": "Pergunte, depois faça. Acompanhe quando precisar.",
+      "stars": 120,
+      "language": "Rust"
+    },
+    {
+      "title": "modelprint",
+      "links": [
+        "https://github.com/unclecode/modelprint"
+      ],
+      "summary": "Quem está realmente por trás dessa API? Identifique qualquer endpoint compatível com OpenAI no navegador: 9 sondas de infraestrutura, comparação lado a lado, extensível pela comunidade.",
+      "stars": 112,
+      "language": "JavaScript"
+    },
+    {
+      "title": "scythe",
+      "links": [
+        "https://github.com/Goldziher/scythe"
+      ],
+      "summary": "SQL como uma linguagem de primeira classe: formatação, linting, auditoria de segurança e hooks de pre-commit para seus arquivos .sql, além de geração de código type-safe para 10 linguagens em 10 bancos de dados.",
+      "stars": 66,
+      "language": "Rust"
+    },
+    {
+      "title": "ShengJi",
+      "links": [
+        "https://github.com/maddylaneeee/ShengJi"
+      ],
+      "summary": "Recursos nativos local-first para macOS de fala para texto, legendas ao vivo, edição de legendas, tradução offline e aprimoramento de transcrição Gemma 4 no dispositivo.",
+      "stars": 11,
+      "language": "Swift"
+    },
+    {
+      "title": "kucoin-go",
+      "links": [
+        "https://github.com/tigusigalpa/kucoin-go"
+      ],
+      "summary": "SDK Go idiomático para APIs REST e WebSocket da KuCoin, UTA (Unified Trading Account) e Classic (Spot, Margin, Futures). Escrito à mão, não gerado. Preços string-typed, autenticação HMAC-SHA256, métodos context-aware, hierarquia de erros tipada, política de retry conservadora, cliente HTTP injetável e documentação de endpoint orientada por manifesto.",
+      "stars": 6,
+      "language": "Go"
+    },
+    {
+      "title": "knowledge-delta-skills",
+      "links": [
+        "https://github.com/sergeyizmailov/knowledge-delta-skills"
+      ],
+      "summary": "Habilidades de Agente (SKILL.md) para Claude Code, Codex, Cursor e Gemini CLI, apenas a expertise que um modelo de fronteira ainda não conhece de forma confiável.",
+      "stars": 3,
+      "language": "Python"
+    },
+    {
+      "title": "ScheduleGate",
+      "links": [
+        "https://github.com/gjunqueira-sys/ScheduleGate"
+      ],
+      "summary": "CLI de avaliação de cronograma de 14 pontos DCMA para exportações Excel/CSV do MS Project, offline, sem telemetria, CI/CD-native.",
+      "stars": 1,
+      "language": "Go"
+    },
+    {
+      "title": "GithubWikiGenerator",
+      "links": [
+        "https://github.com/Samyc2002/GithubWikiGenerator"
+      ],
+      "summary": "Uma pequena ferramenta para gerar Páginas Wiki do Github para documentar código arquivo por arquivo.",
+      "stars": 0,
+      "language": "Python"
     },
     {
       "title": "vphone-cli",
@@ -53,227 +675,10 @@
       ]
     },
     {
-      "title": "last30days-skill",
-      "links": [
-        "https://github.com/mvanhorn/last30days-skill"
-      ],
-      "summary": "Habilidade de agente de IA que pesquisa qualquer tópico no Reddit, X, YouTube, HN, Polymarket e na web e então sintetiza um resumo fundamentado. (60.797 estrelas, Python)"
-    },
-    {
-      "title": "crawl4ai",
-      "links": [
-        "https://github.com/unclecode/crawl4ai"
-      ],
-      "summary": "🚀🤖 Crawl4AI: Web Crawler & Scraper de código aberto amigável para LLM. Não seja tímido, junte-se aqui: https://discord.gg/jP8KfhDhyN (80.605 estrelas, Python)"
-    },
-    {
-      "title": "ghidra",
-      "links": [
-        "https://github.com/NationalSecurityAgency/ghidra"
-      ],
-      "summary": "Ghidra é um framework de engenharia reversa de software (SRE) (74.164 estrelas, Java)"
-    },
-    {
-      "title": "novelWriter",
-      "links": [
-        "https://github.com/saga-soft/novelWriter"
-      ],
-      "summary": "novelWriter é um editor de texto simples de código aberto projetado para escrever romances. (3.100 estrelas, Python)"
-    },
-    {
-      "title": "Snapzy",
-      "links": [
-        "https://github.com/duongductrong/Snapzy"
-      ],
-      "summary": "Um aplicativo nativo de código aberto para macOS de captura de tela e gravação de tela. Uma alternativa ao CleanShot X. (2.962 estrelas, Swift)"
-    },
-    {
-      "title": "ShengJi",
-      "links": [
-        "https://github.com/maddylaneeee/ShengJi"
-      ],
-      "summary": "Recursos nativos local-first para macOS de fala para texto, legendas ao vivo, edição de legendas, tradução offline e aprimoramento de transcrição Gemma 4 no dispositivo. (11 estrelas, Swift)"
-    },
-    {
-      "title": "scythe",
-      "links": [
-        "https://github.com/Goldziher/scythe"
-      ],
-      "summary": "SQL como uma linguagem de primeira classe: formatação, linting, auditoria de segurança e hooks de pre-commit para seus arquivos .sql, além de geração de código type-safe para 10 linguagens em 10 bancos de dados. (66 estrelas, Rust)"
-    },
-    {
-      "title": "knowledge-delta-skills",
-      "links": [
-        "https://github.com/sergeyizmailov/knowledge-delta-skills"
-      ],
-      "summary": "Habilidades de Agente (SKILL.md) para Claude Code, Codex, Cursor e Gemini CLI, apenas a expertise que um modelo de fronteira ainda não conhece de forma confiável. (3 estrelas, Python)"
-    },
-    {
-      "title": "CLIProxyAPI",
-      "links": [
-        "https://github.com/router-for-me/CLIProxyAPI"
-      ],
-      "summary": "Empacote Antigravity, ChatGPT Codex, Claude Code, Grok Build como um serviço de API compatível com OpenAI/Gemini/Claude/Codex, permitindo que você aproveite os modelos gratuitos Gemini 3.1 Pro, GPT 5.6 Series, Grok 4.5, Claude através da API. (49.649 estrelas, Go)"
-    },
-    {
-      "title": "GithubWikiGenerator",
-      "links": [
-        "https://github.com/Samyc2002/GithubWikiGenerator"
-      ],
-      "summary": "Uma pequena ferramenta para gerar Páginas Wiki do Github para documentar código arquivo por arquivo. (0 estrelas, Python)"
-    },
-    {
-      "title": "kucoin-go",
-      "links": [
-        "https://github.com/tigusigalpa/kucoin-go"
-      ],
-      "summary": "SDK Go idiomático para APIs REST e WebSocket da KuCoin, UTA (Unified Trading Account) e Classic (Spot, Margin, Futures). Escrito à mão, não gerado. Preços string-typed, autenticação HMAC-SHA256, métodos context-aware, hierarquia de erros tipada, política de retry conservadora, cliente HTTP injetável e documentação de endpoint orientada por manifesto. (6 estrelas, Go)"
-    },
-    {
       "title": "ws-reconnect",
       "links": [
         "https://github.com/sing198/ws-reconnect"
       ]
-    },
-    {
-      "title": "ScheduleGate",
-      "links": [
-        "https://github.com/gjunqueira-sys/ScheduleGate"
-      ],
-      "summary": "CLI de avaliação de cronograma de 14 pontos DCMA para exportações Excel/CSV do MS Project, offline, sem telemetria, CI/CD-native. (1 estrelas, Go)"
-    },
-    {
-      "title": "qwen38-27b-rtx3090",
-      "links": [
-        "https://github.com/syv-ai/qwen38-27b-rtx3090"
-      ],
-      "summary": "Qwen3.8-27B em uma única RTX 3090 com vLLM: ~1.000 tok/s com 64 concorrentes (int8 tensor-core GEMMs, estado fp16 DeltaNet), ~114 tok/s para um único usuário com amostragem padrão / ~124 ganancioso (MTP drafts, own-output draft vocab, calibrated int4 lm_head, split-KV verify attention), contexto de 150k-262k; patches, scripts de requantização, benchmarks (965 estrelas, Python)"
-    },
-    {
-      "title": "4DAnyone",
-      "links": [
-        "https://github.com/ant-research/4DAnyone"
-      ],
-      "summary": "[SIGGRAPH Asia 2026] 4DAnyone: Crie Qualquer Pessoa em 4D a partir de um Vídeo Monocular Casual (1.048 estrelas, Python)"
-    },
-    {
-      "title": "microduck",
-      "links": [
-        "https://github.com/pollen-robotics/microduck"
-      ],
-      "summary": "Um pequeno robô pato bípede 🦆 (4.974 estrelas, Rust)"
-    },
-    {
-      "title": "boop",
-      "links": [
-        "https://github.com/chrisgreg/boop"
-      ],
-      "summary": "Uma pequena caixa de entrada de notificações auto-hospedada para desenvolvedores. Algo aconteceu em um dos seus aplicativos; Boop avisa você no seu telefone. (666 estrelas, Go)"
-    },
-    {
-      "title": "anti-mage",
-      "links": [
-        "https://github.com/N4darae/anti-mage"
-      ],
-      "summary": "O teste de navegador utiliza vários métodos e algoritmos, e realiza cálculos baseados em múltiplos parâmetros. (1.286 estrelas, Go)"
-    },
-    {
-      "title": "EpicInfographics",
-      "links": [
-        "https://github.com/OrRon/EpicInfographics"
-      ],
-      "summary": "Uma habilidade simples que fará seu Agente criar belos Infográficos (354 estrelas, JavaScript)"
-    },
-    {
-      "title": "PRAXIST",
-      "links": [
-        "https://github.com/sapientinc/PRAXIST"
-      ],
-      "summary": "Sistema de pesquisa autônomo para pesquisa mensurável e executável por computador. (5.455 estrelas, Python)"
-    },
-    {
-      "title": "acryl",
-      "links": [
-        "https://github.com/acryldev/acryl"
-      ],
-      "summary": "ACRYL - Agent Context Relay Yielding Lifecycles. Um espaço de trabalho persistente, um contexto canônico, qualquer agente de codificação. (233 estrelas, TypeScript)"
-    },
-    {
-      "title": "pgterm",
-      "links": [
-        "https://github.com/pgrundev/pgterm"
-      ],
-      "summary": "Terminal Postgres (142 estrelas, Rust)"
-    },
-    {
-      "title": "memorax-code",
-      "links": [
-        "https://github.com/memorax-ai/memorax-code"
-      ],
-      "summary": "Um plugin de memória para codificação de IA que transforma experiência de engenharia, conhecimento de repositório e sua forma de trabalhar em memória que permanece útil em tarefas futuras. (1.165 estrelas, JavaScript)"
-    },
-    {
-      "title": "sepia",
-      "links": [
-        "https://github.com/Nanako0129/sepia"
-      ],
-      "summary": "Habilidade de escrita De-AI para qualquer agente compatível com Agent Skills (77+ via Skills CLI), com plugins nativos para Claude Code, Codex, Grok Build e Antigravity. Reparo de arquitetura narrativa para ficção, regras adaptadas ao local para prosa profissional. Baseado em StoryScope (arXiv:2604.03136). (1.242 estrelas)"
-    },
-    {
-      "title": "OpenInstinct",
-      "links": [
-        "https://github.com/Merit-Systems/OpenInstinct"
-      ],
-      "summary": "Assistente pessoal do iMessage + cofre de senhas (222 estrelas, TypeScript)"
-    },
-    {
-      "title": "refactoring-ui-skill",
-      "links": [
-        "https://github.com/s0xDk/refactoring-ui-skill"
-      ],
-      "summary": "Uma habilidade do Claude Code que aplica as regras de design concretas do livro Refactoring UI (Wathan & Schoger) – escalas restritas de espaçamento/tipo/cor/sombra, hierarquia através de peso e cor, e profundidade através de luz emulada – para construir e corrigir interfaces. (465 estrelas, CSS)"
-    },
-    {
-      "title": "breakscale",
-      "links": [
-        "https://github.com/xevrion/breakscale"
-      ],
-      "summary": "Construa um sistema, carregue-o até quebrar e observe o porquê. Um simulador de design de sistemas para aprender sistemas distribuídos. (754 estrelas, TypeScript)"
-    },
-    {
-      "title": "ask",
-      "links": [
-        "https://github.com/benja/ask"
-      ],
-      "summary": "Pergunte, depois faça. Acompanhe quando precisar. (120 estrelas, Rust)"
-    },
-    {
-      "title": "experiential",
-      "links": [
-        "https://github.com/experientiallabs/experiential"
-      ],
-      "summary": "Um gateway de modelo de código aberto que fornece um plano de controle único para modelos fechados, de código aberto, locais e personalizados. (802 estrelas, Python)"
-    },
-    {
-      "title": "create-photo-flipbook-ui",
-      "links": [
-        "https://github.com/HaichaoLihc/create-photo-flipbook-ui"
-      ],
-      "summary": "Habilidade do Codex para construir sites de flipbook de fotos 3D responsivos a partir de imagens fornecidas pelo usuário (165 estrelas, Python)"
-    },
-    {
-      "title": "goldie",
-      "links": [
-        "https://github.com/kacperkapusciak/goldie"
-      ],
-      "summary": "✨ prévias e capturas de tela da loja de aplicativos agentic (1.007 estrelas, TypeScript)"
-    },
-    {
-      "title": "tare",
-      "links": [
-        "https://github.com/kelviq/tare"
-      ],
-      "summary": "Pergunte ao Claude Code para onde foi seu uso. Auditoria de tokens, diagnóstico de limites e forense de uso – construído a partir dos logs de sessão já em sua máquina, nada a deixa. (163 estrelas, Python)"
     },
     {
       "title": "OpenTIE",
@@ -282,275 +687,16 @@
       ]
     },
     {
-      "title": "WolfCut",
-      "links": [
-        "https://github.com/jub0t/WolfCut"
-      ],
-      "summary": "Substituição gratuita e de código aberto para CapCut. (anteriormente WolfCut) (923 estrelas, TypeScript)"
-    },
-    {
-      "title": "open-pstack",
-      "links": [
-        "https://github.com/ericlitman/open-pstack"
-      ],
-      "summary": "pstack para Claude Code e Codex, rastreando o pstack upstream do Cursor (180 estrelas, TypeScript)"
-    },
-    {
-      "title": "confetti",
-      "links": [
-        "https://github.com/rhevorn/confetti"
-      ],
-      "summary": "Confetti – uma extensão do VS Code para toml, yaml, ini, nginx, dotenv, gitignore, hosts e mais de 16 arquivos de configuração. Local, rápido, sem telemetria. (164 estrelas, TypeScript)"
-    },
-    {
-      "title": "control-center",
-      "links": [
-        "https://github.com/mreflow/control-center"
-      ],
-      "summary": "Um painel de business intelligence local-first, orientado por configurações. (165 estrelas, TypeScript)"
-    },
-    {
-      "title": "project_superdex",
-      "links": [
-        "https://github.com/facebookresearch/project_superdex"
-      ],
-      "summary": "SuperDex reúne um motor de física construído para fins específicos, ferramentas de autoria de robótica e uma interface escalável de aprendizado por reforço em uma plataforma de simulação unificada, com teleoperação baseada em VR e capacidades adicionais planejadas para futuras versões. (520 estrelas, C++)"
-    },
-    {
-      "title": "jot-gemini-transcribe-macOS",
-      "links": [
-        "https://github.com/google-gemini/jot-gemini-transcribe-macOS"
-      ],
-      "summary": "Demonstração do Gemini 3.5 Transcribe. Segure uma tecla. Fale. Ele digita. Ditado inteligente para macOS. (405 estrelas, Swift)"
-    },
-    {
-      "title": "tsrx",
-      "links": [
-        "https://github.com/tsrx-org/tsrx"
-      ],
-      "summary": "Linguagem TSRX, compiladores, ferramentas e integrações de editor (122 estrelas, JavaScript)"
-    },
-    {
-      "title": "fire-your-seo-agency",
-      "links": [
-        "https://github.com/leopard627/fire-your-seo-agency"
-      ],
-      "summary": "Demita sua agência de SEO·GEO 🔥 Uma habilidade do Claude Code que audita e otimiza SEO·AEO·GEO·LLMO·NEO(Naver) por si mesma — 월 50~350만 원짜리 'AI 검색 최적화' 대행, AI 에이전트가 대체합니다 (380 estrelas)"
-    },
-    {
-      "title": "whip",
-      "links": [
-        "https://github.com/context-labs/whip"
-      ],
-      "summary": "Um harness rápido para agentes de codificação em Go. Loop de uso de ferramentas, bubbletea TUI, modelos roteáveis por provedor com descoberta de catálogo ao vivo, suporte MCP, subagentes em segundo plano. Um binário, sem tempo de execução, construído para modelos de código aberto. (198 estrelas, Go)"
-    },
-    {
-      "title": "highball",
-      "links": [
-        "https://github.com/gauthierpiarrette/highball"
-      ],
-      "summary": "Execute jogos do Windows no Apple Silicon – gratuito, de código aberto, com um banco de dados de compatibilidade aberto que informa o que realmente funciona. (166 estrelas, Swift)"
-    },
-    {
       "title": "effect-mq",
       "links": [
         "https://github.com/TeamWarp/effect-mq"
       ]
     },
     {
-      "title": "modelprint",
-      "links": [
-        "https://github.com/unclecode/modelprint"
-      ],
-      "summary": "Quem está realmente por trás dessa API? Identifique qualquer endpoint compatível com OpenAI no navegador: 9 sondas de infraestrutura, comparação lado a lado, extensível pela comunidade. (112 estrelas, JavaScript)"
-    },
-    {
-      "title": "open-steps",
-      "links": [
-        "https://github.com/kharmanskyi/open-steps"
-      ],
-      "summary": "Habilidades que traduzem a saída do seu agente de codificação para linguagem simples: relatórios honestos, veredictos diretos, passos que você pode seguir. MIT. (135 estrelas, Shell)"
-    },
-    {
-      "title": "headcount",
-      "links": [
-        "https://github.com/cbrock84/headcount"
-      ],
-      "summary": "Uma organização de agentes para Claude Code, estruturada como uma empresa – mais de 15 departamentos, mais de 125 habilidades, cada uma instalável independentemente. (857 estrelas, Markdown)"
-    },
-    {
-      "title": "lemmalog",
-      "links": [
-        "https://github.com/JordyZomer/lemmalog"
-      ],
-      "summary": "Um motor Datalog para memória de agente LLM: regras estratificadas, fatos com proveniência rastreada, derivação incremental e um servidor MCP que permite que seu harness o use como um cérebro compartilhado. (237 estrelas, Rust)"
-    },
-    {
-      "title": "snagtime",
-      "links": [
-        "https://github.com/nateherkai/snagtime"
-      ],
-      "summary": "Aplicativo de agendamento gratuito e auto-hospedável com links de reserva, sincronização com o Google Calendar, notificações SMTP e pagamentos de teste Stripe. (295 estrelas, TypeScript)"
-    },
-    {
-      "title": "codex-with-chatgpt",
-      "links": [
-        "https://github.com/XiaoDuoYa/codex-with-chatgpt"
-      ],
-      "summary": "ChatGPT pensa. Codex funciona. Use o ChatGPT como o cérebro de planejamento enquanto mantém o harness do Codex. (1.870 estrelas, TypeScript)"
-    },
-    {
-      "title": "WeMM-Embedding",
-      "links": [
-        "https://github.com/Tencent/WeMM-Embedding"
-      ],
-      "summary": "WeMM-Embedding é uma família de modelos de embedding multimodal universais da WeChat Vision Team na Tencent, suportando compreensão e recuperação multimodal. (1.008 estrelas, Python)"
-    },
-    {
-      "title": "fastpotify",
-      "links": [
-        "https://github.com/crmne/fastpotify"
-      ],
-      "summary": "Spotify, nativo e rápido. Um aplicativo Rust leve para toda a sua biblioteca, reprodução local e Spotify Connect no Linux, macOS e Windows. (760 estrelas, Rust)"
-    },
-    {
-      "title": "shrimply",
-      "links": [
-        "https://github.com/soirihiroka/shrimply"
-      ],
-      "summary": "você está me dizendo que um camarão fez este vídeo? (545 estrelas, Rust)"
-    },
-    {
-      "title": "deepseek-harness",
-      "links": [
-        "https://github.com/deepseek-ai/deepseek-harness"
-      ],
-      "summary": "DeepSeek Harness: Tudo é um Plugin. (206.609 estrelas, TypeScript)"
-    },
-    {
       "title": "dsh-desktop",
       "links": [
         "https://github.com/anywhere-labs/dsh-desktop"
       ]
-    },
-    {
-      "title": "watermarks-remover",
-      "links": [
-        "https://github.com/guillaumemeyer/watermarks-remover"
-      ],
-      "summary": "Um aplicativo focado em privacidade que remove marcas d'água de IA de conteúdo que você possui. (19.692 estrelas, Python)"
-    },
-    {
-      "title": "anydoc",
-      "links": [
-        "https://github.com/firecrawl/anydoc"
-      ],
-      "summary": "Converta Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV e PDF para Markdown limpo. Construído em Rust, com bindings para Node.js e Python. (19.687 estrelas, Rust)"
-    },
-    {
-      "title": "awesome-dsh-plugin",
-      "links": [
-        "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin"
-      ],
-      "summary": "Uma lista selecionada de plugins para DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表 (13.909 estrelas, Python)"
-    },
-    {
-      "title": "dsh-web",
-      "links": [
-        "https://github.com/zhu1090093659/dsh-web"
-      ],
-      "summary": "Ecossistema de Agregação de Plugins Web DeepSeek Harness (DSH) · Tudo é um plugin, distribuído via Creative Workshop (6.602 estrelas, TypeScript)"
-    },
-    {
-      "title": "threeui",
-      "links": [
-        "https://github.com/MengTo/threeui"
-      ],
-      "summary": "Catálogo da Comunidade ThreeUI de código aberto com componentes interativos ao vivo e código-fonte completo da Comunidade. (4.793 estrelas, HTML)"
-    },
-    {
-      "title": "anti-slop",
-      "links": [
-        "https://github.com/dmmulroy/anti-slop"
-      ],
-      "summary": "Regras opinativas do Oxlint para rejeitar padrões de TypeScript e JavaScript com baixa evidência (3.940 estrelas, TypeScript)"
-    },
-    {
-      "title": "dsh-anchored-standard",
-      "links": [
-        "https://github.com/xiaobright/dsh-anchored-standard"
-      ],
-      "summary": "Predefinição DeepSeek Harness de duas fases: bootstrap minimamente alinhado, depois ferramentas Standard completas (Project2 98/99) (3.814 estrelas, JavaScript)"
-    },
-    {
-      "title": "OpenBot",
-      "links": [
-        "https://github.com/CopilotKit/OpenBot"
-      ],
-      "summary": "Colegas de trabalho de IA de código aberto que cada um recebe seu próprio computador: um navegador, arquivos e ferramentas, com cada ação decidida antes de acontecer e registrada depois. Traga qualquer agente AG-UI. (3.618 estrelas, TypeScript)"
-    },
-    {
-      "title": "dsh-desktop",
-      "links": [
-        "https://github.com/dataelement/dsh-desktop"
-      ],
-      "summary": "DSHDesktop: DeepSeek Harness Desktop / DeepSeek Harness 桌面版 (3.564 estrelas, TypeScript)"
-    },
-    {
-      "title": "cumora",
-      "links": [
-        "https://github.com/yetone/cumora"
-      ],
-      "summary": "Onde equipes de agentes se reúnem. Chat de equipe multiplataforma onde agentes de IA são colegas de equipe de primeira classe — com cérebros na nuvem ou próprios (Claude Code / Codex). (3.353 estrelas, TypeScript)"
-    },
-    {
-      "title": "DSH-better-sidebar",
-      "links": [
-        "https://github.com/omdsh-dev/DSH-better-sidebar"
-      ],
-      "summary": "开放的侧边栏底座，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/侧边对话/Git/子代理页面 | Base de barra lateral aberta, suporta extensões de terceiros para registrar novas páginas de barra lateral. Renderização/edição de arquivos integrada, terminal, chat lateral, Git e páginas de sub-agentes. (3.184 estrelas, TypeScript)"
-    },
-    {
-      "title": "Fuxi",
-      "links": [
-        "https://github.com/fuxicodex/Fuxi"
-      ],
-      "summary": "FuXi é um agente de codificação de IA rápido e autocontido que vive no seu terminal — edite código, execute comandos e use ferramentas, com roteamento consciente de custos entre provedores de LLM. (3.126 estrelas, Python)"
-    },
-    {
-      "title": "sprix-sage-router",
-      "links": [
-        "https://github.com/wang2122/sprix-sage-router"
-      ],
-      "summary": "Sprix AI na 屿智同行 — roteamento SELF/COLLABORATE/HANDOFF consciente do estado para redes de agentes A2A. (3.104 estrelas, Python)"
-    },
-    {
-      "title": "anatomy",
-      "links": [
-        "https://github.com/thebuggeddev/anatomy"
-      ],
-      "summary": "Um explorador interativo de anatomia humana 3D construído usando threejs com GPT 5.6 Sol (3.019 estrelas, TypeScript)"
-    },
-    {
-      "title": "mycontext",
-      "links": [
-        "https://github.com/openTrinity/mycontext"
-      ],
-      "summary": "MyContext é um aplicativo de desktop local-first para comunicação diária e trabalho de conhecimento (3.007 estrelas, TypeScript)"
-    },
-    {
-      "title": "ASu-skills",
-      "links": [
-        "https://github.com/Hisn00w/ASu-skills"
-      ],
-      "summary": "简历包装 (2.988 estrelas, HTML)"
-    },
-    {
-      "title": "dsh-market",
-      "links": [
-        "https://github.com/dsh-market/dsh-market"
-      ],
-      "summary": "O mercado de plugins dentro do DeepSeek Harness — navegue, pesquise, instale com um clique · DSH 可视化插件市场 (2.936 estrelas, TypeScript)"
     }
   ]
 }

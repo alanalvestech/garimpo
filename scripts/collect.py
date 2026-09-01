@@ -333,11 +333,11 @@ def fill_github_repos(items, known=None):
         return
     traduzidas = translate_lines([r["description"] for _, r in described])
     for (item, repo), description in zip(described, traduzidas):
-        stars = f"{repo['stargazers_count']:,}".replace(",", ".")
-        marks = [f"{stars} estrelas"]
+        item["summary"] = description
+        # Fields, not text glued to the summary: this is what sorts the day.
+        item["stars"] = repo["stargazers_count"]
         if repo.get("language"):
-            marks.append(repo["language"])
-        item["summary"] = f"{description} ({', '.join(marks)})"
+            item["language"] = repo["language"]
     print(f"  {len(described)}/{len(targets)} descrições vindas da API do GitHub")
 
 
@@ -455,6 +455,10 @@ def to_markdown(items):
             lines.append("")
 
         footer = []
+        if item.get("stars") is not None:
+            footer.append(f"{item['stars']:,}".replace(",", ".") + " estrelas")
+        if item.get("language"):
+            footer.append(item["language"])
         if item.get("date"):
             footer.append(as_br(item["date"]))
         # Only the extra links: the first one is already in the title.
@@ -495,6 +499,9 @@ def write_day(source, entry, items, now, pending=False):
             continue
         seen.add(key)
         merged.append(item)
+    # Where the day is a pile of repositories, the star count is the ranking.
+    if merged and all("stars" in item for item in merged):
+        merged.sort(key=lambda item: item["stars"], reverse=True)
 
     record = {
         "category": source["category"],
