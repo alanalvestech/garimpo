@@ -378,14 +378,13 @@ def poison_in_item(item):
     )
 
 
-def drop_poisoned(items, folder):
+def drop_poisoned(items):
     """Refuses what would cost more in brand than it gives in content."""
     kept = []
     for item in items:
         reason = poison_in(item["repo"]) if "repo" in item else None
         if reason:
             print(f"  {item['repo']['full_name']}: {reason}, fora")
-            record_drop(folder, item, reason)
             continue
         kept.append(item)
     return kept
@@ -470,7 +469,7 @@ def pick_repos(items, folder, day, known=None):
         return fresh
 
     fresh, again = drop_republished(repos, folder, day)
-    fresh = drop_poisoned(github_metadata(fresh, known), folder)
+    fresh = drop_poisoned(github_metadata(fresh, known))
     again = breakouts(github_metadata(again, known), folder)
     keep_plain, _ = drop_republished(plain, folder, day)
     return fresh + again + keep_plain
@@ -624,33 +623,25 @@ def save_published(folder, published):
     )
 
 
-def record_drop(folder, item, reason):
-    """A refusal is memory too: it is what stops the same triage tomorrow."""
-    published = load_published(folder)
-    published[link_key(item)] = {"day": "", "status": "drop", "reason": reason}
-    save_published(folder, published)
-
-
 def drop_republished(items, folder, day):
-    """Separates what is new from what this category already handled.
+    """Separates what is new from what this category already published.
 
     A repository can be trending today and again tomorrow, and a story can stay
     on the front page for a week. What already went out comes back only if it
     broke out since, so it leaves here as `again` for the caller to measure.
-    Refused before means refused now, with no second triage.
+
+    A refusal is not remembered on purpose: the filters are deterministic, so
+    tomorrow they reach the same answer for free, and a repo that grows a
+    second contributor or rewrites its description deserves a fresh look.
     """
     published = load_published(folder)
-    fresh, again, refused = [], [], 0
+    fresh, again = [], []
     for item in items:
         known = published.get(link_key(item))
         if known is None or known.get("day") == day:
             fresh.append(item)
-        elif known.get("status") == "drop":
-            refused += 1
         else:
             again.append(item)
-    if refused:
-        print(f"  {refused} já recusados antes, fora sem nova triagem")
     return fresh, again
 
 
@@ -658,7 +649,7 @@ def mark_published(items, folder, day):
     """Records what went out today, with the star count that dates it."""
     published = load_published(folder)
     for item in items:
-        entry = {"day": day, "status": "out"}
+        entry = {"day": day}
         if item.get("stars") is not None:
             entry["stars"] = item["stars"]
         published[link_key(item)] = entry
@@ -694,7 +685,6 @@ def write_day(source, entry, items, now, pending=False, new_route=True):
         if reason:
             # The filter also cleans what an earlier run had already written.
             print(f"  {item['title']}: {reason}, sai do dia")
-            record_drop(folder, item, reason)
             continue
         key = link_key(item)
         if key in at:
