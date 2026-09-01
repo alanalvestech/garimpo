@@ -43,6 +43,7 @@ DATA_DIR = ROOT / "data"
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 FORCE = os.environ.get("RADAR_FORCE") == "1"
 CHAR_LIMIT = 60000  # trims a huge file before sending it to the model
+PUBLISHED_CAP = 3000  # links remembered per category, so nothing repeats
 
 RULES = """- Drop items with no link, plus ads, footers, tables of contents and indexes.
 - Keep the links intact, in the order they appear, and always point to the
@@ -469,6 +470,48 @@ def to_markdown(items):
     return "\n\n".join(blocks)
 
 
+def load_published(folder):
+    path = folder / "published.json"
+    if not path.exists():
+        return {}
+    try:
+        return json.loads(path.read_text())
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
+def drop_republished(items, folder, day):
+    """Drops what this category already published on an earlier day.
+
+    A repository can be trending today and again tomorrow, and a story can stay
+    on the front page for a week. The radar shows what is new, so a link that
+    already went out only comes back if it is the same day being rewritten.
+    """
+    published = load_published(folder)
+    fresh = [
+        item
+        for item in items
+        if published.get(item["links"][0].rstrip("/").lower(), day) == day
+    ]
+    if len(fresh) < len(items):
+        print(f"  {len(items) - len(fresh)} já publicados antes, fora")
+    return fresh
+
+
+def mark_published(items, folder, day):
+    """Records what went out today, keeping the newest PUBLISHED_CAP links."""
+    published = load_published(folder)
+    for item in items:
+        published[item["links"][0].rstrip("/").lower()] = day
+    if len(published) > PUBLISHED_CAP:
+        newest = sorted(published.items(), key=lambda kv: kv[1], reverse=True)
+        published = dict(newest[:PUBLISHED_CAP])
+    folder.mkdir(parents=True, exist_ok=True)
+    (folder / "published.json").write_text(
+        json.dumps(published, indent=2, sort_keys=True)
+    )
+
+
 def already_saved(path):
     """Items already written for that day, so a second source adds to them."""
     if not path.exists():
@@ -525,6 +568,7 @@ def write_day(source, entry, items, now, pending=False):
     else:
         body = "Nada aproveitável neste dia."
     (folder / f"{day}.md").write_text(header + body + "\n")
+    mark_published(merged, folder, day)
     print(f"  written data/{source['category']}/{day}.md")
 
 
@@ -610,11 +654,12 @@ def process(source, entry, now, has_key):
         return True
 
     items = translate(raw, source["mode"], entry["date"])
+    items = drop_republished(items, DATA_DIR / source["category"], entry["date"].isoformat())
+    if not items:
+        print("  nothing new")
+        return False
     fill_arxiv_dates(items)
     fill_github_repos(items)
-    if not items:
-        print("  nothing usable")
-        return False
 
     write_day(source, entry, items, now)
     return True
@@ -678,6 +723,7 @@ def run_discovery(source, folder, now, has_key, shared_day):
         prune(folder, day)
         return False
 
+    items = drop_republished(items, folder, day)
     if not items:
         print("  nada novo")
         return False
