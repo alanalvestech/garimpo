@@ -423,9 +423,13 @@ def write_day(source, entry, items, now, pending=False):
 
 
 def prune(folder, day):
-    """Keeps only the current day: the previous one lives in the git history."""
+    """Keeps only the current day: the previous one lives in the git history.
+
+    The category's feed lives in the same folder and stays: it is the running
+    history, not a day.
+    """
     for old in folder.glob("*.*"):
-        if old.stem != day:
+        if old.suffix in (".md", ".json") and old.stem != day:
             old.unlink()
             print(f"  removed {old.relative_to(ROOT)}")
 

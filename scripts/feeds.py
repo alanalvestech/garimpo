@@ -1,4 +1,7 @@
-"""Builds the RSS feeds in feeds/, one per category plus a combined one.
+"""Builds the RSS feeds: one inside each category folder, one at the root.
+
+    data/<Category>/<category>.xml
+    rss.xml
 
 The feed is its own history: data/ keeps only the latest day, so a reader that
 opens once a week would miss whatever left the folder. Each run merges the day
@@ -16,7 +19,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
-FEED_DIR = ROOT / "feeds"
 SITE = "https://github.com/alanalvestech/radar"
 ITEM_CAP = 50
 
@@ -112,13 +114,13 @@ def main():
         items = as_feed_items(record)
         everything += items
         write_feed(
-            FEED_DIR / f"{record['category']}.xml",
+            record_path.parent / f"{record['category'].lower()}.xml",
             f"radar · {record['category']}",
             f"Notícias de {record['category']}, em português.",
             items,
         )
     write_feed(
-        FEED_DIR / "all.xml",
+        ROOT / "rss.xml",
         "radar",
         "Notícias diárias de tecnologia, em português.",
         everything,

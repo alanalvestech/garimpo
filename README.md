@@ -6,11 +6,11 @@ Todo dia de manhã uma rotina lê o que as fontes publicaram, traduz e resume. E
 
 ## Assinar
 
-Cada categoria tem um feed RSS em [`feeds/`](feeds), e `all.xml` junta todas. Para assinar, cole no seu leitor a URL do arquivo cru:
+O [`rss.xml`](rss.xml) na raiz junta todas as categorias, e cada pasta em `data/` tem o feed dela. Para assinar, cole no seu leitor a URL do arquivo cru:
 
 ```
-https://raw.githubusercontent.com/alanalvestech/radar/main/feeds/all.xml
-https://raw.githubusercontent.com/alanalvestech/radar/main/feeds/Arxiv.xml
+https://raw.githubusercontent.com/alanalvestech/radar/main/rss.xml
+https://raw.githubusercontent.com/alanalvestech/radar/main/data/Arxiv/arxiv.xml
 ```
 
 O feed guarda os últimos 50 itens, então quem abre o leitor uma vez por semana não perde o que já saiu de `data/`.
