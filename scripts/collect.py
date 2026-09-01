@@ -1,15 +1,15 @@
 """Reads the latest file of each source, translates it with Gemini, writes data/.
 
-Every category has its own folder, and the folder keeps only the most recent day
-the source published:
+Every category has one archive, holding every day it ever published, newest
+first:
 
-    data/<Category>/YYYY-MM-DD.md
-    data/<Category>/YYYY-MM-DD.json
+    data/<Category>/<category>.json
 
-The date in the name is the source file's, not the day the collection ran: a
-source that lags shows up with its own date. When a new day comes in, the
-previous one leaves the folder and lives on in the git history. A day already
-saved is skipped, so running again neither rewrites it nor spends a call.
+The day on each item is the day being reported, D-1 of the run, not the date
+the source gave to its own file: a source names the file after the day it
+published, not the day it covers. The archive is also the memory, so what
+already went out is not published twice and the star count that dates it is
+right there.
 
 Usage:
     GEMINI_API_KEY=... python scripts/collect.py
@@ -393,7 +393,7 @@ def drop_poisoned(items):
 def star_rate(item, published):
     """Stars a day since this repo last went out, or None when it is new."""
     known = published.get(link_key(item))
-    if not known or "stars" not in known or item.get("stars") is None:
+    if not known or known.get("stars") is None or item.get("stars") is None:
         return None
     try:
         days = (date.today() - date.fromisoformat(known["day"])).days
@@ -410,7 +410,7 @@ def breakouts(items, folder):
     Total stars say a repo is big, which is usually old news. The rate says it
     is happening now, and that is what earns a second appearance.
     """
-    published = load_published(folder)
+    published = seen_before(folder)
     kept = []
     for item in items:
         rate = star_rate(item, published)
@@ -548,79 +548,16 @@ def domain(url):
     return urllib.parse.urlparse(url).netloc.removeprefix("www.")
 
 
-def as_br(iso):
-    """2026-08-28 as 28/08/2026, which is how the reader writes a date."""
-    year, month, day = iso.split("-")
-    return f"{day}/{month}/{year}"
-
-
-def to_markdown(items):
-    """Builds the .md body out of the same items that go into the .json.
-
-    The title carries the first link, so reading the file is one click away
-    from the original. Extra links land on their own line, named by host.
-    """
-    blocks = []
-    for item in items:
-        first, *rest = item["links"]
-        lines = [f"### [{item['title']}]({first})", ""]
-        if item.get("authors"):
-            lines.append(f"*{', '.join(item['authors'])}*")
-            lines.append("")
-        if item.get("summary"):
-            lines.append(item["summary"])
-            lines.append("")
-
-        footer = []
-        if item.get("stars") is not None:
-            stars = f"{item['stars']:,}".replace(",", ".") + " estrelas"
-            if item.get("stars_per_day"):
-                stars += f" (+{item['stars_per_day']}/dia)"
-            footer.append(stars)
-        if item.get("language"):
-            footer.append(item["language"])
-        if item.get("license"):
-            footer.append(item["license"])
-        if item.get("found_by", 1) > 1:
-            footer.append(f"achado por {item['found_by']} fontes")
-        if item.get("date"):
-            footer.append(as_br(item["date"]))
-        # Only the extra links: the first one is already in the title.
-        footer += [f"[{domain(u)}]({u})" for u in rest]
-        if footer:
-            lines.append(" · ".join(footer))
-        blocks.append("\n".join(lines).rstrip())
-    return "\n\n".join(blocks)
-
-
-def load_published(folder):
-    """What this category has seen: what went out, and what was refused."""
-    path = folder / "published.json"
-    if not path.exists():
-        return {}
-    try:
-        saved = json.loads(path.read_text())
-    except (json.JSONDecodeError, OSError):
-        return {}
-    # The file used to be {link: day}; keep reading it.
-    return {
-        link: ({"day": value} if isinstance(value, str) else value)
-        for link, value in saved.items()
-    }
-
-
 def link_key(item):
     return item["links"][0].rstrip("/").lower()
 
 
-def save_published(folder, published):
-    if len(published) > PUBLISHED_CAP:
-        newest = sorted(published.items(), key=lambda kv: kv[1].get("day", ""), reverse=True)
-        published = dict(newest[:PUBLISHED_CAP])
-    folder.mkdir(parents=True, exist_ok=True)
-    (folder / "published.json").write_text(
-        json.dumps(published, indent=2, sort_keys=True, ensure_ascii=False)
-    )
+def seen_before(folder):
+    """Link to the day and the star count of when it last went out."""
+    return {
+        link_key(i): {"day": i.get("day"), "stars": i.get("stars")}
+        for i in load_archive(folder.name)["items"]
+    }
 
 
 def drop_republished(items, folder, day):
@@ -634,7 +571,7 @@ def drop_republished(items, folder, day):
     tomorrow they reach the same answer for free, and a repo that grows a
     second contributor or rewrites its description deserves a fresh look.
     """
-    published = load_published(folder)
+    published = seen_before(folder)
     fresh, again = [], []
     for item in items:
         known = published.get(link_key(item))
@@ -645,65 +582,67 @@ def drop_republished(items, folder, day):
     return fresh, again
 
 
-def mark_published(items, folder, day):
-    """Records what went out today, with the star count that dates it."""
-    published = load_published(folder)
-    for item in items:
-        entry = {"day": day}
-        if item.get("stars") is not None:
-            entry["stars"] = item["stars"]
-        published[link_key(item)] = entry
-    save_published(folder, published)
+def archive_path(category):
+    return DATA_DIR / category / f"{category.lower()}.json"
 
 
-def already_saved(path):
-    """Items already written for that day, so a second source adds to them."""
+def load_archive(category):
+    """Everything this category has ever published, newest day first."""
+    path = archive_path(category)
     if not path.exists():
-        return []
+        return {"category": category, "updated_at": None, "items": []}
     try:
-        return json.loads(path.read_text()).get("items", [])
+        return json.loads(path.read_text())
     except (json.JSONDecodeError, OSError):
-        return []
+        return {"category": category, "updated_at": None, "items": []}
 
 
 def write_day(source, entry, items, now, pending=False, new_route=True):
-    """Writes the category's .md/.json pair under the source file's date.
+    """Adds the day's items to the category's archive.
 
-    The files hold the items and their links, which point at the original
-    publication. The repository the list was read from stays out: it is
-    the route, not the source.
+    One file per category, holding every day it ever published, newest first.
+    It is the reading of the day and the memory at once: what already went out
+    is in there, with the star count that dates it, so nothing else has to
+    remember on the side.
     """
+    category = source["category"]
     day = closed_day().isoformat()
-    folder = DATA_DIR / source["category"]
-    folder.mkdir(parents=True, exist_ok=True)
+    archive = load_archive(category)
+    at = {link_key(i): n for n, i in enumerate(archive["items"])}
 
-    # Several sources can feed one category, so the day's file is merged, not
-    # overwritten, and an item found twice is kept once.
-    merged, at = [], {}
-    for item in already_saved(folder / f"{day}.json") + (items or []):
+    added = 0
+    for item in items or []:
         reason = poison_in_item(item)
         if reason:
-            # The filter also cleans what an earlier run had already written.
-            print(f"  {item['title']}: {reason}, sai do dia")
+            print(f"  {item['title']}: {reason}, fora")
             continue
+        item.pop("repo", None)
+        item["day"] = day
         key = link_key(item)
+
         if key in at:
-            # Two routes finding the same repo on one day is heat, not a
+            before = archive["items"][at[key]]
+            if before.get("day") != day:
+                continue  # an older day already has it; only a breakout returns
+            # Two routes finding the same thing on one day is heat, not a
             # duplicate: the count is the signal, so it is kept.
-            first = merged[at[key]]
             if new_route:
-                first["found_by"] = first.get("found_by", 1) + 1
+                before["found_by"] = before.get("found_by", 1) + 1
             for field in ("summary", "stars", "language", "license", "date"):
                 if field in item:
-                    first.setdefault(field, item[field])
+                    before.setdefault(field, item[field])
             continue
-        at[key] = len(merged)
-        merged.append(item)
 
-    if merged and all("stars" in item for item in merged):
-        # What is climbing now beats what is merely big, and a repo two routes
-        # found on the same day beats one that only a single route saw.
-        merged.sort(
+        at[key] = len(archive["items"])
+        archive["items"].append(item)
+        added += 1
+
+    today_items = [i for i in archive["items"] if i.get("day") == day]
+    older = [i for i in archive["items"] if i.get("day") != day]
+    if today_items and all("stars" in i for i in today_items):
+        # What is climbing now beats what is merely big, and something two
+        # routes found on the same day beats what a single route saw.
+        today_items.sort(
             key=lambda i: (
                 i.get("found_by", 1),
                 i.get("stars_per_day", 0),
@@ -711,64 +650,31 @@ def write_day(source, entry, items, now, pending=False, new_route=True):
             ),
             reverse=True,
         )
+    archive["items"] = today_items + older
+    archive["updated_at"] = now
+    archive["pending"] = pending
 
-    for item in merged:
-        item.pop("repo", None)
-
-    record = {
-        "category": source["category"],
-        "date": day,
-        "generated_at": now,
-        "pending": pending,
-        "items": merged,
-    }
-    (folder / f"{day}.json").write_text(
-        json.dumps(record, ensure_ascii=False, indent=2)
-    )
-
-    header = f"# {source['category']} · {day}\n\n"
-    if merged:
-        body = to_markdown(merged)
-    elif pending:
-        body = (
-            "Coleta pendente. Os itens entram na próxima rodada que tiver o "
-            "GEMINI_API_KEY definido."
-        )
-    else:
-        body = "Nada aproveitável neste dia."
-    (folder / f"{day}.md").write_text(header + body + "\n")
-    mark_published(merged, folder, day)
-    print(f"  written data/{source['category']}/{day}.md")
-
-
-def prune(folder, day):
-    """Keeps only the current day: the previous one lives in the git history.
-
-    Only files named after a day are pruned. The category's feed and whatever
-    state a collector keeps live in the same folder and stay.
-    """
-    for old in folder.glob("*.*"):
-        # Older only: a day ahead of this one is not garbage, it is a day the
-        # already published and must not walk back over.
-        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", old.stem) and old.stem < day:
-            old.unlink()
-            print(f"  removed {old.relative_to(ROOT)}")
+    path = archive_path(category)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(archive, ensure_ascii=False, indent=2))
+    print(f"  {added} novos em data/{category}/{path.name} ({len(archive['items'])} no total)")
 
 
 def done_today(source, folder, day, has_key, alone):
     """Whether this source already delivered that day, on its own.
 
-    With a single source in the folder, the day's file answers it. With more
-    than one, it does not: the file may have been written by another route, so
-    those folders keep a state file saying which route delivered which day.
+    With a single source in the folder, the archive answers it: the day is
+    either in there or it is not. With more than one it does not, since another
+    route may have written that day, so those folders keep a state file saying
+    which route delivered which day.
     """
     if FORCE:
         return False
-    target = folder / f"{day}.json"
-    if target.exists() and needs_retry(target, has_key):
-        return False
+    archive = load_archive(folder.name)
+    if has_key and archive.get("pending"):
+        return False  # written with no key: it went out empty, redo it
     if alone:
-        return target.exists()
+        return any(item.get("day") == day for item in archive["items"])
     return load_state(folder).get(source_key(source)) == day
 
 
@@ -801,16 +707,6 @@ def load_state(folder):
 def save_state(folder, state):
     folder.mkdir(parents=True, exist_ok=True)
     (folder / "state.json").write_text(json.dumps(state, indent=2, sort_keys=True))
-
-
-def needs_retry(target, has_key):
-    """Says whether a saved day should be redone, having been left pending."""
-    if not has_key:
-        return False
-    try:
-        return json.loads(target.read_text()).get("pending", False)
-    except (json.JSONDecodeError, OSError):
-        return False
 
 
 def process(source, entry, now, has_key, new_route=True):
@@ -857,7 +753,6 @@ def run_file_source(source, folder, now, has_key, alone):
     day = closed_day().isoformat()
     if done_today(source, folder, day, has_key, alone):
         print(f"  {entry['name']}: already saved")
-        prune(folder, day)
         return False
 
     print(f"  {entry['name']}")
@@ -865,7 +760,6 @@ def run_file_source(source, folder, now, has_key, alone):
     if not process(source, entry, now, has_key, new_route):
         return False
     mark_done(source, folder, day, alone)
-    prune(folder, day)
     return True
 
 
@@ -899,7 +793,6 @@ def run_discovery(source, folder, now, has_key, alone):
     day = closed_day().isoformat()
     if done_today(source, folder, day, has_key, alone):
         print("  already saved")
-        prune(folder, day)
         return False
 
     items = pick_repos(items, folder, day, known)
@@ -921,7 +814,6 @@ def run_discovery(source, folder, now, has_key, alone):
     if seen_now is not None:
         seen_path.write_text(json.dumps(seen_now, indent=2))
     mark_done(source, folder, day, alone)
-    prune(folder, day)
     return True
 
 

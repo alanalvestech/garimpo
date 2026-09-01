@@ -12,7 +12,6 @@ Usage:
 """
 
 import json
-import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import format_datetime, parsedate_to_datetime
@@ -45,9 +44,9 @@ def read_feed(path):
 
 
 def as_feed_items(record):
-    """Turns a day's record into feed items."""
+    """Turns the newest slice of a category's archive into feed items."""
     items = []
-    for item in record["items"]:
+    for item in record["items"][:ITEM_CAP]:
         link = item["links"][0]
         body = []
         if item.get("authors"):
@@ -61,7 +60,7 @@ def as_feed_items(record):
                 "link": link,
                 "guid": link,
                 "category": record["category"],
-                "pubDate": as_rfc822(item.get("date") or record["date"]),
+                "pubDate": as_rfc822(item.get("date") or item["day"]),
                 "description": "\n\n".join(body),
             }
         )
@@ -110,15 +109,15 @@ def write_feed(path, title, description, items):
 
 def main():
     everything = []
-    for record_path in sorted(DATA_DIR.glob("*/*.json")):
-        # Only the day files: a collector may keep its own state next to them.
-        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", record_path.stem):
+    for folder in sorted(p for p in DATA_DIR.iterdir() if p.is_dir()):
+        record_path = folder / f"{folder.name.lower()}.json"
+        if not record_path.exists():
             continue
         record = json.loads(record_path.read_text())
         items = as_feed_items(record)
         everything += items
         write_feed(
-            record_path.parent / f"{record['category'].lower()}.xml",
+            folder / f"{folder.name.lower()}.xml",
             f"garimpo · {record['category']}",
             f"Notícias de {record['category']}, em português.",
             items,
