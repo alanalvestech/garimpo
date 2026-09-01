@@ -102,6 +102,7 @@ Return the list of items in the file, in Brazilian Portuguese, each with:
 - authors: the item's authors, when the text names them. Skip it otherwise.
 - date: the item's own publication date as YYYY-MM-DD, only when the text
   states it. Never guess it and never copy the file's date. Skip it otherwise.
+  It is stored as published_at: `date` is the edition day, always yesterday.
 - links: every link of that item.
 
 Rules:
@@ -118,6 +119,7 @@ Return the list of items in the file, each with:
 - title: the item's title, translated to Brazilian Portuguese.
 - date: the item's own publication date as YYYY-MM-DD, only when the text
   states it. Never guess it and never copy the file's date. Skip it otherwise.
+  It is stored as published_at: `date` is the edition day, always yesterday.
 - links: every link of that item.
 
 Do not write a summary: only the title and the links.
@@ -298,7 +300,7 @@ def fill_arxiv_dates(items):
         if paper in dates:
             for item in targets:
                 # The publisher's date beats the file's day.
-                item["date"] = dates[paper]
+                item["published_at"] = dates[paper]
     print(f"  {len(dates)}/{len(wanted)} datas vindas da API do arXiv")
 
 
@@ -396,7 +398,7 @@ def star_rate(item, published):
     if not known or known.get("stars") is None or item.get("stars") is None:
         return None
     try:
-        days = (date.today() - date.fromisoformat(known["day"])).days
+        days = (date.today() - date.fromisoformat(known["date"])).days
     except ValueError:
         return None
     if days < 1:
@@ -531,7 +533,7 @@ def translate(content, mode, file_date):
             clean["authors"] = item["authors"]
         when = item_date(item.get("date"), file_date)
         if when:
-            clean["date"] = when
+            clean["published_at"] = when
         items.append(clean)
     return items
 
@@ -555,7 +557,7 @@ def link_key(item):
 def seen_before(category):
     """Link to the day and the star count of when it last went out."""
     return {
-        link_key(i): {"day": i.get("day"), "stars": i.get("stars")}
+        link_key(i): {"date": i.get("date"), "stars": i.get("stars")}
         for i in load_archive(category)["items"]
     }
 
@@ -575,7 +577,7 @@ def drop_republished(items, category, day):
     fresh, again = [], []
     for item in items:
         known = published.get(link_key(item))
-        if known is None or known.get("day") == day:
+        if known is None or known.get("date") == day:
             fresh.append(item)
         else:
             again.append(item)
@@ -620,18 +622,18 @@ def write_day(source, entry, items, now, pending=False, new_route=True):
             print(f"  {item['title']}: {reason}, fora")
             continue
         item.pop("repo", None)
-        item["day"] = day
+        item["date"] = day
         key = link_key(item)
 
         if key in at:
             before = archive["items"][at[key]]
-            if before.get("day") != day:
+            if before.get("date") != day:
                 continue  # an older day already has it; only a breakout returns
             # Two routes finding the same thing on one day is heat, not a
             # duplicate: the count is the signal, so it is kept.
             if new_route:
                 before["found_by"] = before.get("found_by", 1) + 1
-            for field in ("summary", "stars", "language", "license", "date"):
+            for field in ("summary", "stars", "language", "license", "published_at"):
                 if field in item:
                     before.setdefault(field, item[field])
             continue
@@ -640,8 +642,8 @@ def write_day(source, entry, items, now, pending=False, new_route=True):
         archive["items"].append(item)
         added += 1
 
-    today_items = [i for i in archive["items"] if i.get("day") == day]
-    older = [i for i in archive["items"] if i.get("day") != day]
+    today_items = [i for i in archive["items"] if i.get("date") == day]
+    older = [i for i in archive["items"] if i.get("date") != day]
     if today_items and all("stars" in i for i in today_items):
         # What is climbing now beats what is merely big, and something two
         # routes found on the same day beats what a single route saw.
@@ -677,7 +679,7 @@ def done_today(source, day, has_key, alone):
     if has_key and archive.get("pending"):
         return False  # written with no key: it went out empty, redo it
     if alone:
-        return any(item.get("day") == day for item in archive["items"])
+        return any(item.get("date") == day for item in archive["items"])
     return load_state(source['category']).get(source_key(source)) == day
 
 

@@ -64,7 +64,7 @@ def as_feed_items(archive):
                 "link": link,
                 "guid": link,
                 "category": archive["category"],
-                "pubDate": as_rfc822(item.get("date") or item["day"]),
+                "pubDate": as_rfc822(item.get("published_at") or item["date"]),
                 "description": "\n\n".join(body),
             }
         )
