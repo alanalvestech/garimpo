@@ -25,8 +25,7 @@ PER_CATEGORY = 15
 
 def as_rfc822(iso_day):
     """RSS wants dates in RFC 822: 2026-08-28 becomes Fri, 28 Aug 2026 ..."""
-    stamp = datetime.fromisoformat(iso_day).replace(tzinfo=timezone.utc)
-    return format_datetime(stamp)
+    return format_datetime(datetime.fromisoformat(iso_day).replace(tzinfo=timezone.utc))
 
 
 def read_feed(path):
@@ -40,9 +39,24 @@ def read_feed(path):
     return [{tag.tag: (tag.text or "") for tag in node} for node in channel]
 
 
+def edition_time(archive):
+    """When this archive was last written, to date the items that just went in."""
+    stamped = archive.get("updated_at")
+    if not stamped:
+        return None
+    try:
+        return datetime.strptime(stamped, "%Y-%m-%d %H:%M UTC").replace(
+            tzinfo=timezone.utc
+        )
+    except ValueError:
+        return None
+
+
 def as_feed_items(archive):
     """Turns the newest slice of a category's archive into feed items."""
     items = []
+    newest = archive["items"][0]["date"] if archive["items"] else None
+    wrote_at = edition_time(archive)
     for item in archive["items"][:PER_CATEGORY]:
         link = item["links"][0]
         body = []
@@ -57,6 +71,9 @@ def as_feed_items(archive):
             marks.append(item["language"])
         if marks:
             body.append(" · ".join(marks))
+        if item.get("published_at") and item["published_at"] != item["date"]:
+            year, month, day = item["published_at"].split("-")
+            body.append(f"Publicado em {day}/{month}/{year}")
         body += [f"Também em: {u}" for u in item["links"][1:]]
         items.append(
             {
@@ -64,7 +81,13 @@ def as_feed_items(archive):
                 "link": link,
                 "guid": link,
                 "category": archive["category"],
-                "pubDate": as_rfc822(item.get("published_at") or item["date"]),
+                # When the item arrived here, not when the origin published
+                # it: a reader drops whatever is older than its window, and the
+                # edition reports yesterday but goes out this morning. The
+                # origin date, when it differs, is in the body.
+                "pubDate": format_datetime(wrote_at)
+                if wrote_at and item["date"] == newest
+                else as_rfc822(item["date"]),
                 "description": "\n\n".join(body),
             }
         )
