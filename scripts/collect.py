@@ -352,6 +352,12 @@ def domain(url):
     return urllib.parse.urlparse(url).netloc.removeprefix("www.")
 
 
+def as_br(iso):
+    """2026-08-28 as 28/08/2026, which is how the reader writes a date."""
+    year, month, day = iso.split("-")
+    return f"{day}/{month}/{year}"
+
+
 def to_markdown(items, day):
     """Builds the .md body out of the same items that go into the .json.
 
@@ -362,20 +368,20 @@ def to_markdown(items, day):
     for item in items:
         first, *rest = item["links"]
         lines = [f"### [{item['title']}]({first})", ""]
-        meta = []
         if item.get("authors"):
-            meta.append(f"*{', '.join(item['authors'])}*")
-        if item.get("date") and item["date"] != day:
-            meta.append(item["date"])
-        if meta:
-            lines.append(" · ".join(meta))
+            lines.append(f"*{', '.join(item['authors'])}*")
             lines.append("")
         if item.get("summary"):
             lines.append(item["summary"])
             lines.append("")
-        if rest:
-            # Only the extra links: the first one is already in the title.
-            lines.append(" · ".join(f"[{domain(u)}]({u})" for u in rest))
+
+        footer = []
+        if item.get("date") and item["date"] != day:
+            footer.append(as_br(item["date"]))
+        # Only the extra links: the first one is already in the title.
+        footer += [f"[{domain(u)}]({u})" for u in rest]
+        if footer:
+            lines.append(" · ".join(footer))
         blocks.append("\n".join(lines).rstrip())
     return "\n\n".join(blocks)
 
