@@ -12,6 +12,7 @@ Usage:
 """
 
 import json
+import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import format_datetime, parsedate_to_datetime
@@ -110,6 +111,9 @@ def write_feed(path, title, description, items):
 def main():
     everything = []
     for record_path in sorted(DATA_DIR.glob("*/*.json")):
+        # Only the day files: a collector may keep its own state next to them.
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", record_path.stem):
+            continue
         record = json.loads(record_path.read_text())
         items = as_feed_items(record)
         everything += items
