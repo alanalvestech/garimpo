@@ -4,7 +4,15 @@ on:
   schedule:
     # Not on the hour: the Actions queue peaks at :00 and a scheduled
     # run gets delayed or dropped there.
+    #
+    # Three windows because one is not enough: GitHub delivers the schedule
+    # event best-effort and silently skips a window under load. A source that
+    # already delivered the day is a no-op (done_today in collect.py), so the
+    # later runs only retry what the first one missed. All three stay inside
+    # the same UTC day, or closed_day() would slide to another date.
     - cron: "23 10 * * *" # 07:23 in São Paulo
+    - cron: "37 14 * * *" # 11:37, first backstop
+    - cron: "11 19 * * *" # 16:11, last call
   workflow_dispatch:
     inputs:
       force:
@@ -14,6 +22,12 @@ on:
 
 permissions:
   contents: write
+
+# A backstop run must never land on top of the run it is backing up: two of
+# them pushing to main at once loses one of the commits.
+concurrency:
+  group: garimpo
+  cancel-in-progress: false
 
 jobs:
   collect:
@@ -48,5 +62,8 @@ jobs:
             echo "nothing new"
           else
             git commit -m "garimpo: $(date -u +%Y-%m-%d)"
+            # Rebase before pushing: main may have moved since checkout, and a
+            # rejected push would throw away the day's collection.
+            git pull --rebase origin main
             git push
           fi
