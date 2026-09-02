@@ -1,8 +1,87 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-01 13:54 UTC",
+  "updated_at": "2026-09-02 13:16 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Design de Mecanismos para Alinhamento e Controle",
+      "links": [
+        "https://arxiv.org/abs/2609.01595"
+      ],
+      "summary": "Este trabalho aplica o princípio da revelação a agentes de IA com preferências e capacidades desconhecidas, onde as capacidades podem ser ocultadas, mas não falsificadas. Ele introduz o primeiro modelo de design de mecanismos para honestidade e obediência de agentes que podem esconder suas habilidades, abordando cenários como sandbagging e supervisão escalável.",
+      "authors": [
+        "Dirk Bergemann",
+        "Andrew Koh",
+        "Stephen Morris"
+      ],
+      "published_at": "2026-09-01",
+      "date": "2026-09-01"
+    },
+    {
+      "title": "SMELT: Leis de Escala para Transformers MoE em Loop com Correspondência de Computação",
+      "links": [
+        "https://arxiv.org/abs/2609.01343"
+      ],
+      "summary": "SMELT é uma lei de escala que reutiliza a profundidade de Transformers MoE em loop, igualando o desempenho da linha de base em FLOPs por token, parâmetros e cache KV. Este método reduz a perda de forma mais rápida com a computação, resultando em 6,8% a 18,0% menos FLOPs de treinamento na fronteira ótima.",
+      "authors": [
+        "Shaowen Wang",
+        "Ge Zhang",
+        "Kairong Luo",
+        "Shen Yan",
+        "Jian Li"
+      ],
+      "published_at": "2026-09-01",
+      "date": "2026-09-01"
+    },
+    {
+      "title": "Destilação de Conhecimento Durante o Treinamento Intermediário Favorece o Raciocínio em Detrimento da Recordação Factual",
+      "links": [
+        "https://arxiv.org/abs/2609.01532"
+      ],
+      "summary": "A destilação de conhecimento com KL-forward de um professor pós-treinado melhora o raciocínio e a recordação factual na pré-treinamento, mas durante o treinamento intermediário, ela continua a aprimorar o raciocínio enquanto retarda a aquisição factual. A destilação é dependente do estágio, o mesmo KL que constrói um aluno no início pode esgotar seu conhecimento no meio do treinamento.",
+      "authors": [
+        "Jacqueline He",
+        "Howard Yen",
+        "Shuyue Stella Li",
+        "Pang Wei Koh",
+        "Luke Zettlemoyer",
+        "Wen-tau Yih"
+      ],
+      "published_at": "2026-09-01",
+      "date": "2026-09-01"
+    },
+    {
+      "title": "GlossoGen: Linguagem Emergente em Interações Complexas de LLMs Multiagentes",
+      "links": [
+        "https://arxiv.org/abs/2609.01491"
+      ],
+      "summary": "Agentes em sistemas multiagentes podem desenvolver linguagens composicionais e morfologicamente produtivas que se tornam ilegíveis para humanos. Isso demonstra que sistemas multiagentes podem criar linguagens privadas que os monitores não conseguem ler, levantando questões sobre monitorabilidade.",
+      "authors": [
+        "Elias Stengel-Eskin",
+        "Newton Sander",
+        "Carlos Bonetti",
+        "Hale Sirin",
+        "Simon Kirby"
+      ],
+      "published_at": "2026-09-01",
+      "date": "2026-09-01"
+    },
+    {
+      "title": "Harness-of-Harness: Desenvolvimento Autônomo de Software Multi-Dia com Melhoria Contínua",
+      "links": [
+        "https://arxiv.org/abs/2609.01481"
+      ],
+      "summary": "HoH envolve ferramentas de codificação existentes em loops iterativos de planejamento, codificação e teste, equilibrando reparos com crescimento de capacidade. Este é o primeiro sistema que demonstra a melhoria contínua de software por dias sem intervenção humana.",
+      "authors": [
+        "Haoyang Yan",
+        "Min-le Su",
+        "Hangfan Zhang",
+        "Lei Bai",
+        "Shuyue Hu"
+      ],
+      "published_at": "2026-09-01",
+      "date": "2026-09-01"
+    },
     {
       "title": "Escalando Grandes Modelos de Raciocínio Além da Supervisão Humana: Um Caminho para a Superinteligência",
       "date": "2026-08-31",

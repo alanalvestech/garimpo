@@ -1,8 +1,75 @@
 {
   "category": "Twitter",
-  "updated_at": "2026-09-01 13:54 UTC",
+  "updated_at": "2026-09-02 13:16 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "The Information afirma que Astra usa camadas de loop via \"profundidade recorrente\"; Pachocki considera o pânico de inmonitorabilidade confuso e limita a profundidade do grafo de computação a 2x a do GPT-4",
+      "links": [
+        "https://x.com/steph_palazzolo/status/2094954680765829533",
+        "https://x.com/merettm/status/2095023204993490967",
+        "https://x.com/OpenAI/status/2094885578173260259",
+        "https://x.com/sama/status/2094934592062959832",
+        "https://x.com/kimmonismus/status/2095045887131087357",
+        "https://www.cnbc.com/2026/09/01/open-ai-astra-cyber-model.html"
+      ],
+      "summary": "Stephanie Palazzolo relatou que o Astra da OpenAI reutiliza camadas de transformadores, uma técnica chamada profundidade recorrente, para melhorar o desempenho em codificação e uso de computador, mas com o custo de um rastreamento de raciocínio menos inspecionável. O cientista-chefe da OpenAI, Jakub Pachocki, afirmou que os modelos de fronteira atuais, incluindo o Astra, mantêm a profundidade do grafo de computação dentro de um fator de dois do GPT-4.",
+      "authors": [
+        "Stephanie Palazzolo",
+        "Jakub Pachocki",
+        "Amir Efrati",
+        "Ashley Capoot",
+        "Sam Altman"
+      ],
+      "published_at": "2026-09-01",
+      "date": "2026-09-01"
+    },
+    {
+      "title": "Alibaba lança Qwen3.8-Max-0902, a mesma linha Max de 2.4T / 1M de contexto, com pós-treinamento adicional para codificação e trabalho colaborativo, disponível no QwenCloud por $2 de entrada / $6 de saída",
+      "links": [
+        "https://x.com/Alibaba_Qwen/status/2094968708288680276",
+        "https://x.com/kimmonismus/status/2095055227787292789",
+        "https://x.com/testingcatalog/status/2095063859396571210",
+        "https://www.qwencloud.com/models/qwen3.8-max-0902"
+      ],
+      "summary": "Qwen atualizou o Qwen3.8-Max para uma versão de 2 de setembro, qwen3.8-max-0902, mantendo 2.4T parâmetros e uma janela de contexto de 1M. O modelo adiciona pós-treinamento focado em codificação, trabalho colaborativo e agentes de longo horizonte, e está disponível na API QwenCloud pelos mesmos $2/$6 por milhão de tokens do Max anterior.",
+      "published_at": "2026-09-02",
+      "date": "2026-09-01"
+    },
+    {
+      "title": "Musk anuncia Grok 4.7 para daqui a dez dias, por volta de 12 de setembro, sem pesos, preço ou avaliações anexadas",
+      "links": [
+        "https://x.com/elonmusk/status/2094983639780204846",
+        "https://x.com/kimmonismus/status/2095066700785881154",
+        "https://x.com/mark_k/status/2095044067646132602",
+        "https://x.com/AndrewCurran_/status/2094992891269775819"
+      ],
+      "summary": "Elon Musk anunciou que o Grok 4.7 será lançado em dez dias, por volta de 12 de setembro. A xAI não divulgou um cartão de modelo, SKU de API ou tabela de benchmarks para a nova versão.",
+      "authors": [
+        "Elon Musk"
+      ],
+      "date": "2026-09-01"
+    },
+    {
+      "title": "A voz do Grok agora pode ver uma tela compartilhada no modo de conversação; Musk retweetou uma demonstração de usuário com \"Novo recurso\"",
+      "links": [
+        "https://x.com/elonmusk/status/2095017366254194884"
+      ],
+      "summary": "A voz do Grok agora consegue visualizar uma tela compartilhada durante o modo de conversação. Elon Musk destacou o recurso ao retweetar uma demonstração de usuário.",
+      "authors": [
+        "Elon Musk"
+      ],
+      "date": "2026-09-01"
+    },
+    {
+      "title": "Desenvolvedores de ferramentas ainda são afetados pela nova regra da API Messages do Fable 5.1: trocas de modelo no meio da conversa perdem o raciocínio, e o contexto antes dos blocos de raciocínio não pode mais ser editado, atualmente restrito a novas contas/organizações.",
+      "links": [
+        "https://x.com/mitsuhiko/status/2094851724750242110",
+        "https://x.com/badlogicgames/status/2095050964352815360"
+      ],
+      "summary": "Desenvolvedores de ferramentas enfrentam restrições com a nova regra da API Messages do Fable 5.1, onde a troca de modelos durante uma conversa resulta na perda do raciocínio. Além disso, o contexto anterior aos blocos de raciocínio não pode mais ser editado, afetando atualmente novas contas e organizações.",
+      "date": "2026-09-01"
+    },
     {
       "title": "OpenAI corta acesso da Cursor após aquisição pela SpaceX, acesso direto aos modelos termina em 12 de novembro, e a era da 'infraestrutura neutra' de ferramentas de codificação é afetada",
       "date": "2026-08-31",
