@@ -1,8 +1,85 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-02 13:16 UTC",
+  "updated_at": "2026-09-03 14:38 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Modelos de Linguagem Pós-Treinamento para Desempenho de Medalha de Ouro em Competições de Codificação",
+      "links": [
+        "https://arxiv.org/abs/2609.02849"
+      ],
+      "summary": "Um sistema de especialização completo, usando 22 mil problemas e técnicas de SFT e RL, produziu os modelos Nemotron-3-Nano-CC e Ultra-CC. O Ultra-CC obteve 535,4/600 na IOI 2026, superando a pontuação de ouro e o melhor humano, sendo o primeiro sistema de IA a superar o melhor humano em um conjunto de problemas da IOI sob restrições de competição.",
+      "authors": [
+        "Aleksander Ficek",
+        "Sean Narenthiran",
+        "Mehrzad Samadi",
+        "Somshubra Majumdar",
+        "Boris Ginsburg"
+      ],
+      "published_at": "2026-09-02",
+      "date": "2026-09-02"
+    },
+    {
+      "title": "SolarWM: Dados Abertos e Treinamento Escalável para Modelos de Mundo de Vídeo de Longo Horizonte",
+      "links": [
+        "https://arxiv.org/abs/2609.02886"
+      ],
+      "summary": "SolarWM é uma pilha totalmente aberta para modelos de mundo de vídeo interativos, convertendo 1,43 milhão de clipes em um contrato alinhado por quadros e instanciando modelos de 5B a 33B. Ele fornece o contrato de dados, receitas e pesos para que a interação de longo horizonte possa ser reproduzida, superando a limitação de dados fechados e backbones únicos na pesquisa de modelos de mundo.",
+      "authors": [
+        "Junchao Huang",
+        "Guian Fang",
+        "Shengju Qian",
+        "Mike Zheng Shou",
+        "Li Jiang"
+      ],
+      "published_at": "2026-09-02",
+      "date": "2026-09-02"
+    },
+    {
+      "title": "Cliff: Aprendendo Recompensas de Processo a Partir do Primeiro Erro",
+      "links": [
+        "https://arxiv.org/abs/2609.02817"
+      ],
+      "summary": "Cliff utiliza um professor para marcar o primeiro erro em um processo de raciocínio, atribuindo vantagens positivas ao prefixo correto e negativas após o erro. Este método supera a destilação on-policy em 15% e o GRPO em 7% em 12 configurações, permitindo supervisão de processo sem um modelo de recompensa de processo.",
+      "authors": [
+        "Peixuan Han",
+        "Runhui Wang",
+        "Ketan Ramaneti",
+        "Jie Hao",
+        "Gerald Friedland",
+        "Chris Kong"
+      ],
+      "published_at": "2026-09-02",
+      "date": "2026-09-02"
+    },
+    {
+      "title": "oHC: Hiperconexões Ortogonais em SO(4) via Quatérnios",
+      "links": [
+        "https://arxiv.org/abs/2609.02672"
+      ],
+      "summary": "oHC restringe a matriz de mistura das Hiperconexões a SO(n), usando um par de quatérnios unitários para n=4, o que impede a amplificação ou atenuação de qualquer direção. Este método supera o residual de fluxo único, mHC e iHC, oferecendo uma rotação de forma fechada que mantém a diversidade dos fluxos sem a penalidade de estabilidade das HC irrestritas.",
+      "authors": [
+        "Haoqiang Guo",
+        "Xuyi Chen",
+        "Bo Ke",
+        "Shikun Feng",
+        "Wenhan Luo"
+      ],
+      "published_at": "2026-09-02",
+      "date": "2026-09-02"
+    },
+    {
+      "title": "As Implicações da Ilegibilidade Linguística para a Segurança de LLMs",
+      "links": [
+        "https://arxiv.org/abs/2609.02852"
+      ],
+      "summary": "A \"ilegibilidade linguística\" descreve a falha das características linguísticas de um modelo em representar sua computação real, tornando monitores CoT e sondas de ativação linguisticamente definidas incompletas para segurança. A solução proposta é uma sandbox com políticas de rastreamento de contaminação a priori e virtualização robusta, garantindo que a leitura das palavras do modelo não seja a última linha de defesa.",
+      "authors": [
+        "James Mickens"
+      ],
+      "published_at": "2026-09-02",
+      "date": "2026-09-02"
+    },
     {
       "title": "Design de Mecanismos para Alinhamento e Controle",
       "links": [
