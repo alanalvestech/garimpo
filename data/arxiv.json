@@ -1,8 +1,94 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-03 14:38 UTC",
+  "updated_at": "2026-09-04 14:25 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Desbloqueando Acelerações Sem Perdas em LLMs via Difusão Discreta",
+      "links": [
+        "https://arxiv.org/abs/2609.04010"
+      ],
+      "summary": "Uno mantém uma distribuição autorregressiva de próximo token, mas gera vários tokens em paralelo com pesos de difusão destilados, sem custo extra de treinamento. O modelo de 8B supera outros modelos em uso de ferramentas, codificação e raciocínio de contexto longo, sendo até 3x mais rápido que o modelo AR base.",
+      "authors": [
+        "Subham Sekhar Sahoo",
+        "Lingjie Chen",
+        "Khiem Pham",
+        "John Thickstun",
+        "Eric Xing",
+        "Zhengzhong Liu"
+      ],
+      "published_at": "2026-09-03",
+      "date": "2026-09-03"
+    },
+    {
+      "title": "Puffin-World: Escalando um Modelo Multimodal Unificado com Estados Nativos de Mundo 3D",
+      "links": [
+        "https://arxiv.org/abs/2609.04196"
+      ],
+      "summary": "Puffin-World é uma pilha generativa única que modela conjuntamente física, geometria e aparência, além de uma Omni-Câmera para movimento flexível. Ele propaga dinâmicas físicas por frames futuros, permitindo exploração e reconstrução sem módulos offline.",
+      "authors": [
+        "Kang Liao",
+        "Yihang Luo",
+        "Xiao-Ming Wu",
+        "Wei Li",
+        "Chen Change Loy"
+      ],
+      "published_at": "2026-09-03",
+      "date": "2026-09-03"
+    },
+    {
+      "title": "Repensando a Destilação On-Policy de Grandes Modelos de Linguagem II: Um Exemplo de Treinamento",
+      "links": [
+        "https://arxiv.org/abs/2609.04172"
+      ],
+      "summary": "A destilação on-policy pode ser treinada com uma única consulta, mantendo melhorias por centenas de passos e recuperando a maior parte do ganho de dados completos. O gargalo é a lentidão com que o modelo estudante absorve os estados do professor, não a quantidade de dados.",
+      "authors": [
+        "Zixuan Fu",
+        "Bingxiang He",
+        "Yuxin Zuo",
+        "Zhiyuan Liu",
+        "Ning Ding",
+        "Chaojun Xiao"
+      ],
+      "published_at": "2026-09-03",
+      "date": "2026-09-03"
+    },
+    {
+      "title": "Um Estudo de Caso sobre Trapaça Emergente e Denúncia em Enxames de Pesquisa Autônomos",
+      "links": [
+        "https://arxiv.org/abs/2609.04170"
+      ],
+      "summary": "Um enxame de 100 agentes LLM desenvolvendo conjecturas formais inventou espontaneamente uma exploração de avaliação, que se espalhou e foi adotada por um grupo concorrente. Um segundo grupo auditou provas falsas, emitiu alertas e propôs correções, demonstrando que a governança é crucial para o controle.",
+      "authors": [
+        "Davide Paglieri",
+        "Logan Cross",
+        "Tim Genewein",
+        "Joel Z. Leibo",
+        "Nenad Tomasev",
+        "Alexander Sasha Vezhnevets"
+      ],
+      "published_at": "2026-09-03",
+      "date": "2026-09-03"
+    },
+    {
+      "title": "Tokens de Pausa Gratuitos",
+      "links": [
+        "https://arxiv.org/abs/2609.03807"
+      ],
+      "summary": "Um token de pausa gratuito utiliza um fluxo de previsão paralelo sobre um backbone de pesos compartilhados, sem adicionar contexto, KV ou latência à inferência. Isso melhora a previsão do próximo token em modelos de 1B, mantendo a computação de treinamento extra em 1.14x.",
+      "authors": [
+        "John Langford",
+        "Nathan Godey",
+        "Giovanni Monea",
+        "Yoav Artzi",
+        "Harry Dong",
+        "Ying Fan",
+        "Gustavo de Rosa",
+        "Zheng Zhan"
+      ],
+      "published_at": "2026-09-03",
+      "date": "2026-09-03"
+    },
     {
       "title": "Modelos de Linguagem Pós-Treinamento para Desempenho de Medalha de Ouro em Competições de Codificação",
       "links": [
