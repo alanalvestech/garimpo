@@ -251,30 +251,66 @@ def latest_file(source):
 
 ARXIV_ID = re.compile(r"arxiv\.org/(?:abs|pdf)/(\d{4}\.\d{4,5})")
 ARXIV_BATCH = 200  # the API takes more, but the URL gets long past this
+ARXIV_GAP = 3.0  # seconds between requests, the pace the API asks for
+ARXIV_TRIES = 4
+_arxiv_last = 0.0
+
+
+def arxiv_wait():
+    """Holds the gap between requests, counting across every caller.
+
+    Two categories link to arXiv, so arxiv_dates runs twice in the same job.
+    Pacing inside a single call was not enough: the second call opened three
+    seconds too early and took a 429 that cost the whole batch.
+    """
+    global _arxiv_last
+    left = ARXIV_GAP - (time.monotonic() - _arxiv_last)
+    if left > 0:
+        time.sleep(left)
+    _arxiv_last = time.monotonic()
+
+
+def arxiv_fetch(url):
+    """One batch, retried. Returns None when even the last try fails.
+
+    A 429 used to cost the whole batch, and the runner shares its address with
+    everyone else on GitHub, so being throttled there says nothing about how
+    much this job asked for. Backing off and asking again is the only answer
+    that works from a borrowed address.
+
+    Going through headers() also drops the "Python-urllib/3.12" user agent for
+    a name that says who is calling, which is what arXiv asks of a client.
+    """
+    problem = None
+    for attempt in range(ARXIV_TRIES):
+        arxiv_wait()
+        try:
+            req = urllib.request.Request(url, headers=headers(url))
+            with urllib.request.urlopen(req, timeout=90) as r:
+                return r.read().decode("utf-8", errors="replace")
+        except Exception as e:
+            problem = e
+            time.sleep(ARXIV_GAP * 2**attempt)
+    print(f"  [error] arXiv API: {problem}", file=sys.stderr)
+    return None
 
 
 def arxiv_dates(ids):
     """Maps arXiv id to publication date, from the arXiv API.
 
-    Free, no key. The API asks for one request every three seconds, so the ids
-    go in batches instead of one call per paper. The answer also carries the
-    abstract, the authors and the categories, all left out: the date is the one
-    thing the aggregator does not state.
+    Free, no key. The ids go in batches instead of one call per paper. The
+    answer also carries the abstract, the authors and the categories, all left
+    out: the date is the one thing the aggregator does not state.
     """
     found = {}
     for start in range(0, len(ids), ARXIV_BATCH):
         batch = ids[start : start + ARXIV_BATCH]
-        if start:
-            time.sleep(3)
         url = (
             "http://export.arxiv.org/api/query"
             f"?id_list={','.join(batch)}&max_results={len(batch)}"
         )
-        try:
-            with urllib.request.urlopen(url, timeout=90) as r:
-                xml = r.read().decode("utf-8", errors="replace")
-        except Exception as e:
-            print(f"  [error] arXiv API: {e}", file=sys.stderr)
+        xml = arxiv_fetch(url)
+        if xml is None:
             continue
         for entry in xml.split("<entry>")[1:]:
             paper = re.search(r"<id>https?://arxiv\.org/abs/([\d.]+)", entry)

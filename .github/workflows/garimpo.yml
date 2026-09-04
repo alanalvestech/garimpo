@@ -39,6 +39,13 @@ jobs:
         with:
           python-version: "3.12"
 
+      # yt-dlp needs a JavaScript runtime to answer YouTube's player challenge,
+      # and only Deno is enabled by default. Without it every video description
+      # comes back empty and the channel discovery goes quiet without failing.
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
       - run: pip install pyyaml yt-dlp
 
       - name: Collect and translate
