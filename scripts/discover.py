@@ -108,6 +108,18 @@ def from_trackawesomelist(source, http_json, http_text, today):
     return [as_item(n) for n in kept], day
 
 
+def why_it_failed(stderr):
+    """The line that says what went wrong, not the first line of noise.
+
+    yt-dlp opens with warnings and puts the reason it gave up at the end, so
+    reading from the top reported "No title found in player responses" for
+    three runs while the real answer sat further down.
+    """
+    lines = [l.strip() for l in stderr.splitlines() if l.strip()]
+    blame = [l for l in lines if l.startswith("ERROR:")]
+    return (blame or lines or ["sem stderr"])[-1][:300]
+
+
 def from_youtube(source, http_text, seen):
     """Pulls the repos out of the description of videos not seen yet.
 
@@ -143,7 +155,7 @@ def from_youtube(source, http_text, seen):
             print(f"  [error] yt-dlp {video}: {e}")
             continue
         if done.returncode != 0:
-            print(f"  [error] yt-dlp {video}: {done.stderr.strip()[:120]}")
+            print(f"  [error] yt-dlp {video}: {why_it_failed(done.stderr)}")
             continue
         for line in done.stdout.splitlines():
             for url_found in re.findall(r"https?://github\.com/[\w.\-/]+", line):
