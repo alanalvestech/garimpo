@@ -1,8 +1,85 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-04 14:25 UTC",
+  "updated_at": "2026-09-05 13:29 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Censura de Trajetória Induzida por Interface",
+      "links": [
+        "https://arxiv.org/abs/2609.03966"
+      ],
+      "summary": "A taxa de chamadas de ferramentas observada em modelos de agentes é uma propriedade da pilha modelo-interface, não apenas do modelo. A interface pode censurar chamadas bem-formadas, resultando em uma taxa zero mesmo quando o modelo as emite, afetando avaliações e loops de RL.",
+      "authors": [
+        "Wenbo Wang"
+      ],
+      "published_at": "2026-09-03",
+      "date": "2026-09-04"
+    },
+    {
+      "title": "ESPO: Otimização de Prompt Estruturada por Erros via Diagnóstico, Diversificação e Estabilização",
+      "links": [
+        "https://arxiv.org/abs/2609.04197"
+      ],
+      "summary": "ESPO otimiza prompts diagnosticando erros estruturais e selecionando candidatos com estabilidade bootstrap, superando otimizadores evolutivos como GEPA. O método alcança ganhos de precisão de +3,76 pp com prompts 47% mais curtos em sete benchmarks de PNL, transferindo os ganhos para diversos modelos.",
+      "authors": [
+        "Lihao Liu",
+        "Peng Tang",
+        "Kunwar Yashraj Singh",
+        "Shabnam Ghadar"
+      ],
+      "published_at": "2026-09-03",
+      "date": "2026-09-04"
+    },
+    {
+      "title": "Scal3R: Aprendizado Eficiente de Consulta de Múltiplas Poses Relativas para Reconstrução 3D Online Escalável",
+      "links": [
+        "https://arxiv.org/abs/2609.04201"
+      ],
+      "summary": "Scal3R permite a reconstrução 3D online escalável em vídeos longos, injetando tokens aprendíveis para consultar poses relativas a múltiplos keyframes passados. O método reduz o erro médio de ATE em mais de 60% no KITTI e alcança o estado da arte em vários benchmarks.",
+      "authors": [
+        "Chin-Yang Lin",
+        "Yang-Che Sun",
+        "Cheng Sun",
+        "Fu-En Yang",
+        "Min-Hung Chen",
+        "Yen-Yu Lin",
+        "Wei-Chen Chiu",
+        "Yu-Lun Liu"
+      ],
+      "published_at": "2026-09-03",
+      "date": "2026-09-04"
+    },
+    {
+      "title": "Text-Audiobox Sem Alinhamento para Dublagem de Voz e Síntese de Diálogo Full-Duplex",
+      "links": [
+        "https://arxiv.org/abs/2609.03992"
+      ],
+      "summary": "Text-Audiobox é um Transformer de Difusão de 3B que realiza síntese de fala sem a necessidade de alinhamento forçado ou previsão de duração. O sistema permite dublagem interlinguística e diálogo full-duplex, incluindo turnos e emoções, com geração de áudio de duração arbitrária.",
+      "authors": [
+        "Sanyuan Chen",
+        "Min-Jae Hwang",
+        "Sho Inoue",
+        "Juan Pino",
+        "Wei-Ning Hsu"
+      ],
+      "published_at": "2026-09-03",
+      "date": "2026-09-04"
+    },
+    {
+      "title": "Fale por Mim: Concedendo Consciência Situacional a LLMs para Participar de Reuniões",
+      "links": [
+        "https://arxiv.org/abs/2609.03923"
+      ],
+      "summary": "CAPA permite que LLMs participem ativamente de reuniões, mantendo um estado estruturado da reunião e decidindo quando e o que falar. O sistema reduz a taxa de silêncio de 51,4% para 2,5% e dobra a recuperação de oportunidades de fala em reuniões AMI.",
+      "authors": [
+        "Muneeb Khan",
+        "Frederic Kirstein",
+        "Terry Ruas",
+        "Bela Gipp"
+      ],
+      "published_at": "2026-09-03",
+      "date": "2026-09-04"
+    },
     {
       "title": "Desbloqueando Acelerações Sem Perdas em LLMs via Difusão Discreta",
       "links": [
