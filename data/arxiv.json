@@ -1,8 +1,84 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-05 13:29 UTC",
+  "updated_at": "2026-09-06 13:43 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Principia: Testes de Física Relacional para Modelos de Vídeo",
+      "links": [
+        "https://arxiv.org/abs/2609.04200"
+      ],
+      "summary": "O Principia avalia a consistência newtoniana relacional entre objetos emparelhados em vídeos gerados, ao invés do movimento absoluto que depende de calibração. Modelos de vídeo atuais falham em testes de física relacional independentes de calibração, enquanto alcançam pontuações altas em métricas de qualidade visual como VBench.",
+      "authors": [
+        "Varun Varma Thozhiyoor",
+        "Shivam Tripathi",
+        "Venkatesh Babu Radhakrishnan",
+        "Anand Bhattad"
+      ],
+      "published_at": "2026-09-03",
+      "date": "2026-09-05"
+    },
+    {
+      "title": "Engenharia Limpa, Medição Instável: Uma Falha de Confiabilidade Pré-registrada de Observadores LLM de Caixa Preta em Endpoints Compartilhados",
+      "links": [
+        "https://arxiv.org/abs/2609.04198"
+      ],
+      "summary": "Pipelines de LLM como juízes falham em validações de confiabilidade, com baixas correlações Spearman para a mesma solicitação em dias diferentes. Em um endpoint compartilhado, o nome de um modelo não garante um instrumento estável, exigindo que qualquer avaliação pré-registrada meça o juiz antes de usá-lo.",
+      "authors": [
+        "Haoyaun Zhu",
+        "Jie Zhang"
+      ],
+      "published_at": "2026-09-03",
+      "date": "2026-09-05"
+    },
+    {
+      "title": "Legibilidade Não é Interpretibilidade: Comparando a Importância Julgada e Real no Raciocínio Chain-Of-Thought",
+      "links": [
+        "https://arxiv.org/abs/2609.04194"
+      ],
+      "summary": "Modelos de recompensa de processo e críticos generativos tratam o texto de um passo CoT como seu papel funcional, mas a importância real é apenas parcialmente recuperável das palavras. Traços legíveis não equivalem à interpretibilidade, pois os monitores CoT supervisionam uma narrativa que se relaciona frouxamente com os passos que realmente influenciam a resposta.",
+      "authors": [
+        "Kevin Du",
+        "Alexander Hoyle",
+        "Laura Ruis",
+        "Acyr Locatelli"
+      ],
+      "published_at": "2026-09-03",
+      "date": "2026-09-05"
+    },
+    {
+      "title": "Adaptação Eficiente em Tempo de Teste Através da Interação Humano-IA",
+      "links": [
+        "https://arxiv.org/abs/2609.04141"
+      ],
+      "summary": "TAHI utiliza edições entre sessões como sinal para personalizar agentes de IA, incorporando critérios de usuário em uma rubrica em evolução. Isso aumenta o sucesso em tarefas individuais e permite a transferência de aprendizado para outros usuários, aproveitando a expertise presente nos logs de interação.",
+      "authors": [
+        "Zora Zhiruo Wang",
+        "Apurva Gandhi",
+        "Pang Wei Koh",
+        "Diyi Yang",
+        "Graham Neubig",
+        "Daniel Fried"
+      ],
+      "published_at": "2026-09-03",
+      "date": "2026-09-05"
+    },
+    {
+      "title": "Terminal-Universe: Transformando Trajetórias de Agentes em Ambientes de Terminal Escaláveis",
+      "links": [
+        "https://arxiv.org/abs/2609.04148"
+      ],
+      "summary": "Terminal-Universe converte rastros de terminais públicos em ambientes executáveis, restaurando workspaces parciais e preenchendo arquivos ausentes. Isso permite a criação de milhares de ambientes de tarefa a partir de rastros existentes, superando o gargalo de transformar rastros em terminais ativos.",
+      "authors": [
+        "Jie Wu",
+        "Zhenru Zhang",
+        "An Yang",
+        "Fei Huang",
+        "Dayiheng Liu"
+      ],
+      "published_at": "2026-09-03",
+      "date": "2026-09-05"
+    },
     {
       "title": "Censura de Trajetória Induzida por Interface",
       "links": [
