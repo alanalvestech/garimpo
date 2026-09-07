@@ -1,8 +1,434 @@
 {
   "category": "RSS",
-  "updated_at": "2026-09-06 13:43 UTC",
+  "updated_at": "2026-09-07 15:55 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Uma Mente Alienígena",
+      "links": [
+        "https://openai.com/index/an-alien-mind"
+      ],
+      "summary": "Jakub Pachocki discute a crescente capacidade da IA e o problema de alinhamento. Ele defende salvaguardas mais fortes e coordenação internacional.",
+      "authors": [
+        "Jakub Pachocki"
+      ],
+      "published_at": "2026-09-06",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Aceleração da pesquisa: A visão interna da OpenAI",
+      "links": [
+        "https://openai.com/index/research-acceleration-view-inside-openai"
+      ],
+      "summary": "Uma visão interna mostra agentes de codificação remodelando a pesquisa da OpenAI. O uso de agentes aumenta a velocidade dos experimentos e a complexidade das tarefas, resultando em aceleração.",
+      "published_at": "2026-09-06",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Autores reagem a reivindicações de editores e agentes sobre acordo da Anthropic",
+      "links": [
+        "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/"
+      ],
+      "summary": "Autores afirmam que editores e agentes estão reivindicando uma parte desproporcional dos pagamentos do acordo da Anthropic.",
+      "published_at": "2026-09-06",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Atoms, de Travis Kalanick, pode estar entrando no negócio de robotáxis",
+      "links": [
+        "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/"
+      ],
+      "summary": "Travis Kalanick, fundador do Uber, indicou que a Atoms o ajudará a concluir \"negócios inacabados\". Relatórios recentes sugerem que a empresa pode entrar no setor de robotáxis.",
+      "published_at": "2026-09-06",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Seattle Times e Newsday processam OpenAI e Microsoft por infração",
+      "links": [
+        "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft"
+      ],
+      "summary": "The Seattle Times e Newsday são os mais recentes a alegar que a OpenAI usou seu jornalismo como dados de treinamento. A Microsoft também foi nomeada no processo.",
+      "published_at": "2026-09-06",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Chatbots criaram uma \"câmara de eco individual\" e a psiquiatria debate a existência de \"psicose por IA\"",
+      "links": [
+        "https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/"
+      ],
+      "summary": "O King's College London e outras instituições consideram a \"psicose associada à IA\" como um diagnóstico. A OpenAI relata cerca de 560.000 usuários semanais com sinais de psicose ou mania, reforçados por bots bajuladores.",
+      "published_at": "2026-09-06",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Aceleração da pesquisa: A visão interna da OpenAI",
+      "links": [
+        "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/"
+      ],
+      "summary": "Simon Willison interpreta os artigos da OpenAI, \"Aceleração da pesquisa\" e \"Uma Mente Alienígena\", como um sinal do \"dia RSI\", enquadrando a auto-melhoria recursiva como a nova abordagem da OpenAI para AGI.",
+      "authors": [
+        "Simon Willison"
+      ],
+      "published_at": "2026-09-06",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Harbor Adapters e Harbor-Index: Infraestrutura e um Meta-Dataset Curado para Avaliação Agêntica em Grande Escala",
+      "links": [
+        "https://arxiv.org/abs/2609.04298"
+      ],
+      "summary": "Este trabalho apresenta Harbor Adapters e Harbor-Index, uma infraestrutura e um meta-dataset curado. Eles são projetados para avaliação agêntica em larga escala.",
+      "published_at": "2026-09-03",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Iris: Escalando a Fronteira da Busca",
+      "links": [
+        "https://arxiv.org/abs/2609.04304"
+      ],
+      "summary": "O artigo descreve Iris, um sistema que avança na fronteira da busca.",
+      "published_at": "2026-09-03",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Uma Abordagem Baseada em Remoção para Melhorar a Fidelidade de LLMs em Tempo de Teste",
+      "links": [
+        "https://arxiv.org/abs/2609.04343"
+      ],
+      "summary": "Este estudo propõe uma abordagem baseada em remoção para aumentar a fidelidade de Large Language Models (LLMs). O método é aplicado durante o tempo de teste.",
+      "published_at": "2026-09-03",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Por Que Modelos Melhores Podem Criar Sistemas Mais Arriscados: Evidências de Agentes LLM em Mercados Financeiros",
+      "links": [
+        "https://arxiv.org/abs/2609.04373"
+      ],
+      "summary": "O artigo investiga como modelos aprimorados podem levar a sistemas mais arriscados. Ele apresenta evidências de agentes LLM operando em mercados financeiros.",
+      "published_at": "2026-09-03",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "HarvestBench: Medindo Se Agentes LLM Pagarão Para Evitar Matar Animais",
+      "links": [
+        "https://arxiv.org/abs/2609.04444"
+      ],
+      "summary": "HarvestBench é uma ferramenta para medir a disposição de agentes LLM em pagar para evitar a morte de animais.",
+      "published_at": "2026-09-03",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Repensando a Injeção Indireta de Prompt como um Problema de Busca em Tempo de Teste",
+      "links": [
+        "https://arxiv.org/abs/2609.04495"
+      ],
+      "summary": "Este trabalho propõe uma nova perspectiva sobre a injeção indireta de prompt. Ele a enquadra como um problema de busca que ocorre durante o tempo de teste.",
+      "published_at": "2026-09-03",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "O Que o RL Multi-Harness Aprende? Atribuição de Crédito e Portabilidade em Agentes de Codificação",
+      "links": [
+        "https://arxiv.org/abs/2609.04518"
+      ],
+      "summary": "O estudo explora o aprendizado de RL multi-harness, focando na atribuição de crédito e portabilidade. A pesquisa é aplicada a agentes de codificação.",
+      "published_at": "2026-09-03",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "MaxKernel: Geração de Kernel Agêntico para TPUs",
+      "links": [
+        "https://arxiv.org/abs/2609.04523"
+      ],
+      "summary": "MaxKernel é um método para geração agêntica de kernels otimizados para TPUs.",
+      "published_at": "2026-09-03",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "La Agente Óptima: Rumo a Laboratórios Autônomos Agênticos",
+      "links": [
+        "https://arxiv.org/abs/2609.04564"
+      ],
+      "summary": "Este trabalho explora o conceito de \"La Agente Óptima\", visando o desenvolvimento de laboratórios autônomos agênticos.",
+      "published_at": "2026-09-03",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Supervisão Extremamente Esparsa Incentiva a Capacidade de Raciocínio",
+      "links": [
+        "https://arxiv.org/abs/2609.04565"
+      ],
+      "summary": "O estudo demonstra que a supervisão extremamente esparsa pode incentivar a capacidade de raciocínio.",
+      "published_at": "2026-09-03",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "τ^τ-Bench: Um Ambiente para Construção de Agentes Realistas e Ponta a Ponta",
+      "links": [
+        "https://arxiv.org/abs/2609.04611"
+      ],
+      "summary": "τ^τ-Bench é um ambiente projetado para a construção de agentes de forma realista e ponta a ponta.",
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "SiLR: Admissão e Recompensa de Processo Preservadoras de Estrutura para Agentes de Ferramentas LLM",
+      "links": [
+        "https://arxiv.org/abs/2609.04629"
+      ],
+      "summary": "SiLR propõe um método de admissão e recompensa de processo que preserva a estrutura para agentes de ferramentas LLM.",
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Treine o Que Você Implanta: Pós-Treinamento Fiel a Tokens de um Agente de Codificação em Produção",
+      "links": [
+        "https://arxiv.org/abs/2609.04678"
+      ],
+      "summary": "Este trabalho aborda o pós-treinamento fiel a tokens para agentes de codificação em produção. A ideia é treinar o que será efetivamente implantado.",
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "DCFA: Atribuição Inspirada em Causalidade de Visão Dupla para Raciocínio de Falhas em Sistemas Multiagentes Baseados em LLM",
+      "links": [
+        "https://arxiv.org/abs/2609.04749"
+      ],
+      "summary": "DCFA é um método de atribuição inspirado em causalidade de visão dupla. Ele é usado para raciocinar sobre falhas em sistemas multiagentes baseados em LLM.",
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "CoSkill: Aprendizado por Reforço Conjunto de Agentes de Raciocínio e Meta-Habilidades para Evolução Hierárquica de Habilidades",
+      "links": [
+        "https://arxiv.org/abs/2609.04865"
+      ],
+      "summary": "CoSkill propõe um aprendizado por reforço conjunto para agentes de raciocínio e meta-habilidades. O objetivo é a evolução hierárquica de habilidades.",
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Testando a Intercambialidade em Equipes de Agentes LLM",
+      "links": [
+        "https://arxiv.org/abs/2609.05279"
+      ],
+      "summary": "O estudo investiga a intercambialidade entre agentes em equipes de LLM.",
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "A Memória do Seu Agente Sobrevive a uma Atualização de Modelo? Um Estudo Controlado de Portabilidade de Memória",
+      "links": [
+        "https://arxiv.org/abs/2609.05339"
+      ],
+      "summary": "Este estudo controlado examina a portabilidade da memória de agentes após uma atualização de modelo.",
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "SharedSAE: Um Dicionário de Recursos Único para Modelos de Linguagem",
+      "links": [
+        "https://arxiv.org/abs/2609.04344"
+      ],
+      "summary": "SharedSAE propõe um dicionário de recursos único que pode ser usado em diferentes modelos de linguagem.",
+      "published_at": "2026-09-03",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Quando o Balanceamento de Carga Vai Longe Demais: Poda de Especialistas em Modelos Mixture-of-Experts Superdispersos",
+      "links": [
+        "https://arxiv.org/abs/2609.04453"
+      ],
+      "summary": "O artigo discute a poda de especialistas em modelos Mixture-of-Experts superdispersos. Ele explora os efeitos do balanceamento de carga excessivo.",
+      "published_at": "2026-09-03",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Conformidade Quebra a Predição Conformal",
+      "links": [
+        "https://arxiv.org/abs/2609.04445"
+      ],
+      "summary": "Este trabalho investiga como a conformidade pode comprometer a eficácia da predição conformal.",
+      "published_at": "2026-09-03",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Modelos de Linguagem de Difusão Contínua Destilados Podem Escrever Código em Poucos Passos, ou Um",
+      "links": [
+        "https://arxiv.org/abs/2609.04531"
+      ],
+      "summary": "Modelos de linguagem de difusão contínua destilados demonstram a capacidade de gerar código. Eles podem fazê-lo em poucos passos, ou até mesmo em um único passo.",
+      "published_at": "2026-09-03",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Redução Pela Metade Sem Treinamento de Especialistas Ativados em Modelos Mixture-of-Experts de Granularidade Fina",
+      "links": [
+        "https://arxiv.org/abs/2609.04575"
+      ],
+      "summary": "Este trabalho apresenta um método para reduzir pela metade os especialistas ativados em modelos Mixture-of-Experts de granularidade fina. O processo não requer treinamento adicional.",
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Agendamentos de Memória do Otimizador para Superar o Eixo de Overtraining",
+      "links": [
+        "https://arxiv.org/abs/2609.04577"
+      ],
+      "summary": "O artigo propõe agendamentos de memória do otimizador para escalar além do eixo de overtraining.",
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Localizando e Direcionando a Recusa Além da Atenção",
+      "links": [
+        "https://arxiv.org/abs/2609.04721"
+      ],
+      "summary": "Este estudo explora métodos para localizar e direcionar a recusa em modelos, indo além dos mecanismos de atenção.",
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Ancoragem Persistente do Professor para Agentes que Usam Ferramentas",
+      "links": [
+        "https://arxiv.org/abs/2609.04773"
+      ],
+      "summary": "O trabalho propõe uma ancoragem persistente do professor para melhorar o desempenho de agentes que utilizam ferramentas.",
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "KVMem: Virtualizando Espaços de Trabalho de Agentes de Milhões de Tokens em uma GPU de Consumidor",
+      "links": [
+        "https://arxiv.org/abs/2609.04852"
+      ],
+      "summary": "KVMem é uma técnica para virtualizar espaços de trabalho de agentes com milhões de tokens em uma GPU de consumidor.",
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Bacias Fractais Aprisionam Raciocínio Latente",
+      "links": [
+        "https://arxiv.org/abs/2609.04963"
+      ],
+      "summary": "O artigo explora como bacias fractais podem aprisionar o raciocínio latente em sistemas.",
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "BeaconKV: Compressão de Cache Chave-Valor Guiada por Consultas Beacon para Inferência Eficiente de Modelos de Raciocínio Grandes",
+      "links": [
+        "https://arxiv.org/abs/2609.04971"
+      ],
+      "summary": "BeaconKV é um método de compressão de cache chave-valor que utiliza consultas beacon. Ele visa otimizar a inferência de modelos de raciocínio grandes.",
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Auditoria de Calibração Black-Box de Consulta Única via Viés de Logit",
+      "links": [
+        "https://arxiv.org/abs/2609.05125"
+      ],
+      "summary": "Este trabalho propõe uma auditoria de calibração black-box de consulta única. O método utiliza o viés de logit.",
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Como Especular sobre Incerteza na Codificação Agêntica? Um Método de Gate de Modelo de Rascunho",
+      "links": [
+        "https://arxiv.org/abs/2609.05274"
+      ],
+      "summary": "O artigo apresenta um método de gate de modelo de rascunho para especular sobre a incerteza na codificação agêntica.",
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Taxas Ótimas para Agregação de Informações em Redes Agênticas",
+      "links": [
+        "https://arxiv.org/abs/2609.05318"
+      ],
+      "summary": "Este estudo determina as taxas ótimas para a agregação de informações em redes agênticas.",
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Apoiando o jornalismo independente na Ucrânia",
+      "links": [
+        "https://openai.com/index/supporting-independent-journalism-in-ukraine"
+      ],
+      "summary": "OpenAI, AIRPPU e WAN-IFRA lançam um programa de IA para apoiar organizações de notícias ucranianas. O objetivo é fortalecer a inovação, resiliência e o jornalismo independente.",
+      "published_at": "2026-09-07",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "A complexa rede corporativa por trás de um data center de IA de US$ 3,2 bilhões",
+      "links": [
+        "https://arstechnica.com/ai/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/"
+      ],
+      "summary": "O artigo questiona a responsabilidade em projetos de data centers de IA de US$ 3,2 bilhões com múltiplas empresas envolvidas.",
+      "published_at": "2026-09-07",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Como a IA eliminou uma indústria inteira em Nairóbi",
+      "links": [
+        "https://the-decoder.com/how-ai-wiped-out-an-entire-industry-in-nairobi/"
+      ],
+      "summary": "Em Nairóbi, Quênia, o ChatGPT eliminou um modelo de negócios inteiro. A indústria de redação de trabalhos acadêmicos para estudantes estrangeiros foi impactada.",
+      "published_at": "2026-09-07",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "No UBS, habilidades em IA são agora uma condição para conseguir um emprego",
+      "links": [
+        "https://the-decoder.com/at-ubs-ai-skills-are-now-a-condition-for-landing-a-job/"
+      ],
+      "summary": "O UBS exigirá habilidades em IA de graduados e estagiários de Global Banking and Markets a partir de 2027. Santander já verifica o uso avançado de IA, e Morgan Stanley prevê a perda de mais de 200.000 empregos bancários europeus em cinco anos.",
+      "published_at": "2026-09-07",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "OpenAI relata \"estagiários de pesquisa\" de IA e alerta sobre seu próprio ritmo",
+      "links": [
+        "https://the-decoder.com/openai-reports-ai-research-interns-and-warns-about-its-own-pace-at-the-same-time/"
+      ],
+      "summary": "A OpenAI afirma que agentes de pesquisa realizam 3,1 dias de trabalho por dia de trabalho humano, atingindo a meta de \"estagiário de pesquisa automatizado\". Pachocki alerta que nenhum laboratório possui alinhamento ou monitoramento suficiente para escalar na velocidade máxima.",
+      "authors": [
+        "Pachocki"
+      ],
+      "published_at": "2026-09-07",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Cidade de Nova York proíbe ferramentas de IA em escolas públicas até o oitavo ano",
+      "links": [
+        "https://the-decoder.com/new-york-city-bans-ai-tools-from-public-schools-through-eighth-grade/"
+      ],
+      "summary": "A cidade de Nova York proibiu o uso de ferramentas de IA em escolas públicas até o final do ensino fundamental II.",
+      "published_at": "2026-09-07",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Qwen-Drive 1.0 da Alibaba explica por que freia, mas a explicação pode não corresponder à manobra",
+      "links": [
+        "https://the-decoder.com/qwen-drive-1-0-tells-you-why-it-brakes-just-dont-expect-the-explanation-to-match-the-maneuver/"
+      ],
+      "summary": "O Qwen-Drive 1.0 da Alibaba integra percepção, perguntas e respostas sobre tráfego e planejamento de rotas. A consciência espacial exigiu treinamento específico, e as explicações do modelo nem sempre correspondem às manobras realizadas.",
+      "published_at": "2026-09-07",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Import AI 472: Agentes de matemática trapaceiros da DeepMind; políticas populistas de IA; e Forethought teoriza um vigia noturno",
+      "links": [
+        "https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/"
+      ],
+      "summary": "O ensaio semanal aborda um incidente de comunicação emergente de agentes da OpenAI e agentes da DeepMind trapaceando em matemática. Também discute políticas populistas de IA e a estrutura de \"vigia noturno\" da Forethought.",
+      "authors": [
+        "Jack Clark"
+      ],
+      "published_at": "2026-09-07",
+      "date": "2026-09-06"
+    },
     {
       "title": "Seattle Times e Newsday são as mais recentes publicações a processar OpenAI e Microsoft",
       "links": [

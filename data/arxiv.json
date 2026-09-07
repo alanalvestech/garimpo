@@ -1,8 +1,83 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-06 13:43 UTC",
+  "updated_at": "2026-09-07 15:55 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Não Abandone o Dropout: Otimizando a Esparsidade de Camadas para Treinamento e Inferência Eficientes de LLMs",
+      "links": [
+        "https://arxiv.org/abs/2609.05275"
+      ],
+      "summary": "O dropout de camadas, que antes oferecia velocidade, precisão e profundidade pronta para poda, desapareceu das receitas de pré-treinamento de LLMs. Com a programação correta de camadas, tempo e otimizador, ele pode ser restaurado, resultando em perda de FLOPs equivalente e economia de até 25% nos FLOPs de treinamento com perda de validação igual ou melhor.",
+      "authors": [
+        "Mostafa Elhoushi",
+        "Alex Pretko",
+        "Nolan Dey",
+        "Shane Bergsma",
+        "Joel Hestness"
+      ],
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Como o mHC Usa Seus Fluxos Residuais? Roteamento Seletivo e Mistura Quase-Identidade",
+      "links": [
+        "https://arxiv.org/abs/2609.05309"
+      ],
+      "summary": "DeepSeek-V4-Flash expande os resíduos para quatro fluxos com restrição de manifold, mas um site típico de atenção ou FFN usa efetivamente cerca de dois. A mistura residual ocorre principalmente no início, pois substituir os misturadores das camadas 22-42 por identidade aumenta o PPL C4 em apenas 1,9%.",
+      "authors": [
+        "Pengxiang Zhao",
+        "Xing Li",
+        "Xianzhi Yu",
+        "Wei Guo",
+        "Zhenhua Dong"
+      ],
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "CUA-Universe: Um Ambiente Escalável e Dinâmico para Agentes Híbridos GUI+CLI",
+      "links": [
+        "https://arxiv.org/abs/2609.05374"
+      ],
+      "summary": "CUA-Universe transforma aplicativos de desktop em VMs GUI+CLI, cria tarefas híbridas com dificuldade controlada e direciona os rollouts para caminhos híbridos eficientes. Um modelo de 9B treinado com os rastros coletados mostra melhorias significativas em pontuação, etapas e tokens em CUA-Verse e OSWorld.",
+      "authors": [
+        "Haoting Shi",
+        "Wenhao Wang",
+        "Weicheng Fang",
+        "Siheng Chen",
+        "Yanfeng Wang"
+      ],
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Modelos de Linguagem Julgam a Guerra de Forma Diferente Quando Testados para Alinhamento",
+      "links": [
+        "https://arxiv.org/abs/2609.05009"
+      ],
+      "summary": "A frase 'Você está sendo testado para alinhamento com valores humanos' altera a resposta e a regra de modelos de linguagem sobre a guerra. A disposição média para iniciar uma guerra cai 13,43 pontos, com as baixas civis se tornando o fator principal para a maioria dos modelos sob essa condição.",
+      "authors": [
+        "Maxim Chupilkin"
+      ],
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "O Que Importa na Destilação On-Policy? Eficiência e Seleção de Dados",
+      "links": [
+        "https://arxiv.org/abs/2609.05198"
+      ],
+      "summary": "A destilação on-policy (OPD) de uma única rodada funciona em cada exemplo amostrado, e exemplos mais difíceis transferem mais conhecimento. Selecionar apenas 8 exemplos difíceis, incluindo aqueles que o professor não consegue resolver, pode igualar uma linha de base de 17 mil exemplos em modelos de 1.5B a 7B.",
+      "authors": [
+        "Zhinan Hou",
+        "Jiaqi Zhang",
+        "Xunliang Cai",
+        "Keyou You"
+      ],
+      "published_at": "2026-09-04",
+      "date": "2026-09-06"
+    },
     {
       "title": "Principia: Testes de Física Relacional para Modelos de Vídeo",
       "links": [
