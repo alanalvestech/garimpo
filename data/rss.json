@@ -1,8 +1,140 @@
 {
   "category": "RSS",
-  "updated_at": "2026-09-07 15:55 UTC",
+  "updated_at": "2026-09-08 14:38 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Recorrência opaca e outros termos de IA que você provavelmente deveria conhecer",
+      "links": [
+        "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/"
+      ],
+      "summary": "Um glossário de termos e gírias de IA, incluindo recorrência opaca e alucinações, à medida que o vocabulário do campo se expande.",
+      "published_at": "2026-09-07",
+      "date": "2026-09-07"
+    },
+    {
+      "title": "A complexa rede corporativa por trás de um data center de IA de US$ 3,2 bilhões",
+      "links": [
+        "https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/"
+      ],
+      "summary": "Quando múltiplas empresas estão envolvidas em um projeto, a responsabilidade por problemas torna-se uma questão complexa.",
+      "published_at": "2026-09-07",
+      "date": "2026-09-07"
+    },
+    {
+      "title": "Anthropic supostamente assina acordos de computação de US$ 517 bilhões após Dario Amodei alertar rivais sobre riscos imprudentes",
+      "links": [
+        "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk/"
+      ],
+      "summary": "A Anthropic assinou contratos de computação de até US$ 517 bilhões em onze meses, ficando atrás dos US$ 750 bilhões da OpenAI até 2030. Dario Amodei havia alertado contra a corrida, enquanto Sam Altman agora aponta uma \"tolice insustentável\" na expansão da nuvem.",
+      "published_at": "2026-09-07",
+      "date": "2026-09-07"
+    },
+    {
+      "title": "GPT-6 Astra venceu Portal do início ao fim sem ajuda humana em menos de 24 horas",
+      "links": [
+        "https://the-decoder.com/gpt-6-astra-beat-portal-start-to-finish-without-human-help-in-under-24-hours/"
+      ],
+      "summary": "O GPT-6 Astra completou o jogo Portal sem assistência em aproximadamente 24 horas após o objetivo ser definido. O desenvolvedor cozyblaze publicou o código e descreveu Astra como \"o pior modelo que teremos\".",
+      "published_at": "2026-09-07",
+      "date": "2026-09-07"
+    },
+    {
+      "title": "ChatGPT recupera participação de tráfego web para 55,5% enquanto breve recuperação do Gemini desaparece",
+      "links": [
+        "https://the-decoder.com/chatgpt-claws-back-web-traffic-share-to-55-5-percent-as-geminis-brief-comback-fades/"
+      ],
+      "summary": "O ChatGPT recuperou 55,5% do tráfego de sites de chatbots, uma queda em relação aos 73,3% de um ano atrás, enquanto Gemini dobrou e Claude cresceu quase cinco vezes. Aplicativos móveis e clientes de desktop estão excluídos desta análise.",
+      "published_at": "2026-09-07",
+      "date": "2026-09-07"
+    },
+    {
+      "title": "Medicamento projetado por IA parece reverter o relógio biológico do corpo em ensaio inicial",
+      "links": [
+        "https://the-decoder.com/ai-designed-drug-appears-to-turn-back-the-bodys-biological-clock-in-early-trial/"
+      ],
+      "summary": "O rentosertib, medicamento projetado por IA da Insilico, demonstrou uma reversão de até seis anos no relógio de envelhecimento em comparação com placebo em um ensaio com 42 pacientes publicado na Nature Biotechnology. O medicamento ainda não foi testado em pessoas saudáveis.",
+      "published_at": "2026-09-07",
+      "date": "2026-09-07"
+    },
+    {
+      "title": "llm 0.35",
+      "links": [
+        "https://simonwillison.net/2026/Sep/7/llm/"
+      ],
+      "summary": "A versão 0.35 do `llm` adiciona um ID de modelo `gpt-6-astra` para o GPT-6 Astra.",
+      "authors": [
+        "Simon Willison"
+      ],
+      "published_at": "2026-09-07",
+      "date": "2026-09-07"
+    },
+    {
+      "title": "Rastejadores assustadores",
+      "links": [
+        "https://simonwillison.net/2026/Sep/7/creepy-crawlies/"
+      ],
+      "summary": "Konstantin Ryabitsev observa que git.kernel.org gasta mais CPU renderizando commits para scrapers do que para todo o acesso legítimo. Simon Willison aponta o mesmo risco para o Datasette.",
+      "authors": [
+        "Simon Willison"
+      ],
+      "published_at": "2026-09-07",
+      "date": "2026-09-07"
+    },
+    {
+      "title": "Citando Jakub Pachocki",
+      "links": [
+        "https://simonwillison.net/2026/Sep/7/jakub-pachocki/"
+      ],
+      "summary": "Jakub Pachocki, cientista-chefe da OpenAI, afirma que o argumento para treinar modelos mais inteligentes rapidamente é construir sistemas defensivos contra outras IAs. Ele defende uma \"IA poderosa e alinhada para defesa\".",
+      "authors": [
+        "Simon Willison"
+      ],
+      "published_at": "2026-09-07",
+      "date": "2026-09-07"
+    },
+    {
+      "title": "Compressor de vídeo",
+      "links": [
+        "https://simonwillison.net/2026/Sep/7/video-compressor/"
+      ],
+      "summary": "Claude Fable 5.1, usando Claude Code para web, construiu um compressor FFMPEG no navegador. Isso permitiu a publicação de uma demonstração otimizada para celular da animação Equal Earth.",
+      "authors": [
+        "Simon Willison"
+      ],
+      "published_at": "2026-09-07",
+      "date": "2026-09-07"
+    },
+    {
+      "title": "Mercator ↔ Equal Earth",
+      "links": [
+        "https://simonwillison.net/2026/Sep/7/equal-earth/"
+      ],
+      "summary": "O GPT-6 Astra (médio) no ChatGPT Work construiu uma transição animada em D3 entre as projeções de Mercator e Equal Earth. Isso ocorreu após a votação da ONU sobre a projeção.",
+      "authors": [
+        "Simon Willison"
+      ],
+      "published_at": "2026-09-07",
+      "date": "2026-09-07"
+    },
+    {
+      "title": "Este empreendedor de IA está desenvolvendo agentes capazes de planejar o inesperado",
+      "links": [
+        "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/"
+      ],
+      "summary": "A startup secreta de Danijar Hafner continua seu trabalho com RL baseado em modelos e modelos de mundo. Isso permite que agentes, agora incorporados em humanoides chineses importados, planejem em ambientes e plantas de casas nunca vistos.",
+      "published_at": "2026-09-08",
+      "date": "2026-09-07"
+    },
+    {
+      "title": "Mistral AI levanta 3 bilhões de euros na maior rodada de financiamento de tecnologia da Europa, apesar de estar atrás de rivais",
+      "links": [
+        "https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/"
+      ],
+      "summary": "Três anos após seu lançamento, a Mistral fechou uma rodada Série D de €3 bilhões e está avaliada em mais de €21 bilhões. Esta é a maior rodada de financiamento de tecnologia da Europa, embora a empresa ainda esteja atrás de rivais de ponta.",
+      "published_at": "2026-09-08",
+      "date": "2026-09-07"
+    },
     {
       "title": "Uma Mente Alienígena",
       "links": [

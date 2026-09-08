@@ -1,8 +1,79 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-07 15:55 UTC",
+  "updated_at": "2026-09-08 14:38 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Déjà Vu Molecular: Recuperação em Nível de Dígito de Valores Publicados em Modelos de Linguagem de Ponta",
+      "links": [
+        "https://arxiv.org/abs/2609.05381"
+      ],
+      "summary": "A precisão na regressão de propriedades moleculares não distingue um preditor de uma consulta. A recuperação literal de valores publicados é comum em modelos de linguagem de ponta, o que significa que um teste científico que um modelo pode passar recitando o artigo não mede sua capacidade.",
+      "authors": [
+        "Matthias Busch",
+        "Marius Tacke",
+        "Roland C. Aydin",
+        "Christian Feiler"
+      ],
+      "published_at": "2026-09-04",
+      "date": "2026-09-07"
+    },
+    {
+      "title": "τ^τ-Bench: Um Ambiente para Construção de Agentes Realistas e Ponta a Ponta",
+      "links": [
+        "https://arxiv.org/abs/2609.04611"
+      ],
+      "summary": "Agentes de codificação agora constroem agentes de produção, mas os benchmarks existentes não avaliam essa tarefa. O τ^τ-bench é um ambiente que avalia agentes de desenvolvedor na construção de agentes de atendimento ao cliente sob restrições reais, revelando que a habilidade escassa é entregar um agente sob as restrições de um engajamento real.",
+      "authors": [
+        "Quan Shi",
+        "Keshav Dhandhania",
+        "Karthik Narasimhan",
+        "Victor Barres"
+      ],
+      "published_at": "2026-09-04",
+      "date": "2026-09-07"
+    },
+    {
+      "title": "Sob a Superfície das Cadeias de Pensamento: Uma Interpretação Mecanicista das Operações de Raciocínio em LLMs",
+      "links": [
+        "https://arxiv.org/abs/2609.04753"
+      ],
+      "summary": "Formulação, decomposição e dedução são operações distintas no texto de uma Cadeia de Pensamento (CoT) e também no fluxo residual de LLMs. Classificadores de operações as separam, indicando que a CoT não é apenas uma narrativa emitida pelo modelo, mas que as operações nomeadas possuem uma geometria correspondente.",
+      "authors": [
+        "Seogyeong Jeong",
+        "Jaehui Hwang",
+        "Alice Oh",
+        "Taekyung Kim"
+      ],
+      "published_at": "2026-09-04",
+      "date": "2026-09-07"
+    },
+    {
+      "title": "Agendamentos de Memória do Otimizador para Escalar o Eixo de Sobretreinamento",
+      "links": [
+        "https://arxiv.org/abs/2609.04577"
+      ],
+      "summary": "O otimizador mais eficaz depende de quão além do ponto Chinchilla o treinamento é estendido. Testes de otimizadores no ponto Chinchilla 1x não preveem o regime de sobretreinamento que o treinamento de ponta realmente utiliza.",
+      "authors": [
+        "Katie Everett",
+        "Shikai Qiu"
+      ],
+      "published_at": "2026-09-04",
+      "date": "2026-09-07"
+    },
+    {
+      "title": "Localizando e Direcionando a Recusa Além da Atenção",
+      "links": [
+        "https://arxiv.org/abs/2609.04721"
+      ],
+      "summary": "A recusa em Transformers é uma direção residual, e essa representação também existe em SSMs, apesar de não compartilharem o misturador de tokens. Ferramentas de segurança baseadas em uma direção de recusa podem ser portadas reestimando o local de escrita, sem a necessidade de recomeçar do zero.",
+      "authors": [
+        "Preethi Carmel Bosco",
+        "Gopalakrishnan Srinivasan"
+      ],
+      "published_at": "2026-09-04",
+      "date": "2026-09-07"
+    },
     {
       "title": "Não Abandone o Dropout: Otimizando a Esparsidade de Camadas para Treinamento e Inferência Eficientes de LLMs",
       "links": [
