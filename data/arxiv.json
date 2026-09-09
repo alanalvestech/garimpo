@@ -1,8 +1,82 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-08 14:38 UTC",
+  "updated_at": "2026-09-09 14:40 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Leis de Escala de Hiperparâmetros Através da Esparsidade de MoE",
+      "links": [
+        "https://arxiv.org/abs/2609.08690"
+      ],
+      "summary": "A transferência convencional de hiperparâmetros falha quando MoEs se tornam ultra-esparsos, pois a taxa de aprendizado e o tamanho do lote ideais mudam com a taxa de ativação. A esparsidade é um eixo de escala próprio, e as receitas de treinamento de MoE esparsos não podem ser copiadas de leis densas ou equivalentes a densas.",
+      "authors": [
+        "Changxin Tian",
+        "Kunlong Chen",
+        "Jia Liu",
+        "Ziqi Liu",
+        "Zhiqiang Zhang",
+        "Jun Zhou"
+      ],
+      "published_at": "2026-09-08",
+      "date": "2026-09-08"
+    },
+    {
+      "title": "ExecCritic: Aprender a Testar, Testar para Melhorar Agentes de Codificação",
+      "links": [
+        "https://arxiv.org/abs/2609.09133"
+      ],
+      "summary": "O feedback de execução só ajuda se os testes codificarem o problema, mas quando a mesma trajetória escreve o patch e o teste, seus erros concordam. ExecCritic divide o trabalho, com um agente de Teste escrevendo testes nativos do repositório e um agente de Reparo alterando apenas o código-fonte, o que melhora significativamente o desempenho.",
+      "authors": [
+        "Leitian Tao",
+        "Baolin Peng",
+        "Sharon Li",
+        "Jianfeng Gao"
+      ],
+      "published_at": "2026-09-08",
+      "date": "2026-09-08"
+    },
+    {
+      "title": "Pontuações de Benchmarks de API Não se Transferem Confiávelmente para Interfaces de Chatbot",
+      "links": [
+        "https://arxiv.org/abs/2609.08861"
+      ],
+      "summary": "As avaliações de API pontuam +3,4 pontos percentuais em precisão e +2,1 pontos percentuais em concordância teste-reteste em comparação com a interface de chatbot correspondente. Uma pontuação de API não é uma medida do produto com o qual as pessoas realmente interagem.",
+      "authors": [
+        "Jennifer Wang",
+        "Joachim Baumann",
+        "Daniel E. Ho",
+        "Sanmi Koyejo"
+      ],
+      "published_at": "2026-09-08",
+      "date": "2026-09-08"
+    },
+    {
+      "title": "Revisão Silenciosa: Medindo Mudanças Não Divulgadas nos Frameworks de Segurança de Desenvolvedores de IA de Fronteira",
+      "links": [
+        "https://arxiv.org/abs/2609.08789"
+      ],
+      "summary": "A maioria das edições materiais nos frameworks de segurança de desenvolvedores de IA são silenciosas, com 77% enfraquecendo ou removendo um compromisso. Uma enumeração das mudanças é necessária para tornar a auditoria possível, não apenas uma justificativa.",
+      "authors": [
+        "Louis Yiven Zhu"
+      ],
+      "published_at": "2026-09-08",
+      "date": "2026-09-08"
+    },
+    {
+      "title": "SyncWorld: Calibração Visual Habilita Modelos de Mundo como Simuladores Zero-Shot",
+      "links": [
+        "https://arxiv.org/abs/2609.09155"
+      ],
+      "summary": "SyncWorld condiciona em um episódio curto de calibração visual para ler o mapeamento Ação-Visual específico da configuração. Isso permite que ele simule ambientes não vistos sem treinamento extra, e as ações se tornam uma linguagem que o modelo de mundo pode interpretar a partir de algumas demonstrações em contexto.",
+      "authors": [
+        "Yuncong Yang",
+        "Zhengtao Han",
+        "Yilun Du",
+        "Chuang Gan"
+      ],
+      "published_at": "2026-09-08",
+      "date": "2026-09-08"
+    },
     {
       "title": "Déjà Vu Molecular: Recuperação em Nível de Dígito de Valores Publicados em Modelos de Linguagem de Ponta",
       "links": [
