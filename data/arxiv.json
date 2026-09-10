@@ -1,8 +1,78 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-09 14:40 UTC",
+  "updated_at": "2026-09-10 14:31 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Quão Frágil é o Alinhamento de Segurança em Escala de Fronteira? Um Ataque Unidirecional a um MoE de 320B",
+      "links": [
+        "https://arxiv.org/abs/2609.09793"
+      ],
+      "summary": "A ablação direcional de uma única direção de recusa, que funcionava em modelos densos, ainda é eficaz em modelos MoE de grande escala como o GLM-5.3-Flash (320B), mas exige a edição conjunta de todos os \"writers\" (atenção, densos e especialistas roteados) para ser eficaz. O alinhamento de MoE de peso aberto não é uma nova geometria de recusa, mas uma escrita dividida que um ataque da era densa perde a menos que todos os \"writers\" sejam editados de uma vez.",
+      "authors": [
+        "Yi Shi",
+        "Tanyu Chen",
+        "Kai Shen"
+      ],
+      "published_at": "2026-09-09",
+      "date": "2026-09-09"
+    },
+    {
+      "title": "Através do Espelho: Lendo e Escrevendo Transformadores Diretamente",
+      "links": [
+        "https://arxiv.org/abs/2609.10210"
+      ],
+      "summary": "Uma previsão de token em transformadores é carregada por um pequeno conjunto de componentes, com 8 a 16 componentes sendo suficientes para 90% da previsão em modelos de 124M a 7B. Isso sugere que uma previsão é um circuito pequeno e nomeável, o que permite que seja escrito diretamente, não apenas observado.",
+      "authors": [
+        "Mark Oskin"
+      ],
+      "published_at": "2026-09-09",
+      "date": "2026-09-09"
+    },
+    {
+      "title": "Modelo de Mundo Programável",
+      "links": [
+        "https://arxiv.org/abs/2609.10540"
+      ],
+      "summary": "O Modelo de Mundo Programável (PWM) resolve o problema de modelos de mundo de vídeo interativos esquecerem as regras, dividindo a tarefa entre um agente que compila instruções em programas e um motor leve que mantém um estado global persistente. Este modelo alcança 94% de precisão de contagem e 98% de precisão de estado no CombatStateBench, superando modelos existentes e gerando sequências coerentes de longo prazo.",
+      "authors": [
+        "Zheng-Hui Huang",
+        "Guixu Lin",
+        "Kaipeng Zhang",
+        "Zhixiang Wang"
+      ],
+      "published_at": "2026-09-09",
+      "date": "2026-09-09"
+    },
+    {
+      "title": "TRACE: Treinando Agentes de Raciocínio para Exploração Causal com Recompensas Sintetizadas",
+      "links": [
+        "https://arxiv.org/abs/2609.10315"
+      ],
+      "summary": "TRACE é um verificador para agentes de raciocínio causal que usa um simulador de publicidade controlado para gerar recompensas sintetizadas, permitindo que os agentes busquem evidências através de Python e SQL. O método alcança 0.757 de FullAttr@1, superando modelos como Claude Opus 5 e Qwen3.5-35B-A3B, demonstrando que uma recompensa objetiva escalável pode ser mais importante que a escala do modelo para o raciocínio diagnóstico.",
+      "authors": [
+        "Rui Sun",
+        "Zhan Shi",
+        "Bing He"
+      ],
+      "published_at": "2026-09-09",
+      "date": "2026-09-09"
+    },
+    {
+      "title": "IdeaAMBIG: Avaliando Lacunas Críticas de Implementação em Especificações de Ideias de Pesquisa",
+      "links": [
+        "https://arxiv.org/abs/2609.10539"
+      ],
+      "summary": "IdeaAMBIG é um benchmark que avalia a prontidão de codificação de ideias de pesquisa, identificando lacunas críticas de implementação. Embora os LLMs consigam escrever esclarecimentos para defeitos dados, a localização desses defeitos é um gargalo, com o melhor modelo recuperando apenas 9.6% dos defeitos reais. Agentes de codificação falham em notar que o método nunca foi especificado, não em escrevê-lo.",
+      "authors": [
+        "Yiling Ma",
+        "Yilun Zhao",
+        "Manasi Patwardhan",
+        "Arman Cohan"
+      ],
+      "published_at": "2026-09-09",
+      "date": "2026-09-09"
+    },
     {
       "title": "Leis de Escala de Hiperparâmetros Através da Esparsidade de MoE",
       "links": [
