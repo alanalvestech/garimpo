@@ -1,8 +1,90 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-10 14:31 UTC",
+  "updated_at": "2026-09-11 14:30 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "T1: Aprendizagem por Reforço de Agente Terminal para Tarefas de Longo Prazo",
+      "links": [
+        "https://arxiv.org/abs/2609.11042"
+      ],
+      "summary": "Um MoE de 122B é treinado por RL para operar um shell real em um sandbox na nuvem por mais de 300 turnos de chamadas de ferramentas. A capacidade de RL terminal de longo prazo é agora transferível, e a incompatibilidade entre treinamento e serviço de MoE era um erro de treinamento silencioso.",
+      "authors": [
+        "Junyao Yang",
+        "Yucheng Shi",
+        "Zhongzhi Li",
+        "Ruhan Wang",
+        "Zongxia Li",
+        "Haitao Mi",
+        "Leowei Liang"
+      ],
+      "published_at": "2026-09-10",
+      "date": "2026-09-10"
+    },
+    {
+      "title": "Escassez de Dados e Esparsidade do Modelo: Misturas de Especialistas Sobreaquecem Mais com Dados Repetidos",
+      "links": [
+        "https://arxiv.org/abs/2609.11917"
+      ],
+      "summary": "Modelos MoE de 80M, 1B ativos sobreaquecem mais com dados de treinamento repetidos do que modelos densos, e o dano acompanha o total de parâmetros. A eficiência computacional de MoE esparsos assume dados únicos; sob repetição, a esparsidade amplifica a memorização.",
+      "authors": [
+        "Atindra Jha",
+        "Margaret Li",
+        "Jure Leskovec",
+        "Percy Liang",
+        "Luke Zettlemoyer"
+      ],
+      "published_at": "2026-09-10",
+      "date": "2026-09-10"
+    },
+    {
+      "title": "SenseNova-U1.5: Rumo à Inteligência Visual Unificada Nativa",
+      "links": [
+        "https://arxiv.org/abs/2609.11929"
+      ],
+      "summary": "Um modelo de 8B mistura de transformadores compreende, raciocina e gera imagens em uma pilha unificada, sem codificador ou VAE, em resoluções nativas de até 4K. Modelos unificados nativos não precisam mais de um VAE ou codificador de visão como um mundo separado, a compreensão pode planejar os pixels.",
+      "authors": [
+        "Haiwen Diao",
+        "Jiahao Wang",
+        "Ziwei Liu",
+        "Dahua Lin"
+      ],
+      "published_at": "2026-09-10",
+      "date": "2026-09-10"
+    },
+    {
+      "title": "SpecGuard: Detecção de Backdoor em Tempo de Inferência Gratuitamente",
+      "links": [
+        "https://arxiv.org/abs/2609.11799"
+      ],
+      "summary": "SpecGuard detecta backdoors aproveitando o sinal de aceitação de token do decodificador especulativo, que já é usado para inferência. O acelerador já adquirido para latência funciona como um detector de backdoor em tempo de execução.",
+      "authors": [
+        "Rui Wen",
+        "Ahmed Salem",
+        "Andrew Paverd",
+        "Mark Russinovich",
+        "Zheng Li"
+      ],
+      "published_at": "2026-09-10",
+      "date": "2026-09-10"
+    },
+    {
+      "title": "Pensando com Fluxos em Loop",
+      "links": [
+        "https://arxiv.org/abs/2609.11801"
+      ],
+      "summary": "Modelos em loop treinam a recorrência com objetivos de denoising locais, acoplando os passos ao diminuir o ruído compartilhado. A computação em tempo de teste é um fluxo, não um transformador desenrolado através de uma parede de atribuição de crédito.",
+      "authors": [
+        "Ayhan Suleymanzade",
+        "Chanhyuk Lee",
+        "Floor Eijkelboom",
+        "Nicholas M. Boffi",
+        "İsmail İlkan Ceylan",
+        "Jinwoo Kim"
+      ],
+      "published_at": "2026-09-10",
+      "date": "2026-09-10"
+    },
     {
       "title": "Quão Frágil é o Alinhamento de Segurança em Escala de Fronteira? Um Ataque Unidirecional a um MoE de 320B",
       "links": [
