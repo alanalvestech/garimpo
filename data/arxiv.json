@@ -1,8 +1,79 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-11 14:30 UTC",
+  "updated_at": "2026-09-12 13:39 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Musec: Recorte Espectral de Momentum para Treinamento Estável do Tipo Muon",
+      "links": [
+        "https://arxiv.org/abs/2609.11655"
+      ],
+      "summary": "O Muon supera o AdamW no treinamento de LLMs, mas depois apresenta picos; o Musec recorta valores singulares acima de um limiar, mantendo o restante do espectro. O Soft Musec, uma aproximação, mantém a estabilidade em taxas de aprendizado e tamanhos onde outras variantes do Muon divergem.",
+      "authors": [
+        "Zhuanghua Liu",
+        "Menglian Wang",
+        "Luo Luo"
+      ],
+      "published_at": "2026-09-10",
+      "date": "2026-09-11"
+    },
+    {
+      "title": "Vidu S2: Geração de Vídeo Interativa, Editável e Espacial em Tempo Real",
+      "links": [
+        "https://arxiv.org/abs/2609.11638"
+      ],
+      "summary": "O Vidu S2-Avatar gera vídeo de personagens digitais em 720p em tempo real, com referências trocáveis e melhor seguimento de instruções. O Vidu S2-Editing permite reestilizar, trocar roupas, refazer elenco e mudar o fundo de um stream de vídeo ao vivo.",
+      "authors": [
+        "Jintao Zhang",
+        "Kai Jiang",
+        "Jianfei Chen",
+        "Jun Zhu"
+      ],
+      "published_at": "2026-09-10",
+      "date": "2026-09-11"
+    },
+    {
+      "title": "Learnware e Sistema de Gerenciamento de Modelos de IA",
+      "links": [
+        "https://arxiv.org/abs/2609.11656"
+      ],
+      "summary": "O Learnware propõe um sistema de gerenciamento para identificar, reutilizar e montar modelos de IA treinados por diferentes pessoas, sem acesso aos dados originais. Ele define \"Learnware\" como um modelo mais uma especificação comparável, permitindo a colaboração entre modelos independentes.",
+      "authors": [
+        "Zhi-Hua Zhou"
+      ],
+      "published_at": "2026-09-10",
+      "date": "2026-09-11"
+    },
+    {
+      "title": "ORCH: Princípios Organizacionais Habilitam a Inteligência Coletiva em IA Incorporada",
+      "links": [
+        "https://arxiv.org/abs/2609.11737"
+      ],
+      "summary": "ORCH cria hierarquias de tarefas para sistemas multiagentes incorporados, permitindo interdependência agrupada ou sequencial. Em missões de combate a incêndios, o ORCH projetado por humanos superou frameworks anteriores em pontuação final e eficiência de execução.",
+      "authors": [
+        "Zhengran Ji",
+        "Jonathan Hyun",
+        "Boyuan Chen"
+      ],
+      "published_at": "2026-09-10",
+      "date": "2026-09-11"
+    },
+    {
+      "title": "Caracterizando a Elasticidade de Potência de Tarefas para Treinamento de IA Flexível em Potência",
+      "links": [
+        "https://arxiv.org/abs/2609.11542"
+      ],
+      "summary": "A potência é a restrição de expansão no treinamento de IA, não os FLOPs; tarefas de treinamento de LLMs mostram sensibilidade variável à limitação de potência da GPU. O Índice de Flexibilidade de Potência (PFI) é uma primitiva de controle que prevê essa sensibilidade, permitindo recuperar tokens/s por tarefa sob cortes de potência.",
+      "authors": [
+        "Philip Colangelo",
+        "Charles Dawson",
+        "Shayan Sengupta",
+        "Ayse Coskun",
+        "Varun Sivaram"
+      ],
+      "published_at": "2026-09-10",
+      "date": "2026-09-11"
+    },
     {
       "title": "T1: Aprendizagem por Reforço de Agente Terminal para Tarefas de Longo Prazo",
       "links": [
