@@ -1,8 +1,83 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-12 13:39 UTC",
+  "updated_at": "2026-09-13 14:28 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "NCP-ArchPreview: Movendo-se em direção a Modelos de Linguagem de Espaço Latente através da Previsão de Próximos Conceitos",
+      "links": [
+        "https://arxiv.org/abs/2609.10715"
+      ],
+      "summary": "A pré-treinamento autorregressivo com Previsão de Próximos Conceitos (NCP) constrói um vocabulário de conceitos quantizados a partir de estados ocultos, prevendo conceitos multi-token e usando-os para guiar a geração de tokens. Este modelo de 8.9B, treinado em 5.73T tokens, atinge a perda final de pré-treinamento do OLMo-3-7B em 51.3% dos tokens e oferece um ganho de desempenho significativo.",
+      "authors": [
+        "Intern-NCP Team",
+        "Jiaqi Cao",
+        "Dahua Lin",
+        "Zhouhan Lin",
+        "Bowen Zhou"
+      ],
+      "date": "2026-09-12"
+    },
+    {
+      "title": "Uma Receita Aberta para o Ouro na IMO: Treinando Nemotron para Matemática Olímpica",
+      "links": [
+        "https://arxiv.org/abs/2609.10712"
+      ],
+      "summary": "Um sistema baseado em Nemotron 3 Ultra, com dois checkpoints especializados e um pipeline de tempo de teste em linguagem natural, alcançou a pontuação de 30/42 na IMO 2026, o limiar para a medalha de ouro. O sistema gera, verifica e refina provas sem o uso de provadores formais ou ferramentas externas.",
+      "authors": [
+        "Ivan Moshkov",
+        "Stephen Ge",
+        "George Armstrong",
+        "Wei Du",
+        "Sadegh Mahdavi",
+        "Igor Gitman"
+      ],
+      "date": "2026-09-12"
+    },
+    {
+      "title": "Controle de Energia Desacoplado por Fase e Calibrado por Modelo para Servir LLMs Desagregados",
+      "links": [
+        "https://arxiv.org/abs/2609.11133"
+      ],
+      "summary": "Um controlador de energia para servir LLMs desagregados, combinando a desagregação de preenchimento/decodificação com NVIDIA Max-Q, aumenta a eficiência energética em até 20.4% tokens/J com um impacto mínimo na latência. Em um cenário de 8×B200 servindo Qwen3-Coder-480B FP8, o sistema economiza 32.3% da eletricidade em três dias.",
+      "authors": [
+        "Jae Gon Kim",
+        "Donghoon Yoo",
+        "Hanyul Ryu",
+        "Sungho Ha",
+        "Juyeon Lee",
+        "Soojung Ryu"
+      ],
+      "date": "2026-09-12"
+    },
+    {
+      "title": "Mr.LHDR: Um Benchmark para Agentes de Pesquisa Profunda Multimodais de Longo Prazo no Mundo Real",
+      "links": [
+        "https://arxiv.org/abs/2609.11318"
+      ],
+      "summary": "Mr.LHDR é um novo benchmark para agentes de pesquisa profunda que avalia a capacidade de lidar com tarefas multimodais de longo prazo, exigindo múltiplas conclusões intermediárias e evidências visuais. O benchmark avalia tanto as respostas finais quanto as conclusões intermediárias, revelando que a precisão da resposta final pode ser enganosa e que o gargalo é a evidência multimodal consistente com as dependências.",
+      "authors": [
+        "Minghao Guo",
+        "Meng Cao",
+        "Xiaodan Liang",
+        "Xiaojun Chang"
+      ],
+      "date": "2026-09-12"
+    },
+    {
+      "title": "Roteamento por Necessidade de Raciocínio: Controle de Decodificação Sensível à Trajetória para Modelos de Linguagem-Visão de Difusão",
+      "links": [
+        "https://arxiv.org/abs/2609.11315"
+      ],
+      "summary": "Um controlador sem treinamento para Modelos de Linguagem-Visão de Difusão (VLMs) roteia cada exemplo para decodificação de compromisso antecipado, linha de base ou suporte a raciocínio, com base na trajetória de resposta observada. Este método supera intervenções de comprimento fixo ao ajustar o processo de decodificação à necessidade de raciocínio de cada pergunta.",
+      "authors": [
+        "Yixiang Liu",
+        "Zhongxing Xu",
+        "Zhonghua Wang",
+        "Xiaoying Tang"
+      ],
+      "date": "2026-09-12"
+    },
     {
       "title": "Musec: Recorte Espectral de Momentum para Treinamento Estável do Tipo Muon",
       "links": [
