@@ -1,8 +1,86 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-13 14:28 UTC",
+  "updated_at": "2026-09-14 16:24 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Occamy-1.0: Inteligência Aberta de 35B na Fronteira de Pareto para Co-trabalho",
+      "links": [
+        "https://arxiv.org/abs/2609.11977"
+      ],
+      "summary": "Occamy-1.0 é um modelo de 35B treinado para co-trabalho, otimizado para custo e latência em tarefas como coleta de dados, uso de ferramentas e codificação. Ele se mantém competitivo com sistemas maiores em várias tarefas, oferecendo uma relação custo-desempenho eficiente.",
+      "authors": [
+        "Wenhui Chen",
+        "Shiwen Cheng",
+        "Qingcheng Zeng",
+        "Di Zhang",
+        "Guannan Zhang et al."
+      ],
+      "date": "2026-09-13"
+    },
+    {
+      "title": "Quão Bons São os Modelos de Fronteira em Física? Reavaliação por Especialistas Revela Avaliações Quebradas e Quase Saturação de Benchmarks Líderes",
+      "links": [
+        "https://arxiv.org/abs/2609.13009"
+      ],
+      "summary": "A reavaliação por especialistas de benchmarks de física para modelos de fronteira mostra que muitas falhas atribuídas são erros do avaliador ou questões mal especificadas. Após correções, o desempenho de modelos como GPT-5.6-Sol melhora significativamente, indicando que a lacuna em física é principalmente um problema de avaliação.",
+      "authors": [
+        "Ali Ansari",
+        "Haoran Sun",
+        "Steven Girvin",
+        "A. Douglas Stone",
+        "Arman Cohan",
+        "John Sous et al."
+      ],
+      "date": "2026-09-13"
+    },
+    {
+      "title": "Quebrando o Teto do Token: Destilando Modelos de Byte Menores e Mais Fortes",
+      "links": [
+        "https://arxiv.org/abs/2609.12303"
+      ],
+      "summary": "A destilação de modelos de linguagem pode se beneficiar da conversão de logits de token para logits de byte, permitindo que modelos de byte superem modelos de token em regimes de alto computacional. Modelos de byte destilados podem atingir um desempenho superior assintoticamente e reduzir o armazenamento de logits.",
+      "authors": [
+        "Kalyani Marathe",
+        "Artidoro Pagnoni",
+        "Tomasz Limisiewicz",
+        "Margaret Li",
+        "Mike Lewis",
+        "Luke Zettlemoyer",
+        "Srinivasan Iyer"
+      ],
+      "date": "2026-09-13"
+    },
+    {
+      "title": "Repensando a Desagregação de Sistemas Heterogêneos para Atenção Subquadrática",
+      "links": [
+        "https://arxiv.org/abs/2609.13134"
+      ],
+      "summary": "A desagregação de sistemas para servir modelos de atenção subquadrática deve ser repensada, dividindo o trabalho por tarefas quadráticas versus subquadráticas, em vez de por tipo de operador. Essa abordagem melhora a eficiência energética e o throughput em modelos esparsos e lineares, superando as baselines de GPU-only.",
+      "authors": [
+        "Arya Tschand",
+        "Yaosheng Fu",
+        "Vikram Sharma Mailthody",
+        "Vijay Janapa Reddi",
+        "Karu Sankaralingam"
+      ],
+      "date": "2026-09-13"
+    },
+    {
+      "title": "K-Bench: Um Benchmark para o Desaprendizado de LLMs em Implantações Agênticas",
+      "links": [
+        "https://arxiv.org/abs/2609.12808"
+      ],
+      "summary": "K-Bench avalia o desaprendizado de LLMs em agentes, verificando vazamentos de informações secretas em múltiplos canais, além da resposta final. O benchmark revela que métodos de desaprendizado baseados em recusa são insuficientes para agentes com ferramentas, e a remoção seletiva de informações dos pesos permanece um desafio.",
+      "authors": [
+        "Guangsheng Yu",
+        "Yanna Jiang",
+        "Qin Wang",
+        "Baihe Ma",
+        "Xu Wang"
+      ],
+      "date": "2026-09-13"
+    },
     {
       "title": "NCP-ArchPreview: Movendo-se em direção a Modelos de Linguagem de Espaço Latente através da Previsão de Próximos Conceitos",
       "links": [
