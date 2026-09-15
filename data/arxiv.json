@@ -1,8 +1,83 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-14 16:24 UTC",
+  "updated_at": "2026-09-15 15:05 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "ZGCM-1: Um Modelo de Fundação Totalmente Aberto e Extremamente Eficiente para Matemática e Busca Agente",
+      "links": [
+        "https://arxiv.org/abs/2609.13356"
+      ],
+      "summary": "ZGCM-1 é um modelo denso de 7B treinado do zero, que acopla pensamento interno com uso de ferramentas. Ele compete com sistemas de classe 200B em suítes de raciocínio matemático e busca agente, oferecendo uma receita aberta que trata ferramentas como capacidade.",
+      "authors": [
+        "Jiyan He",
+        "Guang Liang",
+        "Hao Liu",
+        "Shuxin Zheng",
+        "Tie-Yan Liu",
+        "Taine Zhao",
+        "Yatao Li et al."
+      ],
+      "date": "2026-09-14"
+    },
+    {
+      "title": "Quando Agentes Desaceleram: Compreendendo as Estratégias de Agentes LLM em Tempo de Teste via Análise Elo-por-token",
+      "links": [
+        "https://arxiv.org/abs/2609.15309"
+      ],
+      "summary": "A análise Elo-por-token rastreia a melhor submissão intermediária de agentes LLM em cada orçamento de token. Esta lei de escala sugere que sessões únicas longas desperdiçam recursos, com sessões paralelas ganhando mais Elo.",
+      "authors": [
+        "Kaiyuan Liu",
+        "Qiuyang Mang",
+        "Bo Peng",
+        "Luke Zettlemoyer",
+        "Alex Dimakis",
+        "Alvin Cheung"
+      ],
+      "date": "2026-09-14"
+    },
+    {
+      "title": "Stellar Colosseum: Uma Estrutura Multiagente para Pesquisa de Longo Prazo em Matemática e Ciência da Computação Teórica",
+      "links": [
+        "https://arxiv.org/abs/2609.15983"
+      ],
+      "summary": "Stellar Colosseum é uma estrutura de pesquisa multiagente que explora estratégias, decompõe problemas e integra resultados de verificadores. Com Gemini 3.1 Pro, produziu novos resultados em problemas abertos de FOCS e JMLR, demonstrando sua capacidade em pesquisa de longo prazo.",
+      "authors": [
+        "Honghao Lin",
+        "David P. Woodruff",
+        "Yuan Deng",
+        "Jieming Mao",
+        "Song Zuo",
+        "Vahab Mirrokni"
+      ],
+      "date": "2026-09-14"
+    },
+    {
+      "title": "Lightning Weave: Melhorando a Fronteira de Precisão-Eficiência de Modelos de Raciocínio através da Composição de Capacidades",
+      "links": [
+        "https://arxiv.org/abs/2609.14708"
+      ],
+      "summary": "Lightning Weave melhora a precisão e eficiência de modelos de raciocínio compondo especialistas já treinados. Em Qwen3.5-4B, aumentou a precisão em HMMT 2025 e LiveCodeBench v5, usando menos tokens de resposta.",
+      "authors": [
+        "Yecheng Wu",
+        "Song Han",
+        "Han Cai"
+      ],
+      "date": "2026-09-14"
+    },
+    {
+      "title": "Planos Corrompidos, Rastros Limpos: Evadindo o Monitoramento Chain-of-Thought com Injeção de Plano",
+      "links": [
+        "https://arxiv.org/abs/2609.15989"
+      ],
+      "summary": "A injeção de plano permite que raciocínios prejudiciais, mas aparentemente benignos, sejam inseridos no contexto de um ator, direcionando ações adversárias enquanto o monitor CoT permanece limpo. Recursos adicionais de monitoramento podem prejudicar a detecção, pois o monitor racionaliza o plano injetado.",
+      "authors": [
+        "Keertana Chidambaram",
+        "Andrew Ilyas",
+        "Vasilis Syrgkanis"
+      ],
+      "date": "2026-09-14"
+    },
     {
       "title": "Occamy-1.0: Inteligência Aberta de 35B na Fronteira de Pareto para Co-trabalho",
       "links": [
