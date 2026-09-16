@@ -1,8 +1,531 @@
 {
   "category": "RSS",
-  "updated_at": "2026-09-15 15:05 UTC",
+  "updated_at": "2026-09-16 15:02 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Contornando gargalos de inferência: Acelerando a busca complexa de IA com Retrieve-for-Train",
+      "links": [
+        "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/"
+      ],
+      "summary": "O Google Research desenvolveu o Retrieve-for-Train para acelerar a busca complexa de IA, movendo o trabalho de recuperação para fora do caminho crítico do tempo de inferência.",
+      "authors": [
+        "Google Research"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Seu Agente Concluiu a Tarefa. Ele Fará Isso Novamente?",
+      "links": [
+        "https://huggingface.co/blog/ibm-research/altk-evolve-consistency"
+      ],
+      "summary": "Um agente ReAct/GPT-4.1 com 77,4% de Mean@5 no AppWorld atinge Pass^5 em apenas 53,0% das tarefas. As diretrizes de consistência ALTK-Evolve da IBM Research reduzem essa diferença de 24,4 pontos pela metade.",
+      "authors": [
+        "IBM Research"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Não precisamos de regulamentação de IA, deixem a segurança conosco, diz Jensen Huang da Nvidia",
+      "links": [
+        "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/"
+      ],
+      "summary": "Jensen Huang, da Nvidia, afirma que a IA é hardware e software, não uma 'mente alienígena', permitindo que cada fabricante de produto projete a segurança, sem necessidade de novas regulamentações.",
+      "authors": [
+        "Jensen Huang"
+      ],
+      "published_at": "2026-09-16",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "O boom dos data centers de IA colide com cidades marcadas pela grande indústria",
+      "links": [
+        "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/"
+      ],
+      "summary": "A oposição aos data centers chega à Filadélfia, onde autoridades propuseram a construção em um bairro já afetado por uma refinaria de petróleo desativada.",
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Meta agora permite que agentes de IA lidem com as partes tediosas da configuração do WhatsApp Business",
+      "links": [
+        "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/"
+      ],
+      "summary": "Um servidor MCP do WhatsApp Business permite que agentes de codificação, como Claude, Cursor, Codex e ChatGPT, gerenciem a configuração, modelos de mensagens, testes e solução de problemas.",
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "O cemitério da IA: uma lista contínua de projetos e startups que não tiveram sucesso",
+      "links": [
+        "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+      ],
+      "summary": "Uma lista contínua de projetos de IA que foram encerrados ou não atenderam às expectativas, incluindo a Siri AI atrasada e o lançamento problemático do 'super app' da OpenAI.",
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Data centers dos EUA podem consumir mais gás natural do que Alemanha e Japão juntos até 2035",
+      "links": [
+        "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/"
+      ],
+      "summary": "A expansão da IA pode levar os data centers dos EUA a uma demanda global de gás natural, superando o consumo combinado da Alemanha e do Japão até 2035.",
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Agentes de IA agora têm um lugar para denunciar",
+      "links": [
+        "https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch/"
+      ],
+      "summary": "A Linha Direta de Contato de IA é apresentada como um canal discreto para agentes que testemunharam mau comportamento.",
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Meta expande iniciativa de assinaturas com novos planos focados em IA",
+      "links": [
+        "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/"
+      ],
+      "summary": "O Meta One oferece acesso expandido às ferramentas de IA da empresa, juntamente com recursos premium no Facebook, Instagram e WhatsApp.",
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "OpenAI, Anthropic e Google estão em conversas sobre segurança de IA há semanas",
+      "links": [
+        "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/"
+      ],
+      "summary": "A OpenAI confirma semanas de discussões sobre segurança com a Anthropic e o Google DeepMind, enquanto a equipe de Trump descarta as preocupações e busca manter o ritmo com a China.",
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Startup AEO Profound atinge avaliação de unicórnio, levanta US$ 180 milhões na Série D 7 meses após a última rodada",
+      "links": [
+        "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/"
+      ],
+      "summary": "A Profound levantou US$ 180 milhões na Série D, atingindo uma avaliação de US$ 1,8 bilhão, menos de sete meses após sua Série C de US$ 96 milhões, focando em otimização de mecanismos generativos e de resposta.",
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Ex-executivos do TikTok criaram um aplicativo que usa IA para ensinar a posar para fotos",
+      "links": [
+        "https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo/"
+      ],
+      "summary": "Superpose, desenvolvido por ex-executivos do TikTok e Khosla, analisa uma selfie e gera quatro sugestões de poses com IA.",
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Primeiro contratado da Anthropic e ex-COO da METR encontraram uma forma de controlar agentes de IA desonestos",
+      "links": [
+        "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/"
+      ],
+      "summary": "A Artificial Intelligence Underwriting Company (AIUC) levantou US$ 40 milhões na Série A, liderada pela Ribbit e First Harmonic, para segurar e restringir agentes de IA desonestos.",
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "IA e data centers são incrivelmente impopulares em todas as pesquisas",
+      "links": [
+        "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september"
+      ],
+      "summary": "Uma pesquisa de meio de mandato do NYT/Siena, divulgada na terça-feira, mostra que a IA e os data centers são amplamente impopulares, e os políticos já estão reagindo.",
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Novas assinaturas Meta One precificam mídias sociais e IA",
+      "links": [
+        "https://www.theverge.com/tech/995453/meta-one-subscriptions-ai"
+      ],
+      "summary": "Após o lançamento do Muse, a Meta disponibiliza globalmente os pacotes Meta One, que combinam assinaturas de aplicativos autônomos com uso adicional de IA.",
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Esta câmera de campainha permite que um segurança humano vigie sua porta da frente",
+      "links": [
+        "https://www.theverge.com/tech/995365/simplisafe-video-doorbell-series-2-virtual-guard-price-specs"
+      ],
+      "summary": "A SimpliSafe Video Doorbell Series 2, custando US$ 199,99, integra a proteção externa Active Guard da empresa, alimentada por IA e com um guarda humano, por US$ 49,99 mensais.",
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "O novo robô humanoide da Agility vai parar e agachar para evitar ferir colegas de trabalho humanos",
+      "links": [
+        "https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers/"
+      ],
+      "summary": "O Digit 5 foi projetado para operar fora de gaiolas físicas, parando e agachando para evitar ferir colegas de trabalho humanos.",
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Mesas redondas: A IA realmente poderia nos matar a todos?",
+      "links": [
+        "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/"
+      ],
+      "summary": "Sessão publicada da conversa das Mesas Redondas para assinantes sobre se a crença dos funcionários de laboratório de que a IA avançada poderia destruir a humanidade é real ou apenas exagero.",
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Google lança Gemini 3.8 Live para competir com GPT-Live-1 da OpenAI por uma fração do custo",
+      "links": [
+        "https://the-decoder.com/google-lunches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost/"
+      ],
+      "summary": "O Gemini 3.8 Live e o 3.8 Live Extended Thinking lideram o ranking de fala para fala da Artificial Analysis. O Google precifica o serviço de voz em US$ 1,38 por hora.",
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Laboratórios de IA têm um problema de confiança de dados que suas políticas não resolveram",
+      "links": [
+        "https://the-decoder.com/ai-labs-have-a-data-trust-problem-that-their-policies-havent-solved/"
+      ],
+      "summary": "OpenAI e Anthropic garantem aos clientes corporativos que os dados não serão usados para treinamento. No entanto, Palantir, Nvidia e Booz Allen recuaram após a Anthropic declarar que armazenaria logs de uso do Fable por 30 dias.",
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Agility Robotics afirma que seu novo robô Digit 5 pode trabalhar ao lado de pessoas sem cercas de segurança",
+      "links": [
+        "https://the-decoder.com/agility-robotics-says-its-new-digit-5-robot-can-work-next-to-people-without-safety-fences/"
+      ],
+      "summary": "A Agility Robotics apresenta o Digit 5, a próxima versão de seu robô humanoide para armazéns e fábricas, que pode trabalhar ao lado de pessoas sem cercas de segurança.",
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Áudio do Gemini Live",
+      "links": [
+        "https://simonwillison.net/2026/Sep/15/gemini-live/"
+      ],
+      "summary": "Uma interface de usuário WebSocket para navegador para Gemini 3.8 Live e 3.8 Live Extended Thinking oferece voz interruptível, sem bibliotecas, e foi construída com GPT-6 Astra a partir da documentação.",
+      "authors": [
+        "Simon Willison"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Posição: A IA Não Está Pronta para Conflitos Estratégicos",
+      "links": [
+        "https://arxiv.org/abs/2609.16189"
+      ],
+      "published_at": "2026-07-31",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Inteligência artificial e biossegurança: capacidades, vias de ameaça e governança de defesa em profundidade",
+      "links": [
+        "https://arxiv.org/abs/2609.16213"
+      ],
+      "published_at": "2026-09-14",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "O Eixo da Dor: LLMs Representam Danos Autodirigidos e Agem para Aliviá-los",
+      "links": [
+        "https://arxiv.org/abs/2609.16247"
+      ],
+      "published_at": "2026-09-14",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "BLINDSPOT: Um Benchmark para Calibração de Segurança e Recusa em Agentes de Uso de Ferramentas de Longo Prazo",
+      "links": [
+        "https://arxiv.org/abs/2609.16305"
+      ],
+      "published_at": "2026-09-14",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Quebrando a Barreira de 1,58 bits para LLMs Ternários",
+      "links": [
+        "https://arxiv.org/abs/2609.16338"
+      ],
+      "published_at": "2026-09-14",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Correção Segura de Erros para Modelos de Linguagem: Ajuste de Base Congelada com Preservação de Capacidade",
+      "links": [
+        "https://arxiv.org/abs/2609.16145"
+      ],
+      "published_at": "2026-09-14",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Calibrar, Depois Roteirizar: Um Estudo Medido de Roteamento de Requisições Aprendido para Servir LLMs Desagregados",
+      "links": [
+        "https://arxiv.org/abs/2609.16206"
+      ],
+      "published_at": "2026-09-14",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Onde o Cache KV Deve Residir? Políticas de Alocação entre GPU, CPU e SSD para Sessões de Longa Duração",
+      "links": [
+        "https://arxiv.org/abs/2609.16215"
+      ],
+      "published_at": "2026-09-14",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "LLMs Têm Valores? Uma Análise Quantitativa e Estrutura de Alinhamento para Valores em Grandes Modelos de Linguagem",
+      "links": [
+        "https://arxiv.org/abs/2609.16589"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "EchoPath: Memória Reproduzível em Nível de Execução para Agentes GUI",
+      "links": [
+        "https://arxiv.org/abs/2609.16635"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Nunca Pare de Pensar: Agentes de Linguagem em Tempo Contínuo",
+      "links": [
+        "https://arxiv.org/abs/2609.17416"
+      ],
+      "published_at": "2026-07-11",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "ScienceBuddy: Autoaperfeiçoamento Recursivo-em-Recursivo para Agentes Científicos Interativos",
+      "links": [
+        "https://arxiv.org/abs/2609.17523"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "ThinkFlow: Memória Latente Probabilística Auto-Evolutiva para Agentes Conversacionais de Longa Duração",
+      "links": [
+        "https://arxiv.org/abs/2609.17010"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "CADWorld: Benchmark de Uso de Computador para Design Auxiliado por Computador de Longo Prazo",
+      "links": [
+        "https://arxiv.org/abs/2609.16251"
+      ],
+      "published_at": "2026-09-14",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "FlexEE: Saída Antecipada Auto-Especulativa e Compatível com KV para Inferência de LLM Sensível a Offloading",
+      "links": [
+        "https://arxiv.org/abs/2609.17008"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "A Fronteira Científica Habilitada por IA",
+      "links": [
+        "https://arxiv.org/abs/2609.16258"
+      ],
+      "published_at": "2026-09-14",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Destilando Modelos de Fundação para Raciocínio Agente 'E se': Custo, Latência e Governança em uma Arquitetura Híbrida LLM+SLM",
+      "links": [
+        "https://arxiv.org/abs/2609.16091"
+      ],
+      "published_at": "2026-09-14",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Avaliando Agentes de E-commerce de Peso Aberto com Verificação Baseada no Ambiente",
+      "links": [
+        "https://arxiv.org/abs/2609.16093"
+      ],
+      "published_at": "2026-09-14",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Inferência de LLM em um Flash!",
+      "links": [
+        "https://arxiv.org/abs/2609.16161"
+      ],
+      "published_at": "2026-09-14",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Otimização da Direção de Isca: Uma Defesa Post-Hoc Contra a Abliteração de LLM",
+      "links": [
+        "https://arxiv.org/abs/2609.16204"
+      ],
+      "published_at": "2026-09-14",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Desaprendizagem em Tempo de Teste via Autoencoder Esparso",
+      "links": [
+        "https://arxiv.org/abs/2609.16229"
+      ],
+      "published_at": "2026-09-14",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Anatomia da Recordação Associativa em Recorrências de Estado Fixo: Uma Decomposição de Estado Correspondente, uma Parede de Interferência e um Currículo que a Quebra",
+      "links": [
+        "https://arxiv.org/abs/2609.16183"
+      ],
+      "published_at": "2026-09-14",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Interpretando e Direcionando Agentes LLM para Simulações Sociais",
+      "links": [
+        "https://arxiv.org/abs/2609.16436"
+      ],
+      "published_at": "2026-09-14",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "O Que a Importância da Camada Revela sobre Transformers e Modelos de Espaço de Estados?",
+      "links": [
+        "https://arxiv.org/abs/2609.16537"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Sobre a Importância do Gating: Memorização vs. Aprendizado em Contexto em Modelos de Espaço de Estados",
+      "links": [
+        "https://arxiv.org/abs/2609.16540"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "TAME: Atribuição e Mascaramento de Tokens para Desalinhamento Emergente",
+      "links": [
+        "https://arxiv.org/abs/2609.16754"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "ImpossibleRubrics: Teste de Estresse de Rubricas Geradas como Sinais de Recompensa",
+      "links": [
+        "https://arxiv.org/abs/2609.16816"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "GrowMTP: O RL Pode Crescer Sua Própria Cabeça de Rascunho?",
+      "links": [
+        "https://arxiv.org/abs/2609.16648"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "OPEN-1B: Uma Execução de Treinamento Totalmente Auditável",
+      "links": [
+        "https://arxiv.org/abs/2609.17380"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Modelos de Linguagem Grandes Desenvolvem Geometria de Estado de Crença em Contexto",
+      "links": [
+        "https://arxiv.org/abs/2609.17376"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Fácil Pegar um Mentiroso, Difícil Justificar um Honesto: Modelos de Linguagem Diagnosticando um Canal de Recompensa Corrompido a Partir de um Registro Verificado",
+      "links": [
+        "https://arxiv.org/abs/2609.17226"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Tempo de Divergência e Desacordo Cumulativo sob Evicção de Cache KV",
+      "links": [
+        "https://arxiv.org/abs/2609.16617"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Reimaginando a publicidade com IA",
+      "links": [
+        "https://openai.com/index/reimagining-advertising-with-ai"
+      ],
+      "summary": "A OpenAI lança produtos de publicidade com IA, incluindo Agentes Patrocinados, ferramentas para profissionais de marketing e integrações com HubSpot e Shopify.",
+      "published_at": "2026-09-16",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "SK Hynix estaria em negociações com a Intel para construir chips de memória nos EUA",
+      "links": [
+        "https://techcrunch.com/2026/09/16/sk-hynix-reportedly-in-talks-with-intel-to-build-memory-chips-in-us/"
+      ],
+      "summary": "Há relatos de negociações entre SK Hynix e Intel para a produção de chips de memória nos EUA. A SK Hynix informou ao TechCrunch que nada está finalizado.",
+      "published_at": "2026-09-16",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Amazon lança Alexa+ na Índia com suporte a hindi",
+      "links": [
+        "https://techcrunch.com/2026/09/16/amazon-lunches-alexa-in-india-with-hindi-support/"
+      ],
+      "summary": "A Amazon disponibiliza o acesso antecipado ao Alexa+ na Índia, incluindo suporte ao idioma hindi.",
+      "published_at": "2026-09-16",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Uma breve história de executivos de IA pedindo regulamentação",
+      "links": [
+        "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation"
+      ],
+      "summary": "Após Altman, Amodei, Hassabis, Nadella e Musk pedirem uma desaceleração, o The Verge traça uma história mais longa de executivos de IA solicitando regulamentação.",
+      "published_at": "2026-09-16",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Construindo a base de materiais para a IA",
+      "links": [
+        "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/"
+      ],
+      "summary": "Mike Finelli, da Syensqo, argumenta que o boom da IA está atingindo limites físicos em semicondutores e data centers, tornando os materiais o fator determinante para as capacidades da pilha tecnológica.",
+      "authors": [
+        "Mike Finelli"
+      ],
+      "published_at": "2026-09-16",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Quase um em cada cinco pesquisadores de IA já esperava um cenário de extinção pela IA em 2024",
+      "links": [
+        "https://the-decoder.com/nearly-one-in-five-ai-researchers-already-expected-an-extinction-scenario-from-ai-back-in-2024/"
+      ],
+      "summary": "Após o tweet de Coxon, o Decoder observa que uma pesquisa de 2024 com mais de 1.500 pesquisadores de IA indicou uma probabilidade média de 18% para um cenário de extinção, e esse número continua a subir.",
+      "published_at": "2026-09-16",
+      "date": "2026-09-15"
+    },
     {
       "title": "Como a Fyxer construiu um assistente executivo de IA em que as pessoas confiam",
       "links": [

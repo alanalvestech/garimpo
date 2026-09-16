@@ -1,8 +1,89 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-15 15:05 UTC",
+  "updated_at": "2026-09-16 15:02 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "LimiX-2: Uma Rede de Mecanismos Contextuais para Inteligência Geral de Dados Estruturados",
+      "links": [
+        "https://arxiv.org/abs/2609.17488"
+      ],
+      "summary": "LimiX-2 é um novo modelo de base tabular que aprende o mecanismo subjacente aos dados, não apenas a condicional. Ele supera modelos específicos de conjuntos de dados e outros FMs tabulares em benchmarks, e seu mapa de atenção codifica relações causais diretas.",
+      "authors": [
+        "Xingxuan Zhang",
+        "Gang Ren",
+        "Yue He",
+        "Peng Cui et al."
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "ScienceBuddy: Autoaperfeiçoamento Recursivo-em-Recursivo para Agentes Científicos Interativos",
+      "links": [
+        "https://arxiv.org/abs/2609.17523"
+      ],
+      "summary": "ScienceBuddy é um espaço de trabalho científico interativo que usa feedback e execuções para aprendizado contínuo. Seu autoaperfeiçoamento recursivo-em-recursivo melhora o ambiente de teste e o modelo simultaneamente, integrando-se ao ciclo de trabalho do pesquisador.",
+      "authors": [
+        "Shuhan Xue",
+        "Jianyuan Zhong",
+        "Zhenfei Yin",
+        "Yingcheng Wu",
+        "Ling Yang et al."
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Agentes de Codificação Convergiram: Por Que o Ranking SWE-bench Não Consegue Mais Ordenar Suas Principais Entradas",
+      "links": [
+        "https://arxiv.org/abs/2609.17394"
+      ],
+      "summary": "Uma auditoria de submissões ao SWE-bench revela que as pequenas diferenças de pontuação não permitem um ranking claro entre os principais agentes de codificação. Os testes estatísticos não conseguem diferenciar pares adjacentes no top 30, indicando que o leaderboard não deve ser tratado como uma ordenação precisa.",
+      "authors": [
+        "Fengshuo Liu",
+        "Ying Liu",
+        "Ruize Sun",
+        "Lie Luo",
+        "Siyuan Guo"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Grandes Modelos de Linguagem Desenvolvem Geometria de Estado de Crença Em Contexto",
+      "links": [
+        "https://arxiv.org/abs/2609.17376"
+      ],
+      "summary": "Seis LLMs de código aberto, quando solicitados com sequências de HMMs, desenvolvem estados de crença bayesianos decodificáveis linearmente do fluxo residual. Isso sugere que o aprendizado em contexto em LLMs envolve a formação de um estado de crença aproximadamente bayesiano.",
+      "authors": [
+        "Daniel Balcells",
+        "Andrew Jun Lee",
+        "Chirag Rastogi",
+        "Paul M. Riechers",
+        "Adam Shai",
+        "Xavier Poncini"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Raciocínio Social Verificável para Assistentes LLM",
+      "links": [
+        "https://arxiv.org/abs/2609.17496"
+      ],
+      "summary": "Fuse é uma simulação multiagente que permite verificar o raciocínio social de assistentes LLM, atribuindo motivos ocultos aos agentes. Um estudo com 12 LLMs mostrou que a mediação do usuário e o enquadramento tendencioso dificultam a tarefa, e conversas mais longas nem sempre ajudam.",
+      "authors": [
+        "Amir Taubenfeld",
+        "Zorik Gekhman",
+        "Marian Croak",
+        "Avinatan Hassidim",
+        "Yossi Matias",
+        "Amir Feder"
+      ],
+      "published_at": "2026-09-15",
+      "date": "2026-09-15"
+    },
     {
       "title": "ZGCM-1: Um Modelo de Fundação Totalmente Aberto e Extremamente Eficiente para Matemática e Busca Agente",
       "links": [
