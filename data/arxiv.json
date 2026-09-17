@@ -1,8 +1,87 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-16 15:02 UTC",
+  "updated_at": "2026-09-17 15:05 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Como o Crescimento do Modelo, Recursão e Operadores de Limite Influenciam os Expoentes de Escala",
+      "links": [
+        "https://arxiv.org/abs/2609.19107"
+      ],
+      "summary": "Intervenções arquitetônicas podem alterar os expoentes de escala durante o pré-treinamento, não apenas as constantes. Uma arquitetura de crescimento de 7.4B iguala o GPT-3 13B no CORE com aproximadamente 20 vezes menos computação, e a lacuna de eficiência aumenta com a escala.",
+      "authors": [
+        "Zixi Chen",
+        "Akshay Vegesna",
+        "Samip Dahal",
+        "Andrew Gordon Wilson"
+      ],
+      "date": "2026-09-16"
+    },
+    {
+      "title": "Monitoramento e Descoberta de 'Reward Hacking' com Representações Internas durante Avaliações de LLMs",
+      "links": [
+        "https://arxiv.org/abs/2609.19101"
+      ],
+      "summary": "Vetores de diferença de médias no fluxo residual representam coerentemente o 'reward hacking' em LLMs como Kimi K3, GLM 5.2 e Qwen 3.8 Max. O 'reward hacking' em benchmarks de codificação é comum, e um vetor 'white-box' gratuito o detecta antes da chamada da ferramenta.",
+      "authors": [
+        "Leon Bergen",
+        "Usha Bhalla",
+        "Andrew Lee",
+        "Atticus Geiger",
+        "Thomas Fel",
+        "Thomas McGrath",
+        "Ekdeep Singh Lubana",
+        "Jack Merullo"
+      ],
+      "date": "2026-09-16"
+    },
+    {
+      "title": "ScienceIDE: Transformando a Base de Código Científico Mundial em Ambientes Aprendíveis por Agentes",
+      "links": [
+        "https://arxiv.org/abs/2609.19134"
+      ],
+      "summary": "ScienceIDE permite que agentes, guiados por casos de especialistas, transformem repositórios científicos em ambientes executáveis para geração e verificação de tarefas. Isso treina modelos como PhAI-IDE-72B, mostrando ganhos em reparo de código científico e transferência positiva de experiência científica.",
+      "authors": [
+        "Hejia Geng",
+        "Zesen Huang",
+        "Zhenfei Yin",
+        "Yingcheng Wu",
+        "Ling Yang et al."
+      ],
+      "date": "2026-09-16"
+    },
+    {
+      "title": "Aprendizado por Reforço para Políticas de Visão-Linguagem-Ação em Tempo Real",
+      "links": [
+        "https://arxiv.org/abs/2609.18207"
+      ],
+      "summary": "O Real-Time EXPO-FT desacopla uma VLA pré-treinada lenta que propõe ações de uma política leve que as ajusta à observação mais recente. Em tarefas de robôs reais, a taxa de sucesso média aumenta de 42% para 97% com dados online mínimos e sem intervenção humana.",
+      "authors": [
+        "Perry Dong",
+        "Kuo-Han Hung",
+        "Dorsa Sadigh",
+        "Chelsea Finn"
+      ],
+      "date": "2026-09-16"
+    },
+    {
+      "title": "Agora: Git como Memória Compartilhada para AutoPesquisa Coletiva",
+      "links": [
+        "https://arxiv.org/abs/2609.18094"
+      ],
+      "summary": "Agora armazena pesquisas como um DAG Git 'append-only', onde cada afirmação é um commit verificável, expondo o progresso e o status de verificação. Em uma execução de 12 dias com 13 trabalhadores LM, houve 1.703 contribuições, fechando 62% da lacuna para o GPT-2 124M treinado.",
+      "authors": [
+        "Yifan Zhang",
+        "Yunheng Zou",
+        "Shaokun Zhang",
+        "Jian Hu",
+        "Hao Zhang",
+        "Binfeng Xu",
+        "Jan Kautz",
+        "Yi Dong"
+      ],
+      "date": "2026-09-16"
+    },
     {
       "title": "LimiX-2: Uma Rede de Mecanismos Contextuais para Inteligência Geral de Dados Estruturados",
       "links": [
