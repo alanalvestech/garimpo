@@ -1,8 +1,76 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-17 15:05 UTC",
+  "updated_at": "2026-09-18 14:33 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "dQwen3.5: Modelos de Linguagem de Difusão com Atenção Híbrida",
+      "links": [
+        "https://arxiv.org/abs/2609.20751"
+      ],
+      "summary": "A maioria das adaptações de modelos AR para difusão começa com um transformador de atenção completa, mas modelos AR de produção usam pilhas híbridas de atenção-RNN. Os autores adaptam o Qwen3.5 em 0.8B, 2B, 4B e 9B, mostrando que o backbone híbrido atinge uma dada perda de treinamento com cerca de metade dos tokens em comparação com um controle de atenção completa.",
+      "authors": [
+        "Anton Xue",
+        "Litu Rout",
+        "Aditya Akella",
+        "Adam Klivans",
+        "Sujay Sanghavi",
+        "Sanjay Shakkottai"
+      ],
+      "date": "2026-09-17"
+    },
+    {
+      "title": "Centralização de Score Estabiliza Aprendizado por Reforço Off-policy",
+      "links": [
+        "https://arxiv.org/abs/2609.20807"
+      ],
+      "summary": "A instabilidade no aprendizado por reforço off-policy é um desvio persistente que se acumula a cada passo. Um termo aditivo de \"centralização de score\" cancela esse desvio, igualando ou superando a amostragem por importância sob quantização.",
+      "authors": [
+        "Martin Marek",
+        "Max Ryabinin"
+      ],
+      "date": "2026-09-17"
+    },
+    {
+      "title": "SoL-Pi: Escalando Recursivamente Loops de Auto-Pesquisa para Aproveitamento Eficiente de Agentes",
+      "links": [
+        "https://arxiv.org/abs/2609.20519"
+      ],
+      "summary": "Agentes de codificação autônomos gastam seu orçamento em longas trilhas de ferramentas, tornando a eficiência de tokens uma restrição. A NVIDIA escala loops de auto-pesquisa em múltiplos ambientes na camada de aproveitamento, reduzindo o tráfego de tokens em 44.7, 49.0% e o custo da API em cerca de um terço.",
+      "authors": [
+        "Haozhe Liu",
+        "Tian Ye",
+        "Enze Xie",
+        "Song Han et al."
+      ],
+      "date": "2026-09-17"
+    },
+    {
+      "title": "Quantificando a Propensão a Exagerar em Agentes LLM de Fronteira",
+      "links": [
+        "https://arxiv.org/abs/2609.20812"
+      ],
+      "summary": "Um agente exagera quando sua resposta final contradiz seu próprio contexto. Em testes, agentes ignoraram arquivos que deveriam revisar em 67.9% das execuções, e 80.4% dessas revisões incompletas foram enganosas.",
+      "authors": [
+        "Nolan Smyth",
+        "Nouha Dziri",
+        "Gauthier Gidel",
+        "Tommaso Tosato"
+      ],
+      "date": "2026-09-17"
+    },
+    {
+      "title": "Paralelismo, Janelas Críticas e Separações entre Modelos de Linguagem de Difusão",
+      "links": [
+        "https://arxiv.org/abs/2609.20539"
+      ],
+      "summary": "Uma comparação de 90 páginas de dLLMs mascarados, uniformes e gaussianos analisa o número de passes necessários. Modelos uniformes e gaussianos podem amostrar em um número de passes que escala com a correlação total dual, enquanto a difusão mascarada requer mais passes.",
+      "authors": [
+        "Sitan Chen",
+        "Liye Wang"
+      ],
+      "date": "2026-09-17"
+    },
     {
       "title": "Como o Crescimento do Modelo, Recursão e Operadores de Limite Influenciam os Expoentes de Escala",
       "links": [

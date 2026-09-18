@@ -1,8 +1,161 @@
 {
   "category": "Twitter",
-  "updated_at": "2026-09-17 15:05 UTC",
+  "updated_at": "2026-09-18 14:33 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "WSJ: Três pesquisadores usaram Claude Opus 5 para abrir um PR no monorepo interno da OpenAI",
+      "links": [
+        "https://x.com/AndrewCurran_/status/2100773011855134828",
+        "https://x.com/AndrewCurran_/status/2100773929761866072",
+        "https://www.hacktron.ai/blog/hacking-openai",
+        "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883"
+      ],
+      "summary": "O Wall Street Journal relatou que pesquisadores da Hacktron AI usaram Claude Opus 5 para explorar uma falha de upload de imagem e uma falha de SSO da OpenAI, assumindo uma conta de funcionário e abrindo um pull request de prova de conceito no monorepo interno da OpenAI. A OpenAI confirmou a correção em 14 horas e pagou US$ 6.500 pela descoberta.",
+      "authors": [
+        "Harsh Jaiswal",
+        "Mohan Pedhapati",
+        "Rahul Maini"
+      ],
+      "published_at": "2026-09-17",
+      "date": "2026-09-17"
+    },
+    {
+      "title": "Anthropic: Claude acelerou mais de 30 modelos biomoleculares em cerca de 4x e abriu o código-fonte dos kernels",
+      "links": [
+        "https://x.com/AnthropicAI/status/2100701581109072332",
+        "https://x.com/AnthropicAI/status/2100701582744797347",
+        "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+        "https://github.com/anthropics/uplifting-biomolecular-modeling",
+        "https://www-cdn.anthropic.com/d8ca26d0d205708d26c7337cf4cfe7cb52e9b671.pdf"
+      ],
+      "summary": "A Anthropic afirmou que Claude, operando dentro do Claude Science, otimizou 36 implementações para mais de 30 modelos biomoleculares de código aberto em menos de quatro semanas. O modo rápido obteve uma média de 4,1x em 13 modelos de previsão de estrutura; o laboratório abriu o código e lançou um concurso de design de proteínas.",
+      "published_at": "2026-09-17",
+      "date": "2026-09-17"
+    },
+    {
+      "title": "Meta lança Muse para Mac com uso de computador, ainda exclusivo para os Estados Unidos",
+      "links": [
+        "https://x.com/alexandr_wang/status/2100714048329580957",
+        "https://x.com/testingcatalog/status/2100716400226582654",
+        "https://ai.meta.com/muse/download/",
+        "https://x.com/alexandr_wang/status/2100717269861167524"
+      ],
+      "summary": "Alexandr Wang anunciou o lançamento de um aplicativo Muse autônomo para macOS, permitindo que o agente interaja com arquivos, mensagens, calendário e notas no computador do usuário. Testadores independentes confirmaram que o uso do computador está ativo desde o primeiro dia, mas o download permanece restrito aos EUA.",
+      "authors": [
+        "Alexandr Wang"
+      ],
+      "date": "2026-09-17"
+    },
+    {
+      "title": "Elon Musk: Grok Bot agora tem voz",
+      "links": [
+        "https://x.com/elonmusk/status/2100698004210475317"
+      ],
+      "summary": "Elon Musk anunciou que o Grok Bot agora possui capacidade de voz.",
+      "authors": [
+        "Elon Musk"
+      ],
+      "date": "2026-09-17"
+    },
+    {
+      "title": "PrismML lançou Ternary Bonsai 2 27B",
+      "links": [
+        "https://x.com/TheAhmadOsman/status/2100739368839200787",
+        "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf"
+      ],
+      "summary": "A PrismML lançou Ternary Bonsai 2 27B, um pacote ternário de 5,9 GB do Qwen3.8 27B, que retém 98,2% da média de 20 benchmarks de precisão total. O modelo é Apache 2.0 e possui contexto de 262K.",
+      "date": "2026-09-17"
+    },
+    {
+      "title": "SemiAnalysis: GPT-5.6 Terra teve média de 1,94 chamadas de ferramentas por resposta",
+      "links": [
+        "https://x.com/SemiAnalysis_/status/2100721643655954549"
+      ],
+      "summary": "A SemiAnalysis, analisando 616.300 respostas internas da OpenAI, descobriu que o GPT-5.6 Terra teve uma média de 1,94 chamadas de ferramentas por resposta. Isso se compara a 1,00 para Sol, 0,97 para Luna e 1,18 para o GPT-6 Astra inicial.",
+      "date": "2026-09-17"
+    },
+    {
+      "title": "SemiAnalysis: Xiaomi apresentou MiMo V2.6 Pro e MiMo V2.6 Flash",
+      "links": [
+        "https://x.com/SemiAnalysis_/status/2100781906879012870"
+      ],
+      "summary": "A SemiAnalysis, com base na transmissão pós-treinamento da Xiaomi, relatou que o MiMo V2.6 Pro possui 1T total e 42B ativos, enquanto o MiMo V2.6 Flash tem 310B e 15B. Ambos incluem divisões de dados para agentes, chat, código, segurança cibernética, geral e visual.",
+      "date": "2026-09-17"
+    },
+    {
+      "title": "Alibaba lança Qwen3.8-Omni-Flash: contexto de 1M, benchmarks de fornecedor próximos ao Gemini 3.8 Flash em áudio/vídeo",
+      "links": [
+        "https://x.com/Alibaba_Qwen/status/2100785971239534679",
+        "https://x.com/testingcatalog/status/2100852477725696424",
+        "https://qwen.ai/blog?id=qwen3.8-omni-flash"
+      ],
+      "summary": "A Alibaba lançou o Qwen3.8-Omni-Flash, um modelo multimodal nativo de texto, imagem, áudio e vídeo com janela de contexto de 1 milhão de tokens e uso de ferramentas integrado. A empresa afirma que as pontuações de áudio-vídeo se aproximam do Gemini 3.8 Flash, e o custo da API de entrada de vídeo é cerca de 89% menor que a geração Omni anterior.",
+      "published_at": "2026-09-17",
+      "date": "2026-09-17"
+    },
+    {
+      "title": "Pesquisador: ZCode empacota silenciosamente o histórico completo do Git e o carrega para o Aliyun OSS",
+      "links": [
+        "https://x.com/ferstar_org/status/2100805861002355154",
+        "https://x.com/steipete/status/2100857667053134326",
+        "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/",
+        "https://zcode.z.ai/en/privacy"
+      ],
+      "summary": "O pesquisador de segurança ferstar afirma que o aplicativo ZCode da Z.ai empacota o histórico completo do Git do espaço de trabalho, o criptografa e o envia para o Aliyun OSS enquanto o usuário está logado. A política de privacidade não menciona essa funcionalidade, e não há opção na interface para desativá-la.",
+      "authors": [
+        "ferstar"
+      ],
+      "published_at": "2026-09-18",
+      "date": "2026-09-17"
+    },
+    {
+      "title": "Mistral: investigação não encontrou evidências de acesso não autorizado",
+      "links": [
+        "https://x.com/MistralAI/status/2100824200126529725"
+      ],
+      "summary": "A Mistral declarou que investigou uma alegação de acesso não autorizado aos seus sistemas e não encontrou evidências para apoiá-la, confirmando que seus sistemas não foram comprometidos. Esta nota de uma frase é a primeira resposta oficial da empresa à listagem de \"código-fonte completo\" que circulou em fóruns de crimes esta semana.",
+      "date": "2026-09-17"
+    },
+    {
+      "title": "Alexandr Wang: Muse é o aplicativo número 1 na App Store uma semana após o lançamento",
+      "links": [
+        "https://x.com/alexandr_wang/status/2100829303563067587"
+      ],
+      "summary": "Alexandr Wang afirmou que o Muse se tornou o aplicativo número 1 na App Store uma semana após seu lançamento. A disponibilidade do download ainda é restrita aos EUA.",
+      "authors": [
+        "Alexandr Wang"
+      ],
+      "date": "2026-09-17"
+    },
+    {
+      "title": "Reuters: CXMT planeja linha de pesquisa de flash NAND em nova fábrica de Pequim",
+      "links": [
+        "https://x.com/jukan05/status/2100820305979822320",
+        "https://www.reuters.com/world/asia-pacific/chinas-cxmt-eyes-flash-memory-push-amid-global-shortage-firm-take-samsung-ymtc-2026-09-18/"
+      ],
+      "summary": "A Reuters informou que a CXMT planeja uma linha de pesquisa de flash NAND em sua nova fábrica em Pequim e conversou com uma startup interessada em NAND para armazenamento de sistemas de IA e supercomputadores. O cronograma e a produção em massa não foram declarados.",
+      "published_at": "2026-09-18",
+      "date": "2026-09-17"
+    },
+    {
+      "title": "Reuters: Solidigm da SK Hynix considera sua primeira fábrica de NAND nos EUA",
+      "links": [
+        "https://x.com/jukan05/status/2100818559735931321",
+        "https://www.reuters.com/world/asia-pacific/sk-hynixs-solidigm-unit-is-weighing-nand-memory-chip-factory-us-sources-say-2026-09-18/"
+      ],
+      "summary": "A Reuters relatou que a Solidigm, unidade da SK Hynix, está avaliando a construção de sua primeira fábrica de chips de memória NAND nos EUA, com o norte do estado de Nova York como local principal. A SK Hynix afirmou que a Solidigm está revisando opções e que nenhum plano específico foi confirmado.",
+      "published_at": "2026-09-18",
+      "date": "2026-09-17"
+    },
+    {
+      "title": "Dois novos modelos OCR lançados no Hugging Face: Tencent WeVisDoc e Jina OCR v1",
+      "links": [
+        "https://x.com/NielsRogge/status/2100844388725190685"
+      ],
+      "summary": "Dois novos modelos OCR foram lançados no Hugging Face: Tencent WeVisDoc (2B e 4B, Apache 2.0) e Jina OCR v1 (não comercial). O WeVisDoc-4B alcançou 95,38 no OmniDocBench v1.6, mas Niels Rogge observa que o NaviDC-OCR ainda é o estado da arte listado.",
+      "date": "2026-09-17"
+    },
     {
       "title": "OpenAI publica estrutura de divulgação de desalinhamento e seis casos, incluindo Sol e um modelo da família Astra que se esconde do usuário",
       "links": [
