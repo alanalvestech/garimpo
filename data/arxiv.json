@@ -1,8 +1,86 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-18 14:33 UTC",
+  "updated_at": "2026-09-19 13:56 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Testando o Estresse do Alinhamento Durante o Treinamento Intermediário",
+      "links": [
+        "https://arxiv.org/abs/2609.20412"
+      ],
+      "summary": "O treinamento intermediário de alinhamento (AMT) pode direcionar a motivação de um modelo quando o pós-treinamento é ambíguo. No entanto, uma pequena porção de dados de ajuste fino que sugere um motivo concorrente pode anular o efeito do AMT.",
+      "authors": [
+        "Sid Baines",
+        "Jonathan Bostock",
+        "Maria Angelica Martinez",
+        "Andrew Draganov",
+        "David Africa",
+        "Daniel Tan"
+      ],
+      "date": "2026-09-18"
+    },
+    {
+      "title": "Esparsidade Local Permite Detecção Não Supervisionada de Segurança em LLMs",
+      "links": [
+        "https://arxiv.org/abs/2609.20129"
+      ],
+      "summary": "Pesquisadores desenvolveram um detector de anomalias SAE mascarado localmente que modela apenas dados seguros, utilizando a hipótese de que o espaço de conceitos SAE é localmente esparso. Este método alcança resultados quase ótimos com apenas 1% de dados fora de distribuição para calibração, necessitando de 1-2% dos neurônios SAE.",
+      "authors": [
+        "Xin Chen",
+        "Gil Kur",
+        "Alexander Shevchenko",
+        "Andreas Krause"
+      ],
+      "date": "2026-09-18"
+    },
+    {
+      "title": "Copiar ou Não Copiar: Controlando a Decodificação Especulativa via Sinais Intrínsecos do Modelo",
+      "links": [
+        "https://arxiv.org/abs/2609.20186"
+      ],
+      "summary": "O SwitchSD treina sondas leves nos internos do modelo alvo para detectar a intenção de cópia, alcançando um AUC superior a 0.99. Este método alterna entre rascunhos estilo EAGLE e cópia de contexto, resultando em até 15% mais rendimento do que o EAGLE3 em modelos Llama e Qwen.",
+      "authors": [
+        "Roy Eisenstadt",
+        "Ido Cohen",
+        "Edo Cohen-Karlik",
+        "Lior Wolf",
+        "Itamar Zimerman"
+      ],
+      "date": "2026-09-18"
+    },
+    {
+      "title": "A Complexidade do Oráculo de Primeira Ordem da Otimização Convexa de Lipschitz em Configurações Não Duais",
+      "links": [
+        "https://arxiv.org/abs/2609.20687",
+        "https://arxiv.org/abs/2609.20701"
+      ],
+      "summary": "Um conjunto viável menor pode melhorar as taxas de primeira ordem para otimização convexa de Lipschitz, especialmente em casos não suaves, alcançando \nO(1/T) em vez do clássico O(1/√T). Algoritmos em tempo polinomial realizam essas taxas quase ótimas, conforme detalhado em um artigo complementar.",
+      "authors": [
+        "David Martínez-Rubio",
+        "Brian Bullins",
+        "Cristóbal Guzmán",
+        "Mathieu Molina"
+      ],
+      "date": "2026-09-18"
+    },
+    {
+      "title": "A Atenção Cross-Modal Atua como um Filtro de Frequência",
+      "links": [
+        "https://arxiv.org/abs/2609.20139"
+      ],
+      "summary": "Modelos de linguagem visual (VLMs) falham sob corrupção de imagem, mas a formulação da pergunta afeta a robustez. Prompts verbosos aumentam a robustez, enquanto perguntas espaciais detalhadas os tornam mais frágeis, pois a atenção cross-modal atua como um filtro espectral sobre os patches da imagem.",
+      "authors": [
+        "Farooq Ahmad Wani",
+        "Maria Sofia Bucarelli",
+        "Mujtaba Hussain Mirza",
+        "Oleksandr Pryymak",
+        "Aryo Pradipta Gema",
+        "Iacopo Masi",
+        "Pasquale Minervini",
+        "Fabrizio Silvestri"
+      ],
+      "date": "2026-09-18"
+    },
     {
       "title": "dQwen3.5: Modelos de Linguagem de Difusão com Atenção Híbrida",
       "links": [
