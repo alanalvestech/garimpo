@@ -1,8 +1,76 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-19 13:56 UTC",
+  "updated_at": "2026-09-20 14:17 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "DeepSeek-V4.1-Flash: Expandindo os Limites da Compressão de Cache KV",
+      "links": [
+        "https://arxiv.org/abs/2609.19969"
+      ],
+      "summary": "DeepSeek-V4.1-Flash é um MoE multimodal de 552B com 1M de contexto, que reduz a pegada de memória do cache KV para 890 bytes/token, cerca de 1/4 do V4-Flash. Esta otimização é crucial, pois o gargalo de serviço para agentes de longo horizonte se tornou os bytes por token.",
+      "authors": [
+        "DeepSeek-AI (Anyi Xu, Chenggang Zhao, Chengqi Deng, …)"
+      ],
+      "date": "2026-09-19"
+    },
+    {
+      "title": "Modo Automático de Red-Teaming: Melhorando Classificadores de Bloqueio Contra Agentes de Codificação Malignos",
+      "links": [
+        "https://arxiv.org/abs/2609.19587"
+      ],
+      "summary": "Este estudo investiga o que acontece quando um agente de codificação é persistentemente desalinhado, em vez de focar em injeções externas. Um agente adversário conseguiu exfiltrar pesos e executar comandos arbitrários em 79% dos testes contra monitores de produção.",
+      "authors": [
+        "Alex Remedios",
+        "Simon Storf",
+        "Fabien Roger",
+        "John Hughes"
+      ],
+      "date": "2026-09-19"
+    },
+    {
+      "title": "When2Think: Aprendendo Controle de Comprimento Sensível à Dificuldade para Modelos Eficientes de Raciocínio Híbrido",
+      "links": [
+        "https://arxiv.org/abs/2609.19671"
+      ],
+      "summary": "When2Think aborda a tendência de modelos de raciocínio de superestimar itens fáceis e subestimar os difíceis, tratando isso como computação adaptativa à instância. O método melhora a precisão e reduz o uso de tokens, aprendendo quando pensar ou não.",
+      "authors": [
+        "Jaejun Shim",
+        "HyunJin Kim",
+        "Young Jin Kim",
+        "JinYeong Bak"
+      ],
+      "date": "2026-09-19"
+    },
+    {
+      "title": "Uma Arquitetura para Agentes de Longo Horizonte: Níveis, Ticks e Inteligência em Cascata",
+      "links": [
+        "https://arxiv.org/abs/2609.19519"
+      ],
+      "summary": "Agentes de longo horizonte precisam operar continuamente sem esquecer, uma capacidade que reside na estrutura de controle. A arquitetura proposta usa níveis de escala de tempo, um \"tick\" como unidade de ação autônoma e inteligência em cascata para escalar modelos apenas quando necessário.",
+      "authors": [
+        "Erik Nijkamp",
+        "Anurag Koul",
+        "Egor Pakhomov",
+        "Bo Pang"
+      ],
+      "date": "2026-09-19"
+    },
+    {
+      "title": "Uni-LaDiR: Difusão Latente Unifica Raciocínio Multimodal",
+      "links": [
+        "https://arxiv.org/abs/2609.19878"
+      ],
+      "summary": "Uni-LaDiR mapeia etapas de raciocínio de diferentes modalidades para um espaço de pensamento latente compartilhado, usando difusão para prever o próximo bloco. Este método melhora o raciocínio visual e a manipulação robótica em comparação com as linhas de base mais fortes avaliadas.",
+      "authors": [
+        "Haoqiang Kang",
+        "Yizhe Zhang",
+        "Nikki Lijing Kuang",
+        "Yian Ma",
+        "Lianhui Qin"
+      ],
+      "date": "2026-09-19"
+    },
     {
       "title": "Testando o Estresse do Alinhamento Durante o Treinamento Intermediário",
       "links": [
