@@ -1,8 +1,84 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-20 14:17 UTC",
+  "updated_at": "2026-09-21 16:30 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "MintAct: Um Agente Visual Unificado para Ambientes Digitais",
+      "links": [
+        "https://arxiv.org/abs/2609.22083"
+      ],
+      "summary": "Uma família de VLMs (2B/4B/8B) realiza aterramento de UI, navegação multi-passos em dispositivos móveis/desktop/web e uso de ferramentas visuais, igualando especialistas por domínio. A arquitetura permite centenas de ambientes heterogêneos concorrentes e RL assíncrono, mantendo o controle da mistura entre domínios.",
+      "authors": [
+        "Mingfei Gao",
+        "Rui Tian",
+        "Haiming Gang",
+        "Bohan Zhai",
+        "Le Zhang",
+        "Yuanzheng Gong",
+        "Di Feng",
+        "Ege Özsoy",
+        "Kaixin Ma",
+        "Afshin Dehghan"
+      ],
+      "date": "2026-09-20"
+    },
+    {
+      "title": "RecreationWorld: Ambientes Escaláveis e Verificáveis para Agentes Híbridos de Uso de Computador",
+      "links": [
+        "https://arxiv.org/abs/2609.22000"
+      ],
+      "summary": "RecreationWorld oferece ambientes escaláveis e verificáveis para agentes híbridos de uso de computador, permitindo que decidam entre explorar GUIs, escrever software e observar resultados. A plataforma inclui 250 tarefas com asserções programáticas e visuais, onde o GPT-6 Astra lidera com 58,1% de acerto geral.",
+      "authors": [
+        "Shuai Bai",
+        "Jiayong Deng",
+        "An Yang",
+        "Bowen Zhou"
+      ],
+      "date": "2026-09-20"
+    },
+    {
+      "title": "CodeMidas: Escalando Ambientes de RL para Codificação Agente a Partir do Próprio Código",
+      "links": [
+        "https://arxiv.org/abs/2609.22068"
+      ],
+      "summary": "CodeMidas gera tarefas de RL para codificação a partir da funcionalidade implementada, permitindo que agentes escrevam especificações comportamentais e construam testes. Isso resultou em 5.545 tarefas de 3.185 repositórios, melhorando o desempenho de agentes treinados em benchmarks existentes.",
+      "authors": [
+        "Bowen Ye",
+        "Lei Li",
+        "Shicheng Li",
+        "Lingpeng Kong",
+        "Tong Yang",
+        "Fuli Luo"
+      ],
+      "date": "2026-09-20"
+    },
+    {
+      "title": "NemotronLabs VoiceChat: Um Modelo Aberto Full-duplex de Fala para Fala com Chamada de Ferramentas",
+      "links": [
+        "https://arxiv.org/abs/2609.21967"
+      ],
+      "summary": "A NVIDIA lançou o NemotronLabs VoiceChat, um modelo aberto full-duplex de fala para fala que integra um codificador de streaming, LM apenas com decodificador e TTS. Este modelo único ouve, transcreve, raciocina, chama ferramentas e fala, demonstrando baixo tempo de interrupção e alta qualidade pós-interrupção em benchmarks.",
+      "authors": [
+        "Jagadeesh Balam",
+        "Travis Bartley",
+        "Edresson Casanova",
+        "Boris Ginsburg",
+        "Zhonglei He"
+      ],
+      "date": "2026-09-20"
+    },
+    {
+      "title": "Abstenção e Filtragem de Ruído: Dois Primitivos Ausentes da Atenção Softmax",
+      "links": [
+        "https://arxiv.org/abs/2609.22005"
+      ],
+      "summary": "A atenção softmax carece de dois primitivos: abstenção, que permite a uma cabeça não produzir saída, e filtragem de ruído, que suprime a interferência de superposição. Testes mostram que o ganho da abstenção diminui com a escala, enquanto o da filtragem de ruído aumenta, sendo que o melhor modelo em todas as escalas incorpora ambos.",
+      "authors": [
+        "Richard Zhe Wang"
+      ],
+      "date": "2026-09-20"
+    },
     {
       "title": "DeepSeek-V4.1-Flash: Expandindo os Limites da Compressão de Cache KV",
       "links": [
