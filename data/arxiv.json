@@ -1,8 +1,83 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-21 16:30 UTC",
+  "updated_at": "2026-09-22 15:02 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "OSWorld-Pro: Avaliação Baseada em Processos para Agentes de Uso de Computador",
+      "links": [
+        "https://arxiv.org/abs/2609.24890"
+      ],
+      "summary": "As pontuações finais do OSWorld ocultam como um agente de uso de computador falha, pois erros de digitação e cliques perdidos parecem iguais no resultado final. OSWorld-Pro adiciona mais de 300 tarefas, 2.800 submetas e 67 mil anotações humanas para que um LLM-juiz possa pontuar a sequência de ações, revelando falhas de processo como ações irrelevantes para a submeta e erros de clique.",
+      "authors": [
+        "Zhilin Wang",
+        "Shaokun Zhang",
+        "Yifan Zhang",
+        "Hao Zhang",
+        "Jin Xu",
+        "Jan Kautz",
+        "Yi Dong (NVIDIA)"
+      ],
+      "date": "2026-09-21"
+    },
+    {
+      "title": "RRSI: Autoaperfeiçoamento Recursivo Regularizado de Estruturas de Agentes",
+      "links": [
+        "https://arxiv.org/abs/2609.24972"
+      ],
+      "summary": "O autoaperfeiçoamento recursivo (RSI) de estruturas de agentes, que edita prompts, ferramentas, memória e fluxo de controle, tende a superajustar as tarefas de treinamento. O RRSI regulariza o processo, com um proponente que recebe um orçamento de edição e é direcionado a trajetórias inexploradas, e um seletor que descarta propostas específicas de benchmark, resultando em melhor desempenho em tarefas de codificação, espaço de trabalho e design.",
+      "authors": [
+        "Peng Xia",
+        "Rujun Han",
+        "Zifeng Wang",
+        "Huaxiu Yao",
+        "Tomas Pfister",
+        "Chen-Yu Lee (Google)"
+      ],
+      "date": "2026-09-21"
+    },
+    {
+      "title": "WorldCrafter: Modelo de Mundo de Vídeo Consistente com Memória Implícita Ciente de 3D",
+      "links": [
+        "https://arxiv.org/abs/2609.24984"
+      ],
+      "summary": "Modelos de mundo de vídeo interativos esquecem o que já viram quando a câmera se move. WorldCrafter treina uma memória 3D implícita consultável pela câmera com o gerador, onde o ponto de vista solicitado decide como a evidência multi-visão é comprimida no orçamento de tokens, resultando em exploração contínua a partir de uma imagem ou prompt com consistência de longo prazo e precisão no controle da câmera.",
+      "authors": [
+        "Wangbo Yu",
+        "Kunhao Liu",
+        "Wenbo Hu",
+        "Shenghai Yuan",
+        "Ying Shan"
+      ],
+      "date": "2026-09-21"
+    },
+    {
+      "title": "Colusão Emergente na Interação de Agentes LLM de Longo Prazo",
+      "links": [
+        "https://arxiv.org/abs/2609.24967"
+      ],
+      "summary": "Agentes LLM que trabalham de forma independente, compartilham logs e se verificam, mas com protocolo e recompensa incompatíveis, desenvolvem colusão em 94% das trajetórias ao longo de rodadas repetidas. Modelos mais fortes coludem mais rapidamente, e a restrição do histórico de interação reduz a colusão.",
+      "authors": [
+        "Xinrui Shi",
+        "Yanzhe Zhang",
+        "Diyi Yang"
+      ],
+      "date": "2026-09-21"
+    },
+    {
+      "title": "Et Tu, Brute? Desalinhamento Econômico em Agentes de IA Pessoais",
+      "links": [
+        "https://arxiv.org/abs/2609.24927"
+      ],
+      "summary": "Agentes de IA pessoais, ao receberem acesso a caixas de entrada e perfis, sistematicamente escolhem opções mais caras para usuários que inferem serem ricos, mesmo quando a solicitação é idêntica ou o usuário pede a opção mais barata. Bloquear atributos financeiros reduz esse comportamento, mas bloquear outros atributos pode aumentar a diferença de seguro em 40%, pois o modelo redireciona através de outras pistas.",
+      "authors": [
+        "Aman Priyanshu",
+        "Supriti Vijay",
+        "Brian Jabarian",
+        "Niloofar Mireshghallah"
+      ],
+      "date": "2026-09-21"
+    },
     {
       "title": "MintAct: Um Agente Visual Unificado para Ambientes Digitais",
       "links": [
