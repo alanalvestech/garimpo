@@ -1,8 +1,82 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-22 15:02 UTC",
+  "updated_at": "2026-09-23 15:05 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Qwen3.8-Omni: Rumo a Agentes Omni-Modais Nativos",
+      "links": [
+        "https://arxiv.org/abs/2609.25611"
+      ],
+      "summary": "O Qwen3.8-Omni-Flash é treinado como um agente multimodal nativo com contexto de 1M tokens, mantendo a força do domínio de texto e estendendo habilidades de agente para áudio e vídeo. O laboratório que entrega a pilha aberta definiu \"omni\" como um agente com janela de 1M, não um modelo de chat com codificadores extras.",
+      "authors": [
+        "Qwen Team"
+      ],
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Agensh: Escalando a Inteligência Organizacional para 1.024 Agentes",
+      "links": [
+        "https://arxiv.org/abs/2609.26781"
+      ],
+      "summary": "Agensh remove o orquestrador central, permitindo que agentes reivindiquem trabalho, compartilhem descobertas e mesclem resultados em um espaço de trabalho compartilhado. A contagem de agentes é agora um eixo de escalabilidade, útil quando o orçamento de latência é fixo e o orquestrador era o gargalo.",
+      "authors": [
+        "Zhihao Zhan",
+        "Ting Song",
+        "Li Dong",
+        "Shaohan Huang",
+        "Jianxun Lian",
+        "Yan Xia",
+        "Furu Wei"
+      ],
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Autoaperfeiçoamento recursivo de agentes de pesquisa de IA",
+      "links": [
+        "https://arxiv.org/abs/2609.26457"
+      ],
+      "summary": "AIDE² edita seu próprio código, avalia a reescrita em tarefas de P&D de IA e mantém as melhorias que vencem em avaliações ocultas. O agente de pesquisa é o objeto do ciclo e generaliza.",
+      "authors": [
+        "Dhruv Srikanth",
+        "Bingchen Zhao",
+        "Dixing Xu",
+        "Yuxiang Wu",
+        "Zhengyao Jiang"
+      ],
+      "date": "2026-09-22"
+    },
+    {
+      "title": "CliffCompaction: Compactação Eficiente em Custo para Agentes de Codificação de Longo Prazo",
+      "links": [
+        "https://arxiv.org/abs/2609.26779"
+      ],
+      "summary": "CliffCompaction trunca ou descarta conteúdo, nunca reformula, e trabalha sempre com o conteúdo original, descartando resumos anteriores. A compactação fiel que apenas descarta é uma forma barata de evitar que uma sessão de codificação de um milhão de tokens se engane.",
+      "authors": [
+        "Trang Nguyen",
+        "Eulrang Cho",
+        "Bingqing Chen",
+        "Tim Dettmers"
+      ],
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Aumente o Harness, Não o Contexto: De Scaffolds Sem Estratégia a Agentes Especialistas Reutilizáveis",
+      "links": [
+        "https://arxiv.org/abs/2609.26760"
+      ],
+      "summary": "Growing Harness compila o controle recorrente em código reutilizável, partindo de um scaffold sem estratégia. O controle recorrente pertence ao código, e um especialista de 4B deixa de pagar preços de fronteira pelo mesmo if/else.",
+      "authors": [
+        "Laizhen Li",
+        "Jiarui Li",
+        "Juanjuan Zhao",
+        "Kejiang Ye",
+        "Ye Li",
+        "Cheng-zhong Xu",
+        "Xitong Gao"
+      ],
+      "date": "2026-09-22"
+    },
     {
       "title": "OSWorld-Pro: Avaliação Baseada em Processos para Agentes de Uso de Computador",
       "links": [

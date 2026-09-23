@@ -1,8 +1,211 @@
 {
   "category": "Twitter",
-  "updated_at": "2026-09-22 15:02 UTC",
+  "updated_at": "2026-09-23 15:05 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "A alegação de custo do Opus 5.5 divide seus avaliadores independentes: Cursor mede 40% menos por tarefa, Artificial Analysis mediu-o estável",
+      "links": [
+        "https://x.com/scaling01/status/2102513838877016089",
+        "https://x.com/rauchg/status/2102519097770885231",
+        "https://x.com/elliotarledge/status/2102566065163424168",
+        "https://x.com/scaling01/status/2102549565018620290"
+      ],
+      "summary": "Cursor classificou o Opus 5.5 como o novo modelo principal no CursorBench com 57,8% no Max e estimou seu custo em 40% menos por tarefa. As novas avaliações Next.js da Vercel o colocaram no mesmo nível de GPT-6 Sol e Fable 5.1, com 97%.",
+      "authors": [
+        "Guillermo Rauch"
+      ],
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Anthropic está em negociações iniciais para alugar até 1GW diretamente de um desenvolvedor controlado pela Apollo, contornando a camada de nuvem",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2102604124282093956",
+        "https://x.com/StragglerLiu/status/2102615930547347852"
+      ],
+      "summary": "The Information relata que a Anthropic está negociando o aluguel de até um gigawatt de capacidade da Stream Data Centers, de propriedade majoritária da Apollo Global Management. O Google é discutido como um suporte de crédito para os pagamentos do aluguel, com os espaços potencialmente preenchidos com TPUs do Google co-projetadas com a Broadcom.",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Musk chama Grok 4.7 de \"modelo pequeno\" minutos depois que uma avaliação independente o colocou três pontos abaixo da fronteira por uma fração do custo",
+      "links": [
+        "https://x.com/elonmusk/status/2102520283618017355",
+        "https://x.com/rauchg/status/2102519097770885231"
+      ],
+      "summary": "Elon Musk escreveu que \"Grok 4.7 está se saindo razoavelmente bem para um modelo pequeno\", quatro minutos após a Vercel publicar avaliações Next.js. Essas avaliações o pontuaram em 94% contra 97% para Opus 5.5, GPT-6 Sol e Fable 5.1, com um custo de 2 a 7 vezes menor.",
+      "authors": [
+        "Elon Musk"
+      ],
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Semafor nomeia o Secretário do Tesouro Scott Bessent como favorito para o czar de IA de Trump, dias antes da reunião com Xi",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2102546161127375088",
+        "https://x.com/AndrewCurran_/status/2102522139568136534"
+      ],
+      "summary": "Bessent surge como o principal candidato para o cargo de czar de IA que Trump disse em 9 de setembro que criaria, de acordo com o Semafor. Ele já assumiu um papel central na política de IA, incluindo conversas esta semana com o vice-primeiro-ministro chinês He Lifeng antes da reunião de Trump com Xi Jinping.",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Microsoft está aprofundando os descontos do Copilot, indo além dos cortes anteriores",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2102585150190322094"
+      ],
+      "summary": "A Microsoft está aprofundando os descontos do Copilot, oferecendo cerca de 30% por licença para clientes que compram mais de 1.000 licenças Copilot. Isso representa um aumento significativo em relação aos aproximadamente 10% de desconto anteriores para mais de 2.000 licenças, conforme The Information.",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "OpenAI lançou uma revisão do cache de prompts do GPT-6",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2102541845679255986"
+      ],
+      "summary": "A OpenAI lançou uma revisão do cache de prompts do GPT-6, com taxas de acerto mais altas, diagnósticos e custos de entrada em cache reduzidos em até 90%. Um novo painel expõe as taxas de acerto do cache e o volume de tokens em cache versus não em cache.",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Perplexity publicou seu método de pós-treinamento para o agente Computer",
+      "links": [
+        "https://x.com/AravSrinivas/status/2102497917185802737"
+      ],
+      "summary": "A Perplexity publicou seu método de pós-treinamento para o agente Computer, que inclui ajuste fino por amostragem de rejeição e auto-destilação guiada por dicas. As falhas nas chamadas de ferramentas caíram cerca de 21% em testes A/B ao vivo.",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Anthropic adicionou um botão de reset de limite de uso no Claude web e desktop",
+      "links": [
+        "https://x.com/testingcatalog/status/2102504325876781280"
+      ],
+      "summary": "A Anthropic adicionou um botão de reset de limite de uso no Claude web e desktop, explicitamente enquadrado para os usuários como uma forma de \"explorar o Opus 5.5\". O reset equivalente para o Codex da OpenAI foi lançado na mesma noite.",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "O uso de IA em artigos de matemática aumentou significativamente em menos de seis meses",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2102614692313317678"
+      ],
+      "summary": "O uso declarado de IA em artigos de matemática aumentou de 1,39% para 14,09% em menos de seis meses, abrangendo 32.944 artigos do arXiv de matemática postados de 1º de março a 20 de agosto de 2026. A construção de provas foi a maior categoria, com 1.225 artigos.",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "GPT-6 Astra rastreou uma falha recorrente do ChatGPT no macOS 27 a um bug de 14 anos",
+      "links": [
+        "https://x.com/steipete/status/2102501642176528743"
+      ],
+      "summary": "O GPT-6 Astra rastreou uma falha recorrente do ChatGPT no macOS 27 a um bug de aproximadamente 14 anos no libuv. O libuv é o loop de eventos subjacente ao Node e grande parte da pilha de IA de desktop.",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "JPMorgan revisou seu modelo HBM e espera adoção de HBM de 16 camadas em 2029",
+      "links": [
+        "https://x.com/jukan05/status/2102543040858775930"
+      ],
+      "summary": "O JPMorgan revisou seu modelo HBM e agora espera a adoção de HBM de 16 camadas em 2029, no mínimo. Isso representa um adiamento no roteiro de memória para aceleradores de próxima geração.",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Westpac construiu uma nova intranet para 35.000 funcionários com custo de tokens de cerca de US$ 12 mil",
+      "links": [
+        "https://x.com/sqs/status/2102543057300394224"
+      ],
+      "summary": "O Westpac construiu uma nova intranet para seus 35.000 funcionários com cerca de US$ 12 mil em tokens através da Amp. O custo pré-IA declarado era de aproximadamente US$ 3-5 milhões, segundo o fundador do fornecedor.",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "O regulador de ativos estatais da China está pesquisando switches Broadcom, a única camada da pilha de IA que não substituiu",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2102630585269456908",
+        "https://x.com/jukan05/status/2102623753582883049"
+      ],
+      "summary": "A Comissão de Supervisão e Administração de Ativos Estatais da China (SASAC) tem pesquisado o uso de Broadcom em data centers estatais nas últimas semanas. A comissão está avaliando restrições a switches que podem representar até 90% das implantações apoiadas pelo estado, visando a malha de alta velocidade que move dados entre aceleradores.",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Epoch AI estima a deflação de capacidade em 47% por trimestre, o que contraria a narrativa de preços de fronteira",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2102642576021184808"
+      ],
+      "summary": "A Epoch AI estima que o custo para atingir uma pontuação de benchmark fixa caiu cerca de 47% por trimestre desde 2023, aproximadamente 13 vezes ao ano. No GPQA Diamond, o o3 precisava de cerca de US$ 0,30 por pergunta para uma pontuação de 75%; menos de 18 meses depois, o GPT-5.6 Luna o igualou por US$ 0,0004, uma queda de 725 vezes.",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Níveis não lançados Free, Prototype e Accelerate surgem na Plataforma OpenAI, oferecendo hospedagem de aplicativos uma semana antes do DevDay",
+      "links": [
+        "https://x.com/testingcatalog/status/2102688828574064938",
+        "https://x.com/testingcatalog/status/2102688831753572832"
+      ],
+      "summary": "Strings de planos para os níveis Free, Prototype e Accelerate apareceram na Plataforma OpenAI, descritos como permitindo aos usuários construir e hospedar seus próprios aplicativos de IA. O Accelerate é listado como \"a partir de US$ 50\", com acesso a todos os modelos mais recentes e limites de uso e taxa mais altos para aplicativos de produção.",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Opus 5.5 passou de vitórias em benchmarks para a mudança padrão na produção, e o resultado do kernel da noite passada recebeu uma ressalva de contaminação",
+      "links": [
+        "https://x.com/swyx/status/2102650014552182920",
+        "https://x.com/elliotarledge/status/2102629181100322856",
+        "https://x.com/testingcatalog/status/2102659167685111920"
+      ],
+      "summary": "O pipeline AINews da Latent Space mudou seu modelo padrão para Opus 5.5 após executá-lo lado a lado com GPT-6 Sol. A Perplexity tornou o Opus 5.5 seu modelo de esforço padrão no Computer, enquanto o engenheiro por trás do resultado do KernelBench-Mega divulgou que três de suas células foram retomadas duas vezes após falhas de GPU.",
+      "authors": [
+        "swyx"
+      ],
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Apple teria agrupado quatro Mac Studios via Thunderbolt para executar um modelo de trilhões de parâmetros",
+      "links": [
+        "https://x.com/mark_k/status/2102688830599917852"
+      ],
+      "summary": "A Apple teria agrupado quatro Mac Studios via Thunderbolt, executando um modelo de trilhões de parâmetros para encontrar e corrigir um bug gráfico com uma única tomada. A empresa agora está oferecendo Macs para empresas como máquinas de IA locais de compra única, sem custo por token.",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Samsung move trabalho de hibridização wafer-to-wafer \"B1b\" para o roteiro oficial como D0a",
+      "links": [
+        "https://x.com/jukan05/status/2102642359687401795"
+      ],
+      "summary": "A Samsung moveu seu trabalho de hibridização wafer-to-wafer \"B1b\" para o roteiro oficial como D0a, sua primeira DRAM sub-10nm. A comercialização é estimada para pelo menos dois anos, com o B1b em revisão para produção em massa de HBM5 por volta de 2029, segundo a ZDNet Korea.",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "TypeSafe AI lançou Jev, um modelo \"System One\" que retorna uma decisão tipada com probabilidade e confiança",
+      "links": [
+        "https://x.com/BAI_AGI/status/2102720885064946075"
+      ],
+      "summary": "A TypeSafe AI lançou Jev, um modelo \"System One\" que retorna uma decisão tipada com probabilidade e confiança em vez de texto. Ele avalia primitivos Choice, Score e Noul em paralelo, com 70-500ms de ponta a ponta e custo de US$ 0,042 por milhão de tokens de entrada, com saída gratuita.",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Firmus busca cerca de US$ 10 bilhões antes de seu IPO para comprar chips Nvidia para uma fábrica de IA na Indonésia",
+      "links": [
+        "https://x.com/StragglerLiu/status/2102719627906482460"
+      ],
+      "summary": "A Firmus estaria buscando cerca de US$ 10 bilhões, US$ 7,5 bilhões em dívida e US$ 2,5 bilhões em capital, antes de seu IPO. O objetivo é comprar chips Nvidia para uma fábrica de IA de 360MW em Batam, Indonésia, tratando as GPUs como ativos financiáveis.",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "SpaceXAI está construindo um recurso de Controle Remoto para Grok que faz referência a um aplicativo \"Grok Desktop\"",
+      "links": [
+        "https://x.com/testingcatalog/status/2102673476221866015"
+      ],
+      "summary": "A SpaceXAI está construindo um recurso de Controle Remoto para Grok na web e em dispositivos móveis, cujas strings do iOS fazem referência a um aplicativo \"Grok Desktop\". Isso implica um cliente de desktop que não foi anunciado.",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "DigitalOcean abriu uma prévia pública de Managed Agents",
+      "links": [
+        "https://x.com/testingcatalog/status/2102659167685111920"
+      ],
+      "summary": "A DigitalOcean abriu uma prévia pública de Managed Agents, que são microVMs isoladas com mais de 16 mil ferramentas. Eles oferecem funcionalidade de pausa e retomada em cerca de 305ms.",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Rastreador de talentos indica que 57% dos principais pesquisadores de IA são originários da China",
+      "links": [
+        "https://x.com/teortaxesTex/status/2102605744763818116"
+      ],
+      "summary": "Um rastreador de talentos em circulação indica que 57% dos principais pesquisadores de IA são originários da China, um aumento de 46% em 2022. Em contraste, 13% são dos EUA, uma queda de 20%, referindo-se ao país de treinamento e não ao país de trabalho atual.",
+      "date": "2026-09-22"
+    },
     {
       "title": "Um modelo chinês de código aberto igualou o lançamento fechado principal do dia no mesmo índice, a uma fração do custo por tarefa.",
       "links": [
