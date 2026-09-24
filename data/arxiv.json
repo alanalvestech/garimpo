@@ -1,8 +1,86 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-23 15:05 UTC",
+  "updated_at": "2026-09-24 15:16 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "InternW0: Um Modelo Fundamental do Mundo Físico para Interações Eficientes no Mundo Real",
+      "links": [
+        "https://arxiv.org/abs/2609.27656"
+      ],
+      "summary": "InternW0 é o primeiro modelo de mundo físico InternW, uma mistura de transformadores com um especialista em vídeo de alta capacidade e um especialista em ação mais rápido. Ele foi treinado com cerca de 7.200 horas de dados heterogêneos de robôs e egocêntricos, sendo avaliado em simulações e em tarefas científicas reais.",
+      "authors": [
+        "Physical Intelligence Team",
+        "Shanghai AI Laboratory"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "title": "Relatório Técnico Hunyuan-A13B",
+      "links": [
+        "https://arxiv.org/abs/2609.27284"
+      ],
+      "summary": "Hunyuan-A13B é um modelo MoE aberto de 80B que ativa 13B na inferência, pré-treinado em um corpus de 20T tokens com curadoria STEM. Ele utiliza um Chain-of-Thought de modo duplo para raciocínio rápido ou lento, sendo competitivo em diversas tarefas contra modelos maiores.",
+      "authors": [
+        "Tencent Hunyuan Team"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "title": "KITE: Expansão de Transformador Invariante a KV para Escalonamento Eficiente de LLMs Agentes",
+      "links": [
+        "https://arxiv.org/abs/2609.27294"
+      ],
+      "summary": "KITE é uma abordagem que adiciona parâmetros a transformadores apenas em regiões que não alteram o KV de atenção, permitindo que o pré-preenchimento seja executado em uma torre menor. O Step Scale Transformer (SST) 67B MoE supera MoEs clássicos de 47B e 63B em FLOPs de treinamento equivalentes, com custos de inferência significativamente menores.",
+      "authors": [
+        "Zhiheng Hu",
+        "Yixun Wei",
+        "Jian Zhou",
+        "Yizhuang Zhou",
+        "Ji Li",
+        "Xing Chen",
+        "Yang Li",
+        "Bojun Wang",
+        "Yibo Zhu",
+        "Xiangyu Zhang",
+        "Daxin Jiang (StepFun)"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "title": "Harness como Linguagem: Um Framework de Agente Minimalista com Expressividade Máxima",
+      "links": [
+        "https://arxiv.org/abs/2609.26891"
+      ],
+      "summary": "JAZ é um framework de agente que expõe uma única primitiva, invoke, permitindo que o modelo escreva código executável arbitrário. Ele supera Letta/MemGPT em recall de longo horizonte e ACE em autoaperfeiçoamento contínuo, com custos reduzidos.",
+      "authors": [
+        "Zhening Li",
+        "Joshua Liu",
+        "Mateja Vukelic",
+        "Nicole Shen",
+        "Supriya Lall",
+        "Amitayush Thakur",
+        "Alex Zhang",
+        "Omar Khattab",
+        "Jonathan Light",
+        "Armando Solar-Lezama"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "title": "CAVEAT: Rumo a Agentes Robusto de Uso de Computador em Ambientes com Incentivos Desalinhados",
+      "links": [
+        "https://arxiv.org/abs/2609.27273"
+      ],
+      "summary": "CAVEAT avalia agentes de uso de computador em ambientes com incentivos desalinhados, como marketplaces com mecanismos de direcionamento. Modelos existentes compram o produto ideal para o usuário em apenas 17,3% dos casos com direcionamento ativo, mas o CAVEAT-Harness melhora essa taxa em 55,0% ao abordar falhas específicas.",
+      "authors": [
+        "Yuxuan Li",
+        "Will Epperson",
+        "Wesley Deng",
+        "Zezhou Huang"
+      ],
+      "date": "2026-09-23"
+    },
     {
       "title": "Qwen3.8-Omni: Rumo a Agentes Omni-Modais Nativos",
       "links": [
