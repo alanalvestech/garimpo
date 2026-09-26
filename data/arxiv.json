@@ -1,8 +1,75 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-25 15:20 UTC",
+  "updated_at": "2026-09-26 14:35 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "WanPE: Rumo ao Aprimoramento Cinematográfico de Prompts para Geração Moderna de Texto para Vídeo",
+      "links": [
+        "https://arxiv.org/abs/2609.30221"
+      ],
+      "summary": "WanPE é um aprimorador de prompts de 397 bilhões de parâmetros, treinado com 1,05 milhão de vídeos reais, que permite que modelos de vídeo sigam roteiros de múltiplos takes de 30 segundos. Ele melhora a preferência do usuário em até 50,9 pontos em vídeos de 30 segundos, superando aprimoradores comerciais em durações curtas e sendo competitivo em durações longas.",
+      "authors": [
+        "Yubo Zhu",
+        "Yawen Shao",
+        "Yu Liu",
+        "Wei Tong et al."
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "title": "Canopy: Explorando Priores de Árvore Suaves por Partes para Bandidos Multi-Fidelidade",
+      "links": [
+        "https://arxiv.org/abs/2609.30017"
+      ],
+      "summary": "CANOPY é um método para bandidos hierárquicos que aprende a validade de um prior de árvore suave por partes, usando sondas de caminho aleatório para certificar o viés de agregação local. Com o mesmo orçamento, ele melhora o recall top-10 em 2,9 vezes e reduz o TTFT mediano em 3,6 vezes com cache de prefixo.",
+      "authors": [
+        "Michael Jerge",
+        "Suman Jana"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "title": "World Action Agent: Aproveitando VLMs para Manipulação Robótica via Ensaio de Ações no Mundo",
+      "links": [
+        "https://arxiv.org/abs/2609.29964"
+      ],
+      "summary": "O World Action Agent (WAA) integra VLMs em um espaço de trabalho de ação visual para manipulação robótica, permitindo ensaio e correção de ações antes da execução. Ele alcança 75,6% de sucesso no LIBERO-Pro e transfere habilidades para robosuite, elevando a taxa de sucesso OOD de 1,7% para 43,3% em traços de harness.",
+      "authors": [
+        "Yehang Zhang",
+        "Haojian Huang",
+        "Ying-Cong Chen",
+        "Zexi Li et al."
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "title": "Direcionamento Minimamente Invasivo de Modelos de Linguagem",
+      "links": [
+        "https://arxiv.org/abs/2609.30218"
+      ],
+      "summary": "MISVO é um método de direcionamento de modelos de linguagem que penaliza a intervenção com a geometria KL/Fisher local da distribuição de tokens, evitando a destruição da distribuição de saída. Ele alcança a maior recompensa média em 6 de 7 configurações em tarefas de preferência e código, mantendo diversidade e coerência.",
+      "authors": [
+        "Taha Entesari",
+        "Jingyu Zhang",
+        "Daniel Khashabi",
+        "Mahyar Fazlyab"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "title": "Hospital Sintético: Um Benchmark EHR Longitudinal Aberto, Verificável e Validado por Médicos",
+      "links": [
+        "https://arxiv.org/abs/2609.30027"
+      ],
+      "summary": "O Hospital Sintético é um benchmark de prontuários eletrônicos (EHR) totalmente sintético e verificável, com 1.268 pacientes longitudinais e 5.602 encontros, sem informações de saúde protegidas. Modelos de ponta alcançam um F1 de 0,73 na lista de problemas ponderada pela gravidade, igualando a média de sete médicos, mas ainda perdem para os melhores profissionais.",
+      "authors": [
+        "Christine Park",
+        "Valerie Chen",
+        "Tim Dettmers"
+      ],
+      "date": "2026-09-25"
+    },
     {
       "title": "Qwen-Planner-Agent: Um Framework de IA-para-IA de Ciclo Fechado para Agentes Planejadores Móveis do Mundo Real",
       "links": [
