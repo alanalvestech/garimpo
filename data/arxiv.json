@@ -1,8 +1,95 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-26 14:35 UTC",
+  "updated_at": "2026-09-27 15:12 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "ELF-REG: Escalando Modelos de Linguagem de Difusão Contínua para Tarefas de Raciocínio",
+      "links": [
+        "https://arxiv.org/abs/2609.29102"
+      ],
+      "summary": "Modelos de linguagem de difusão contínua (LMs) apresentavam desempenho inferior em tarefas de raciocínio complexas. ELF-REG escala os Embedded Language Flows com REPA+REG, usando um professor AR e uma representação global denoised, superando outros dLMs em benchmarks como GSM8K, MATH-500 e HumanEval.",
+      "authors": [
+        "Zeyu Michael Li",
+        "William Xingxu Chen",
+        "Bingshuo Qian",
+        "Jiayin Liu",
+        "Xiang Cheng"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "title": "Quebrando a Barreira do Ambiente: Evoluindo Ambientes de Agentes LLM para Autoaperfeiçoamento Recursivo",
+      "links": [
+        "https://arxiv.org/abs/2609.29773"
+      ],
+      "summary": "Ambientes reais dificultam o desempenho de agentes LLM, com evidências dispersas e conflitantes, causando uma queda de 83.9% para 57.6% em agentes SOTA. Env-Rethink evolui o ambiente com históricos de eventos virtuais, reescrevendo o estado e as evidências para que o próximo agente enfrente um cenário mais difícil, aumentando a taxa de aprovação em mais de 15.1 pontos.",
+      "authors": [
+        "Yukai Wu",
+        "Yuanjing Yang",
+        "Le Zhou",
+        "Shaokun Han",
+        "Haoyu Wang",
+        "Zirui Tang",
+        "Xuanhe Zhou",
+        "Fan Wu et al."
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "title": "Basta Perguntar a Jev: Aprendizado por Reforço para Decisões Calibradas como um Detector Zero-Shot de Falhas de Alinhamento de IA",
+      "links": [
+        "https://arxiv.org/abs/2609.29429"
+      ],
+      "summary": "Jev, um detector de falhas de alinhamento de IA baseado em aprendizado por reforço, responde a múltiplas perguntas sobre uma entrada com probabilidades em uma única chamada. Ele cobre dez tipos de falhas, alcança um AUROC mediano de 0.886 zero-shot, superando baselines supervisionados e sendo 63 vezes mais barato que avaliadores baseados em LLM.",
+      "authors": [
+        "Ruoqi Guo",
+        "Yi Liu",
+        "Gelei Deng",
+        "Yuekang Li",
+        "Lida Zhao",
+        "Yutao Wu",
+        "Simin Chen",
+        "Ying Zhang",
+        "Leo Yu Zhang"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "title": "Quem Detém a Caneta? Deixe as Especificações, Não os Agentes, Darem o Aval",
+      "links": [
+        "https://arxiv.org/abs/2609.29921"
+      ],
+      "summary": "Agentes LLM frequentemente declaram tarefas concluídas sem satisfazer completamente as especificações, com taxas de conclusão superando as taxas de sucesso reais em até 37.9 pontos. SpecHarness compila especificações visíveis em obrigações vinculadas à fonte, exigindo evidências admissíveis de provedores qualificados para estabelecer o estado governado pela especificação.",
+      "authors": [
+        "Haiqing Li",
+        "Xin Ma",
+        "Yinhao Wu",
+        "Wenliang Zhong",
+        "Feng Jiang",
+        "Thao M. Dang",
+        "Junzhou Huang et al."
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "title": "Além dos Benchmarks Espaciais: Do Raciocínio Espacial à Navegação",
+      "links": [
+        "https://arxiv.org/abs/2609.29934"
+      ],
+      "summary": "Benchmarks de raciocínio espacial isolados não preveem a capacidade de navegação. Os autores criaram Spatial-Nav-100K e treinaram um modelo de 8B em duas etapas, alcançando desempenho superior em navegação em ambientes como HM3D e MP3D, com 45 horas de GPU A100.",
+      "authors": [
+        "Xun Huang",
+        "Shijia Zhao",
+        "Rongsheng Qu",
+        "Jiayuan Li",
+        "Xin Lu",
+        "Weixin Li",
+        "Chenglu Wen",
+        "Cheng Wang"
+      ],
+      "date": "2026-09-26"
+    },
     {
       "title": "WanPE: Rumo ao Aprimoramento Cinematográfico de Prompts para Geração Moderna de Texto para Vídeo",
       "links": [
