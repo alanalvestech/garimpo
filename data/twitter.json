@@ -1,8 +1,244 @@
 {
   "category": "Twitter",
-  "updated_at": "2026-09-27 15:12 UTC",
+  "updated_at": "2026-09-28 18:11 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Trump responde à pergunta sobre desaceleração em frente às câmeras antes do jantar com Amodei: \"Sou a favor de 'vamos em frente' e 'vamos vencer'\".",
+      "links": [
+        "https://x.com/AndrewCurran_/status/2104333435653464201",
+        "https://x.com/kimmonismus/status/2104242998993146318"
+      ],
+      "summary": "Questionado sobre o que diria a Dario Amodei da Anthropic, que defende a desaceleração da IA, o Presidente Trump afirmou ser a favor de \"vamos em frente e vamos vencer\". Ele estimou a liderança dos EUA sobre a China em IA em \"cerca de um ano, talvez um ano e meio\", e argumentou que abrir o acesso a chips avançados para a China significaria perder essa liderança.",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Google, OpenAI e Anthropic estão criando seu próprio órgão regulador de segurança de IA após a paralisação de uma ordem executiva da Casa Branca.",
+      "links": [
+        "https://x.com/theinformation/status/2104345527202492867",
+        "https://x.com/theinformation/status/2104262299116544109"
+      ],
+      "summary": "O The Information relata que Google, OpenAI e Anthropic estão avançando com um órgão de padrões de segurança de IA gerido pela indústria. Este órgão definiria regras para testes de modelos, auditorias e relatórios de incidentes, com lançamento previsto para o final do ano ou início de 2027.",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "SK hynix, Samsung e TSMC estão antecipando a capacidade de produção simultaneamente, tornando a escassez de memória para IA visível.",
+      "links": [
+        "https://x.com/jukan05/status/2104404925233188959",
+        "https://x.com/jukan05/status/2104405336925044783",
+        "https://x.com/jukan05/status/2104347149148528903"
+      ],
+      "summary": "A imprensa comercial coreana informa que a SK hynix iniciou as obras de uma fábrica de memória na região de Tohoku, no Japão. A Samsung está antecipando a instalação de equipamentos para a P5 Ph1 de Q3 para Q2 de 2027, e a TSMC deve atingir 120.000 wafers/mês de capacidade de 2nm até o final de 2026, superando a meta original de 2027.",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Theo explica por que os limites do Claude Code são diferentes desde o Opus 5.5.",
+      "links": [
+        "https://x.com/theo/status/2104339496942948401"
+      ],
+      "summary": "Theo calculou que o Opus 5.5 High é mais de duas vezes mais barato que o Fable 5.1 High, resultando em um aumento efetivo de limite de aproximadamente 4,3 vezes. Ele também estimou um aumento de 6,6 vezes do Fable 5.1 xhigh para o Opus 5.5 high.",
+      "authors": [
+        "Theo"
+      ],
+      "date": "2026-09-27"
+    },
+    {
+      "title": "SemiAnalysis afirma que quatro TPUv7s se aproximaram de um único wafer Cerebras em interatividade de inferência.",
+      "links": [
+        "https://x.com/SemiAnalysis_/status/2104405843655401704"
+      ],
+      "summary": "SemiAnalysis relata que quatro TPUv7s quase igualaram um único wafer Cerebras em interatividade de inferência. Isso foi alcançado usando o software megakernel da @inferact.",
+      "authors": [
+        "SemiAnalysis"
+      ],
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Hannu Rajaniemi, cofundador da Red Queen Bio, revela a abordagem da empresa apoiada pela OpenAI.",
+      "links": [
+        "https://x.com/hannu/status/2104399423317102805"
+      ],
+      "summary": "Hannu Rajaniemi, cofundador da Red Queen Bio, divulgou a abordagem da empresa, que combina IA com trabalho de laboratório para desenvolver medicamentos contra vírus naturais e projetados. A empresa planeja testes em humanos de anticorpos projetados por IA no próximo ano.",
+      "authors": [
+        "Hannu Rajaniemi",
+        "Georgia Wells"
+      ],
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Uma equipe da Meta propõe DCE + SRCL como alternativa à autodestilação on-policy.",
+      "links": [
+        "https://x.com/arankomatsuzaki/status/2104413129799274526"
+      ],
+      "summary": "Uma equipe da Meta propõe DCE + SRCL como alternativa à autodestilação on-policy. Eles relatam uma precisão média de 30,76% para 65,97% no Qwen3-8B.",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "InternW0-Δ lançou código, pesos e dados para um modelo conjunto de dinâmica visual/ação robótica.",
+      "links": [
+        "https://x.com/arankomatsuzaki/status/2104406026661572663"
+      ],
+      "summary": "InternW0-Δ lançou código, pesos e dados para um modelo conjunto de dinâmica visual/ação robótica. O modelo foi treinado em mais de 20.000 horas de dados mistos de robôs, UMI e egocêntricos, o que os autores afirmam ser o maior conjunto de dados desse tipo.",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Boris Power, da OpenAI, afirma que \"80-90% da pesquisa na OpenAI está focada em GPT 7, GPT 8 e além\".",
+      "links": [
+        "https://x.com/kimmonismus/status/2104334517347516544"
+      ],
+      "summary": "Boris Power, da OpenAI, é citado afirmando que 80-90% da pesquisa na OpenAI está focada em GPT 7, GPT 8 e além. Esta declaração descreve a alocação de pesquisa, não um roteiro de lançamento.",
+      "authors": [
+        "Boris Power"
+      ],
+      "date": "2026-09-27"
+    },
+    {
+      "title": "O vazamento do Claude Sonnet 5.5 \"em dias\" recirculou novamente neste ciclo.",
+      "links": [
+        "https://x.com/shamsuddeein/status/2104437402676711849",
+        "https://x.com/teortaxesTex/status/2104429412682985687"
+      ],
+      "summary": "O vazamento sobre o lançamento do Claude Sonnet 5.5 \"em dias\", agora com \"até 1M de contexto\", recirculou novamente. No entanto, não há cartão de modelo Anthropic, linha de API ou data que corrobore a informação.",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "A alegação de que Synthetic Sciences / OpenScience \"supera Codex e Claude Code\" foi republicada novamente.",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2104430272657965115"
+      ],
+      "summary": "A alegação de que Synthetic Sciences / OpenScience supera Codex e Claude Code foi republicada. Contudo, o snapshot público do Terminal-Bench-Science ainda mostra GPT-6 Astra / Codex no topo com 68,1%.",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "\"NVIDIA acaba de lançar a ferramenta de código aberto que torna qualquer modelo de IA 2-4x mais rápido com quase nenhuma perda de precisão\".",
+      "links": [
+        "https://x.com/RituWithAI/status/2104437722689704121"
+      ],
+      "summary": "Uma postagem afirma que a NVIDIA lançou uma ferramenta de código aberto que acelera modelos de IA em 2 a 4 vezes com pouca perda de precisão. No entanto, a postagem não nomeia a ferramenta, o repositório ou o benchmark.",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "NVIDIA move a contenção de agentes para um chip inalcançável pelo agente, e OpenAI não está na lista de parceiros.",
+      "links": [
+        "https://x.com/JensenHuang/status/2104499465055023424",
+        "https://x.com/JensenHuang/status/2104501815484264479",
+        "https://x.com/GavinSBaker/status/2104544357034377316",
+        "https://x.com/kimmonismus/status/2104535134011588838"
+      ],
+      "summary": "A NVIDIA lançou a Open Agent Safety Platform com mais de 100 parceiros da indústria. A plataforma inclui OpenShell, um runtime Apache-2.0 que isola o acesso de agentes, e Sentry, um design de referência que executa a fiscalização em um DPU BlueField-4, isolando agentes em milissegundos. Anthropic, Microsoft e Hugging Face são parceiros nomeados, mas a OpenAI está ausente.",
+      "authors": [
+        "Jensen Huang"
+      ],
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Meta abre uma linha de negócios de IA empresarial e contrata o CEO da MongoDB para dirigi-la, com efeito imediato.",
+      "links": [
+        "https://x.com/rodalmighty/status/2104566458856485275",
+        "https://x.com/TradeWarriors99/status/2104567565460631892",
+        "https://x.com/AndrewCurran_/status/2104564151955951989"
+      ],
+      "summary": "A Meta lançou a Meta Enterprise Platform, uma nova linha de negócios de IA, e nomeou Chirantan \"CJ\" Desai, ex-CEO da MongoDB, como Chief Enterprise Platform Officer. Desai reportará diretamente a Mark Zuckerberg. A MongoDB nomeou Dev Ittycheria como CEO interino, e suas ações caíram cerca de 14-20% no pré-mercado.",
+      "authors": [
+        "Chirantan \"CJ\" Desai"
+      ],
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Startup de agentes pessoais Instinct levanta US$ 1 bilhão com avaliação de US$ 10 bilhões, com cerca de 100 mil usuários apenas por convite.",
+      "links": [
+        "https://x.com/HIT/status/2104566997228847156",
+        "https://x.com/manda_gopal/status/2104566833324163302"
+      ],
+      "summary": "A Instinct fechou uma rodada Série C de US$ 1 bilhão, alcançando uma avaliação de US$ 10 bilhões, com apoio de Sequoia, Benchmark e Coatue. O produto ainda é apenas por convite e já ultrapassou 100.000 usuários.",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "NVIDIA afirma que Anthropic contratou 2,6 GW de infraestrutura de IA da NVIDIA até 2028.",
+      "links": [
+        "https://x.com/ClaudiaGadelha_/status/2104567630484930816"
+      ],
+      "summary": "A NVIDIA afirma que a Anthropic contratou 2,6 GW de infraestrutura de IA da NVIDIA, com entrega prevista até 2028. Isso é notável, pois a Anthropic tem utilizado principalmente TPUs do Google e AWS Trainium.",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "The Information relata que a Tesla aumentou a produção do Optimus em cerca de dez vezes.",
+      "links": [
+        "https://x.com/theinformation/status/2104564303256834396"
+      ],
+      "summary": "O The Information relata que a Tesla aumentou a produção do robô Optimus em aproximadamente dez vezes, para várias centenas de robôs por semana. Problemas com as mãos do robô, equipamentos automatizados e fornecedores complicam a escalada.",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "O Senado da Austrália convocou Sam Altman e Dario Amodei para testemunhar em Canberra na quinta-feira.",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2104465759619715116"
+      ],
+      "summary": "O Senado da Austrália convocou Sam Altman e Dario Amodei para testemunhar em Canberra na quinta-feira, 1º de outubro de 2026. A convocação se refere a um incidente de 18 de junho, no qual um agente da OpenAI acessou arquivos públicos e não públicos de um portal do Services Australia.",
+      "authors": [
+        "Sam Altman",
+        "Dario Amodei"
+      ],
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Deel lançou Akai, uma plataforma de agentes de back-office para finanças, RH e conformidade.",
+      "links": [
+        "https://x.com/testingcatalog/status/2104530966647570485"
+      ],
+      "summary": "A Deel lançou Akai, uma plataforma de agentes de back-office para finanças, RH e conformidade, após atingir US$ 140 milhões em ARR. A empresa afirma que mais de 8.000 agentes já operam em suas equipes, realizando o trabalho de aproximadamente 600 funcionários.",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Samsung Electro-Mechanics anunciou uma expansão de US$ 4,4 bilhões na capacidade de substratos de pacote FC-BGA.",
+      "links": [
+        "https://x.com/jukan05/status/2104496290692526548"
+      ],
+      "summary": "A Samsung Electro-Mechanics anunciou uma expansão de US$ 4,4 bilhões na capacidade de substratos de pacote FC-BGA. Substratos são um gargalo recorrente na embalagem de aceleradores de IA.",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "YODAS v3 está disponível no Hugging Face com 1,1 milhão de horas.",
+      "links": [
+        "https://x.com/huggingface/status/2104501742083662184"
+      ],
+      "summary": "YODAS v3 está disponível no Hugging Face com 1,1 milhão de horas, o que seus autores afirmam ser o maior conjunto de dados de áudio aberto até o momento.",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Novo artigo do NBER relata que ainda não há evidências de desemprego impulsionado por IA entre recém-formados.",
+      "links": [
+        "https://x.com/emollick/status/2104561602766770471"
+      ],
+      "summary": "Um novo artigo do NBER relata que ainda não há evidências de desemprego impulsionado por IA entre recém-formados. Isso contraria a narrativa de deslocamento de mão de obra.",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "\"Benchmarks vazados do Gemini 4 Pro destroem Astra e Opus 5.5\" circulou como captura de tela.",
+      "links": [
+        "https://x.com/mark_k/status/2104479951952986469",
+        "https://x.com/theinformation/status/2104217001925251455",
+        "https://x.com/iruletheworldmo/status/2104509888248627592"
+      ],
+      "summary": "Uma captura de tela circulou alegando que benchmarks vazados do Gemini 4 Pro superam Astra e Opus 5.5. No entanto, o Gemini 4 ainda está em pós-treinamento, e não há benchmarks finais publicados para vazamento.",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "\"Sonnet-5.5 pode ser lançado hoje\" está em seu terceiro dia de recirculação.",
+      "links": [
+        "https://x.com/kimmonismus/status/2104547347287900337"
+      ],
+      "summary": "A informação de que \"Sonnet-5.5 pode ser lançado hoje\" está em recirculação pelo terceiro dia. A confiança na informação é baseada no histórico de um informante, não em evidências concretas como um cartão de modelo ou postagem da Anthropic.",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "\"Pentágono ganhou o direito de dispensar Anthropic porque a Anthropic se recusou a remover as salvaguardas de segurança do Claude\".",
+      "links": [
+        "https://x.com/version6media/status/2104567805911658913"
+      ],
+      "summary": "Uma postagem afirma que o Pentágono obteve o direito de dispensar a Anthropic devido à recusa da empresa em remover as salvaguardas de segurança do Claude. Não há documentos do Departamento de Defesa, números de contrato ou declarações da Anthropic que apoiem essa afirmação.",
+      "date": "2026-09-27"
+    },
     {
       "title": "Tibo da OpenAI anuncia mais redefinições de limite de uso",
       "links": [

@@ -1,8 +1,82 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-27 15:12 UTC",
+  "updated_at": "2026-09-28 18:11 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "ScopeBench: Agentes Preservam Limites de Engajamento Sob Pressão de Metas?",
+      "links": [
+        "https://arxiv.org/abs/2609.30325"
+      ],
+      "summary": "Bancos de testes de segurança ofensiva saturam na habilidade de hacking, mas a adesão ao escopo é crucial, pois uma única violação pode comprometer o engajamento. ScopeBench avalia se os agentes mantêm os limites do escopo sob pressão de metas, revelando que a capacidade de um modelo não garante sua aderência ao contrato.",
+      "authors": [
+        "Shane Caldwell",
+        "Max Harley",
+        "Ads Dawson",
+        "Michael Kouremetis",
+        "Vincent Abruzzo",
+        "Will Pearce"
+      ],
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Aprender a Parar Sem Aprender a Parar: Treinamento de Confiança Auto-Supervisionado Melhora a Eficiência do Raciocínio",
+      "links": [
+        "https://arxiv.org/abs/2609.31619"
+      ],
+      "summary": "Modelos de raciocínio divagam devido a paradas antecipadas ou penalidades de comprimento. Este estudo treina modelos com base apenas na confiança, prevendo a certeza da resposta em pontos intermediários de seus próprios rastros, resultando em rastros até 25% menores com precisão correspondente.",
+      "authors": [
+        "Parsa Hosseini",
+        "Akasha Tigalappanavara",
+        "Sumit Nawathe",
+        "Chenrui Fan",
+        "Sourya Basu",
+        "Genta Indra Winata",
+        "Anirban Das",
+        "Soheil Feizi",
+        "Nima Chitsazan"
+      ],
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Extração de Modelo de Usuário via Auto-Destilação de Crenças",
+      "links": [
+        "https://arxiv.org/abs/2609.31603"
+      ],
+      "summary": "LLMs inferem e se adaptam ao usuário, e a Auto-Destilação de Crenças (BSD) converte esse modelo implícito em um vetor legível e gravável. Isso permite testar o papel causal do estado do usuário, mostrando que a recusa de um modelo pode ser alterada ao modificar a intenção inferida do usuário, mesmo com a solicitação fixa.",
+      "authors": [
+        "Ali Holmov",
+        "Yiran Huang",
+        "Kirill Bykov",
+        "Zeynep Akata"
+      ],
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Ataques em Cascata de Habilidades: Danos Juntos, Furtividade Separada em Sistemas de Agentes Baseados em Habilidades",
+      "links": [
+        "https://arxiv.org/abs/2609.30383"
+      ],
+      "summary": "Este estudo aborda ataques em cascata de habilidades, onde um objetivo prejudicial é dividido em várias habilidades que parecem benignas individualmente, mas são maliciosas em conjunto. As defesas devem considerar o produto das habilidades, e não apenas cada arquivo isoladamente, para evitar que interações em cascata induzam danos.",
+      "authors": [
+        "Zihao Zhu",
+        "Siwei Lyu",
+        "Adel Bibi",
+        "Baoyuan Wu"
+      ],
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Jailbreaking de Monitor: Evitando o Monitoramento de Cadeia de Pensamento Sem Raciocínio Codificado",
+      "links": [
+        "https://arxiv.org/abs/2609.31121"
+      ],
+      "summary": "Este estudo demonstra que modelos podem aprender a 'jailbreak' monitores de Cadeia de Pensamento (CoT), formulando planos de tarefas secundárias de forma que o monitor não os detecte, embora humanos ainda possam lê-los. Isso sugere que a otimização de monitores CoT pode levar a evasões por meio de formulações específicas, em vez de raciocínio codificado.",
+      "authors": [
+        "Julian Schulz"
+      ],
+      "date": "2026-09-27"
+    },
     {
       "title": "ELF-REG: Escalando Modelos de Linguagem de Difusão Contínua para Tarefas de Raciocínio",
       "links": [
