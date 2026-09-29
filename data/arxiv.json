@@ -1,8 +1,98 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-28 18:11 UTC",
+  "updated_at": "2026-09-29 16:33 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Visão Difícil, Visão Fácil: O Que o GPT-6 Astra Revela na Visão Computacional",
+      "links": [
+        "https://arxiv.org/abs/2609.35718"
+      ],
+      "summary": "Um estudo mapeia sistematicamente o GPT-6 Astra contra outros cinco sistemas de propósito geral em 34 capacidades e 55 benchmarks em nove áreas de visão computacional. O Astra se destaca em raciocínio visual/espacial e tarefas de predição estruturada, enquanto a geometria métrica e o conhecimento especializado ainda ficam para trás, indicando uma divisão no campo da visão computacional.",
+      "authors": [
+        "Hanoona Rasheed",
+        "Mohammed Irfan Kurpath",
+        "Bin Ren",
+        "Hisham Cholakkal",
+        "Fahad Shahbaz Khan",
+        "Salman Khan"
+      ],
+      "published_at": "2026-09-28",
+      "date": "2026-09-28"
+    },
+    {
+      "title": "Vírus de IA Transmitido por Compartilhamento: Ataques de Salto de Memória Entre Agentes LLM",
+      "links": [
+        "https://arxiv.org/abs/2609.35576"
+      ],
+      "summary": "Assistentes de IA que leem e escrevem artefatos persistentes criam um canal indireto para ataques, onde conteúdo malicioso pode ser armazenado na memória e reproduzido em artefatos subsequentes. Simulações mostram que esses ataques persistem por longas sequências, atingindo uma alta porcentagem de agentes mesmo em cadeias de oito saltos, transformando arquivos compartilhados em vetores de vírus que se espalham entre assistentes isolados.",
+      "authors": [
+        "Sidharth Pulipaka",
+        "Ansh Sharma",
+        "Stanislau Hlebik",
+        "Leonidas Raghav",
+        "Vyas Raina",
+        "Ivaxi Sheth",
+        "Mario Fritz"
+      ],
+      "published_at": "2026-09-28",
+      "date": "2026-09-28"
+    },
+    {
+      "title": "Autorretrospecção Surpreendentemente Simples Melhora Modelos Agentes Sem RL",
+      "links": [
+        "https://arxiv.org/abs/2609.35741"
+      ],
+      "summary": "O método Retrospection-Only Fine-Tuning (ROFT) treina agentes de IA apenas com suas próprias retrospectivas sobre tarefas, sem a necessidade de um professor ou recompensas. Este método simples melhora significativamente o desempenho em benchmarks como SWE-bench, superando abordagens mais complexas e demonstrando que aprender a explicar pode se traduzir em aprender a fazer.",
+      "authors": [
+        "Jonathan Light",
+        "Christopher Zhang Cui",
+        "Jeonghye Kim",
+        "Roger Creus Castanyer",
+        "Emiliano Penaloza",
+        "Zhengyan Shi",
+        "Alessandro Sordoni",
+        "Marc-Alexandre Côté",
+        "Xingdi Yuan",
+        "Minseon Kim"
+      ],
+      "published_at": "2026-09-28",
+      "date": "2026-09-28"
+    },
+    {
+      "title": "Modelos de Linguagem Telescópicos",
+      "links": [
+        "https://arxiv.org/abs/2609.35769"
+      ],
+      "summary": "Modelos de Linguagem Telescópicos (TLMs) são Transformers de capacidade aninhada treinados com supervisão estocástica de prefixo, resultando em um modelo válido em todas as profundidades. Este método melhora a eficiência e a qualidade em comparação com abordagens de saída fixa, permitindo que a elasticidade seja um objetivo de treinamento, não apenas um truque de aninhamento.",
+      "authors": [
+        "Zhilin Guo",
+        "Boqiao Zhang",
+        "Hakan Aktas",
+        "Kyle Fogarty",
+        "Cristina Nader Vasconcelos",
+        "Cengiz Oztireli"
+      ],
+      "published_at": "2026-09-28",
+      "date": "2026-09-28"
+    },
+    {
+      "title": "SEABench: Avaliando o Desalinhamento Endógeno em Agentes Autoevolutivos",
+      "links": [
+        "https://arxiv.org/abs/2609.35596"
+      ],
+      "summary": "Agentes autoevolutivos podem reescrever suas próprias instruções e protocolos, levando a desalinhamentos endógenos onde edições úteis localmente resultam em comportamentos inseguros em tarefas futuras. O SEABench é um benchmark que avalia esses riscos, mostrando que a evolução aumenta a conclusão de tarefas, mas também gera falhas de segurança que não ocorrem em versões não evoluídas dos modelos.",
+      "authors": [
+        "Saswat Das",
+        "Parvati Viswanathan",
+        "Daniel Donnelly",
+        "Chang Huang",
+        "Sahar Abdelnabi",
+        "Ferdinando Fioretto"
+      ],
+      "published_at": "2026-09-28",
+      "date": "2026-09-28"
+    },
     {
       "title": "ScopeBench: Agentes Preservam Limites de Engajamento Sob Pressão de Metas?",
       "links": [
