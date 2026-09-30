@@ -1,8 +1,91 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-29 16:33 UTC",
+  "updated_at": "2026-09-30 16:26 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Pensar Antes de Pensar: Escalando a Inferência Agente Através do Meta-Raciocínio",
+      "links": [
+        "https://arxiv.org/abs/2609.38147"
+      ],
+      "summary": "O controle de uma execução longa de agente, incluindo o que manter e quando parar, é um problema de raciocínio em si. Um controlador consolida a execução, avalia opções e despacha trabalhadores, resultando em melhorias de desempenho em benchmarks como ProgramBench, onde o GPT-5.5 atinge 71,5% e o Opus 4.8 atinge 67,2%.",
+      "authors": [
+        "Paras Dahal",
+        "Anton Bakhtin",
+        "Taco Cohen",
+        "Zhengxing Chen",
+        "Carole-Jean Wu",
+        "Rob Fergus",
+        "Scott Yih",
+        "Gabriel Synnaeve",
+        "Ruslan Salakhutdinov",
+        "Sanjeev Arora",
+        "Jason Weston",
+        "Anirudh Goyal"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-09-29"
+    },
+    {
+      "title": "O Raciocínio Oculto Deve Vazara, Mas Não Precisa Ser Legível: Oportunidades e Limites Fundamentais para o Monitoramento de Cadeias de Pensamento",
+      "links": [
+        "https://arxiv.org/abs/2609.37312"
+      ],
+      "summary": "Computações ocultas podem permanecer não detectadas em um rastro de pensamento, mas acima de um certo tamanho de modelo, a resolução de uma tarefa oculta vaza informações sobre sua entrada para o Chain-of-Thought (CoT). Um Transformer de uma camada pode criptografar esse rastro, impedindo que monitores de tempo polinomial o leiam.",
+      "authors": [
+        "Mohammadali Mohammadkhani",
+        "Madhava Krishna",
+        "Yash Sarrof",
+        "Michael Hahn"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-09-29"
+    },
+    {
+      "title": "Pré-treinamento de Transformers de Feedback de Informação Latente com Supervisão de Professor",
+      "links": [
+        "https://arxiv.org/abs/2609.38149"
+      ],
+      "summary": "LIFT (Latent Information Feedback Transformers) emparelha cada token com um estado denso em informações de uma distribuição de próximo token de um LM existente, treinando o modelo para prever o próximo token e o próximo estado. Em modelos de 135M a 1B, LIFT supera Transformers equivalentes em tarefas de LM, raciocínio e procedimentais, e um LIFT pequeno supera Transformers do mesmo tamanho treinados com 8x mais dados em rastreamento de estado.",
+      "authors": [
+        "Dor Tirosh",
+        "Ido Amos",
+        "Mor Geva"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-09-29"
+    },
+    {
+      "title": "Quando as Misturas de Dados Melhoram as Leis de Escala? Insights da Regressão de Alta Dimensão",
+      "links": [
+        "https://arxiv.org/abs/2609.38011"
+      ],
+      "summary": "A mistura de domínios de dados não equivale automaticamente a mais dados. Em um modelo de regressão de dados mistos de alta dimensão, dados auxiliares aumentam o expoente das leis de escala somente quando os espectros e tamanhos relativos se interligam, com experimentos em modelos de linguagem mostrando que a mistura correta reduz a perda do domínio-alvo mais rapidamente.",
+      "authors": [
+        "Diyuan Wu",
+        "Lehan Chen",
+        "Theodor Misiakiewicz",
+        "Marco Mondelli"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-09-29"
+    },
+    {
+      "title": "(S^3): Spectral Null-Space Swap Torna Modelos de Raciocínio Eficientes",
+      "links": [
+        "https://arxiv.org/abs/2609.37976"
+      ],
+      "summary": "A capacidade de raciocínio extra de um checkpoint 'Thinking' reside no espaço nulo de uma projeção definida pelas direções singulares dominantes de seu gêmeo 'Non-thinking'. (S^3) é uma troca sem treinamento que mantém o modelo 'Non-thinking' em seu subespaço dominante e o 'Thinking' fora dele, reduzindo tokens de inferência em 27,4% e aumentando a precisão em 1,0 ponto em diversos benchmarks.",
+      "authors": [
+        "Hongbo Ma",
+        "Sansheng Cao",
+        "Jiajun Fan",
+        "Bangji Yang",
+        "Ge Liu"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-09-29"
+    },
     {
       "title": "Visão Difícil, Visão Fácil: O Que o GPT-6 Astra Revela na Visão Computacional",
       "links": [
