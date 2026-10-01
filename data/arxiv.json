@@ -1,8 +1,83 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-09-30 16:26 UTC",
+  "updated_at": "2026-10-01 17:03 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Leis de Escala para Mistura de Especialistas em Loop",
+      "links": [
+        "https://arxiv.org/abs/2609.40316"
+      ],
+      "summary": "Leis de Escala em Loop modelam conjuntamente a recorrência e a esparsidade de Mistura de Especialistas (MoE), permitindo que um MoE em loop derivado da lei iguale um MoE não em loop ~2x maior em raciocínio com computação de treinamento equivalente. O looping se estabelece como um terceiro eixo no gráfico de computação-parâmetro-dados, com uma lei ajustada para design.",
+      "authors": [
+        "Yanbei Chen",
+        "Anirudh Goyal",
+        "Raghuraman Krishnamoorthi"
+      ],
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Quanto Vale um Token de IA? Leis de Escala para Texto Web Selvagem Gerado por IA",
+      "links": [
+        "https://arxiv.org/abs/2609.40295"
+      ],
+      "summary": "Uma nova lei de escala com termos separados para benefício e dano prevê modelos 3,6x maiores com 41% menos erro ao considerar tokens gerados por IA, que inicialmente ajudam, mas depois prejudicam o treinamento. O pré-treinamento em escala web exige a filtragem de texto de IA quando o alvo é humano e a separação das perdas.",
+      "authors": [
+        "Jenna Russell",
+        "Ben Glickenhaus",
+        "Katherine Thai",
+        "John Wieting",
+        "Mohit Iyyer",
+        "Max Spero",
+        "Bradley Emi"
+      ],
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Physis-Lang: Linguagem Autoevolutiva como Representação Física para Modelo de Mundo de Vídeo",
+      "links": [
+        "https://arxiv.org/abs/2609.40358"
+      ],
+      "summary": "Physis-Lang trata a linguagem física como uma representação otimizável compartilhada, elevando a plausibilidade física em modelos de mundo de vídeo e superando o Veo 3.1 proprietário. O canal de física ausente pode ser a própria linguagem, se ela for evoluída.",
+      "authors": [
+        "Liming Lu",
+        "Victor Prisacariu",
+        "Ming-Yu Liu",
+        "Song Han",
+        "Han Cai et al."
+      ],
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Quanto de um Arnês um Agente Forte Precisa para Engenharia de ML Autônoma?",
+      "links": [
+        "https://arxiv.org/abs/2609.40303"
+      ],
+      "summary": "Arneses SOTA de código aberto não superam um agente de codificação mínimo com o mesmo LLM e orçamento de tempo, indicando que camadas extras são redundantes quando o modelo pode controlar o ambiente de execução diretamente. A complexidade do arnês não é mais um fator de desempenho livre para engenharia de ML autônoma.",
+      "authors": [
+        "Kirill Brilliantov",
+        "Alejandro Hernández-Cano",
+        "Emmanuel Abbé"
+      ],
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Cogentic: Orquestração Multiagente para Descoberta Automatizada de Provas",
+      "links": [
+        "https://arxiv.org/abs/2609.40324"
+      ],
+      "summary": "Cogentic executa um loop iterativo de prova-verificação, onde um orquestrador distribui provadores independentes e verificadores adversariais testam os rascunhos, com fragmentos confirmados armazenados em um registro persistente. Usando Gemini, o sistema produziu resultados inéditos em cinco problemas abertos, validados por especialistas.",
+      "authors": [
+        "Yang Cai",
+        "Vineet Gupta",
+        "Yanchen Jiang",
+        "Christopher Liaw",
+        "Aranyak Mehta",
+        "Grigoris Velegkas",
+        "Di Wang"
+      ],
+      "date": "2026-09-30"
+    },
     {
       "title": "Pensar Antes de Pensar: Escalando a Inferência Agente Através do Meta-Raciocínio",
       "links": [

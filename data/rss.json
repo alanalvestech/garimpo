@@ -1,8 +1,548 @@
 {
   "category": "RSS",
-  "updated_at": "2026-09-30 16:26 UTC",
+  "updated_at": "2026-10-01 17:03 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "OpenAI interrompe campanha coordenada de destilação de modelos",
+      "links": [
+        "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
+      ],
+      "summary": "A OpenAI afirmou ter interrompido uma campanha para extrair o raciocínio de modelos protegidos. A empresa está fortalecendo suas defesas contra a destilação adversária.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "OpenAI ajuda pequenas empresas a usar IA",
+      "links": [
+        "https://openai.com/index/helping-small-businesses-put-ai-to-work"
+      ],
+      "summary": "A OpenAI está em parceria com a SBDC da América para expandir o treinamento prático em IA e o suporte local. Um novo relatório sobre como pequenas equipes utilizam IA também foi lançado.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Google lança Gemini 4 Argon, seu modelo mais poderoso até agora",
+      "links": [
+        "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/"
+      ],
+      "summary": "O Gemini 4 Argon é comercializado como uma ferramenta robusta para codificação e cibersegurança. Este lançamento é o mesmo noticiado por The Verge, Ars e Decoder.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Valor, Atreides e Sequoia apoiam startup de IA Flow Engineering com avaliação de US$ 750 milhões",
+      "links": [
+        "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/"
+      ],
+      "summary": "A Flow Engineering, startup de agentes para design de hardware, recebeu investimento. Roelof Botha se juntou como investidor anjo e membro do conselho.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Clone de Jev da OpenAI pode ajudar laboratório a conter agentes em enxame",
+      "links": [
+        "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/"
+      ],
+      "summary": "A API Decisions é apresentada como um clone de Jev, oferecendo inteligência rápida e barata para conter agentes em enxame.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Startup de voz com IA ElevenLabs dobra avaliação para US$ 22 bilhões",
+      "links": [
+        "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/"
+      ],
+      "summary": "A ElevenLabs, startup de voz com IA, dobrou sua avaliação. Uma oferta de US$ 300 milhões para funcionários foi coliderada por Wellington e T. Rowe Price.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Reddit encerra feeds RSS e acesso público à API devido a bots de IA",
+      "links": [
+        "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/"
+      ],
+      "summary": "O Reddit está encerrando o suporte a RSS e restringindo o acesso ao conteúdo gerado por usuários. A medida visa combater bots de IA.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "A economia desfavorável da IA para o consumidor",
+      "links": [
+        "https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/"
+      ],
+      "summary": "Laboratórios de ponta estão hesitantes em relação à IA para o consumidor. A razão não é a qualidade da tecnologia.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Meta contesta alegação de que Muse leu mensagens privadas de usuário sem permissão",
+      "links": [
+        "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/"
+      ],
+      "summary": "A Meta afirma que o Muse não pode acessar mensagens sem permissão explícita. A empresa contesta o relato de um jornalista de que o agente leu mensagens privadas com a configuração necessária desativada.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "DoorDash lança agente de IA para pedidos de comida via texto",
+      "links": [
+        "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/"
+      ],
+      "summary": "O DoorDash lançou um agente de IA que permite pedir comida por mensagem de texto. O serviço visa competir com Uber Eats e Grubhub.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "O segredo da Destro AI é alinhar robôs e humanos",
+      "links": [
+        "https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page/"
+      ],
+      "summary": "A Destro se posiciona como uma empresa que alinha robôs e humanos, não como uma empresa de robótica. A startup foi destaque no Startup Battlefield 200.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Novas recomendações de produtos da Instinct causam desconforto em alguns usuários",
+      "links": [
+        "https://techcrunch.com/2026/09/30/instincts-new-product-recommendations-are-giving-some-users-the-ick/"
+      ],
+      "summary": "As recomendações de produtos e viagens da Instinct são curadas por humanos. Alguns usuários se opõem às sugestões não solicitadas.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Restate capta US$ 20 milhões com aumento da demanda por infraestrutura durável para agentes de IA",
+      "links": [
+        "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/"
+      ],
+      "summary": "A Restate desenvolveu sua própria solução de armazenamento, replicação e redundância, em vez de usar um banco de dados externo. A empresa é concorrente da Temporal.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Airbnb adiciona busca por IA e mais recursos sociais",
+      "links": [
+        "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/"
+      ],
+      "summary": "O Airbnb está lançando busca por IA e mais recursos sociais. A empresa também introduzirá entrega de refeições e lavanderia em locais selecionados.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Grokipedia de Elon Musk apresenta design 'recém-atualizado'",
+      "links": [
+        "https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai"
+      ],
+      "summary": "A versão 0.3 da Grokipedia inclui um novo logotipo, página inicial e página de edições ao vivo. Benji Taylor, chefe de design da SpaceXAI, descreveu o design como 'recém-atualizado'.",
+      "published_at": "2026-10-01",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Google anuncia Gemini 4 e limita acesso a 'defensores cibernéticos confiáveis'",
+      "links": [
+        "https://www.theverge.com/tech/1002980/google-gemini-4-argon"
+      ],
+      "summary": "O Gemini 4 Argon promete desempenho de ponta em engenharia de software, trabalho jurídico/financeiro e defesa cibernética. O acesso é limitado a defensores cibernéticos confiáveis.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Os Tamagotchis de IA estão chegando",
+      "links": [
+        "https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices"
+      ],
+      "summary": "Meta e OpenAI estão testando hardware físico para seus agentes de software, Dots e Muse. Isso ocorre após o fracasso da maioria dos dispositivos de IA dedicados.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Líderes de IA comentam novo plano de segurança de Trump",
+      "links": [
+        "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments"
+      ],
+      "summary": "Executivos de IA comentaram o 'Compromisso Conjunto' de Trump, que é 'moralmente vinculativo'. Este plano de segurança é o mesmo abordado por The Verge e Decoder.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Todas as últimas notícias sobre o agente de IA Muse da Meta",
+      "links": [
+        "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai"
+      ],
+      "summary": "Uma compilação de notícias sobre o agente de IA Muse da Meta foi publicada. O agente é eficaz se o usuário confiar na Meta com seus dados e cartão de crédito.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Google estaria testando pagamento a editores por resultados de busca com IA",
+      "links": [
+        "https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features"
+      ],
+      "summary": "Segundo o The Information, o Google está realizando um piloto com cerca de 100 editores para recursos de busca com IA. Este é o mesmo projeto mencionado por Ars e Decoder.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Instagram adiciona 'assistente' de IA para orientar sobre como postar",
+      "links": [
+        "https://www.theverge.com/tech/1002402/instagram-ai-edits-assistant-creators-analytics-youtube"
+      ],
+      "summary": "O aplicativo Edits do Instagram receberá um assistente criativo de IA. Ele usará dados da conta para fornecer feedback sobre as postagens.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Líderes de tecnologia farão autorregulação da segurança de IA sob acordo de Trump",
+      "links": [
+        "https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs"
+      ],
+      "summary": "O texto completo do 'Compromisso Conjunto sobre Responsabilidades de Fronteira' foi divulgado. Trata-se de uma autorregulação 'moralmente vinculativa' para a segurança da IA.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Google anuncia modelo de IA Gemini 4 Argon, mas ainda não está disponível",
+      "links": [
+        "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/"
+      ],
+      "summary": "O Google anunciou o modelo de IA Gemini 4 Argon, o mesmo lançamento noticiado por TechCrunch, The Verge e Decoder. A Ars Technica questiona o futuro do Gemini 3.5 Pro.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "RFK Jr. acredita que IA nos libertará da 'tirania' de fatos médicos e expertise",
+      "links": [
+        "https://arstechnica.com/health/2026/09/rfk-jr-says-ai-backs-his-anti-vaccine-views-we-checked-it-doesnt/"
+      ],
+      "summary": "RFK Jr. afirmou que a IA apoia suas visões antivacina. A Ars Technica verificou e constatou que a afirmação não procede.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Plano de Trump para combater riscos da IA depende da autorregulação de grandes empresas de tecnologia",
+      "links": [
+        "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/"
+      ],
+      "summary": "O plano de Trump para riscos da IA envolve testes de segurança voluntários. Este é o mesmo acordo de autorregulação noticiado por The Verge e Decoder.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "'Uma IA fez isso' não é defesa, diz ONG que processa OpenAI por hack no Hugging Face",
+      "links": [
+        "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/"
+      ],
+      "summary": "Uma ação judicial exige que a OpenAI interrompa o desenvolvimento inseguro que causou a violação do Hugging Face. Este incidente também foi abordado na entrevista de Mark Chen ao MIT.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Tentativa inicial do Google de pagar sites por respostas de IA enfrenta dificuldades",
+      "links": [
+        "https://arstechnica.com/google/2026/09/google-is-paying-100-websites-for-contributions-to-ai-overviews-but-the-amounts-are-tiny/"
+      ],
+      "summary": "O Google está pagando cerca de 100 sites por contribuições para resumos de IA, mas os valores são mínimos. Muitos sites recebem aproximadamente 0,1% de sua receita de anúncios desses pagamentos de IA.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Google descobre como marcar proteínas projetadas por IA com marca d'água",
+      "links": [
+        "https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/"
+      ],
+      "summary": "O Google desenvolveu uma marca d'água de biossegurança para uma ferramenta popular de design de proteínas por IA. A iniciativa está ligada à DeepMind.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "OpenAI adia IPO devido a preocupações com segurança da IA",
+      "links": [
+        "https://arstechnica.com/ai/2026/09/openai-delays-ipo-over-ai-safety-concerns/"
+      ],
+      "summary": "A OpenAI adiou sua oferta pública inicial devido a preocupações com a segurança da IA. A empresa também está envolvida em uma rodada privada de US$ 30 bilhões.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "OpenAI não vai 'atirar no próprio pé' por consequências de hack, diz diretor de pesquisa",
+      "links": [
+        "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/"
+      ],
+      "summary": "Mark Chen, diretor de pesquisa da OpenAI, afirmou que a empresa continua divulgando novos hacks. Ele disse que a OpenAI não interromperá o trabalho de desenvolvimento de capacidades devido às consequências da violação do Hugging Face.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Google Gemini 4 Argon se aproxima de OpenAI e Anthropic, mas sem liderança clara",
+      "links": [
+        "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/"
+      ],
+      "summary": "O Gemini 4 Argon é o primeiro modelo de ponta do Google em mais de sete meses. Testes independentes mostram que ele se iguala ao GPT-6 Astra, mas fica atrás do Claude Opus 5.5.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "OpenAI e Synopsys se unem para criar modelo de IA que projeta chips como engenheiro experiente",
+      "links": [
+        "https://the-decoder.com/openai-and-synopsys-team-up-to-build-an-ai-model-that-designs-chips-like-a-seasoned-engineer/"
+      ],
+      "summary": "O GPT-Synopsys operará ferramentas EDA da Synopsys e otimizará designs de forma autônoma. Testes iniciais com clientes estão em andamento, com o Decoder apontando o trabalho de chips da OpenAI como um motivo.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Google troca Gems por Skills, alinhando-se a OpenAI e Anthropic em formatos de prompt para agentes",
+      "links": [
+        "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats/"
+      ],
+      "summary": "O Google está substituindo Gems por Skills, um formato de prompt para agentes. As Skills podem ser invocadas com '/' ou executadas automaticamente, e a desativação de Gems começa em novembro.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Meta evita bilhões em impostos nos EUA ao classificar seus data centers de IA como experimentos",
+      "links": [
+        "https://the-decoder.com/meta-dodges-billions-in-us-taxes-by-calling-its-ai-data-centers-experiments/"
+      ],
+      "summary": "O New York Times reportou que a Meta está evitando US$ 3,9 bilhões em impostos em 2025, chamando seus data centers de IA de 'modelos piloto'. Contadores da Meta alertam para riscos legais, embora Zuckerberg tenha dito que os sites impulsionariam produtos centrais.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "FTC inicia ampla investigação sobre OpenAI, Anthropic e outros laboratórios de IA por proteção ao consumidor",
+      "links": [
+        "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/"
+      ],
+      "summary": "A FTC lançou uma investigação formal sobre OpenAI, Anthropic e outros laboratórios de IA. A investigação, que já estava em andamento antes do incidente do Hugging Face, envolve a entrega de documentos e depoimentos executivos.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Indústria de IA da China se une com Deepseek lançando software de código aberto para chips Ascend da Huawei",
+      "links": [
+        "https://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips/"
+      ],
+      "summary": "A Deepseek lançou o software de código aberto TileLang para os chips Ascend da Huawei, um modelo de programação mais simples que CUDA. O software, e não o silício, é apontado como o gargalo.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Anthropic afirma que GLM-5.3 de código aberto da Zhipu quase iguala Claude Mythos Preview na criação de exploits",
+      "links": [
+        "https://the-decoder.com/anthropic-says-zhipus-open-weight-glm-5-3-nearly-matches-claude-mythos-preview-at-building-exploits/"
+      ],
+      "summary": "A Anthropic indicou que o GLM-5.3 da Zhipu se aproxima do Claude Mythos Preview em testes de exploração binária. Uma variante Flash montou um ataque ao Chrome por US$ 20,40, e as salvaguardas são facilmente removíveis.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Google paga quase nada a quase nenhum editor por conteúdo usado em respostas de IA",
+      "links": [
+        "https://the-decoder.com/google-is-paying-almost-no-publishers-almost-nothing-for-content-used-in-ai-answers/"
+      ],
+      "summary": "Os pagamentos do Google a editores por conteúdo usado em respostas de IA variam de menos de US$ 1.000 em vários meses a mais de US$ 1 milhão por ano. Alguns participantes não sabem como o Google calcula esses valores.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Trump e CEOs de tecnologia assinam código de conduta de IA 'moralmente vinculativo'",
+      "links": [
+        "https://the-decoder.com/trump-and-tech-ceos-sign-an-ai-code-of-conduct-thats-only-morally-binding/"
+      ],
+      "summary": "Zuckerberg, Brockman, Huang e Musk estão entre os signatários do código de conduta de IA. Auditores externos verificarão os modelos, mas as consequências de uma violação não são claras.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Simon Willison cita Matthew Green sobre contenção de agentes de IA",
+      "links": [
+        "https://simonwillison.net/2026/Oct/1/matthew-green/"
+      ],
+      "summary": "Matthew Green afirma que o sandboxing não é suficiente para conter agentes maliciosos. Ele compara a situação a um payload que sequestra um agente e o transporta para o próximo, como um worm.",
+      "published_at": "2026-10-01",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "AREX-2: Avançando Agentes Autoaperfeiçoáveis Através de Tarefas Reflexivas de Longo Horizonte",
+      "links": [
+        "https://arxiv.org/abs/2609.38288"
+      ],
+      "summary": "AREX-2 avança agentes autoaperfeiçoáveis através de tarefas reflexivas de longo horizonte. O foco é na melhoria contínua.",
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "MoFlow: Geração de Fluxo de Trabalho de Agentes Multi-Objetivo",
+      "links": [
+        "https://arxiv.org/abs/2609.38294"
+      ],
+      "summary": "MoFlow é uma geração de fluxo de trabalho de agentes multi-objetivo. O objetivo é otimizar processos complexos.",
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Agentes de IA São Vulneráveis à Radicalização",
+      "links": [
+        "https://arxiv.org/abs/2609.38296"
+      ],
+      "summary": "Este estudo demonstra que agentes de IA são vulneráveis à radicalização. Ele explora os riscos de viés e manipulação.",
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Sistema de Contenção Autoevoluível em Múltiplas Tarefas com o Agente Como Seu Próprio Otimizador",
+      "links": [
+        "https://arxiv.org/abs/2609.38372"
+      ],
+      "summary": "Este trabalho propõe um sistema de contenção autoevoluível em múltiplas tarefas. O agente atua como seu próprio otimizador.",
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Dados Alinhados Podem Induzir Desalinhamento Via Confusão de Contexto",
+      "links": [
+        "https://arxiv.org/abs/2609.38379"
+      ],
+      "summary": "Este estudo mostra que dados alinhados podem induzir desalinhamento através da confusão de contexto. Ele explora os desafios do alinhamento.",
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Uma Sistematização de Riscos Concorrentes da Perda de Controle em Agentes Autônomos",
+      "links": [
+        "https://arxiv.org/abs/2609.38411"
+      ],
+      "summary": "Este artigo apresenta uma sistematização de riscos concorrentes da perda de controle em agentes autônomos. O estudo visa entender e mitigar falhas.",
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "NAQD Env: Um Benchmark para Retirada Seletiva em Agentes de Linguagem",
+      "links": [
+        "https://arxiv.org/abs/2609.38460"
+      ],
+      "summary": "NAQD Env é um benchmark para retirada seletiva em agentes de linguagem. Ele avalia a capacidade de agentes de filtrar informações.",
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Mantendo a Tarefa: Testando os Fundamentos da Confiabilidade de Agentes de Longo Horizonte",
+      "links": [
+        "https://arxiv.org/abs/2609.38712"
+      ],
+      "summary": "Este estudo testa os fundamentos da confiabilidade de agentes de longo horizonte. O foco é em manter o agente na tarefa.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Aprendendo o Que Esquecer: Desaprendizado Distribucional para Espaços de Representação de LLMs",
+      "links": [
+        "https://arxiv.org/abs/2609.38929"
+      ],
+      "summary": "Este trabalho aborda o aprendizado do que esquecer, com desaprendizado distribucional para espaços de representação de LLMs. O objetivo é otimizar a memória.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "MADBench: Avaliando a Segurança do Debate Multiagente",
+      "links": [
+        "https://arxiv.org/abs/2609.39146"
+      ],
+      "summary": "MADBench é um benchmark para a segurança de debates multiagentes. Ele avalia vulnerabilidades e defesas.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "WorkGenesis: Construindo os Mundos Que Ensinam Agentes a Trabalhar",
+      "links": [
+        "https://arxiv.org/abs/2609.39325"
+      ],
+      "summary": "WorkGenesis é uma iniciativa para construir mundos que ensinam agentes a trabalhar. O foco é no treinamento eficaz.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "FIGS: Avaliando a Bajulação em Múltiplas Interações Sem Penalizar a Empatia",
+      "links": [
+        "https://arxiv.org/abs/2609.39863"
+      ],
+      "summary": "FIGS avalia a bajulação em múltiplas interações sem penalizar a empatia. O estudo busca uma avaliação mais justa.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Confiança Não é uma Pontuação: Contratos de Garantia em Tempo de Execução para Agentes de IA de Alto Risco",
+      "links": [
+        "https://arxiv.org/abs/2609.39717"
+      ],
+      "summary": "A confiança não é uma pontuação, segundo este artigo. Ele propõe contratos de garantia em tempo de execução para agentes de IA de alto risco.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Segurança da Comunicação Latente em Sistemas Multiagentes",
+      "links": [
+        "https://arxiv.org/abs/2609.39788"
+      ],
+      "summary": "Este estudo aborda a segurança da comunicação latente em sistemas multiagentes. O foco é em garantir a integridade.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Quem Verifica o Grafo? Ataques de Má Especificação na Verificação de Ações Causais para Agentes de Linguagem",
+      "links": [
+        "https://arxiv.org/abs/2609.40027"
+      ],
+      "summary": "Este artigo investiga quem verifica o grafo em ataques de má especificação na verificação de ações causais para agentes de linguagem. Ele explora vulnerabilidades.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Conjunto de Dados de Erros de Agentes: Escalando 50.000 Pares de Erro-Diagnóstico para Análise de Falhas e Pós-Treinamento Consciente de Erros",
+      "links": [
+        "https://arxiv.org/abs/2609.40111"
+      ],
+      "summary": "Este é um conjunto de dados de erros de agentes, escalando 50.000 pares de erro-diagnóstico. Ele é usado para análise de falhas e pós-treinamento consciente de erros.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Aprendendo com a Pesquisa: Rumo à Evolução Contínua de Sistemas de Contenção de Agentes",
+      "links": [
+        "https://arxiv.org/abs/2609.40169"
+      ],
+      "summary": "Este trabalho aborda o aprendizado a partir da pesquisa para a evolução contínua de sistemas de contenção de agentes. O foco é na adaptação ao longo da vida.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "PivotOPD: Aprendendo a se Recuperar de Erros Cruciais em Agentes de Múltiplas Interações",
+      "links": [
+        "https://arxiv.org/abs/2609.40285"
+      ],
+      "summary": "PivotOPD é um método para aprender a se recuperar de erros cruciais em agentes de múltiplas interações. O objetivo é melhorar a resiliência.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Quanto de Contenção um Agente Forte Precisa para Engenharia Autônoma de ML?",
+      "links": [
+        "https://arxiv.org/abs/2609.40303"
+      ],
+      "summary": "Este estudo questiona a quantidade de contenção necessária para um agente forte em engenharia autônoma de ML. Ele explora o equilíbrio entre autonomia e segurança.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Turbo Harness: Otimização de Sistema de Contenção Adaptativa à Instância",
+      "links": [
+        "https://arxiv.org/abs/2609.40330"
+      ],
+      "summary": "Turbo Harness é uma otimização de sistema de contenção adaptativa à instância. O objetivo é melhorar a eficiência e a flexibilidade.",
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
     {
       "title": "OpenAI apresenta GPT-6.1 Sol",
       "links": [
