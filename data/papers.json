@@ -1,8 +1,377 @@
 {
   "category": "Papers",
-  "updated_at": "2026-09-30 19:36 UTC",
+  "updated_at": "2026-10-01 19:45 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "O Professor É uma Direção, Não um Destino: Extrapolando Resíduos de Representação Induzidos por RL na Destilação On-Policy",
+      "links": [
+        "https://huggingface.co/papers/2609.36484",
+        "https://arxiv.org/abs/2609.36484"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "UniEvo-VL: Uma Receita de Treinamento de Auto-Destilação On-Policy para Auto-Melhoria de Modelos Multimodais",
+      "links": [
+        "https://huggingface.co/papers/2609.38721",
+        "https://arxiv.org/abs/2609.38721"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Fronteiras Falsas: Diagnosticando e Mitigando a Co-Trapaça em Agentes de Busca Auto-Evolutivos",
+      "links": [
+        "https://huggingface.co/papers/2609.39102",
+        "https://arxiv.org/abs/2609.39102"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Repensando o Raciocínio Visual Latente: Fundamentando o Raciocínio Latente em Evidências Visuais",
+      "links": [
+        "https://huggingface.co/papers/2609.34563",
+        "https://arxiv.org/abs/2609.34563"
+      ],
+      "published_at": "2026-09-28",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "AREX-2: Aprimorando Agentes de Auto-Melhoria Através de Tarefas Reflexivas de Longo Prazo",
+      "links": [
+        "https://huggingface.co/papers/2609.38288",
+        "https://arxiv.org/abs/2609.38288"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Mid-Harness: Escalando Ações Entre Modelo e Harness para Agentes de Terminal",
+      "links": [
+        "https://huggingface.co/papers/2609.39982",
+        "https://arxiv.org/abs/2609.39982"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "EvoDuet: Co-Evolução Bi-Nível de Busca na Web e Resolução de Tarefas para Descoberta Científica",
+      "links": [
+        "https://huggingface.co/papers/2609.40340",
+        "https://arxiv.org/abs/2609.40340"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "WorldAuditBench: Auditoria Interativa de Mundos 3D com Agentes Multimodais",
+      "links": [
+        "https://huggingface.co/papers/2609.40325",
+        "https://arxiv.org/abs/2609.40325"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Aprendendo Meta-Habilidades para o Design de Harness de Agentes em AI4AI em Tempo de Teste",
+      "links": [
+        "https://huggingface.co/papers/2609.38143",
+        "https://arxiv.org/abs/2609.38143"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "EVOKE: Evocando Conhecimento de Mundo em Agentes para Tomada de Decisão Transferível",
+      "links": [
+        "https://huggingface.co/papers/2609.38334",
+        "https://arxiv.org/abs/2609.38334"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Mais Escolhas, Menos Decisões: Viés de Escala Ordinal em Modelos de Decisão Direta Semelhantes a JEV",
+      "links": [
+        "https://huggingface.co/papers/2609.38827",
+        "https://arxiv.org/abs/2609.38827"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Imagine3D-LLM: Ensinando MLLMs a Imaginar Cenas 3D Antes de Responder",
+      "links": [
+        "https://huggingface.co/papers/2609.38177",
+        "https://arxiv.org/abs/2609.38177"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Pensando Fora da Caixa: Modelos de Linguagem Podem Confiar Seletivamente em Orientação Externa?",
+      "links": [
+        "https://huggingface.co/papers/2609.39578",
+        "https://arxiv.org/abs/2609.39578"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "RSIGame: Desenvolvimento Autônomo de Jogos Agênticos com Auto-Melhoria Recursiva",
+      "links": [
+        "https://huggingface.co/papers/2609.39045",
+        "https://arxiv.org/abs/2609.39045"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "AIM: Gerenciamento de Ideias Agênticas para Pesquisa Automatizada",
+      "links": [
+        "https://huggingface.co/papers/2609.38445",
+        "https://arxiv.org/abs/2609.38445"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Conjunto de Dados de Erros de Agentes: Escalando 50.000 Pares Erro-Diagnóstico para Análise de Falhas e Pós-Treinamento Consciente de Erros",
+      "links": [
+        "https://huggingface.co/papers/2609.40111",
+        "https://arxiv.org/abs/2609.40111"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Desmascarar o Estado: Quando a Adaptação de Estado Importa para Modelos de Linguagem de Difusão Mascarada",
+      "links": [
+        "https://huggingface.co/papers/2609.33355",
+        "https://arxiv.org/abs/2609.33355"
+      ],
+      "published_at": "2026-09-27",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "LANTERN: Iluminando Conhecimento Matemático Oculto em Modelos de Linguagem",
+      "links": [
+        "https://huggingface.co/papers/2609.32264",
+        "https://arxiv.org/abs/2609.32264"
+      ],
+      "published_at": "2026-09-26",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Quebrando Babel: Um Sistema Multiagente Auto-Evolutivo para Tradução de Legendas de Longa Duração",
+      "links": [
+        "https://huggingface.co/papers/2609.38660",
+        "https://arxiv.org/abs/2609.38660"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Não É o Que a Imagem Mostra: Contexto Irrelevante Desestabiliza Juízes VLM Sem Informá-los",
+      "links": [
+        "https://huggingface.co/papers/2609.37863",
+        "https://arxiv.org/abs/2609.37863"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "DyRAD: Síntese de Novas Vistas de Radar para Cenas de Condução Dinâmicas",
+      "links": [
+        "https://huggingface.co/papers/2609.39841",
+        "https://arxiv.org/abs/2609.39841"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "DC-SAE: Autoencoder Semântico de Compressão Profunda para Convergência de Difusão Mais Rápida",
+      "links": [
+        "https://huggingface.co/papers/2609.39222",
+        "https://arxiv.org/abs/2609.39222"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "TERRA: Reconstrução, Retargeting e Controle Ciente do Terreno para Locomoção Musculoesquelética",
+      "links": [
+        "https://huggingface.co/papers/2609.38653",
+        "https://arxiv.org/abs/2609.38653"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Explorando Sistematicamente as Capacidades do GPT-6 Astra como Políticas Incorporadas",
+      "links": [
+        "https://huggingface.co/papers/2609.38537",
+        "https://arxiv.org/abs/2609.38537"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "ThinkV2V: Liberando a Capacidade de Raciocínio de MLLMs para Edição de Vídeo Guiada por Instruções",
+      "links": [
+        "https://huggingface.co/papers/2609.38541",
+        "https://arxiv.org/abs/2609.38541"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "LoopVL: Inteligência Visual Recorrente",
+      "links": [
+        "https://huggingface.co/papers/2609.38426",
+        "https://arxiv.org/abs/2609.38426"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "OSWorld-Science: Um Benchmark de Agentes de Uso de Computador para Aprender e Usar Software Científico",
+      "links": [
+        "https://huggingface.co/papers/2609.39903",
+        "https://arxiv.org/abs/2609.39903"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "PivotOPD: Aprendendo a se Recuperar de Erros Cruciais em Agentes Multi-Turno",
+      "links": [
+        "https://huggingface.co/papers/2609.40285",
+        "https://arxiv.org/abs/2609.40285"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Leis de Escala para Mistura de Especialistas em Loop",
+      "links": [
+        "https://huggingface.co/papers/2609.40316",
+        "https://arxiv.org/abs/2609.40316"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "BiasReducer: Mitigação Adaptativa de Viés para Modelos de Recompensa",
+      "links": [
+        "https://huggingface.co/papers/2609.32720",
+        "https://arxiv.org/abs/2609.32720"
+      ],
+      "published_at": "2026-09-26",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "CUA-SWE: Quando Agentes de Uso de Computador Encontram a Engenharia de Software Visual",
+      "links": [
+        "https://huggingface.co/papers/2609.32600",
+        "https://arxiv.org/abs/2609.32600"
+      ],
+      "published_at": "2026-09-26",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Pré-pré-treinamento Sintético Sobrevive à Escala, mas Não como um Prior Gramatical",
+      "links": [
+        "https://huggingface.co/papers/2609.39827",
+        "https://arxiv.org/abs/2609.39827"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Eu Tenho um Fluxo: Fazendo o Aprendizado Auto-Supervisionado Funcionar em Vídeo Contínuo",
+      "links": [
+        "https://huggingface.co/papers/2609.40333",
+        "https://arxiv.org/abs/2609.40333"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Physis-Lang: Linguagem Auto-Evolutiva como Representação Física para Modelo de Mundo de Vídeo",
+      "links": [
+        "https://huggingface.co/papers/2609.40358",
+        "https://arxiv.org/abs/2609.40358"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "DuoOPD: Aprendendo com Resultados Conjuntos Professor-Aluno para Destilação On-Policy Multi-Tarefa",
+      "links": [
+        "https://huggingface.co/papers/2609.33711",
+        "https://arxiv.org/abs/2609.33711"
+      ],
+      "published_at": "2026-09-27",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "MILO: Descoberta Automatizada de Harness via Evolução Multiagente Orquestrada",
+      "links": [
+        "https://huggingface.co/papers/2609.38349",
+        "https://arxiv.org/abs/2609.38349"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Recompensas de Rubrica da Teoria de Resposta ao Item",
+      "links": [
+        "https://huggingface.co/papers/2609.35646",
+        "https://arxiv.org/abs/2609.35646"
+      ],
+      "published_at": "2026-09-28",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "RoboCoach: Modelos de Mundo como Treinadores Ativos para Habilidades Robóticas Composicionais",
+      "links": [
+        "https://huggingface.co/papers/2609.39685",
+        "https://arxiv.org/abs/2609.39685"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "A Estrutura de Baixo Rank do Aprendizado por Reforço VLA",
+      "links": [
+        "https://huggingface.co/papers/2609.34599",
+        "https://arxiv.org/abs/2609.34599"
+      ],
+      "published_at": "2026-09-28",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "A2Z GameSpec-Bench: Quão Fielmente Agentes de Codificação Podem Gerar Jogos a Partir de Especificações de Design de Jogos?",
+      "links": [
+        "https://huggingface.co/papers/2609.39564",
+        "https://arxiv.org/abs/2609.39564"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Decomponha Radicais, Depois Recompense: Inspeção Granular para Renderização Precisa de Texto Chinês",
+      "links": [
+        "https://huggingface.co/papers/2609.37569",
+        "https://arxiv.org/abs/2609.37569"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-09-30"
+    },
     {
       "title": "Raven: O Arnês de Arnêses para Inteligência Agente Componível",
       "links": [
