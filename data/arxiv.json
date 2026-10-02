@@ -1,8 +1,84 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-01 17:03 UTC",
+  "updated_at": "2026-10-02 16:18 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "VISTA: Um Arnês Visual para Raciocínio em um Mundo Interativo",
+      "links": [
+        "https://arxiv.org/abs/2610.02200"
+      ],
+      "summary": "A peça que faltava para agentes multimodais não é outro backbone, mas um arnês que mantém uma memória visual sem perdas e permite ao modelo recuperar e reorganizar quadros passados enquanto raciocina. No ARC-AGI-3, o VISTA eleva o Claude Opus 5.0 de 40,68 de Eficiência Relativa de Ação Humana para um perfeito 100,00, completando todos os 25 jogos públicos com 57,4% menos ações do que humanos iniciantes.",
+      "authors": [
+        "Qiushi Han",
+        "Keya Hu",
+        "Linlu Qiu",
+        "Cathy Wu",
+        "Kaiming He"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Ajuste Fino com Amostragem: SFT Aprende Melhor do que Você Pensa",
+      "links": [
+        "https://arxiv.org/abs/2610.02140"
+      ],
+      "summary": "A divisão SFT-vs-RL é geralmente atribuída ao objetivo. Este artigo culpa os dados: rastros de especialistas fora da política são a distribuição errada para um aprendiz supervisionado. Um amostrador MCMC conduz esses rastros em direção à variedade on-policy do modelo de referência, então o SFT comum é executado no conjunto reescrito.",
+      "authors": [
+        "Aayush Karan",
+        "Sitan Chen",
+        "Yilun Du"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Looping Além de Duas Vezes: Uma Receita Escalável para Mistura de Especialistas em Loop",
+      "links": [
+        "https://arxiv.org/abs/2610.01153"
+      ],
+      "summary": "As Leis de Escala de Loop de ontem afirmaram que a recorrência é um terceiro eixo. Na prática, MoEs em loop travam em dois loops: a variância residual explode e os roteadores colapsam nos mesmos especialistas. LOOM limita o crescimento da variância, reinjeta o embedding de entrada a cada loop e dá a cada loop seu próprio roteador, além de um Resíduo de Loop que leva o trabalho anterior dos especialistas adiante.",
+      "authors": [
+        "Di He",
+        "Pengxiang Li",
+        "Da Chang",
+        "Qingyan Meng",
+        "Lu Yin",
+        "Shiwei Liu"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "A Escala do Aprendizado por Reforço Realmente Requer Mais Treinamento?",
+      "links": [
+        "https://arxiv.org/abs/2610.01133"
+      ],
+      "summary": "Uma execução de RL concluída já contém políticas mais fortes do que qualquer checkpoint visitado pelo otimizador. SURGE funde espectralmente um \"âncora\" de alta precisão com um \"doador\" de resposta mais curta da mesma história, mantendo a atualização dominante do âncora e enxertando o componente complementar do doador, sem treinamento extra e sem computação adicional por consulta.",
+      "authors": [
+        "Bangji Yang",
+        "Jiajun Fan",
+        "Hongba Ma",
+        "Ruihan Guo",
+        "Ge Liu"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Sobre a Deriva da Linguagem Durante o Pós-Treinamento RLVR",
+      "links": [
+        "https://arxiv.org/abs/2610.02015"
+      ],
+      "summary": "CoTs de RLVR têm deslizado para uma linguagem não-padrão e difícil de monitorar. O artigo prova que a pressão é estrutural: o objetivo do RLVR permite uma deriva de linguagem ilimitada; o SFT não. Empiricamente, a deriva aparece especificamente quando o comportamento alvo não pode ser obtido do modelo base.",
+      "authors": [
+        "Michael Sullivan",
+        "Alexander Koller"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
     {
       "title": "Leis de Escala para Mistura de Especialistas em Loop",
       "links": [

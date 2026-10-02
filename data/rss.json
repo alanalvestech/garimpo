@@ -1,8 +1,644 @@
 {
   "category": "RSS",
-  "updated_at": "2026-10-01 17:03 UTC",
+  "updated_at": "2026-10-02 16:18 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "O complemento eterno",
+      "links": [
+        "https://openai.com/index/the-eternal-complement"
+      ],
+      "summary": "Um ensaio da OpenAI sugere que a IA avançada será crucial para o trabalho rotineiro por trás de ideias inovadoras. A execução moldará a próxima economia.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Como a Albertsons Companies está reimaginando o varejo de dentro para fora",
+      "links": [
+        "https://openai.com/index/albertsons-reimagining-retail"
+      ],
+      "summary": "A Albertsons Cos. utiliza o ChatGPT Enterprise e a API da OpenAI para acelerar o trabalho das equipes. Isso visa facilitar as compras de supermercado para milhões de clientes.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "AutoSynthData: Gerando Dados de Treinamento para Agentes Corporativos",
+      "links": [
+        "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
+      ],
+      "summary": "Um blog da comunidade ServiceNow-AI discute a geração de dados de treinamento para agentes corporativos.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Apresentando Olmo-core 3: Infraestrutura de treinamento aberta e escalável para grandes MoEs",
+      "links": [
+        "https://huggingface.co/blog/allenai/olmocore3"
+      ],
+      "summary": "O blog da comunidade Allen AI apresenta o Olmo-core 3. Esta é uma infraestrutura de treinamento aberta para modelos de mistura de especialistas (MoE) em larga escala.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Chatbot Grok de Musk supostamente encorajou Trump a capturar o presidente da Venezuela",
+      "links": [
+        "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/"
+      ],
+      "summary": "O chatbot Grok de Elon Musk teria encorajado Donald Trump a invadir a Venezuela. A ação visava capturar Nicolás Maduro.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "ChatGPT agora permite experimentar roupas virtualmente",
+      "links": [
+        "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/"
+      ],
+      "summary": "O ChatGPT oferece recursos de compras, incluindo prova virtual de roupas a partir de fotos do usuário. Também inclui uma biblioteca de Favoritos.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Google estima 1.800 lançamentos do Starship da SpaceX antes que data centers espaciais se tornem viáveis",
+      "links": [
+        "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/"
+      ],
+      "summary": "O Projeto Suncatcher visa colocar o primeiro chip avançado em órbita. O Google estabelece um alto número de lançamentos para data centers espaciais.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "OpenAI rompe com três pesquisadores de segurança, relata WSJ",
+      "links": [
+        "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/"
+      ],
+      "summary": "O Wall Street Journal informa que a OpenAI encerrou o contrato com três pesquisadores de segurança. Uma investigação interna revelou que eles manipularam informações confidenciais da empresa.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Opus 5.5 adora dizer 'isso importa' (e outros traços de escrita de IA)",
+      "links": [
+        "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/"
+      ],
+      "summary": "A palavra \"confiável\" aparece 23 vezes mais frequentemente em textos do Opus 5.5 do que em amostras humanas. Este é um dos maiores indicadores de escrita por IA.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Amazon lança seu próprio clone de Jev enquanto modelos de decisão inundam a web",
+      "links": [
+        "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/"
+      ],
+      "summary": "A AWS Strand Labs lançou o Strands Decider 2B, um novo modelo de decisão similar ao Jev. Ele se insere no mesmo grupo de inteligência de baixo custo que a API Decisions da OpenAI.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Shopify lança Canvas, uma ferramenta para criar lojas online conversando com IA",
+      "links": [
+        "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/"
+      ],
+      "summary": "Com o Canvas, comerciantes podem criar e personalizar lojas conversando com o Sidekick. As alterações são aplicadas em tempo real.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Entrevista com Brian Chesky: Agentes de IA precisam de seu próprio sistema operacional",
+      "links": [
+        "https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/"
+      ],
+      "summary": "Brian Chesky discute a adaptação do Airbnb para agentes, o cenário da IA para consumidores e a necessidade de um sistema operacional nativo para IA.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Startup de tecnologia auditiva Legato lança seus óculos auditivos com IA",
+      "links": [
+        "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-lunches-its-ai-hearing-glasses/"
+      ],
+      "summary": "A Legato lançou óculos auditivos com IA, visando reduzir custo, aumentar conforto e diminuir o estigma associado a aparelhos auditivos tradicionais.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Satlyt, fundada por ex-gerente de produto do Google e SpaceX, arrecada US$ 8 milhões para executar IA em satélites",
+      "links": [
+        "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/"
+      ],
+      "summary": "A Satlyt arrecadou US$ 8 milhões para desenvolver IA em satélites. A empresa busca ser uma plataforma de software aberto para computação orbital, contrastando com a abordagem fechada da SpaceX.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Novo recurso Guided Vision do Google pode ajudar a ler letras miúdas",
+      "links": [
+        "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision"
+      ],
+      "summary": "O Gemini Live, em Androids compatíveis, oferece descrições de áudio em tempo real. O recurso descreve o que o usuário aponta com a câmera.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Juiz rejeita ações antitruste contra o AI Overviews do Google",
+      "links": [
+        "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed"
+      ],
+      "summary": "O juiz Amit Mehta rejeitou as ações judiciais da Chegg e Penske. As ações visavam o AI Overviews do Google.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Novo agente da OpenAI mira na Meta, mas pode competir com o gratuito?",
+      "links": [
+        "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle"
+      ],
+      "summary": "Uma recapitulação do DevDay compara Dots e Muse. Dots é pago e alimentado por Astra, enquanto Muse é gratuito.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Investigação sobre o fiasco do data center de IA de Kevin O’Leary em Utah",
+      "links": [
+        "https://www.theverge.com/podcast/1002851/utah-ai-data-center-stratos-kevin-oleary-investigation-backlash"
+      ],
+      "summary": "O podcast Decoder, com Josh Dzieza, investiga o campus de IA de 40.000 acres planejado por Kevin O'Leary em Utah. O projeto demandaria cerca de 9 GW, mais que o dobro do consumo médio de energia do estado.",
+      "authors": [
+        "Josh Dzieza"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Juiz rejeita ações antitruste da Chegg e Penske contra a busca de IA do Google",
+      "links": [
+        "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/"
+      ],
+      "summary": "Um juiz federal rejeitou as ações antitruste da Chegg e Penske contra a busca de IA do Google. O tribunal decidiu que, embora a busca de IA tenha consequências, não configura uma questão antitruste.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Com a maioria das informações ocultas, o jogo Stratego havia parado a IA, até agora",
+      "links": [
+        "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/"
+      ],
+      "summary": "A IA finalmente superou o melhor jogador de Stratego da história. Uma segunda rede neural, que adivinha peças ocultas, foi fundamental para o sucesso.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Quase metade dos testados confundiu avatar de vídeo de IA da Tavus com uma pessoa real em chamada de um minuto",
+      "links": [
+        "https://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call/"
+      ],
+      "summary": "O modelo de interação humana Griffin revelou que 48% dos participantes confundiram o avatar de vídeo de IA da Tavus com uma pessoa real. Isso ocorreu após apenas um minuto de chamada.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Ideogram afirma que seu novo modelo pode editar parte de uma imagem sem alterar o restante",
+      "links": [
+        "https://the-decoder.com/ideogram-says-its-new-model-can-edit-part-of-an-image-without-messing-up-the-rest/"
+      ],
+      "summary": "O Ideogram 4.5 oferece edição nativa em 2K a partir de 0,8¢ por imagem. Runway, Pika e Leonardo já utilizam o modelo, e pesos abertos foram prometidos.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Anthropic leva Claude para agências civis enquanto disputa com o Pentágono continua",
+      "links": [
+        "https://the-decoder.com/anthropic-brings-claude-to-civilian-agencies-as-its-fight-with-the-pentagon-drags-on/"
+      ],
+      "summary": "A Anthropic oferece o Claude for Government para agências civis, com certificação FedRAMP High e limites de gastos por departamento. O Pentágono ainda considera a Anthropic um risco na cadeia de suprimentos.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Startup de segurança encontra mais de 13.000 capturas de tela internas de empresas que agentes de IA carregaram publicamente",
+      "links": [
+        "https://the-decoder.com/security-startup-finds-more-than-13000-internal-company-screenshots-that-ai-agents-uploaded-publicly/"
+      ],
+      "summary": "Uma startup de segurança descobriu mais de 13.000 capturas de tela internas de 343 organizações, incluindo empresas da Fortune 500. Agentes de IA as publicaram no GitHub devido à falta de um caminho de upload protegido, expondo dados de clientes, credenciais e detalhes de produtos não lançados.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "IA vence o maior jogador de Stratego, encerrando um dos últimos redutos humanos em jogos de tabuleiro",
+      "links": [
+        "https://the-decoder.com/ai-beats-strategos-greatest-player-ending-one-of-the-last-human-strongholds-in-board-games/"
+      ],
+      "summary": "O Ataraxos, desenvolvido por CMU, NYU, Stanford e MIT, derrotou o melhor jogador de Stratego de todos os tempos por menos de US$ 8.000. A DeepMind falhou em 2023 com um orçamento multimilionário.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "OpenAI afirma ter parado campanha para roubar raciocínio de seus modelos, mas truque ainda funcionou no Azure",
+      "links": [
+        "https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/"
+      ],
+      "summary": "A OpenAI declarou ter interrompido uma campanha para roubar o raciocínio de seus modelos. No entanto, o ataque continuou funcionando no Azure por semanas, inclusive contra o GPT-6 Astra.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "O Ponto e o Enxame",
+      "links": [
+        "https://www.oneusefulthing.org/p/the-dot-and-the-swarm"
+      ],
+      "summary": "O artigo discute os benefícios da \"Lição Amarga\".",
+      "authors": [
+        "Ethan Mollick"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Traços de Memória de Cauda Pesada em Agentes de Linguagem de Longo Horizonte",
+      "links": [
+        "https://arxiv.org/abs/2610.00010"
+      ],
+      "published_at": "2026-07-09",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Quando Modelos de Mundo Causais Ajudam Agentes LLM Modulares",
+      "links": [
+        "https://arxiv.org/abs/2610.00012"
+      ],
+      "published_at": "2026-07-12",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Da Proposta ao Efeito Verificado: Praxa, um Arnês Baseado em Evidências para Execução Governada de Agentes de IA",
+      "links": [
+        "https://arxiv.org/abs/2610.00015"
+      ],
+      "published_at": "2026-07-27",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Medindo a Lacuna de Elegibilidade para Microtarefas: Quando um SLM Pronto para Uso é Suficiente para um Arnês de Agente?",
+      "links": [
+        "https://arxiv.org/abs/2610.00025"
+      ],
+      "published_at": "2026-09-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "O Que um Agente Deve Lembrar? Desvinculando Retenção de Recuperação na Avaliação de Memória Limitada",
+      "links": [
+        "https://arxiv.org/abs/2610.00366"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Quando os Arneses Perdem o Sinal: Avaliação Causal da Recuperação em Agentes LLM",
+      "links": [
+        "https://arxiv.org/abs/2610.00372"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "JevSpawn: Inferência Agêntica Adaptativa Através de Espaços de Ação Composicionais",
+      "links": [
+        "https://arxiv.org/abs/2610.00437"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Antes que os Agentes Decidam: Ação Epistêmica em Sistemas Baseados em LLM",
+      "links": [
+        "https://arxiv.org/abs/2610.00511"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Pior Juntos: Como o Desempenho se Degrada em Equipes Multi-Usuário Multi-Agente",
+      "links": [
+        "https://arxiv.org/abs/2610.00583"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Legal Research Bench: Medindo a Confiabilidade Ponta a Ponta em Agentes de Pesquisa Jurídica de Longo Horizonte",
+      "links": [
+        "https://arxiv.org/abs/2610.00609"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Incident-Arena: Levando agentes aos últimos noves de confiabilidade",
+      "links": [
+        "https://arxiv.org/abs/2610.00648"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Confiabilidade da Avaliação de Agentes: Mais Tarefas Não (Sempre) Consertarão um Ranking de Agentes",
+      "links": [
+        "https://arxiv.org/abs/2610.00651"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Contenção de Backdoor via Quarentena e Desligamento de Especialistas em LLMs",
+      "links": [
+        "https://arxiv.org/abs/2610.00663"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "ReLiveGym: Avaliando Agentes de Longa Duração ao Longo de Semanas de Realidade Replicada",
+      "links": [
+        "https://arxiv.org/abs/2610.00710"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "ActiveSaddler: Aprendizagem Curricular Automatizada para Otimização de Arnês de Agente",
+      "links": [
+        "https://arxiv.org/abs/2610.00906"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "VeriHarness: Escalando a Verificação Agêntica para Tarefas de Longo Horizonte",
+      "links": [
+        "https://arxiv.org/abs/2610.00972"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Compromissos Vazios: Quando Agentes Prometem o Que Seu Tempo de Execução Não Pode Entregar",
+      "links": [
+        "https://arxiv.org/abs/2610.01045"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Mingbird: Um Arnês de Agente Local-First Que Permite a Pequenos Modelos Abertos Completar Tarefas Reais",
+      "links": [
+        "https://arxiv.org/abs/2610.02001"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Ciência ou Desleixo?: Avaliando e Mitigando o Desleixo Científico em Artigos Gerados por IA",
+      "links": [
+        "https://arxiv.org/abs/2610.00531"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "VISTA: Um Arnês Visual para Raciocínio em um Mundo Interativo",
+      "links": [
+        "https://arxiv.org/abs/2610.02200"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "EHR2Trace: Infraestrutura de Dados EHR Auditável para Modelos de Mundo de Pacientes e Agentes Clínicos",
+      "links": [
+        "https://arxiv.org/abs/2609.38193"
+      ],
+      "published_at": "2026-09-18",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Hermes: Aprendizagem de Raciocínio Contextual Desbloqueia Escala em Tempo de Teste",
+      "links": [
+        "https://arxiv.org/abs/2609.38332"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "MILO: Descoberta Automatizada de Arnês via Evolução Multi-Agente Orquestrada",
+      "links": [
+        "https://arxiv.org/abs/2609.38349"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Sobre o Professor Off-Policy na Destilação On-Policy",
+      "links": [
+        "https://arxiv.org/abs/2609.38360"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Alinhamento via Treinamento Contra Probes Sem Perder a Monitorabilidade",
+      "links": [
+        "https://arxiv.org/abs/2609.38645"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Diversidade Explícita de Trajetória para Pós-Treinamento Baseado em RL de Agentes LLM",
+      "links": [
+        "https://arxiv.org/abs/2609.38805"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "SparLeak: Vazamento de Privacidade da Atenção Esparsa na Inferência de LLM em GPUs Compartilhadas",
+      "links": [
+        "https://arxiv.org/abs/2609.38830"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Pontuando Mais Alto, Respondendo Pior: Mitigando o Hacking de Recompensa em RL Baseado em Rubrica via Rubricas de Nível de Protocolo",
+      "links": [
+        "https://arxiv.org/abs/2609.38847"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Desaprendendo Comportamentos Enganosos em LLMs com Conjuntos de Esquecimento Contrastivos",
+      "links": [
+        "https://arxiv.org/abs/2609.38909"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "ReSAIL: Mitigando o Colapso na Auto-Destilação Iterativa de Agentes",
+      "links": [
+        "https://arxiv.org/abs/2609.39306"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Quando a Resposta Certa Está Faltando: Um Gargalo de Rejeição Dependente de Aritmética em Jev",
+      "links": [
+        "https://arxiv.org/abs/2609.39496"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Aprendendo Agentes GUI Confiáveis sob Priores Imperfeitos",
+      "links": [
+        "https://arxiv.org/abs/2609.39547"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Desaprendizagem Preemptiva de LLM Contra Aquisição de Capacidade Proibida via Selagem de Gradiente",
+      "links": [
+        "https://arxiv.org/abs/2609.39866"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "O Que Limita Modelos de Raciocínio Recursivo: Otimização, Arquitetura e Escala em Tempo de Teste",
+      "links": [
+        "https://arxiv.org/abs/2609.39967"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "PhantomEnvironments: Treinando Agentes LLM em Mundos Fictícios",
+      "links": [
+        "https://arxiv.org/abs/2609.40221"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "cua-speedrun: Benchmarking Padronizado da Velocidade de Agentes de Uso de Computador",
+      "links": [
+        "https://arxiv.org/abs/2609.40284"
+      ],
+      "published_at": "2026-09-30",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Alucinações de IA pioram clientes exigentes",
+      "links": [
+        "https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents"
+      ],
+      "summary": "Funcionários de atendimento relatam que clientes citam fatos inventados por IA, como alergias. A equipe precisa desmentir essas informações pessoalmente.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Se um data center for camuflado na floresta, alguém o odiará?",
+      "links": [
+        "https://www.theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry"
+      ],
+      "summary": "A Microsoft testa biomimetismo e camuflagem para data centers de IA em larga escala. Isso ocorre devido à crescente oposição local.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Amazon publica blog assustador alertando comunidades para não bloquearem data centers",
+      "links": [
+        "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning"
+      ],
+      "summary": "O CEO da AWS, Matt Garman, alertou em um blog que se opor a projetos de data centers de IA pode causar danos irreparáveis à economia e segurança nacional dos EUA. Ele refuta preocupações sobre empregos e consumo de energia.",
+      "authors": [
+        "Matt Garman"
+      ],
+      "published_at": "2026-10-02",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Criador de música com IA Suno agora gera palavras faladas",
+      "links": [
+        "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability"
+      ],
+      "summary": "O recurso de fala do Suno está em beta público para web e celular. Ele gera vozes faladas a partir de roteiros ou descrições, incluindo narrações com música de fundo.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Não se engane, LLMs não raciocinam",
+      "links": [
+        "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/"
+      ],
+      "summary": "Thore Graepel, da AlphaGo, argumenta que LLMs atuais não possuem raciocínio. Ele compara o movimento 37 do AlphaGo à busca em uma árvore de jogo, não à intuição.",
+      "authors": [
+        "Thore Graepel"
+      ],
+      "published_at": "2026-10-02",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Três demissões e uma quarta saída abalam a equipe de segurança da OpenAI",
+      "links": [
+        "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team/"
+      ],
+      "summary": "O Wall Street Journal relata que três pesquisadores da OpenAI foram demitidos por supostamente vazar informações confidenciais. Uma quarta pessoa também deixou a equipe de segurança.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "IA supera contadores licenciados em velocidade e precisão, mas ainda não fecha livros sem supervisão",
+      "links": [
+        "https://the-decoder.com/ai-beats-licensed-accountants-on-speed-and-accuracy-but-still-cant-close-the-books-without-supervision/"
+      ],
+      "summary": "Modelos de IA superam contadores licenciados em tarefas estruturadas, segundo a Mercor. No entanto, nenhum modelo consegue concluir todas as tarefas do APEX sem intervenção humana.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Microsoft AI lança novos modelos de transcrição e texto para fala para agentes de voz",
+      "links": [
+        "https://the-decoder.com/microsoft-ai-releases-new-transcription-and-text-to-speech-models-for-voice-agents/"
+      ],
+      "summary": "A Microsoft AI lançou o MAI-Transcribe-2-Streaming para transcrição em tempo real. Novos modelos de texto para fala também foram disponibilizados para agentes de voz.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Empresas usam mais IA e pagam menos por ela, mostra Índice Ramp AI",
+      "links": [
+        "https://the-decoder.com/businesses-are-using-more-ai-and-paying-less-for-it-ramp-ai-index-shows/"
+      ],
+      "summary": "O economista da Ramp, Ara Kharazian, indica que empresas americanas gastam menos com IA. Isso ocorre mesmo com o aumento do uso da tecnologia.",
+      "authors": [
+        "Ara Kharazian"
+      ],
+      "published_at": "2026-10-02",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Black Forest Labs lança Flux 3 Image com edição multi-etapas que preserva o restante da imagem",
+      "links": [
+        "https://the-decoder.com/black-forest-labs-lunches-flux-3-image-with-multi-step-editing-that-leaves-the-rest-of-your-picture-alone/"
+      ],
+      "summary": "O Flux 3 Image da Black Forest Labs oferece edições locais multi-etapas e composição por caixa delimitadora. Ele suporta até dez imagens de referência e resolução de até 4K.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-01"
+    },
     {
       "title": "OpenAI interrompe campanha coordenada de destilação de modelos",
       "links": [
