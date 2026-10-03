@@ -1,8 +1,102 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-02 16:18 UTC",
+  "updated_at": "2026-10-03 14:45 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Imposto de Afiação no Pós-Treinamento",
+      "links": [
+        "https://arxiv.org/abs/2610.01509"
+      ],
+      "summary": "O pós-treinamento em modelos de RL para tarefas agênticas pode reduzir a cobertura, empurrando itens para serem sempre resolvidos ou nunca resolvidos, mesmo que melhore a consistência. O \"Sharpening Tax\" mede essa perda, mostrando que modelos base com um \"harness\" leve podem superar versões pós-treinadas em pass@K, apesar de perderem em pass@1.",
+      "authors": [
+        "Changdae Oh",
+        "Qi Zeng",
+        "Qi Qi",
+        "Andrey Zhmoginov",
+        "Deren Lei",
+        "Yun He",
+        "Hoang Phan",
+        "Hangoo Kang",
+        "Azalia Mirhoseini",
+        "Sharon Li"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Mesma Recompensa, Habilidades Diferentes: Quando RL Multimodal Aprende a Olhar",
+      "links": [
+        "https://arxiv.org/abs/2610.01908"
+      ],
+      "summary": "Modelos de RL multimodal podem melhorar pontuações de visão-linguagem mesmo sem ver imagens durante o treinamento, recuperando ganhos significativos em tempo de teste. No entanto, se a recompensa puder ser manipulada apenas por texto, o RL multimodal não aprenderá a interpretar visualmente.",
+      "authors": [
+        "Haocun Ye",
+        "Xinlong Jiang",
+        "Qile Chen",
+        "Bingyu Wang",
+        "Teng Zhang",
+        "Shubai Chen",
+        "Tingyu Wu",
+        "Zhenkun Zheng",
+        "Yiqiang Chen"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Transferência Entre Benchmarks de RL em Tarefas de Codificação Agêntica",
+      "links": [
+        "https://arxiv.org/abs/2610.00890"
+      ],
+      "summary": "Falhas de codificação em tarefas agênticas são um problema de treinamento, não apenas de prompt. Um único \"epoch\" de GSPO em um modelo Kimi K2.7 Code, usando 1.700 tarefas especializadas, melhora o pass@1 em seis benchmarks externos e três \"harnesses\", demonstrando que o RL para codificação agêntica pode ser transferido, inclusive para \"harnesses\" não vistos.",
+      "authors": [
+        "Sushant Mehta",
+        "Logan Ritchie",
+        "Edwin Chen"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Reconstruir, Praticar, Ir para o Real: Autoaperfeiçoamento Guiado para Agentes Incorporados",
+      "links": [
+        "https://arxiv.org/abs/2610.02204"
+      ],
+      "summary": "O método RPG aprimora sistemas de execução de robôs sem alterar seus pesos, minerando habilidades de um conjunto offline e criando tarefas de prática em simulação. Ele diagnostica falhas para escrever novas habilidades simbólicas e reescrever o prompt do sistema, elevando a taxa de sucesso em manipulações de 28,6% para 95,0%.",
+      "authors": [
+        "Yen-Jen Wang",
+        "Haozhe Jiang",
+        "Shuying Deng",
+        "Haoru Xue",
+        "Weirui Ye",
+        "Rocky Duan",
+        "Nika Haghtalab",
+        "S. Shankar Sastry",
+        "Pieter Abbeel",
+        "Haozhi Qi"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "GUI-HARVEST: Agentes GUI de Autoaperfeiçoamento Através da Evolução de Harnesses Orientada por Evidências",
+      "links": [
+        "https://arxiv.org/abs/2610.00948"
+      ],
+      "summary": "GUI-HARVEST automatiza o aprimoramento de agentes GUI com um \"backbone\" fixo, transformando falhas recorrentes em edições de código-fonte verificadas. Isso resulta em ganhos significativos de desempenho, como um aumento de 12,33 pontos no OSWorld-Verified para Qwen3-VL-32B-Instruct, e a transferência do \"harness\" para outros modelos.",
+      "authors": [
+        "Geyi Yang",
+        "Zikun Qu",
+        "Xiang Li",
+        "Zhiyong Wang",
+        "Min Zhang",
+        "Shipei Zeng",
+        "Zhongxiang Dai"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-02"
+    },
     {
       "title": "VISTA: Um Arnês Visual para Raciocínio em um Mundo Interativo",
       "links": [

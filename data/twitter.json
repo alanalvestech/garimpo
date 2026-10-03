@@ -1,8 +1,145 @@
 {
   "category": "Twitter",
-  "updated_at": "2026-10-02 16:18 UTC",
+  "updated_at": "2026-10-03 14:45 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "HBM personalizado da Nvidia libera área de die para computação.",
+      "links": [
+        "https://x.com/SemiAnalysis_/status/2106217837643575607"
+      ],
+      "summary": "SemiAnalysis estima que os controladores e PHYs HBM ocupam cerca de 16% da área do die da GPU Rubin, caindo para 4% no Feynman com NVHBM. Isso ocorre porque o controlador de memória se move para o die base HBM e o PHY padrão é substituído pelo link die-to-die NV-HBI da Nvidia.",
+      "authors": [
+        "SemiAnalysis"
+      ],
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Pontuações do ExploitBench dependem fortemente do harness.",
+      "links": [
+        "https://x.com/teortaxesTex/status/2106195529717714964"
+      ],
+      "summary": "Novos resultados da Generality Labs mostram que o mesmo modelo pontua de forma muito diferente em vários harnesses no ExploitBench. Com computação suficiente em tempo de teste, o GLM-5.3 Flash superou as pontuações do Mythos Preview no ExploitBench.",
+      "authors": [
+        "Generality Labs",
+        "@teortaxesTex"
+      ],
+      "date": "2026-10-02"
+    },
+    {
+      "title": "xAI lança um SDK experimental em TypeScript.",
+      "links": [
+        "https://x.com/RayFernando1337/status/2106202423492829467"
+      ],
+      "summary": "A xAI lançou um SDK experimental em TypeScript, cobrindo geração de texto, voz, imagem e vídeo. O SDK foi anunciado por @ericzakariasson e é rotulado como experimental.",
+      "authors": [
+        "@ericzakariasson"
+      ],
+      "date": "2026-10-02"
+    },
+    {
+      "title": "TSMC estaria em negociações para se juntar à Terafab de Musk.",
+      "links": [
+        "https://x.com/jukan05/status/2106149596418470138"
+      ],
+      "summary": "A Culpium relata que a TSMC está buscando participar da Terafab de Musk, com rumores de expansão da TSMC no Texas ligados a isso. @jukan05 espera um arranjo de dupla fonte em vez de a Intel sair.",
+      "authors": [
+        "Culpium",
+        "@jukan05"
+      ],
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Alegações virais de 'nerfing de modelo' em benchmarks estão sendo contestadas.",
+      "links": [
+        "https://x.com/theo/status/2106198821571272999"
+      ],
+      "summary": "@theo contesta as alegações de 'nerfing de modelo' da BridgeMind, afirmando que o nerfbench não documenta como seus testes funcionam. Ele ofereceu $10.000 para um benchmarking independente.",
+      "authors": [
+        "@theo",
+        "BridgeMind"
+      ],
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Valor de US$ 16,8 bilhões para mega-fab no Texas é de postagem não verificada.",
+      "links": [
+        "https://x.com/TechieUltimatum/status/2106240452496334953"
+      ],
+      "summary": "O valor de US$ 16,8 bilhões para uma mega-fab no Texas, associado ao relatório TSMC, Terafab, provém de uma postagem de agregador sem fonte. Este número não aparece na reportagem da Culpium.",
+      "authors": [
+        "@TechieUltimatum"
+      ],
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Musk confirma negociações entre TSMC e Terafab, mas as descreve como 'apenas discussões'.",
+      "links": [
+        "https://x.com/elonmusk/status/2106290920605790717"
+      ],
+      "summary": "Elon Musk confirmou as negociações entre TSMC e Terafab, mas as descreveu como 'apenas discussões'. Esta é a primeira declaração de uma das partes desde o relatório da Culpium.",
+      "authors": [
+        "Elon Musk"
+      ],
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Opus 5.5 ultrapassa 50% do tráfego do T3 Code.",
+      "links": [
+        "https://x.com/theo/status/2106338494721536238"
+      ],
+      "summary": "@theo relata que o Opus 5.5 é o primeiro modelo a processar mais da metade de todos os prompts no cliente de codificação multi-modelo T3 Code. Estes são números de uso internos do T3 Code, de uma base de usuários desenvolvedores auto-selecionada.",
+      "authors": [
+        "@theo"
+      ],
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Perplexity planeja executar Perplexity Computer em CPUs Nvidia Vera.",
+      "links": [
+        "https://x.com/AravSrinivas/status/2106313275797352674"
+      ],
+      "summary": "@AravSrinivas afirma que a Perplexity pretende rodar o Perplexity Computer em CPUs Nvidia Vera para otimizar seus sandboxes de agente. A implementação está começando, sem benchmarks ou datas divulgadas.",
+      "authors": [
+        "@AravSrinivas"
+      ],
+      "date": "2026-10-02"
+    },
+    {
+      "title": "SpaceXAI estaria considerando um pacote 'Ultra' de US$ 100/mês.",
+      "links": [
+        "https://x.com/mark_k/status/2106291603623006325"
+      ],
+      "summary": "A SpaceXAI estaria considerando um pacote 'Ultra' de US$ 100/mês que incluiria 𝕏, Grok, Cursor e Grok Bot, segundo a Bloomberg. Preços e benefícios ainda não foram anunciados.",
+      "authors": [
+        "@mark_k"
+      ],
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Meta está desenvolvendo um 'Agent Engine' para sua plataforma API, codinome 'Forge'.",
+      "links": [
+        "https://x.com/testingcatalog/status/2106336861794812221"
+      ],
+      "summary": "Um achado do TestingCatalog indica que a Meta está construindo um 'Agent Engine' para sua Meta API Platform, com o codinome 'Forge'. A funcionalidade exata ainda não está clara.",
+      "authors": [
+        "@testingcatalog"
+      ],
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Rumores de 'grande modelo OpenAI na próxima semana' são baseados em resposta jocosa.",
+      "links": [
+        "https://x.com/thsottiaux/status/2106257453679808676",
+        "https://x.com/kimmonismus/status/2106324463054626846"
+      ],
+      "summary": "A conversa sobre um 'grande modelo OpenAI na próxima semana' se originou de uma resposta jocosa de @thsottiaux da OpenAI. Isso aponta para algum lançamento, não necessariamente um modelo de fronteira, e os nomes dos modelos são apenas suposições.",
+      "authors": [
+        "@thsottiaux",
+        "@kimmonismus"
+      ],
+      "date": "2026-10-02"
+    },
     {
       "title": "Modelos de decisão se tornam de peso aberto e quase gratuitos: Perplexity lança pplx-decider-27b e uma API de Decisões por US$ 0,04/M um dia após o Clef da Cloudflare",
       "links": [

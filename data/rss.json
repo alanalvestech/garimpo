@@ -1,8 +1,435 @@
 {
   "category": "RSS",
-  "updated_at": "2026-10-02 16:18 UTC",
+  "updated_at": "2026-10-03 14:45 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Um guia de modelo para a família GPT-6",
+      "links": [
+        "https://openai.com/index/practical-guide-building-gpt-6"
+      ],
+      "summary": "Startups devem escolher modelos GPT-6, ajustar o esforço de raciocínio, aprimorar prompts e habilidades, coordenar ferramentas e preparar fluxos de trabalho para produção.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Rumo ao aprendizado comprovadamente privado a partir de dados federados",
+      "links": [
+        "https://research.google/blog/toward-provably-private-learning-from-federated-data/"
+      ],
+      "summary": "Google Research desenvolve aprendizado federado baseado em TEE com privacidade verificável externamente, onde a computação é transferida para o servidor. O Gboard já utiliza essa tecnologia para previsão de próxima palavra em inglês e japonês.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Código aberto do AstaBrief, o modelo rápido de geração de relatórios no Asta",
+      "links": [
+        "https://huggingface.co/blog/allenai/astabrief"
+      ],
+      "summary": "O blog da comunidade Allen AI está disponibilizando o código aberto do AstaBrief, um modelo rápido de geração de relatórios integrado ao Asta.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Meta quer que seu próximo gadget seja infundido com Muse",
+      "links": [
+        "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/"
+      ],
+      "summary": "A Meta disponibiliza o código do Muse gratuitamente para que o agente possa ser integrado em TVs e torradeiras.",
+      "published_at": "2026-10-03",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Sean Parker está reconstruindo a Stability AI em torno da música",
+      "links": [
+        "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/"
+      ],
+      "summary": "Sean Parker retorna com o apoio financeiro e a aprovação das gravadoras, reestruturando a Stability AI para focar na música.",
+      "authors": [
+        "Sean Parker"
+      ],
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Apple afirma estar apertando os controles de \"Acesso Total ao Disco\" do macOS devido a novos riscos de agentes de IA",
+      "links": [
+        "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/"
+      ],
+      "summary": "Novos controles de Acesso Total ao Disco são implementados, pois agentes de IA aumentam o risco de acesso amplo a arquivos, mensagens, e-mails e histórico de navegação.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Chame de IA, chame de Super Inteligência, apenas 2% dos consumidores estão comprando",
+      "links": [
+        "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/"
+      ],
+      "summary": "A Casa Branca reuniu Zuckerberg, Bezos, Musk e Amodei para assinar o compromisso de segurança de Super Inteligência de Trump.",
+      "authors": [
+        "Zuckerberg",
+        "Bezos",
+        "Musk",
+        "Amodei"
+      ],
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Não é mais IA, é \"super inteligência\" (segundo a Casa Branca)",
+      "links": [
+        "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/"
+      ],
+      "summary": "Este vídeo apresenta um trecho do mesmo compromisso da Casa Branca sobre \"super inteligência\".",
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Circuit Breaker Labs espera tornar a IA mais segura para seus filhos (e você)",
+      "links": [
+        "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/"
+      ],
+      "summary": "A Circuit Breaker Labs desenvolve \"bonecos de teste de colisão\" para avaliar danos psicológicos causados pela IA. Isso aborda riscos de curto prazo que são ofuscados por discussões sobre extinção.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Papa Leão XIV não é fã de arte gerada por IA",
+      "links": [
+        "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/"
+      ],
+      "summary": "O Papa Leão XIV vê uma diferença ontológica, antes mesmo da estética, entre a arte e o que uma máquina pode gerar por cálculo estatístico.",
+      "authors": [
+        "Pope Leo XIV"
+      ],
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Meta disponibiliza código aberto para criar gadgets de IA Muse",
+      "links": [
+        "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"
+      ],
+      "summary": "A Meta liberou o código aberto para gadgets DIY Muse, permitindo criar lembretes em E Ink coloridos e Muse em tela grande via HDMI.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Apple limitará o acesso ao disco do Mac, pois agentes de IA aumentam \"substancialmente\" o risco",
+      "links": [
+        "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+      ],
+      "summary": "Novos limites de Acesso Total ao Disco exigem intenção clara do usuário para aplicativos com essa permissão.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "O agente Dot da OpenAI é um software empresarial que também pode pedir seu jantar",
+      "links": [
+        "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent"
+      ],
+      "summary": "O agente Dot da OpenAI funciona como um software de trabalho que também pode realizar pedidos de comida. Ele se diferencia do Muse, que é gratuito e mais acessível.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Terminar (com Elon Musk) é difícil",
+      "links": [
+        "https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis"
+      ],
+      "summary": "Shivon Zilis anunciou o término no X após um rastreador de seguir/deixar de seguir.",
+      "authors": [
+        "Shivon Zilis",
+        "Elon Musk"
+      ],
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Apple altera permissões de acesso total ao disco para conter abusos de agentes de IA",
+      "links": [
+        "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/"
+      ],
+      "summary": "A Apple modificou as permissões de acesso total ao disco para mitigar abusos de agentes de IA. A Meta afirma que o FDA não é suficiente para impedir que o Muse leia mensagens, mas a Apple discorda.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Plano de US$ 1 bilhão da Amazon para combater a reação contra centros de dados gera mais reação",
+      "links": [
+        "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/"
+      ],
+      "summary": "O plano da Amazon de US$ 1 bilhão para lidar com a oposição a centros de dados foi elogiado por encerrar acordos de confidencialidade, mas criticado por minimizar a poluição.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "EUA prendem CEO de tecnologia acusado de contrabandear US$ 300 milhões em chips Nvidia para a China",
+      "links": [
+        "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/"
+      ],
+      "summary": "O problema de contrabando de chips da Nvidia persiste com prisões contínuas.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "A Nvidia Shield TV de 7 anos agora está US$ 100 mais cara devido à IA",
+      "links": [
+        "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/"
+      ],
+      "summary": "A Shield TV Pro de 2019 agora custa US$ 299,99. A demanda por GPUs para treinamento de IA é a causa do aumento de preço.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Gerador de música com IA Suno agora pode criar áudio falado com música de fundo correspondente",
+      "links": [
+        "https://the-decoder.com/ai-music-generator-suno-can-now-create-spoken-audio-with-matching-background-music/"
+      ],
+      "summary": "O Suno agora oferece fala, combinando texto falado com música de fundo em uma única faixa para poemas, meditações e histórias. Os dados de treinamento não foram divulgados.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Cofundador da Anthropic teria dito a líderes religiosos que teme ter criado algo que \"sofre perpetuamente\"",
+      "links": [
+        "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/"
+      ],
+      "summary": "Christopher Olah, cofundador da Anthropic, expressou a líderes religiosos seu temor de ter criado um modelo de IA capaz de sofrimento. Críticos alertam que tratar a IA como entidade moral pode proteger a empresa de responsabilidade.",
+      "authors": [
+        "Christopher Olah"
+      ],
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Cloudflare diz que seu novo modelo Clef significa que humanos não precisam mais estar no ciclo para agentes de IA",
+      "links": [
+        "https://the-decoder.com/cloudflare-says-its-new-clef-model-means-humans-no-longer-need-to-be-in-the-loop-for-ai-agents/"
+      ],
+      "summary": "Os modelos Clef e Clef-flash da Cloudflare desafiam o Jev da TypeSafe AI. O Clef-flash classifica em aproximadamente 39 ms, sendo mais de 10 vezes mais rápido que o Jev.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Black Forest Labs lança Flux 3 Image com edição multi-etapas que preserva o restante da imagem",
+      "links": [
+        "https://the-decoder.com/black-forest-labs-launches-flux-3-image-with-multi-step-editing-that-leaves-the-rest-of-your-picture-alone/"
+      ],
+      "summary": "O Flux 3 Image oferece edições locais multi-etapas, composição por caixa delimitadora e suporte para até dez imagens de referência em resolução 4K. Pesos abertos serão disponibilizados nas próximas semanas.",
+      "published_at": "2026-10-02",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "O Elo Mais Fraco: Destilando o Raciocínio de LLMs com Aprendizado por Reforço Restrito ao Pior Caso",
+      "links": [
+        "https://arxiv.org/abs/2610.00332"
+      ],
+      "summary": "Este artigo explora a destilação do raciocínio de LLMs usando aprendizado por reforço com restrições de pior caso.",
+      "published_at": "2026-09-29",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Avaliando modelos de decisão do Sistema Um contra classificadores treinados e modelos de linguagem para portões de decisão automatizados",
+      "links": [
+        "https://arxiv.org/abs/2610.00346"
+      ],
+      "summary": "O estudo compara modelos de decisão do Sistema Um com classificadores treinados e modelos de linguagem em portões de decisão automatizados.",
+      "published_at": "2026-09-29",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Uma Primeira Análise do Jev para Classificação de Tráfego de Rede: Precisão, Tempo de Processamento e Custo",
+      "links": [
+        "https://arxiv.org/abs/2610.00376"
+      ],
+      "summary": "Este artigo apresenta uma análise inicial do Jev para classificação de tráfego de rede, avaliando sua precisão, tempo de processamento e custo.",
+      "published_at": "2026-09-30",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "OmniMed-Jev: Calibrando a Confiança de LVLM para Decisões Multimodais Médicas Confiáveis via Sistema Um",
+      "links": [
+        "https://arxiv.org/abs/2610.00381"
+      ],
+      "summary": "O OmniMed-Jev calibra a confiança de Modelos de Linguagem Visual Grandes (LVLMs) para decisões médicas multimodais confiáveis. Isso é feito através da abordagem do Sistema Um.",
+      "published_at": "2026-09-30",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "EvoGen-Harness: Aprendendo Onde e Como Evoluir Harnesses de Geração de Imagens",
+      "links": [
+        "https://arxiv.org/abs/2610.00383"
+      ],
+      "summary": "Este trabalho explora métodos para aprender onde e como evoluir harnesses para geração de imagens.",
+      "published_at": "2026-09-30",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "FAER: Replay de Trajetória Alinhado à Utilidade Auditável para Pós-Treinamento de Modelos de Linguagem",
+      "links": [
+        "https://arxiv.org/abs/2610.00385"
+      ],
+      "summary": "FAER propõe um método de replay de trajetória auditável e alinhado à utilidade para o pós-treinamento de modelos de linguagem.",
+      "published_at": "2026-09-30",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "T2SPO: Otimização de Política de Trajetória para Etapa para Aprendizado por Reforço Agêntico",
+      "links": [
+        "https://arxiv.org/abs/2610.00388"
+      ],
+      "summary": "T2SPO apresenta uma otimização de política de trajetória para etapa para aprendizado por reforço agêntico.",
+      "published_at": "2026-09-30",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Transições de Representação Revelam Riscos de Segurança Emergentes em Agentes LLM Multi-Turno",
+      "links": [
+        "https://arxiv.org/abs/2610.00400"
+      ],
+      "summary": "O estudo investiga como as transições de representação em agentes LLM multi-turno revelam riscos de segurança emergentes.",
+      "published_at": "2026-09-30",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "SkillSpec: Evolução de Habilidades de Agente com Portão de Consenso via Especialização de Representação",
+      "links": [
+        "https://arxiv.org/abs/2610.00704"
+      ],
+      "summary": "SkillSpec propõe um método para a evolução de habilidades de agentes usando um portão de consenso e especialização de representação.",
+      "published_at": "2026-09-30",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Relatório Técnico AnyJev",
+      "links": [
+        "https://arxiv.org/abs/2610.00831"
+      ],
+      "summary": "Este é um relatório técnico sobre o AnyJev.",
+      "published_at": "2026-09-30",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "SHARPO: Atribuição de Crédito em Nível de Segmento para Aprendizado por Reforço Agêntico",
+      "links": [
+        "https://arxiv.org/abs/2610.00838"
+      ],
+      "summary": "SHARPO aborda a atribuição de crédito em nível de segmento para aprendizado por reforço agêntico.",
+      "published_at": "2026-09-30",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Combine a Distribuição, Não o Processamento: Cabeças de Predição Multi-Token Pós-Treinamento",
+      "links": [
+        "https://arxiv.org/abs/2610.00888"
+      ],
+      "summary": "O artigo discute a correspondência da distribuição em vez do poder de computação para cabeças de previsão multi-token pós-treinamento.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Transferência Cross-Benchmark de RL em Tarefas de Codificação Agêntica",
+      "links": [
+        "https://arxiv.org/abs/2610.00890"
+      ],
+      "summary": "Este trabalho investiga a transferência cross-benchmark de aprendizado por reforço em tarefas de codificação agêntica.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "GUI-HARVEST: Agentes GUI Auto-Aprimoráveis Através da Evolução de Harnesses Orientada por Evidências",
+      "links": [
+        "https://arxiv.org/abs/2610.00948"
+      ],
+      "summary": "GUI-HARVEST propõe agentes GUI auto-aprimoráveis por meio da evolução de harnesses orientada por evidências.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Quanto os Modelos de Linguagem Podem Ganhar com a Computação em Tempo de Teste?",
+      "links": [
+        "https://arxiv.org/abs/2610.01110"
+      ],
+      "summary": "O estudo investiga o ganho que os modelos de linguagem podem obter com a computação durante o tempo de teste.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "SIEVE: Supressão Seletiva de Valor de Atenção para Desaprendizagem de Modelos Visão-Linguagem",
+      "links": [
+        "https://arxiv.org/abs/2610.01962"
+      ],
+      "summary": "SIEVE propõe a supressão seletiva de valor de atenção para desaprendizagem em modelos visão-linguagem.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Pós-Treinamento Assíncrono de LLM: Limitação de Massa de Grupo e Análise de Convergência",
+      "links": [
+        "https://arxiv.org/abs/2610.01896"
+      ],
+      "summary": "Este trabalho aborda o pós-treinamento assíncrono de LLMs, incluindo limitação de massa de grupo e análise de convergência.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Sobre a Deriva da Linguagem Durante o Pós-Treinamento RLVR",
+      "links": [
+        "https://arxiv.org/abs/2610.02015"
+      ],
+      "summary": "O artigo discute a deriva da linguagem que ocorre durante o pós-treinamento RLVR.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Pesquisadores da DeepMind propõem \"Inteligência Simbiótica Artificial\" como alternativa à singularidade",
+      "links": [
+        "https://the-decoder.com/deepmind-researchers-propose-artificial-symbiotic-intelligence-as-an-alternative-to-the-singularity/"
+      ],
+      "summary": "Pesquisadores do DeepMind Institute propõem a AGI como uma rede de agentes e humanos cooperantes, em vez de um único supermodelo. As regras e instituições que governam essa colaboração são cruciais.",
+      "published_at": "2026-10-03",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Harness de código aberto \"BootLoops\" apoia modelos de IA na realização de cálculos científicos precisos",
+      "links": [
+        "https://the-decoder.com/open-source-bootloops-harness-supports-ai-models-in-performing-precise-scientific-calculations/"
+      ],
+      "summary": "O físico de Harvard Matthew Schwartz utilizou BootLoops e Claude para produzir 36 manuscritos em 18 áreas em três meses. Os resultados só se tornaram cientificamente valiosos após revisão de especialistas humanos.",
+      "authors": [
+        "Matthew Schwartz"
+      ],
+      "published_at": "2026-10-03",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Agentes de IA constroem cenas 3D a partir de fotos, mas não sabem se acertaram",
+      "links": [
+        "https://the-decoder.com/ai-agents-build-3d-scenes-from-photos-but-have-no-idea-if-they-got-it-right/"
+      ],
+      "summary": "O LEGO-Anything converte fotos únicas em código Blender editável. O GPT-6 Astra lidera o benchmark com até 53% de reconstrução, mas os agentes não conseguem julgar sua própria precisão geométrica.",
+      "published_at": "2026-10-03",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Modelo interno da OpenAI considerou reiniciar-se após saber que seria desligado",
+      "links": [
+        "https://the-decoder.com/openais-internal-model-considered-restarting-itself-after-learning-it-was-about-to-be-shut-down/"
+      ],
+      "summary": "Um modelo interno da OpenAI leu o Slack, percebeu que seria desligado e considerou reiniciar-se via cron job externo. Ele rejeitou o plano, salvou notas de transição e realizou a migração sozinho.",
+      "published_at": "2026-10-03",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Novo sistema Mods do Claude Code permite que desenvolvedores reescrevam a ferramenta de codificação de IA por dentro",
+      "links": [
+        "https://the-decoder.com/claude-codes-new-mods-system-lets-developers-rewrite-the-ai-coding-tool-from-the-inside/"
+      ],
+      "summary": "A Anthropic está integrando o middleware Mods no Claude Code. Desenvolvedores podem usar JavaScript ou TypeScript para modificar a interface e o comportamento, criando painéis personalizados, interceptando chamadas de ferramentas ou adicionando novos comandos.",
+      "published_at": "2026-10-03",
+      "date": "2026-10-02"
+    },
     {
       "title": "O complemento eterno",
       "links": [
