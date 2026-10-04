@@ -1,8 +1,105 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-03 14:45 UTC",
+  "updated_at": "2026-10-04 15:25 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "ActiveSaddler: Aprendizagem Curricular Automatizada para Otimização de Harness de Agentes",
+      "links": [
+        "https://arxiv.org/abs/2610.00906"
+      ],
+      "summary": "ActiveSaddler introduz um currículo adaptativo para treinar harnesses de agentes, tratando a otimização como um problema de bandit não estacionário. Ele equilibra a revisitação de fraquezas conhecidas com a busca por novas, resultando em melhorias de +4.4 Pass@1 no GAIA2 e +7.5 no Terminal-Bench 2.0.",
+      "authors": [
+        "Sungho Park",
+        "Wonjoong Kim",
+        "Jue Zhang",
+        "Wook-Shin Han",
+        "Pengfei Gao",
+        "Chanyoung Park",
+        "Yongqiang Yao",
+        "Rao Fu",
+        "Elsie Nallipogu",
+        "Qingwei Lin",
+        "Victor Rühle"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-03"
+    },
+    {
+      "title": "Sonda com Troféus de Participação: RL de Recompensa Aleatória como Sonda da Capacidade de LLMs",
+      "links": [
+        "https://arxiv.org/abs/2610.01066"
+      ],
+      "summary": "Este artigo propõe que a RL de recompensa aleatória sonda a 'atingibilidade' de um checkpoint de LLM, revelando o potencial de treinamento futuro. Os autores identificam três regimes de treinamento onde recompensas aleatórias produzem grandes ganhos, especialmente após o início do treinamento intermediário.",
+      "authors": [
+        "Yu Mao",
+        "Lei Yu",
+        "Zining Zhu",
+        "Yusheng Zheng",
+        "Haohang Li",
+        "Freda Shi",
+        "Yutong Yin",
+        "Zhaoran Wang",
+        "Jingcheng Niu"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-03"
+    },
+    {
+      "title": "CARM: Mascaramento de Resposta Sensível ao Cancelamento para Aprendizagem por Reforço de LLMs",
+      "links": [
+        "https://arxiv.org/abs/2610.02039"
+      ],
+      "summary": "CARM é uma nova máscara de resposta para RL off-policy de LLMs que usa o valor absoluto das razões de probabilidade de token para evitar o cancelamento de desvios opostos. Isso resulta em um aumento de até 3.13 pontos no mean@16 em benchmarks AIME e 2.88 no pass@1 em benchmarks de código.",
+      "authors": [
+        "Yafei Zhang",
+        "Songshuo Lu",
+        "Sicong Liao",
+        "Zhi Chen",
+        "Yaohua Tang"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-03"
+    },
+    {
+      "title": "Where-OPD: Autodestilação On-Policy Espacialmente Guiada de MLLMs com Cenas Sintéticas",
+      "links": [
+        "https://arxiv.org/abs/2610.02117"
+      ],
+      "summary": "Where-OPD utiliza texto espacial privilegiado de cenas sintéticas para ensinar MLLMs a integrar evidências multirregionais sem rótulos de aterramento humano. O método melhora em +3.23 a média em vários benchmarks de visão, transferindo os ganhos do conjunto de treinamento sintético para fotos reais.",
+      "authors": [
+        "Sophia Sirko-Galouchenko",
+        "Monika Wysoczanska",
+        "Andrei Bursuc",
+        "Nicolas Thome",
+        "Spyros Gidaris"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-03"
+    },
+    {
+      "title": "Além da Memória: Aproveitando Agentes de Longo Horizonte com Estados de Crença Explícitos",
+      "links": [
+        "https://arxiv.org/abs/2610.01415"
+      ],
+      "summary": "PoS é um loop de inferência que mantém um estado de crença explícito do mundo e requisitos de tarefa para agentes de longo horizonte. Ele verifica a consistência e recupera de 'Belief Trapping', superando outros métodos em quatro benchmarks de execução e diagnóstico.",
+      "authors": [
+        "Yu Luo",
+        "Jiamin Jiang",
+        "Yimin Zuo",
+        "Xidao Wen",
+        "Rongchen Gao",
+        "Yongqian Sun",
+        "Shenglin Zhang",
+        "Guiyang Liu",
+        "Cheng Zhang",
+        "Fang Situ",
+        "Qi Zhou",
+        "Dan Pei"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-03"
+    },
     {
       "title": "Imposto de Afiação no Pós-Treinamento",
       "links": [
