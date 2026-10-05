@@ -1,8 +1,109 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-04 15:25 UTC",
+  "updated_at": "2026-10-05 19:25 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Escalando Trajetórias para Tarefas Complexas através da Reescrita Recursiva Automática",
+      "links": [
+        "https://arxiv.org/abs/2610.02826"
+      ],
+      "summary": "O RSR utiliza harnesses especializados como ferramentas de descoberta para gerar trajetórias que um harness geral pode executar, melhorando o desempenho em tarefas complexas. Um modelo de 27B resolve 34,3% mais tarefas do que o melhor harness único, com aumentos significativos em benchmarks como Terminal-Bench 2 e 4.",
+      "authors": [
+        "Zongxia Li",
+        "Yucheng Shi",
+        "Zhongzhi Li",
+        "Junyao Yang",
+        "Ruhan Wang",
+        "Chengsong Huang",
+        "Fuxiao Liu",
+        "Haitao Mi",
+        "Jordan Boyd-Graber",
+        "Leowei Liang"
+      ],
+      "published_at": "2026-10-02",
+      "date": "2026-10-04"
+    },
+    {
+      "title": "Só Trabalho e Nenhuma Diversão Deixa Jack um Garoto Chato: Compreendendo e Prevenindo o Colapso Catastrófico de Estratégias em RLVR",
+      "links": [
+        "https://arxiv.org/abs/2610.02835"
+      ],
+      "summary": "Modelos RLVR sofrem de um colapso catastrófico de estratégias, onde estratégias de raciocínio se tornam inacessíveis devido à concentração em uma única abordagem. O Mesh Learning previne isso mantendo múltiplas estratégias, resultando em ganhos de desempenho de até +13,4% no Qwen e +11,5% no Phi em vários benchmarks.",
+      "authors": [
+        "Qiyuan Huang",
+        "Tianshi Xu",
+        "Meng Li"
+      ],
+      "published_at": "2026-10-02",
+      "date": "2026-10-04"
+    },
+    {
+      "title": "Grandes Modelos de Difusão Contínua de Linguagem",
+      "links": [
+        "https://arxiv.org/abs/2610.02665"
+      ],
+      "summary": "Sigma é o primeiro grande modelo de difusão contínua de linguagem, abordando as limitações de direcionamento de modelos discretos ao operar em trajetórias latentes de baixa dimensão. Após o pré-treinamento, ele iguala modelos discretos e baselines AR em benchmarks como GSM8K e HumanEval, e é competitivo após SFT, oferecendo controle aprimorado sobre qualidade e diversidade.",
+      "authors": [
+        "Zhihan Yang",
+        "Wei Guo",
+        "Jean-Marie Lemercier",
+        "Simon Welker",
+        "Yonggan Fu",
+        "Mohammad Mahdi Kamani",
+        "Sajad Norouzi",
+        "Julius Berner",
+        "Tomas Geffner",
+        "Karsten Kreis",
+        "Yongxin Chen",
+        "Molei Tao",
+        "John Thickstun",
+        "Pavlo Molchanov",
+        "Ante Jukić",
+        "Arash Vahdat",
+        "Morteza Mardani"
+      ],
+      "published_at": "2026-10-02",
+      "date": "2026-10-04"
+    },
+    {
+      "title": "Autoaperfeiçoamento Recursivo de Harness para Síntese de Dados de Raciocínio de Fronteira",
+      "links": [
+        "https://arxiv.org/abs/2610.03548"
+      ],
+      "summary": "A coevolução de tarefas e harnesses (RSI) gera dados de raciocínio mais difíceis, atualizando habilidades e fluxos de trabalho com base em falhas do resolvedor. Um modelo de 27B ajustado com 10K itens matemáticos gerados por RSI atinge 62,5% no APEX, superando a recursão com harness fixo.",
+      "authors": [
+        "Wenlong Zhang",
+        "Zhengbo Jiao",
+        "Chenxu Zhang",
+        "Lekang Jiang",
+        "SiYuan Ma",
+        "Qituan Zhang",
+        "Guo Chen",
+        "Linfeng Zhang"
+      ],
+      "published_at": "2026-10-02",
+      "date": "2026-10-04"
+    },
+    {
+      "title": "Pós-Treinamento Centrado em Texto para Raciocínio Omni-Modal",
+      "links": [
+        "https://arxiv.org/abs/2610.02819"
+      ],
+      "summary": "Modelos omni-modais falham em questões de raciocínio AV multi-hop devido à otimização separada de percepção e raciocínio. Uma abordagem de pós-treinamento centrada em texto, combinando SFT + RL apenas com texto, melhora as pontuações de raciocínio em 25,83% com menos horas de GPU, e um breve passe de RL AV restaura a percepção.",
+      "authors": [
+        "Ziyang Cheng",
+        "Yuhao Wang",
+        "Hongcheng Liu",
+        "Qimin Wu",
+        "Jingru Fan",
+        "Chen Qian",
+        "Yanfeng Wang",
+        "Yu Wang"
+      ],
+      "published_at": "2026-10-02",
+      "date": "2026-10-04"
+    },
     {
       "title": "ActiveSaddler: Aprendizagem Curricular Automatizada para Otimização de Harness de Agentes",
       "links": [
