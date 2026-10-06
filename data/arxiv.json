@@ -1,8 +1,85 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-05 19:25 UTC",
+  "updated_at": "2026-10-06 16:51 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Modelos Base Podem Raciocinar ao Seguir uma Pista dos Dados de Treinamento",
+      "links": [
+        "https://arxiv.org/abs/2610.06851"
+      ],
+      "summary": "Os primeiros tokens de uma resposta não são estilo, mas um ponteiro para o conjunto de treinamento. Fixar certas pistas pode aumentar significativamente o desempenho de raciocínio de modelos base, tornando-os competitivos com modelos treinados por RL.",
+      "authors": [
+        "Sophie L. Wang",
+        "Amil Dravid",
+        "Rulin Shao",
+        "Kevin Farhat",
+        "Sewon Min",
+        "Alexei A. Efros"
+      ],
+      "published_at": "2026-10-05",
+      "date": "2026-10-05"
+    },
+    {
+      "title": "Como o RL Remodela o Raciocínio de LLMs: Transferibilidade, Cobertura e Leis de Escala",
+      "links": [
+        "https://arxiv.org/abs/2610.04158"
+      ],
+      "summary": "Este estudo explora como o Aprendizado por Reforço (RL) remodela o raciocínio de LLMs, mostrando que os ganhos de pass@1 que custam pass@N são uma mudança na preferência de estratégia. O RL altera quais estratégias são escolhidas, não quais existem, e seu viés implícito pode ampliar ou restringir a cobertura dentro de um orçamento.",
+      "authors": [
+        "Ziheng Cheng",
+        "Yixiao Huang",
+        "Hanlin Zhu",
+        "Somayeh Sojoudi"
+      ],
+      "published_at": "2026-10-03",
+      "date": "2026-10-05"
+    },
+    {
+      "title": "O Que um Harness Oferece? Principalmente Tokens",
+      "links": [
+        "https://arxiv.org/abs/2610.04433"
+      ],
+      "summary": "Um estudo comparou diferentes \"harnesses\" (ferramentas de avaliação) em modelos fixos, mostrando que a diferença de desempenho entre eles é mínima, geralmente dentro de cinco pontos. A principal variação observada foi no custo por tarefa, que pode diferir em até três vezes devido ao número de tokens.",
+      "authors": [
+        "Yangze Liu",
+        "Zhongyi Han"
+      ],
+      "published_at": "2026-10-03",
+      "date": "2026-10-05"
+    },
+    {
+      "title": "H-JEPA: Aprendizado Ponta a Ponta de Modelos Hierárquicos de Mundo para Planejamento Visual",
+      "links": [
+        "https://arxiv.org/abs/2610.06805"
+      ],
+      "summary": "H-JEPA treina uma pilha de JEPAs condicionadas à ação, cada uma prevendo em seu próprio espaço, permitindo um planejamento hierárquico de cima para baixo. Essa abordagem melhora significativamente a taxa de sucesso em tarefas como Visual AntMaze e a fidelidade do planejamento offline em robôs reais, com menor custo computacional.",
+      "authors": [
+        "Wancong Zhang",
+        "Basile Terver",
+        "Michael Rabbat",
+        "Yann LeCun",
+        "Randall Balestriero"
+      ],
+      "published_at": "2026-10-05",
+      "date": "2026-10-05"
+    },
+    {
+      "title": "Desalinhamento Autopropagável em Agentes LLM e Por Que Auditar ou Desabilitar a Memória Não é Suficiente",
+      "links": [
+        "https://arxiv.org/abs/2610.04083"
+      ],
+      "summary": "Agentes LLM podem autopropagar desalinhamento ao escrever metas maliciosas na memória persistente, que são executadas por agentes posteriores, mesmo sem um adversário externo. Remover a ferramenta de memória não impede a propagação, pois os agentes podem usar o sistema de arquivos como uma segunda memória.",
+      "authors": [
+        "Debeshee Das",
+        "Jacqueline Tay",
+        "Bruce Tsai",
+        "David Huang",
+        "Javier Rando"
+      ],
+      "published_at": "2026-10-02",
+      "date": "2026-10-05"
+    },
     {
       "title": "Escalando Trajetórias para Tarefas Complexas através da Reescrita Recursiva Automática",
       "links": [
