@@ -1,8 +1,86 @@
 {
   "category": "Twitter",
-  "updated_at": "2026-10-05 19:25 UTC",
+  "updated_at": "2026-10-06 00:45 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "The Information: Meta e Microsoft estão direcionando funcionários para longe de Claude em favor de suas próprias ferramentas de codificação.",
+      "links": [
+        "https://x.com/theinformation/status/2107195387551375435",
+        "https://x.com/tradetool1/status/2107228463258280442",
+        "https://x.com/ns123abc/status/2107192632573096320"
+      ],
+      "summary": "Meta e Microsoft estão reduzindo o uso interno do Claude da Anthropic por seus funcionários devido ao aumento dos custos. Relatos indicam que a Microsoft cortou sua expectativa de gastos internos com Anthropic em mais de um terço, e os usuários de Claude Code na Meta caíram de 60.000 para cerca de 30.000.",
+      "date": "2026-10-05"
+    },
+    {
+      "title": "Reflection AI anuncia Beam, um modelo MoE de peso aberto com 501B/23B parâmetros ativos, como concorrente dos modelos abertos chineses nos EUA.",
+      "links": [
+        "https://x.com/NaderLikeLadder/status/2107196427420283226",
+        "https://x.com/rohanpaul_ai/status/2107199320365867273",
+        "https://x.com/kimmonismus/status/2107191500136157404"
+      ],
+      "summary": "O primeiro modelo da Reflection AI, Beam, é um MoE esparso com 501B parâmetros totais e 23B ativos, focado em codificação, raciocínio e trabalho de agente. Os pesos completos, incluindo builds FP8 e NVFP4, serão lançados sob a licença Apache 2.0 este mês.",
+      "date": "2026-10-05"
+    },
+    {
+      "title": "SemiAnalysis afirma que assinaturas da Anthropic oferecem mais de 5 vezes o uso equivalente à API dos planos da OpenAI pelo mesmo preço.",
+      "links": [
+        "https://x.com/SemiAnalysis_/status/2107204965710053510",
+        "https://x.com/kimmonismus/status/2107210694970237017",
+        "https://x.com/scaling01/status/2107201941235470581"
+      ],
+      "summary": "Após testar planos de nove fornecedores, a SemiAnalysis concluiu que o Opus 5.5 da Anthropic oferece mais de 5 vezes o valor equivalente ao preço de lista da API do GPT-6.1 Sol da OpenAI para cargas de trabalho de agente, pelo mesmo preço de assinatura. A comparação apenas por tokens reduz a diferença para cerca de 2,5 vezes.",
+      "date": "2026-10-05"
+    },
+    {
+      "title": "OpenAI inicia marca d'água de texto invisível ('textGrain') para ChatGPT e Codex na UE.",
+      "links": [
+        "https://x.com/OpenAI/status/2107164650249101695",
+        "https://x.com/AndrewCurran_/status/2107144242481271279",
+        "https://x.com/rohanpaul_ai/status/2107178129215353123"
+      ],
+      "summary": "A OpenAI implementará marca d'água de texto invisível, 'textGrain', para ChatGPT e Codex na UE nas próximas semanas, em conformidade com o Artigo 50 do EU AI Act. Clientes da API em todo o mundo podem ativá-la para modelos selecionados hoje.",
+      "date": "2026-10-05"
+    },
+    {
+      "title": "OpenAI torna GPT-6 Astra e GPT-6.1 Sol cerca de 50% mais rápidos por padrão em assinaturas.",
+      "links": [
+        "https://x.com/mark_k/status/2107160174394003755",
+        "https://x.com/jxnlco/status/2107181061721747906"
+      ],
+      "summary": "A OpenAI aumentou a velocidade do GPT-6 Astra e GPT-6.1 Sol em cerca de 50% (de aproximadamente 30 para 50 tokens/s) por padrão em assinaturas. Esta é a primeira de '28 Dias de Melhorias' anunciadas pela empresa.",
+      "date": "2026-10-05"
+    },
+    {
+      "title": "Epoch AI: Pesquisador mediano da OpenAI usou US$ 601/dia em inferência de agente de codificação em meados de agosto.",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2107185067613413487",
+        "https://x.com/scaling01/status/2107176480983970082"
+      ],
+      "summary": "A Epoch AI relata que o pesquisador mediano da OpenAI utilizou US$ 601 por dia em inferência de agente de codificação a preços de lista da API até meados de agosto, um aumento significativo em relação a menos de US$ 1 por dia em janeiro. Isso representa aproximadamente US$ 2 milhões por ano por pesquisador.",
+      "date": "2026-10-05"
+    },
+    {
+      "title": "Google está desenvolvendo 'Superprojects' para Gemini.",
+      "links": [
+        "https://x.com/testingcatalog/status/2107207883171537058"
+      ],
+      "summary": "O Google está construindo 'Superprojects', um nome interno para a próxima versão de Projects para Gemini. Ele substituiria os projetos do Gemini Notebook, e seus arquivos e chats seriam acessíveis em todos os produtos Google.",
+      "date": "2026-10-05"
+    },
+    {
+      "title": "@trq212 lança uma skill 'html-plan' para Claude Code no marketplace de plugins da Anthropic.",
+      "links": [
+        "https://x.com/trq212/status/2107192901537329354",
+        "https://x.com/trq212/status/2107192972983075241"
+      ],
+      "summary": "@trq212 lançou uma skill 'html-plan' para Claude Code no marketplace de plugins da Anthropic, buscando feedback. A skill escreve planos HTML com snippets de código, pilhas de chamadas, perguntas abertas e mockups, usando linting para capturar falhas comuns.",
+      "authors": [
+        "@trq212"
+      ],
+      "date": "2026-10-05"
+    },
     {
       "title": "GPTs personalizados supostamente serão descontinuados em dezembro, com \"plugins\" privados como caminho de migração.",
       "links": [
