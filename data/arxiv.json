@@ -1,8 +1,87 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-06 16:51 UTC",
+  "updated_at": "2026-10-07 17:27 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "QF3: RL de Fluxo Rápido com Gradientes Q Filtrados",
+      "links": [
+        "https://arxiv.org/abs/2610.08789"
+      ],
+      "summary": "QF3 é o primeiro método off-policy de RL de fluxo a treinar locomoção humanoide do zero e transferir zero-shot para hardware. Ele atinge 10 vezes a velocidade de relógio em comparação com FPO++ em locomoção e rastreamento de movimento.",
+      "authors": [
+        "Chung Min Kim",
+        "Brent Yi",
+        "Ken Goldberg",
+        "Pieter Abbeel",
+        "Carmelo Sferrazza",
+        "Angjoo Kanazawa"
+      ],
+      "published_at": "2026-10-06",
+      "date": "2026-10-06"
+    },
+    {
+      "title": "Transformer Recorrente em Loop",
+      "links": [
+        "https://arxiv.org/abs/2610.07591"
+      ],
+      "summary": "O Transformer Recorrente em Loop (RLT) divide oito camadas em um codificador causal paralelo e um decodificador recorrente para rastrear estados. O RLT atinge 100% de paridade em 256 bits, enquanto um Transformer de oito camadas permanece ao acaso.",
+      "authors": [
+        "Yifan Zhang",
+        "Jichen Feng",
+        "Shihan Qin"
+      ],
+      "published_at": "2026-10-06",
+      "date": "2026-10-06"
+    },
+    {
+      "title": "AdvSim2Real: Treinando Agentes Web Contra Injeção Adaptativa de Prompt em um Modelo de Mundo Web",
+      "links": [
+        "https://arxiv.org/abs/2610.08773"
+      ],
+      "summary": "AdvSim2Real co-evolui um currículo, um adversário de injeção e o agente dentro de um modelo de mundo web congelado. Um agente de 4B treinado no simulador se torna mais capaz e robusto, com um aumento de 33,6% na conclusão relativa sob um adversário nunca visto.",
+      "authors": [
+        "Sarim Hashmi",
+        "Mukul Ranjan",
+        "Kshitij Mishra",
+        "Mikhail Kuznetsov",
+        "Praneeth Vepakomma",
+        "Nils Lukas"
+      ],
+      "published_at": "2026-10-06",
+      "date": "2026-10-06"
+    },
+    {
+      "title": "Preservando Modos Instáveis Através da Dinâmica Inversa em Modelos de Mundo JEPA",
+      "links": [
+        "https://arxiv.org/abs/2610.07540"
+      ],
+      "summary": "Modelos JEPA podem minimizar a perda de treinamento enquanto colapsam modos instáveis, removendo informações cruciais para a estabilização. A solução é um termo de dinâmica inversa que força o codificador a manter as direções controláveis.",
+      "authors": [
+        "Leonardo F. Toso",
+        "Yann LeCun",
+        "James Anderson",
+        "Oumayma Bounou"
+      ],
+      "published_at": "2026-10-06",
+      "date": "2026-10-06"
+    },
+    {
+      "title": "Agente em uma Garrafa: Agentes LLM Podem Transformar Suas Capacidades em Artefatos Baratos e Escaláveis?",
+      "links": [
+        "https://arxiv.org/abs/2610.08775"
+      ],
+      "summary": "BOTTLED investiga se um agente pode amortizar-se, emitindo um artefato mais barato (modelo pequeno, programa) para uma carga de trabalho não rotulada. O Opus 5 mantém cerca de 82% do macro-F1 zero-shot na relevância de consulta-produto com um custo relatado 657 vezes menor.",
+      "authors": [
+        "Ankit Sonthalia",
+        "Haritz Puerto",
+        "Alexander Rubinstein",
+        "Martin Gubri",
+        "Seong Joon Oh"
+      ],
+      "published_at": "2026-10-06",
+      "date": "2026-10-06"
+    },
     {
       "title": "Modelos Base Podem Raciocinar ao Seguir uma Pista dos Dados de Treinamento",
       "links": [
