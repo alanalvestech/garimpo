@@ -1,8 +1,86 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-07 17:27 UTC",
+  "updated_at": "2026-10-08 17:27 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "RoboJEPA: Escalando Modelos de Mundo Latentes Robóticos",
+      "links": [
+        "https://arxiv.org/abs/2610.10515"
+      ],
+      "summary": "RoboJEPA treina um modelo de mundo JEPA com dados de robôs reais em 12 configurações, mostrando que o erro de imaginação segue uma lei de potência de segunda ordem em computação. Este é o primeiro estudo de lei de escala para modelos de mundo robóticos multi-embodiment treinados com robôs reais.",
+      "authors": [
+        "Artem Zholus",
+        "Nicolas Beltran-Velez",
+        "Jianhao Yuan",
+        "Mahmoud Assran",
+        "Jeannette Bohg",
+        "Nicolas Ballas et al."
+      ],
+      "published_at": "2026-10-07",
+      "date": "2026-10-07"
+    },
+    {
+      "title": "Long-WAM: Escalando o Contexto de Modelos de Mundo-Ação",
+      "links": [
+        "https://arxiv.org/abs/2610.10528"
+      ],
+      "summary": "Aumentar o contexto de 0 para 19,2 segundos melhora o RoboCasa GR-1 de 63,3% para 78,7% apenas quando a base de vídeo foi pré-treinada autoregressivamente. Modelos de mundo-ação não obtêm controle de longo horizonte gratuitamente, exigindo que o objetivo de pré-treinamento torne o histórico causal e o sistema mantenha o loop em tempo real.",
+      "authors": [
+        "Wei Huang",
+        "Bohan Zhang",
+        "Linxi Fan",
+        "Song Han",
+        "Yukang Chen et al."
+      ],
+      "published_at": "2026-10-07",
+      "date": "2026-10-07"
+    },
+    {
+      "title": "Desacoplando Exploração da Otimização em RLVR",
+      "links": [
+        "https://arxiv.org/abs/2610.10536"
+      ],
+      "summary": "ExpDis treina políticas exploradoras com bônus de novidade, filtra por correção e destila em um aluno treinado sem bônus, superando DAPO em benchmarks matemáticos. A exploração que compartilha pesos com o aluno compromete a cobertura em RLVR.",
+      "authors": [
+        "Saif Punjwani",
+        "Micah Goldblum"
+      ],
+      "published_at": "2026-10-07",
+      "date": "2026-10-07"
+    },
+    {
+      "title": "EngramEdit: Atualizações de Conhecimento Desacopladas em LLMs Através de Memória Condicional",
+      "links": [
+        "https://arxiv.org/abs/2610.10533"
+      ],
+      "summary": "EngramEdit constrói memórias alvo para que o modelo expresse novos fatos em várias formas, atualizando embeddings compartilhados com uma penalidade de reutilização. A memória condicional se torna uma interface de conhecimento editável, não apenas um truque de capacidade.",
+      "authors": [
+        "Hongru Cai",
+        "Ran Wei",
+        "Wenjie Wang",
+        "Yongqi Li",
+        "Wenjie Li et al."
+      ],
+      "published_at": "2026-10-07",
+      "date": "2026-10-07"
+    },
+    {
+      "title": "Workhorse: Aprendendo Locomoção-Manipulação Robusta de Corpo Inteiro para Humanoides a Partir de Dados Humanos",
+      "links": [
+        "https://arxiv.org/abs/2610.09117"
+      ],
+      "summary": "Workhorse planeja trabalho de corpo inteiro com contato a partir de RGB egocêntrico e propriocepção, treinado com vídeo humano sem robô. Vídeos humanos são agora suficientes para coordenar mãos e pés em tarefas de locomoção-manipulação.",
+      "authors": [
+        "Songbo Hu",
+        "Qiayuan Liao",
+        "Yufeng Chi",
+        "Pieter Abbeel",
+        "Koushil Sreenath et al."
+      ],
+      "published_at": "2026-10-06",
+      "date": "2026-10-07"
+    },
     {
       "title": "QF3: RL de Fluxo Rápido com Gradientes Q Filtrados",
       "links": [
