@@ -1,8 +1,100 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-08 17:27 UTC",
+  "updated_at": "2026-10-09 17:03 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Pistas Detectam Sabotagem e Engano Não Verbalizado",
+      "links": [
+        "https://arxiv.org/abs/2610.12445"
+      ],
+      "summary": "Sondas de engano de caixa branca, treinadas no maior conjunto de dados de sabotagem e engano (FIBS), alcançaram 98,8% de AUC no SHADE-Arena e superaram um monitor de texto Opus 5.5. A eficácia aumenta com a escala do modelo subjacente, detectando mentiras em modelos de peso aberto e separando o objetivo oculto verdadeiro de um modelo de iscas com até 99,7% de AUC.",
+      "authors": [
+        "Oskar J. Hollinsworth",
+        "Alex F. Spies",
+        "Tigist Diriba",
+        "Adam Gleave",
+        "Chris Cundy"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-08"
+    },
+    {
+      "title": "O Que 30.000 Horas de Vídeo Egocêntrico Não Ensinam",
+      "links": [
+        "https://arxiv.org/abs/2610.12464"
+      ],
+      "summary": "Um estudo investiga o que 30.000 horas de vídeo egocêntrico humano não ensinam, mostrando que um aumento de 100 vezes nos dados melhora a fidelidade do agente e do objeto de forma desigual. O agente satura, enquanto as interações com objetos ficam muito atrás, indicando que o próximo avanço requer um objetivo de treinamento, não mais dados.",
+      "authors": [
+        "Jiahua Dong",
+        "Anurag Bagchi",
+        "Yash Jangir",
+        "Muhammad Zubair Irshad",
+        "Sergey Zakharov",
+        "Martial Hebert",
+        "Homanga Bharadhwaj",
+        "Yu-Xiong Wang",
+        "Vitor Campagnolo Guizilini",
+        "Pavel Tokmakov"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-08"
+    },
+    {
+      "title": "Sobre a Estimativa e Validade dos Horizontes de Tempo da IA: Uma Análise Estatística do Gráfico METR",
+      "links": [
+        "https://arxiv.org/abs/2610.12466"
+      ],
+      "summary": "A análise estatística dos horizontes de tempo da IA no gráfico METR revela que a dificuldade da IA não é linear no tempo humano logarítmico, sendo quase plana entre 2 e 30 minutos. Isso significa que um salto de 3 para 30 minutos é mais fácil do que de 30 minutos para 5 horas, apesar de ambos serem um multiplicador de 10x.",
+      "authors": [
+        "Drew T. Nguyen",
+        "William Fithian"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-08"
+    },
+    {
+      "title": "WOVEN: Integrando Modelagem Visual do Mundo em LLMs Multimodais",
+      "links": [
+        "https://arxiv.org/abs/2610.12417"
+      ],
+      "summary": "WOVEN é um novo benchmark e receita de treinamento para integrar a modelagem visual do mundo em LLMs multimodais, abordando falhas de raciocínio de transição visual. O treinamento em subconjuntos de aproximadamente 2 mil itens melhora 22 de 26 benchmarks externos em até 27,3 pontos, mostrando que a modelagem visual do mundo é um primitivo transferível para MLLMs.",
+      "authors": [
+        "Zheyu Fan",
+        "Yue Zhang",
+        "Mingkai Deng",
+        "Kangrui Wang",
+        "Qineng Wang",
+        "Canyu Chen",
+        "Jie Hao",
+        "Xing Fan",
+        "Chenlei Guo",
+        "Eric P. Xing",
+        "Mohit Bansal",
+        "Manling Li"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-08"
+    },
+    {
+      "title": "Memento 3: Autoaperfeiçoamento Recursivo Baseado em Modelo Através de Livros de Regras Reflexivos",
+      "links": [
+        "https://arxiv.org/abs/2610.11794"
+      ],
+      "summary": "Memento 3 explora o autoaperfeiçoamento recursivo onde um LLM congelado escreve o modelo do mundo, usando um livro de regras de hipóteses revisáveis compilado em código executável. O agente só aceita atualizações verificadas pelo LLM, superando todos os níveis de 25 jogos públicos no ARC-AGI-3 com 44% das ações humanas.",
+      "authors": [
+        "Haoyu Zhao",
+        "Zhengxu Yu",
+        "Zhiyuan He",
+        "Meng Fang",
+        "Rasul Tutunov",
+        "Haitham Bou-Ammar",
+        "Weilin Luo",
+        "Jun Wang"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-08"
+    },
     {
       "title": "RoboJEPA: Escalando Modelos de Mundo Latentes Robóticos",
       "links": [
