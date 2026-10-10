@@ -1,8 +1,94 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-09 17:03 UTC",
+  "updated_at": "2026-10-10 15:54 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "MiMo-V2.6: Escalando o Aprendizado por Reforço em Direção à Auto-Melhoria",
+      "links": [
+        "https://arxiv.org/abs/2610.11959"
+      ],
+      "summary": "MiMo-V2.6 explora se a auto-melhoria em aprendizado por reforço é uma questão de mais capacidade computacional, escalando o RL em três eixos: amostras, agentes mistos e avaliadores. O projeto libera a dinâmica de treinamento, ambientes e o framework de RL, indicando que o fator ausente era o lote, o ambiente e a capacidade computacional do avaliador.",
+      "authors": [
+        "Xiaomi LLM-Core Team"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-09"
+    },
+    {
+      "title": "Escalando para Dezenas de Milhares de Iterações em Tempo de Teste com Residuais de Atenção Nativos de Loop",
+      "links": [
+        "https://arxiv.org/abs/2610.11570"
+      ],
+      "summary": "Este artigo propõe InfiLoop, um residual nativo de loop que usa pesos de conteúdo e decaimento temporal aprendido para decidir o que manter, resolvendo o problema de atualizações ruidosas em iterações adicionais. Um modelo de 7M atinge 97,9% de exatidão no Sudoku-Extreme, demonstrando que Transformers em loop precisam de seu próprio residual para evitar que o aumento de computação apague a resposta.",
+      "authors": [
+        "Pengxiang Li",
+        "Dilxat Muhtar",
+        "Di He",
+        "Guinan Su",
+        "Lu Yin",
+        "Shiwei Liu"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-09"
+    },
+    {
+      "title": "VioLA: Aprendendo Políticas de Controle Generalistas para Humanoides a Partir de Dados Humanos",
+      "links": [
+        "https://arxiv.org/abs/2610.12435"
+      ],
+      "summary": "VioLA permite que humanoides aprendam políticas de controle generalistas a partir de dados humanos, onde a política prevê latentes de movimento corporal e manual que são executados por controladores pré-treinados. Isso elimina a necessidade de demonstrações de teleoperação por tarefa, pois a política opera em um espaço latente já ocupado por humanos.",
+      "authors": [
+        "Mert Albaba",
+        "Jens Beißwenger",
+        "Anna Manasyan",
+        "Daniel Marta",
+        "Michael J. Black",
+        "Wieland Brendel",
+        "Andreas Krause",
+        "Georg Martius",
+        "Martin Riedmiller"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-09"
+    },
+    {
+      "title": "ARC: Uma Receita de Raciocínio para Modelos Fundamentais de Robôs",
+      "links": [
+        "https://arxiv.org/abs/2610.12386"
+      ],
+      "summary": "ARC propõe supervisionar a operação de raciocínio para modelos fundamentais de robôs, utilizando traços eficazes auto-rotulados a partir de dados DROID existentes. Isso resulta em ganhos zero-shot sem precedentes, alcançando novos estados da arte em benchmarks como RoboLab-120 e MolmoSpaces, e aumentando o sucesso de robôs reais.",
+      "authors": [
+        "Gokul Puthumanaillam",
+        "Tao Sun",
+        "Elie Aljalbout",
+        "Moritz Reuss",
+        "Zhaoshuo Li",
+        "Fabio Ramos",
+        "Ankit Goyal",
+        "Jenai Xuning Yang"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-09"
+    },
+    {
+      "title": "Quem Verifica o Verificador? Co-Evoluindo Avaliadores Inspecionáveis com Agentes Auto-Melhoráveis",
+      "links": [
+        "https://arxiv.org/abs/2610.11464"
+      ],
+      "summary": "Este trabalho propõe co-evoluir avaliadores inspecionáveis com agentes auto-melhoráveis, sintetizando-os a partir de falhas agrupadas e selecionando-os por concordância com um conjunto âncora. O sistema Double Ratchet mantém a eficácia do treinamento de habilidades mesmo se o verificador se tornar um avaliador de 'sempre passa', indicando que a pontuação da tarefa downstream não pode certificar um verificador auto-evoluído.",
+      "authors": [
+        "Xing Zhang",
+        "Guanghui Wang",
+        "Yanwei Cui",
+        "Ziyuan Li",
+        "Wei Qiu",
+        "Bing Zhu",
+        "Peiyang He"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-09"
+    },
     {
       "title": "Pistas Detectam Sabotagem e Engano Não Verbalizado",
       "links": [
