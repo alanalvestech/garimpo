@@ -1,8 +1,99 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-10 15:54 UTC",
+  "updated_at": "2026-10-11 16:21 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Quando Precisamos de Destilação On-Policy? Destilar em Rollouts Offline do Aluno é Frequentemente Melhor",
+      "links": [
+        "https://arxiv.org/abs/2610.11291"
+      ],
+      "summary": "Este artigo da NVIDIA questiona se rollouts de alunos on-policy são o padrão para destilação, propondo o Semi-OPD que destila de rollouts offline do aluno inicial. Em 17 pares professor-aluno, o Semi-OPD vence em 14, sendo até 11,4 vezes mais rápido e melhorando em até 13,6 pontos.",
+      "authors": [
+        "Siyan Zhao",
+        "Yonggan Fu",
+        "Jindong Jiang",
+        "Shih-Yang Liu",
+        "Song Bian",
+        "Byung-Kwan Lee",
+        "Sharath Turuvekere Sreenivas",
+        "Wenliang Dai",
+        "Hanrong Ye",
+        "Aditya Grover",
+        "Pavlo Molchanov"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-10"
+    },
+    {
+      "title": "Escalamento Emergente de Profundidade Inversa a Partir da Não Linearidade na Atenção",
+      "links": [
+        "https://arxiv.org/abs/2610.11063"
+      ],
+      "summary": "Este estudo investiga por que a profundidade ajuda na atenção, mostrando que a atenção softmax não linear produz decaimento de perda de profundidade inversa em todos os espectros testados. Isso sugere que o escalamento da profundidade pode ser uma propriedade da não linearidade da atenção, e não da covariância dos dados.",
+      "authors": [
+        "Zirui Peng",
+        "Yizhou Liu",
+        "Ziming Liu",
+        "Jeff Gore"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-10"
+    },
+    {
+      "title": "Loops Adversariais Generativos",
+      "links": [
+        "https://arxiv.org/abs/2610.11458"
+      ],
+      "summary": "GAL propõe que o processo ausente na pesquisa de métodos é o benchmark, onde um agente discriminador cria dados adversariais e um agente gerador inventa o próximo algoritmo. Em quatro tarefas, o método melhora significativamente o desempenho em conjuntos de dados adversariais e supera abordagens existentes.",
+      "authors": [
+        "Kislay Aditya Oj",
+        "Nidhi Jain",
+        "Sri Surya Varma Datla",
+        "Priyanka Jayaswal",
+        "Kumar Krishna Agrawal",
+        "Aditya Desai"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-10"
+    },
+    {
+      "title": "Treinamento Intermediário de Modelos de Linguagem em Vídeo Bruto",
+      "links": [
+        "https://arxiv.org/abs/2610.11019"
+      ],
+      "summary": "Este trabalho investiga se vídeos brutos e sem legendas podem ser usados para treinar modelos de linguagem, convertendo frames em tokens visuais contínuos para prever o próximo. O treinamento intermediário melhora benchmarks de vídeo e imagem, sem afetar o desempenho em texto, e não requer legendas.",
+      "authors": [
+        "Jaedong Hwang",
+        "Xiaoqian Shen",
+        "Ernie Chang",
+        "Changsheng Zhao",
+        "Chong Zhou",
+        "Saksham Suri",
+        "Qi Qian",
+        "Zechun Liu",
+        "Lemeng Wu",
+        "Qinsi Wang",
+        "Raghuraman Krishnamoorthi",
+        "Wei Wen"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-10"
+    },
+    {
+      "title": "NOMOS: Compilando Políticas Escritas em Portões de Chamada de Ferramentas Estaticamente Verificados para Agentes LLM",
+      "links": [
+        "https://arxiv.org/abs/2610.11030"
+      ],
+      "summary": "NOMOS compila políticas em linguagem natural em um portão de chamada de ferramenta determinístico, usando verificações de esquema estáticas para reparar ou rejeitar regras inoperáveis. Isso reduz significativamente as violações de cláusulas de mudança de estado, com decisões em microssegundos.",
+      "authors": [
+        "Min-Young Yu",
+        "Tony Kim",
+        "Jang Won Choi"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-10"
+    },
     {
       "title": "MiMo-V2.6: Escalando o Aprendizado por Reforço em Direção à Auto-Melhoria",
       "links": [

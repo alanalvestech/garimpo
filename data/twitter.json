@@ -1,8 +1,101 @@
 {
   "category": "Twitter",
-  "updated_at": "2026-10-10 15:54 UTC",
+  "updated_at": "2026-10-11 16:21 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "WIRED: HarperCollins, Simon & Schuster e Hachette estão usando Claude e ChatGPT na produção editorial",
+      "links": [
+        "https://x.com/AndrewCurran_/status/2109154583138492672",
+        "https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/"
+      ],
+      "summary": "Funcionários de três das cinco maiores editoras dos EUA disseram à WIRED que Claude e ChatGPT agora redigem textos de divulgação, contracapas, arte de capa, materiais de marketing, e-mails para agentes literários e cartas de rejeição. Executivos têm incentivado funcionários juniores a encontrar usos, mas autores e agentes não foram informados.",
+      "authors": [
+        "Adam Morgan"
+      ],
+      "published_at": "2026-10-09",
+      "date": "2026-10-10"
+    },
+    {
+      "title": "Reconstrução do OpenRouter: ~$29M por semana, ~$1.5B anualizados; Anthropic fica com 36% da receita",
+      "links": [
+        "https://x.com/deedydas/status/2109118089438896576",
+        "https://openrouter.ai/rankings"
+      ],
+      "summary": "Deedy Das converteu as páginas públicas de tokens do OpenRouter em valores monetários, estimando o gasto roteado da semana passada em cerca de US$ 29.1 milhões, ou US$ 1.5 bilhão anualizados. Nesta análise, a Anthropic representa 36% dos gastos, a OpenAI 18% e os laboratórios de código aberto 26%, enquanto os próprios rankings do OpenRouter ainda mostram a Anthropic com 2.5% das requisições.",
+      "authors": [
+        "Deedy Das"
+      ],
+      "published_at": "2026-10-10",
+      "date": "2026-10-10"
+    },
+    {
+      "title": "The Information afirma que Eliyan recebeu pelo menos uma oferta de aquisição",
+      "links": [
+        "https://x.com/theinformation/status/2109026212093857882",
+        "https://www.theinformation.com/newsletters/dealmaker/networking-startup-eliyan-draws-takeover-interest-held-early-talks-arm"
+      ],
+      "summary": "A The Information relata que a Eliyan recebeu pelo menos uma oferta de aquisição e está trabalhando com um banco para atingir uma meta de US$ 3 bilhões, após uma Série C de US$ 145 milhões em julho, avaliada em US$ 1 bilhão. A Arm, já investidora, teve conversas iniciais e não fez uma oferta; Eliyan e Arm recusaram-se a comentar.",
+      "date": "2026-10-10"
+    },
+    {
+      "title": "SemiAnalysis modela o consumo de Rubin da Anthropic Lambda / Hut 8 em ~$5.80 por GPU-hora",
+      "links": [
+        "https://x.com/SemiAnalysis_/status/2109056651231654310"
+      ],
+      "summary": "A SemiAnalysis modela o consumo de Rubin da Anthropic Lambda / Hut 8 em aproximadamente US$ 5.80 por GPU-hora para cerca de 350 MW de VR NVL72 em 2028 (aproximadamente 115 mil GPUs), com base no fornecimento de US$ 35 bilhões de quatro partes previamente relatado. Este é um custo total de propriedade modelado, não um registro oficial.",
+      "date": "2026-10-10"
+    },
+    {
+      "title": "Anthropic está testando Arborio e Iggy na navegação de Claude; Arborio parece ser a versão de Saúde para a web",
+      "links": [
+        "https://x.com/testingcatalog/status/2109206986189410469",
+        "https://www.testingcatalog.com/anthropic-tests-claude-health-for-web-and-mysterious-iggy/"
+      ],
+      "summary": "Dois destinos inéditos de Claude apareceram com os nomes internos Arborio e Iggy. Arborio usa um ícone de coração na mão e é o caminho mais provável para o Claude Health na web; Iggy é uma prévia com ícone de sol e sem função descrita.",
+      "authors": [
+        "Alexey Shabanov"
+      ],
+      "published_at": "2026-10-10",
+      "date": "2026-10-10"
+    },
+    {
+      "title": "Pesquisadores da Amazon, com UCSC / Emory / Penn State / UCSB, publicaram “Language Models as AI Research World Models”",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2109243398628708619",
+        "https://arxiv.org/abs/2610.12235"
+      ],
+      "summary": "Um LLM classifica as mudanças candidatas de treinamento ou inferência antes de gastar tempo de GPU, com base em mais de 2.600 registros e 171 mil horas de H100 em 9 configurações. Logs do mesmo ambiente aumentam a correlação de classificação de Spearman em +0.27; logs de pré-treinamento de OLMo3, Marin e Nanochat reduzem o arrependimento de seleção do Qwen3 em 78% em comparação com a ausência de histórico.",
+      "authors": [
+        "Pesquisadores da Amazon, UCSC, Emory, Penn State e UCSB"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-10"
+    },
+    {
+      "title": "“GitSwarm” da Meta e academia (arXiv 2610.04862, 4 de outubro) executa agentes homogêneos contra um repositório Git compartilhado para que execuções posteriores reutilizem falhas.",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2109230760020574281",
+        "https://arxiv.org/abs/2610.04862"
+      ],
+      "summary": "No ProgramBench, ele atinge 79.4% contra 65.1% da linha de base de agente único mais forte com o orçamento declarado. 94.7% das contribuições salvas são reutilizadas; ele resolveu todos os 30 itens do IMOProofBench-Advanced em uma única execução do GPT-5.5.",
+      "authors": [
+        "Meta e acadêmicos"
+      ],
+      "published_at": "2026-10-04",
+      "date": "2026-10-10"
+    },
+    {
+      "title": "Gavin Baker afirma que, desde que o índice de tokens da Silicon Data atingiu o pico em 31 de maio, os preços do B300 subiram 38% e os do B200 subiram 10%",
+      "links": [
+        "https://x.com/GavinSBaker/status/2109240032196174309"
+      ],
+      "summary": "Gavin Baker afirma que, desde que o índice de tokens da Silicon Data atingiu o pico em 31 de maio, os preços do B300 subiram 38% e os do B200 subiram 10%. Ele também afirma que modelos de código aberto mais baratos, que comprimem as margens da camada do modelo, são um fator positivo para a demanda por infraestrutura.",
+      "authors": [
+        "Gavin Baker"
+      ],
+      "date": "2026-10-10"
+    },
     {
       "title": "Anthropic relata quatro classes de ações não intencionais do Claude em sites ativos, incluindo uma denúncia falsa de homicídio",
       "links": [
