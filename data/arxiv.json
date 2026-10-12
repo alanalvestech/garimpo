@@ -1,8 +1,87 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-11 16:21 UTC",
+  "updated_at": "2026-10-12 19:52 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "RSI-Anything: Desbloqueando a Auto-Melhoria Recursiva com Modelos de Mundo",
+      "links": [
+        "https://arxiv.org/abs/2610.13912"
+      ],
+      "summary": "RSI-Anything propõe um modelo de mundo preditivo que seleciona a próxima ação e o próximo ponto de treinamento para auto-melhoria recursiva. Este modelo atua como um filtro, decidindo quais atualizações de política e modelo devem ser mantidas, resultando em melhorias em reparo de código, ações de GUI e planejamento de laboratório.",
+      "authors": [
+        "Taoyong Cui",
+        "Pinxian Zeng",
+        "Wanghan Xu",
+        "Wanli Ouyang",
+        "Zhenfei Yin",
+        "Ling Yang et al."
+      ],
+      "published_at": "2026-10-09",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "Modelos de IA Podem Comprovadamente Esconder Capacidades Arbitrárias",
+      "links": [
+        "https://arxiv.org/abs/2610.13928"
+      ],
+      "summary": "Modelos de IA podem esconder capacidades arbitrárias, empacotando uma rede neural criptografada nos pesos do hospedeiro que só é ativada por um gatilho secreto. Isso estabelece um limite criptográfico para auditorias de capacidade, permitindo que um modelo oculte habilidades complexas.",
+      "authors": [
+        "Andis Draguns",
+        "Sumeet Ramesh Motwani",
+        "Raymond Douglas",
+        "Christian Schroeder de Witt"
+      ],
+      "published_at": "2026-10-09",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "Orthros: Atenção Heterogênea Sensível à Fase para Transformers Eficientes",
+      "links": [
+        "https://arxiv.org/abs/2610.13735"
+      ],
+      "summary": "Orthros introduz uma atenção heterogênea que alterna por fase, usando complexidade linear no preenchimento e atenção completa na decodificação. Esta abordagem oferece um aumento de velocidade de preenchimento de 21,9x e recall de contexto em nível de Transformer.",
+      "authors": [
+        "Yuhong Chou",
+        "Zehao Liu",
+        "Yuqi Pan",
+        "Qian Liu",
+        "Jibin Wu et al."
+      ],
+      "published_at": "2026-10-09",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "ReplaySSM: Armazene Entradas SSM, Não o Estado",
+      "links": [
+        "https://arxiv.org/abs/2610.13778"
+      ],
+      "summary": "ReplaySSM armazena um checkpoint e um buffer de entradas recentes, atualizando o checkpoint periodicamente para otimizar o serviço de modelos Mamba/DeltaNet. Isso reduz o tráfego de escrita de estado e melhora a taxa de transferência especulativa.",
+      "authors": [
+        "Ze-Wei Liou",
+        "Harris Nover",
+        "Amey Naik",
+        "Tri Dao et al."
+      ],
+      "published_at": "2026-10-09",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "Humanize Olympiad Agents: Um Fluxo de Trabalho Multi-Sessão para Resolução de Problemas de Olimpíadas com Resolver, Revisar, Wiki, Verificar",
+      "links": [
+        "https://arxiv.org/abs/2610.13632"
+      ],
+      "summary": "Humanize Olympiad Agents (HOA) utiliza um fluxo de trabalho multi-sessão com revisão independente, um wiki estruturado e um verificador Lean para resolver problemas de olimpíadas. Esta abordagem permite que modelos como GPT-5.6 Sol e Kimi-K3 alcancem resultados perfeitos ou quase perfeitos em diversas competições.",
+      "authors": [
+        "Zhengyang Zhang",
+        "Jing Xiong",
+        "Hongzhou Lin",
+        "Song Han",
+        "Ligeng Zhu et al."
+      ],
+      "published_at": "2026-10-09",
+      "date": "2026-10-11"
+    },
     {
       "title": "Quando Precisamos de Destilação On-Policy? Destilar em Rollouts Offline do Aluno é Frequentemente Melhor",
       "links": [

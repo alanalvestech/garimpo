@@ -1,8 +1,93 @@
 {
   "category": "Twitter",
-  "updated_at": "2026-10-11 16:21 UTC",
+  "updated_at": "2026-10-12 19:52 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "WSJ: Amazon está em negociações para comprar a Decart por cerca de US$ 7 bilhões",
+      "links": [
+        "https://x.com/Tradeview_/status/2109435025116578266",
+        "https://x.com/0xBatu_/status/2109437845681402158"
+      ],
+      "summary": "O Wall Street Journal relata que a Amazon negocia a aquisição da startup israelense Decart, focada em eficiência de chips e modelos de mundo, por aproximadamente US$ 7 bilhões. Nenhuma empresa comentou e o acordo ainda não foi assinado.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "OpenAI aumenta o contexto padrão do GPT-6.1 Sol para 500k no Codex e ChatGPT Work",
+      "links": [
+        "https://x.com/thsottiaux/status/2109430343346581527",
+        "https://x.com/testingcatalog/status/2109431898691031316"
+      ],
+      "summary": "Tibo Sottiaux, líder do OpenAI Codex e ChatGPT Work, anunciou que o contexto padrão do GPT-6.1 Sol nessas plataformas foi elevado de 272k para 500k tokens, um aumento de cerca de 80%. O limite máximo permanece em 1M, e os usuários podem ajustar o padrão.",
+      "authors": [
+        "Tibo Sottiaux"
+      ],
+      "date": "2026-10-11"
+    },
+    {
+      "title": "Sakana publicou o blog MASS",
+      "links": [
+        "https://x.com/hardmaru/status/2109385496237678844",
+        "https://pub.sakana.ai/mass/",
+        "https://arxiv.org/abs/2610.12176"
+      ],
+      "summary": "Sakana publicou um blog sobre o MASS, detalhando dois ciclos RSI na busca de fluxo de trabalho alternativo Qwen3.6-27B com destilação de rastros multiagente. O artigo relata um aumento de 1,2 a 1,6 vezes na pontuação por token de saída em quatro benchmarks de código aberto.",
+      "published_at": "2026-10-08",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "O seletor de pensamento do Gemini agora rotula Baixo / Médio / Alto",
+      "links": [
+        "https://x.com/AndrewCurran_/status/2109371110857085309"
+      ],
+      "summary": "O seletor de pensamento do Gemini agora exibe os rótulos \"Rápido e eficiente\", \"Profundidade equilibrada\" e \"Extra completo\" para as opções Baixo, Médio e Alto, respectivamente. Esta é uma mudança na cópia da interface do usuário, não um novo SKU do Gemini 4.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "The Telegraph afirma que Washington reverteu a suspensão",
+      "links": [
+        "https://x.com/sphinx_thesis/status/2109437688558555310"
+      ],
+      "summary": "The Telegraph informa que Washington reverteu sua decisão de reter o envio de novos modelos ao AI Security Institute da Grã-Bretanha para testes pré-lançamento. Essa mudança permitiria que OpenAI e Anthropic voltassem a esse canal.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "Similarweb, participação de tráfego web de IA generativa em setembro de 2026",
+      "links": [
+        "https://x.com/Similarweb/status/2109561054883717264",
+        "https://x.com/testingcatalog/status/2109567721968976114"
+      ],
+      "summary": "Dados de tráfego web de IA generativa da Similarweb para setembro de 2026 mostram que o ChatGPT alcançou 56,4% das visitas, marcando o quarto ganho mensal consecutivo. O Gemini caiu para 25,0%, enquanto o Claude permaneceu estável em 9,6%.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "The Information: Entergy avisou a Amazon que cortaria os data centers da AWS no Mississippi da rede em horários de pico",
+      "links": [
+        "https://x.com/kimmonismus/status/2109557215900131721"
+      ],
+      "summary": "The Information relata que a Entergy alertou a Amazon sobre a interrupção do fornecimento de energia para os data centers da AWS no Mississippi durante picos de demanda. Em resposta, a AWS desenvolveu o \"Project Falcon\", permitindo que a concessionária mude esses locais para energia de backup sem contato direto.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "JetBrains Research, SWE-TaskFlow",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2109558942594404854",
+        "https://arxiv.org/abs/2610.09633"
+      ],
+      "summary": "A JetBrains Research estudou 4.782 sessões reais de agentes de codificação em SWE-TaskFlow, descobrindo que recursos e correções de bugs representavam menos da metade das solicitações. Dividir 700 problemas do SWE-Bench Pro em fluxos multi-turn dobrou o custo do agente sem alterar a taxa de sucesso.",
+      "published_at": "2026-10-07",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "UC San Diego, 'Modelos Mentais para Sistemas Multiagente'",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2109543088159174915",
+        "https://arxiv.org/abs/2610.12453"
+      ],
+      "summary": "Pesquisadores da UC San Diego desenvolveram um modelo de crença de parceiro para pontuar respostas candidatas durante o aprendizado por reforço para um agente de negociação/cooperação de 7B. O agente implantado opera sem esse modelo.",
+      "published_at": "2026-10-08",
+      "date": "2026-10-11"
+    },
     {
       "title": "WIRED: HarperCollins, Simon & Schuster e Hachette estão usando Claude e ChatGPT na produção editorial",
       "links": [

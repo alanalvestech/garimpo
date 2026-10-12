@@ -1,8 +1,434 @@
 {
   "category": "GitHubTrending",
-  "updated_at": "2026-10-11 16:21 UTC",
+  "updated_at": "2026-10-12 19:52 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "pytorch",
+      "links": [
+        "https://github.com/pytorch/pytorch"
+      ],
+      "stars": 104730,
+      "language": "Python",
+      "summary": "Tensores e redes neurais dinâmicas em Python com forte aceleração de GPU",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "Apollo-11",
+      "links": [
+        "https://github.com/chrislgarry/Apollo-11"
+      ],
+      "stars": 74632,
+      "language": "Assembly",
+      "summary": "Código-fonte original do Computador de Orientação da Apollo 11 (AGC) para os módulos de comando e lunar.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "airllm",
+      "links": [
+        "https://github.com/lyogavin/airllm"
+      ],
+      "stars": 37368,
+      "language": "Jupyter Notebook",
+      "license": "Apache-2.0",
+      "summary": "Inferência AirLLM 70B com uma única GPU de 4GB",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "nvidia-macos-driver",
+      "links": [
+        "https://github.com/nullmoth/nvidia-macos-driver"
+      ],
+      "stars": 2725,
+      "language": "Rust",
+      "summary": "Driver Metal para placas NVIDIA GeForce RTX no macOS 15 Sequoia (Intel / OpenCore). Gratuito, código-fonte incluído.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "Orkas",
+      "links": [
+        "https://github.com/Orkas-AI/Orkas"
+      ],
+      "stars": 2171,
+      "language": "JavaScript",
+      "license": "MIT",
+      "summary": "Orkas é um aplicativo de desktop de IA de código aberto e local-first: um LLM comandante direciona sub-agentes especialistas e executa seus CLIs de codificação instalados - Claude Code, Codex, OpenCode, OpenClaw, Hermes - como sessões locais. Os agentes evoluem por meio de reflexão e cristalização de habilidades. Traga suas próprias chaves. macOS / Windows / Linux.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "olake",
+      "links": [
+        "https://github.com/datazip-inc/olake"
+      ],
+      "stars": 1476,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "summary": "OLake - Replicação mais rápida de Bancos de Dados, Kafka e S3 para Apache Iceberg com otimização de Tabela (Chamado OLake Fusion). ⚡ Ingestão de dados eficiente, rápida e escalável para análises em tempo real. Fontes suportadas: Postgres, MongoDB, MySQL, Oracle, MSSql, DB2, Kafka, S3.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "sdk-python",
+      "links": [
+        "https://github.com/temporalio/sdk-python"
+      ],
+      "stars": 1218,
+      "language": "Python",
+      "license": "MIT",
+      "summary": "SDK Temporal para Python",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "muguet",
+      "links": [
+        "https://github.com/c22dev/muguet"
+      ],
+      "stars": 525,
+      "language": "Rust",
+      "license": "GPL-3.0",
+      "summary": "Um port nativo Mach-O para iOS/macOS de GTA V, com multiplayer",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "Oleafly",
+      "links": [
+        "https://github.com/Oleafly/Oleafly"
+      ],
+      "stars": 226,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "summary": "O espaço de trabalho de pesquisa assistido por IA local-first para escrita e publicação científica. Pesquise, Escreva, Compile, Verifique e Publique em LaTeX • Typst • Markdown • Git-nativo • Código Aberto • Desempenho de Desktop",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "Telegram-Archive",
+      "links": [
+        "https://github.com/GeiserX/Telegram-Archive"
+      ],
+      "stars": 224,
+      "language": "Python",
+      "license": "GPL-3.0",
+      "summary": "Controle seu histórico do Telegram. Backups automatizados e incrementais com um visualizador web local que se parece com o aplicativo real. Pronto para Docker e suporta compartilhamento de chat público",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "capgo-skills",
+      "links": [
+        "https://github.com/Cap-go/capgo-skills"
+      ],
+      "stars": 72,
+      "language": "JavaScript",
+      "summary": "Habilidades para agentes de codificação de IA que trabalham com Capacitor (anteriormente capacitor-skills)",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "tale",
+      "links": [
+        "https://github.com/tale-project/tale"
+      ],
+      "stars": 34,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "Espaço de trabalho de projeto de código aberto para equipes e agentes de IA. Atribua tarefas, coordene agentes em sandboxes persistentes e revise os resultados juntos. Auto-hospedado ou nuvem gerenciada.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "kaspar-hft",
+      "links": [
+        "https://github.com/vincent212/kaspar-hft"
+      ],
+      "stars": 34,
+      "language": "C++",
+      "summary": "Sistema HFT de produção C++20 e simulador de livro de ofertas. Algoritmo de execução pronto para uso (porcentagem do volume) que segue o fluxo natural de ordens. Simulador de livro de ofertas ciente da posição na fila, decodificador MDP3, iLink 3, replay PCAP, framework de ator personalizado com sobrecarga de poucos nanossegundos. Mesmo código de estratégia em backtesting e negociação ao vivo.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "FreeImageRe",
+      "links": [
+        "https://github.com/agruzdev/FreeImageRe"
+      ],
+      "stars": 31,
+      "language": "C++",
+      "summary": "FreeImage Re(surrected) - fork da biblioteca FreeImage para manter e estender",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "rfig",
+      "links": [
+        "https://github.com/tamia6/rfig"
+      ],
+      "stars": 19,
+      "language": "Python",
+      "license": "MIT",
+      "summary": "Menus de conclusão de comando e sugestões automáticas baseadas no histórico para zsh, Bash e Fish no macOS e Linux",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "plainsay",
+      "links": [
+        "https://github.com/conrader/plainsay"
+      ],
+      "stars": 12,
+      "language": "Swift",
+      "license": "MIT",
+      "summary": "Ditado nativo do Mac em um download de 12 MB. Modo Local gratuito com Whisper + Parakeet, benchmarks reproduzíveis, Cloud opcional. Cliente com licença MIT.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "MemStats",
+      "links": [
+        "https://github.com/sown-oss/MemStats"
+      ],
+      "stars": 8,
+      "language": "Swift",
+      "license": "MIT",
+      "summary": "Um aplicativo leve para a barra de menus do macOS focado no monitoramento de memória para múltiplos usuários",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "TunnelFlow",
+      "links": [
+        "https://github.com/XRSec/TunnelFlow"
+      ],
+      "stars": 7,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "Gerenciador de Túnel SSH e Encaminhamento de Porta Multiplataforma de Próxima Geração. Projetado para macOS, Windows e Linux.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "clink",
+      "links": [
+        "https://github.com/orhaugh/clink"
+      ],
+      "stars": 5,
+      "language": "C++",
+      "license": "Apache-2.0",
+      "summary": "Processamento de fluxo para pipelines Kafka que devem permanecer corretos quando os processos morrem. SQL, tempo de evento, estado com chave e entrega exatamente uma vez em C++ moderno: um processo em um laptop, embarcado ou um cluster. Sem JVM.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "gozen",
+      "links": [
+        "https://github.com/tech-thinker/gozen"
+      ],
+      "stars": 4,
+      "language": "Go",
+      "license": "GPL-3.0",
+      "summary": "Gerador de código MVC Golang simplificado.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "inlaut",
+      "links": [
+        "https://github.com/tobymarks/inlaut"
+      ],
+      "stars": 3,
+      "language": "HTML",
+      "license": "GPL-3.0",
+      "summary": "Ditado gratuito e de código aberto na barra de menus do macOS que nunca sai do seu Mac. Fala para texto no dispositivo para alemão e inglês, uma alternativa local a Wispr Flow e Superwhisper.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "monocrawl-mcp",
+      "links": [
+        "https://github.com/monocrawl/monocrawl-mcp"
+      ],
+      "stars": 3,
+      "language": "JavaScript",
+      "license": "MIT",
+      "summary": "Servidor Monocrawl MCP e habilidade de agente: dados públicos ao vivo de mais de 70 plataformas para agentes de IA",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "spillage",
+      "links": [
+        "https://github.com/maximilianfeix/spillage"
+      ],
+      "stars": 3,
+      "language": "Python",
+      "license": "MIT",
+      "summary": "Mantenha as chaves de API fora de seus agentes de codificação: hooks que bloqueiam o vazamento em Claude Code, Codex e Gemini CLI, uma varredura para o que já vazou nos logs de 14 agentes e uma limpeza.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "dropthehassle-mcp",
+      "links": [
+        "https://github.com/bosmdavid-gif/dropthehassle-mcp"
+      ],
+      "stars": 3,
+      "language": "JavaScript",
+      "license": "MIT",
+      "summary": "Deixe sua IA colocar seu site no ar em seu próprio domínio",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "qrx-mcp",
+      "links": [
+        "https://github.com/qrxcodes/qrx-mcp"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "summary": "Servidor QRX MCP: códigos QR artísticos que sempre escaneiam, para Claude, Cursor, VS Code e outros clientes MCP.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "hootlens-mcp",
+      "links": [
+        "https://github.com/Parallel-Platforms/hootlens-mcp"
+      ],
+      "stars": 2,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "Servidor Hoot Lens MCP: investigue visitas a sites, replays, mapas de cliques, funis e descobertas com acesso restrito ao projeto. Demonstração sintética anônima incluída.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "blawgy-mcp",
+      "links": [
+        "https://github.com/adamgusky/blawgy-mcp"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "summary": "Servidor Blawgy MCP: pesquise palavras-chave, planeje, escreva, atualize e publique posts de blog SEO de qualquer agente de IA",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "catastro_gps_mcp",
+      "links": [
+        "https://github.com/TheHiddenPandaDev/catastro_gps_mcp"
+      ],
+      "stars": 1,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "Servidor MCP para parcelas de terra oficiais de 29 países europeus: referência, coordenadas, endereço, contorno, terreno, movimento do solo. Catastro GPS / Parcel GPS.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "zsh-ls-branch-label",
+      "links": [
+        "https://github.com/freddi-kit/zsh-ls-branch-label"
+      ],
+      "stars": 1,
+      "language": "Shell",
+      "license": "MIT",
+      "summary": "Plugin zsh que mostra o branch git atual ao lado dos diretórios do repositório na saída do ls",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "zdx-suite",
+      "links": [
+        "https://github.com/landerox/zdx-suite"
+      ],
+      "stars": 1,
+      "language": "Shell",
+      "license": "MIT",
+      "summary": "Suítes de desenvolvedor interativas, alimentadas por fzf, e carregador de plugin personalizado para Zsh - construído como um complemento para Oh My Zsh.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "partner-theme-zsh",
+      "links": [
+        "https://github.com/epicseven-cup/partner-theme-zsh"
+      ],
+      "stars": 1,
+      "language": "Shell",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "open-reports",
+      "links": [
+        "https://github.com/varaprasadreddy9676/open-reports"
+      ],
+      "stars": 0,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "Designer de relatórios e motor de renderização de código aberto e auto-hospedado. Modelos JSON, designer incorporável, saída PDF/API e um importador JRXML que cria rascunhos revisáveis.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "cakephp-i18n-lint",
+      "links": [
+        "https://github.com/dereuromark/cakephp-i18n-lint"
+      ],
+      "stars": 0,
+      "language": "PHP",
+      "license": "MIT",
+      "summary": "Verificação de desvio POT, sincronização PO e linting PO para plugins e aplicativos CakePHP",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "edgepedia-mcp",
+      "links": [
+        "https://github.com/EdgePlat/edgepedia-mcp"
+      ],
+      "stars": 0,
+      "license": "MIT",
+      "summary": "Servidor MCP oficial para Edgepedia: pesquise e leia uma enciclopédia gratuita com citações de Claude, ChatGPT, Cursor e qualquer cliente MCP. Sem chave.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "coop-game-night-data",
+      "links": [
+        "https://github.com/gegewang774-hue/coop-game-night-data"
+      ],
+      "stars": 0,
+      "language": "JavaScript",
+      "license": "MIT",
+      "summary": "Observações de jogos cooperativos datadas com fontes oficiais, uma lista de verificação de planejamento reutilizável e um filtro de tamanho de grupo local.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "planet-zoo-2-dataset",
+      "links": [
+        "https://github.com/odebo/planet-zoo-2-dataset"
+      ],
+      "stars": 0,
+      "summary": "Conjunto de dados de lançamento do Planet Zoo 2 legível por máquina: 130 espécies + matriz de coabitação de 1.221 pares, CC BY 4.0. Renderizado em pz2tools.wiki",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "open-data",
+      "links": [
+        "https://github.com/playersells/open-data"
+      ],
+      "stars": 0,
+      "language": "Python",
+      "license": "CC-BY-4.0",
+      "summary": "Dados abertos do PlayerSells: medições agregadas de X, Telegram, YouTube, TikTok, Bluesky, Kick e Twitch (CC BY 4.0)",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "certview",
+      "links": [
+        "https://github.com/jnnrgd/certview"
+      ],
+      "stars": 0,
+      "language": "Shell",
+      "license": "CC0-1.0",
+      "summary": "Um plugin Oh My Zsh para inspeção e verificação rápidas de certificados X.509, CSRs e chaves criptográficas (RSA, ECC, Ed25519) nos formatos PEM e DER.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "oh-my-zsh-debian",
+      "links": [
+        "https://github.com/tmiland/oh-my-zsh-debian"
+      ],
+      "stars": 0,
+      "language": "Shell",
+      "license": "MIT",
+      "summary": "Este plugin fornece aliases e funções relacionadas ao Debian para zsh.",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "pratchett",
+      "links": [
+        "https://github.com/loudoncloud/pratchett"
+      ],
+      "stars": 0,
+      "language": "Python",
+      "summary": "Citações aleatórias de Terry Pratchett para o seu terminal, com uma pequena ajuda da MORTE",
+      "date": "2026-10-11"
+    },
     {
       "title": "andrej-karpathy-skills",
       "links": [
