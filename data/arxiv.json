@@ -1,8 +1,93 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-12 19:52 UTC",
+  "updated_at": "2026-10-13 17:40 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "MagicBeanStalk: Escapando da Armadilha de Vantagem Zero RLVR com Síntese Recursiva de Dados",
+      "links": [
+        "https://arxiv.org/abs/2610.12659"
+      ],
+      "summary": "O MagicBeanStalk aborda o problema de dados de treinamento com \"vantagem zero\" em RLVR, onde problemas são sempre resolvidos ou sempre falham. Ele decompõe problemas difíceis e gera famílias de dados calibradas por política e orçamento, melhorando significativamente o desempenho de LLMs em tarefas de raciocínio.",
+      "authors": [
+        "Ximing Lu",
+        "Aviral Kumar",
+        "Jan Kautz",
+        "Yejin Choi",
+        "David Acuna"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-12"
+    },
+    {
+      "title": "EvoBelief: Modelos de Mundo Falseáveis para Agentes LLM Autoaperfeiçoáveis",
+      "links": [
+        "https://arxiv.org/abs/2610.12789"
+      ],
+      "summary": "EvoBelief propõe que modelos de mundo para agentes LLM devem ter crenças falseáveis sobre a dinâmica, onde regras são validadas por observações e revisadas por contraexemplos. Isso permite que o agente aprenda e corrija sua compreensão do mundo, resultando em melhor desempenho em ambientes complexos.",
+      "authors": [
+        "Janet Wang",
+        "Jiang Guo",
+        "Yi Xiang",
+        "Jiaqing Yuan",
+        "Mingwen Dong",
+        "Hideo Kobayashi et al."
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-12"
+    },
+    {
+      "title": "Um Modelo para Loopar Todos Eles: Recorrência Latente Elástica para Modelos de Linguagem",
+      "links": [
+        "https://arxiv.org/abs/2610.12582"
+      ],
+      "summary": "O Elastic Latent Recurrence (ELR) permite que modelos de linguagem recorrentes funcionem eficientemente com um único checkpoint, eliminando a desvantagem de desempenho em um único loop. Ele melhora significativamente a precisão com múltiplos loops, mantendo o uso de memória baixo, o que é crucial para a implantação de modelos versáteis.",
+      "authors": [
+        "Faisal Ladhak",
+        "Shantanu Acharya",
+        "Santiago Akle Serano",
+        "Simeng Sun",
+        "Boris Ginsburg",
+        "Krishna C Puvvada"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-12"
+    },
+    {
+      "title": "Modelagem de Recompensa Multimodal Não Supervisionada",
+      "links": [
+        "https://arxiv.org/abs/2610.12707"
+      ],
+      "summary": "Este trabalho apresenta um modelo de recompensa multimodal não supervisionado que aprende a pontuar preferências sem etiquetas humanas, utilizando perturbações de imagens e legendas da web. O método supera modelos supervisionados em benchmarks, demonstrando que a especificação da recompensa é mais importante do que a quantidade de dados rotulados.",
+      "authors": [
+        "Yueying Li",
+        "Jingxuan Fan",
+        "Kianté Brantley",
+        "Sham M. Kakade",
+        "Hanlin Zhang"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-12"
+    },
+    {
+      "title": "VEPA: Política Formal Evolutiva Verificada para Guardrails de Agentes LLM de Longa Duração",
+      "links": [
+        "https://arxiv.org/abs/2610.12813"
+      ],
+      "summary": "VEPA propõe um sistema de guardrails para agentes LLM que combina políticas formais verificáveis com a capacidade de evolução via LLMs, garantindo segurança e adaptabilidade. As atualizações são aceitas apenas por um verificador determinístico, superando baselines em benchmarks de segurança e robustez.",
+      "authors": [
+        "Duy Nguyen",
+        "Lesly Miculicich",
+        "Bhavana Dalvi Mishra",
+        "Shuo Li",
+        "Krishnamurthy Dj Dvijotham",
+        "Mohit Bansal",
+        "Tomas Pfister",
+        "Long T. Le"
+      ],
+      "published_at": "2026-10-08",
+      "date": "2026-10-12"
+    },
     {
       "title": "RSI-Anything: Desbloqueando a Auto-Melhoria Recursiva com Modelos de Mundo",
       "links": [
