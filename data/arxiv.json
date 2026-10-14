@@ -1,8 +1,103 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-13 17:40 UTC",
+  "updated_at": "2026-10-14 15:14 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Tev: Escalando Ambientes Agênticos de Longo Horizonte com Recompensas de Progresso Densas",
+      "links": [
+        "https://arxiv.org/abs/2610.18868"
+      ],
+      "summary": "Tev constrói um mundo latente, uma especificação oculta completa do domínio e fluxo de trabalho, para renderizar tarefas onde o progresso é quantificável. A modelagem de recompensa de potencial de progresso converte essa métrica em uma recompensa por etapa, superando os desafios de recompensas esparsas em ambientes agênticos de longo horizonte.",
+      "authors": [
+        "Wenbo Hu",
+        "Shraman Pramanick",
+        "Krishna Kumar Singh",
+        "Nanyun Peng",
+        "Kai-Wei Chang",
+        "Yong Jae Lee"
+      ],
+      "published_at": "2026-10-13",
+      "date": "2026-10-13"
+    },
+    {
+      "title": "A autodestilação melhora o raciocínio?",
+      "links": [
+        "https://arxiv.org/abs/2610.18613"
+      ],
+      "summary": "Estudos com SDPO e OPSD em diversas áreas não demonstram melhorias no raciocínio em problemas não vistos, indicando superajuste ou transferência de comportamentos existentes. A destilação privilegiada que não otimiza a política para a recompensa se torna um método de ajuste supervisionado mais custoso.",
+      "authors": [
+        "Jason Ken Adhinarta",
+        "Raina Wu",
+        "Ashutosh Sharma",
+        "Avinash Balakrishnan",
+        "Rameswar Panda",
+        "Polina Golland",
+        "Yoon Kim",
+        "Zhang-Wei Hong"
+      ],
+      "published_at": "2026-10-13",
+      "date": "2026-10-13"
+    },
+    {
+      "title": "HarnessTTT: Aprenda a Otimizar o Harness em Tempo de Teste para Descoberta Científica",
+      "links": [
+        "https://arxiv.org/abs/2610.17370"
+      ],
+      "summary": "HarnessTTT treina o proponente do harness, que inclui o prompt do sistema e ferramentas, enquanto o executor permanece inalterado. Este método permite que um executor congelado de 9B supere benchmarks existentes e transfira esses harnesses para modelos mais potentes.",
+      "authors": [
+        "Yingzi Ma",
+        "Yulong Cao",
+        "Nanxi Li",
+        "Fang Wu",
+        "Yizhe Zhang",
+        "James Zou",
+        "Yejin Choi",
+        "Chaowei Xiao"
+      ],
+      "published_at": "2026-10-12",
+      "date": "2026-10-13"
+    },
+    {
+      "title": "Atenção de Cabeça Virtual",
+      "links": [
+        "https://arxiv.org/abs/2610.17959"
+      ],
+      "summary": "A Atenção de Cabeça Virtual (VHA) integra operações lineares adicionais nas projeções Q/O existentes, permitindo um serviço GQA-2 simples e eficiente. Este método, com dois cabeçalhos KV, supera GQA-4 e MLA em benchmarks, demonstrando que é possível melhorar a qualidade e eficiência sem aumentar os FLOPs de serviço.",
+      "authors": [
+        "Xibo Ding",
+        "Guoxia Wang",
+        "Jinle Zeng",
+        "Jiabin Yang",
+        "Sirui Tao",
+        "Chao Yang",
+        "Dianhai Yu"
+      ],
+      "published_at": "2026-10-13",
+      "date": "2026-10-13"
+    },
+    {
+      "title": "TacitVLA: Modelos de Visão-Linguagem-Ação com Raciocínio Sem Latência de Raciocínio",
+      "links": [
+        "https://arxiv.org/abs/2610.17540"
+      ],
+      "summary": "TacitVLA permite que modelos VLA utilizem raciocínio textual sem a latência da Cadeia de Pensamento explícita, pois o especialista em ação não atende ao raciocínio gerado na chamada atual. O modelo iguala o desempenho de VLAs com raciocínio explícito com latência significativamente menor e supera modelos sem raciocínio com a mesma latência.",
+      "authors": [
+        "Jack Lu",
+        "Yurong You",
+        "Boyi Li",
+        "Yulong Cao",
+        "Thomas Tian",
+        "Chaowei Xiao",
+        "Xiangyu Chen",
+        "Wenjie Luo",
+        "Boris Ivanovic",
+        "Marco Pavone",
+        "Yan Wang"
+      ],
+      "published_at": "2026-10-13",
+      "date": "2026-10-13"
+    },
     {
       "title": "MagicBeanStalk: Escapando da Armadilha de Vantagem Zero RLVR com Síntese Recursiva de Dados",
       "links": [
