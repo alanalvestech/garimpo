@@ -1,8 +1,386 @@
 {
   "category": "Papers",
-  "updated_at": "2026-10-04 22:18 UTC",
+  "updated_at": "2026-10-15 22:10 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "A Qualquer Hora, Em Qualquer Lugar: Um Framework Centrado no Estado do Mundo para Geração de Vídeos Agênticos",
+      "links": [
+        "https://huggingface.co/papers/2610.20571",
+        "https://arxiv.org/abs/2610.20571"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Além da Supervisão Orientada por Domínio: Proteção Cruzada de Professores para Destilação On-Policy Multi-Professor",
+      "links": [
+        "https://huggingface.co/papers/2610.13521",
+        "https://arxiv.org/abs/2610.13521"
+      ],
+      "published_at": "2026-10-09",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Player-1: Aprendendo a Jogar a Partir de Experiência Sintética",
+      "links": [
+        "https://huggingface.co/papers/2610.20584",
+        "https://arxiv.org/abs/2610.20584"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Doc2Harness: Avaliando LLMs na Engenharia de Harness de Longo Prazo para Agentes de Codificação",
+      "links": [
+        "https://huggingface.co/papers/2610.20344",
+        "https://arxiv.org/abs/2610.20344"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Mais Métodos, Melhores Agentes? Uma Verificação da Realidade sobre a Auto-Destilação na Aprendizagem por Reforço Agêntica",
+      "links": [
+        "https://huggingface.co/papers/2610.19789",
+        "https://arxiv.org/abs/2610.19789"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Recuperando Supervisão Confiável via Destilação On-Policy Guiada por Crítica",
+      "links": [
+        "https://huggingface.co/papers/2610.20572",
+        "https://arxiv.org/abs/2610.20572"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "LatentLoop: Escalando Modelos MoE em Loop com Alocação Assimétrica de Computação",
+      "links": [
+        "https://huggingface.co/papers/2610.19975",
+        "https://arxiv.org/abs/2610.19975"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Cortex: Consolidando Contexto em Memória Paramétrica",
+      "links": [
+        "https://huggingface.co/papers/2610.20399",
+        "https://arxiv.org/abs/2610.20399"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "ActionOPD: Destilando Decisões, Não Tokens",
+      "links": [
+        "https://huggingface.co/papers/2610.19820",
+        "https://arxiv.org/abs/2610.19820"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Vendo, Mantendo e Aprendendo: A Evolução da Memória de Agentes Multimodais",
+      "links": [
+        "https://huggingface.co/papers/2610.19366",
+        "https://arxiv.org/abs/2610.19366"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "LensErase: Um Modelo de Fundação para Apagar Qualquer Coisa",
+      "links": [
+        "https://huggingface.co/papers/2610.18072",
+        "https://arxiv.org/abs/2610.18072"
+      ],
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "KV4-RL: Desbloqueando Rollouts Assíncronos Mais Rápidos para RLVR com Quantização de Cache KV INT4",
+      "links": [
+        "https://huggingface.co/papers/2610.14448",
+        "https://arxiv.org/abs/2610.14448"
+      ],
+      "published_at": "2026-10-10",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Rumo a Robôs Agênticos: Modelo, Dados, Ambiente e Harness",
+      "links": [
+        "https://huggingface.co/papers/2610.20442",
+        "https://arxiv.org/abs/2610.20442"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Agentes de Raciocínio Híbrido",
+      "links": [
+        "https://huggingface.co/papers/2610.18861",
+        "https://arxiv.org/abs/2610.18861"
+      ],
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "CLASHarness: Avaliando Conflitos Multiagente no Uso de Computadores via um Pipeline de Geração Controlável e Verificável",
+      "links": [
+        "https://huggingface.co/papers/2610.19128",
+        "https://arxiv.org/abs/2610.19128"
+      ],
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Muitas Respostas Certas, Um Exemplo de Treinamento: Removendo Ruído do Respondedor do GRPO para Recomendadores LLM",
+      "links": [
+        "https://huggingface.co/papers/2610.17771",
+        "https://arxiv.org/abs/2610.17771"
+      ],
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "O Vazamento de Pensamento na Aprendizagem por Reforço para LLMs",
+      "links": [
+        "https://huggingface.co/papers/2610.14270",
+        "https://arxiv.org/abs/2610.14270"
+      ],
+      "published_at": "2026-10-09",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "RuleTrek: Avaliando o Raciocínio de Regras Agênticas em Cenários Complexos",
+      "links": [
+        "https://huggingface.co/papers/2610.19698",
+        "https://arxiv.org/abs/2610.19698"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Super-Resolução no Espaço Latente Certo: Um Substrato de Visão-Fundação Congelado",
+      "links": [
+        "https://huggingface.co/papers/2610.04781",
+        "https://arxiv.org/abs/2610.04781"
+      ],
+      "published_at": "2026-10-03",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "HumanoidToolBench: Avaliando o Uso de Ferramentas por Humanoides da Seleção à Execução Móvel",
+      "links": [
+        "https://huggingface.co/papers/2610.02089",
+        "https://arxiv.org/abs/2610.02089"
+      ],
+      "published_at": "2026-10-01",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "APT: Pós-Treinamento Agêntico Orientado por Feedback para Geração de Texto para Imagem",
+      "links": [
+        "https://huggingface.co/papers/2610.18097",
+        "https://arxiv.org/abs/2610.18097"
+      ],
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "DecisionRobust: Avaliando a Robustez para Modelos de Decisão Estilo JEV em Texto e Visão",
+      "links": [
+        "https://huggingface.co/papers/2610.19118",
+        "https://arxiv.org/abs/2610.19118"
+      ],
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "LabInstruct: Avaliando a Geração de Vídeos Instrucionais Situados para Procedimentos de Laboratório",
+      "links": [
+        "https://huggingface.co/papers/2610.14020",
+        "https://arxiv.org/abs/2610.14020"
+      ],
+      "published_at": "2026-09-29",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "SwarmRSI: Autoaperfeiçoamento Recursivo Através de um Enxame de Agentes Científicos em Evolução",
+      "links": [
+        "https://huggingface.co/papers/2610.20431",
+        "https://arxiv.org/abs/2610.20431"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "τ-Emotion-Bench: Expondo a Fragilidade da Interação de Agentes LLM Através de Emoções Reais de Usuários",
+      "links": [
+        "https://huggingface.co/papers/2610.19560",
+        "https://arxiv.org/abs/2610.19560"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "SkillMarker: Um Método de Marca d'Água Baseado em KGW para Verificação de Propriedade de Habilidades de Agentes",
+      "links": [
+        "https://huggingface.co/papers/2610.15725",
+        "https://arxiv.org/abs/2610.15725"
+      ],
+      "published_at": "2026-10-11",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "RAR: Rollout Adaptativo de Taxa para Modelos de Mundo Interativos Consistentes no Tempo",
+      "links": [
+        "https://huggingface.co/papers/2610.16302",
+        "https://arxiv.org/abs/2610.16302"
+      ],
+      "published_at": "2026-10-12",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "ProgAgent: Aprendendo Orquestração de Ferramentas Através de Treinamento Programático",
+      "links": [
+        "https://huggingface.co/papers/2610.14774",
+        "https://arxiv.org/abs/2610.14774"
+      ],
+      "published_at": "2026-10-10",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "GroundGUI: Aterramento de GUI por Dados de Alta Qualidade e Destilação para Aprendizagem por Reforço",
+      "links": [
+        "https://huggingface.co/papers/2610.19100",
+        "https://arxiv.org/abs/2610.19100"
+      ],
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Apertus 1.5: De Modelos de Texto Abertos a Raciocinadores Multimodais Abertos",
+      "links": [
+        "https://huggingface.co/papers/2610.15542",
+        "https://arxiv.org/abs/2610.15542"
+      ],
+      "published_at": "2026-10-11",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Refinamento Eficiente de Texto em Cena via Geração de Imagens Agrupadas no Espaço de Pixels",
+      "links": [
+        "https://huggingface.co/papers/2610.18284",
+        "https://arxiv.org/abs/2610.18284"
+      ],
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Estamos Testando Demais? Uma Pesquisa sobre Compressão de Benchmarks para Avaliação Eficiente de Grandes Modelos de Linguagem",
+      "links": [
+        "https://huggingface.co/papers/2610.18248",
+        "https://arxiv.org/abs/2610.18248"
+      ],
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "APEX-Harm: Avaliando a Segurança de Agentes em Espaços de Trabalho Profissionais Compartilhados",
+      "links": [
+        "https://huggingface.co/papers/2610.13623",
+        "https://arxiv.org/abs/2610.13623"
+      ],
+      "published_at": "2026-10-09",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Diagnosticando e Corrigindo o Reward Hacking na Execução de Instruções Verificáveis",
+      "links": [
+        "https://huggingface.co/papers/2610.19525",
+        "https://arxiv.org/abs/2610.19525"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "RL de Longo Horizonte Precisa de Muon",
+      "links": [
+        "https://huggingface.co/papers/2610.20256",
+        "https://arxiv.org/abs/2610.20256"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Atenção Esparsa de Subespaço Conjunto para Decodificação Eficiente de Contexto Longo",
+      "links": [
+        "https://huggingface.co/papers/2610.19026",
+        "https://arxiv.org/abs/2610.19026"
+      ],
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "SafeDriveVLA: Sonho de Modelo de Mundo Condicionado à Navegação para Condução Autônoma Ponta a Ponta Consciente de Conflitos",
+      "links": [
+        "https://huggingface.co/papers/2610.20609",
+        "https://arxiv.org/abs/2610.20609"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Destilação de LLM para Fluxo: Ensinando Metas de Linguagem Natural a Geradores Científicos",
+      "links": [
+        "https://huggingface.co/papers/2610.17246",
+        "https://arxiv.org/abs/2610.17246"
+      ],
+      "published_at": "2026-10-12",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Compartilhe o Símbolo, Não o Vetor: Comunicação de Fatos Sem Treinamento Entre Modelos de Linguagem",
+      "links": [
+        "https://huggingface.co/papers/2610.19696",
+        "https://arxiv.org/abs/2610.19696"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "O Que Torna as Interações de um Agente Social Eficazes? Aprendendo com Resultados Verificáveis em Mundos Emparelhados",
+      "links": [
+        "https://huggingface.co/papers/2610.20195",
+        "https://arxiv.org/abs/2610.20195"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "De Falhas a Mundos Aprendíveis: Geração de Ambientes Condicionada por Políticas para Agentes de Navegação",
+      "links": [
+        "https://huggingface.co/papers/2610.19420",
+        "https://arxiv.org/abs/2610.19420"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Repensando o Treinamento de Projetores em LLMs Multimodais",
+      "links": [
+        "https://huggingface.co/papers/2610.18598",
+        "https://arxiv.org/abs/2610.18598"
+      ],
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
     {
       "title": "Crédito Preditivo: Medindo o Que as Explicações Científicas Adicionam às Previsões Experimentais",
       "links": [
