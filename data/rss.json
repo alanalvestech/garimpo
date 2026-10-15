@@ -1,8 +1,446 @@
 {
   "category": "RSS",
-  "updated_at": "2026-10-14 15:14 UTC",
+  "updated_at": "2026-10-15 15:07 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Gudea usa IA para ajudar organizações a prevenir crises em mídias sociais antes que elas surjam",
+      "links": [
+        "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/"
+      ],
+      "summary": "A Gudea monitora conversas sociais em busca de desinformação, discurso de ódio ou rumores gerados por IA. O objetivo é identificar e prevenir crises em mídias sociais antes que se agravem.",
+      "published_at": "2026-10-15",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Datalab lança OmniParseBench: um benchmark OCR aberto com 16.288 testes de aprovação/reprovação para auditar parsers OCR",
+      "links": [
+        "https://www.marktechpost.com/2026/10/14/datalab-omniparsebench-open-ocr-document-parsing-benchmark/"
+      ],
+      "summary": "O OmniParseBench oferece 16.288 testes de sim/não em 2.937 páginas e 92 idiomas. Ele avalia parsers OCR com taxas de aprovação segmentáveis por tag, script ou idioma.",
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Fish Audio lança Drama 3, um modelo Text-to-Speech MoE de peso aberto de 35B",
+      "links": [
+        "https://www.marktechpost.com/2026/10/14/fish-audio-drama-3-open-weight-tts-model/"
+      ],
+      "summary": "Drama 3 é um modelo Text-to-Speech (TTS) MoE de 35 bilhões de parâmetros, com cerca de 3 bilhões ativos. Ele suporta 83 idiomas e possui pesos abertos sob uma licença comunitária com limite de receita.",
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Tree Appreciator",
+      "links": [
+        "https://simonwillison.net/2026/Oct/14/tree-appreciator/"
+      ],
+      "summary": "Simon Willison usou o Claude Opus 5.5 Max, via aplicativo de chat do iPhone, para construir um jogo em three.js.",
+      "authors": [
+        "Simon Willison"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Primeiro Exame da Artificialidade: Um C-test Referenciado por LLM para Suprainteligência",
+      "links": [
+        "https://arxiv.org/abs/2610.14005"
+      ],
+      "summary": "Este artigo propõe um C-test referenciado por LLM para avaliar a suprainteligência artificial.",
+      "published_at": "2026-09-27",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "As Falhas Silenciosas na Ciência de Dados Agêntica",
+      "links": [
+        "https://arxiv.org/abs/2610.14115"
+      ],
+      "summary": "O estudo investiga as falhas que ocorrem silenciosamente em sistemas de ciência de dados baseados em agentes.",
+      "published_at": "2026-10-09",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "ClawLoop: Agentes Autoaperfeiçoáveis via Loop de Treinamento Nativo de Harness",
+      "links": [
+        "https://arxiv.org/abs/2610.14118"
+      ],
+      "summary": "ClawLoop apresenta um método para agentes autoaperfeiçoáveis usando um loop de treinamento nativo de harness.",
+      "published_at": "2026-10-09",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Long-Horizon-Terminal-Bench 2.0: Automatizando a Construção de Tarefas Diversas e Medindo o Progresso Sustentado de Agentes",
+      "links": [
+        "https://arxiv.org/abs/2610.14146"
+      ],
+      "summary": "A versão 2.0 do Long-Horizon-Terminal-Bench automatiza a criação de tarefas diversas. Ele mede o progresso contínuo de agentes em cenários de longo prazo.",
+      "published_at": "2026-10-09",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "SLMs Devem Estar no Comando? Um Estudo de Modelos Locais como Intérpretes em Programas de Agentes Escritos na Nuvem",
+      "links": [
+        "https://arxiv.org/abs/2610.14209"
+      ],
+      "summary": "Este estudo examina o papel de Small Language Models (SLMs) como intérpretes em programas de agentes desenvolvidos na nuvem.",
+      "published_at": "2026-10-09",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Harness^2: Harnessing Recursivo de Agentes para um Mundo Aberto",
+      "links": [
+        "https://arxiv.org/abs/2610.14224"
+      ],
+      "summary": "Harness^2 propõe um método de harnessing recursivo para agentes. Isso permite que eles operem e se adaptem em ambientes de mundo aberto.",
+      "published_at": "2026-10-09",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Quais Metadados Importam para a Seleção de Ferramentas LLM em MCP? Evidências de Intervenções Controladas em Nível de Fator",
+      "links": [
+        "https://arxiv.org/abs/2610.14334"
+      ],
+      "summary": "A pesquisa investiga a importância de metadados específicos para a seleção de ferramentas por Large Language Models (LLMs) em Multi-Agent Coordination Problems (MCP).",
+      "published_at": "2026-10-09",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "ACED-Bench: Avaliando Como Agentes LLM Adquirem e Agem com Base em Evidências Causais",
+      "links": [
+        "https://arxiv.org/abs/2610.14381"
+      ],
+      "summary": "ACED-Bench é um benchmark para avaliar a capacidade de agentes LLM de adquirir e utilizar evidências causais.",
+      "published_at": "2026-10-09",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Iterar em um LLM, Servir em um SLM",
+      "links": [
+        "https://arxiv.org/abs/2610.14576"
+      ],
+      "summary": "A proposta é desenvolver e iterar modelos em Large Language Models (LLMs). A implantação e o serviço são feitos em Small Language Models (SLMs).",
+      "published_at": "2026-10-10",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "De Métodos Existentes a Novas Ideias de Pesquisa: Duas Perspectivas sobre Autoaperfeiçoamento Recursivo",
+      "links": [
+        "https://arxiv.org/abs/2610.14625"
+      ],
+      "summary": "O artigo explora duas abordagens para o autoaperfeiçoamento recursivo. Ele conecta métodos existentes a novas direções de pesquisa.",
+      "published_at": "2026-10-10",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "ASIWorld: Avaliando Agentes Autônomos em um Sandbox de Sobrevivência Persistente",
+      "links": [
+        "https://arxiv.org/abs/2610.14807"
+      ],
+      "summary": "ASIWorld é um benchmark para avaliar agentes autônomos. Ele os testa em um ambiente de sandbox de sobrevivência persistente.",
+      "published_at": "2026-10-10",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Executar Menos Loops Remove Comportamento de Recusa em Modelos de Linguagem de Profundidade Recorrente",
+      "links": [
+        "https://arxiv.org/abs/2610.15218"
+      ],
+      "summary": "A pesquisa demonstra que reduzir o número de loops pode eliminar comportamentos de recusa em modelos de linguagem de profundidade recorrente.",
+      "published_at": "2026-10-10",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "SpecForge: Autoaperfeiçoamento Recursivo para Agentes de Codificação via Especificações Comportamentais",
+      "links": [
+        "https://arxiv.org/abs/2610.15708"
+      ],
+      "summary": "SpecForge é um método para autoaperfeiçoamento recursivo de agentes de codificação. Ele utiliza especificações comportamentais para guiar o processo.",
+      "published_at": "2026-10-11",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "O Agente Sabia: Estados Internos Preveem Ações Não Autorizadas e as Interrompem, e as Mentiras que se Seguem",
+      "links": [
+        "https://arxiv.org/abs/2610.17301"
+      ],
+      "summary": "Este artigo explora como estados internos de agentes podem prever e impedir ações não autorizadas. Ele também aborda as consequências de tais ações.",
+      "published_at": "2026-10-12",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "AReaL-RSI: Escalonamento Adaptativo e Coordenação de Autoaperfeiçoamento Recursivo",
+      "links": [
+        "https://arxiv.org/abs/2610.18083"
+      ],
+      "summary": "AReaL-RSI propõe um método para escalonamento adaptativo e coordenação de sistemas de autoaperfeiçoamento recursivo.",
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "O Monitoramento da Cadeia de Pensamento Pode Falhar Mesmo Quando CoT é Necessário",
+      "links": [
+        "https://arxiv.org/abs/2610.18105"
+      ],
+      "summary": "A pesquisa mostra que o monitoramento da Cadeia de Pensamento (CoT) pode falhar. Isso ocorre mesmo em cenários onde a CoT é crucial para o desempenho.",
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Monitorando o Raciocínio Latente em Modelos de Linguagem em Loop",
+      "links": [
+        "https://arxiv.org/abs/2610.18127"
+      ],
+      "summary": "O estudo investiga métodos para monitorar o raciocínio latente em modelos de linguagem que utilizam arquiteturas em loop.",
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Harness de Agente Autoevolutivo",
+      "links": [
+        "https://arxiv.org/abs/2610.18813"
+      ],
+      "summary": "Este trabalho apresenta um harness de agente capaz de autoevolução.",
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Quem Melhora o Robô? Rumo ao Autoaperfeiçoamento Recursivo Físico",
+      "links": [
+        "https://arxiv.org/abs/2610.18842"
+      ],
+      "summary": "O artigo explora o conceito de autoaperfeiçoamento recursivo em robôs físicos.",
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Modelos de Raciocínio Inverso para Pós-Treinamento e Verificação Eficientes a Partir de Dados Apenas de Respostas",
+      "links": [
+        "https://arxiv.org/abs/2610.18878"
+      ],
+      "summary": "A pesquisa propõe modelos de raciocínio inverso para pós-treinamento e verificação eficientes. Eles utilizam apenas dados de respostas.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Utilidade de Token para Destilação On-Policy via Otimização Local da Região de Confiança",
+      "links": [
+        "https://arxiv.org/abs/2610.18883"
+      ],
+      "summary": "O estudo investiga a utilidade de tokens para destilação on-policy. Isso é feito através da otimização local da região de confiança.",
+      "published_at": "2026-10-01",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Retropropagando Recompensas do Verificador Através de Modelos de Linguagem de Fluxo Contínuo",
+      "links": [
+        "https://arxiv.org/abs/2610.19080"
+      ],
+      "summary": "O artigo descreve a retropropagação de recompensas de verificadores. Isso é aplicado em modelos de linguagem de fluxo contínuo.",
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "TRACER: Treinamento Regularizado por Rastreamento Contra Injeção Indireta de Prompt",
+      "links": [
+        "https://arxiv.org/abs/2610.19133"
+      ],
+      "summary": "TRACER é um método de treinamento regularizado por rastreamento. Ele visa proteger contra a injeção indireta de prompt.",
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Desmistificando a Destilação On-Policy: Onde Reside a Vantagem do Professor?",
+      "links": [
+        "https://arxiv.org/abs/2610.19145"
+      ],
+      "summary": "A pesquisa busca entender a fonte da vantagem do modelo \"professor\" na destilação on-policy.",
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "RL Agêntico Baseado em Verificador para Código Provavelmente Correto",
+      "links": [
+        "https://arxiv.org/abs/2610.19298"
+      ],
+      "summary": "Este trabalho propõe o uso de Reinforcement Learning (RL) agêntico baseado em verificadores. O objetivo é gerar código provadamente correto.",
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Onde Começar, Como Mover: Analisando Currículos sob GRPO para Agentes LLM de Longo Horizonte",
+      "links": [
+        "https://arxiv.org/abs/2610.19349"
+      ],
+      "summary": "O estudo analisa currículos de treinamento para agentes LLM de longo horizonte. Ele utiliza o algoritmo GRPO para otimização.",
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Auto-Treinamento Verificado por Política: Aprendendo a Conformidade do Agente a Partir de Recompensas de Política Verificáveis",
+      "links": [
+        "https://arxiv.org/abs/2610.19372"
+      ],
+      "summary": "Este método permite que agentes aprendam a conformidade. Isso é feito através de auto-treinamento verificado por recompensas de política.",
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Diagnosticando e Corrigindo o Reward Hacking em Seguimento de Instruções Verificáveis",
+      "links": [
+        "https://arxiv.org/abs/2610.19525"
+      ],
+      "summary": "A pesquisa aborda o diagnóstico e a correção do \"reward hacking\". Isso ocorre em sistemas de seguimento de instruções verificáveis.",
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Caminhos Divergentes: Aprendendo uma Representação Preditiva de Resultados de Trajetórias de Agentes LLM",
+      "links": [
+        "https://arxiv.org/abs/2610.19614"
+      ],
+      "summary": "O artigo explora o aprendizado de representações que preveem resultados. Isso é aplicado a trajetórias de agentes LLM.",
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Novo Modelo, Velhos Hábitos: Transferência de Comportamento sob Troca de Modelos em Agentes LLM de Múltiplas Sessões",
+      "links": [
+        "https://arxiv.org/abs/2610.19712"
+      ],
+      "summary": "O estudo investiga a transferência de comportamento em agentes LLM de múltiplas sessões. Isso ocorre quando os modelos subjacentes são trocados.",
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Aprender a Computar Não é Aprender a Reter ou Reutilizar em Transformers em Loop",
+      "links": [
+        "https://arxiv.org/abs/2610.19768"
+      ],
+      "summary": "A pesquisa argumenta que a capacidade de computar em Transformers em loop não implica em retenção ou reutilização eficiente de informações.",
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Quando o Ruído Não Adversarial Prejudica o Aprendizado: Avaliando a Autoevolução de Habilidades em Agentes",
+      "links": [
+        "https://arxiv.org/abs/2610.19910"
+      ],
+      "summary": "O artigo avalia como o ruído não adversarial pode impactar negativamente o aprendizado. Ele foca na autoevolução de habilidades em agentes.",
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "LatentLoop: Escalonando Modelos MoE em Loop com Alocação Assimétrica de Computação",
+      "links": [
+        "https://arxiv.org/abs/2610.19975"
+      ],
+      "summary": "LatentLoop propõe um método para escalonar modelos Mixture-of-Experts (MoE) em loop. Ele utiliza uma alocação assimétrica de recursos computacionais.",
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "RL de Longo Horizonte Precisa de Muon",
+      "links": [
+        "https://arxiv.org/abs/2610.20256"
+      ],
+      "summary": "O artigo argumenta que o Reinforcement Learning (RL) de longo horizonte se beneficia da arquitetura Muon.",
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Destilação de Políticas de Harness: Alinhando Políticas de Agentes com Semânticas de Tempo de Execução",
+      "links": [
+        "https://arxiv.org/abs/2610.20261"
+      ],
+      "summary": "Este trabalho apresenta a destilação de políticas de harness. O objetivo é alinhar as políticas de agentes com as semânticas de tempo de execução.",
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Treinando Modelos de Linguagem para Falhar Graciosamente",
+      "links": [
+        "https://arxiv.org/abs/2610.20401"
+      ],
+      "summary": "A pesquisa explora métodos para treinar modelos de linguagem. O objetivo é que eles falhem de forma controlada e \"graciosa\".",
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Uma Tarefa, Muitas Interfaces: Treinamento Simples de Consistência Entre Interfaces Melhora a Robustez de Agentes LLM",
+      "links": [
+        "https://arxiv.org/abs/2610.20576"
+      ],
+      "summary": "O treinamento de consistência entre interfaces melhora a robustez de agentes LLM. Isso é aplicado a uma única tarefa com múltiplas interfaces.",
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Seu Transformer é Secretamente Elástico",
+      "links": [
+        "https://arxiv.org/abs/2610.20588"
+      ],
+      "summary": "O artigo revela que os modelos Transformer possuem uma propriedade de elasticidade.",
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Figma anuncia novos recursos para definir como agentes funcionam em sua plataforma",
+      "links": [
+        "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/"
+      ],
+      "summary": "Figma lançou controles para a plataforma de agentes e camadas de código em beta aberto.",
+      "published_at": "2026-10-15",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "TypeSafe AI lança Jev 1.14 com Imagens, Tipo Box e Contexto de 262k",
+      "links": [
+        "https://www.marktechpost.com/2026/10/14/typesafe-ai-jev-1-14-images-box-long-context/"
+      ],
+      "summary": "Jev 1.14, sob `jev-preview`, oferece entrada experimental de imagem e um tipo de caixa delimitadora. Ele também inclui um contexto opcional de 262 mil tokens a US$ 0,042 por milhão de tokens de entrada.",
+      "published_at": "2026-10-15",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Conheça o Grok Voice 3.0: Modelo de Agente de Voz da SpaceXAI Ocupa o 1º Lugar na Artificial Analysis",
+      "links": [
+        "https://www.marktechpost.com/2026/10/14/meet-grok-voice-3-0-spacexai-voice-agent-model-ranks-1-on-artificial-analysis/"
+      ],
+      "summary": "Grok Voice 3.0 é um modelo de fala para fala que ouve, raciocina, usa ferramentas e fala. Ele ocupa o primeiro lugar no Índice Speech-to-Speech da Artificial Analysis com 86,9 pontos.",
+      "published_at": "2026-10-15",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "O wearable Bee da Amazon, que está sempre ouvindo, agora pode ajudar você a fazer compras",
+      "links": [
+        "https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs"
+      ],
+      "summary": "O Bee Frontier custa US$ 74,99 e o Bee Eclipse, em formato de cartão de crédito, custa US$ 99,99. As funcionalidades de escuta constante agora incluem assistência para compras.",
+      "published_at": "2026-10-15",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Seus segredos não estão seguros com este robô de brinquedo: eles estão em servidores chineses prontos para serem hackeados",
+      "links": [
+        "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab"
+      ],
+      "summary": "O robô de brinquedo Eiliko da Energize Lab armazena conversas em servidores chineses. Sean Hollister descobriu que esses dados podem ser lidos ou a personalidade do robô pode ser sequestrada.",
+      "authors": [
+        "Sean Hollister"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Receita da Anthropic no 3º trimestre atinge US$ 16,8 bilhões, mas o crescimento desacelera antes do IPO planejado para novembro",
+      "links": [
+        "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/"
+      ],
+      "summary": "A receita da Anthropic no terceiro trimestre foi de US$ 16,8 bilhões, um aumento de 45% em relação ao segundo trimestre. Alguns investidores agora esperam que a avaliação do IPO de novembro caia abaixo de US$ 1,5 trilhão.",
+      "published_at": "2026-10-15",
+      "date": "2026-10-14"
+    },
     {
       "title": "Higgsfield leva vídeo de IA de 1 minuto para mais de 10",
       "links": [

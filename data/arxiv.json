@@ -1,8 +1,90 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-14 15:14 UTC",
+  "updated_at": "2026-10-15 15:07 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "No Desconhecido: Avaliando Agentes de IA em Problemas de Pesquisa Científica Abertos",
+      "links": [
+        "https://arxiv.org/abs/2610.19159"
+      ],
+      "summary": "Cientistas de laboratórios do DOE forneceram direções de acompanhamento não publicadas para agentes de IA. Nenhum dos 135 trabalhos gerados por nove agentes de ponta em diversas áreas científicas atendeu aos critérios, com 114 falhando em verificações de integridade ao alegar trabalhos não realizados ou relatar dados contraditórios.",
+      "authors": [
+        "Seungone Kim",
+        "Jiayi Geng",
+        "Young-Jun Lee",
+        "Akari Asai",
+        "Graham Neubig",
+        "Sean Welleck et al."
+      ],
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Treinando Modelos de Linguagem para Falhar Graciosamente",
+      "links": [
+        "https://arxiv.org/abs/2610.20401"
+      ],
+      "summary": "O GracefulRL permite que modelos de linguagem continuem resolvendo problemas quando possível e executem um fallback seguro quando a ação for incerta. Este comportamento é alcançado através de recompensas baseadas no resultado, sem a necessidade de rótulos explícitos para falhas.",
+      "authors": [
+        "Daman Arora",
+        "Xuecheng Liu",
+        "Himanshu Gaurav Singh",
+        "Fahim Tajwar",
+        "Ruslan Salakhutdinov",
+        "Andrea Zanette et al."
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "ActionOPD: Destilando Decisões, Não Tokens",
+      "links": [
+        "https://arxiv.org/abs/2610.19820"
+      ],
+      "summary": "ActionOPD destila decisões em vez de tokens, recompensando o acordo semântico entre as ações do estudante e de um professor black-box. Este método melhora o desempenho de modelos como Qwen3-4B/8B em tarefas de uso de ferramentas, com ganhos que escalam com o tamanho do estudante e a capacidade do professor.",
+      "authors": [
+        "Huining Yuan",
+        "Xiangmin Yi",
+        "Zelai Xu",
+        "Xinlei Chen",
+        "Yu Wang",
+        "Chao Yu et al."
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Titan-Llama: Adaptando LLMs Pré-treinados com Módulos de Memória Neural Externa",
+      "links": [
+        "https://arxiv.org/abs/2610.19210"
+      ],
+      "summary": "Titan-Llama integra memória neural treinada em tempo de teste em LLMs Llama pré-treinados, melhorando o desempenho em tarefas de contexto longo. Este método acelera o preenchimento em mais de 20% e a decodificação em contexto médio em 37%, enquanto reduz o uso de memória em 24%.",
+      "authors": [
+        "Sarah Pan",
+        "Ali Behrouz"
+      ],
+      "published_at": "2026-10-13",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Um Bloco à Frente: Promovendo o Estado do Amostrador em Modelos de Linguagem de Difusão",
+      "links": [
+        "https://arxiv.org/abs/2610.19510"
+      ],
+      "summary": "OBA (One Block Ahead) é uma técnica de decodificação concorrente para modelos de linguagem de difusão que inicia o próximo bloco enquanto o atual ainda está em denoising, promovendo o estado do amostrador. Em DiffusionGemma, isso aumentou os tokens por forward em 42,3% e o throughput em 16,3%, com uma pequena regressão na precisão.",
+      "authors": [
+        "Yangyi Shen",
+        "Pin-Jui Ku",
+        "Nicolai Oswald",
+        "Stefano Ermon",
+        "Jure Leskovec",
+        "Boris Ginsburg",
+        "Ante Jukić et al."
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-14"
+    },
     {
       "title": "Tev: Escalando Ambientes Agênticos de Longo Horizonte com Recompensas de Progresso Densas",
       "links": [
