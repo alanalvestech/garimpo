@@ -1,8 +1,93 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-15 15:07 UTC",
+  "updated_at": "2026-10-16 14:55 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Uma equipe de agentes Gemini 4 Argon vence Minecraft",
+      "links": [
+        "https://arxiv.org/abs/2610.22319"
+      ],
+      "summary": "Quatro agentes Gemini 4 Argon, em um mundo de sobrevivência isolado, completaram o Minecraft ao matar o Ender Dragon. Eles planejaram, escreveram e depuraram todos os programas por conta própria, resultando na primeira conclusão autônoma e completa do jogo.",
+      "authors": [
+        "Maxence Faldor",
+        "Satinder Singh",
+        "Roberta Raileanu"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-15"
+    },
+    {
+      "title": "T2-z: Otimização em Tempo de Teste de Latentes de Ambiente para Modelos de Mundo Robóticos",
+      "links": [
+        "https://arxiv.org/abs/2610.22364"
+      ],
+      "summary": "T2-z integra um latente de ambiente compacto em modelos de mundo robóticos para capturar fatores não visíveis nos pixels. O método otimiza um novo latente em tempo de teste a partir de poucas interações, reduzindo o erro de previsão de objetos e aumentando o sucesso de ações.",
+      "authors": [
+        "Chenyuan Zhou",
+        "Yining Hong",
+        "Yunfan Jiang",
+        "Wenlong Huang",
+        "David Held",
+        "Li Fei-Fei",
+        "Jiajun Wu",
+        "Leonidas Guibas",
+        "Yejin Choi et al."
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-15"
+    },
+    {
+      "title": "Agentes Bibliotecários: Treinando LLMs para Curar Espaços de Trabalho de Contexto Longo que Antecipam Consultas Futuras",
+      "links": [
+        "https://arxiv.org/abs/2610.22273"
+      ],
+      "summary": "Um agente construtor organiza um corpus bruto em um sistema de arquivos hierárquico com arquivos e links sintéticos antes da inferência. Este espaço de trabalho é então usado por um agente de resposta, melhorando a precisão das respostas em 33 pontos percentuais.",
+      "authors": [
+        "Anikait Singh",
+        "Teresa Zhang",
+        "Yoonho Lee",
+        "Aviral Kumar",
+        "Chelsea Finn et al."
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-15"
+    },
+    {
+      "title": "Interpretando Parâmetros de Modelos de Linguagem",
+      "links": [
+        "https://arxiv.org/abs/2610.20748"
+      ],
+      "summary": "A Decomposição Adversarial de Parâmetros (VPD) divide os pesos de modelos de linguagem em subcomponentes simples que reproduzem a rede sob ablações. Este método é o primeiro a investigar como parâmetros e não linearidades computam em representações, exigindo apenas uma pequena fração de subcomponentes para qualquer entrada.",
+      "authors": [
+        "Lucius Bushnaq",
+        "Dan Braun",
+        "Oliver Clive-Griffin",
+        "Bart Bussmann",
+        "Nathan Hu",
+        "Lee Sharkey et al."
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-15"
+    },
+    {
+      "title": "Aprendizagem Residual On-Policy para Modelos de Linguagem de Difusão",
+      "links": [
+        "https://arxiv.org/abs/2610.20687"
+      ],
+      "summary": "A Aprendizagem Residual On-Policy (ORL) treina o resíduo em modelos de linguagem de difusão (dLLMs) para melhorar a velocidade e qualidade. O método alcança até 6,2x mais tokens por forward e ~6,9x de throughput de ponta a ponta com qualidade igual ou superior, superando a decodificação especulativa.",
+      "authors": [
+        "Yifan Yu",
+        "Yuqing Jian",
+        "Xiaoxia Wu",
+        "Junxiong Wang",
+        "Fan Lai",
+        "James Zou",
+        "Chenfeng Xu et al."
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-15"
+    },
     {
       "title": "No Desconhecido: Avaliando Agentes de IA em Problemas de Pesquisa Científica Abertos",
       "links": [
