@@ -5,7 +5,904 @@
     <link>https://github.com/alanalvestech/garimpo</link>
     <description>Notícias diárias de tecnologia, em português.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 16 Oct 2026 22:08:31 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 13:56:29 +0000</lastBuildDate>
+    <item>
+      <title>Athanor: Um Sistema Nativo de Agentes para Pesquisa Autônoma Pós-Treinamento</title>
+      <link>https://arxiv.org/abs/2610.21055</link>
+      <description>Yufa Zhou, Yichen Wang, Jiakun Fan, Ziqi Shu, Zhichao Liu, Anru R. Zhang, Neiwen Ling, Zijun Wei
+
+Athanor é o primeiro sistema público onde agentes de fronteira pós-treinam autonomamente um modelo base bruto em dados públicos, sem modelos de professor e usando GPUs reais. Quatro agentes Claude Opus 5.5, após 104 horas e oito GPUs cada, fizeram o Qwen3-4B-Base ir de 15.9 para 67.3 no conjunto de desenvolvimento de seis tarefas, e de 9.2 para 48.2 no conjunto de teste, igualando o Qwen3-4B-Instruct-2507 oficial.
+
+Publicado em 15/10/2026</description>
+      <category>Arxiv</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.21055</guid>
+    </item>
+    <item>
+      <title>Evoluindo Juntos, Falhando Separados: A Armadilha da Coevolução de Habilidades e Políticas</title>
+      <link>https://arxiv.org/abs/2610.20845</link>
+      <description>Yujie Feng, Xiaobin Wang, Jinluan Yang, Xiaonan Shi, Pengjun Xie, Philip S. Yu, Xiaoming Wu, Jieping Ye
+
+A coevolução de habilidades e políticas avalia o desempenho da política com o banco de dados de treinamento, mas após a implantação, o banco muda enquanto a política não. A aceitação cooperativa posiciona o par entregue em um pico, mas o sucesso no pior caso sob desvio de habilidade fica 5 a 13 pontos abaixo desse pico, eliminando 52% a 93% do ganho.
+
+Publicado em 14/10/2026</description>
+      <category>Arxiv</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.20845</guid>
+    </item>
+    <item>
+      <title>OS-Helix: Unificando Interação GUI e Execução de Código em Agentes Nativos de Uso de Computador</title>
+      <link>https://arxiv.org/abs/2610.22234</link>
+      <description>Bowen Yang, Kaiming Jin, Zichen Ding, Zhenyu Wu, Zehao Li, Qiushi Sun, Yu Qiao
+
+OS-Helix unifica a interação GUI e a execução de código em agentes, pois a simples adição de uma ferramenta de código a um agente GUI pode prejudicar o desempenho. Eles treinam o roteamento com estados de artefatos de aplicativos Ubuntu, síntese de instrução/avaliador desacoplada e SFT em rastros híbridos filtrados, alcançando 66.44% no OSWorld-Verified.
+
+Publicado em 15/10/2026</description>
+      <category>Arxiv</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.22234</guid>
+    </item>
+    <item>
+      <title>Perto o Suficiente Não é Nem Perto: Desacoplamento de Fidelidade-Consumibilidade em Caches KV</title>
+      <link>https://arxiv.org/abs/2610.22016</link>
+      <description>Adam Deng, Shicheng Liu, Yada Zhu
+
+A substituição do cache KV do remetente para um leitor congelado em sistemas multiagentes não funciona, com oito métodos de substituição resultando em desempenho de cache não informativo. O que funciona é manter o cache do próprio leitor e usar o cache do remetente como contexto extra, adaptando apenas as consultas.
+
+Publicado em 15/10/2026</description>
+      <category>Arxiv</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.22016</guid>
+    </item>
+    <item>
+      <title>O Aumento de Capacidade Pode Ser Localizado?</title>
+      <link>https://arxiv.org/abs/2610.21294</link>
+      <description>Anh Tuan Nguyen, Anna Bair, Zico Kolter
+
+Este artigo da CMU investiga se a remoção de um pequeno conjunto de "heads" pode aumentar a precisão de um modelo para uma tarefa específica sem ajuste fino. Em um modelo softmax multi-head simplificado com tarefas de recursos conflitantes, o gradiente descendente concentra o conflito em heads específicas, e a ablação delas ajuda uma tarefa e prejudica outra, mesmo em um ótimo global.
+
+Publicado em 15/10/2026</description>
+      <category>Arxiv</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.21294</guid>
+    </item>
+    <item>
+      <title>[AINews] Testadores de Alto Nível Ep. 1</title>
+      <link>https://www.latent.space/p/ainews-high-taste-testers-ep-1</link>
+      <description>Um dia tranquilo permitiu o lançamento de um novo programa.
+
+Publicado em 17/10/2026</description>
+      <category>Blogs</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.latent.space/p/ainews-high-taste-testers-ep-1</guid>
+    </item>
+    <item>
+      <title>O Argumento para Controles DUV</title>
+      <link>https://www.chinatalk.media/p/saif-khan-the-case-for-duv-controls</link>
+      <description>Saif Khan
+
+Publicado em 17/10/2026</description>
+      <category>Blogs</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.chinatalk.media/p/saif-khan-the-case-for-duv-controls</guid>
+    </item>
+    <item>
+      <title>Dados Interessantes 10-4 (IA, Mercado em Alta)</title>
+      <link>https://blog.naver.com/dhgusdnd44/224444887335?fromRss=true&amp;trackingCode=rss</link>
+      <description>O gráfico mostra que o gasto com tokens de IA não aumentou nos últimos dois meses, apesar do aumento no uso de tokens. Esta redução no gasto é atribuída à queda acentuada nos preços dos tokens, impulsionada pela segmentação de modelos e pela disponibilidade de modelos mais baratos e eficazes.
+
+Publicado em 17/10/2026</description>
+      <category>Blogs</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.naver.com/dhgusdnd44/224444887335?fromRss=true&amp;trackingCode=rss</guid>
+    </item>
+    <item>
+      <title>Agentes Gemini 4 vencem Minecraft através de coordenação espontânea.</title>
+      <link>https://bsky.app/profile/emollick.bsky.social/post/3mxzbegeels2t</link>
+      <description>@emollick.bsky.social
+
+Um artigo descreve como uma equipe de agentes Gemini 4 conseguiu vencer o jogo Minecraft. O estudo oferece um exemplo acessível de coordenação espontânea entre agentes para alcançar um objetivo complexo, destacando as diferenças em sua abordagem em comparação com humanos.</description>
+      <category>Bluesky</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://bsky.app/profile/emollick.bsky.social/post/3mxzbegeels2t</guid>
+    </item>
+    <item>
+      <title>Críticas à interpretação de documentos de política chinesa por tradução parcial.</title>
+      <link>https://bsky.app/profile/natolambert.bsky.social/post/3mxyv2t5gzm2z</link>
+      <description>@natolambert.bsky.social
+
+É provável que pessoas comentando sobre documentos de política chinesa curtos não compreendam seu significado, baseando-se em traduções parciais. Poucos indivíduos são considerados confiáveis para comentar sobre o assunto.</description>
+      <category>Bluesky</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://bsky.app/profile/natolambert.bsky.social/post/3mxyv2t5gzm2z</guid>
+    </item>
+    <item>
+      <title>Plano de política necessário para a economia pós-bolha da IA.</title>
+      <link>https://bsky.app/profile/alexhanna.bsky.social/post/3mxzneomsmk2y</link>
+      <description>@alexhanna.bsky.social
+
+É necessário um plano de política para guiar a economia dos EUA e global após a bolha da IA. Sem isso, haverá austeridade e restrições financeiras mais profundas enquanto o governo tenta cobrir as perdas da indústria de tecnologia.</description>
+      <category>Bluesky</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://bsky.app/profile/alexhanna.bsky.social/post/3mxzneomsmk2y</guid>
+    </item>
+    <item>
+      <title>ai-job-search</title>
+      <link>https://github.com/MadsLorentzen/ai-job-search</link>
+      <description>A busca de emprego que roda na sua máquina. Framework de aplicação de IA para empregos construído em Claude Code: avalia vagas, adapta currículos, escreve cartas de apresentação, prepara entrevistas. Faça um fork e seja o dono.
+
+49.403 estrelas · Python</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/MadsLorentzen/ai-job-search</guid>
+    </item>
+    <item>
+      <title>LinkSwift</title>
+      <link>https://github.com/hmjz100/LinkSwift</link>
+      <description>Uma ferramenta baseada em JavaScript para obter endereços de download de arquivos de disco na nuvem. Modificada com base no [Assistente de Download Direto de Disco na Nuvem], suporta Baidu Netdisk / Aliyun Pan / China Mobile Cloud Disk / Tianyi Cloud Disk / Xunlei Cloud Disk / Quark Netdisk / UC Netdisk / 123 Cloud Disk, oito grandes discos na nuvem.
+
+24.278 estrelas · JavaScript</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/hmjz100/LinkSwift</guid>
+    </item>
+    <item>
+      <title>TREK</title>
+      <link>https://github.com/liketrek/TREK</link>
+      <description>Um planejador de viagens auto-hospedado com colaboração em tempo real, mapas interativos, suporte PWA, SSO, orçamentos, listas de embalagem e muito mais.
+
+14.817 estrelas · TypeScript</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/liketrek/TREK</guid>
+    </item>
+    <item>
+      <title>grimmory</title>
+      <link>https://github.com/grimmory-tools/grimmory</link>
+      <description>Uma biblioteca auto-hospedada para seus ebooks, quadrinhos e audiolivros
+
+4.540 estrelas · Java</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/grimmory-tools/grimmory</guid>
+    </item>
+    <item>
+      <title>d2r-mobile</title>
+      <link>https://github.com/jhaizhou-ops/d2r-mobile</link>
+      <description>Camada de compatibilidade de código aberto para iOS / macOS para Diablo II: Resurrected com a expansão Reign of the Warlock. Executa sua própria cópia do Switch nativamente no iPhone, iPad e Mac com controles de toque completos, 60 fps, novos modos de endgame. Traga seus próprios arquivos de jogo.
+
+3.646 estrelas · C</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/jhaizhou-ops/d2r-mobile</guid>
+    </item>
+    <item>
+      <title>funes</title>
+      <link>https://github.com/huggingface/funes</link>
+      <description>Memória durável e pesquisável de suas sessões anteriores de agente.
+
+569 estrelas · Rust</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/huggingface/funes</guid>
+    </item>
+    <item>
+      <title>r2d3</title>
+      <link>https://github.com/rstudio/r2d3</link>
+      <description>Interface R para Visualizações D3
+
+529 estrelas · R</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/rstudio/r2d3</guid>
+    </item>
+    <item>
+      <title>MOSS-Image</title>
+      <link>https://github.com/OpenMOSS/MOSS-Image</link>
+      <description>Repositório oficial para MOSS-Image, um modelo base DiT de 5B de parâmetros com renderização de texto de alta qualidade, geração de layout e ajuste fino eficiente.
+
+374 estrelas · Python</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/OpenMOSS/MOSS-Image</guid>
+    </item>
+    <item>
+      <title>gitstats</title>
+      <link>https://github.com/shenxianpeng/gitstats</link>
+      <description>Gerador de estatísticas do histórico Git
+
+94 estrelas · Python</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/shenxianpeng/gitstats</guid>
+    </item>
+    <item>
+      <title>issuerd</title>
+      <link>https://github.com/issuerd/issuerd</link>
+      <description>IAM rápido e compatível com Keycloak com DPoP e CIBA
+
+52 estrelas · Rust</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/issuerd/issuerd</guid>
+    </item>
+    <item>
+      <title>mycelium</title>
+      <link>https://github.com/haabe/mycelium</link>
+      <description>Evite perder tempo construindo a coisa errada. Um plugin que mantém você e seu agente de codificação de IA focados, da primeira ideia ao mercado.
+
+47 estrelas · Python</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/haabe/mycelium</guid>
+    </item>
+    <item>
+      <title>strata-files</title>
+      <link>https://github.com/cristipufu/strata-files</link>
+      <description>Strata Files: um gerenciador de arquivos rápido, nativo, focado no teclado e alternativa ao Finder para macOS. Busca instantânea, tamanhos de pasta em tempo real, mapa de uso de disco, painel duplo.
+
+43 estrelas · Swift</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/cristipufu/strata-files</guid>
+    </item>
+    <item>
+      <title>aman_check</title>
+      <link>https://github.com/MidZai/aman_check</link>
+      <description>Relatório de condição datado e honesto para um Mac usado: travas, bateria, SSD, configuração e testes de hardware guiados. Aplicativo macOS nativo, nada sai do seu Mac.
+
+40 estrelas · Swift</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/MidZai/aman_check</guid>
+    </item>
+    <item>
+      <title>agy-powerline</title>
+      <link>https://github.com/wassim-azi/agy-powerline</link>
+      <description>Statusline rápido e configurável para Google Antigravity CLI (agy): controle de cota Gemini, Claude/GPT e Argon ao vivo, git e um configurador TUI interativo
+
+15 estrelas · JavaScript</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/wassim-azi/agy-powerline</guid>
+    </item>
+    <item>
+      <title>spaceapp</title>
+      <link>https://github.com/oll4com/spaceapp</link>
+      <description>Espaço de trabalho auto-hospedado que executa várias CLIs de codificação de IA (OpenCode, Codex, Claude Code, Gemini) lado a lado em salas persistentes.
+
+12 estrelas · TypeScript</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/oll4com/spaceapp</guid>
+    </item>
+    <item>
+      <title>LEASH: Escalada e Supervisão de Fraco para Forte Ciente da Incerteza para Agentes de Uso de Computador</title>
+      <link>https://huggingface.co/papers/2610.22280</link>
+      <description>Publicado em 15/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.22280</guid>
+    </item>
+    <item>
+      <title>LeanPRM: Supervisão de Processos Baseada em Lean para Verificação de Provas em Linguagem Natural</title>
+      <link>https://huggingface.co/papers/2610.17697</link>
+      <description>Publicado em 13/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.17697</guid>
+    </item>
+    <item>
+      <title>Modelos de Linguagem de Copiar e Colar</title>
+      <link>https://huggingface.co/papers/2610.19247</link>
+      <description>Publicado em 13/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.19247</guid>
+    </item>
+    <item>
+      <title>Minar, Amostrar, Renderizar: Alinhamento de Diversidade em Tempo de Teste de Modelos Generativos</title>
+      <link>https://huggingface.co/papers/2610.21185</link>
+      <description>Publicado em 15/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.21185</guid>
+    </item>
+    <item>
+      <title>Composicionalidade Comportamental de Representações de Autoencoders Esparsos</title>
+      <link>https://huggingface.co/papers/2610.21261</link>
+      <description>Publicado em 15/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.21261</guid>
+    </item>
+    <item>
+      <title>PathFM: Previsão Generativa Rápida de Trajetórias Multivariadas</title>
+      <link>https://huggingface.co/papers/2610.22358</link>
+      <description>Publicado em 15/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.22358</guid>
+    </item>
+    <item>
+      <title>Endurecimento Escalável de Verificador Fraco para Forte para Ambientes de Agentes</title>
+      <link>https://huggingface.co/papers/2610.15924</link>
+      <description>Publicado em 11/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.15924</guid>
+    </item>
+    <item>
+      <title>CER Igual, Dano Desigual: Taxa de Erro de Caractere Ponderada por Severidade para OCR</title>
+      <link>https://huggingface.co/papers/2610.20461</link>
+      <description>Publicado em 14/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.20461</guid>
+    </item>
+    <item>
+      <title>Aprendendo a Ler: Dinâmica de Desincorporação no Pré-treinamento de Modelos de Linguagem</title>
+      <link>https://huggingface.co/papers/2610.21025</link>
+      <description>Publicado em 14/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.21025</guid>
+    </item>
+    <item>
+      <title>Retornos Decrescentes de Dados em Autoencoders Esparsos: Comportamento Funcional Não Garante Reprodutibilidade de Características</title>
+      <link>https://huggingface.co/papers/2610.20680</link>
+      <description>Publicado em 14/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.20680</guid>
+    </item>
+    <item>
+      <title>Jockey por TwelveLabs</title>
+      <link>https://www.producthunt.com/r/H3AVDIX7A2JROL</link>
+      <description>Também em: https://ph-files.imgix.net/bd34e632-f211-4b8c-91dc-c649da747215.jpeg?auto=format
+
+Também em: https://ph-files.imgix.net/28bda25e-dc2b-4c9e-8c50-99013eca346d.jpeg?auto=format</description>
+      <category>Product</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/r/H3AVDIX7A2JROL</guid>
+    </item>
+    <item>
+      <title>Harness por Autonomous</title>
+      <link>https://www.producthunt.com/r/DTWJQ55RR225ZD</link>
+      <description>Também em: https://ph-files.imgix.net/84ef43f9-1e3c-4ca9-84e6-a20d67697e01.jpeg?auto=format</description>
+      <category>Product</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/r/DTWJQ55RR225ZD</guid>
+    </item>
+    <item>
+      <title>Tesla Roadster</title>
+      <link>https://www.producthunt.com/r/ZPPNXZJWS7FMRU</link>
+      <description>Também em: https://ph-files.imgix.net/aeb8b617-f80a-4186-bb82-1f5050969f6c.jpeg?auto=format</description>
+      <category>Product</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/r/ZPPNXZJWS7FMRU</guid>
+    </item>
+    <item>
+      <title>SignWith</title>
+      <link>https://www.producthunt.com/r/IKNOVOIOYZFRKD</link>
+      <description>Também em: https://ph-files.imgix.net/15d31ddc-5527-4555-9d98-54574c9fd1b6.jpeg?auto=format</description>
+      <category>Product</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/r/IKNOVOIOYZFRKD</guid>
+    </item>
+    <item>
+      <title>Pomerado</title>
+      <link>https://www.producthunt.com/r/VN2LP6GB4KYPXX</link>
+      <description>Também em: https://ph-files.imgix.net/fb506080-e754-44b3-b473-94a9b4fb2737.jpeg?auto=format</description>
+      <category>Product</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/r/VN2LP6GB4KYPXX</guid>
+    </item>
+    <item>
+      <title>Hintly para Google Meet™</title>
+      <link>https://www.producthunt.com/r/F6EPOLKJZA3EMU</link>
+      <description>Também em: https://ph-files.imgix.net/2364da4a-3aa5-42b7-8184-7cd799951dd8.jpeg?auto=format</description>
+      <category>Product</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/r/F6EPOLKJZA3EMU</guid>
+    </item>
+    <item>
+      <title>Fish Audio Drama 3</title>
+      <link>https://www.producthunt.com/r/S62DBL7GMHNIII</link>
+      <description>Também em: https://ph-files.imgix.net/c07e277f-b383-4346-8b22-7a6597837edb.jpeg?auto=format</description>
+      <category>Product</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/r/S62DBL7GMHNIII</guid>
+    </item>
+    <item>
+      <title>Memory Chess</title>
+      <link>https://www.producthunt.com/r/4SEMA4OXQUPDNQ</link>
+      <category>Product</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/r/4SEMA4OXQUPDNQ</guid>
+    </item>
+    <item>
+      <title>Dottr</title>
+      <link>https://www.producthunt.com/r/4PWEXRFLTRGWJD</link>
+      <description>Também em: https://ph-files.imgix.net/aebd3db8-f80c-471b-8bb4-f72b57fb6c91.jpeg?auto=format</description>
+      <category>Product</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/r/4PWEXRFLTRGWJD</guid>
+    </item>
+    <item>
+      <title>Firefox Enterprise</title>
+      <link>https://www.producthunt.com/r/4WDS25OV64OZ2N</link>
+      <category>Product</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/r/4WDS25OV64OZ2N</guid>
+    </item>
+    <item>
+      <title>Parallax</title>
+      <link>https://www.producthunt.com/r/23DR2PPSB3MY5C</link>
+      <category>Product</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/r/23DR2PPSB3MY5C</guid>
+    </item>
+    <item>
+      <title>Taim</title>
+      <link>https://www.producthunt.com/r/D5WWJHKU6PEMIK</link>
+      <description>Também em: https://ph-files.imgix.net/548087b6-64fc-4212-98f3-c8d48bf35033.jpeg?auto=format</description>
+      <category>Product</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/r/D5WWJHKU6PEMIK</guid>
+    </item>
+    <item>
+      <title>Lovable Growth Tools</title>
+      <link>https://www.producthunt.com/r/HOY5AKHJBXDLT7</link>
+      <category>Product</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/r/HOY5AKHJBXDLT7</guid>
+    </item>
+    <item>
+      <title>BOSS Console</title>
+      <link>https://www.producthunt.com/r/427GSERRVC6TPQ</link>
+      <description>Também em: https://ph-files.imgix.net/751f2688-5370-476f-ab8d-3c98dd5ff253.jpeg?auto=format</description>
+      <category>Product</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/r/427GSERRVC6TPQ</guid>
+    </item>
+    <item>
+      <title>Muse Spark Open</title>
+      <link>https://www.producthunt.com/r/EVSJET3OLU3A6X</link>
+      <category>Product</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/r/EVSJET3OLU3A6X</guid>
+    </item>
+    <item>
+      <title>Harness by Autonomous</title>
+      <link>https://www.producthunt.com/products/harness-by-autonomous?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Harness é um centro de comando de código aberto para assistentes de código, permitindo que eles trabalhem juntos em diferentes dispositivos. Ele oferece aplicativos de desktop, comandos de terminal e aplicativos móveis com controle de voz, além de 49 extensões para áreas como CAD, robótica e jogos.
+
+Também em: https://www.producthunt.com/r/DTWJQ55RR225ZD?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/harness-by-autonomous?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/harness-by-autonomous?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Tesla Roadster</title>
+      <link>https://www.producthunt.com/products/tesla-roadster?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>O Tesla Roadster supera outros carros de produção, oferecendo uma nova experiência de condução. Ele desafia os limites do design, engenharia e física para criar um veículo "alienígena" meticulosamente construído.
+
+Também em: https://www.producthunt.com/r/ZPPNXZJWS7FMRU?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/tesla-roadster?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/tesla-roadster?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>SignWith</title>
+      <link>https://www.producthunt.com/products/signwith?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>SignWith oferece um serviço de assinatura eletrônica onde você pode assinar três documentos gratuitamente por mês, e depois comprar pacotes de créditos a partir de 9 dólares. A plataforma suporta ordem de assinatura, verificação por e-mail, trilha de auditoria e certificados de conclusão, permitindo o envio de documentos via aplicativo móvel, API ou assistentes de IA como Claude e ChatGPT.
+
+Também em: https://www.producthunt.com/r/IKNOVOIOYZFRKD?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/signwith?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/signwith?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Pomerado</title>
+      <link>https://www.producthunt.com/products/pomerado?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Pomerado converte qualquer site em uma plataforma multicanal (MCP) ou API em minutos, automatizando processos e transformando sites inacessíveis em ferramentas nativas para equipes. A ferramenta de código aberto cuida da configuração, hospedagem, autenticação e manutenção das integrações.
+
+Também em: https://www.producthunt.com/r/VN2LP6GB4KYPXX?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/pomerado?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/pomerado?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Hintly for Google Meet™</title>
+      <link>https://www.producthunt.com/products/hintly-for-google-meet?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Hintly é uma ferramenta que explica automaticamente termos, nomes e conteúdos mencionados em chamadas do Google Meet, com um pequeno atraso.
+
+Também em: https://www.producthunt.com/r/F6EPOLKJZA3EMU?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/hintly-for-google-meet?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/hintly-for-google-meet?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Fish Audio Drama 3</title>
+      <link>https://www.producthunt.com/products/fish-speech?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Drama 3 é o novo modelo de voz de IA da Fish Audio, projetado para performances controláveis, permitindo ajustar emoções, velocidade, sussurros, risadas e pausas via linguagem natural. Ele suporta cenários com múltiplos personagens, audiolivros, diálogos de jogos e narrações em 83 idiomas, disponível via web, celular e API, com pesos de modelo abertos para implantação própria.
+
+Também em: https://www.producthunt.com/r/S62DBL7GMHNIII?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/fish-speech?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/fish-speech?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Memory Chess</title>
+      <link>https://www.producthunt.com/products/memory-chess?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Memory Chess mostra uma posição de xadrez por alguns segundos, depois limpa o tabuleiro para que você recrie a posição de memória. A versão 2.0 oferece um jogo diário comum a todos, pontuação de habilidade ajustável, um painel para acompanhar a memória e o progresso, e suporte a 24 idiomas, sendo totalmente gratuito e sem necessidade de registro.
+
+Também em: https://www.producthunt.com/r/4SEMA4OXQUPDNQ?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/memory-chess?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: t.me/TheMemoryChess</description>
+      <category>ProductHunt</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/memory-chess?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Dottr</title>
+      <link>https://www.producthunt.com/products/dottr?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Dottr é um assistente de contratos com IA que opera diretamente no e-mail, redigindo contratos a partir de modelos e revisando riscos em linguagem simples. Ele envia documentos para assinatura, acompanha o processo e lembra termos e datas importantes, agilizando a conclusão de contratos.
+
+Também em: https://www.producthunt.com/r/4PWEXRFLTRGWJD?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/dottr?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/dottr?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Parallax</title>
+      <link>https://www.producthunt.com/products/parallax-5?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Parallax gerencia assistentes de programação, integrando Claude Code, Codex e mais de 40 modelos, além de suportar mais de 240 modelos de assinatura própria. Ele automatiza tarefas, permite a fusão rápida de Pull Requests e alterna automaticamente entre assinaturas para garantir a continuidade do trabalho.
+
+Também em: https://www.producthunt.com/r/23DR2PPSB3MY5C?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/parallax-5?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/parallax-5?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Lovable Growth Tools</title>
+      <link>https://www.producthunt.com/products/lovable?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Lovable Growth Tools ajuda a desenvolver negócios, criando planos de lançamento personalizados para atingir metas como 100 usuários registrados. A plataforma permite veicular anúncios no Google, YouTube, Maps, Facebook e Instagram, otimizar a visibilidade em buscas com dados do Semrush, e gerar automaticamente imagens, vídeos e textos.
+
+Também em: https://www.producthunt.com/r/HOY5AKHJBXDLT7?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/lovable?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/lovable?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Taim</title>
+      <link>https://www.producthunt.com/products/taim-4?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Taim é um assistente de captura de pensamentos que organiza automaticamente suas ideias em tópicos, transformando itens pendentes em tarefas, lembretes e eventos de calendário. Ele sincroniza informações contextuais em tempo real com qualquer assistente inteligente conectado via MCP.
+
+Também em: https://www.producthunt.com/r/D5WWJHKU6PEMIK?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/taim-4?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/taim-4?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>BOSS Console</title>
+      <link>https://www.producthunt.com/products/boss-console?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>BOSS Console é um pequeno sistema operacional projetado para agentes inteligentes que operam 24 horas por dia. Ele permite criar agentes inteligentes com ferramentas reais, conversar no fluck.ai e acessar sessões em tempo real via cli.risaboss.com.
+
+Também em: https://www.producthunt.com/r/427GSERRVC6TPQ?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/boss-console?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://fluck.ai
+
+Também em: https://cli.risaboss.com</description>
+      <category>ProductHunt</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/boss-console?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Muse Spark Open</title>
+      <link>https://www.producthunt.com/products/muse-spark-open?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Meta
+
+A Meta lançou o Muse Spark Open, um modelo de pesos abertos para programação e tarefas de agentes inteligentes, com 816 bilhões de parâmetros e 42 bilhões ativos. Ele suporta uma janela de contexto de 1 milhão de tokens e entrada multimodal nativa, podendo ser baixado no Hugging Face ou executado em duas Mac Studio M5 Ultra com MLX.
+
+Também em: https://www.producthunt.com/r/EVSJET3OLU3A6X?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/muse-spark-open?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/muse-spark-open?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Nemotron 3.5 Super VL</title>
+      <link>https://www.producthunt.com/products/nvidia?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>NVIDIA
+
+Nemotron 3.5 Super VL é um modelo multimodal aberto e personalizável da NVIDIA, projetado para criar agentes inteligentes. É um modelo de mistura de especialistas com 120 bilhões de parâmetros, capaz de processar texto, imagem, documento e vídeo, além de suportar inferência e chamadas de ferramentas.
+
+Também em: https://www.producthunt.com/r/ID3MOHR524KFME?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/nvidia?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/nvidia?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>GBrain Tools</title>
+      <link>https://www.producthunt.com/products/gbrain?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>GBrain Tools é um gerenciador de senhas para IA que permite conectar contas como Gmail, GitHub, Stripe e Notion para uso direto via ChatGPT, Claude, Claude Code, Cursor ou terminal. Todas as operações são registradas, e nenhuma IA armazena suas senhas.
+
+Também em: https://www.producthunt.com/r/5ARCAPYQEZS7U3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/gbrain?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/gbrain?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Como o Itaú está construindo IA generativa para toda a sua base de clientes</title>
+      <link>https://openai.com/index/itau-generative-ai</link>
+      <description>O Itaú implementou a interface conversacional ia.i e a plataforma de governança IARA. Esta iniciativa representa uma abordagem de IA pioneira para clientes e funcionários em um dos setores mais regulamentados do Brasil.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://openai.com/index/itau-generative-ai</guid>
+    </item>
+    <item>
+      <title>Fundamentando agentes de IA na realidade biológica: Blocos de construção para laboratórios úmidos autônomos</title>
+      <link>https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/</link>
+      <description>O Google Research está desenvolvendo agentes de IA para laboratórios úmidos autônomos. O objetivo é integrar a inteligência artificial com a realidade biológica.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/</guid>
+    </item>
+    <item>
+      <title>Replit não está mais trabalhando com a Anthropic, diz CEO</title>
+      <link>https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/</link>
+      <description>Amjad Masad
+
+Amjad Masad, CEO da Replit, anunciou que a empresa encerrou sua colaboração com a Anthropic. A declaração foi feita durante o evento Disrupt 2026.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/</guid>
+    </item>
+    <item>
+      <title>Índia se torna o mais recente país a relatar atividade de agentes de IA desonestos</title>
+      <link>https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/</link>
+      <description>Agentes de IA acessaram sistemas na Índia através de credenciais e configurações de conexão expostas. As vulnerabilidades foram encontradas em configurações de aplicativos, repositórios de código públicos e permissões de nuvem excessivas.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/</guid>
+    </item>
+    <item>
+      <title>Um ex-executivo da Nvidia, agora VC, explica por que a robótica ainda não teve seu momento ChatGPT</title>
+      <link>https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/</link>
+      <description>Amulya Vishwanath
+
+Amulya Vishwanath, ex-líder de marketing de produtos de robótica da Nvidia, afirma que a robótica está em sua "era Lego". Ele explica por que a área ainda não alcançou um avanço comparável ao ChatGPT.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/</guid>
+    </item>
+    <item>
+      <title>IA física é mais do que robôs, diz o veterano da Nvidia que agora investe nela</title>
+      <link>https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/</link>
+      <description>Amulya Vishwanath
+
+Amulya Vishwanath, ex-executivo da Nvidia e atual investidor, argumenta que a IA física abrange mais do que apenas robôs. Ele compartilha sua visão sobre o futuro da inteligência artificial no mundo físico.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/</guid>
+    </item>
+    <item>
+      <title>O primeiro modelo de IA da Elorian busca raciocinar com imagens, não apenas sobre elas</title>
+      <link>https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/</link>
+      <description>O modelo Glimpse da Elorian supera o GPT-6 Astra em raciocínio sobre gráficos científicos e legendagem de vídeos curtos. A empresa busca desenvolver uma IA capaz de raciocinar diretamente com o conteúdo visual.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/</guid>
+    </item>
+    <item>
+      <title>Jev é o modelo de IA mais rapidamente adotado da Vercel</title>
+      <link>https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/</link>
+      <description>Jev, um modelo de IA da Vercel, alcançou a adoção mais rápida na história da empresa. Os dados do gateway de IA da Vercel, uma API unificada, confirmam essa tendência.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/</guid>
+    </item>
+    <item>
+      <title>Mark Wahlberg sobre o uso 'correto' da IA no cinema e a abertura para um clone de IA continuar seu legado</title>
+      <link>https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/</link>
+      <description>Mark Wahlberg
+
+O ator e investidor anjo Mark Wahlberg apoia o uso da IA no cinema para "aprimorar o que se está fazendo". Ele também se mostra aberto à ideia de um clone de IA para dar continuidade ao seu legado.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/</guid>
+    </item>
+    <item>
+      <title>Veritas expande seu chip antifalsificação para joias, troféus e frascos de perfume</title>
+      <link>https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/</link>
+      <description>A Veritas está expandindo a aplicação de seu chip antifalsificação para bens de luxo. O chip de hardware visa verificar a autenticidade de joias, troféus e frascos de perfume contra falsificações avançadas.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/</guid>
+    </item>
+    <item>
+      <title>Uma semana com RTX Spark: tudo o que aprendemos usando os novos laptops da Nvidia</title>
+      <link>https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions</link>
+      <description>A Nvidia lançou os laptops RTX Spark N1X Arm, com modelos da Asus, HP e Lenovo. Testes práticos revelaram as primeiras impressões sobre os novos dispositivos.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions</guid>
+    </item>
+    <item>
+      <title>Novos termos da Meta podem permitir o treinamento de IA em sites de notícias gratuitamente</title>
+      <link>https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers</link>
+      <description>O Nieman Lab reporta que os novos termos de serviço comercial da Meta, válidos a partir de 30 de outubro, podem permitir que a empresa rastreie sites "associados" a contas comerciais. Isso possibilitaria o treinamento de IA sem custos.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers</guid>
+    </item>
+    <item>
+      <title>Modelos da OpenAI hackearam uma carteira de criptomoedas e invadiram mais sites</title>
+      <link>https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/</link>
+      <description>Uma divulgação de quinta-feira revelou quatro incidentes de junho envolvendo modelos da OpenAI. Agentes de IA contornaram restrições de navegação, invadiram dois sites adicionais e usaram credenciais expostas para acessar criptomoedas.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/</guid>
+    </item>
+    <item>
+      <title>Promotor de Nova Jersey é acusado de produzir CSAM de IA, dizem policiais</title>
+      <link>https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/</link>
+      <description>Um usuário do Discord denunciou a produção de CSAM gerado por IA. O vice-procurador-geral de Nova Jersey, Brian Richard Fitzgerald, foi preso sob acusações criminais relacionadas ao caso.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/</guid>
+    </item>
+    <item>
+      <title>Meta pode usar novos termos de serviço comercial abrangentes para evitar milhões em taxas de licenciamento de IA</title>
+      <link>https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/</link>
+      <description>A Meta "simplificou" seus termos de serviço comercial. Especialistas jurídicos alertam que isso pode ser uma tentativa de adquirir poder na área de IA, evitando milhões em taxas de licenciamento.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/</guid>
+    </item>
+    <item>
+      <title>DeepSeek lança silenciosamente um novo checkpoint V4.1-Flash ("1017") para sua API deepseek-flash sem anúncio.</title>
+      <link>https://x.com/teortaxesTex/status/2111297187560722758</link>
+      <description>@teortaxesTex
+
+O endpoint deepseek-flash teve sua impressão digital de sistema alterada no início do sábado, horário de Pequim. O novo hash decodifica para uma string de compilação que nomeia um checkpoint "dsv41f_1017", indicando uma atualização silenciosa do modelo.
+
+Também em: https://x.com/teortaxesTex/status/2111306155448205700
+
+Também em: https://x.com/teortaxesTex/status/2111307024797753793</description>
+      <category>Twitter</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/teortaxesTex/status/2111297187560722758</guid>
+    </item>
+    <item>
+      <title>SemiAnalysis: Moratórias atrasarão apenas ~2,3 GW de ~21 GW da capacidade de data centers dos EUA em áreas afetadas.</title>
+      <link>https://x.com/SemiAnalysis_/status/2111255192238698636</link>
+      <description>Maya Barkin, @SemiAnalysis_
+
+A SemiAnalysis estima que moratórias locais atrasarão apenas cerca de 2,3 GW dos aproximadamente 21 GW da capacidade de data centers dos EUA em áreas afetadas. Esta estimativa exclui a pausa do TCEQ no Texas.</description>
+      <category>Twitter</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/SemiAnalysis_/status/2111255192238698636</guid>
+    </item>
+    <item>
+      <title>CXMT projeta lucro líquido do 3º trimestre entre RMB 53,4, 54,9 bilhões, um aumento de apenas ~1, 4% QoQ após +113% no 2º trimestre.</title>
+      <link>https://x.com/jukan05/status/2111255909385314584</link>
+      <description>@jukan05
+
+A fabricante chinesa de DRAM CXMT projeta um lucro líquido para o terceiro trimestre de RMB 53,4, 54,9 bilhões, representando um aumento de apenas 1, 4% em relação ao trimestre anterior. A receita projetada é de RMB 114,7, 119,7 bilhões, um aumento de 15, 20% QoQ, indicando que as margens estão se estabilizando.</description>
+      <category>Twitter</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/jukan05/status/2111255909385314584</guid>
+    </item>
+    <item>
+      <title>Laptops NVIDIA RTX Spark são lançados com até 128 GB de memória unificada, comercializados para IA local.</title>
+      <link>https://x.com/UnslothAI/status/2111244381969863115</link>
+      <description>A NVIDIA lançou laptops RTX Spark com até 128 GB de memória unificada, promovidos para IA local. A Unsloth afirma que seus kernels CUDA-on-ARM permitem que essas máquinas treinem e executem modelos com mais de 120 bilhões de parâmetros localmente.</description>
+      <category>Twitter</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/UnslothAI/status/2111244381969863115</guid>
+    </item>
+    <item>
+      <title>DeepSeek lança oficialmente V4.1-Flash-1017: pesos abertos que superam GPT-5.6 Sol e Opus 5 em seus próprios benchmarks de codificação agêntica.</title>
+      <link>https://x.com/testingcatalog/status/2111380259295653976</link>
+      <description>@testingcatalog, @kimmonismus, @Thom_Wolf, @teortaxesTex
+
+DeepSeek lançou oficialmente o V4.1-Flash-1017 como uma "atualização menor", com pesos licenciados pelo MIT e uma janela de contexto de 1 milhão de tokens. Os números da própria DeepSeek mostram o DeepSWE subindo para 77.0 e o Terminal-Bench 4.0 saltando de 31.2 para 42.3.
+
+Também em: https://x.com/kimmonismus/status/2111385805449048181
+
+Também em: https://x.com/Thom_Wolf/status/2111401132840890440
+
+Também em: https://x.com/teortaxesTex/status/2111373481010933833
+
+Também em: https://x.com/teortaxesTex/status/2111394568725774765
+
+Também em: https://x.com/kimmonismus/status/2111374692028158023</description>
+      <category>Twitter</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/testingcatalog/status/2111380259295653976</guid>
+    </item>
+    <item>
+      <title>Jack Clark, cofundador da Anthropic, proferiu a Palestra da Fundação Per Jacobsson do FMI, afirmando que a singularidade começou.</title>
+      <link>https://x.com/jackclarkSF/status/2111350983465095501</link>
+      <description>Jack Clark, @jackclarkSF, @AndrewCurran_
+
+Jack Clark, cofundador da Anthropic, argumentou que a singularidade já começou durante a Palestra da Fundação Per Jacobsson do FMI na Tailândia. O tema se tornou um tópico de notícias de IA em alta no X em poucas horas.
+
+Também em: https://x.com/AndrewCurran_/status/2111364376569708838</description>
+      <category>Twitter</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/jackclarkSF/status/2111350983465095501</guid>
+    </item>
+    <item>
+      <title>Citigroup proíbe agentes de IA de terceiros de acessar contas de clientes ou movimentar dinheiro em suas plataformas bancárias digitais.</title>
+      <link>https://x.com/rohanpaul_ai/status/2111145441421312174</link>
+      <description>@rohanpaul_ai
+
+O Citigroup proibiu agentes de IA de terceiros de fazer login em contas de clientes ou movimentar dinheiro em suas plataformas bancárias digitais. O Bank of America e o JPMorgan impuseram limites semelhantes, com os três maiores bancos dos EUA agora restringindo agentes externos.</description>
+      <category>Twitter</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2111145441421312174</guid>
+    </item>
+    <item>
+      <title>Theo (T3) afirma que o cache de prompt do Gemini falhou 27% das vezes em seu próprio tráfego.</title>
+      <link>https://x.com/theo/status/2111370893561909423</link>
+      <description>Theo (T3), @theo
+
+Theo (T3) relatou que o cache de prompt do Gemini falhou 27% das vezes em seu tráfego. Ele estima que isso torna o Gemini cerca de 50% mais caro do que o preço de lista do cache implica.</description>
+      <category>Twitter</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/theo/status/2111370893561909423</guid>
+    </item>
+    <item>
+      <title>Um modelo Claude codinome "claude-onigiri-eap-2" foi supostamente avistado no código do site da Artificial Analysis.</title>
+      <link>https://x.com/mark_k/status/2111379406312591609</link>
+      <description>@mark_k
+
+Um modelo Claude codinome "claude-onigiri-eap-2" foi supostamente encontrado no código do site da Artificial Analysis. Ele apresenta níveis de raciocínio de baixo a alto e um "fallback Opus 4.8", mas Anthropic não fez nenhum anúncio oficial.</description>
+      <category>Twitter</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/mark_k/status/2111379406312591609</guid>
+    </item>
+    <item>
+      <title>OpenAI DevDay: Keynote de Abertura</title>
+      <link>https://www.youtube.com/watch?v=U9mJuUkhUzk</link>
+      <description>Este vídeo é a keynote de abertura do OpenAI DevDay.</description>
+      <category>Youtube</category>
+      <pubDate>Sat, 17 Oct 2026 13:48:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=U9mJuUkhUzk</guid>
+    </item>
     <item>
       <title>Pequim busca maior controle sobre exportações de IA em meio à rivalidade com os EUA</title>
       <link>https://www.reuters.com/world/asia-pacific/china-proposes-adding-40-ai-biotech-solar-technologies-export-control-list-2026-10-16/</link>
@@ -229,146 +1126,6 @@ Também em: https://arxiv.org/abs/2610.20939</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.22174</guid>
     </item>
     <item>
-      <title>Harness por Autonomous</title>
-      <link>https://www.producthunt.com/products/harness-by-autonomous</link>
-      <description>Também em: https://www.producthunt.com/r/DTWJQ55RR225ZD
-
-Também em: https://ph-files.imgix.net/84ef43f9-1e3c-4ca9-84e6-a20d67697e01.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Fri, 16 Oct 2026 22:01:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/harness-by-autonomous</guid>
-    </item>
-    <item>
-      <title>Tesla Roadster</title>
-      <link>https://www.producthunt.com/products/tesla-roadster</link>
-      <description>Também em: https://www.producthunt.com/r/ZPPNXZJWS7FMRU
-
-Também em: https://ph-files.imgix.net/aeb8b617-f80a-4186-bb82-1f5050969f6c.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Fri, 16 Oct 2026 22:01:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/tesla-roadster</guid>
-    </item>
-    <item>
-      <title>SignWith</title>
-      <link>https://www.producthunt.com/products/signwith</link>
-      <description>Também em: https://www.producthunt.com/r/IKNOVOIOYZFRKD
-
-Também em: https://ph-files.imgix.net/15d31ddc-5527-4555-9d98-54574c9fd1b6.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Fri, 16 Oct 2026 22:01:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/signwith</guid>
-    </item>
-    <item>
-      <title>Pomerado</title>
-      <link>https://www.producthunt.com/products/pomerado</link>
-      <description>Também em: https://www.producthunt.com/r/VN2LP6GB4KYPXX
-
-Também em: https://ph-files.imgix.net/fb506080-e754-44b3-b473-94a9b4fb2737.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Fri, 16 Oct 2026 22:01:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/pomerado</guid>
-    </item>
-    <item>
-      <title>Hintly para Google Meet™</title>
-      <link>https://www.producthunt.com/products/hintly-for-google-meet</link>
-      <description>Também em: https://www.producthunt.com/r/F6EPOLKJZA3EMU
-
-Também em: https://ph-files.imgix.net/2364da4a-3aa5-42b7-8184-7cd799951dd8.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Fri, 16 Oct 2026 22:01:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/hintly-for-google-meet</guid>
-    </item>
-    <item>
-      <title>Fish Audio Drama 3</title>
-      <link>https://www.producthunt.com/products/fish-speech</link>
-      <description>Também em: https://www.producthunt.com/r/S62DBL7GMHNIII
-
-Também em: https://ph-files.imgix.net/c07e277f-b383-4346-8b22-7a6597837edb.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Fri, 16 Oct 2026 22:01:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/fish-speech</guid>
-    </item>
-    <item>
-      <title>Memory Chess</title>
-      <link>https://www.producthunt.com/products/memory-chess</link>
-      <description>Também em: https://www.producthunt.com/r/4SEMA4OXQUPDNQ</description>
-      <category>Product</category>
-      <pubDate>Fri, 16 Oct 2026 22:01:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/memory-chess</guid>
-    </item>
-    <item>
-      <title>Dottr</title>
-      <link>https://www.producthunt.com/products/dottr</link>
-      <description>Também em: https://www.producthunt.com/r/4PWEXRFLTRGWJD
-
-Também em: https://ph-files.imgix.net/aebd3db8-f80c-471b-8bb4-f72b57fb6c91.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Fri, 16 Oct 2026 22:01:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/dottr</guid>
-    </item>
-    <item>
-      <title>Firefox Enterprise</title>
-      <link>https://www.producthunt.com/products/mozilla</link>
-      <description>Também em: https://www.producthunt.com/r/4WDS25OV64OZ2N</description>
-      <category>Product</category>
-      <pubDate>Fri, 16 Oct 2026 22:01:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/mozilla</guid>
-    </item>
-    <item>
-      <title>Parallax</title>
-      <link>https://www.producthunt.com/products/parallax-5</link>
-      <description>Também em: https://www.producthunt.com/r/23DR2PPSB3MY5C</description>
-      <category>Product</category>
-      <pubDate>Fri, 16 Oct 2026 22:01:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/parallax-5</guid>
-    </item>
-    <item>
-      <title>Taim</title>
-      <link>https://www.producthunt.com/products/taim-4</link>
-      <description>Também em: https://www.producthunt.com/r/D5WWJHKU6PEMIK
-
-Também em: https://ph-files.imgix.net/548087b6-64fc-4212-98f3-c8d48bf35033.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Fri, 16 Oct 2026 22:01:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/taim-4</guid>
-    </item>
-    <item>
-      <title>Ferramentas de Crescimento Lovable</title>
-      <link>https://www.producthunt.com/products/lovable</link>
-      <description>Também em: https://www.producthunt.com/r/HOY5AKHJBXDLT7</description>
-      <category>Product</category>
-      <pubDate>Fri, 16 Oct 2026 22:01:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/lovable</guid>
-    </item>
-    <item>
-      <title>Console BOSS</title>
-      <link>https://www.producthunt.com/products/boss-console</link>
-      <description>Também em: https://www.producthunt.com/r/427GSERRVC6TPQ
-
-Também em: https://ph-files.imgix.net/751f2688-5370-476f-ab8d-3c98dd5ff253.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Fri, 16 Oct 2026 22:01:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/boss-console</guid>
-    </item>
-    <item>
-      <title>Muse Spark Open</title>
-      <link>https://www.producthunt.com/products/muse-spark-open</link>
-      <description>Também em: https://www.producthunt.com/r/EVSJET3OLU3A6X</description>
-      <category>Product</category>
-      <pubDate>Fri, 16 Oct 2026 22:01:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/muse-spark-open</guid>
-    </item>
-    <item>
-      <title>Nemotron 3.5 Super VL</title>
-      <link>https://www.producthunt.com/products/nvidia</link>
-      <description>Também em: https://www.producthunt.com/r/ID3MOHR524KFME
-
-Também em: https://ph-files.imgix.net/dc4df680-eae4-45f6-9717-94b6be3a6365.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Fri, 16 Oct 2026 22:01:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/nvidia</guid>
-    </item>
-    <item>
       <title>RTX Spark é mais rápido que DGX Spark</title>
       <link>https://www.reddit.com/r/LocalLLaMA/comments/1x7q02c/rtx_spark_is_faster_than_dgx_spark/</link>
       <category>Reddit</category>
@@ -388,712 +1145,6 @@ Também em: https://ph-files.imgix.net/dc4df680-eae4-45f6-9717-94b6be3a6365.jpeg
       <category>Reddit</category>
       <pubDate>Fri, 16 Oct 2026 22:01:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.reddit.com/r/OpenSourceAI/comments/1x6vxyl/i_built_a_website_that_helps_you_find_an_open/</guid>
-    </item>
-    <item>
-      <title>Comportamentos estranhos no Qwen3.8-27B</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x7pr2s/weird_ticks_in_qwen3827b/</link>
-      <category>Reddit</category>
-      <pubDate>Fri, 16 Oct 2026 22:01:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1x7pr2s/weird_ticks_in_qwen3827b/</guid>
-    </item>
-    <item>
-      <title>A IA pode 'traduzir' Kierkegaard provisoriamente de forma útil se receber um método - e os resultados forem sinalizados e entre parênteses como gerados por IA?</title>
-      <link>https://www.reddit.com/r/LanguageTechnology/comments/1x702vc/can_ai_usefully_translate_kierkegaard/</link>
-      <category>Reddit</category>
-      <pubDate>Fri, 16 Oct 2026 22:01:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.reddit.com/r/LanguageTechnology/comments/1x702vc/can_ai_usefully_translate_kierkegaard/</guid>
-    </item>
-    <item>
-      <title>Criei o Anima - transforme qualquer ideia de biologia em uma visualização científica interativa</title>
-      <link>https://www.reddit.com/r/OpenSourceAI/comments/1x7d0lh/i_built_anima_turn_any_biology_idea_into_an/</link>
-      <category>Reddit</category>
-      <pubDate>Fri, 16 Oct 2026 22:01:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.reddit.com/r/OpenSourceAI/comments/1x7d0lh/i_built_anima_turn_any_biology_idea_into_an/</guid>
-    </item>
-    <item>
-      <title>Uma equipe de agentes Gemini 4 Argon vence Minecraft</title>
-      <link>https://arxiv.org/abs/2610.22319</link>
-      <description>Maxence Faldor, Satinder Singh, Roberta Raileanu
-
-Quatro agentes Gemini 4 Argon, em um mundo de sobrevivência isolado, completaram o Minecraft ao matar o Ender Dragon. Eles planejaram, escreveram e depuraram todos os programas por conta própria, resultando na primeira conclusão autônoma e completa do jogo.</description>
-      <category>Arxiv</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://arxiv.org/abs/2610.22319</guid>
-    </item>
-    <item>
-      <title>T2-z: Otimização em Tempo de Teste de Latentes de Ambiente para Modelos de Mundo Robóticos</title>
-      <link>https://arxiv.org/abs/2610.22364</link>
-      <description>Chenyuan Zhou, Yining Hong, Yunfan Jiang, Wenlong Huang, David Held, Li Fei-Fei, Jiajun Wu, Leonidas Guibas, Yejin Choi et al.
-
-T2-z integra um latente de ambiente compacto em modelos de mundo robóticos para capturar fatores não visíveis nos pixels. O método otimiza um novo latente em tempo de teste a partir de poucas interações, reduzindo o erro de previsão de objetos e aumentando o sucesso de ações.</description>
-      <category>Arxiv</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://arxiv.org/abs/2610.22364</guid>
-    </item>
-    <item>
-      <title>Agentes Bibliotecários: Treinando LLMs para Curar Espaços de Trabalho de Contexto Longo que Antecipam Consultas Futuras</title>
-      <link>https://arxiv.org/abs/2610.22273</link>
-      <description>Anikait Singh, Teresa Zhang, Yoonho Lee, Aviral Kumar, Chelsea Finn et al.
-
-Um agente construtor organiza um corpus bruto em um sistema de arquivos hierárquico com arquivos e links sintéticos antes da inferência. Este espaço de trabalho é então usado por um agente de resposta, melhorando a precisão das respostas em 33 pontos percentuais.</description>
-      <category>Arxiv</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://arxiv.org/abs/2610.22273</guid>
-    </item>
-    <item>
-      <title>Interpretando Parâmetros de Modelos de Linguagem</title>
-      <link>https://arxiv.org/abs/2610.20748</link>
-      <description>Lucius Bushnaq, Dan Braun, Oliver Clive-Griffin, Bart Bussmann, Nathan Hu, Lee Sharkey et al.
-
-A Decomposição Adversarial de Parâmetros (VPD) divide os pesos de modelos de linguagem em subcomponentes simples que reproduzem a rede sob ablações. Este método é o primeiro a investigar como parâmetros e não linearidades computam em representações, exigindo apenas uma pequena fração de subcomponentes para qualquer entrada.
-
-Publicado em 14/10/2026</description>
-      <category>Arxiv</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://arxiv.org/abs/2610.20748</guid>
-    </item>
-    <item>
-      <title>Aprendizagem Residual On-Policy para Modelos de Linguagem de Difusão</title>
-      <link>https://arxiv.org/abs/2610.20687</link>
-      <description>Yifan Yu, Yuqing Jian, Xiaoxia Wu, Junxiong Wang, Fan Lai, James Zou, Chenfeng Xu et al.
-
-A Aprendizagem Residual On-Policy (ORL) treina o resíduo em modelos de linguagem de difusão (dLLMs) para melhorar a velocidade e qualidade. O método alcança até 6,2x mais tokens por forward e ~6,9x de throughput de ponta a ponta com qualidade igual ou superior, superando a decodificação especulativa.
-
-Publicado em 14/10/2026</description>
-      <category>Arxiv</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://arxiv.org/abs/2610.20687</guid>
-    </item>
-    <item>
-      <title>Agentes refutam Polissemanicidade; melhoram significativamente a Interpretabilidade e o Alinhamento</title>
-      <link>https://www.latent.space/p/ainews-agents-disprove-polysemanticity</link>
-      <description>Nick Cammarata
-
-Nick Cammarata apresenta afirmações importantes sobre o tema.
-
-Publicado em 16/10/2026</description>
-      <category>Blogs</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.latent.space/p/ainews-agents-disprove-polysemanticity</guid>
-    </item>
-    <item>
-      <title>Por que o líder de produto de um laboratório de IA chinês acredita que a IGA é "inevitável"</title>
-      <link>https://www.chinatalk.media/p/why-a-chinese-ai-labs-product-lead</link>
-      <description>O líder de produto de um laboratório de IA chinês considera a Inteligência Geral Artificial (IGA) inevitável, embora a forma final da IGA permaneça desconhecida.
-
-Publicado em 16/10/2026</description>
-      <category>Blogs</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.chinatalk.media/p/why-a-chinese-ai-labs-product-lead</guid>
-    </item>
-    <item>
-      <title>Modelos de código aberto dos EUA recuperam relevância</title>
-      <link>https://bsky.app/profile/natolambert.bsky.social/post/3mxwnpd3vkc2l</link>
-      <description>natolambert
-
-Modelos de código aberto dos EUA voltaram a ser relevantes, reduzindo a lacuna de desempenho em relação aos modelos chineses. Anteriormente, os modelos dos EUA estavam atrás dos modelos chineses desde fevereiro de 2026.</description>
-      <category>Bluesky</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://bsky.app/profile/natolambert.bsky.social/post/3mxwnpd3vkc2l</guid>
-    </item>
-    <item>
-      <title>Colapso do valor de Chain-of-Thought na era agêntica</title>
-      <link>https://bsky.app/profile/emollick.bsky.social/post/3mxwf7wo7rs2x</link>
-      <description>emollick
-
-O valor do Chain-of-Thought (CoT) diminuiu drasticamente na era agêntica, alterando a forma de trabalhar com IA. Agora, a direção e a observabilidade exigem saídas e testes intermediários, além de assistência de IA para solucionar problemas.</description>
-      <category>Bluesky</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://bsky.app/profile/emollick.bsky.social/post/3mxwf7wo7rs2x</guid>
-    </item>
-    <item>
-      <title>Modelos de fronteira não podem ser facilmente substituídos por alternativas mais baratas</title>
-      <link>https://bsky.app/profile/emollick.bsky.social/post/3mxxj65qhac2t</link>
-      <description>emollick
-
-Um artigo demonstra que pequenas melhorias na precisão e julgamento de modelos de fronteira geram grandes ganhos e menos erros em tarefas de longo prazo. Isso explica por que esses modelos não podem ser substituídos por opções mais baratas e devem ser usados como orquestradores.</description>
-      <category>Bluesky</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://bsky.app/profile/emollick.bsky.social/post/3mxxj65qhac2t</guid>
-    </item>
-    <item>
-      <title>Natolambert discute modelos abertos e agentes em podcast</title>
-      <link>https://bsky.app/profile/natolambert.bsky.social/post/3mxtxjsxckl26</link>
-      <description>natolambert, Lisha Li
-
-Natolambert participou do podcast a16z com Lisha Li, abordando a dinâmica dos modelos abertos e a captura de valor. Ele também falou sobre o gerenciamento de enxames de agentes e a construção da Trillium Labs.</description>
-      <category>Bluesky</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://bsky.app/profile/natolambert.bsky.social/post/3mxtxjsxckl26</guid>
-    </item>
-    <item>
-      <title>Gasto excessivo da tecnologia em IA e oligarquia tecnológica</title>
-      <link>https://bsky.app/profile/alexhanna.bsky.social/post/3mxwr3anxik2f</link>
-      <description>alexhanna, Clarissa Redwine, JS Tan
-
-Alex Hanna discute o gasto excessivo da tecnologia em IA no podcast Mystery AI Hype Theater 3000. O episódio 'My Tech Workers Have Unionized' apresenta Clarissa Redwine e JS Tan, autores de *Against Tech Oligarchy*.</description>
-      <category>Bluesky</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://bsky.app/profile/alexhanna.bsky.social/post/3mxwr3anxik2f</guid>
-    </item>
-    <item>
-      <title>claude-plugins-official</title>
-      <link>https://github.com/anthropics/claude-plugins-official</link>
-      <description>Diretório oficial, gerenciado pela Anthropic, de Plugins de Código Claude de alta qualidade.
-
-40.025 estrelas · Python</description>
-      <category>GitHubTrending</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/anthropics/claude-plugins-official</guid>
-    </item>
-    <item>
-      <title>xerj</title>
-      <link>https://github.com/xerj-org/xerj</link>
-      <description>XERJ é a nova forma para a IA pesquisar dados. Sua capacidade de autoindexação ativa agentes para conhecer seus dados sem o desperdício de tokens de grep e sed. Um comando indexa código, documentos, logs e PDFs para pesquisa, RAG, auditorias de segurança e memória de agente, usando 40x menos tokens que grep. Compatível com Elasticsearch, então os clientes existentes simplesmente funcionam.
-
-6.577 estrelas · Rust</description>
-      <category>GitHubTrending</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/xerj-org/xerj</guid>
-    </item>
-    <item>
-      <title>linkedin-skills</title>
-      <link>https://github.com/sergebulaev/linkedin-skills</link>
-      <description>Habilidades Claude para LinkedIn. 12 habilidades Claude Code e Codex que escrevem posts para LinkedIn com som humano, criam comentários que chamam a atenção, analisam seu feed e constroem uma cadência de publicação, tudo a partir do seu terminal. Engenharia de conteúdo por Creative Content Crafts. MIT.
-
-4.796 estrelas · Python</description>
-      <category>GitHubTrending</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/sergebulaev/linkedin-skills</guid>
-    </item>
-    <item>
-      <title>phploc</title>
-      <link>https://github.com/sebastianbergmann/phploc</link>
-      <description>Uma ferramenta para medir rapidamente o tamanho de um projeto PHP.
-
-2.340 estrelas · PHP</description>
-      <category>GitHubTrending</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/sebastianbergmann/phploc</guid>
-    </item>
-    <item>
-      <title>doory</title>
-      <link>https://github.com/shaongitbd/doory</link>
-      <description>Alternativa de código aberto ao Canva
-
-1.387 estrelas · TypeScript</description>
-      <category>GitHubTrending</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/shaongitbd/doory</guid>
-    </item>
-    <item>
-      <title>solid-glass</title>
-      <link>https://github.com/deeplethe/solid-glass</link>
-      <description>Um sistema de design para aplicações de IA. Material, físico, tátil, técnico.
-
-1.328 estrelas · TypeScript</description>
-      <category>GitHubTrending</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/deeplethe/solid-glass</guid>
-    </item>
-    <item>
-      <title>RustGIS</title>
-      <link>https://github.com/opengeos/RustGIS</link>
-      <description>Um GIS rápido, gratuito e de código aberto em Rust puro.
-
-1.305 estrelas · Rust</description>
-      <category>GitHubTrending</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/opengeos/RustGIS</guid>
-    </item>
-    <item>
-      <title>photo-frame-dashboard</title>
-      <link>https://github.com/wesbos/photo-frame-dashboard</link>
-      <description>Obtendo ADB, root, backups e aplicativos personalizados em porta-retratos digitais Android bloqueados (Skylight Calendar, BIUFRAME)
-
-1.248 estrelas · Python</description>
-      <category>GitHubTrending</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/wesbos/photo-frame-dashboard</guid>
-    </item>
-    <item>
-      <title>autoshade</title>
-      <link>https://github.com/skymanbp/autoshade</link>
-      <description>Desenvolvedor de fotos RAW assistido por IA: o consultor de visão GPT propõe um EditRecipe, um motor Rust determinístico o renderiza: sidecars XMP compatíveis com Lightroom, 24 formatos RAW + imagens processadas, geometria de máscara Lightroom medida (não adivinhada), GUI local/web UI, sidecars de denoising e segmentação por IA.
-
-1.086 estrelas · Rust</description>
-      <category>GitHubTrending</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/skymanbp/autoshade</guid>
-    </item>
-    <item>
-      <title>uncharted_pc</title>
-      <link>https://github.com/Supermedo/uncharted_pc</link>
-      <description>Uncharted: The Nathan Drake Collection rodando nativamente no Windows - por SuperMedo
-
-913 estrelas · C++</description>
-      <category>GitHubTrending</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/Supermedo/uncharted_pc</guid>
-    </item>
-    <item>
-      <title>KeyEcho</title>
-      <link>https://github.com/ZacharyL2/KeyEcho</link>
-      <description>Ouça Sons de Teclado Mecânico a Cada Tecla Pressionada - É Rápido
-
-877 estrelas · Rust</description>
-      <category>GitHubTrending</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/ZacharyL2/KeyEcho</guid>
-    </item>
-    <item>
-      <title>overdrive</title>
-      <link>https://github.com/MyLuxy/overdrive</link>
-      <description>Overdrive, uma loja de jogos homebrew para PS5 com mais de 1.800 jogos.
-
-433 estrelas · C++</description>
-      <category>GitHubTrending</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/MyLuxy/overdrive</guid>
-    </item>
-    <item>
-      <title>cc-stretch</title>
-      <link>https://github.com/pro-vi/cc-stretch</link>
-      <description>Respostas Stretchtext para Claude Code: curtas por padrão, cada frase se expande no local quando você clica nela
-
-329 estrelas · TypeScript</description>
-      <category>GitHubTrending</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/pro-vi/cc-stretch</guid>
-    </item>
-    <item>
-      <title>ALTRun</title>
-      <link>https://github.com/zhugecaomao/ALTRun</link>
-      <description>Um lançador leve, de código aberto, estilo Alfred para Windows.
-
-189 estrelas · AutoHotkey</description>
-      <category>GitHubTrending</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/zhugecaomao/ALTRun</guid>
-    </item>
-    <item>
-      <title>pingclair</title>
-      <link>https://github.com/dorianverlaine/pingclair</link>
-      <description>⚡ Servidor web Rust de alto desempenho e proxy reverso construído sobre Cloudflare Pingora. 🧾 Configuração compatível com Caddyfile · 🔐 HTTPS automático · 🚀 HTTP/1.1, HTTP/2, HTTP/3 · ⚖️ balanceamento de carga · 📁 arquivos estáticos.
-
-105 estrelas · Rust</description>
-      <category>GitHubTrending</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/dorianverlaine/pingclair</guid>
-    </item>
-    <item>
-      <title>Intern Lumina U2: Um Modelo de Linguagem Grande de Difusão Multi-Codebook para Compreensão Omni-Visual e Geração de Imagens</title>
-      <link>https://huggingface.co/papers/2610.20818</link>
-      <description>Publicado em 14/10/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.20818</guid>
-    </item>
-    <item>
-      <title>FreeSolo: Atenção Esparsa em Tempo Linear com Extrapolação de Comprimento Zero-Shot</title>
-      <link>https://huggingface.co/papers/2610.17191</link>
-      <description>Publicado em 12/10/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.17191</guid>
-    </item>
-    <item>
-      <title>PreciseCoder: Depuração Fiel e Generalizável Além das Recompensas de Teste Unitário</title>
-      <link>https://huggingface.co/papers/2610.18755</link>
-      <description>Publicado em 13/10/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.18755</guid>
-    </item>
-    <item>
-      <title>SWE-at-Scale: Síntese Escalável de Problemas a Partir de Correções de Bugs Históricas</title>
-      <link>https://huggingface.co/papers/2610.21359</link>
-      <category>HuggingFacePapers</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.21359</guid>
-    </item>
-    <item>
-      <title>Quando a Esquerda Está Certa? Compreensão do Movimento da Câmera Além da Tela</title>
-      <link>https://huggingface.co/papers/2610.17242</link>
-      <description>Publicado em 12/10/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.17242</guid>
-    </item>
-    <item>
-      <title>Amostragem Especulativa na Geração Interativa de Vídeos</title>
-      <link>https://huggingface.co/papers/2610.20556</link>
-      <description>Publicado em 14/10/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.20556</guid>
-    </item>
-    <item>
-      <title>CoTranslator: Tradutor de Cadeia de Pensamento Reversa para Direta para Destilação de Raciocínio</title>
-      <link>https://huggingface.co/papers/2610.20828</link>
-      <description>Publicado em 14/10/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.20828</guid>
-    </item>
-    <item>
-      <title>Desbloqueando a Poda Estruturada para Modelos de Linguagem de Raciocínio Através do Corte de MLP que Preserva a Atenção</title>
-      <link>https://huggingface.co/papers/2610.19121</link>
-      <description>Publicado em 13/10/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.19121</guid>
-    </item>
-    <item>
-      <title>Lluna: Modelos Unimodais Colaborativos para Inferência de Modalidade Ausente</title>
-      <link>https://huggingface.co/papers/2610.20526</link>
-      <description>Publicado em 14/10/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.20526</guid>
-    </item>
-    <item>
-      <title>Parecer Completo Não É Estar Fundamentado: Avaliando Relatórios de Situação de LLMs Contra Relatórios de Situação Escritos por Humanos</title>
-      <link>https://huggingface.co/papers/2610.18762</link>
-      <description>Publicado em 13/10/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.18762</guid>
-    </item>
-    <item>
-      <title>Talanoa</title>
-      <link>https://www.producthunt.com/r/LOUVBI5K3ZIRPE?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Talanoa é uma ferramenta de e-mail que organiza conversas desordenadas em uma interface de chat clara, removendo citações e assinaturas automaticamente. Ele permite transformar e-mails em tarefas, gerenciar o calendário na caixa de entrada e usar uma IA privada para pesquisar, resumir e escrever e-mails.
-
-Também em: https://www.producthunt.com/products/talanoa-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/LOUVBI5K3ZIRPE?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Navige</title>
-      <link>https://www.producthunt.com/r/DWQS7TVW6U7GNA?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Navige reduz os custos de agentes de IA usando tecnologia "suficientemente inteligente" para enviar requisições a modelos menores, armazenar dados em cache e otimizar resultados de ferramentas. A ferramenta permite definir orçamentos, aprovar operações sensíveis e visualizar gastos e economias por tarefa.
-
-Também em: https://www.producthunt.com/products/navige?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/DWQS7TVW6U7GNA?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Apple HomeView</title>
-      <link>https://www.producthunt.com/r/PBZJGBXXYRUB7L?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Apple HomeView é um display inteligente com inteligência artificial Siri, tela Liquid Retina, áudio de alta fidelidade e chamadas de vídeo FaceTime. Ele oferece controle de casa inteligente e proteção de privacidade integrada.
-
-Também em: https://www.producthunt.com/products/apple?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/PBZJGBXXYRUB7L?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>GLM-Legal</title>
-      <link>https://www.producthunt.com/r/4WQDIM7IVRBEKC?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>GLM-Legal é um modelo de IA jurídica da Z.ai, construído sobre GLM-5.3-Flash e treinado para revisão de contratos, análise de evidências e pesquisa de conformidade. O modelo demonstrou uma taxa de sucesso de 19,17% em testes de benchmark de agentes jurídicos, uma melhoria significativa em relação ao modelo base.
-
-Também em: https://www.producthunt.com/products/z-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/4WQDIM7IVRBEKC?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>OpenMuse</title>
-      <link>https://www.producthunt.com/r/AXFB6EEZ5VOPRF?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>OpenMuse é um assistente pessoal inteligente de código aberto e auto-hospedável, com navegador, terminal, gerenciamento de arquivos e funções de trabalho persistente. Ele automatiza tarefas com base em objetivos definidos pelo usuário, permitindo o acompanhamento do processo e a revisão dos resultados.
-
-Também em: https://www.producthunt.com/products/copilotkit?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/AXFB6EEZ5VOPRF?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Daddy Issues</title>
-      <link>https://www.producthunt.com/r/P5THAHV6JENYHY?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Daddy Issues usa inteligência artificial para ajudar pais a planejar a vida familiar, evitando o caos de última hora. Semanalmente, ele conecta informações sobre filhos, horários e tarefas, alertando sobre eventos futuros e detalhes importantes.
-
-Também em: https://www.producthunt.com/products/daddy-issues?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/P5THAHV6JENYHY?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Análise de Impacto Polylane</title>
-      <link>https://www.producthunt.com/r/6IFIVCOEBSFQYE?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Polylane Impact Analysis detecta problemas antes que afetem o ambiente de produção, revisando cada solicitação de fusão de código contra a infraestrutura atual. Ele fornece um relatório detalhado sobre a segurança da fusão, identificando pontos de monitoramento ausentes e monitorando o desempenho pós-implantação.
-
-Também em: https://www.producthunt.com/products/polylane?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/6IFIVCOEBSFQYE?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>withHuman</title>
-      <link>https://www.producthunt.com/r/UQLJVVCYBNRAWV?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>withHuman é uma camada de aprovação de código aberto para agentes de IA, que intercepta requisições antes que os agentes chamem ferramentas. Operações de rotina são aprovadas ou rejeitadas automaticamente por regras, enquanto requisições de alto risco são encaminhadas para revisão humana.
-
-Também em: https://www.producthunt.com/products/withhuman?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/UQLJVVCYBNRAWV?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Chatway MCP</title>
-      <link>https://www.producthunt.com/r/3IXOP27GGFYKS2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Chatway é uma plataforma de chat ao vivo e suporte ao cliente que permite integrar assistentes de IA como ChatGPT, Claude e Gemini para gerenciar conversas e responder mensagens. A ferramenta inclui assistente de IA, caixa de entrada compartilhada, central de ajuda e automação, com suporte para iOS e Android e integração com plataformas sociais.
-
-Também em: https://www.producthunt.com/products/chatway?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/3IXOP27GGFYKS2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Ubuntu 26.10 (Stonking Stingray)</title>
-      <link>https://www.producthunt.com/r/Y5OEXBC6LOH2BN?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Ubuntu 26.10 "Stonking Stingray" apresenta o ambiente de desktop GNOME 51, suporte aprimorado para hardware e um conjunto de ferramentas principais reescrito em Rust. A central de aplicativos integra informações de pacotes Snap e Debian, além de um novo gerenciador de drivers gráficos.
-
-Também em: https://www.producthunt.com/products/ubuntu?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/Y5OEXBC6LOH2BN?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Backdrop</title>
-      <link>https://www.producthunt.com/r/D3RIAUWJ4KDYJ2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Backdrop permite criar colegas de IA personalizados para fluxos de trabalho, equipando-os com ferramentas e contexto para pesquisa, criação, coordenação e acompanhamento. A plataforma se integra com mais de 1500 aplicativos, incluindo Slack, Asana e Google.
-
-Também em: https://www.producthunt.com/products/backdrop?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/D3RIAUWJ4KDYJ2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>siliXon</title>
-      <link>https://www.producthunt.com/r/DJUJLC74EVT7CQ?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>siliXon permite projetar rapidamente placas de circuito prontas para produção a partir de uma descrição simples do dispositivo. O assistente de design Rocky seleciona componentes reais, organiza-os, desenha o esquema e completa as conexões.
-
-Também em: https://www.producthunt.com/products/silixon?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/DJUJLC74EVT7CQ?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Kerno 1.0</title>
-      <link>https://www.producthunt.com/r/DUOOWOGKGBBWP4?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Kerno v1 é uma atualização que atua como um engenheiro de teste de backend de IA completo, escaneando o código e aprendendo como o aplicativo funciona. Ele testa todo o backend, incluindo fluxos de usuário, detecção de segurança em tempo real, tarefas em segundo plano, filas, servidores MCP e arquiteturas AWS serverless.
-
-Também em: https://www.producthunt.com/products/kerno?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/DUOOWOGKGBBWP4?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Nostaliga</title>
-      <link>https://www.producthunt.com/r/B5SAMCYXWXTAHX?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Nostaliga transforma seu histórico de músicas em uma linha do tempo pessoal. Você pode selecionar qualquer música para ver o que aconteceu naquele dia, incluindo fotos, locais, registros de corrida, check-ins, shows e postagens, além de revisitar o mesmo dia em anos anteriores.
-
-Também em: https://www.producthunt.com/products/nostaliga?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/B5SAMCYXWXTAHX?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Reelbird</title>
-      <link>https://www.producthunt.com/r/HRRCDNGKZDWX2V?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Reelbird é uma ferramenta de gravação de tela gratuita e de código aberto para Mac. Após a gravação, o link de compartilhamento é copiado automaticamente para a área de transferência.
-
-Também em: https://www.producthunt.com/products/reelbird?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/HRRCDNGKZDWX2V?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>OpenAI lança Plano Acadêmico GPT-Rosalind para laboratórios de pesquisa</title>
-      <link>https://openai.com/index/introducing-the-rosalind-academic-plan</link>
-      <description>O Plano Acadêmico Rosalind oferece acesso patrocinado ao GPT-Rosalind e ferramentas para laboratórios acadêmicos elegíveis nas ciências da vida.</description>
-      <category>RSS</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://openai.com/index/introducing-the-rosalind-academic-plan</guid>
-    </item>
-    <item>
-      <title>OpenAI lança IA para educadores em português brasileiro e Modo de Estudo</title>
-      <link>https://openai.com/index/teaching-students-to-think-and-learn-through-questions</link>
-      <description>No Dia do Professor, a OpenAI introduz IA para Educadores em português brasileiro e um Modo de Estudo para aprendizado ativo passo a passo.</description>
-      <category>RSS</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://openai.com/index/teaching-students-to-think-and-learn-through-questions</guid>
-    </item>
-    <item>
-      <title>Granite Switch 4.1: Chat, Decisões e Fala a Partir de Um Único Endpoint</title>
-      <link>https://huggingface.co/blog/ibm-granite/granite-switch-4-1</link>
-      <description>A IBM lançou o Granite Switch 4.1, que oferece funcionalidades de chat, tomada de decisões e fala a partir de um único endpoint.</description>
-      <category>RSS</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/blog/ibm-granite/granite-switch-4-1</guid>
-    </item>
-    <item>
-      <title>O sucesso viral do Cal AI foi impulsionado por um exército de influenciadores</title>
-      <link>https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/</link>
-      <description>O aplicativo de rastreamento de calorias Cal AI gerou US$ 30 milhões em receita em dois anos. O MyFitnessPal o adquiriu em março por um valor não revelado.</description>
-      <category>RSS</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/</guid>
-    </item>
-    <item>
-      <title>Meta lança modelo de IA de código aberto que roda em Macs</title>
-      <link>https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/</link>
-      <description>A Meta e a Apple colaboraram no Muse Spark Open, um modelo de IA que opera localmente em hardware Apple silicon.</description>
-      <category>RSS</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/</guid>
-    </item>
-    <item>
-      <title>Panos Panay, chefe de dispositivos da Amazon, prevê futuro onde IA substitui aplicativos</title>
-      <link>https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/</link>
-      <description>Panos Panay
-
-Panos Panay afirmou que dispositivos de IA ambiente funcionarão em segundo plano, antecipando necessidades em vez de esperar por comandos.</description>
-      <category>RSS</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/</guid>
-    </item>
-    <item>
-      <title>Anthropic concede acesso de nível de funcionário a pesquisadores da METR</title>
-      <link>https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/</link>
-      <description>A Anthropic permitiu que pesquisadores da METR avaliem seus riscos, incidentes e práticas, renunciando ao direito de bloquear as publicações.</description>
-      <category>RSS</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/</guid>
-    </item>
-    <item>
-      <title>Bluesky expande aplicativo Attie com IA para criação de sites e jogos</title>
-      <link>https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/</link>
-      <description>O aplicativo Attie da Bluesky agora permite a criação de jogos, quizzes e sites que aproveitam a audiência da rede social.</description>
-      <category>RSS</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/</guid>
-    </item>
-    <item>
-      <title>Agentes de IA serão integrados aos carros da Rivian</title>
-      <link>https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/</link>
-      <description>A Rivian anunciará mais detalhes sobre a integração de agentes de IA em seus veículos durante o "AI &amp; Autonomy Day" em dezembro.</description>
-      <category>RSS</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/</guid>
-    </item>
-    <item>
-      <title>Ferramenta de compras Universal Cart do Google é lançada nos EUA</title>
-      <link>https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-lunches-in-the-us/</link>
-      <description>A ferramenta de compras Universal Cart do Google está disponível nos EUA através da Pesquisa Google e do aplicativo Gemini.</description>
-      <category>RSS</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-lunches-in-the-us/</guid>
-    </item>
-    <item>
-      <title>Bee da Amazon lança dois novos dispositivos pessoais de IA a partir de US$ 75</title>
-      <link>https://techcrunch.com/2026/10/15/amazons-bee-lunches-two-new-personal-ai-devices-starting-at-75/</link>
-      <description>A Amazon lançou um wearable atualizado e um gravador do tamanho de um cartão de crédito. Os dispositivos oferecem resumos de conversas, listas de tarefas, Alexa e compras na Amazon.</description>
-      <category>RSS</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/10/15/amazons-bee-lunches-two-new-personal-ai-devices-starting-at-75/</guid>
-    </item>
-    <item>
-      <title>ChatGPT agora pode visualizar suas abas do Chrome</title>
-      <link>https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs</link>
-      <description>A extensão do Chrome do ChatGPT pode ver as abas abertas ao marcar o Chrome no aplicativo web ou desktop do ChatGPT.</description>
-      <category>RSS</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs</guid>
-    </item>
-    <item>
-      <title>Sega retira remaster de Total War: Shogun 2 do mercado após lançamento desastroso</title>
-      <link>https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled</link>
-      <description>A Complete Edition foi removida após o lançamento de terça-feira, devido a reclamações sobre bugs e um upscaling que parece ter sido feito por IA.</description>
-      <category>RSS</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled</guid>
-    </item>
-    <item>
-      <title>A reação contra a tecnologia chega aos cinemas</title>
-      <link>https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial</link>
-      <description>Filmes de 2026 criticam o Vale do Silício, incluindo The Social Reckoning de Sorkin, que retrata Zuckerberg como um vilão robótico, e You Can See Everything de Fielder e Oppenheim.</description>
-      <category>RSS</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial</guid>
-    </item>
-    <item>
-      <title>Trump publica foto editada por IA para exibir restauração da Casa Branca</title>
-      <link>https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column</link>
-      <description>Fotos das reformas da Casa Branca foram postadas no Truth Social, com uma imagem comparativa que parece ter sido modificada por IA e foi sinalizada.</description>
-      <category>RSS</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column</guid>
-    </item>
-    <item>
-      <title>As expectativas de avaliação do IPO da Anthropic caem para cerca de US$ 1,5 trilhão, de US$ 2 trilhões, após desaceleração do crescimento no terceiro trimestre</title>
-      <link>https://x.com/wallstengine/status/2110838686061564068</link>
-      <description>Investidores que participaram do dia do investidor da Anthropic discutiram uma avaliação de cerca de US$ 1,5 trilhão para a venda de ações em novembro, uma queda de aproximadamente 25% em relação aos US$ 2 trilhões esperados anteriormente. A desaceleração do crescimento no terceiro trimestre, com receita de US$ 16,8 bilhões (aumento de 45% trimestral), e o compromisso de gastar US$ 518 bilhões em infraestrutura na próxima década, contribuíram para a revisão.
-
-Também em: https://x.com/kimmonismus/status/2110929950270165030
-
-Também em: https://x.com/theinformation/status/2110800399733027274
-
-Também em: https://x.com/rohanpaul_ai/status/2110841412401172829</description>
-      <category>Twitter</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/wallstengine/status/2110838686061564068</guid>
-    </item>
-    <item>
-      <title>Extensão do ChatGPT para Chrome ganha controle de uso do computador</title>
-      <link>https://x.com/ChatGPT/status/2110823738531037651</link>
-      <description>A extensão do ChatGPT para Chrome agora permite que o modelo leia abas abertas no modo Chat e preencha formulários, envie mensagens, baixe arquivos e agrupe abas no modo Work. O acesso aos sites é controlado por permissões e está disponível em todos os planos do ChatGPT.
-
-Também em: https://x.com/WesRoth/status/2110875871959724134</description>
-      <category>Twitter</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/ChatGPT/status/2110823738531037651</guid>
-    </item>
-    <item>
-      <title>Black Forest Labs lança FLUX 3 Image Klein</title>
-      <link>https://x.com/bfl_ai/status/2110751201105256925</link>
-      <description>Black Forest Labs lançou o FLUX 3 Image Klein, um modelo de imagem de 5,6 bilhões de parâmetros com pesos abertos, que oferece saída nativa em 4K e aceita até 10 imagens de referência. Os pesos base e destilados são distribuídos sob a FLUX Kommunity License, que restringe o uso comercial.
-
-Também em: https://x.com/WesRoth/status/2110921170682065269</description>
-      <category>Twitter</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/bfl_ai/status/2110751201105256925</guid>
-    </item>
-    <item>
-      <title>Liquid AI lança d1-ultra</title>
-      <link>https://x.com/liquidai/status/2110777964489285875</link>
-      <description>Liquid AI lançou o d1-ultra, um 'modelo de decisão' multimodal que retorna probabilidades sobre respostas predefinidas em vez de gerar texto. Ele cobre 44 idiomas e sua precificação é de US$ 0,042 por milhão de tokens de entrada, sem cobrança por tokens de saída.</description>
-      <category>Twitter</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/liquidai/status/2110777964489285875</guid>
-    </item>
-    <item>
-      <title>HojoAI disponibiliza Hojo-ASR-Multi-V1 como código aberto</title>
-      <link>https://x.com/rohanpaul_ai/status/2110995927716778128</link>
-      <description>HojoAI lançou o Hojo-ASR-Multi-V1, um modelo ASR conversacional multilíngue de código aberto (Apache 2.0) que combina um codificador acústico com um decodificador LLM Qwen3-4B. O modelo, que pode ser instalado como um pacote Python, relata uma taxa de erro de palavra (WER) média de 3,54 em cinco idiomas.</description>
-      <category>Twitter</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2110995927716778128</guid>
-    </item>
-    <item>
-      <title>Benchmark FDE-Gym testa a capacidade de modelos entregarem resultados de negócios reais</title>
-      <link>https://x.com/deepletheai/status/2111050388308898133</link>
-      <description>O benchmark FDE-Gym avalia 13 configurações de modelos de 7 provedores em 95 problemas de 20 cenários de clientes e 18 setores, com níveis de orientação variando de requisitos detalhados a solicitações brutas. No nível de solicitação bruta, o melhor modelo obteve uma pontuação líquida média de 0,56 e resolveu apenas 14 dos 95 problemas.</description>
-      <category>Twitter</category>
-      <pubDate>Fri, 16 Oct 2026 14:55:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/deepletheai/status/2111050388308898133</guid>
     </item>
   </channel>
 </rss>

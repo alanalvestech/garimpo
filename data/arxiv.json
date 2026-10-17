@@ -1,8 +1,92 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-16 14:55 UTC",
+  "updated_at": "2026-10-17 13:48 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Athanor: Um Sistema Nativo de Agentes para Pesquisa Autônoma Pós-Treinamento",
+      "links": [
+        "https://arxiv.org/abs/2610.21055"
+      ],
+      "summary": "Athanor é o primeiro sistema público onde agentes de fronteira pós-treinam autonomamente um modelo base bruto em dados públicos, sem modelos de professor e usando GPUs reais. Quatro agentes Claude Opus 5.5, após 104 horas e oito GPUs cada, fizeram o Qwen3-4B-Base ir de 15.9 para 67.3 no conjunto de desenvolvimento de seis tarefas, e de 9.2 para 48.2 no conjunto de teste, igualando o Qwen3-4B-Instruct-2507 oficial.",
+      "authors": [
+        "Yufa Zhou",
+        "Yichen Wang",
+        "Jiakun Fan",
+        "Ziqi Shu",
+        "Zhichao Liu",
+        "Anru R. Zhang",
+        "Neiwen Ling",
+        "Zijun Wei"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Evoluindo Juntos, Falhando Separados: A Armadilha da Coevolução de Habilidades e Políticas",
+      "links": [
+        "https://arxiv.org/abs/2610.20845"
+      ],
+      "summary": "A coevolução de habilidades e políticas avalia o desempenho da política com o banco de dados de treinamento, mas após a implantação, o banco muda enquanto a política não. A aceitação cooperativa posiciona o par entregue em um pico, mas o sucesso no pior caso sob desvio de habilidade fica 5 a 13 pontos abaixo desse pico, eliminando 52% a 93% do ganho.",
+      "authors": [
+        "Yujie Feng",
+        "Xiaobin Wang",
+        "Jinluan Yang",
+        "Xiaonan Shi",
+        "Pengjun Xie",
+        "Philip S. Yu",
+        "Xiaoming Wu",
+        "Jieping Ye"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "OS-Helix: Unificando Interação GUI e Execução de Código em Agentes Nativos de Uso de Computador",
+      "links": [
+        "https://arxiv.org/abs/2610.22234"
+      ],
+      "summary": "OS-Helix unifica a interação GUI e a execução de código em agentes, pois a simples adição de uma ferramenta de código a um agente GUI pode prejudicar o desempenho. Eles treinam o roteamento com estados de artefatos de aplicativos Ubuntu, síntese de instrução/avaliador desacoplada e SFT em rastros híbridos filtrados, alcançando 66.44% no OSWorld-Verified.",
+      "authors": [
+        "Bowen Yang",
+        "Kaiming Jin",
+        "Zichen Ding",
+        "Zhenyu Wu",
+        "Zehao Li",
+        "Qiushi Sun",
+        "Yu Qiao"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Perto o Suficiente Não é Nem Perto: Desacoplamento de Fidelidade-Consumibilidade em Caches KV",
+      "links": [
+        "https://arxiv.org/abs/2610.22016"
+      ],
+      "summary": "A substituição do cache KV do remetente para um leitor congelado em sistemas multiagentes não funciona, com oito métodos de substituição resultando em desempenho de cache não informativo. O que funciona é manter o cache do próprio leitor e usar o cache do remetente como contexto extra, adaptando apenas as consultas.",
+      "authors": [
+        "Adam Deng",
+        "Shicheng Liu",
+        "Yada Zhu"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "O Aumento de Capacidade Pode Ser Localizado?",
+      "links": [
+        "https://arxiv.org/abs/2610.21294"
+      ],
+      "summary": "Este artigo da CMU investiga se a remoção de um pequeno conjunto de \"heads\" pode aumentar a precisão de um modelo para uma tarefa específica sem ajuste fino. Em um modelo softmax multi-head simplificado com tarefas de recursos conflitantes, o gradiente descendente concentra o conflito em heads específicas, e a ablação delas ajuda uma tarefa e prejudica outra, mesmo em um ótimo global.",
+      "authors": [
+        "Anh Tuan Nguyen",
+        "Anna Bair",
+        "Zico Kolter"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-16"
+    },
     {
       "title": "Uma equipe de agentes Gemini 4 Argon vence Minecraft",
       "links": [
