@@ -1,8 +1,89 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-17 13:48 UTC",
+  "updated_at": "2026-10-18 14:03 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Intern Lumina U2: Um Modelo de Linguagem Grande de Difusão Multi-Codebook para Compreensão Omni-Visual e Geração de Imagens",
+      "links": [
+        "https://arxiv.org/abs/2610.20818"
+      ],
+      "summary": "Intern Lumina U2 é o primeiro LM de difusão a usar tokens visuais de multi-codebook em um espaço totalmente discreto, cobrindo compreensão e geração de imagem, vídeo e 3D em um único backbone. Ele superou o LLaDA2.0-Uni em benchmarks de compreensão de imagem, vídeo e 3D, e alcançou uma geração de imagem 4,45 vezes mais rápida.",
+      "authors": [
+        "Qian Yu",
+        "Zongyang Qiu",
+        "Juncheng Yan",
+        "Yu Qiao",
+        "Yihao Liu",
+        "Bin Fu et al. (Shanghai AI Laboratory)"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-17"
+    },
+    {
+      "title": "IA de Mundo Aberto: Uma História de Três Requisitos",
+      "links": [
+        "https://arxiv.org/abs/2610.20782"
+      ],
+      "summary": "A IA de mundo aberto exige aprendizado em tempo de inferência, uma representação rica e desvinculação preditiva para lidar com tarefas desconhecidas. Modelos que atendem a esses requisitos melhoram com o acúmulo de dados de tarefas relacionadas, enquanto outros se degradam.",
+      "authors": [
+        "Jianyu Zhang",
+        "Léon Bottou"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-17"
+    },
+    {
+      "title": "Um Agente de Autoaperfeiçoamento que Desenvolve sua Própria DSL: Indução de Operadores Sem Oráculo para Respostas Exatas a Perguntas",
+      "links": [
+        "https://arxiv.org/abs/2610.20809"
+      ],
+      "summary": "Este agente autoaperfeiçoável pode expandir suas capacidades computacionais sem recompensas ou chaves de resposta, garantindo precisão. Ele usa um sistema de validação de dois loops para aceitar novas perguntas e operadores, rejeitando variantes com erros.",
+      "authors": [
+        "Yun-Shiuan Chuang",
+        "Yirou Ge",
+        "Yixi Li",
+        "Yiming Bian",
+        "Zijie Pan",
+        "Prakhar Mehrotra et al. (PayPal AI)"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-17"
+    },
+    {
+      "title": "MAI-Gym: Uma Plataforma Aberta Completa para Avaliação de Agentes GUI e Treinamento de RL em Ambientes Móveis e de Computador",
+      "links": [
+        "https://arxiv.org/abs/2610.20939"
+      ],
+      "summary": "MAI-Gym é uma plataforma unificada para avaliação e treinamento de RL de agentes GUI em ambientes móveis, de computador e web, com 20.000 instâncias paralelas. O MAI-Gym-9B, treinado na plataforma, alcançou o estado da arte entre agentes GUI abertos com menos de 10B parâmetros.",
+      "authors": [
+        "Panrong Tong",
+        "Quyu Kong",
+        "Pengxiang Li",
+        "Tianyu Xia",
+        "Hanzhang Zhou",
+        "Lei Wang et al. (Alibaba Token Hub / MAI-UI)"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-17"
+    },
+    {
+      "title": "Aprendendo a Ler: Dinâmica de Desincorporação no Pré-treinamento de Modelos de Linguagem",
+      "links": [
+        "https://arxiv.org/abs/2610.21025"
+      ],
+      "summary": "Este estudo investiga se a aquisição de uma capacidade por um modelo de linguagem ocorre no estado oculto ou na desincorporação. A reorganização da desincorporação em Pythia ocorre no início do pré-treinamento, e aumentar sua taxa de aprendizado acelera seu desenvolvimento.",
+      "authors": [
+        "Matteo He",
+        "William F. Shen",
+        "Alex Iacob",
+        "Andrej Jovanovic",
+        "Xinchi Qiu",
+        "Nicholas D. Lane"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-10-17"
+    },
     {
       "title": "Athanor: Um Sistema Nativo de Agentes para Pesquisa Autônoma Pós-Treinamento",
       "links": [

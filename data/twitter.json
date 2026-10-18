@@ -1,8 +1,70 @@
 {
   "category": "Twitter",
-  "updated_at": "2026-10-17 13:48 UTC",
+  "updated_at": "2026-10-18 14:03 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Três IDs de modelo não anunciados da OpenAI, aurora-red-alpha, aurora-green-alpha e aurora-blue-alpha, apareceram na lista de API.",
+      "links": [
+        "https://x.com/AndrewCurran_/status/2111656899338973391",
+        "https://x.com/scaling01/status/2111653358322729401"
+      ],
+      "summary": "@scaling01 e @AndrewCurran_ relataram os IDs de forma independente. A OpenAI não comentou sobre as capacidades dos modelos, que podem ser variantes de codificação rápida.",
+      "authors": [
+        "@scaling01",
+        "@AndrewCurran_"
+      ],
+      "date": "2026-10-17"
+    },
+    {
+      "title": "Otimização vLLM da NVIDIA acelera Kimi K3 em 1,68 vezes, atingindo 423 tok/s por usuário.",
+      "links": [
+        "https://x.com/SemiAnalysis_/status/2111627094878790023",
+        "https://x.com/marksaroufim/status/2111649118380777868"
+      ],
+      "summary": "A otimização utiliza kernels Cute DSL especializados em decodificação, desenvolvidos pela equipe CentML da NVIDIA. @marksaroufim, do PyTorch, descreveu o trabalho como um motor CUDA-graph bem escrito com kernels persistentes e PDL.",
+      "authors": [
+        "SemiAnalysis",
+        "@marksaroufim"
+      ],
+      "date": "2026-10-17"
+    },
+    {
+      "title": "IDs aurora-red/green/blue-alpha da OpenAI foram removidos da API.",
+      "links": [
+        "https://x.com/testingcatalog/status/2111724606927028578",
+        "https://x.com/testingcatalog/status/2111752401723990041",
+        "https://x.com/scaling01/status/2111741499826450665"
+      ],
+      "summary": "Os IDs desapareceram da API algumas horas após seu surgimento, com @testingcatalog sugerindo que foram um lançamento equivocado e provavelmente são novos modelos de imagem. A OpenAI não fez declarações oficiais, mantendo a natureza dos modelos em especulação.",
+      "authors": [
+        "@testingcatalog",
+        "@scaling01"
+      ],
+      "date": "2026-10-17"
+    },
+    {
+      "title": "Mídia coreana: Samsung fabricará o die base para HBM personalizado da NVIDIA (NVHBM) no processo de 3nm da TSMC.",
+      "links": [
+        "https://x.com/jukan05/status/2111743054436802880"
+      ],
+      "summary": "A Samsung testará a produção interna do die caso a demanda por NVHBM exceda a capacidade da TSMC. Nem Samsung nem NVIDIA confirmaram o relatório da imprensa coreana.",
+      "authors": [
+        "@jukan05"
+      ],
+      "date": "2026-10-17"
+    },
+    {
+      "title": "Odyssey conectou um cérebro simulado de mosca-da-fruta a um mundo gerado por IA.",
+      "links": [
+        "https://x.com/kimmonismus/status/2111752551003541755"
+      ],
+      "summary": "A empresa afirma ter feito o cérebro navegar por um ambiente inexistente. Não há artigo técnico disponível para verificar a origem do comportamento, se do modelo conectoma ou roteirizado.",
+      "authors": [
+        "@kimmonismus"
+      ],
+      "date": "2026-10-17"
+    },
     {
       "title": "DeepSeek lança silenciosamente um novo checkpoint V4.1-Flash (\"1017\") para sua API deepseek-flash sem anúncio.",
       "links": [
