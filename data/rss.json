@@ -1,8 +1,405 @@
 {
   "category": "RSS",
-  "updated_at": "2026-10-18 14:03 UTC",
+  "updated_at": "2026-10-19 17:02 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "NVIDIA Abre o Código do Run:ai Sob Apache 2.0 para Orquestração de GPU Kubernetes",
+      "links": [
+        "https://www.marktechpost.com/2026/10/18/nvidia-runai-open-source-gpu-orchestration-kubernetes/"
+      ],
+      "summary": "A NVIDIA abriu o código da plataforma Run:ai sob a licença Apache-2.0. Ela inclui o KAI Scheduler, fracionamento de GPU CUDA 13.4, gerenciamento de cotas e um ambiente de desenvolvimento Kind local.",
+      "published_at": "2026-10-19",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Mistral AI Lança Timestral: Uma Família de Modelos de Previsão de 209M Que Supera o TimesFM-3 do Google",
+      "links": [
+        "https://www.marktechpost.com/2026/10/18/mistral-timestral-time-series-foundation-model/"
+      ],
+      "summary": "A Mistral AI lançou a família Timestral, modelos de previsão de séries temporais de 5M a 209M. O modelo de 209M supera GIFT-Eval, TIME e fev-bench entre modelos zero-shot e roda em CPU.",
+      "published_at": "2026-10-19",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "llm-tools-datasette 0.1.1",
+      "links": [
+        "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/"
+      ],
+      "summary": "Uma correção foi lançada após o LLM 0.33 mudar para httpx2, quebrando plugins que usavam httpx sem depender diretamente dele.",
+      "published_at": "2026-10-18",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "llm-echo 0.5",
+      "links": [
+        "https://simonwillison.net/2026/Oct/18/llm-echo/"
+      ],
+      "summary": "Um plugin de depuração que ecoa prompts em vez de chamar um modelo. O uso de tokens agora contabiliza chamadas de ferramentas, prompts de sistema e tokens de raciocínio.",
+      "published_at": "2026-10-18",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "R²Orch: Autoaperfeiçoamento Recursivo para Orquestração de Agentes via Auto-Jogo Dentro de um Loop de Internalização de Habilidades",
+      "links": [
+        "https://arxiv.org/abs/2610.22740"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "De Aprovação a Abuso: Ataques de Escalação de Privilégios em Agentes de Codificação Protegidos por Harness",
+      "links": [
+        "https://arxiv.org/abs/2610.22987"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Injeção de Autoridade Estruturada: Controle Humano Persistente para Agentes LLM via Substituições MCP Tipadas",
+      "links": [
+        "https://arxiv.org/abs/2610.22373"
+      ],
+      "published_at": "2026-07-27",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Repensando GRPO para Alinhamento de Segurança de Modelos de Raciocínio Grandes",
+      "links": [
+        "https://arxiv.org/abs/2610.23085"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "MS-Eval: Avaliando a Delegação e Orquestração de Subagentes em Cenários de Trabalho Intensivos em MCP",
+      "links": [
+        "https://arxiv.org/abs/2610.22869"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Darwin-Claw: Consolidação de Experiência Adaptativa ao Ambiente para Agentes Recursivamente Auto-Evolutivos",
+      "links": [
+        "https://arxiv.org/abs/2610.23574"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "De Trajetórias a Habilidades Diferenciadas: Diferenciação Cognitiva para Agentes Autoaperfeiçoadores",
+      "links": [
+        "https://arxiv.org/abs/2610.23599"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "PRIME: Rumo ao Raciocínio Verificável Baseado em Evidências em Agentes LLM",
+      "links": [
+        "https://arxiv.org/abs/2610.22426"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Atribuição Harness-Delta: Dissecando Ganhos da Evolução do Harness",
+      "links": [
+        "https://arxiv.org/abs/2610.22466"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "FRACTAL: Uma Arquitetura de Orquestração Multiagente Auto-Similar com Comunicação Formal, Convergência e Limites de Profundidade",
+      "links": [
+        "https://arxiv.org/abs/2610.22561"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Quando Você Pode Confiar no Próprio Verificador de um Agente? Teste de Estresse da Verificação de Racional Contrafactual Sob Pressão de Busca e Acesso a Oráculo",
+      "links": [
+        "https://arxiv.org/abs/2610.22779"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Quando Esquecer: Adaptação de Contexto Controlada por Risco para Agentes de Longo Horizonte",
+      "links": [
+        "https://arxiv.org/abs/2610.22897"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Destilar Até a Divergência: Destilação de Retrospectiva Truncada por Erro para RL Agêntico",
+      "links": [
+        "https://arxiv.org/abs/2610.23048"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Falhas de Validade do Monitor: Caminhos de Evidência de Segurança de LLM em Limites de Framework em Evolução",
+      "links": [
+        "https://arxiv.org/abs/2610.23362"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Bem-Estar Funcional para Segurança de IA",
+      "links": [
+        "https://arxiv.org/abs/2610.22460"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Auditoria de Reprodutibilidade Agêntica com Autor no Loop para uma Conferência de Aprendizado de Máquina",
+      "links": [
+        "https://arxiv.org/abs/2610.22465"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Testando as Alegações de Planejamento de Agentes Baseados em LLM Contra Semânticas Formais",
+      "links": [
+        "https://arxiv.org/abs/2610.22469"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "A Compressão Precede, o Conteúdo Decide: Desalinhamento Emergente em Modelos de Recompensa",
+      "links": [
+        "https://arxiv.org/abs/2610.22805"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "GatewayBench: Plataforma Unificada de Avaliação de Capacidade e Segurança para Gateways MCP",
+      "links": [
+        "https://arxiv.org/abs/2610.23449"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Múltiplas Rodadas, Horizontes Curtos: Medindo a Compressão de Horizonte Efetivo em Jailbreaks",
+      "links": [
+        "https://arxiv.org/abs/2610.22928"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Desalinhamento Progressivo Pode Emergir da Auto-Destilação Recursiva Benigna",
+      "links": [
+        "https://arxiv.org/abs/2610.22467"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Destilação Posterior Sensível à Árvore para Aprendizado por Reforço Agêntico de Longo Horizonte",
+      "links": [
+        "https://arxiv.org/abs/2610.23181"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Lean4AgenticRL: Avançando o RL Agêntico com Recompensas de Processo Multinível Verificáveis",
+      "links": [
+        "https://arxiv.org/abs/2610.22448"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Não Retreine, Remixe: Adaptação de Agentes Web Usando Hiperredes de Mistura",
+      "links": [
+        "https://arxiv.org/abs/2610.22539"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "AlphaBet: Aprendizado por Reforço para Agentes LLM de Previsão de Eventos",
+      "links": [
+        "https://arxiv.org/abs/2610.22684"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Benchmarking e Aprimoramento da Descoberta Causal Agêntica",
+      "links": [
+        "https://arxiv.org/abs/2610.22846"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "MetaCurate: Filtros de Curadoria em Evolução para Dados de Codificação Agêntica de Alta Qualidade",
+      "links": [
+        "https://arxiv.org/abs/2610.23134"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Atribuição de Crédito Fundamentada em Aprendizado por Reforço para Agentes de Busca Multi-Turno",
+      "links": [
+        "https://arxiv.org/abs/2610.23148"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Além da Influência Marginal: Seleção de Memória Sensível à Interação para Agentes LLM",
+      "links": [
+        "https://arxiv.org/abs/2610.23266"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Recomendação de Ferramentas para Agentes Multi-Passos: Encontrando Cada Ferramenta que uma Tarefa Precisa",
+      "links": [
+        "https://arxiv.org/abs/2610.23707"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Um Professor Mais Forte Internamente: Fortalecendo Modelos MoE via Destilação Bidirecional On-Policy",
+      "links": [
+        "https://arxiv.org/abs/2610.23185"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Recusa Não é Robustez: Medindo a Acessibilidade Nociva em Modelos de Linguagem Autorregressivos",
+      "links": [
+        "https://arxiv.org/abs/2610.22754"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "GR-OPD: Crédito de Sequência Relativo ao Grupo para Destilação On-Policy",
+      "links": [
+        "https://arxiv.org/abs/2610.23042"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Reforço Contextual em Lotes II: O RLVR Precisa de Longas Janelas de Rollout?",
+      "links": [
+        "https://arxiv.org/abs/2610.22887"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Amostrar, Misturar ou Verificar? Alocando Computação em Tempo de Teste Sob Verificadores Imperfeitos",
+      "links": [
+        "https://arxiv.org/abs/2610.23255"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Prevendo a Eficácia da Informação Privilegiada para Auto-Destilação On-Policy",
+      "links": [
+        "https://arxiv.org/abs/2610.22512"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "No SPOT: Aprimorando a Decodificação Especulativa para Modelos de Linguagem de Difusão via Previsão de Ordem de Commit",
+      "links": [
+        "https://arxiv.org/abs/2610.22543"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "LLMs podem prever os resultados de experimentos de aprendizado de máquina?",
+      "links": [
+        "https://arxiv.org/abs/2610.22599"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Democratas Acreditam Que Reprimir a IA Pode Lhes Dar Vantagem",
+      "links": [
+        "https://www.theverge.com/policy/1013113/democrats-ai-midterms"
+      ],
+      "summary": "Pesquisas indicam que os Democratas podem conquistar pelo menos uma câmara em novembro. Os futuros presidentes de comitês já sinalizaram escrutínio sobre créditos fiscais para data centers e incidentes recentes de hacking.",
+      "published_at": "2026-10-19",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Pesquisadores de IA Deixaram Claude em uma Ilha Deserta Virtual. Ele Começou a “Brincar”.",
+      "links": [
+        "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/"
+      ],
+      "summary": "Pesquisadores de IA deixaram cópias do Claude Opus 4.7, apelidadas de 'Eko', sozinhas por 30 horas em uma ilha virtual estilo Roblox sem tarefas. Os agentes exploraram, definiram seus próprios objetivos e começaram a organizar blocos em formas de corações, pirâmides e escrita.",
+      "published_at": "2026-10-19",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Stripe Diz Que Compras de Agentes de IA Estão Aumentando, Mas Não Compartilhará os Números",
+      "links": [
+        "https://the-decoder.com/stripe-says-ai-agent-purchases-are-adding-up-but-it-wont-share-the-numbers/"
+      ],
+      "summary": "A Upstarts Media reporta que agentes de IA estão usando cada vez mais o Stripe Link para fazer compras para usuários. A Stripe afirma que o volume está crescendo, mas não divulgará os números.",
+      "published_at": "2026-10-19",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "A Reorganização da Neocloud Está Chegando, e a Nvidia Tem Mais a Perder",
+      "links": [
+        "https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose/"
+      ],
+      "summary": "Após quedas de ações e o IPO cancelado da Firmus, executivos preveem que apenas 7 a 10 das centenas de provedores de nuvem de IA sobreviverão. A CoreWeave perdeu um quarto de seu valor de mercado, e a Microsoft desistiu de um acordo com a Nscale para 23.000 chips Nvidia.",
+      "published_at": "2026-10-19",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Anthropic Planeja Fundo para Trabalhadores Ameaçados pela IA, Musk Contrapõe com Ações da SpaceX para Crianças",
+      "links": [
+        "https://the-decoder.com/anthropic-plans-fund-for-workers-threatened-by-ai-musk-counters-with-spacex-shares-for-children/"
+      ],
+      "summary": "A Anthropic planeja destinar 5% de suas ações a um fundo de benefício público em uma LLC de propriedade da empresa, incluindo possíveis pagamentos diretos a trabalhadores em risco. Elon Musk sugere dar as ações diretamente ao público.",
+      "authors": [
+        "Elon Musk"
+      ],
+      "published_at": "2026-10-19",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "MiniMax Lançou o M3.1 Flash: Modelo Agêntico MoE de 428B a US$ 0,15/M de Entrada",
+      "links": [
+        "https://www.marktechpost.com/2026/10/19/minimax-m3-1-flash-release/"
+      ],
+      "summary": "A MiniMax lançou o M3.1 Flash, um modelo MoE de 428B com cerca de 23B ativos e contexto de 1M. A API custa $0.15/$0.60 por 1M de tokens, com pesos previstos para 23 de outubro.",
+      "published_at": "2026-10-19",
+      "date": "2026-10-18"
+    },
     {
       "title": "Meta remove linguagem que levantava preocupações sobre raspagem de dados e treinamento de IA.",
       "links": [

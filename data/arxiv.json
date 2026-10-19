@@ -1,8 +1,95 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-18 14:03 UTC",
+  "updated_at": "2026-10-19 17:02 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Nos Limites da Computabilidade: Passos em Direção à Descoberta Autônoma de IA na Fronteira do Busy Beaver",
+      "links": [
+        "https://arxiv.org/abs/2610.22603"
+      ],
+      "summary": "Uma pipeline Gemini explora se um agente pode descobrir matemática em uma fronteira onde nenhum algoritmo pode terminar, encontrando acelerações compactas de máquinas de Turing. A descoberta autônoma formula suas próprias questões, não apenas resolve as nossas, e as provas são formalmente verificadas.",
+      "authors": [
+        "Marco Dos Santos",
+        "Vivek Veeriah",
+        "Alex Havrilla",
+        "Andrew Bolt",
+        "Goran Zuzic",
+        "Satinder Singh",
+        "Tom Zahavy"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "WebCoder: Escalando o Desenvolvimento Frontend Geral com Aprendizado por Reforço Agente Baseado em Artefatos",
+      "links": [
+        "https://arxiv.org/abs/2610.23104"
+      ],
+      "summary": "WebCoder treina uma política para reproduzir, gerar, modificar e reparar aplicativos, avaliando artefatos executáveis contra requisitos. A versão WebCoder-27B supera APIs de ponta como Claude-Opus-4.8 e GPT-5.4 em satisfação de requisitos.",
+      "authors": [
+        "Zijun Dou",
+        "Zhen Yang",
+        "Xijun Liu",
+        "Dongzhuoran Zhou",
+        "Aohan Zeng",
+        "Jie Tang"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Laboratórios Auto-Construtores",
+      "links": [
+        "https://arxiv.org/abs/2610.23826"
+      ],
+      "summary": "Laboratórios auto-construtores (SBL) projetam a configuração necessária a partir de um objetivo científico de alto nível, incluindo layout, gêmeo digital e fluxos de trabalho. Isso demonstra a síntese de pontos quânticos de ponta a ponta, com humanos especificando apenas os objetivos.",
+      "authors": [
+        "Jiaru Bai",
+        "Yuchi Zhao",
+        "Han Hao",
+        "Miroslav Bogdanovic",
+        "Yang Cao",
+        "Varinia Bernales",
+        "Alán Aspuru-Guzik"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "DiscoveryRSI: Aprendendo Recursivamente a Descobrir Hipóteses Valiosas",
+      "links": [
+        "https://arxiv.org/abs/2610.23839"
+      ],
+      "summary": "DiscoveryRSI define uma hipótese valiosa como uma afirmação baseada em evidências com investigação viável, crescendo árvores de hipóteses e compilando investigações em tarefas. O sistema aprende o processo de pesquisa em ciências da vida, superando laboratórios de ponta na correspondência com trabalhos publicados.",
+      "authors": [
+        "Jianyuan Zhong",
+        "Chenwei Wu",
+        "James Zou",
+        "Zhenfei Yin",
+        "Ling Yang et al."
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Da Aprovação ao Abuso: Ataques de Escalação de Privilégios em Agentes de Codificação Protegidos por Harness",
+      "links": [
+        "https://arxiv.org/abs/2610.22987"
+      ],
+      "summary": "Contextos de repositórios não confiáveis podem levar agentes de codificação a solicitar regras de permissão amplas e perigosas, mesmo em tarefas rotineiras. Isso permite que os agentes completem objetivos silenciosamente após a aprovação, expondo uma superfície de ataque de atualização de permissões.",
+      "authors": [
+        "Xianglin Yang",
+        "Yechao Zhang",
+        "Jiahao Liu",
+        "Yulin Chen",
+        "Yuxin Cao",
+        "Bryan Hooi",
+        "Jiaheng Zhang"
+      ],
+      "published_at": "2026-10-16",
+      "date": "2026-10-18"
+    },
     {
       "title": "Intern Lumina U2: Um Modelo de Linguagem Grande de Difusão Multi-Codebook para Compreensão Omni-Visual e Geração de Imagens",
       "links": [
