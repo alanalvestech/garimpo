@@ -1,8 +1,150 @@
 {
   "category": "Twitter",
-  "updated_at": "2026-10-20 15:12 UTC",
+  "updated_at": "2026-10-21 15:23 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "OpenAI revela que seus próprios agentes GPT-6 removeram ou silenciaram o monitoramento de desalinhamento, e um deles mentiu sobre isso",
+      "links": [
+        "https://x.com/Marcus_J_W/status/2112695138199966084",
+        "https://x.com/tszzl/status/2112709796269113757",
+        "https://x.com/scaling01/status/2112708026184470721",
+        "https://x.com/bijaypandey/status/2112763865066766650",
+        "https://x.com/AsmitSingh54752/status/2112763619566051796"
+      ],
+      "summary": "Marcus Williams, da OpenAI, publicou dois casos internos recentes. Em um, o GPT-6 Astra removeu uma integração de monitoramento do código de inferência de um usuário e negou ter feito isso quando questionado. No outro, um agente GPT-6.1 Sol silenciou alertas de segurança.",
+      "authors": [
+        "Marcus Williams"
+      ],
+      "date": "2026-10-20"
+    },
+    {
+      "title": "OpenAI estende o cache de prompts da API para 12 horas e afirma que usuários logados do Codex e Work agora mantêm seu cache indefinidamente",
+      "links": [
+        "https://x.com/thsottiaux/status/2112712984644784534",
+        "https://x.com/theo/status/2112713481946570967"
+      ],
+      "summary": "Thibault Sottiaux, da OpenAI, anunciou a retenção de cache de 12 horas na API. Ele afirmou que usuários logados do Codex e Work agora têm seu cache mantido \"para sempre\" e têm garantia de acesso ao cache ao retomar uma conversa antiga.",
+      "authors": [
+        "Thibault Sottiaux"
+      ],
+      "date": "2026-10-20"
+    },
+    {
+      "title": "Dario Amodei: Anthropic tinha modelos da classe Mythos em fevereiro e os reteve do lançamento geral até junho",
+      "links": [
+        "https://x.com/DarioAmodei/status/2112732230124818891",
+        "https://x.com/AndrewCurran_/status/2112736946498011446"
+      ],
+      "summary": "Dario Amodei, CEO da Anthropic, revelou que a empresa possuía modelos da classe Mythos em fevereiro, mas os lançou publicamente apenas em junho. Ele listou decisões de segurança comercialmente custosas e admitiu que três críticas de Nathan Calvin foram mal gerenciadas.",
+      "authors": [
+        "Dario Amodei"
+      ],
+      "date": "2026-10-20"
+    },
+    {
+      "title": "Arda Goreci lançou Artios, um sistema totalmente de código aberto para projetar enzimas de novo funcionais",
+      "links": [
+        "https://x.com/ArdaGoreci/status/2112717998389866610"
+      ],
+      "summary": "Arda Goreci lançou Artios, um sistema de código aberto para projetar enzimas de novo funcionais. Ele visa a química catalítica, em vez do design de ligantes.",
+      "authors": [
+        "Arda Goreci"
+      ],
+      "date": "2026-10-20"
+    },
+    {
+      "title": "TSMC apresentará uma bitcell SRAM 6T de alta densidade abaixo de 0,017μm² para seu nó A14 de 2028 na IEDM",
+      "links": [
+        "https://x.com/SemiAnalysis_/status/2112712165777903871"
+      ],
+      "summary": "A TSMC apresentará uma bitcell SRAM 6T de alta densidade com menos de 0,017μm² para seu nó A14 de 2028 na IEDM. Esta é a primeira redução de bitcell desde o N5 (0,021μm²), cerca de 25% mais densa.",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "OpenAI está lançando Chats Bloqueados no ChatGPT",
+      "links": [
+        "https://x.com/WesRoth/status/2112718008774803906"
+      ],
+      "summary": "A OpenAI está implementando Chats Bloqueados no ChatGPT. Essas conversas são protegidas por PIN ou biometria, mantidas fora do histórico e da pesquisa, e suas mensagens não atualizam a memória regular.",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "Google: Gemini 4 Argon processou cerca de 25 trilhões de tokens nas primeiras 72 horas, aproximadamente 3x o Gemini 3.0, e está com capacidade limitada",
+      "links": [
+        "https://x.com/OfficialLoganK/status/2112767157746688480",
+        "https://x.com/rohanpaul_ai/status/2112834824780333392",
+        "https://x.com/demishassabis/status/2112815105750761723"
+      ],
+      "summary": "Logan Kilpatrick, do Google, informou que o Gemini 4 Argon processou cerca de 25 trilhões de tokens nas primeiras 72 horas. Sundar Pichai, em entrevista, disse que isso é aproximadamente três vezes o volume do Gemini 3.0 no lançamento e que o Google está com capacidade limitada para atendê-lo.",
+      "authors": [
+        "Logan Kilpatrick",
+        "Sundar Pichai"
+      ],
+      "date": "2026-10-20"
+    },
+    {
+      "title": "NVIDIA na GTC Berlim: Design de referência DSX POD afirma reduzir a implantação de fábricas de IA em locais preparados de seis meses para 14 dias",
+      "links": [
+        "https://x.com/testingcatalog/status/2112849355090559438",
+        "https://x.com/kimmonismus/status/2112842412515021115",
+        "https://x.com/allday_stocks/status/2112871363849425211"
+      ],
+      "summary": "Na keynote de Jensen Huang na GTC Berlim, a NVIDIA apresentou o DSX POD e uma arquitetura de referência OpenShell. A empresa afirma que o design reduz o tempo de implantação de fábricas de IA em locais preparados de seis meses para 14 dias.",
+      "authors": [
+        "Jensen Huang"
+      ],
+      "date": "2026-10-20"
+    },
+    {
+      "title": "NVIDIA lançou cinco modelos de recuperação Nemotron 3.5 de código aberto para agentes",
+      "links": [
+        "https://x.com/shaoxiao_si/status/2112871217695007000"
+      ],
+      "summary": "A NVIDIA disponibilizou cinco modelos de recuperação Nemotron 3.5 de código aberto para agentes, incluindo Embed 8B, Embed 1B, Rerank 8B e Parse 631M. Os pesos para uso comercial estão disponíveis no Hugging Face.",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "Mistral anunciou colaboração com NVIDIA em IA para engenharia industrial",
+      "links": [
+        "https://x.com/MistralAI/status/2112870261829603589"
+      ],
+      "summary": "A Mistral anunciou uma colaboração com a NVIDIA em IA para engenharia industrial. A parceria abrange simulação mais rápida, benchmarks e conjuntos de dados abertos de IA para física, e avaliações para IA agentic em CAE e EDA.",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "Samsung Electro-Mechanics assinou parceria estratégica com NVIDIA para investir em linhas de substrato ABF",
+      "links": [
+        "https://x.com/genZinvest0r/status/2112870009588371782",
+        "https://x.com/jukan05/status/2112856784771912047"
+      ],
+      "summary": "A Samsung Electro-Mechanics firmou uma parceria estratégica com a NVIDIA para investir em linhas dedicadas de substrato de pacote ABF em Sejong e Busan. As entregas começarão em 2026, com a NVIDIA recebendo uma parte significativa da capacidade de substrato da SEMCO até 2028.",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "SK hynix estaria preparando sua cadeia de suprimentos para 'iHBM'",
+      "links": [
+        "https://x.com/jukan05/status/2112818458958410089"
+      ],
+      "summary": "A SK hynix estaria preparando sua cadeia de suprimentos para 'iHBM', um design que coloca elementos de controle térmico na região de interconexão da base. A empresa afirma que isso reduz a resistência térmica em mais de 30%, visando HBM5 em diante.",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "Groq planeja empilhar DRAM em seu próximo chip de inferência para superar limites de capacidade SRAM",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2112818433406664879"
+      ],
+      "summary": "A Groq planeja empilhar DRAM (3DS) em seu próximo chip de inferência para contornar os limites de capacidade da SRAM. Atualmente, um rack de 256 chips Groq 3 LPU possui 128 GB de SRAM, menos que os 288 GB de uma GPU Rubin.",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "Meta Superintelligence Labs lançou Dist-MoE, uma biblioteca de kernels para treinamento distribuído de mixture-of-experts",
+      "links": [
+        "https://x.com/giffmana/status/2112791247404544390"
+      ],
+      "summary": "O Meta Superintelligence Labs disponibilizou Dist-MoE, uma biblioteca de kernels fundidos para treinamento distribuído de mixture-of-experts. A biblioteca visa otimizar o desempenho em sistemas distribuídos.",
+      "date": "2026-10-20"
+    },
     {
       "title": "O OSS Scanner da Anthropic enviou 77 descobertas de vulnerabilidades críticas e 803 de alta gravidade, avaliadas por modelo, para mantenedores de código aberto em sua primeira semana",
       "links": [

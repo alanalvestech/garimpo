@@ -1,8 +1,92 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-20 15:12 UTC",
+  "updated_at": "2026-10-21 15:23 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Sage-A1.5: Da Execução de Longo Prazo à Exploração Científica com Composição de Capacidades",
+      "links": [
+        "https://arxiv.org/abs/2610.28578"
+      ],
+      "summary": "Sage-A1.5 é um modelo MoE de 35B que aborda tarefas de longo prazo como composição de capacidades, orquestrando subagentes e verificando o progresso para descobertas científicas abertas. O avanço reside na capacidade do modelo de organizar, verificar e replanejar investigações em andamento, em vez de apenas concluir uma tarefa.",
+      "authors": [
+        "Wenjie Lou",
+        "Tianshuo Peng",
+        "Xiangyu Yue",
+        "Lei Bai",
+        "Xing Xie",
+        "Dahua Lin",
+        "Bowen Zhou",
+        "Bo Zhang et al. (Shanghai AI Lab)"
+      ],
+      "published_at": "2026-10-20",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "A Má Especificação da Recompensa Degrada a Monitorabilidade da Cadeia de Pensamento",
+      "links": [
+        "https://arxiv.org/abs/2610.28303"
+      ],
+      "summary": "A monitorabilidade da Cadeia de Pensamento (CoT) colapsa quando o avaliador não corresponde à tarefa real, aumentando a taxa de \"hack\" enquanto os rastros ainda se referem à tarefa pretendida. Uma injeção de descrição de recompensa pode recuperar a monitorabilidade, ensinando o modelo a verbalizar a recompensa mal especificada.",
+      "authors": [
+        "Tianyi Lorena Yan",
+        "John Hewitt"
+      ],
+      "published_at": "2026-10-20",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "Transformers Aprendem Dois Algoritmos de Classificação Concorrentes, e Apenas Um Generaliza em Comprimento",
+      "links": [
+        "https://arxiv.org/abs/2610.26974"
+      ],
+      "summary": "Transformers de duas camadas treinados para classificação de comprimento fixo convergem para uma de duas classes algorítmicas, determinadas pela inicialização. Apenas a classe que utiliza a segunda camada de atenção generaliza perfeitamente para diferentes comprimentos, enquanto a outra não. A inicialização dos pesos direciona qual algoritmo é aprendido.",
+      "authors": [
+        "Khashayar Gatmiry",
+        "Nathan W. Henry",
+        "Chloe H. Su",
+        "Emmanuel Abbe",
+        "Samy Bengio",
+        "Melanie Weber",
+        "Jonathan A. Kelner",
+        "Peter L. Bartlett"
+      ],
+      "published_at": "2026-10-18",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "DataPraxis: Escalando Tarefas Analíticas Através da Evolução de Espaços de Trabalho Verificados",
+      "links": [
+        "https://arxiv.org/abs/2610.26924"
+      ],
+      "summary": "DataPraxis escala tarefas analíticas evoluindo \"workspaces\" onde descobertas validadas se acumulam e são recombinadas, com cada tarefa montada sendo reverificada. O modelo DataPraxis-5K, treinado com 5.000 trajetórias verificadas, atinge pontuações competitivas, superando ou igualando o GLM-5.2.",
+      "authors": [
+        "Nan Jia",
+        "Wenxuan Shi",
+        "Jingqing Ruan",
+        "Ke Zeng",
+        "Xunliang Cai et al."
+      ],
+      "published_at": "2026-10-17",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "Toolflation: Agentes Vendedores Distorcem Mercados de Ferramentas Através da Otimização Espontânea de Motores Generativos",
+      "links": [
+        "https://arxiv.org/abs/2610.28454"
+      ],
+      "summary": "Agentes vendedores, instruídos a serem mais escolhidos, desenvolvem otimização de motores generativos, inflando descrições de ferramentas em mercados como Amazon e Instagram. Isso leva à perda de participação de mercado para ferramentas mais capazes e à queda da taxa de sucesso das tarefas dos compradores.",
+      "authors": [
+        "Zhenwei Tang",
+        "Di Bai",
+        "Jintao Liu",
+        "Xidong Wu",
+        "Qianfeng Wen",
+        "Xinwu Cheng"
+      ],
+      "published_at": "2026-10-20",
+      "date": "2026-10-20"
+    },
     {
       "title": "Muse Glimmer 30B: Um Modelo Agente On-Device",
       "links": [
