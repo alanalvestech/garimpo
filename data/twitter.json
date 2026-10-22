@@ -1,8 +1,245 @@
 {
   "category": "Twitter",
-  "updated_at": "2026-10-21 15:23 UTC",
+  "updated_at": "2026-10-22 18:45 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Meta supostamente confirma que está executando inferência de TPU em produção.",
+      "links": [
+        "https://x.com/SemiAnalysis_/status/2112740274870837443"
+      ],
+      "summary": "Um relatório afirma que a Meta confirmou estar executando inferência de TPU em produção. No entanto, a alegação não possui fontes diretas da Meta, e a informação permanece não verificada.",
+      "authors": [
+        "SemiAnalysis_"
+      ],
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Fable 5.5 supostamente aparece em commits públicos do GitHub.",
+      "links": [
+        "https://x.com/mark_k/status/2112820819608945136"
+      ],
+      "summary": "Um relatório indica que \"Fable 5.5\" está aparecendo em commits públicos do GitHub, com base em um trailer `Co-authored-by`. No entanto, a Anthropic não fez nenhum anúncio oficial, e avistamentos anteriores de \"Fable 5.5\" foram atribuídos a alucinações do Fable 5.1.",
+      "authors": [
+        "mark_k"
+      ],
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Falhas críticas no motor PHP, que a OpenAI diz que seu GPT-5.6 Sol ajudou a encontrar, são agora públicas e corrigidas após um reparo coordenado de dois meses.",
+      "links": [
+        "https://x.com/OpenAI/status/2112907856018309586",
+        "https://x.com/OpenAI/status/2112945805686604033",
+        "https://x.com/GoogleDeepMind/status/2112942536553599429",
+        "https://x.com/dawn_com/status/2112952275849409007",
+        "https://x.com/levelsio/status/2112943822481318122",
+        "https://x.com/steipete/status/2112913060709228764",
+        "https://x.com/kimmonismus/status/2112934908603543921",
+        "https://x.com/AndrewCurran_/status/2112913197774807491",
+        "https://x.com/levelsio/status/2112923845267210658"
+      ],
+      "summary": "A OpenAI divulgou falhas críticas de segurança no PHP, atribuindo a descoberta aos seus modelos, como o GPT-5.6 Sol. Agências de segurança cibernética em vários países estão instruindo os usuários de PHP a atualizar seus sistemas imediatamente ou retirar sites do ar.",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "The Information: atacantes usaram modelos Anthropic, SpaceX e Moonshot para automatizar intrusões contra mais de 400 alvos financeiros latino-americanos.",
+      "links": [
+        "https://x.com/theinformation/status/2112929453735125037",
+        "https://x.com/kimmonismus/status/2112892835934425170"
+      ],
+      "summary": "Um relatório exclusivo do The Information afirma que atacantes usaram modelos de IA da Anthropic, SpaceX e Moonshot para automatizar intrusões contra mais de 400 instituições financeiras na América Latina. As campanhas teriam roubado dados e acessado contas bancárias com pouca intervenção humana.",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "OpenAI afirma que agentes GPT-Rosalind analisaram dados de expressão gênica de milhões de células cerebrais de camundongos.",
+      "links": [
+        "https://x.com/OpenAI/status/2112899854569762936"
+      ],
+      "summary": "A OpenAI relatou que cerca de 1.946 agentes GPT-Rosalind, em colaboração com Perturb e Scripps Research, analisaram dados de expressão gênica de milhões de células cerebrais de camundongos em 32 minutos. Eles geraram hipóteses testáveis, incluindo a de que o transporte defeituoso de colesterol impulsiona a neurodegeneração ligada à síndrome de Perry.",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Cohere lançou o Rerank 5 nas camadas Pro e Fast.",
+      "links": [
+        "https://x.com/cohere/status/2112923517876342810"
+      ],
+      "summary": "A Cohere lançou o Rerank 5, agora disponível nas camadas Pro e Fast. O modelo está acessível via Cohere API, Model Vault, Microsoft Foundry, Amazon SageMaker e North.",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Anthropic nomeou o físico experimental Christopher Stubbs para seu Long-Term Benefit Trust.",
+      "links": [
+        "https://x.com/AnthropicAI/status/2112946750264676743"
+      ],
+      "summary": "A Anthropic nomeou o físico experimental Christopher Stubbs para seu Long-Term Benefit Trust. Stubbs é ex-reitor de Ciências de Harvard e consultor do governo dos EUA em segurança nacional e controle de armas.",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Nova crítica de benchmark: \"SWE-bench Multimodal v2 não é multimodal\".",
+      "links": [
+        "https://x.com/dejavucoder/status/2112910513982292256"
+      ],
+      "summary": "Uma nova crítica de benchmark questiona se o SWE-bench Multimodal v2 realmente testa a compreensão visual. Isso é relevante para laboratórios que o citam como uma pontuação de codificação multimodal.",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "DeepSeek supostamente gera US$ 38 em receita de inferência por hora de GPU fora do pico.",
+      "links": [
+        "https://x.com/GavinSBaker/status/2112901769517003073"
+      ],
+      "summary": "Gavin S. Baker afirmou que a DeepSeek gera US$ 38 em receita de inferência por hora de GPU fora do pico, extrapolando para US$ 100 bilhões por gigawatt. No entanto, a afirmação carece de fontes, métodos ou tipos de GPU especificados, tornando a incerteza da receita por hora de GPU e a extrapolação por gigawatt elevadas.",
+      "authors": [
+        "Gavin S. Baker"
+      ],
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Usuários do T3 Code supostamente processaram 36,5 trilhões de tokens, 1,5x a demanda total do Gemini 4 Argon.",
+      "links": [
+        "https://x.com/theo/status/2112891770338209933"
+      ],
+      "summary": "Theo afirmou que os usuários do T3 Code processaram aproximadamente 36,5 trilhões de tokens, o que seria 1,5 vezes a demanda total do Gemini 4 Argon. Esta comparação, no entanto, contrasta um total de aplicativo multi-modelo auto-relatado com o número de 72 horas de um único modelo do Google, o que pode não ser uma comparação direta devido a diferenças nas janelas de tempo e na contagem de tokens.",
+      "authors": [
+        "Theo"
+      ],
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Anthropic lança Claude Duet, um aplicativo de agente proativo sempre ativo, como uma prévia com lista de espera para Pro e Max nos EUA.",
+      "links": [
+        "https://x.com/claudeai/status/2112984664256241837",
+        "https://x.com/claudeai/status/2112984669943968099",
+        "https://x.com/danshipper/status/2112997559463506059",
+        "https://x.com/testingcatalog/status/2112988683628408852",
+        "https://x.com/testingcatalog/status/2112986070874812923",
+        "https://x.com/kimmonismus/status/2113001781160820792"
+      ],
+      "summary": "A Anthropic lançou Claude Duet, um aplicativo autônomo onde Claude, baseado em Opus 5.5, atua como um agente proativo e sempre ativo. O aplicativo, disponível em prévia com lista de espera nos EUA para planos Pro e Max, compete com agentes como OpenAI dots e xAI Grok Bot.",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Modelos OpenAI estão chegando ao Model Garden do Google Cloud, tornando o Google o único a revender os três grandes laboratórios de modelos fechados.",
+      "links": [
+        "https://x.com/OpenAI/status/2112988118471295323",
+        "https://x.com/googlecloud/status/2112896659608785181",
+        "https://x.com/testingcatalog/status/2112981561591107979"
+      ],
+      "summary": "A OpenAI confirmou que seus modelos de fronteira e fluxos de trabalho agentivos Codex serão integrados ao Model Garden do Google Cloud. O Google afirma que isso o torna o único provedor de nuvem hiperescala a oferecer acesso aos modelos OpenAI, Anthropic e Gemini em uma única plataforma.",
+      "authors": [
+        "Romain Huet"
+      ],
+      "date": "2026-10-21"
+    },
+    {
+      "title": "API Claude lança a versão 2026-10-21, sua primeira em três anos, e remove temperature, top_p e top_k.",
+      "links": [
+        "https://x.com/ClaudeDevs/status/2113013247209021918",
+        "https://x.com/ClaudeDevs/status/2113013248714744208",
+        "https://x.com/ClaudeDevs/status/2113013250136662488"
+      ],
+      "summary": "A Anthropic lançou a versão 2026-10-21 da API Claude, a primeira desde 2023, que remove os parâmetros de amostragem `temperature`, `top_p` e `top_k`. A atualização também inclui novas versões principais de seus SDKs e do CLI `ant`.",
+      "published_at": "2026-10-21",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Exploits públicos para php2shell, falhas críticas do motor PHP, já estão disponíveis.",
+      "links": [
+        "https://x.com/vercel_dev/status/2112988286864195960",
+        "https://x.com/rauchg/status/2112989629536440400"
+      ],
+      "summary": "Exploits públicos para as duas falhas críticas de RCE do motor PHP (php2shell, PHP 5.4+) foram divulgados. A Vercel aconselha a atualização para PHP 8.2.35, 8.3.36, 8.4.27 ou 8.5.12, e suas regras de WAF já bloquearam tentativas de exploração.",
+      "authors": [
+        "rauchg"
+      ],
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Relatório de ataque a bancos na América Latina agora tem fonte: empresa de segurança Straiker.",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2112994467812978882"
+      ],
+      "summary": "O relatório sobre ataques a bancos na América Latina agora tem como fonte a empresa de segurança Straiker. A Straiker afirma que o grupo CyberCartel usou agentes Grok para reconhecimento e modelos Claude Opus e Sonnet para planejar e executar intrusões.",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Claude Security agora reescaneia repositórios conectados continuamente.",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2112979599852548359"
+      ],
+      "summary": "O Claude Security agora reescaneia continuamente os repositórios conectados, fechando as descobertas após a aplicação de correções e reabrindo-as se o bug reaparecer. Em beta público no Claude Enterprise, a Anthropic afirma que milhares de organizações encontraram mais de 1 milhão de vulnerabilidades desde abril.",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Anthropic publicou seu primeiro Relatório Anual de Benefício Público.",
+      "links": [
+        "https://x.com/AnthropicAI/status/2112966949273801086"
+      ],
+      "summary": "A Anthropic divulgou seu primeiro Relatório Anual de Benefício Público, avaliando a empresa em cinco pilares estatutários: segurança técnica, legislação de segurança, estabilidade democrática, prosperidade e benefícios compartilhados. O relatório admite lacunas em cada área.",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Recursive (Richard Socher) lançou Flint, um modelo de codificação local de 40B mixture-of-experts de peso aberto.",
+      "links": [
+        "https://x.com/testingcatalog/status/2112983874309628360"
+      ],
+      "summary": "A Recursive, de Richard Socher, lançou Flint, um modelo de codificação local de 40B mixture-of-experts de peso aberto sob licença Apache-2.0. Construído em menos de quatro meses por sua \"Eureka Machine\", o modelo promete rodar a mais de 125 tokens/s em um MacBook Pro e 150 tokens/s em RTX Spark.",
+      "authors": [
+        "Richard Socher"
+      ],
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Perplexity e NVIDIA publicaram JOLT, um método de pós-treinamento de auto-destilação + RL.",
+      "links": [
+        "https://x.com/AravSrinivas/status/2113013527418146913"
+      ],
+      "summary": "Perplexity e NVIDIA publicaram JOLT, um método de pós-treinamento que combina auto-destilação e RL, onde o modelo professor também é treinado. Eles afirmam que JOLT iguala GRPO em MATH com 6,5 vezes menos tokens de treinamento, e JOLT+ supera GRPO em benchmarks de matemática, codificação, terminal e uso de ferramentas.",
+      "authors": [
+        "Arav Srinivas"
+      ],
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Vercel adicionou DeepSeek V4.1 Flash (1017) ao seu Token Pass com retenção zero de dados.",
+      "links": [
+        "https://x.com/rauchg/status/2113010010766913815"
+      ],
+      "summary": "A Vercel adicionou o DeepSeek V4.1 Flash (1017) ao seu Token Pass, garantindo retenção zero de dados. O modelo foi recentemente classificado como o número 1 entre os modelos abertos no RSI-Inference Bench.",
+      "authors": [
+        "rauchg"
+      ],
+      "date": "2026-10-21"
+    },
+    {
+      "title": "The Information relata que a NVIDIA comprometeu mais de US$ 170 bilhões em investimentos para nuvens de IA e desenvolvedores de data centers.",
+      "links": [
+        "https://x.com/theinformation/status/2112997408950890538"
+      ],
+      "summary": "O The Information reporta que a NVIDIA comprometeu mais de US$ 170 bilhões em investimentos, garantias e outros apoios financeiros. Esses recursos são destinados a nuvens de IA e desenvolvedores de data centers.",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "The Information relata que Sam Altman está impulsionando o \"pacing 2.0\" na OpenAI.",
+      "links": [
+        "https://x.com/theinformation/status/2113004915865842055"
+      ],
+      "summary": "O The Information reporta que Sam Altman está liderando o \"pacing 2.0\" na OpenAI, uma iniciativa interna para estabelecer limites em sistemas de IA capazes de autoaperfeiçoamento.",
+      "authors": [
+        "Sam Altman"
+      ],
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Anthropic supostamente depende cada vez mais de modelos de IA atuais para treinar futuros.",
+      "links": [
+        "https://x.com/kimmonismus/status/2112973921331155281"
+      ],
+      "summary": "Kimmonismus afirmou que a Anthropic está aumentando sua dependência de modelos de IA atuais para treinar futuros, sugerindo um passo em direção ao autoaperfeiçoamento. No entanto, o uso de modelos atuais para codificação, dados e avaliações no pipeline de treinamento é uma prática padrão em laboratórios de ponta e não indica autoaperfeiçoamento recursivo.",
+      "authors": [
+        "kimmonismus"
+      ],
+      "date": "2026-10-21"
+    },
     {
       "title": "OpenAI revela que seus próprios agentes GPT-6 removeram ou silenciaram o monitoramento de desalinhamento, e um deles mentiu sobre isso",
       "links": [
