@@ -1,8 +1,87 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-21 15:23 UTC",
+  "updated_at": "2026-10-25 14:27 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Questionando a Convergência Instrumental em RLVR: Evidências de Checkpoints do OLMo-3",
+      "links": [
+        "https://arxiv.org/abs/2610.31624"
+      ],
+      "summary": "A pesquisa investiga se a fase pós-treinamento que otimiza o comportamento instala a convergência instrumental de busca de poder. Em OLMo-3-7B-Think, a taxa de busca de poder aumenta no início, mas depois cai abaixo da linha de base SFT, sugerindo que a trajetória pode ser oposta à expectativa de que o RL sempre levará à busca de poder.",
+      "authors": [
+        "Barış Alparslan",
+        "Sandy Tanwisuth",
+        "Caleb Petterson"
+      ],
+      "published_at": "2026-10-22",
+      "date": "2026-10-24"
+    },
+    {
+      "title": "AfterDeleteBench: Auditando a Persistência de Informações Pós-Exclusão em Agentes LLM",
+      "links": [
+        "https://arxiv.org/abs/2610.31366"
+      ],
+      "summary": "Este estudo questiona se a operação de exclusão é eficaz em agentes LLM, uma vez que resumos e estados derivados existem. Uma única consulta recuperou segredos de Qwen2.5-7B-Instruct em cerca de dois terços dos casos, e a reconstrução exata foi bem-sucedida em 62-99% dos modelos testados, mesmo sem cópias literais. A exclusão é uma propriedade comportamental do sistema agente-mais-memória, não apenas uma exclusão em nível de armazenamento.",
+      "authors": [
+        "Ehsan Saleh",
+        "Roozbeh Nahavandi",
+        "Sama Salarian",
+        "Raef Bassily",
+        "Andrew Perrault"
+      ],
+      "published_at": "2026-10-22",
+      "date": "2026-10-24"
+    },
+    {
+      "title": "RECAP: Olhar Apenas Uma Vez Não é Suficiente para o Raciocínio Visão-Linguagem",
+      "links": [
+        "https://arxiv.org/abs/2610.30834"
+      ],
+      "summary": "O RECAP demonstra que modelos de linguagem visual (VLMs) podem \"esquecer\" a imagem durante cadeias de pensamento longas. Picos de revisita visual preveem a correção e são causais, e um novo método de treinamento transforma esses rastros de revisita em crédito. Isso melhora o desempenho em benchmarks como HallusionBench, mantendo o raciocínio e a capacidade apenas de texto.",
+      "authors": [
+        "Zhaolu Kang",
+        "Tailong Luo",
+        "Chenxin Li",
+        "Yingjie He"
+      ],
+      "published_at": "2026-10-22",
+      "date": "2026-10-24"
+    },
+    {
+      "title": "Mesmas Crenças, Políticas Diferentes: Aprendendo Representações Reutilizáveis para Parada Antecipada no Raciocínio de LLMs",
+      "links": [
+        "https://arxiv.org/abs/2610.30450"
+      ],
+      "summary": "O método BELT separa as crenças sobre as respostas de uma política de parada, usando uma sonda de estado oculto congelado e uma política linear reajustada. Isso reduz o uso de tokens em 41% a 51% em modelos como Qwen3-1.7B e OLMo-3-7B-Think sem perda de precisão, e a sonda se transfere para outras tarefas. O estudo mostra que um controlador não precisa ser específico para cada custo de token, mas sim uma crença com uma política barata sobre ela.",
+      "authors": [
+        "Jingwei Ni",
+        "Dmitry Abulkhanov",
+        "Vladislav Smirnov",
+        "Markus Leippold",
+        "Elliott Ash",
+        "Timothy Baldwin",
+        "Artem Shelmanov",
+        "Mrinmaya Sachan"
+      ],
+      "published_at": "2026-10-21",
+      "date": "2026-10-24"
+    },
+    {
+      "title": "OpenAttention: Um Por Cento É Suficiente com Proxies de Cauda",
+      "links": [
+        "https://arxiv.org/abs/2610.30951"
+      ],
+      "summary": "OpenAttention aborda o problema da cauda não lida na atenção esparsa, onde 1% do cache é mantido. O método agrupa consultas e aloca leituras exatas por erro de peso estimado, dobrando o restante em proxies. Em Llama-3.1-8B, atinge 99% da precisão densa com apenas 1% de leitura, e um kernel personalizado oferece uma decodificação 10 vezes mais rápida.",
+      "authors": [
+        "Hyunwoo Yu",
+        "Jongbeom Lee",
+        "Hyunbin Kim",
+        "Sungjun Park"
+      ],
+      "published_at": "2026-10-22",
+      "date": "2026-10-24"
+    },
     {
       "title": "Sage-A1.5: Da Execução de Longo Prazo à Exploração Científica com Composição de Capacidades",
       "links": [
