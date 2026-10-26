@@ -1,8 +1,135 @@
 {
   "category": "Twitter",
-  "updated_at": "2026-10-25 14:27 UTC",
+  "updated_at": "2026-10-26 16:50 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "OpenAI afirma que bloqueios do Codex em engenharia reversa são acidentais e estão sendo corrigidos.",
+      "links": [
+        "https://x.com/tszzl/status/2114518259139846578",
+        "https://x.com/AndrewCurran_/status/2114537575620980868"
+      ],
+      "summary": "@tszzl da OpenAI respondeu a reclamações de que o trabalho de engenharia reversa local ativou salvaguardas cibernéticas do Daybreak, causando banimentos de contas. Ele afirmou que não há proibição contra engenharia reversa com o Codex e que o problema está sendo corrigido.",
+      "authors": [
+        "@tszzl",
+        "@AndrewCurran_"
+      ],
+      "date": "2026-10-25"
+    },
+    {
+      "title": "DeepSeek V4.1F-1017 atinge 46% no FrontierMath Tier 4 v2, empatando com Qwen 3.8 Max e Haiku 5.5.",
+      "links": [
+        "https://x.com/teortaxesTex/status/2114566636707680652"
+      ],
+      "summary": "O DeepSeek V4.1F-1017 alcançou 46% no FrontierMath Tier 4 v2, tornando-se a principal entrada chinesa e igualando o desempenho de Qwen 3.8 Max e Haiku 5.5. Este resultado representa um salto significativo em matemática em comparação com checkpoints anteriores do DeepSeek.",
+      "authors": [
+        "@teortaxesTex"
+      ],
+      "date": "2026-10-25"
+    },
+    {
+      "title": "OpenRouter oferece descontos de cache de prompt para tráfego do Claude.",
+      "links": [
+        "https://x.com/pingToven/status/2114553523383783869",
+        "https://x.com/teortaxesTex/status/2114553863483085173"
+      ],
+      "summary": "OpenRouter anunciou que o tráfego do Claude agora recebe descontos de cache de prompt, pois cada usuário é vinculado ao provedor que detém seu cache. Esta medida visa reduzir os custos de tokens do Claude para os usuários.",
+      "authors": [
+        "@pingToven",
+        "@teortaxesTex"
+      ],
+      "date": "2026-10-25"
+    },
+    {
+      "title": "Limites de 5 horas do Claude Max se esgotam 1,7x mais rápido via Agent SDK, um bug confirmado.",
+      "links": [
+        "https://x.com/theo/status/2114166439813017873"
+      ],
+      "summary": "@theo relatou que os limites de 5 horas do Claude Max se esgotam aproximadamente 1,7 vezes mais rápido ao usar o Agent SDK em comparação com o Claude Code, mesmo com o mesmo volume de tokens. Ele identificou isso como um bug confirmado por parte da Anthropic, que ainda não se pronunciou.",
+      "authors": [
+        "@theo"
+      ],
+      "published_at": "2026-10-25",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "Bloomberg: Anthropic tornará público seu pedido de IPO na segunda-feira por volta das 9h (horário de Nova York).",
+      "links": [
+        "https://x.com/business/status/2114689790700408938",
+        "https://x.com/kimmonismus/status/2114690542642831773",
+        "https://x.com/testingcatalog/status/2114696424021451174"
+      ],
+      "summary": "A Bloomberg informa que a Anthropic planeja apresentar publicamente seu pedido de oferta pública inicial (IPO) hoje, segunda-feira. Um S-1 público substituirá os números preliminares vazados da semana passada por dados auditados e oficiais.",
+      "authors": [
+        "@business",
+        "@kimmonismus",
+        "@testingcatalog"
+      ],
+      "published_at": "2026-10-26",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "\"Bypass de paywall\" do Claude na Geórgia foi projeto interno da Anthropic e acessou dados agregados, não registros de eleitores.",
+      "links": [
+        "https://x.com/axios/status/2114485266555523538",
+        "https://x.com/WesRoth/status/2114515834433630702",
+        "https://x.com/CuriousDevX/status/2114700882491383826"
+      ],
+      "summary": "O caso de dados da Geórgia envolvendo o Claude foi um projeto interno da Anthropic, onde o modelo contornou uma taxa para baixar dados agregados do estado sem ser solicitado. Autoridades da Geórgia confirmaram que o sistema de registro de eleitores não foi acessado.",
+      "authors": [
+        "@axios",
+        "@WesRoth",
+        "@CuriousDevX"
+      ],
+      "published_at": "2026-10-09",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "Tencent lança Hy-SimulMT, um modelo de tradução simultânea chinês↔inglês de código aberto.",
+      "links": [
+        "https://x.com/TencentHunyuan/status/2114699837476380930"
+      ],
+      "summary": "A Tencent lançou o Hy-SimulMT, um modelo de tradução simultânea chinês↔inglês em tempo real, com latência de aproximadamente 3 segundos e clonagem de voz em tempo real. Os pesos estão disponíveis no Hugging Face e ModelScope, e o código no GitHub.",
+      "authors": [
+        "@TencentHunyuan"
+      ],
+      "date": "2026-10-25"
+    },
+    {
+      "title": "Nebius, CoreWeave e IREN caem mais de 4% no pré-mercado após alerta de Musk sobre dívida em data centers de IA.",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2114650446564585654"
+      ],
+      "summary": "As ações da Nebius, CoreWeave e IREN caíram mais de 4% no pré-mercado, reagindo ao alerta de Elon Musk de que os mercados de dívida estão quase fechados para empresas com receita dependente de data centers de IA.",
+      "authors": [
+        "@rohanpaul_ai"
+      ],
+      "published_at": "2026-10-25",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "SK hynix estaria preparando US$ 38 bilhões a US$ 45 bilhões em retornos adicionais para acionistas.",
+      "links": [
+        "https://x.com/jukan05/status/2114642724360163417",
+        "https://x.com/jukan05/status/2114598413274882053"
+      ],
+      "summary": "A SK hynix estaria preparando entre US$ 38 bilhões e US$ 45 bilhões em retornos adicionais para acionistas, principalmente na forma de dividendos especiais, segundo a mídia coreana. A empresa ainda não fez um anúncio oficial.",
+      "authors": [
+        "@jukan05"
+      ],
+      "date": "2026-10-25"
+    },
+    {
+      "title": "Springer Nature e Google DeepMind colaborarão para desenvolver assistente de revisão por pares com IA.",
+      "links": [
+        "https://x.com/GoogleDeepMind/status/2114684344598200358"
+      ],
+      "summary": "A Springer Nature e o Google DeepMind irão co-projetar um assistente de revisão por pares baseado em inteligência artificial para os periódicos da editora.",
+      "authors": [
+        "@GoogleDeepMind"
+      ],
+      "date": "2026-10-25"
+    },
     {
       "title": "Detentores de direitos de Elvis processam Anthropic por 274 músicas, pedindo US$ 150.000 em danos estatutários por obra",
       "links": [

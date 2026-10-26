@@ -1,8 +1,68 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-25 14:27 UTC",
+  "updated_at": "2026-10-26 16:50 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Kolibri: Um Modelo Europeu Soberano na Fronteira de Pareto",
+      "links": [
+        "https://arxiv.org/abs/2610.31945"
+      ],
+      "summary": "Kolibri é um modelo de fundação aberto de 78.1B de parâmetros, bilíngue (inglês-alemão), com licença Apache 2.0 e controle total da pilha. Ele se destaca na fronteira de Pareto de qualidade versus custo de serviço entre os modelos abertos avaliados, sendo projetado para ser implementado por governos ou indústrias.",
+      "authors": [
+        "Aleph Alpha (Moritz Althaus, Artur Baranowski, Michael Barlow, Fabien C. Y. Benureau et al.)"
+      ],
+      "published_at": "2026-10-22",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "Ψ-0.6: Fluxos Adaptativos de Pensamento em um Modelo de Mundo Unificado de Visão-Linguagem",
+      "links": [
+        "https://arxiv.org/abs/2610.32177"
+      ],
+      "summary": "Ψ-0.6 integra percepção, linguagem, geometria e simulação em um único modelo, utilizando \"fluxos de pensamento\" adaptativos. Ele supera modelos abertos líderes em raciocínio espacial multi-visão e pode gerar cenas contrafactuais, aprendendo a escolher a representação para seu raciocínio.",
+      "authors": [
+        "Khai Loong Aw, Klemen Kotar, Baihan Zhang, Yifan Liu, Lilian Chen, Atlas Kazemian, Rahul Venkatesh, Daniel Yamins"
+      ],
+      "published_at": "2026-10-23",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "HyScale: Escalando o Treinamento de Contexto Longo para Atenção Esparsa Aprendida",
+      "links": [
+        "https://arxiv.org/abs/2610.32057"
+      ],
+      "summary": "HyScale permite o treinamento de arquiteturas de atenção esparsa aprendida com um milhão de tokens, superando o gargalo da seleção de tokens. A abordagem otimiza a seleção e recomputação, resultando em ganhos de velocidade significativos em modelos como GLM-5.1 e DeepSeek-V4-Flash.",
+      "authors": [
+        "Yangsheng Deng, Xinjing Huang, Yulong Wang, Yunzhuo Liu, Jun Hu, Shuyong Tang, Junchi Zeng, Mingji Han, Ray Ying, Key Zhang, Luo Mai"
+      ],
+      "published_at": "2026-10-23",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "Reescrevendo Leis de Escala para Dados Sintéticos com Restrições de Computação e Dados",
+      "links": [
+        "https://arxiv.org/abs/2610.31867"
+      ],
+      "summary": "Este trabalho estabelece leis de escala para dados sintéticos, modelando a perda em função do tamanho do modelo, tokens de treinamento e fração de reescrita. Ele quantifica o custo de gerar reescritas e avalia se um modelo treinado com dados reescritos pode superar o reescritor original.",
+      "authors": [
+        "Nicholas Roberts, Ahmed Ahmed, Suhas Kotha, Percy Liang, Yu Wang, Alex Renda, Nitya Mani"
+      ],
+      "published_at": "2026-10-22",
+      "date": "2026-10-25"
+    },
+    {
+      "title": "Quando Agentes Falham: Modelo ou Estrutura, Quem é o Culpado?",
+      "links": [
+        "https://arxiv.org/abs/2610.32483"
+      ],
+      "summary": "Este estudo investiga a culpa por falhas em agentes, avaliando cinco métricas em 111 configurações com diferentes modelos e estruturas. Ele revela que as classificações de desempenho variam entre modelos e benchmarks, e que a omissão da estrutura nos benchmarks pode levar a classificações incorretas.",
+      "authors": [
+        "Shao Zhang, Hangfan Zhang, Yuanyuan Shi, Hao Li, Min-Le Su, Kangcong Li et al."
+      ],
+      "published_at": "2026-10-23",
+      "date": "2026-10-25"
+    },
     {
       "title": "Questionando a Convergência Instrumental em RLVR: Evidências de Checkpoints do OLMo-3",
       "links": [
