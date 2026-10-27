@@ -1,8 +1,68 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-26 16:50 UTC",
+  "updated_at": "2026-10-27 15:55 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Nemotron 3.5 Bolt 74B-A9B 24GB: Um Modelo Híbrido Visão-Linguagem para IA Local",
+      "links": [
+        "https://arxiv.org/abs/2610.33039"
+      ],
+      "summary": "Nemotron 3.5 Bolt é um VLM híbrido Mamba, Transformer de 74B total / 9B ativo, otimizado para 24 GB via compressão Star Elastic e destilação com quantização de 2 bits. Ele foi projetado para raciocínio, uso de ferramentas e trabalho web/terminal, permitindo que um laptop execute agentes de IA.",
+      "authors": [
+        "NVIDIA (Ganesh Ajjanagadde, Chris Alexiuk, Luke Alonso, Kumar Anshuman e outros)"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-26"
+    },
+    {
+      "title": "Como Construir um Modelo de Linguagem de Difusão Moderno",
+      "links": [
+        "https://arxiv.org/abs/2610.33391"
+      ],
+      "summary": "A difusão discreta desruidifica sequências inteiras em paralelo, oferecendo milhares de tokens por segundo e correção de erros integrada, ao contrário da autorregressão. Este artigo do laboratório Kuleshov serve como um guia completo para construir Modelos de Linguagem de Difusão (DLMs), cobrindo fundamentos, arquitetura e escalonamento.",
+      "authors": [
+        "Volodymyr Kuleshov, Marianne Arriola, Yair Schiff, Gilad Turok, Guanghan Wang"
+      ],
+      "published_at": "2026-10-24",
+      "date": "2026-10-26"
+    },
+    {
+      "title": "Um Estudo Empírico das Leis de Escala de Aprendizado por Reforço",
+      "links": [
+        "https://arxiv.org/abs/2610.33420"
+      ],
+      "summary": "Este estudo estabelece leis de escala para RL ator-crítico usando Starpilot e Craftax, prevendo desempenho e alocação de computação com base em uma variante Elo de agente único. A aplicação dessas leis com maior poder computacional alcança um novo estado da arte em um dos ambientes.",
+      "authors": [
+        "Zeyu Zheng, Clare Lyle, Khimya Khetarpal, Will Dabney"
+      ],
+      "published_at": "2026-10-24",
+      "date": "2026-10-26"
+    },
+    {
+      "title": "RSI Arena: Rumo à Auto-Melhoria Recursiva com Feedback Humano",
+      "links": [
+        "https://arxiv.org/abs/2610.33624"
+      ],
+      "summary": "Dez agentes de IA, partindo do NVIDIA Nemotron 3.5 Lightning 30B-A3B Base, realizaram pós-treinamento autônomo, desenvolvendo assistentes funcionais. O GPT-6 Astra, um dos agentes, reduziu 76% da lacuna entre o modelo base e o Instruct, com preferência humana próxima ao NVIDIA Instruct.",
+      "authors": [
+        "Yue Huang, Yanbo Wang, Lichi Li, Yuanyuan Chen, Andreas Haupt e outros"
+      ],
+      "published_at": "2026-10-24",
+      "date": "2026-10-26"
+    },
+    {
+      "title": "Alinhamento via Generalização",
+      "links": [
+        "https://arxiv.org/abs/2610.34242"
+      ],
+      "summary": "Aligned-PAC propõe que o alinhamento de modelos pode ser reduzido à generalização, onde o sucesso nos requisitos de treinamento se estende a requisitos não vistos. A intenção é uma coleção de requisitos, não um único objetivo de treinamento, e a avaliação independente pode fornecer evidências rigorosas.",
+      "authors": [
+        "Shai Shalev-Shwartz, Amnon Shashua"
+      ],
+      "published_at": "2026-10-25",
+      "date": "2026-10-26"
+    },
     {
       "title": "Kolibri: Um Modelo Europeu Soberano na Fronteira de Pareto",
       "links": [
