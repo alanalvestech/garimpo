@@ -1,8 +1,87 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-27 15:55 UTC",
+  "updated_at": "2026-10-28 16:43 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "EmbeddingGemma 2: Representações Multimodais Unificadas e Eficientes",
+      "links": [
+        "https://arxiv.org/abs/2610.37364"
+      ],
+      "summary": "EmbeddingGemma 2 incorpora nativamente texto, imagens, áudio, vídeo e misturas em um único espaço. Ele simplifica embeddings por camada e usa um currículo multiestágio, superando modelos maiores em benchmarks de embedding.",
+      "authors": [
+        "Google (Henrique Schechter Vera, Sahil Dua, Jovan Andonov, Sara Smoot, Sebastian Russo et al.)"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Leis de Escala para Agentes de Uso de Ferramentas via Síntese de Ambiente Controlável",
+      "links": [
+        "https://arxiv.org/abs/2610.37648"
+      ],
+      "summary": "Este trabalho apresenta leis de escala para agentes de uso de ferramentas, utilizando SynthAPI para controlar a diversidade de ferramentas, tarefas e bancos de dados. A lei ajustada indica que, com o aumento do orçamento de dados, deve-se escalar a diversidade de ferramentas e bancos de dados, não a contagem de tarefas, e aumentar a complexidade.",
+      "authors": [
+        "Andrew Szot",
+        "Samira Abnar",
+        "Omar Attia",
+        "Abbas Kazerouni",
+        "Michael Kirchhof",
+        "Cheng-Yu Hsieh",
+        "Raviteja Vemulapalli",
+        "Alexander Toshev"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Nemotron-Labs-Diffusion-Uni: LLM de Difusão Unificado Elástico e Auto-Refinável",
+      "links": [
+        "https://arxiv.org/abs/2610.36466"
+      ],
+      "summary": "A NVIDIA lança um modelo de difusão unificado que integra compreensão VLM autorregressiva e geração de fluxo contínuo em um único DLLM. Ele utiliza auto-refinamento progressivo, permitindo inferência precoce e refinamento, alcançando o estado da arte em várias tarefas multimodais.",
+      "authors": [
+        "Shufan Li",
+        "Hanrong Ye",
+        "Greg Heinrich",
+        "Yonggan Fu",
+        "Haotian Zhang",
+        "Sifei Liu",
+        "Aditya Grover",
+        "Pavlo Molchanov"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Equipes de Agentes em Evolução",
+      "links": [
+        "https://arxiv.org/abs/2610.36848"
+      ],
+      "summary": "Este trabalho otimiza kernels de GPU usando equipes de agentes, onde um supervisor diagnostica impasses e reestrutura a equipe. Com um orçamento de tokens estendido, o método superou o kernel de produção FlashInfer MLA paged-decode em 1.2x e obteve 36 de 47 vitórias no FlashInfer-Bench.",
+      "authors": [
+        "Shiyi Cao",
+        "Ziming Mao",
+        "Dacheng Li",
+        "Joseph E. Gonzalez",
+        "Ion Stoica"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Gym-Anything-RT: Escalando Ambientes em Tempo Real para Agentes de Visão-Linguagem",
+      "links": [
+        "https://arxiv.org/abs/2610.37567"
+      ],
+      "summary": "Este trabalho explora a capacidade de agentes de visão-linguagem agirem em ambientes em tempo real, criando 100 minijogos visuais com seis habilidades em tempo real. Agentes de fronteira alcançam 9.0% de sucesso com o tempo correndo e 75.0% quando pausado, indicando uma lacuna de capacidade no tempo real.",
+      "authors": [
+        "Pranjal Aggarwal",
+        "Sean Welleck"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
     {
       "title": "Nemotron 3.5 Bolt 74B-A9B 24GB: Um Modelo Híbrido Visão-Linguagem para IA Local",
       "links": [
