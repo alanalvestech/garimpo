@@ -1,8 +1,386 @@
 {
   "category": "Papers",
-  "updated_at": "2026-10-27 19:35 UTC",
+  "updated_at": "2026-10-28 19:49 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "ChronoReplay: Uma Interface de Resposta Não É Suficiente para Inteligência Espacial em Fluxo",
+      "links": [
+        "https://huggingface.co/papers/2610.34283",
+        "https://arxiv.org/abs/2610.34283"
+      ],
+      "published_at": "2026-10-25",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Otimização de Políticas Multiescala para Agentes LLM de Longo Horizonte",
+      "links": [
+        "https://huggingface.co/papers/2610.35013",
+        "https://arxiv.org/abs/2610.35013"
+      ],
+      "published_at": "2026-10-26",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "A Trindade: Autoaperfeiçoamento Recursivo Orientado por Capacidades para Agentes Multimodais",
+      "links": [
+        "https://huggingface.co/papers/2610.36077",
+        "https://arxiv.org/abs/2610.36077"
+      ],
+      "published_at": "2026-10-26",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "PDRVLA: Um Modelo de Visão-Linguagem-Ação com Representações de Dinâmica Física",
+      "links": [
+        "https://huggingface.co/papers/2610.37381",
+        "https://arxiv.org/abs/2610.37381"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "VibeVideoBench: Avaliando Agentes Multimodais na Geração de Vídeos Orientada por Código",
+      "links": [
+        "https://huggingface.co/papers/2610.35864",
+        "https://arxiv.org/abs/2610.35864"
+      ],
+      "published_at": "2026-10-26",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Hy-Nomas: Rumo à Geração de Mundos Interativos de Forma Livre",
+      "links": [
+        "https://huggingface.co/papers/2610.36729",
+        "https://arxiv.org/abs/2610.36729"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Imposto de Memória: Dissecando o Valor Líquido da Memória do Agente",
+      "links": [
+        "https://huggingface.co/papers/2610.34073",
+        "https://arxiv.org/abs/2610.34073"
+      ],
+      "published_at": "2026-10-25",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Tokens Discretos Podem Servir como Representações Semanticamente Sem Perdas de Sinais Visuais?",
+      "links": [
+        "https://huggingface.co/papers/2610.37662",
+        "https://arxiv.org/abs/2610.37662"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "HABIT-Bench: Avaliando a Indução de Hábitos a Partir de Evidências Fracas Longitudinais na Memória do Agente",
+      "links": [
+        "https://huggingface.co/papers/2610.24520",
+        "https://arxiv.org/abs/2610.24520"
+      ],
+      "published_at": "2026-10-17",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Rollback: Rastreamento de Experiências em Modelos de Mundo para Melhoria de Políticas",
+      "links": [
+        "https://huggingface.co/papers/2610.36068",
+        "https://arxiv.org/abs/2610.36068"
+      ],
+      "published_at": "2026-10-26",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "CodeCap-Bench: O Código Pode Servir como uma Boa Legenda de Vídeo?",
+      "links": [
+        "https://huggingface.co/papers/2610.37341",
+        "https://arxiv.org/abs/2610.37341"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "ThinkWorld: A Imaginação do Mundo Reforça o Raciocínio em Cadeia de Dinâmicas",
+      "links": [
+        "https://huggingface.co/papers/2610.37666",
+        "https://arxiv.org/abs/2610.37666"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "A Evolução da Memória em Tempo de Teste Pode Superar o Treinamento em Tempo de Teste para Descoberta Científica?",
+      "links": [
+        "https://huggingface.co/papers/2610.32046",
+        "https://arxiv.org/abs/2610.32046"
+      ],
+      "published_at": "2026-10-23",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "LociArt: Um Paradigma Unificado para Estilização de Vídeo Local de Estilo Livre",
+      "links": [
+        "https://huggingface.co/papers/2610.36456",
+        "https://arxiv.org/abs/2610.36456"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Zooming sem Zooming v2: De Ver Detalhes a Conectar Evidências para Percepção Multimodal Generalizável",
+      "links": [
+        "https://huggingface.co/papers/2610.37037",
+        "https://arxiv.org/abs/2610.37037"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "RSI Arena: Rumo ao Autoaperfeiçoamento Recursivo com Feedback Humano",
+      "links": [
+        "https://huggingface.co/papers/2610.33624",
+        "https://arxiv.org/abs/2610.33624"
+      ],
+      "published_at": "2026-10-24",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "MatAnyone-E: Propagação de Memória Esparsa para Matting de Vídeo de Alta Resolução Eficiente",
+      "links": [
+        "https://huggingface.co/papers/2610.35724",
+        "https://arxiv.org/abs/2610.35724"
+      ],
+      "published_at": "2026-10-26",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "h1: Uma Amostra da Lição Amarga na Prova Automatizada de Teoremas",
+      "links": [
+        "https://huggingface.co/papers/2610.35962",
+        "https://arxiv.org/abs/2610.35962"
+      ],
+      "published_at": "2026-10-25",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "A Seleção de Canais para Decodificação de Mistura de Especialistas Não Precisa de Dados de Calibração",
+      "links": [
+        "https://huggingface.co/papers/2610.37386",
+        "https://arxiv.org/abs/2610.37386"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Omni-InteractScope: Avaliando a Interação Proativa e Agêntica em Fluxos Omnimodais Contínuos",
+      "links": [
+        "https://huggingface.co/papers/2610.35439",
+        "https://arxiv.org/abs/2610.35439"
+      ],
+      "published_at": "2026-10-26",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Qual Nível de Esforço Devo Escolher? Sobre a Economia do Esforço de Raciocínio em Agentes LLM",
+      "links": [
+        "https://huggingface.co/papers/2610.34491",
+        "https://arxiv.org/abs/2610.34491"
+      ],
+      "published_at": "2026-10-25",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "EmbeddingGemma 2: Representações Multimodais Unificadas e Eficientes",
+      "links": [
+        "https://huggingface.co/papers/2610.37364",
+        "https://arxiv.org/abs/2610.37364"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "RynnWorld-Latent: Um Modelo de Mundo de Cross-Embodiment Condicionado a Ações Latentes Universais",
+      "links": [
+        "https://huggingface.co/papers/2610.36791",
+        "https://arxiv.org/abs/2610.36791"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Vetores de Direção Cross-modal Existem Tanto na Geração de Imagens Quanto de Texto",
+      "links": [
+        "https://huggingface.co/papers/2610.36269",
+        "https://arxiv.org/abs/2610.36269"
+      ],
+      "published_at": "2026-10-26",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "A Impressão Lexical dos Dados de Pré-treinamento",
+      "links": [
+        "https://huggingface.co/papers/2602.10657",
+        "https://arxiv.org/abs/2602.10657"
+      ],
+      "published_at": "2026-02-11",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Sua Política É Secretamente um Arnês: A Geometria da Decisão de Interfaces de Agentes",
+      "links": [
+        "https://huggingface.co/papers/2610.37255",
+        "https://arxiv.org/abs/2610.37255"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "SearchHorizonBench: Um Benchmark para o Valor de Busca em Agentes de IA",
+      "links": [
+        "https://huggingface.co/papers/2610.34714",
+        "https://arxiv.org/abs/2610.34714"
+      ],
+      "published_at": "2026-10-26",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "LLMs Podem Descobrir Leis Físicas Ocultas Através da Exploração Livre?",
+      "links": [
+        "https://huggingface.co/papers/2610.37649",
+        "https://arxiv.org/abs/2610.37649"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "No SPOT: Aprimorando a Decodificação Especulativa para Modelos de Linguagem de Difusão via Predição da Ordem de Commit",
+      "links": [
+        "https://huggingface.co/papers/2610.22543",
+        "https://arxiv.org/abs/2610.22543"
+      ],
+      "published_at": "2026-10-15",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Timestral",
+      "links": [
+        "https://huggingface.co/papers/2610.37585",
+        "https://arxiv.org/abs/2610.37585"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Relatório Técnico OvisOCR3",
+      "links": [
+        "https://huggingface.co/papers/2610.33066",
+        "https://arxiv.org/abs/2610.33066"
+      ],
+      "published_at": "2026-10-20",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Colaboração Arnês-Modelo para Aprendizagem Contínua de Longo Horizonte",
+      "links": [
+        "https://huggingface.co/papers/2610.34724",
+        "https://arxiv.org/abs/2610.34724"
+      ],
+      "published_at": "2026-10-26",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Raro, Relevante e Ainda Errado: Como a Memória Falha nas Decisões de Grupo de LLM",
+      "links": [
+        "https://huggingface.co/papers/2610.37624",
+        "https://arxiv.org/abs/2610.37624"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Avaliação da Segurança Condicionada a Obstáculos na Navegação de Robôs Domésticos",
+      "links": [
+        "https://huggingface.co/papers/2610.34674",
+        "https://arxiv.org/abs/2610.34674"
+      ],
+      "published_at": "2026-10-26",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Aprendizagem e Raciocínio com Geometria: Como a Geração Ajuda na Compreensão Espacial",
+      "links": [
+        "https://huggingface.co/papers/2610.36022",
+        "https://arxiv.org/abs/2610.36022"
+      ],
+      "published_at": "2026-10-26",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Nemotron-Labs-Diffusion-Uni: LLM de Difusão Unificado Elástico de Autoaperfeiçoamento com Destilação On-Policy Cross-Paradigm",
+      "links": [
+        "https://huggingface.co/papers/2610.36466",
+        "https://arxiv.org/abs/2610.36466"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "MLE-World: Previsão de Resultados de Experimentos de Machine Learning com um Modelo de Mundo Aprendido",
+      "links": [
+        "https://huggingface.co/papers/2610.37175",
+        "https://arxiv.org/abs/2610.37175"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Visão-Linguagem-Ação ou Mundo-Ação? Apenas Modelos de Ação",
+      "links": [
+        "https://huggingface.co/papers/2610.37219",
+        "https://arxiv.org/abs/2610.37219"
+      ],
+      "published_at": "2026-10-27",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "O Que o RL de Resultado Compra: Finalização, Confiabilidade, Raramente Alcance",
+      "links": [
+        "https://huggingface.co/papers/2610.34894",
+        "https://arxiv.org/abs/2610.34894"
+      ],
+      "published_at": "2026-10-26",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Quão Importante É a Dica? Condições de Escopo para Auto-Destilação Retrospectiva no Raciocínio Financeiro",
+      "links": [
+        "https://huggingface.co/papers/2610.36082",
+        "https://arxiv.org/abs/2610.36082"
+      ],
+      "published_at": "2026-10-26",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Rastreamento de Sub-monocamadas de Estados Moleculares em Interfaces Enterradas",
+      "links": [
+        "https://huggingface.co/papers/2610.31924",
+        "https://arxiv.org/abs/2610.31924"
+      ],
+      "published_at": "2026-10-22",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Além da Estimativa: Decodificação Informada por Wiener para Treinamento Mais Fácil de Modelos de Fluxo no Espaço de Pixels",
+      "links": [
+        "https://huggingface.co/papers/2610.36192",
+        "https://arxiv.org/abs/2610.36192"
+      ],
+      "published_at": "2026-10-26",
+      "date": "2026-10-27"
+    },
     {
       "title": "Trajectory2Gym: Síntese de Interação Composicional Baseada em Decisões para Agentes de Uso de Ferramentas",
       "links": [
