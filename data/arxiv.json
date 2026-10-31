@@ -1,8 +1,91 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-28 16:43 UTC",
+  "updated_at": "2026-10-31 15:48 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Treinando Modelos de Fundação com um Único Algoritmo",
+      "links": [
+        "https://arxiv.org/abs/2610.40564v1"
+      ],
+      "summary": "O artigo deriva objetivos de RL como ajuste de máxima verossimilhança para distribuições alvo geradas por modelos, unificando pré-treinamento, midtraining, SFT e RL sob um único algoritmo. Um treinador unificado que combina dados estáticos e gerações de RL melhora o equilíbrio entre precisão e computação, além de preservar capacidades mais amplas, podendo substituir o pipeline de treinamento LLM em estágios.",
+      "authors": [
+        "Yuda Song",
+        "Alvin Zhang",
+        "Fahim Tajwar",
+        "Daman Arora",
+        "Jeff Schneider",
+        "Daniel Khashabi",
+        "Ruslan Salakhutdinov",
+        "J. Andrew Bagnell",
+        "Aarti Singh",
+        "Andrea Zanette"
+      ],
+      "published_at": "2026-10-29",
+      "date": "2026-10-30"
+    },
+    {
+      "title": "Modelo de Mundo Algébrico: Da Exploração às Provas",
+      "links": [
+        "https://arxiv.org/abs/2610.40503v1"
+      ],
+      "summary": "Um agente explora um ambiente desconhecido, escreve e simplifica hipóteses, e as formaliza em Lean 4 para provar alcançabilidade e impossibilidade. O agente concluiu todos os 183 níveis dos 25 jogos ARC-AGI-3, com trajetórias certificadas, o que é um passo para modelos de mundo com garantias verificadas por máquina.",
+      "authors": [
+        "Guancheng Pan",
+        "Qixin Tan",
+        "Yang Yuan",
+        "Andrew Chi-Chih Yao"
+      ],
+      "published_at": "2026-10-29",
+      "date": "2026-10-30"
+    },
+    {
+      "title": "Como Fazer um Loop no Seu Transformer: Escalonamento de Loop, Especialização e Inferência Paralela",
+      "links": [
+        "https://arxiv.org/abs/2610.40325v1"
+      ],
+      "summary": "Um estudo de transformers em loop (até 1B parâmetros, 155B tokens, 32 loops) mostra que o loop do modelo completo é melhor com um orçamento de parâmetros fixo, e o loop de um bloco intermediário é melhor com um orçamento de FLOPs fixo. Adaptadores de baixo rank específicos para loop e uma correção para Parallel Loop Transformers recuperam a qualidade, fornecendo orientação prática de escalonamento para profundidade de peso compartilhado sob diferentes restrições de computação.",
+      "authors": [
+        "Chanakya Ekbote",
+        "Artidoro Pagnoni",
+        "Devendra Singh Sachan",
+        "Shruti Bhosale",
+        "Mike Lewis",
+        "et al."
+      ],
+      "published_at": "2026-10-29",
+      "date": "2026-10-30"
+    },
+    {
+      "title": "Supervisão Escalável Eficiente via Rewinding",
+      "links": [
+        "https://arxiv.org/abs/2610.40535v1"
+      ],
+      "summary": "O artigo introduz provas interativas rebobináveis, permitindo que um verificador fraco restaure um estado anterior de uma IA provadora, sem exigir suposição de provador verdadeiro ou criptografia. Este protocolo relativizante, com provador em tempo linear e verificador em tempo quase linear, oferece uma rota teoricamente fundamentada e mais barata para supervisão escalável.",
+      "authors": [
+        "Ziyi Guan",
+        "Yael Tauman Kalai",
+        "Ron Rothblum",
+        "Zoe Xi"
+      ],
+      "published_at": "2026-10-29",
+      "date": "2026-10-30"
+    },
+    {
+      "title": "Compreendendo e Mitigando a Falsificação de Papéis em LLMs",
+      "links": [
+        "https://arxiv.org/abs/2610.40396v1"
+      ],
+      "summary": "Modelos de linguagem rastreiam 'quem disse o quê' por meio de pistas de conteúdo e estruturais, tornando ataques que falsificam ambos altamente eficazes. O treinamento adversarial contra injeções apenas de conteúdo não protege contra ataques baseados em estrutura, e sondas lineares detectam a falsificação, explicando falhas em defesas de injeção de prompt contra agentes que leem saídas de ferramentas não confiáveis.",
+      "authors": [
+        "Ezra Edelman",
+        "Benjamin Edelman",
+        "Surbhi Goel",
+        "Eran Malach"
+      ],
+      "published_at": "2026-10-29",
+      "date": "2026-10-30"
+    },
     {
       "title": "EmbeddingGemma 2: Representações Multimodais Unificadas e Eficientes",
       "links": [
