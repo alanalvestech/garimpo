@@ -1,8 +1,91 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-10-31 15:48 UTC",
+  "updated_at": "2026-11-01 16:51 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Treinando Modelos de Fundação com um Único Algoritmo",
+      "links": [
+        "https://arxiv.org/abs/2610.40564"
+      ],
+      "summary": "O estudo deriva objetivos de RL como ajuste de máxima verossimilhança para distribuições-alvo geradas por modelos. Isso unifica pré-treinamento, treinamento intermediário, SFT e RL sob um algoritmo de \"treinamento unificado\" baseado em verossimilhança, que mistura dados estáticos e gerações de RL em um único treinador, melhorando o equilíbrio entre precisão e computação e preservando capacidades.",
+      "authors": [
+        "Yuda Song",
+        "Alvin Zhang",
+        "Fahim Tajwar",
+        "Daman Arora",
+        "Jeff Schneider",
+        "Daniel Khashabi",
+        "Ruslan Salakhutdinov",
+        "J. Andrew Bagnell",
+        "Aarti Singh",
+        "Andrea Zanette"
+      ],
+      "published_at": "2026-10-29",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Como Repetir Seu Transformer: Escalonamento de Loop, Especialização e Inferência Paralela",
+      "links": [
+        "https://arxiv.org/abs/2610.40325"
+      ],
+      "summary": "Um estudo em larga escala de transformers em loop mostra que repetir o modelo completo é melhor com um orçamento de parâmetros fixo. Repetir um bloco intermediário é mais eficaz quando os FLOPs de treinamento são restritos, e adaptadores de baixo rank específicos para loop ajudam a remover a desaceleração da decodificação.",
+      "authors": [
+        "Chanakya Ekbote",
+        "Artidoro Pagnoni",
+        "Devendra Singh Sachan",
+        "Shruti Bhosale",
+        "Mike Lewis",
+        "Maryam Fazel-Zarandi",
+        "Shashank Rajput",
+        "Sujan Kumar Gonugondla"
+      ],
+      "published_at": "2026-10-29",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Modelo de Mundo Algébrico: Da Exploração às Provas",
+      "links": [
+        "https://arxiv.org/abs/2610.40503"
+      ],
+      "summary": "Um agente explora um ambiente desconhecido, escreve hipóteses Python executáveis e as formaliza em Lean 4 para provar alcançabilidade e impossibilidade. O sistema produziu provas de impossibilidade verificadas pelo kernel em níveis de jogo impossíveis e reproduz trajetórias vencedoras em todos os 183 níveis dos 25 jogos públicos ARC-AGI-3.",
+      "authors": [
+        "Guancheng Pan",
+        "Qixin Tan",
+        "Yang Yuan",
+        "Andrew Chi-Chih Yao"
+      ],
+      "published_at": "2026-10-29",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Gym-Anything para Robótica: Escalonando simulações físicas com agentes digitais",
+      "links": [
+        "https://arxiv.org/abs/2610.40565"
+      ],
+      "summary": "Agentes de codificação constroem simulações de robótica através de um loop adversário de criação-auditoria, gerando o RoboWorld. Os melhores modelos de fronteira obtêm uma recompensa média de apenas 0,06 nas tarefas de teste, mas a aprendizagem em contexto e demonstrações de políticas de código para VLAs ajudam substancialmente.",
+      "authors": [
+        "Pranjal Aggarwal",
+        "Sean Welleck"
+      ],
+      "published_at": "2026-10-29",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Supervisão Escalável Eficiente via Rebobinagem",
+      "links": [
+        "https://arxiv.org/abs/2610.40535"
+      ],
+      "summary": "O estudo introduz provas interativas rebobináveis, permitindo que um verificador fraco restaure um provador de IA a um estado anterior. Esta construção não exige suposição de provador verdadeiro nem criptografia, e o provador executa em tempo linear em relação à computação original.",
+      "authors": [
+        "Ziyi Guan",
+        "Yael Tauman Kalai",
+        "Ron Rothblum",
+        "Zoe Xi"
+      ],
+      "published_at": "2026-10-29",
+      "date": "2026-10-31"
+    },
     {
       "title": "Treinando Modelos de Fundação com um Único Algoritmo",
       "links": [

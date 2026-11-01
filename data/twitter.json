@@ -1,8 +1,148 @@
 {
   "category": "Twitter",
-  "updated_at": "2026-10-31 15:48 UTC",
+  "updated_at": "2026-11-01 16:51 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "xAI adiciona marca d'água invisível a textos do Grok",
+      "links": [
+        "https://x.com/AndrewCurran_/status/2116654648082022668",
+        "https://x.com/AndrewCurran_/status/2116667692208074942"
+      ],
+      "summary": "A xAI anunciou em 31 de outubro a adição de marca d'água invisível a textos gerados pelo Grok, com implementação global. A empresa não assinou o Código de Prática da UE sobre Transparência de Conteúdo Gerado por IA.",
+      "authors": [
+        "@AndrewCurran_"
+      ],
+      "published_at": "2026-10-31",
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Mantenedor do vLLM acelera decodificação Hopper em até 38% com novos kernels",
+      "links": [
+        "https://x.com/SemiAnalysis_/status/2116666571728863431"
+      ],
+      "summary": "O mantenedor do vLLM, @mgoin_, desenvolveu cerca de 10.000 linhas de kernels Hopper ultra-fundidos usando um enxame de agentes, acelerando a decodificação em até 38%. O trabalho visa GPUs H100/H200, conforme relatado pela SemiAnalysis.",
+      "authors": [
+        "@mgoin_",
+        "@SemiAnalysis_"
+      ],
+      "date": "2026-10-31"
+    },
+    {
+      "title": "PlanAssist do Google DeepMind será implementado em mais 12 conselhos do Reino Unido",
+      "links": [
+        "https://x.com/GoogleDeepMind/status/2116524000977285321"
+      ],
+      "summary": "O PlanAssist, ferramenta baseada em Gemini do Google DeepMind, será expandido para mais 12 conselhos no Reino Unido. A DeepMind afirma que a ferramenta reduziu em até 58% o tempo que os oficiais de planejamento gastam avaliando pedidos de residências.",
+      "authors": [
+        "@GoogleDeepMind"
+      ],
+      "date": "2026-10-31"
+    },
+    {
+      "title": "OpenAI arrecadou apenas US$ 11 bilhões dos US$ 30 bilhões almejados",
+      "links": [
+        "https://x.com/techtactician/status/2116671768081633729"
+      ],
+      "summary": "O Wall Street Journal informa que a OpenAI arrecadou cerca de US$ 11 bilhões dos US$ 30 bilhões que pretendia levantar. O restante é esperado de uma oferta posterior para indivíduos de alta renda.",
+      "authors": [
+        "@techtactician"
+      ],
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Alegação de um milhão de GB300s da SpaceXSI para Anthropic carece de fonte",
+      "links": [
+        "https://x.com/ns123abc/status/2116647378006528271"
+      ],
+      "summary": "A afirmação de que a SpaceXSI terá cerca de um milhão de GB300s online para a Anthropic até o final do ano não possui fonte além de uma imagem anexada. Nenhuma declaração da SpaceX, xAI ou Anthropic apoia um acordo dessa magnitude ou cronograma.",
+      "authors": [
+        "@ns123abc"
+      ],
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Lumaril, startup de IA industrial, levanta US$ 66 milhões em rodada Série A",
+      "links": [
+        "https://x.com/Techmeme/status/2116766189905121766"
+      ],
+      "summary": "A Lumaril, startup de IA industrial, arrecadou US$ 66 milhões em uma rodada Série A, avaliando a empresa em US$ 400 milhões. A Lumaril desenvolve software de IA para otimizar a produção industrial, conectando-se aos sistemas de controle existentes nas fábricas.",
+      "authors": [
+        "@Techmeme"
+      ],
+      "date": "2026-10-31"
+    },
+    {
+      "title": "HD Hyundai Robotics reduz tempo de resolução de problemas de robôs em 63% com agentes de IA da Palantir",
+      "links": [
+        "https://x.com/TheKoreaHerald/status/2116763189576876541"
+      ],
+      "summary": "A HD Hyundai Robotics anunciou que agentes de IA desenvolvidos com a Palantir reduziram em 63% o tempo necessário para resolver problemas relacionados a robôs. O número foi fornecido pela própria empresa.",
+      "authors": [
+        "@TheKoreaHerald"
+      ],
+      "date": "2026-10-31"
+    },
+    {
+      "title": "DeepSeek lança protótipo de agente de codificação autônomo",
+      "links": [
+        "https://x.com/business/status/2116754642222616835",
+        "https://x.com/teortaxesTex/status/2116856872003375236"
+      ],
+      "summary": "A DeepSeek lançou um protótipo de um agente de codificação mais autônomo, posicionado como concorrente do Claude Code da Anthropic. O protótipo é um repositório GitHub da equipe de harness da DeepSeek, sem anúncio oficial em inglês.",
+      "authors": [
+        "@teortaxesTex"
+      ],
+      "date": "2026-10-31"
+    },
+    {
+      "title": "FlowAgent do Google aplica 28.554 correções em produção",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2116855559034912990",
+        "https://x.com/rohanpaul_ai/status/2116855562495574487"
+      ],
+      "summary": "O FlowAgent do Google teve 28.554 de suas correções aplicadas em produção por desenvolvedores. O agente corrigiu testes de CI pré-merge com falha, sendo julgado correto em 67,18% de 195 falhas reais.",
+      "authors": [
+        "@rohanpaul_ai"
+      ],
+      "date": "2026-10-31"
+    },
+    {
+      "title": "ChatGPT e Codex da OpenAI compartilharão limite de tokens",
+      "links": [
+        "https://x.com/rohanpaul_ai/status/2116854778747875587"
+      ],
+      "summary": "A documentação da OpenAI agora indica que o ChatGPT e o Codex compartilharão um limite de tokens, começando com o plano Plus. A extensão da mudança para outros planos e a data de início não foram confirmadas.",
+      "authors": [
+        "@rohanpaul_ai"
+      ],
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Mídia taiwanesa reporta rendimento de 60-65% para embalagem EMIB da Intel",
+      "links": [
+        "https://x.com/jukan05/status/2116828613777699280"
+      ],
+      "summary": "A mídia taiwanesa relata que a embalagem EMIB da Intel tem um rendimento geral de cerca de 60-65%. O rendimento para a etapa de incorporação de dies de ponte em substratos ABF é de apenas 25-30%.",
+      "authors": [
+        "@jukan05"
+      ],
+      "date": "2026-10-31"
+    },
+    {
+      "title": "Alegação de lançamento iminente do GPT-6.2 baseia-se em análise de uso, não em anúncio da OpenAI",
+      "links": [
+        "https://x.com/kimmonismus/status/2116846125126693368",
+        "https://x.com/mark_k/status/2116861096137027899"
+      ],
+      "summary": "A afirmação de que o \"GPT-6.2 está muito próximo\" baseia-se na leitura de análises de uso do Codex por terceiros, não em declarações da OpenAI. Um nome de modelo em telemetria pode aparecer semanas antes do lançamento, ou o lançamento pode nunca ocorrer.",
+      "authors": [
+        "@kimmonismus",
+        "@mark_k",
+        "@TokenGremlin"
+      ],
+      "date": "2026-10-31"
+    },
     {
       "title": "“Outubro Negro”: Wiz contabiliza nove plataformas de desenvolvimento de IA violadas este mês em busca de chaves de API de IA armazenadas",
       "links": [
