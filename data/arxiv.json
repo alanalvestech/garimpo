@@ -1,8 +1,98 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-11-01 16:51 UTC",
+  "updated_at": "2026-11-02 20:24 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Atenção Esparsa Latente: Rumo à Atenção Subquadrática de Contexto Ultra-Longo",
+      "links": [
+        "https://arxiv.org/abs/2610.42147"
+      ],
+      "summary": "A LSA agrupa chaves hierarquicamente em um espaço latente aprendido, permitindo que as consultas pontuem clusters em vez de cada chave. Uma variante destilada (D-LSA) acelera uma camada de atenção em até 72x em 10M tokens, enquanto uma variante nativa (N-LSA) iguala a precisão da atenção completa treinando 1.6x mais rápido por camada em 128k.",
+      "authors": [
+        "Ales Kubicek",
+        "Andrea Caciolai",
+        "Liangzu Peng",
+        "Sukrit Sumant",
+        "Benjamin Hoover",
+        "Fraser Greenlee",
+        "Ruairidh M. Battleday",
+        "Radim Urban",
+        "Torsten Hoefler",
+        "James C. R. Whittington"
+      ],
+      "published_at": "2026-10-30",
+      "date": "2026-11-01"
+    },
+    {
+      "title": "Atenção Subquadrática com um Indexador Hierárquico em Estrutura de Árvore (ZHA)",
+      "links": [
+        "https://arxiv.org/abs/2610.42112"
+      ],
+      "summary": "A Zyphra Hierarchical Attention (ZHA) constrói uma árvore de resumos de chaves recursivamente compactados sobre o cache KV, permitindo que as consultas busquem um subconjunto esparso de chaves com custo assintoticamente subquadrático. Uma fase de destilação KL adapta modelos existentes, mantendo o desempenho em recuperação de contexto longo, raciocínio, matemática e codificação.",
+      "authors": [
+        "Leon Lufkin",
+        "Cutter Dawes",
+        "Alexander Speicher",
+        "Kamesh Krishnamurthy",
+        "Tomás Figliolia",
+        "Beren Millidge"
+      ],
+      "published_at": "2026-10-30",
+      "date": "2026-11-01"
+    },
+    {
+      "title": "SecPO: Treinamento Adversarial Baseado em Princípios para Segurança contra Injeção de Prompt",
+      "links": [
+        "https://arxiv.org/abs/2610.41998"
+      ],
+      "summary": "SecPO deriva uma perda para treinamento adversarial, aproximando uma referência idealizada invariante à injeção de prompt. Em testes com Qwen3.6-27B, a taxa de sucesso de ataque (ASR) sob AttackerMovesSecond caiu para 8.8%, comparado a 78.8% para Meta-SecAlign, sem perda de utilidade benigna.",
+      "authors": [
+        "Sizhe Chen",
+        "Yibo Peng",
+        "Jaewon Chang",
+        "Chawin Sitawarin",
+        "David Wagner"
+      ],
+      "published_at": "2026-10-30",
+      "date": "2026-11-01"
+    },
+    {
+      "title": "Raciocínio Latente em Espaço Contínuo para Modelos Multimodais Unificados (LARC)",
+      "links": [
+        "https://arxiv.org/abs/2610.42149"
+      ],
+      "summary": "LARC realiza raciocínio sobre estados ocultos contínuos para modelos multimodais unificados, superando a incompatibilidade de tokens discretos na geração de imagens. O modelo estabelece um novo estado da arte no GenEval, com um ganho de 7 pontos sobre BAGEL, e demonstra escalabilidade em tempo de teste.",
+      "authors": [
+        "Byungwoo Jeon",
+        "Yoonwoo Jeong",
+        "Hyunseok Lee",
+        "Minsu Cho",
+        "Jinwoo Shin"
+      ],
+      "published_at": "2026-10-30",
+      "date": "2026-11-01"
+    },
+    {
+      "title": "MoETok: Roteamento de Especialistas Esparsos para Tokenizadores Visuais 1D",
+      "links": [
+        "https://arxiv.org/abs/2610.41992"
+      ],
+      "summary": "MoETok utiliza roteamento de especialistas esparsos para tokenizadores visuais 1D, dividindo as consultas aprendíveis em semântica e reconstrução. O método supera tokenizadores densos e, em um modelo autorregressivo unificado, iguala ou supera modelos de difusão como BAGEL e Qwen-Image em benchmarks como DPG-Bench e GenEval2.",
+      "authors": [
+        "Jiahao Guo",
+        "Bao Tang",
+        "Haoxiang Cao",
+        "Jingfeng Yao",
+        "Bo Li",
+        "Wenyu Liu",
+        "Kun Gai",
+        "Changqian Yu",
+        "Xinggang Wang"
+      ],
+      "published_at": "2026-10-30",
+      "date": "2026-11-01"
+    },
     {
       "title": "Treinando Modelos de Fundação com um Único Algoritmo",
       "links": [
