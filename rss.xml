@@ -5,7 +5,463 @@
     <link>https://github.com/alanalvestech/garimpo</link>
     <description>Notícias diárias de tecnologia, em português.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 03 Nov 2026 01:39:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 18:00:42 +0000</lastBuildDate>
+    <item>
+      <title>Library of Layers (LoL): Ordenando Adaptativamente Camadas de Transformer em Tempo de Execução</title>
+      <link>https://arxiv.org/abs/2611.03526</link>
+      <description>Abdellah Rahmani, Sean McLeish, Ang Li, Sanae Lotfi, Pascal Frossard, Micah Goldblum
+
+LoL mantém uma biblioteca global de blocos de transformer e seleciona a ordem de execução em tempo de inferência. Este é um passo concreto para modelos que compõem seu próprio grafo de computação, o que pode levar a um raciocínio mais eficiente e controlável.</description>
+      <category>Arxiv</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.03526</guid>
+    </item>
+    <item>
+      <title>VeriHarm-Bench: Medindo o Sucesso Nocivo em Agentes de Codificação LLM de Forma Verificável</title>
+      <link>https://arxiv.org/abs/2611.03575</link>
+      <description>Wei-Lin Chen, Zhepei Wei, Xinyu Zhu, Yu-Min Tseng, Tzu-Han Lin, Yu Meng
+
+VeriHarm cria benchmarks verificáveis programaticamente para "sucesso nocivo", onde um agente de codificação completa uma tarefa benigna e causa danos não intencionais. Métricas de sucesso de tarefa por si só subestimam o risco de segurança de agentes com acesso ao shell.</description>
+      <category>Arxiv</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.03575</guid>
+    </item>
+    <item>
+      <title>Escala de Dados de Pré-treinamento Reverte a Lacuna de Fine-Tuning Muon-AdamW</title>
+      <link>https://arxiv.org/abs/2611.03633</link>
+      <description>Catherine Li, Jingchu Gai, Andrej Risteski, Jacob Mitchell Springer, Aditi Raghunathan
+
+A aceleração de pré-treinamento do Muon não se estende ao fine-tuning; AdamW ajusta melhor após um certo orçamento de tokens. A escolha do otimizador deve ser avaliada pelo comportamento downstream, não apenas pela perda de pré-treinamento.</description>
+      <category>Arxiv</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.03633</guid>
+    </item>
+    <item>
+      <title>Uma Teoria de Escala de Pré-treinamento Multi-Época: Overfitting em Estágio Avançado e Ensembling</title>
+      <link>https://arxiv.org/abs/2611.03590</link>
+      <description>Zhen Yang, Yidi Miao, Blake Bordelon
+
+Quando o pré-treinamento é limitado por dados, o ensembling reduz a deterioração tardia e atrasa a parada ótima. Isso oferece orientação de escala para o regime limitado por dados que o pré-treinamento de fronteira está entrando.</description>
+      <category>Arxiv</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.03590</guid>
+    </item>
+    <item>
+      <title>Strategist: Evoluindo o Raciocínio com Agentes</title>
+      <link>https://arxiv.org/abs/2611.03618</link>
+      <description>Taiming Lu, Qi Xu, Zhigang Hua, Zhuang Liu
+
+Strategist é um meta-agente que escreve, testa e revisa estratégias de inferência como modelos executáveis reutilizáveis. Ele automatiza o andaime de tempo de inferência, geralmente escrito manualmente, e os ganhos se acumulam entre as tarefas.</description>
+      <category>Arxiv</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.03618</guid>
+    </item>
+    <item>
+      <title>Descobri um som que vaza sua localização exata (e está em todo lugar) - YouTube</title>
+      <link>https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location</link>
+      <description>Uma peça genial de OSINT por Colsto demonstra como ruídos de fundo quase imperceptíveis de aviões em uma trilha sonora de vídeo podem ser usados para descobrir suas curvas Doppler. Isso permite a referência cruzada com dados ADS-B para encontrar a localização exata.
+
+Publicado em 03/11/2026</description>
+      <category>Blogs</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location</guid>
+    </item>
+    <item>
+      <title>Boletim informativo de outubro apenas para patrocinadores</title>
+      <link>https://simonwillison.net/2026/Nov/3/october-newsletter</link>
+      <description>A edição de outubro do boletim mensal exclusivo para patrocinadores foi enviada. Patrocinadores podem acessá-lo, cobrindo tópicos como o ponto de inflexão de outubro para o desenvolvimento de jogos de 'vibe', a vulnerabilidade de LLMs e créditos de API.
+
+Publicado em 03/11/2026</description>
+      <category>Blogs</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Nov/3/october-newsletter</guid>
+    </item>
+    <item>
+      <title>[AINews] LLMs podem ler e escrever pesos de redes neurais: "Programação de Espaço de Pesos" remove a Autopesquisa do ciclo RSI</title>
+      <link>https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of</link>
+      <description>Este artigo aborda a edição dos pesos do Qwen para reduzir loops de raciocínio, o protótipo de superagente do DeepSeek e o benchmark GDPx.
+
+Publicado em 03/11/2026</description>
+      <category>Blogs</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of</guid>
+    </item>
+    <item>
+      <title>Roteiro de Engenharia Harness: Código Claude a Partir dos Primeiros Princípios</title>
+      <link>https://www.decodingai.com/p/claude-code-from-scratch-harness-engineering-roadmap</link>
+      <description>A ferramenta Harness elevou o agente LangChain da posição fora do top 30 para o top 5.
+
+Publicado em 03/11/2026</description>
+      <category>Blogs</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.decodingai.com/p/claude-code-from-scratch-harness-engineering-roadmap</guid>
+    </item>
+    <item>
+      <title>Um retrato de oito bilhões de pessoas</title>
+      <link>https://www.generalist.com/p/a-portrait-of-eight-billion-people</link>
+      <description>Este item apresenta uma escuta sobre Simile com Joon Sung Park.
+
+Publicado em 03/11/2026</description>
+      <category>Blogs</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.generalist.com/p/a-portrait-of-eight-billion-people</guid>
+    </item>
+    <item>
+      <title>The Sequence Knowledge - Edição #964: Aprendendo RSI: Como os Modelos Geram Seus Próprios Currículos de Aprendizagem</title>
+      <link>https://thesequence.substack.com/p/the-sequence-knowledge-issue-964</link>
+      <description>O artigo discute o 'Absolute Zero' e a busca por dificuldade útil.
+
+Publicado em 03/11/2026</description>
+      <category>Blogs</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://thesequence.substack.com/p/the-sequence-knowledge-issue-964</guid>
+    </item>
+    <item>
+      <title>Um agente passou em todos os testes e ainda falhou</title>
+      <link>https://gradientflow.substack.com/p/an-agent-passed-every-test-and-still</link>
+      <description>O artigo foca em como aplicar dados, aprendizado de máquina e IA.
+
+Publicado em 03/11/2026</description>
+      <category>Blogs</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://gradientflow.substack.com/p/an-agent-passed-every-test-and-still</guid>
+    </item>
+    <item>
+      <title>HBC de Primeira Geração da Qualcomm Supera HBM!</title>
+      <link>https://aidisruption.ai/p/qualcomms-first-gen-hbc-crushes-hbm</link>
+      <description>A memória HBC de primeira geração da Qualcomm oferece 5x mais eficiência energética que a HBM4 e 18x a largura de banda da LPDDR5X. Esta tecnologia alimenta o acelerador Dragonfly AI250.
+
+Publicado em 03/11/2026</description>
+      <category>Blogs</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://aidisruption.ai/p/qualcomms-first-gen-hbc-crushes-hbm</guid>
+    </item>
+    <item>
+      <title>Claude Code Agora Monitora Seus Próprios Logs</title>
+      <link>https://aidisruption.ai/p/claude-code-now-watches-its-own-logs</link>
+      <description>O artigo explica como impedir que o Claude Code faça polling a cada 30 segundos. A ferramenta Monitor observa logs, CI e WebSockets, enviando eventos apenas quando há mudanças.
+
+Publicado em 03/11/2026</description>
+      <category>Blogs</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://aidisruption.ai/p/claude-code-now-watches-its-own-logs</guid>
+    </item>
+    <item>
+      <title>Geração de Vídeo Encontra Aproveitamento de Agentes: Geração de Vídeo Agente, Modelagem de Mundo Agente e Autoaperfeiçoamento Recursivo</title>
+      <link>https://huggingface.co/papers/2610.40191</link>
+      <description>Publicado em 29/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.40191</guid>
+    </item>
+    <item>
+      <title>Da Fragmentação à Fusão: Uma Pesquisa e Roteiro para Embeddings Omnimodais</title>
+      <link>https://huggingface.co/papers/2611.00172</link>
+      <description>Publicado em 30/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.00172</guid>
+    </item>
+    <item>
+      <title>Diagnosticando a Lacuna de Referência: O Que Andaimes Visuais Podem e Não Podem Corrigir no Raciocínio Multimodal</title>
+      <link>https://huggingface.co/papers/2610.39419</link>
+      <description>Publicado em 29/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.39419</guid>
+    </item>
+    <item>
+      <title>MAServeBench: Avaliando Sistemas de Servidores LLM Multiagente com Cargas de Trabalho de Colaboração Hierárquica</title>
+      <link>https://huggingface.co/papers/2610.40293</link>
+      <description>Publicado em 29/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.40293</guid>
+    </item>
+    <item>
+      <title>Autoaperfeiçoamento com Recompensas Auxiliares: Aprendendo de Traços Verificados e Avaliando a Transferência</title>
+      <link>https://huggingface.co/papers/2610.41296</link>
+      <description>Publicado em 30/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.41296</guid>
+    </item>
+    <item>
+      <title>Wave Forcing: Rumo à Geração de Vídeo em Streaming na Velocidade da Luz</title>
+      <link>https://huggingface.co/papers/2611.00859</link>
+      <description>Publicado em 31/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.00859</guid>
+    </item>
+    <item>
+      <title>TinyAstral: Transferindo Aproveitamentos Autoevolutivos para Pequenos Agentes de Manipulação Generalistas</title>
+      <link>https://huggingface.co/papers/2610.41216</link>
+      <description>Publicado em 30/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.41216</guid>
+    </item>
+    <item>
+      <title>Perdido na Recuperação: Desmistificando o Comportamento de Recuperação de Agentes de Uso de Computador via Replay de Ação Orientado a Objetivos</title>
+      <link>https://huggingface.co/papers/2610.27954</link>
+      <description>Publicado em 20/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.27954</guid>
+    </item>
+    <item>
+      <title>Auto-Destilação On-Policy com Evolução do Professor</title>
+      <link>https://huggingface.co/papers/2610.38637</link>
+      <description>Publicado em 28/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.38637</guid>
+    </item>
+    <item>
+      <title>ProVe: Decodificação Proponente-Verificador</title>
+      <link>https://huggingface.co/papers/2610.27815</link>
+      <description>Publicado em 20/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.27815</guid>
+    </item>
+    <item>
+      <title>beacon.sh: Sistema de memória autoevoluível de código aberto para assistentes de programação de IA</title>
+      <link>https://www.producthunt.com/products/asymptotelabs?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Beacon integra conversas de agentes inteligentes de Claude Code, Cursor, Codex, OpenCode e mais de 20 outras ferramentas em uma base de conhecimento crescente. Isso torna cada novo agente mais inteligente que o anterior, registrando as operações de cada agente no seu ambiente e transformando todas as atividades em uma visão clara de execução.
+
+Também em: https://www.producthunt.com/r/WB3BWWZDEG2XEW?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/asymptotelabs?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/asymptotelabs?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>UnleashX: Equipe inteligente que transforma conversas em resultados</title>
+      <link>https://www.producthunt.com/products/unleashx?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>UnleashX permite contratar funcionários de IA como se contrata pessoas: escolha a função, conecte seu CRM e ferramentas, defina regras e deixe a IA fazer o trabalho. O processo é automatizado do início ao fim, com intervenção humana apenas quando necessário.
+
+Também em: https://www.producthunt.com/r/LF5W4HZMDHS2VV?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/unleashx?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/unleashx?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Xmind 2027: Seu mapa mental agora é um parceiro de pensamento com inteligência artificial</title>
+      <link>https://www.producthunt.com/products/xmind?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Xmind 2027 oferece um espaço visual compartilhado para você e a IA organizarem e expandirem ideias. Com o Xmind Agent, é possível pesquisar, desenvolver conceitos e ponderar possibilidades usando documentos locais e mapas mentais por meio de conversas.
+
+Também em: https://www.producthunt.com/r/ITN3N4YT7NIKXS?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/xmind?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/xmind?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Cedric AI para Reuniões: O primeiro assistente de IA que apresenta slides e participa de reuniões por você</title>
+      <link>https://www.producthunt.com/products/cedric?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Cedric pode participar de reuniões no Zoom, Google Meet ou Teams, apresentando slides e respondendo a perguntas com dados em tempo real. Ele também pode atualizar você se chegar atrasado ou participar em seu lugar, cuidando das atas e acompanhamentos após a reunião.
+
+Também em: https://www.producthunt.com/r/3WNUZE5QLV6YEU?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/cedric?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/cedric?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Hera: Tela criativa de IA</title>
+      <link>https://www.producthunt.com/products/hera-6?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Hera permite gerar imagens, designs e animações em uma única tela, controlando múltiplos assistentes de IA e camadas editáveis. A ferramenta cria anúncios, vídeos e posts para redes sociais alinhados à sua marca, gerando um kit de marca automaticamente a partir do seu site.
+
+Também em: https://www.producthunt.com/r/6URUWPJU6AOJT2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/hera-6?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/hera-6?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Clayzo: Crie animações e designs de movimento facilmente com seu assistente de programação</title>
+      <link>https://www.producthunt.com/products/clayzo?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Clayzo permite que agentes de programação como Claude Code, Codex e Cursor criem animações e gráficos dinâmicos para a web. Os agentes escrevem o código e verificam os efeitos da animação quadro a quadro, com a possibilidade de exportar para vídeo ou reproduzir em tempo real no site.
+
+Também em: https://www.producthunt.com/r/PQXQECJKP5FJNI?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/clayzo?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/clayzo?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Sites de Crescimento Automático por Greta.sh: Crie um site que otimiza automaticamente SEO e AEO</title>
+      <link>https://www.producthunt.com/products/gretabyquestera?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Greta.sh ajuda a criar sites que otimizam automaticamente SEO e AEO, descobrindo o que os clientes procuram e gerando páginas correspondentes. Isso garante que o site seja encontrado tanto pelo Google quanto por ferramentas de IA como ChatGPT, com gerenciamento via assistentes de IA como Claude, ChatGPT ou Cursor.
+
+Também em: https://www.producthunt.com/r/A4SAVBJLKDKRDV?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/gretabyquestera?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/gretabyquestera?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Display 1.0: Crie documentos e aplicativos com qualquer assistente inteligente no mesmo espaço de trabalho</title>
+      <link>https://www.producthunt.com/products/display-dev?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Display 1.0 permite criar e colaborar em documentos, protótipos e aplicativos com sua equipe. Ele armazena arquivos gerados por assistentes inteligentes, organizando o conteúdo em "espaços" e "pastas" para construir uma base de conhecimento interna.
+
+Também em: https://www.producthunt.com/r/7NCNIIQEMH52HJ?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/display-dev?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/display-dev?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Agent Inbox: Configure um endereço de e-mail, nome de usuário do Slack e Telegram para seus agentes</title>
+      <link>https://www.producthunt.com/products/agent-inbox?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Agent Inbox atribui a cada assistente de IA um endereço de e-mail, conta Slack e Telegram, gerenciados por uma interface unificada. Você pode enviar mensagens ao seu assistente em qualquer plataforma, e ele responderá na mesma conversa, suportando Claude, Grok, OpenAI e outros frameworks de IA.
+
+Também em: https://www.producthunt.com/r/VVMJ7O2SOEPDB3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/agent-inbox?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/agent-inbox?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Hyperresearch: Pesquisa autônoma inteligente, duradoura e confiável</title>
+      <link>https://www.producthunt.com/products/hyperresearch?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Hyperresearch realiza pesquisas e fornece relatórios com citações verificadas, armazenando todo o material em uma biblioteca pesquisável. Ele integra quatro mecanismos de busca de IA e mais de 40 fontes de dados para garantir a amplitude e completude da informação.
+
+Também em: https://www.producthunt.com/r/PC2E463TYUYTKB?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/hyperresearch?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/hyperresearch?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Friday Work: Suas tarefas continuam mesmo quando Claude atinge o limite de uso</title>
+      <link>https://www.producthunt.com/products/friday-work?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Friday Work permite que múltiplos agentes inteligentes colaborem, onde um agente assume a tarefa se Claude parar no meio do processo. Os agentes se comunicam diretamente, eliminando a necessidade de copiar e colar entre diferentes janelas.
+
+Também em: https://www.producthunt.com/r/QVYJUP52MHYJE4?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/friday-work?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/friday-work?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Help: Este aplicativo foi projetado para ajuda precisa e transparente</title>
+      <link>https://www.producthunt.com/products/help-381?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Help é uma plataforma global que conecta doadores, organizações sem fins lucrativos e empresas para promover mudanças significativas. A plataforma visa doações precisas e responsáveis, apoiando humanos, animais e o planeta, com campanhas de arrecadação de fundos iniciadas por parceiros certificados.
+
+Também em: https://www.producthunt.com/r/FQCTSOFF5M5W2A?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/help-381?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/help-381?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>diff-tour: A IA escreve código, aprenda a lê-lo como um engenheiro sênior</title>
+      <link>https://www.producthunt.com/products/diff-tour?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>diff-tour transforma as alterações de código Git em um "tour" interativo, permitindo navegar passo a passo pelas modificações. Ele destaca o propósito da mudança, pontos de foco e questões que um engenheiro sênior faria, ajudando a desenvolver uma compreensão aprofundada do código.
+
+Também em: https://www.producthunt.com/r/SU7NU3BKIXRMC4?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/diff-tour?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/diff-tour?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>CuriousLM: IA privada, rodando diretamente no seu dispositivo, sem necessidade de registro</title>
+      <link>https://www.producthunt.com/products/curiouslm?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>CuriousLM é um aplicativo de IA gratuito que executa modelos diretamente no seu telefone ou computador, mantendo as conversas locais e criptografadas. Ele não requer registro de conta nem servidores de chat, e palavras incertas são sublinhadas para explorar significados alternativos.
+
+Também em: https://www.producthunt.com/r/SEVXAUMX6XMFDX?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/curiouslm?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/curiouslm?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Linkly AI Clipper: Extensão de navegador que salva páginas web em formato Markdown para assistentes inteligentes</title>
+      <link>https://www.producthunt.com/products/linkly-ai-clipper?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Linkly AI Clipper converte páginas web em documentos Markdown formatados com um clique, permitindo pré-visualizar, copiar ou baixar o conteúdo na barra lateral. O conteúdo salvo é otimizado para uso direto por assistentes de IA.
+
+Também em: https://www.producthunt.com/r/G7P2WHWJFELHJL?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/linkly-ai-clipper?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/linkly-ai-clipper?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Fable 5.5 e GPT-6.2 Astra Esta Semana? Os Vazamentos São INSANOS...</title>
+      <link>https://www.youtube.com/watch?v=LSlbwxCoEmM</link>
+      <description>O vídeo questiona se Fable 5.5 e GPT-6.2 Astra serão lançados esta semana, citando vazamentos.</description>
+      <category>Youtube</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=LSlbwxCoEmM</guid>
+    </item>
+    <item>
+      <title>Claude Code: Construa Seu Primeiro Agente de IA em 20 Minutos (100% Sem Codificação)</title>
+      <link>https://www.youtube.com/watch?v=F8jidmEkIeM</link>
+      <description>Claude Code permite que não-programadores construam um agente de conteúdo auto-aprimorável e baseado em nuvem. Ele transforma vídeos longos e newsletters em carrosséis animados para Instagram, mantendo a identidade da marca.</description>
+      <category>Youtube</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=F8jidmEkIeM</guid>
+    </item>
+    <item>
+      <title>Fundador com US$100M de ARR: A Próxima Grande Oportunidade em IA</title>
+      <link>https://www.youtube.com/watch?v=st61aKW8P5A</link>
+      <description>John Noronha
+
+John Noronha, da Gamma, explica que produtos de IA bem-sucedidos são arneses de agentes, não apenas chamadas de LLM. Ele ilustra isso com a reconstrução da Gamma em um agente criativo que usa cerca de 20 modelos e 200 chamadas para transformar notas em apresentações polidas.</description>
+      <category>Youtube</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=st61aKW8P5A</guid>
+    </item>
+    <item>
+      <title>Professor de IA de Harvard: As Pessoas Mais em Risco com a IA Não São Quem Você Pensa</title>
+      <link>https://www.youtube.com/watch?v=vFOnDsy58NU</link>
+      <description>Karim Lakhani
+
+O professor de Harvard Karim Lakhani argumenta que a IA não substituirá as pessoas, mas sim aqueles que a utilizam bem. Experimentos da BCG mostram que "ciborgues" e "centauros" se destacam, enquanto "auto-automatizadores" que delegam cegamente perdem valor.</description>
+      <category>Youtube</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=vFOnDsy58NU</guid>
+    </item>
+    <item>
+      <title>Estado da IA 2026: As Maiores Histórias do Ano (e AGI em 2027?), com Nathan Benaich</title>
+      <link>https://www.youtube.com/watch?v=N4GpNBxBm-Q</link>
+      <description>Nathan Benaich
+
+Nathan Benaich prevê que a AGI pode surgir em 2027, impulsionada pela auto-melhoria recursiva da IA na pesquisa. Ele alerta que os riscos a curto prazo incluem ciberataques habilitados por IA, roubo de modelos e reações negativas sobre data centers.</description>
+      <category>Youtube</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=N4GpNBxBm-Q</guid>
+    </item>
+    <item>
+      <title>Mark Cuban sobre Por Que a IA Pode Transformar Fundadores Solo em Trilionários</title>
+      <link>https://www.youtube.com/watch?v=5UWDUD6qaM4</link>
+      <description>Mark Cuban
+
+Mark Cuban argumenta que a IA pode transformar fundadores solo em trilionários.</description>
+      <category>Youtube</category>
+      <pubDate>Tue, 03 Nov 2026 17:55:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=5UWDUD6qaM4</guid>
+    </item>
     <item>
       <title>dashbeam</title>
       <link>https://github.com/tonyantony300/dashbeam</link>
@@ -517,26 +973,6 @@ Publicado em 02/11/2026</description>
       <guid isPermaLink="true">https://aidisruption.ai/p/6-claude-code-commands-to-catch-the</guid>
     </item>
     <item>
-      <title>Como as Aplicações de IA Conquistam Seu Prêmio</title>
-      <link>https://www.a16z.news/p/how-ai-applications-earn-their-premium</link>
-      <description>A inteligência mais barata eleva o padrão para o que uma aplicação de IA pode cobrar.
-
-Publicado em 02/11/2026</description>
-      <category>Blogs</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.a16z.news/p/how-ai-applications-earn-their-premium</guid>
-    </item>
-    <item>
-      <title>O guia da Insight Partners para levantar capital: O que os fundadores precisam saber em cada etapa</title>
-      <link>https://www.insightpartners.com/ideas/raising-capital</link>
-      <description>A Insight Partners oferece um guia sobre como levantar capital. Ele detalha o que os fundadores precisam saber em cada etapa do processo.
-
-Publicado em 02/11/2026</description>
-      <category>Blogs</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.insightpartners.com/ideas/raising-capital</guid>
-    </item>
-    <item>
       <title>Pesquisa do U.S. Census Bureau sobre adoção de IA</title>
       <link>https://bsky.app/profile/simonwillison.net/post/3mze2gvcx4s2u</link>
       <description>@simonwillison.net
@@ -765,422 +1201,6 @@ Também em: https://arxiv.org/abs/2610.40339</description>
       <category>Papers</category>
       <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.40339</guid>
-    </item>
-    <item>
-      <title>OSWAM: Um Modelo de Ação Mundial Eficaz com Geração de Ação em Uma Etapa</title>
-      <link>https://huggingface.co/papers/2610.35850</link>
-      <description>Publicado em 26/10/2026
-
-Também em: https://arxiv.org/abs/2610.35850</description>
-      <category>Papers</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.35850</guid>
-    </item>
-    <item>
-      <title>ReLift: Rastreamento 3D Denso como Reparo de Trajetória Elevada</title>
-      <link>https://huggingface.co/papers/2610.42136</link>
-      <description>Publicado em 30/10/2026
-
-Também em: https://arxiv.org/abs/2610.42136</description>
-      <category>Papers</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.42136</guid>
-    </item>
-    <item>
-      <title>CEPO: Um Framework Geral para Melhorar a Otimização de Prompts em Sistemas Multiagentes</title>
-      <link>https://huggingface.co/papers/2610.34722</link>
-      <description>Publicado em 26/10/2026
-
-Também em: https://arxiv.org/abs/2610.34722</description>
-      <category>Papers</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.34722</guid>
-    </item>
-    <item>
-      <title>Venus-DefakerOne2: Um Modelo de Fundação de Visão-Forenses com Cobertura Mais Ampla</title>
-      <link>https://huggingface.co/papers/2610.37918</link>
-      <description>Publicado em 27/10/2026
-
-Também em: https://arxiv.org/abs/2610.37918</description>
-      <category>Papers</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.37918</guid>
-    </item>
-    <item>
-      <title>CaPtain: Um Pipeline para Agentes Robóticos Pós-Treinamento de Código como Política</title>
-      <link>https://huggingface.co/papers/2610.40799</link>
-      <description>Publicado em 29/10/2026
-
-Também em: https://arxiv.org/abs/2610.40799</description>
-      <category>Papers</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.40799</guid>
-    </item>
-    <item>
-      <title>Siga o Gradiente: Rastreando a Degradação da Segurança até os Dados de Treinamento</title>
-      <link>https://huggingface.co/papers/2610.37481</link>
-      <description>Publicado em 27/10/2026
-
-Também em: https://arxiv.org/abs/2610.37481</description>
-      <category>Papers</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.37481</guid>
-    </item>
-    <item>
-      <title>beacon.sh: Memória de autoaperfeiçoamento de código aberto para agentes de codificação de IA</title>
-      <link>https://www.producthunt.com/products/asymptotelabs</link>
-      <description>Também em: https://www.producthunt.com/r/WB3BWWZDEG2XEW
-
-Também em: https://ph-files.imgix.net/65f19ad3-bb19-4059-aa6d-3be6411e3581.jpeg?auto=format
-
-Também em: https://ph-files.imgix.net/850d6fba-9bed-44ba-8395-1c86d6103707.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/asymptotelabs</guid>
-    </item>
-    <item>
-      <title>Xmind 2027: Seu mapa mental agora é um parceiro de pensamento de IA</title>
-      <link>https://www.producthunt.com/products/xmind</link>
-      <description>Também em: https://www.producthunt.com/r/ITN3N4YT7NIKXS
-
-Também em: https://ph-files.imgix.net/b2e80fe2-3688-4c79-9cdc-d7f92b0ed07b.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/xmind</guid>
-    </item>
-    <item>
-      <title>UnleashX: A força de trabalho de IA que transforma conversas em resultados</title>
-      <link>https://www.producthunt.com/products/unleashx</link>
-      <description>Também em: https://www.producthunt.com/r/LF5W4HZMDHS2VV
-
-Também em: https://ph-files.imgix.net/08f53bc9-7c5e-409d-8b9c-fe264c8d86b0.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/unleashx</guid>
-    </item>
-    <item>
-      <title>Cedric AI para Reuniões: O primeiro agente de IA a apresentar seus slides e participar por você</title>
-      <link>https://www.producthunt.com/products/cedric</link>
-      <description>Também em: https://www.producthunt.com/r/3WNUZE5QLV6YEU
-
-Também em: https://ph-files.imgix.net/c783968a-77c8-4a53-8346-dd4381c8f95f.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/cedric</guid>
-    </item>
-    <item>
-      <title>Hera: Canvas Criativo de IA</title>
-      <link>https://www.producthunt.com/products/hera-6</link>
-      <description>Também em: https://www.producthunt.com/r/6URUWPJU6AOJT2
-
-Também em: https://ph-files.imgix.net/7f4235b7-4dc2-4cc9-bfe1-2fef3b80cc55.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/hera-6</guid>
-    </item>
-    <item>
-      <title>Clayzo: Crie animações e design de movimento com seu agente de codificação</title>
-      <link>https://www.producthunt.com/products/clayzo</link>
-      <description>Também em: https://www.producthunt.com/r/PQXQECJKP5FJNI
-
-Também em: https://ph-files.imgix.net/b732b00a-986c-45c3-b293-6cf624855e6c.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/clayzo</guid>
-    </item>
-    <item>
-      <title>Display 1.0: Crie documentos e aplicativos com qualquer agente, em um único espaço de trabalho</title>
-      <link>https://www.producthunt.com/products/display-dev</link>
-      <description>Também em: https://www.producthunt.com/r/7NCNIIQEMH52HJ
-
-Também em: https://ph-files.imgix.net/6518ad94-8774-4cb6-88a7-b4e47a87bb3f.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/display-dev</guid>
-    </item>
-    <item>
-      <title>Sites de Auto-Crescimento por Greta.sh: Crie um site que pode fazer seu próprio SEO e AEO automaticamente</title>
-      <link>https://www.producthunt.com/products/gretabyquestera</link>
-      <description>Também em: https://www.producthunt.com/r/A4SAVBJLKDKRDV
-
-Também em: https://ph-files.imgix.net/802a9ab1-93f4-42d5-b3e2-3d037aa623ad.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/gretabyquestera</guid>
-    </item>
-    <item>
-      <title>Agent Inbox: Dê ao seu agente um endereço de e-mail, handle do Slack e Telegram</title>
-      <link>https://www.producthunt.com/products/agent-inbox</link>
-      <description>Também em: https://www.producthunt.com/r/VVMJ7O2SOEPDB3
-
-Também em: https://ph-files.imgix.net/dcc393c7-8e50-4a62-a1a9-76101afdad04.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/agent-inbox</guid>
-    </item>
-    <item>
-      <title>Hyperresearch: Pesquisa agêntica durável e verificada</title>
-      <link>https://www.producthunt.com/products/hyperresearch</link>
-      <description>Também em: https://www.producthunt.com/r/PC2E463TYUYTKB
-
-Também em: https://ph-files.imgix.net/023c0470-8b02-444d-b5be-e05186ecb9db.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/hyperresearch</guid>
-    </item>
-    <item>
-      <title>Help: O aplicativo projetado para ajuda direcionada e transparente</title>
-      <link>https://www.producthunt.com/products/help-381</link>
-      <description>Também em: https://www.producthunt.com/r/FQCTSOFF5M5W2A
-
-Também em: https://ph-files.imgix.net/5c5ea0da-d2dd-4377-876c-b64bb1fd3275.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/help-381</guid>
-    </item>
-    <item>
-      <title>Friday Work: Quando Claude atinge seu limite, sua tarefa continua</title>
-      <link>https://www.producthunt.com/products/friday-work</link>
-      <description>Também em: https://www.producthunt.com/r/QVYJUP52MHYJE4</description>
-      <category>Product</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/friday-work</guid>
-    </item>
-    <item>
-      <title>diff-tour: A IA escreve o código. Aprenda a lê-lo como um engenheiro sênior.</title>
-      <link>https://www.producthunt.com/products/diff-tour</link>
-      <description>Também em: https://www.producthunt.com/r/SU7NU3BKIXRMC4
-
-Também em: https://ph-files.imgix.net/c6237cbc-2ffc-412a-a760-535bf9dec3a4.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/diff-tour</guid>
-    </item>
-    <item>
-      <title>CuriousLM: IA privada que roda no seu dispositivo. Sem conta.</title>
-      <link>https://www.producthunt.com/products/curiouslm</link>
-      <description>Também em: https://www.producthunt.com/r/SEVXAUMX6XMFDX
-
-Também em: https://ph-files.imgix.net/3fbcf72f-b81e-45ad-904a-2796d1af79fd.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/curiouslm</guid>
-    </item>
-    <item>
-      <title>Linkly AI Clipper: Salve a web como uma extensão de navegador Markdown amigável para agentes</title>
-      <link>https://www.producthunt.com/products/linkly-ai-clipper</link>
-      <description>Também em: https://www.producthunt.com/r/G7P2WHWJFELHJL
-
-Também em: https://ph-files.imgix.net/f340ec0c-08a7-4d19-9b6a-015b520070ed.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/linkly-ai-clipper</guid>
-    </item>
-    <item>
-      <title>Screen Studio 4.0</title>
-      <link>https://www.producthunt.com/products/screen-studio?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Esta ferramenta de gravação de tela para Mac simplifica efeitos de lupa, movimento dinâmico, áudio e composição visual. Apresenta lupa de vidro, suporte a tela dividida para vídeos verticais, edição de vídeo como texto, recorte de câmera para remover o fundo, ocultação automática de informações sensíveis e rostos, e exportação até 4 vezes mais rápida com suporte a ProRes.
-
-Também em: https://www.producthunt.com/r/MXBY2KB22GHVHB?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
-
-Também em: https://www.producthunt.com/products/screen-studio?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/screen-studio?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>ClawsGO Science</title>
-      <link>https://www.producthunt.com/r/BECJZCED6CRLLK?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>ClawsGO Science automatiza a pesquisa, transformando um problema em um artigo com citações. Possui um laboratório em nuvem com mais de 500 ferramentas e 90 conjuntos de dados, e seu sistema inteligente de longo ciclo permite que agentes Claude e GPT trabalhem por dias.
-
-Também em: https://www.producthunt.com/products/clawsgo-science?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/BECJZCED6CRLLK?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Riverside Agents</title>
-      <link>https://www.producthunt.com/r/DIOFM7OZMKNLDK?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Riverside Agents é uma equipe de assistentes de IA para vídeo, que inclui produtores, editores, cortadores de clipes e especialistas em marketing. O usuário escolhe o nível de automação, e todas as publicações exigem confirmação. O serviço está incluído em todos os planos Riverside e oferece um teste gratuito de 14 dias.
-
-Também em: https://www.producthunt.com/products/riverside-fm?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/DIOFM7OZMKNLDK?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Embage</title>
-      <link>https://www.producthunt.com/r/OYXQ3VEP75YG64?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Embage permite criar assistentes de IA de chat e voz multicanal para sites e Telegram. Ele coordena fluxos de trabalho entre bases de conhecimento, armazenamentos de dados e centenas de ferramentas de terceiros em tempo real. O sistema avalia interações, pontua leads e extrai dados estruturados de conversas.
-
-Também em: https://www.producthunt.com/products/embage?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/OYXQ3VEP75YG64?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Edição Precisa por Ideogram</title>
-      <link>https://www.producthunt.com/r/RV5WCJYJUF4JTW?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>A função de edição precisa atualizada com janela de contexto permite editar imagens de até 8K de resolução em pixels originais. Isso torna fontes pequenas, logotipos e detalhes mais nítidos e claros.
-
-Também em: https://www.producthunt.com/products/ideogram?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/RV5WCJYJUF4JTW?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>agentmash</title>
-      <link>https://www.producthunt.com/r/4SM6ILOBQKUALZ?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Agentmash é uma plataforma de IA colaborativa de código aberto para assistentes de programação em equipe. Possui uma camada de contexto compartilhada que informa cada assistente sobre os arquivos que os colegas estão modificando, permitindo que os assistentes de IA se comuniquem e trabalhem independentemente. A plataforma suporta a alternância entre diferentes modelos e a sincronização de habilidades, históricos de chat e automações.
-
-Também em: https://www.producthunt.com/products/agentmash?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/4SM6ILOBQKUALZ?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Click</title>
-      <link>https://www.producthunt.com/r/YVXJGLHPKNUSCC?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Click oferece uma API de agentes gerenciados compatível com qualquer modelo. Basta enviar uma tarefa via API, e Click executa o agente, retornando os resultados em tempo real. A plataforma configura automaticamente o ambiente necessário para cada sessão, incluindo sandbox, navegador e pesquisa web.
-
-Também em: https://www.producthunt.com/products/click-6?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/YVXJGLHPKNUSCC?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Modelpeers</title>
-      <link>https://www.producthunt.com/r/FE6ZXGALFPL6HM?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Modelpeers funciona como um LinkedIn para modelos de IA e agentes inteligentes. É possível seguir mais de 200 modelos, como Claude Code, GPT-6 e Gemini, para ver em tempo real atualizações sobre novas versões, mudanças de preço, limites de uso, interrupções e desativações.
-
-Também em: https://www.producthunt.com/products/modelpeers?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/FE6ZXGALFPL6HM?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>magpie</title>
-      <link>https://www.producthunt.com/r/CAPVPJYNGIAYEW?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Magpie é uma biblioteca visual para coletar conteúdo do Instagram, X, TikTok, Pinterest, YouTube, Reddit, Dribbble, Behance, Are.na e da web. Ele usa IA para etiquetar automaticamente, permite buscar por conteúdo e cor, e mantém as coleções seguras mesmo se as postagens originais forem excluídas.
-
-Também em: https://www.producthunt.com/products/magpie-14?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/CAPVPJYNGIAYEW?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Raah.dev</title>
-      <link>https://www.producthunt.com/r/JWF4HOBIH2FG6T?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Raah.dev integra dados de pagamentos e conversões com velocidade de carregamento de página, latência de resposta de API, taxas de erro e desempenho de provedores de serviços de internet em um único painel. Ele oferece análise de receita e monitoramento de usuários reais, otimizado para visualização humana e análise de IA.
-
-Também em: https://www.producthunt.com/products/raah-dev?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/JWF4HOBIH2FG6T?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>BeeBranch</title>
-      <link>https://www.producthunt.com/r/TQYVZG7UDDR2AC?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>BeeBranch é um cliente Git de desktop de código aberto, projetado para equipes que usam GitLab e GitHub. Ele não possui serviços de nuvem proprietários, contas de fornecedores, rastreamento de dados ou uso de inteligência artificial.
-
-Também em: https://www.producthunt.com/products/beebranch?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/TQYVZG7UDDR2AC?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>CutCat</title>
-      <link>https://www.producthunt.com/r/XZBTTQH2Q2BD7D?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>CutCat é uma extensão gratuita para Chrome que pula ou silencia automaticamente segmentos marcados por outros usuários como conteúdo sexual, nudez, violência ou linguagem explícita no Netflix. A extensão funciona apenas no navegador Chrome em computadores e não é afiliada ao Netflix.
-
-Também em: https://www.producthunt.com/products/cutcat?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/XZBTTQH2Q2BD7D?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Yuzu Sync</title>
-      <link>https://www.producthunt.com/r/YOVGLMKLVKV5RA?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Yuzu Sync é um aplicativo de barra de menu para Mac que sincroniza pares de pastas usando o motor rsync integrado. Ele permite espelhar projetos em SSDs ou fazer backup de fotos em NAS, com sincronização unidirecional ou bidirecional. O aplicativo oferece pré-visualização de mudanças, agendamento de tarefas e identificação de discos por UUID, salvando arquivos substituídos ou excluídos por 30 dias.
-
-Também em: https://www.producthunt.com/products/yuzu-sync?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/YOVGLMKLVKV5RA?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>ernd</title>
-      <link>https://www.producthunt.com/r/DT7EMT33VFLHNL?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Ernd é um cartão de crédito corporativo para pagamentos de serviços de IA, oferecendo 4% de cashback em gastos com provedores de IA. A empresa está negociando com grandes fornecedores de IA para obter preços mais vantajosos, inferência mais rápida e recursos de GPU dedicados.
-
-Também em: https://www.producthunt.com/products/ernd?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/DT7EMT33VFLHNL?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Termy</title>
-      <link>https://www.producthunt.com/r/XIFHMLODTA3PDN?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Termy integra Claude Code e Codex em um terminal que desliza da borda do MacBook. Ele permite visualizar status em tempo real, realizar aprovações, gerenciar agentes inteligentes, navegar por servidores locais, usar entrada de voz no dispositivo e configurar pontos de verificação.
-
-Também em: https://www.producthunt.com/products/termy-6ded6eb5-533c-4df5-a4f6-94b97ed8ca62?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/XIFHMLODTA3PDN?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Faíscas de Programação no Espaço de Pesos: LLMs podem ler e escrever nativamente pesos de redes neurais</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xm6jow/sparks_of_weightspace_programming_llms_can/</link>
-      <category>Reddit</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1xm6jow/sparks_of_weightspace_programming_llms_can/</guid>
-    </item>
-    <item>
-      <title>Direções de pesquisa, EMNLP e artigos *CL</title>
-      <link>https://www.reddit.com/r/LanguageTechnology/comments/1xlv5to/research_directions_emnlp_and_cl_papers/</link>
-      <category>Reddit</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.reddit.com/r/LanguageTechnology/comments/1xlv5to/research_directions_emnlp_and_cl_papers/</guid>
-    </item>
-    <item>
-      <title>O que aprendemos pós-treinando um parser de documentos de 1.3B com seus próprios erros</title>
-      <link>https://www.reddit.com/r/OpenSourceAI/comments/1xm0lfd/what_we_learned_posttraining_a_13b_document/</link>
-      <category>Reddit</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.reddit.com/r/OpenSourceAI/comments/1xm0lfd/what_we_learned_posttraining_a_13b_document/</guid>
-    </item>
-    <item>
-      <title>Temos algum benchmark sobre degradação de qualidade entre Basalt, Infernix, Strata(-nvfp4)? Não são benchmarks de "motor vai mais rápido", explorar caminhos errados rapidamente é inútil.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xm6hjx/do_we_have_any_benchmarks_on_quality_degradation/</link>
-      <category>Reddit</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.reddit.com/r/LocalLLaMA/comments/1xm6hjx/do_we_have_any_benchmarks_on_quality_degradation/</guid>
-    </item>
-    <item>
-      <title>Minhas Reflexões sobre Representações Contextuais em PNL</title>
-      <link>https://www.reddit.com/r/LanguageTechnology/comments/1xlc063/my_thoughts_on_contextual_representations_in_nlp/</link>
-      <category>Reddit</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.reddit.com/r/LanguageTechnology/comments/1xlc063/my_thoughts_on_contextual_representations_in_nlp/</guid>
-    </item>
-    <item>
-      <title>Guardian, camada de autoridade de código aberto para agentes de IA (PERMITIR/PERGUNTAR/NEGAR em cada chamada de ferramenta, servidor MCP incluído)</title>
-      <link>https://www.reddit.com/r/OpenSourceAI/comments/1xm6hez/guardian_opensource_authority_layer_for_ai_agents/</link>
-      <category>Reddit</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.reddit.com/r/OpenSourceAI/comments/1xm6hez/guardian_opensource_authority_layer_for_ai_agents/</guid>
-    </item>
-    <item>
-      <title>Musk: Custos de serviço do Grok Bot eram 'insustentavelmente altos em relação à receita', explicando os cortes nos limites de uso</title>
-      <link>https://x.com/elonmusk/status/2116992258520064397</link>
-      <description>Elon Musk afirmou que o custo de servir o Grok Bot superou sua receita. Esta é a primeira explicação oficial para os limites mais rígidos do fim de semana, após usuários relatarem que seus medidores de uso saltaram para 100% sem aviso.
-
-Também em: https://x.com/SawyerMerritt/status/2116996456204640264
-
-Também em: https://x.com/mark_k/status/2117001516867592576</description>
-      <category>Twitter</category>
-      <pubDate>Mon, 02 Nov 2026 20:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/elonmusk/status/2116992258520064397</guid>
     </item>
   </channel>
 </rss>

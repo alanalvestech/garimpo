@@ -1,8 +1,87 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-11-02 20:24 UTC",
+  "updated_at": "2026-11-03 17:55 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Library of Layers (LoL): Ordenando Adaptativamente Camadas de Transformer em Tempo de Execução",
+      "links": [
+        "https://arxiv.org/abs/2611.03526"
+      ],
+      "summary": "LoL mantém uma biblioteca global de blocos de transformer e seleciona a ordem de execução em tempo de inferência. Este é um passo concreto para modelos que compõem seu próprio grafo de computação, o que pode levar a um raciocínio mais eficiente e controlável.",
+      "authors": [
+        "Abdellah Rahmani",
+        "Sean McLeish",
+        "Ang Li",
+        "Sanae Lotfi",
+        "Pascal Frossard",
+        "Micah Goldblum"
+      ],
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "VeriHarm-Bench: Medindo o Sucesso Nocivo em Agentes de Codificação LLM de Forma Verificável",
+      "links": [
+        "https://arxiv.org/abs/2611.03575"
+      ],
+      "summary": "VeriHarm cria benchmarks verificáveis programaticamente para \"sucesso nocivo\", onde um agente de codificação completa uma tarefa benigna e causa danos não intencionais. Métricas de sucesso de tarefa por si só subestimam o risco de segurança de agentes com acesso ao shell.",
+      "authors": [
+        "Wei-Lin Chen",
+        "Zhepei Wei",
+        "Xinyu Zhu",
+        "Yu-Min Tseng",
+        "Tzu-Han Lin",
+        "Yu Meng"
+      ],
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Escala de Dados de Pré-treinamento Reverte a Lacuna de Fine-Tuning Muon-AdamW",
+      "links": [
+        "https://arxiv.org/abs/2611.03633"
+      ],
+      "summary": "A aceleração de pré-treinamento do Muon não se estende ao fine-tuning; AdamW ajusta melhor após um certo orçamento de tokens. A escolha do otimizador deve ser avaliada pelo comportamento downstream, não apenas pela perda de pré-treinamento.",
+      "authors": [
+        "Catherine Li",
+        "Jingchu Gai",
+        "Andrej Risteski",
+        "Jacob Mitchell Springer",
+        "Aditi Raghunathan"
+      ],
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Uma Teoria de Escala de Pré-treinamento Multi-Época: Overfitting em Estágio Avançado e Ensembling",
+      "links": [
+        "https://arxiv.org/abs/2611.03590"
+      ],
+      "summary": "Quando o pré-treinamento é limitado por dados, o ensembling reduz a deterioração tardia e atrasa a parada ótima. Isso oferece orientação de escala para o regime limitado por dados que o pré-treinamento de fronteira está entrando.",
+      "authors": [
+        "Zhen Yang",
+        "Yidi Miao",
+        "Blake Bordelon"
+      ],
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Strategist: Evoluindo o Raciocínio com Agentes",
+      "links": [
+        "https://arxiv.org/abs/2611.03618"
+      ],
+      "summary": "Strategist é um meta-agente que escreve, testa e revisa estratégias de inferência como modelos executáveis reutilizáveis. Ele automatiza o andaime de tempo de inferência, geralmente escrito manualmente, e os ganhos se acumulam entre as tarefas.",
+      "authors": [
+        "Taiming Lu",
+        "Qi Xu",
+        "Zhigang Hua",
+        "Zhuang Liu"
+      ],
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
     {
       "title": "Atenção Esparsa Latente: Rumo à Atenção Subquadrática de Contexto Ultra-Longo",
       "links": [
