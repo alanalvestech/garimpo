@@ -1,8 +1,374 @@
 {
   "category": "RSS",
-  "updated_at": "2026-11-02 20:24 UTC",
+  "updated_at": "2026-11-03 01:31 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Construção Automática de Baselines Simples e Robustas",
+      "links": [
+        "https://arxiv.org/abs/2610.40700"
+      ],
+      "summary": "Este artigo aborda a construção automática de baselines simples, mas eficazes. O objetivo é fornecer pontos de referência robustos para avaliação de modelos.",
+      "published_at": "2026-10-28",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Estimação Bayesiana do Estado do Sistema de Distribuição com Flow Matching",
+      "links": [
+        "https://arxiv.org/abs/2610.40728"
+      ],
+      "summary": "O estudo propõe uma estimação bayesiana do estado de sistemas de distribuição. A metodologia utiliza flow matching para melhorar a precisão.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Não Apenas Impute, Detecte: Pipelines de Difusão Conscientes da Tarefa para Detecção de Anomalias de Borda",
+      "links": [
+        "https://arxiv.org/abs/2610.40732"
+      ],
+      "summary": "Este trabalho apresenta pipelines de difusão que detectam anomalias de borda, em vez de apenas imputar dados. A abordagem é consciente da tarefa para maior eficácia.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Seleção de Características Não Supervisionada Usando Dimensionalidade Intrínseca Local -- Versão Estendida",
+      "links": [
+        "https://arxiv.org/abs/2610.40736"
+      ],
+      "summary": "O artigo explora a seleção de características não supervisionada. A metodologia emprega dimensionalidade intrínseca local para identificar atributos relevantes.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Retenção Comportamental Certificada para Adaptação Contínua com Âncoras Retidas",
+      "links": [
+        "https://arxiv.org/abs/2610.40740"
+      ],
+      "summary": "O estudo foca na retenção comportamental certificada para adaptação contínua. Utiliza âncoras retidas para garantir a estabilidade do modelo.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "AutoHebb: Redes Neurais Auto-Modificáveis que Inferem Zero-Shot e Aprendem Continuamente",
+      "links": [
+        "https://arxiv.org/abs/2610.40757"
+      ],
+      "summary": "AutoHebb são redes neurais que se modificam automaticamente. Elas realizam inferência zero-shot e aprendem de forma contínua.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Congelado no Tempo: Como um Modelo de Fundação de Física Esquece Sob Adaptação Sim-para-Real",
+      "links": [
+        "https://arxiv.org/abs/2610.40857"
+      ],
+      "summary": "O artigo investiga como modelos de fundação de física perdem informações durante a adaptação de simulação para o mundo real. O estudo analisa o fenômeno do esquecimento em tais modelos.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "FARO: Otimização Adaptativa de Retorno ao Risco no Espaço de Funções via Alocação de Orçamento de Contribuição de Risco Igual entre Blocos",
+      "links": [
+        "https://arxiv.org/abs/2610.40858"
+      ],
+      "summary": "FARO é uma metodologia para otimização adaptativa de retorno ao risco. Ela utiliza alocação de orçamento de contribuição de risco igual entre blocos no espaço de funções.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Regret de Primeira Ordem Quase Ótimo para Bandits com Grafos de Feedback",
+      "links": [
+        "https://arxiv.org/abs/2610.40861"
+      ],
+      "summary": "O estudo apresenta um regret de primeira ordem quase ótimo para problemas de bandits. A abordagem considera cenários com grafos de feedback.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "TensorSSM: Memorizando Posição Espacial em Espaço de Estado Dinâmico para Geração de Tensor Core",
+      "links": [
+        "https://arxiv.org/abs/2610.40871"
+      ],
+      "summary": "TensorSSM é um método para memorizar a posição espacial em um espaço de estado dinâmico. Isso é aplicado na geração de tensor core.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "TSFLab: Uma Bancada de Trabalho Auto-Aprimorável e Agente-Agnóstica para Pesquisa em Previsão de Séries Temporais",
+      "links": [
+        "https://arxiv.org/abs/2610.40901"
+      ],
+      "summary": "TSFLab é uma bancada de trabalho auto-aprimorável para pesquisa em previsão de séries temporais. A plataforma é agnóstica a agentes, facilitando estudos diversos.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Nenhum Canal Deixado para Trás: Compreendendo a Aceleração da Difusão Através de Portões Residuais",
+      "links": [
+        "https://arxiv.org/abs/2610.40914"
+      ],
+      "summary": "O artigo investiga a aceleração da difusão por meio de portões residuais. O objetivo é garantir que todos os canais sejam considerados no processo.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Um Framework Teórico para Compreender e Construir Modelos de Fundação Capazes de 'Inferência para Qualquer Tarefa'",
+      "links": [
+        "https://arxiv.org/abs/2610.40934"
+      ],
+      "summary": "Este trabalho propõe um framework teórico para modelos de fundação. Ele visa a compreensão e construção de modelos capazes de inferência para qualquer tarefa.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Sistemas de Recomendação Justos para Grupos Intersectantes",
+      "links": [
+        "https://arxiv.org/abs/2610.40936"
+      ],
+      "summary": "O estudo aborda sistemas de recomendação justos. O foco é garantir equidade para grupos que se intersectam.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Métodos Interpolatórios Baseados em Kernel para Compressão de Contexto de Mecanismos de Atenção",
+      "links": [
+        "https://arxiv.org/abs/2610.40943"
+      ],
+      "summary": "O artigo apresenta métodos interpolatórios baseados em kernel. Eles são usados para compressão de contexto em mecanismos de atenção.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Sobre a Origem e Evolução do Descompasso Treinamento-Inferência em Aprendizado por Reforço de LLMs",
+      "links": [
+        "https://arxiv.org/abs/2610.40945"
+      ],
+      "summary": "O estudo investiga a origem e evolução do descompasso entre treinamento e inferência em LLMs. O foco é o aprendizado por reforço.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "CAMEL: Aprendizado de Embedding Mascarado Cross-Arquitetura para Modelos de Fundação Retinal Ultra-Leves",
+      "links": [
+        "https://arxiv.org/abs/2610.40954"
+      ],
+      "summary": "CAMEL é uma abordagem para aprendizado de embedding mascarado cross-arquitetura. O objetivo é criar modelos de fundação retinal ultra-leves.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Kernel de Caminhada Aleatória Monte Carlo",
+      "links": [
+        "https://arxiv.org/abs/2610.40956"
+      ],
+      "summary": "O artigo descreve um kernel baseado em caminhada aleatória Monte Carlo. Este método é aplicado em diversas tarefas de aprendizado de máquina.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "RC Prediction: Um Pacote Python para Reservoir Computing Consciente de Parâmetros",
+      "links": [
+        "https://arxiv.org/abs/2610.40984"
+      ],
+      "summary": "RC Prediction é um pacote Python para reservoir computing. Ele é projetado para ser consciente dos parâmetros, otimizando o desempenho.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Apresentando o Programa Protetores da Rede",
+      "links": [
+        "https://openai.com/index/grid-protectors-program"
+      ],
+      "summary": "A OpenAI lançou o Programa Protetores da Rede, em parceria com empresas de serviços públicos. O objetivo é ajudar futuros campi de computação a apoiar a confiabilidade da rede e proteger os custos de eletricidade do consumidor.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "LifeVal",
+      "links": [
+        "https://openai.com/index/lifeval"
+      ],
+      "summary": "LifeVal é um benchmark que mede a eficácia da IA em auxiliar pessoas em tarefas diárias. Isso inclui cuidados infantis, finanças e burocracia governamental.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Qodo incorpora contexto na revisão de código de IA com Codex",
+      "links": [
+        "https://openai.com/index/qodo-codex-plugin"
+      ],
+      "summary": "Qodo integra conhecimento da empresa e padrões de codificação ao Codex. Isso ajuda a identificar problemas críticos antes de uma solicitação de pull.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "New York Times e outros veículos processam navegador Brave por suposta raspagem de conteúdo",
+      "links": [
+        "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
+      ],
+      "summary": "O New York Times e outras mídias estão processando o navegador Brave. A ação judicial alega raspagem de conteúdo sem permissão.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "42AI emerge do modo furtivo com US$ 62,5 milhões e um modelo mundial que pode 'prever o comportamento humano'",
+      "links": [
+        "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/"
+      ],
+      "summary": "A 42AI saiu do modo furtivo, arrecadando US$ 62,5 milhões. A empresa desenvolveu um modelo mundial capaz de prever o comportamento humano.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Elon Musk limita o Grok Bot devido a custos 'insustentavelmente altos'",
+      "links": [
+        "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/"
+      ],
+      "summary": "Elon Musk reduziu os limites de uso do Grok Bot. A medida foi tomada devido aos custos considerados insustentavelmente altos.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Omen AI adquire expertise em líquidos com a compra da Aquatic Labs por US$ 16 milhões",
+      "links": [
+        "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/"
+      ],
+      "summary": "A Omen AI adquiriu a Aquatic Labs por US$ 16 milhões. A aquisição visa incorporar o conhecimento especializado em líquidos da Aquatic Labs.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "OpenAI finalmente está unindo as abas de Chat e Trabalho do ChatGPT",
+      "links": [
+        "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/"
+      ],
+      "summary": "A OpenAI está integrando as abas de Chat e Trabalho no ChatGPT. Esta fusão visa simplificar a experiência do usuário.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Anthropic restringe clones de jogos de vídeo de IA do Claude",
+      "links": [
+        "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
+      ],
+      "summary": "A Anthropic está tomando medidas para limitar a criação de clones de jogos de vídeo por sua IA Claude. A empresa busca controlar o uso indevido de sua tecnologia.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "OpenAI propõe usinas de energia para data centers como forma de proteger áreas próximas",
+      "links": [
+        "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program"
+      ],
+      "summary": "A OpenAI sugere a construção de usinas de energia para data centers. A iniciativa visa proteger as áreas vizinhas e garantir a estabilidade da rede elétrica.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "The New York Times processa navegador Brave por raspagem de IA e contorno de paywalls",
+      "links": [
+        "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
+      ],
+      "summary": "O New York Times entrou com uma ação judicial contra o navegador Brave. A acusação é de raspagem de conteúdo por IA e de contorno de paywalls.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Goldman Sachs remove ferramentas de codificação de IA de traders e banqueiros",
+      "links": [
+        "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/"
+      ],
+      "summary": "O Goldman Sachs retirou as ferramentas de codificação de IA de seus traders e banqueiros. A decisão visa reavaliar o uso dessas tecnologias no ambiente financeiro.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Elites da IA podem acumular inteligência como mercantilistas acumulavam ouro",
+      "links": [
+        "https://the-decoder.com/ai-elites-might-hoard-intelligence-like-mercantilists-hoarded-gold/"
+      ],
+      "summary": "O artigo sugere que as elites da IA podem concentrar o acesso à inteligência artificial. Isso ecoa a forma como os mercantilistas acumulavam ouro no passado.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "SpaceXSI aparentemente corta cotas do Grok Bot semanas depois que Musk o chamou de seu produto de crescimento mais rápido",
+      "links": [
+        "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/"
+      ],
+      "summary": "A SpaceXSI reduziu as cotas do Grok Bot, semanas após Elon Musk o descrever como seu produto de crescimento mais rápido. A medida indica uma possível reavaliação dos recursos.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Anthropic multiplica receita por doze, mas registra prejuízo de US$ 23 bilhões",
+      "links": [
+        "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/"
+      ],
+      "summary": "A Anthropic viu sua receita crescer doze vezes, mas reportou um prejuízo de US$ 23 bilhões. O crescimento da receita não compensou os altos custos operacionais.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Uma noite brutal no Minecraft levou 50 agentes de IA a inventar protocolos de entrega de frangos, um Oficial de Fertilizantes e turnos de pesca",
+      "links": [
+        "https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts/"
+      ],
+      "summary": "Uma noite desafiadora no Minecraft fez com que 50 agentes de IA desenvolvessem soluções complexas. Eles criaram protocolos de entrega de frangos, um Oficial de Fertilizantes e turnos de pesca.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Saudi Aramco adquire 49% da empresa de IA Humain em negócio de US$ 2,6 bilhões",
+      "links": [
+        "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/"
+      ],
+      "summary": "A Saudi Aramco comprou uma participação de 49% na empresa de IA Humain. O negócio foi avaliado em US$ 2,6 bilhões.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "OpenAI prepara ofensiva de lobby para Washington pós-eleições de meio de mandato",
+      "links": [
+        "https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington/"
+      ],
+      "summary": "A OpenAI está se preparando para uma intensa campanha de lobby em Washington. O objetivo é influenciar a política após as eleições de meio de mandato.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Deep Principle lança Hydrogen-1.0: um modelo de peso aberto de 753B para descoberta científica",
+      "links": [
+        "https://www.marktechpost.com/2026/11/02/deep-principle-hydrogen-1-0-open-weight-scientific-model/"
+      ],
+      "summary": "A Deep Principle lançou o Hydrogen-1.0, um modelo científico de peso aberto de 753 bilhões de parâmetros. Ele é pós-treinado a partir do GLM-5.3 para química, materiais e ciências da vida.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "O U.S. Census Bureau e a 'Super Inteligência'",
+      "links": [
+        "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
+      ],
+      "summary": "O gráfico de adoção de IA do Census BTOS foi atualizado. A pesquisa agora inclui a expressão 'Super Inteligência', conforme a Ordem Executiva 14434.",
+      "authors": [
+        "Simon Willison"
+      ],
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "Import AI 479: Spacewar; tarefas de baixa latência versus LLMs; Genie 4",
+      "links": [
+        "https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4/"
+      ],
+      "summary": "A edição 479 da Import AI aborda Spacewar, a comparação entre tarefas de baixa latência e LLMs, e o Genie 4.",
+      "authors": [
+        "Jack Clark"
+      ],
+      "published_at": "2026-11-02",
+      "date": "2026-11-02"
+    },
     {
       "title": "OpenAI pode renomear seus data centers como 'campi de computação de IA'.",
       "links": [
