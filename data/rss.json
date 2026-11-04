@@ -1,8 +1,317 @@
 {
   "category": "RSS",
-  "updated_at": "2026-11-03 01:31 UTC",
+  "updated_at": "2026-11-04 18:05 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Escalando o Git na OpenAI",
+      "links": [
+        "https://openai.com/index/scaling-git-at-openai"
+      ],
+      "summary": "A OpenAI desenvolveu o Pando, um backend compatível com Git, para suportar a escala de desenvolvimento possibilitada pelo Codex.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "OpenAI nomeia Dan Driscoll como Conselheiro Sênior para Modernização da Segurança Nacional",
+      "links": [
+        "https://openai.com/index/dan-driscoll-joins-openai"
+      ],
+      "summary": "Dan Driscoll aconselha sobre IA responsável para modernização da segurança nacional, resiliência cibernética e colaboração com aliados dos EUA.",
+      "authors": [
+        "Dan Driscoll"
+      ],
+      "published_at": "2026-11-02",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Apple pode tentar aumentar a receita com aplicativos de IA de terceiros",
+      "links": [
+        "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/"
+      ],
+      "summary": "A Apple pode buscar aumentar sua receita através de alguma iniciativa envolvendo aplicativos de inteligência artificial de terceiros.",
+      "published_at": "2026-11-03",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Garry Tan, da Y Combinator, gasta até US$ 200 mil anualmente em tokens de IA",
+      "links": [
+        "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/"
+      ],
+      "summary": "Garry Tan, da Y Combinator, utiliza agentes de IA intensivamente, resultando em gastos anuais de até US$ 200 mil em tokens.",
+      "authors": [
+        "Garry Tan"
+      ],
+      "published_at": "2026-11-03",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Trajectory levanta US$ 45 milhões para tornar o treinamento de modelos de IA acessível a especialistas não técnicos",
+      "links": [
+        "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/"
+      ],
+      "summary": "A Trajectory arrecadou US$ 45 milhões para facilitar o treinamento de modelos de IA para profissionais sem conhecimento técnico aprofundado.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Anthropic alerta estar próxima da capacidade RSI, ou IA de auto-construção",
+      "links": [
+        "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+      ],
+      "summary": "A Anthropic adverte que está muito perto de alcançar a capacidade de RSI, que se refere a uma inteligência artificial capaz de se auto-construir.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Squarespace, provedor de hospedagem web, demite 19% de seus funcionários",
+      "links": [
+        "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/"
+      ],
+      "summary": "A Squarespace, empresa de hospedagem de sites, realizou a demissão de 19% de sua força de trabalho.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Em 2027: Robô doméstico da Apple de US$ 1.000 para FaceTime e acender luzes",
+      "links": [
+        "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/"
+      ],
+      "summary": "A Apple planeja lançar em 2027 um robô doméstico de US$ 1.000, capaz de realizar chamadas FaceTime e acender luzes.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Novas regras do Claude contra clonagem de jogos não deterão o boom de cópias de IA",
+      "links": [
+        "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-won%E2%80%99t-stop-the-ai-copying-boom/"
+      ],
+      "summary": "As novas diretrizes do Claude contra a clonagem de jogos não serão suficientes para conter o rápido crescimento da cópia de IA.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "The Letter Company lança Letterpress-1: Um agente de codificação para engenharia de crescimento",
+      "links": [
+        "https://www.marktechpost.com/2026/11/02/letter-letterpress-1-growth-engineering-coding-agent/"
+      ],
+      "summary": "A The Letter Company lançou o Letterpress-1, um agente de codificação projetado para engenharia de crescimento.",
+      "published_at": "2026-11-03",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "llm 0.37",
+      "links": [
+        "https://simonwillison.net/2026/Nov/2/llm/"
+      ],
+      "summary": "A nova versão da CLI/biblioteca LLM adiciona os modelos gpt-6.1-sol e gpt-6.1-terra, o comando `llm openai endpoint add`, o novo modelo padrão gpt-6-luna e embeddings com tipos de conteúdo por entrada.",
+      "authors": [
+        "Simon Willison"
+      ],
+      "published_at": "2026-11-02",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Heimstaden está transformando a gestão imobiliária residencial com IA",
+      "links": [
+        "https://openai.com/index/heimstaden"
+      ],
+      "summary": "A Heimstaden utiliza o ChatGPT Enterprise e o Codex para transformar a gestão de propriedades em toda a Europa.",
+      "published_at": "2026-11-03",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Recompensando defensores com maiores recompensas por bugs",
+      "links": [
+        "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"
+      ],
+      "summary": "A OpenAI aumentou as recompensas do programa Security Bug Bounty e adicionou bônus por qualidade de relatório, lealdade e campanhas prioritárias.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Preparando nosso próximo sprint de segurança para fortalecer a OpenAI",
+      "links": [
+        "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai"
+      ],
+      "summary": "Um sprint de segurança interno com a Cathedral Systems testará e fortalecerá as defesas da OpenAI usando IA.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Contratos de Integração de Modelos Transformers",
+      "links": [
+        "https://huggingface.co/blog/transformers-mic"
+      ],
+      "summary": "O artigo aborda os contratos para a integração de modelos Transformers.",
+      "published_at": "2026-11-03",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Recursos de IA do Apple Watch para retroceder e resumir conversas iniciam testes beta",
+      "links": [
+        "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/"
+      ],
+      "summary": "Os recursos de inteligência artificial do Apple Watch, que permitem retroceder e resumir conversas, entraram em fase de testes beta.",
+      "published_at": "2026-11-03",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Google leva Dreambeans para a Índia para popularizar histórias pessoais geradas por IA",
+      "links": [
+        "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/"
+      ],
+      "summary": "O Google está lançando o Dreambeans na Índia, buscando levar histórias pessoais geradas por inteligência artificial ao grande público.",
+      "published_at": "2026-11-03",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Como a \"teoria dos jogos reversa\" pode controlar agentes de IA",
+      "links": [
+        "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/"
+      ],
+      "summary": "A \"teoria dos jogos reversa\" pode ser uma abordagem para manter o controle sobre agentes de inteligência artificial.",
+      "published_at": "2026-11-03",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Huawei orienta clientes a encontrar sua própria memória para chips de IA, terceirizando a aquisição para o mercado negro",
+      "links": [
+        "https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market/"
+      ],
+      "summary": "A Huawei instruiu seus clientes a procurarem por conta própria a memória para chips de IA, efetivamente terceirizando a aquisição para o mercado negro.",
+      "published_at": "2026-11-03",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Caçadores de bugs podem ganhar até US$ 172.000 da OpenAI com o aumento da segurança da empresa",
+      "links": [
+        "https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security/"
+      ],
+      "summary": "A OpenAI está oferecendo até US$ 172.000 para caçadores de bugs, como parte de seus esforços para reforçar a segurança.",
+      "published_at": "2026-11-03",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Anthropic reprime clonagem de jogos no Claude Code após onda de cópias criadas por IA",
+      "links": [
+        "https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs/"
+      ],
+      "summary": "A Anthropic está combatendo a clonagem de jogos no Claude Code, após o surgimento de diversas cópias desenvolvidas por inteligência artificial.",
+      "published_at": "2026-11-03",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "OpenAI apresenta Pando: Um backend Git que reduz a latência média de push em ~80%",
+      "links": [
+        "https://www.marktechpost.com/2026/11/02/openai-pando-git-backend-monorepo/"
+      ],
+      "summary": "A OpenAI lançou o Pando, um backend Git que promete reduzir a latência média de push em aproximadamente 80%.",
+      "published_at": "2026-11-03",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Newsletter de outubro apenas para patrocinadores",
+      "links": [
+        "https://simonwillison.net/2026/Nov/3/october-newsletter/"
+      ],
+      "summary": "A newsletter mensal para patrocinadores aborda o desenvolvimento de jogos vibe, o apocalipse das vulnerabilidades e os lançamentos de LLMs.",
+      "authors": [
+        "Simon Willison"
+      ],
+      "published_at": "2026-11-03",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Mais Regras, Listas Mais Longas? Avaliando Agentes Auto-Evolutivos em um Currículo de Regras Ocultas",
+      "links": [
+        "https://arxiv.org/abs/2610.40758"
+      ],
+      "summary": "O estudo avalia agentes auto-evolutivos em um currículo com regras ocultas, questionando a relação entre a quantidade de regras e o comprimento das listas.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Além da Previsão Plausível: Suficiência de Segurança em Modelos de Mundo Web",
+      "links": [
+        "https://arxiv.org/abs/2610.40798"
+      ],
+      "summary": "A pesquisa explora a suficiência de segurança em modelos de mundo web, indo além da mera previsão plausível.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Contornando a Dificuldade Computacional da Arbitragem Computacional",
+      "links": [
+        "https://arxiv.org/abs/2610.40831"
+      ],
+      "summary": "O artigo investiga métodos para contornar a complexidade computacional inerente à arbitragem computacional.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Avaliação Consciente da Incongruência do Reconhecimento Multimodal de Emoções da Fala em Modelos de Linguagem Grandes de Áudio",
+      "links": [
+        "https://arxiv.org/abs/2610.40883"
+      ],
+      "summary": "Este trabalho avalia o reconhecimento multimodal de emoções da fala em modelos de linguagem grandes de áudio, considerando a incongruência.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "ChatGPT como Assistente de Vigilância? Um Estudo de Caso Exploratório de Riscos de Vigilância Assistida por IA",
+      "links": [
+        "https://arxiv.org/abs/2610.40890"
+      ],
+      "summary": "Um estudo de caso exploratório investiga os riscos de vigilância assistida por IA, utilizando o ChatGPT como um potencial assistente de vigilância.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "A Construção Recursiva de Conhecimento Ajuda Agentes a Verificar Alegações de Consenso na Ciência?",
+      "links": [
+        "https://arxiv.org/abs/2610.40906"
+      ],
+      "summary": "A pesquisa questiona se a construção recursiva de conhecimento auxilia agentes na verificação de alegações de consenso no campo científico.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Rumo à Especificação Portátil do Arnês do Agente",
+      "links": [
+        "https://arxiv.org/abs/2610.40917"
+      ],
+      "summary": "O artigo avança na direção de uma especificação portátil para o arnês do agente.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Modelagem de Mundo Agêntica para Escalonamento de Agentes em Tempo de Teste sem Réplica do Ambiente",
+      "links": [
+        "https://arxiv.org/abs/2610.40927"
+      ],
+      "summary": "Este trabalho propõe a modelagem de mundo agêntica para escalar agentes em tempo de teste, eliminando a necessidade de uma réplica do ambiente.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "DiRAFT: Síntese de Transcrições Financeiras Consciente da Privacidade a Partir de Priors de Discurso Agregados",
+      "links": [
+        "https://arxiv.org/abs/2610.40938"
+      ],
+      "summary": "DiRAFT é um método para sintetizar transcrições financeiras que preserva a privacidade, utilizando priors de discurso agregados.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "Os Primeiros Tokens Importam: Compreendendo a Controlabilidade da Cadeia de Pensamento",
+      "links": [
+        "https://arxiv.org/abs/2610.40939"
+      ],
+      "summary": "A pesquisa explora a importância dos primeiros tokens para entender a controlabilidade da cadeia de pensamento.",
+      "published_at": "2026-10-29",
+      "date": "2026-11-03"
+    },
     {
       "title": "Construção Automática de Baselines Simples e Robustas",
       "links": [
