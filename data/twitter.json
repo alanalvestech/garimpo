@@ -1,8 +1,76 @@
 {
   "category": "Twitter",
-  "updated_at": "2026-11-04 18:05 UTC",
+  "updated_at": "2026-11-05 00:19 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Moonshot disponibiliza pesos do Kimi K3.1 Pro no Hugging Face: 2.8T MoE, 104B ativos, contexto de 1M.",
+      "links": [
+        "https://x.com/scaling01/status/2118003733103600085",
+        "https://x.com/kimmonismus/status/2118017354403815899",
+        "https://x.com/mervenoyann/status/2118021204007149959",
+        "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+      ],
+      "summary": "Os pesos do Kimi K3.1 Pro da Moonshot estão agora disponíveis para download no Hugging Face, com 2.8 trilhões de parâmetros totais e 104B ativos, além de uma janela de contexto de 1.048.576 tokens. O modelo possui uma licença personalizada que exige negociação para grandes empresas de hospedagem de modelos.",
+      "published_at": "2026-11-02",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Ripple-65B Preview da Ricursive afirma ser o SOTA de codificação de pesos abertos nos EUA, com custo de US$ 32M e licença Apache 2.0.",
+      "links": [
+        "https://x.com/kimmonismus/status/2118066494634369464",
+        "https://x.com/JeffDean/status/2118057600965304556",
+        "https://x.com/swyx/status/2118073650356384239",
+        "https://www.ricursive.com/ripple"
+      ],
+      "summary": "A Ricursive Intelligence lançou o Ripple-65B Preview, um Transformer denso de 65B treinado do zero em 12 trilhões de tokens, com uma janela de contexto de 1M de tokens. O laboratório afirma que o custo total de P&D foi de US$ 32 milhões e que o modelo alcança 80.52 no Terminal-Bench 2.1.",
+      "authors": [
+        "Jeff Dean"
+      ],
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Laboratório de biologia da Anthropic usou Claude para mapear a primeira partícula de vault bacteriana em 3D.",
+      "links": [
+        "https://x.com/AnthropicAI/status/2118073665296228863",
+        "https://www.anthropic.com/research/investigating-vault-particles-with-claude"
+      ],
+      "summary": "A equipe de ciência da Anthropic, com a ajuda de Claude, determinou a estrutura 3D de uma partícula de vault em procariotos, anteriormente descrita apenas em plantas e animais. O laboratório publicou uma nota de pesquisa datada de 4 de novembro e um PDF de pré-impressão.",
+      "published_at": "2026-11-04",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Subagentes de fundo do Claude Code agora usam Haiku 5.5 para gerar linhas de status.",
+      "links": [
+        "https://x.com/ClaudeDevs/status/2118063143167693011"
+      ],
+      "summary": "Os subagentes de fundo do Claude Code agora utilizam o Haiku 5.5 para escrever linhas de status de 30 segundos a partir de notas curtas, em vez de reler a conversa completa, resultando em uma economia de custo de aproximadamente 99% por atualização. As sessões com esses subagentes usaram cerca de 5% menos do limite de uso.",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Cognition lança SWE-2 Flash, um modelo de codificação de 276B-A12B.",
+      "links": [
+        "https://x.com/soumithchintala/status/2118071460631834931"
+      ],
+      "summary": "A Cognition lançou o SWE-2 Flash, um modelo de codificação de 276B-A12B pós-treinado a partir do Inkling-Small da Thinking Machines. O modelo alcança 20.0% no Terminal-Bench 4.0 e a Cognition afirma que ele supera seus pares de pesos abertos nos EUA.",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Unsloth lança Qwen3.8-Flash-Next GGUFs com maior precisão.",
+      "links": [
+        "https://x.com/UnslothAI/status/2118033433045991660"
+      ],
+      "summary": "A Unsloth lançou os GGUFs do Qwen3.8-Flash-Next, que, segundo a empresa, são mais de 15% mais precisos no Terminal Bench e DeepSWE. O modelo pode ser executado com contexto de 256K em 32GB+ de RAM.",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "The Information: governadores eleitos em 12 estados pedem pausas em centros de dados.",
+      "links": [
+        "https://x.com/theinformation/status/2118085949443776746"
+      ],
+      "summary": "Segundo o The Information, governadores eleitos em 12 estados, incluindo Texas, Geórgia e Ohio, solicitaram pausas na construção de centros de dados. Essa medida pode aumentar os custos e atrasar grandes projetos de IA da OpenAI, Microsoft e Amazon.",
+      "date": "2026-11-04"
+    },
     {
       "title": "Oracle cancela um contrato de arrendamento de chips de IA da Tencent, avaliado em US$ 7 bilhões, após objeções de Washington e Pequim",
       "links": [
