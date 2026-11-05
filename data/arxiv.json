@@ -1,8 +1,82 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-11-03 17:55 UTC",
+  "updated_at": "2026-11-05 18:07 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "De Pixels a Ações, Rumo a Políticas Nativas de Visão-Linguagem-Ação",
+      "links": [
+        "https://arxiv.org/abs/2611.06918"
+      ],
+      "summary": "O NEO-VLA abandona o codificador visual fixo, permitindo que a visão e a linguagem evoluam juntas através do backbone. Arquiteturas nativas superam as baseadas em codificadores em comparações controladas, e a sintonia fina completa e a escala extra não fecham essa lacuna.",
+      "authors": [
+        "Weichen Fan",
+        "Haiwen Diao",
+        "Penghao Wu",
+        "Fangzhou Hong",
+        "Dahua Lin",
+        "Ziwei Liu et al."
+      ],
+      "published_at": "2026-11-04",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Movimento Humanoide Perceptivo a Partir de Simulação",
+      "links": [
+        "https://arxiv.org/abs/2611.06908"
+      ],
+      "summary": "O HALO da Apple AIML sintetiza dados de visão-linguagem-movimento em mil casas geradas proceduralmente, permitindo que o corpus escale com o poder computacional. Treinado sem casas reais, ele transfere com sucesso de 91% para seis ambientes físicos não mapeados em 360 testes.",
+      "authors": [
+        "Siyuan Hu",
+        "Abulikemu Abuduweili",
+        "Yue Meng",
+        "Matthias Müller",
+        "Vladlen Koltun et al."
+      ],
+      "published_at": "2026-11-04",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "FrontierPhysics: Avaliando Agentes para Pesquisa de Física Ponta a Ponta",
+      "links": [
+        "https://arxiv.org/abs/2611.06910"
+      ],
+      "summary": "Cinquenta e seis tarefas, criadas por 42 físicos, abrangem nove domínios teóricos, computacionais e experimentais para avaliar agentes de pesquisa. A revisão das trajetórias aponta que os agentes falham por raciocínio insuficientemente rigoroso e falta de intuição especializada, não por ausência de conhecimento de livros didáticos.",
+      "authors": [
+        "Bingran You",
+        "Wenjun Ke",
+        "Ria Rosenauer et al."
+      ],
+      "published_at": "2026-11-04",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Open-HumanScale: Uma Receita Aberta para Escalar Experiências Humanas e Robóticas",
+      "links": [
+        "https://arxiv.org/abs/2611.06817"
+      ],
+      "summary": "Um corpus egocêntrico aberto de 50.000 horas, com rótulos densos de movimento das mãos e linguagem, é acompanhado por uma receita de curadoria e pré-treinamento. Avaliações de simulação em loop fechado revelam uma lei de escala log-linear entre as horas de pré-treinamento e o sucesso do robô em tarefas subsequentes.",
+      "authors": [
+        "Juncheng Ma",
+        "Jiaxin Li",
+        "Jiankai Tu et al."
+      ],
+      "published_at": "2026-11-04",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "Roteamento de Tokens Visuais: Aprendendo a Manter Tokens Relevantes",
+      "links": [
+        "https://arxiv.org/abs/2611.06854"
+      ],
+      "summary": "Agentes de uso de computador são sobrecarregados por tokens de captura de tela. O VTR treina o VLM com um roteador espaço-temporal leve que admite uma região apenas se ela auxiliar a próxima ação, resultando em menos tokens visuais e menor custo de inferência.",
+      "authors": [
+        "Pranjal Aggarwal",
+        "Sean Welleck"
+      ],
+      "published_at": "2026-11-04",
+      "date": "2026-11-04"
+    },
     {
       "title": "Library of Layers (LoL): Ordenando Adaptativamente Camadas de Transformer em Tempo de Execução",
       "links": [
