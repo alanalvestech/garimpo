@@ -1,8 +1,385 @@
 {
   "category": "GitHubTrending",
-  "updated_at": "2026-11-05 00:19 UTC",
+  "updated_at": "2026-11-06 00:07 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "auto-ontology",
+      "links": [
+        "https://github.com/NVIDIA/auto-ontology"
+      ],
+      "stars": 7279,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "summary": "Auto Ontology é um framework Python para construir camadas de raciocínio semânticas e baseadas em grafos sobre dados. Ele permite geração de consultas determinísticas, melhor recuperação de contexto e IA mais explicável para fluxos de trabalho de LLM e agentes.",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "DiscImageStudio",
+      "links": [
+        "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio"
+      ],
+      "stars": 7254,
+      "language": "C#",
+      "license": "GPL-3.0",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "Lichii",
+      "links": [
+        "https://github.com/zortos293/Lichii"
+      ],
+      "stars": 2235,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "summary": "Emulador MUITO experimental de Nintendo Switch 2",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "rea-video",
+      "links": [
+        "https://github.com/JuneYaooo/rea-video"
+      ],
+      "stars": 2042,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "summary": "Engenharia reversa de qualquer vídeo, cena por cena: informa se cada cena foi filmada, gerada por IA ou codificada, como as legendas, cortes e áudio foram feitos e como refazê-lo. 逆向一切视频，逐镜拆出制作方式并给出复刻方案。",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "portabase",
+      "links": [
+        "https://github.com/Portabase/portabase"
+      ],
+      "stars": 1868,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "summary": "Portabase - Ferramenta de backup e restauração de banco de dados para PostgreSQL, MySQL, MsSQL, MariaDB, Firebird SQL, SQLite, MongoDB, Redis, Arquivos e Docker Volume",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "MirrorProxy",
+      "links": [
+        "https://github.com/inbjo/MirrorProxy"
+      ],
+      "stars": 308,
+      "language": "Rust",
+      "license": "MIT",
+      "summary": "Aceleração de espelho tudo-em-um. O projeto usa um núcleo de proxy baseado em adaptador e já inclui adaptadores para GitHub, Docker/OCI, Composer, npm, PyPI, Cargo, módulos Go, principais repositórios de linguagem, serviços de distribuição de ferramentas de desenvolvedor e espelhos de sistemas operacionais.",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "chroncal",
+      "links": [
+        "https://github.com/DouglasdeMoura/chroncal"
+      ],
+      "stars": 237,
+      "language": "Go",
+      "license": "MIT",
+      "summary": "Gerenciador de calendário, tarefas e diário focado no terminal com suporte a iCalendar (RFC 5545) e sincronização CalDAV - CLI + TUI, armazenamento local SQLite",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "nodecode",
+      "links": [
+        "https://github.com/nodecode-ai/nodecode"
+      ],
+      "stars": 183,
+      "language": "Common Lisp",
+      "license": "MIT",
+      "summary": "Um organismo agente vivo em Lisp.",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "openleetcode",
+      "links": [
+        "https://github.com/therepanic/openleetcode"
+      ],
+      "stars": 178,
+      "language": "Haskell",
+      "license": "Unlicense",
+      "summary": "democratizamos os testes do LeetCode",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "edamame",
+      "links": [
+        "https://github.com/mijowi/edamame"
+      ],
+      "stars": 121,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "summary": "Um editor de Markdown para Terminal que permanece renderizado enquanto você edita",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "restoredrill",
+      "links": [
+        "https://github.com/ahmadpiran/restoredrill"
+      ],
+      "stars": 114,
+      "language": "Go",
+      "license": "MIT",
+      "summary": "Comprova que seus backups de PostgreSQL e MySQL realmente restauram, antes que você descubra da maneira difícil.",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "sauva",
+      "links": [
+        "https://github.com/lusingander/sauva"
+      ],
+      "stars": 105,
+      "language": "Rust",
+      "license": "MIT",
+      "summary": "Explorador de Unicode para Terminal 🪄",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "tardigrade",
+      "links": [
+        "https://github.com/smoothyy3/tardigrade"
+      ],
+      "stars": 42,
+      "language": "Go",
+      "license": "MIT",
+      "summary": "Uma criatura de células auto-regeneradoras dentro do seu terminal",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "mqttprobe",
+      "links": [
+        "https://github.com/bluegrassiot/mqttprobe"
+      ],
+      "stars": 41,
+      "language": "C#",
+      "license": "Apache-2.0",
+      "summary": "A ferramenta de diagnóstico MQTT construída para IIoT. Conecte-se a qualquer broker MQTT, navegue por árvores de tópicos ao vivo, inspecione payloads e trace telemetria JSON em tempo real. Decodificação nativa Sparkplug B e emulação de nó EoN integradas. Código aberto, sem necessidade de nuvem.",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "pgrecon",
+      "links": [
+        "https://github.com/Muzzammil242/pgrecon"
+      ],
+      "stars": 29,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "summary": "Avaliação de migração de Oracle para PostgreSQL e conversão de esquema a partir de um dump offline: scripts de extração revisáveis, um inventário SQLite, um motor de regras determinístico e DDL que se aplica",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "wavo-app",
+      "links": [
+        "https://github.com/vladkens/wavo-app"
+      ],
+      "stars": 10,
+      "language": "Rust",
+      "license": "MIT",
+      "summary": "Ditado local para macOS: segure uma tecla de atalho, fale, e o texto aparece onde você estava digitando. Em wavo e nimbo.",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "Drifting",
+      "links": [
+        "https://github.com/chihumyum/Drifting"
+      ],
+      "stars": 9,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "summary": "Aplicativo de escrita de romances de código aberto, local-first para Mac: a facilidade de um editor Markdown, a estrutura de um estúdio de escrita clássico e um Agente de IA para o livro inteiro.",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "pdfmt",
+      "links": [
+        "https://github.com/eifelcode/pdfmt"
+      ],
+      "stars": 8,
+      "language": "Shell",
+      "license": "MIT",
+      "summary": "pdfmt é uma ferramenta multiuso de linha de comando para as tarefas de PDF que você continua fazendo repetidamente",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "pgmnemo",
+      "links": [
+        "https://github.com/pgmnemo/pgmnemo"
+      ],
+      "stars": 8,
+      "language": "PLpgSQL",
+      "license": "Apache-2.0",
+      "summary": "Substrato de memória multiagente para PostgreSQL - recuperação híbrida de vetor, com controle de proveniência",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "rekuiper",
+      "links": [
+        "https://github.com/Indus-Stack/rekuiper"
+      ],
+      "stars": 8,
+      "language": "Rust",
+      "summary": "Motor de regras MQTT Rust de binário único e processador SQL de streaming para gateways de borda e pipelines de telemetria.",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "tinhorn",
+      "links": [
+        "https://github.com/puradox/tinhorn"
+      ],
+      "stars": 7,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "summary": "Um lançador de dados para terminal: agite os dados, veja-os voar, ouça-os quicar.",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "flipic",
+      "links": [
+        "https://github.com/xmasdong/flipic"
+      ],
+      "stars": 7,
+      "language": "Swift",
+      "license": "MIT",
+      "summary": "Flipic: visualizador de imagens gratuito e de código aberto para Mac. Dê um duplo clique em uma foto e navegue pela pasta com as teclas de seta.",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "pando",
+      "links": [
+        "https://github.com/xseman/pando"
+      ],
+      "stars": 7,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "summary": "Execute agentes de codificação de IA lado a lado em git worktrees e revise suas alterações, tudo em uma única UI de terminal",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "globnotes",
+      "links": [
+        "https://github.com/alexindigo/globnotes"
+      ],
+      "stars": 6,
+      "language": "JavaScript",
+      "summary": "Um aplicativo de notas markdown auto-hospedado, com suporte no estilo Obsidian",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "chess-analyzer-tui",
+      "links": [
+        "https://github.com/leolaurindo/chess-analyzer-tui"
+      ],
+      "stars": 5,
+      "language": "Python",
+      "license": "MIT",
+      "summary": "Um analisador leve no estilo chess.com. Funciona com qualquer engine UCI. Leia jogos do seu site de xadrez favorito, arquivo, stdin ou área de transferência.",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "candor-finance",
+      "links": [
+        "https://github.com/candorsystems/candor-finance"
+      ],
+      "stars": 4,
+      "language": "JavaScript",
+      "summary": "Candor Finance: servidor MCP de finanças pessoais e habilidades de agente. Alcance seus objetivos financeiros com ChatGPT, Claude, Codex ou o agente de IA que você já usa.",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "berthd",
+      "links": [
+        "https://github.com/takakix2/berthd"
+      ],
+      "stars": 2,
+      "language": "PowerShell",
+      "license": "ISC",
+      "summary": "berthd - sessões de shell persistentes. Um pequeno daemon que gerencia seus PTYs, para que os shells sobrevivam ao aplicativo de terminal. Binários pré-compilados para Linux x86_64 / macOS arm64 / Windows x86_64.",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "fastitch",
+      "links": [
+        "https://github.com/ArkaKhorchidian/fastitch"
+      ],
+      "stars": 2,
+      "language": "Python",
+      "license": "MIT",
+      "summary": "Parser rápido NASDAQ TotalView-ITCH 5.0 para Python: feed bruto para Polars, pandas, Arrow ou Parquet, mais reconstrução de livro de ofertas",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "sigflint",
+      "links": [
+        "https://github.com/bompus/sigflint"
+      ],
+      "stars": 2,
+      "language": "JavaScript",
+      "license": "MIT",
+      "summary": "Assinatura rápida de requisições AWS Signature Version 4 para todos os serviços AWS, sem dependências",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "log10x-plugin",
+      "links": [
+        "https://github.com/log-10x/log10x-plugin"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "summary": "Plugin Log10x para Cursor, Grok, Claude Code, Codex e Gemini CLI. Instala o servidor log10x-mcp.",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "polars-ros",
+      "links": [
+        "https://github.com/phobson/polars-ros"
+      ],
+      "stars": 1,
+      "language": "Python",
+      "summary": "Regressão em Estatísticas de Ordem como expressões polars",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "ariadne",
+      "links": [
+        "https://github.com/hajovonta/ariadne"
+      ],
+      "stars": 1,
+      "language": "Common Lisp",
+      "license": "MIT",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "saywing",
+      "links": [
+        "https://github.com/ChrBoebel/saywing"
+      ],
+      "stars": 1,
+      "language": "Swift",
+      "license": "Apache-2.0",
+      "summary": "Saywing: leia qualquer texto na tela do seu Mac em voz alta e dite no aplicativo que você está usando, totalmente no dispositivo. Arraste uma região para OCR local e fala neural; segure Fn para ditar com Whisper. Sem nuvem, sem conta, sem telemetria. Aplicativo nativo da barra de menus do macOS, Apache-2.0.",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "radif",
+      "links": [
+        "https://github.com/yuvrajangadsingh/radif"
+      ],
+      "stars": 0,
+      "language": "TypeScript",
+      "license": "GPL-3.0",
+      "summary": "Um cliente rápido do YouTube Music construído para Mac. Player em tela cheia, modo de vídeo, letras sincronizadas, cache de stream local. Build universal, atualiza-se automaticamente, requer YouTube Music Premium.",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "trailtransfer",
+      "links": [
+        "https://github.com/RainerGewalt/trailtransfer"
+      ],
+      "stars": 0,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "date": "2026-11-05"
+    },
     {
       "title": "agent-beacon",
       "links": [
