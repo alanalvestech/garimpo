@@ -1,8 +1,390 @@
 {
   "category": "GitHubTrending",
-  "updated_at": "2026-11-07 16:32 UTC",
+  "updated_at": "2026-11-08 16:43 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "sherlock",
+      "links": [
+        "https://github.com/sherlock-project/sherlock"
+      ],
+      "stars": 102619,
+      "language": "Python",
+      "license": "MIT",
+      "summary": "Rastreie contas de mídia social por nome de usuário em redes sociais",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "prometheus",
+      "links": [
+        "https://github.com/prometheus/prometheus"
+      ],
+      "stars": 67554,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "summary": "O sistema de monitoramento e banco de dados de séries temporais Prometheus.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "agent-browser",
+      "links": [
+        "https://github.com/vercel-labs/agent-browser"
+      ],
+      "stars": 47388,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "summary": "CLI de automação de navegador para agentes de IA",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "craft-anything",
+      "links": [
+        "https://github.com/storytold/craft-anything"
+      ],
+      "stars": 22221,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "summary": "Crie Qualquer Coisa: entenda como qualquer software funciona e crie o seu próprio.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "dsh-purge",
+      "links": [
+        "https://github.com/kingcharleslzy-ai/dsh-purge"
+      ],
+      "stars": 5382,
+      "language": "JavaScript",
+      "license": "MIT",
+      "summary": "dsh-purge Community · Versão mantida pela comunidade DeepSeek Harness: compatibilidade com host, diagnóstico de status, gerenciamento de prompts, atualizações e reversão de backup local. Baseado no dsh-purge de Xiaoyang / YuJunZhiXue.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "Eglantine",
+      "links": [
+        "https://github.com/Eglantine-Community/Eglantine"
+      ],
+      "stars": 5369,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "summary": "Emulador MUITO experimental de Nintendo Switch 2",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "cinecode",
+      "links": [
+        "https://github.com/sarpstar/cinecode"
+      ],
+      "stars": 1448,
+      "language": "Python",
+      "license": "MIT",
+      "summary": "Filmes feitos com código. Curtas-metragens, vídeos longos do YouTube, anúncios, explicativos e videoclipes: um agente de codificação de IA escreve o roteiro, constrói cada quadro em código, projeta o som e entrega um MP4.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "sand3d",
+      "links": [
+        "https://github.com/Sandflow-ai/sand3d"
+      ],
+      "stars": 1323,
+      "language": "HTML",
+      "license": "Apache-2.0",
+      "summary": "Modelagem 3D em Python, construída para LLMs.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "kiri",
+      "links": [
+        "https://github.com/libracoder/kiri"
+      ],
+      "stars": 1131,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "summary": "Um runtime de contêiner pequeno e rápido para macOS, Windows e Linux",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "pinky",
+      "links": [
+        "https://github.com/DIYgod/pinky"
+      ],
+      "stars": 645,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "summary": "Permita que agentes de IA usem seu telefone, com você no controle.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "OpenAmika",
+      "links": [
+        "https://github.com/zeekk0/OpenAmika"
+      ],
+      "stars": 535,
+      "language": "Python",
+      "summary": "OpenAmika: A companheira de IA de MekaHime, Amika, de código aberto. Avatar Live2D, voz em tempo real, memória de longo prazo, cérebro OpenRouter ou Ollama.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "devvm",
+      "links": [
+        "https://github.com/devvmhq/devvm"
+      ],
+      "stars": 396,
+      "language": "Go",
+      "license": "MIT",
+      "summary": "Uma VM para cada projeto. Uma sandbox isolada com o conjunto de ferramentas do seu projeto, pronta para você ou um agente de codificação começar a codificar",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "kept",
+      "links": [
+        "https://github.com/ericerkz/kept"
+      ],
+      "stars": 325,
+      "language": "JavaScript",
+      "license": "AGPL-3.0",
+      "summary": "Notas estilo Google Keep para iOS, Android e auto-hospedagem. Offline-first, com sincronização opcional.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "sandbox-mcp",
+      "links": [
+        "https://github.com/shanselman/sandbox-mcp"
+      ],
+      "stars": 312,
+      "language": "JavaScript",
+      "license": "MIT",
+      "summary": "Máquinas Windows novas e descartáveis para testar seus aplicativos: um servidor MCP e CLI que automatizam o Windows Sandbox",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "rss-pod",
+      "links": [
+        "https://github.com/synrise25/rss-pod"
+      ],
+      "stars": 44,
+      "language": "Go",
+      "license": "MIT",
+      "summary": "Um aplicativo auto-hospedado que transforma feeds RSS em podcasts conversacionais para deslocamentos. 将 RSS 转成对话式播客，让通勤成为轻松获取信息的时刻。",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "OfflineWebSearch",
+      "links": [
+        "https://github.com/rumca-js/OfflineWebSearch"
+      ],
+      "stars": 43,
+      "language": "Kotlin",
+      "license": "GPL-3.0",
+      "summary": "Mecanismo de busca de favoritos de código aberto e focado na privacidade. Sem nuvem. Sem servidor.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "knovum",
+      "links": [
+        "https://github.com/madebyzan/knovum"
+      ],
+      "stars": 37,
+      "language": "Rust",
+      "license": "MIT",
+      "summary": "O espaço de trabalho de conhecimento de IA local-first: uma tela infinita para pesquisa, aprendizado e criação (Tauri 2 + Vue 3)",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "FlutterGuard",
+      "links": [
+        "https://github.com/anasfik/FlutterGuard"
+      ],
+      "stars": 34,
+      "language": "Kotlin",
+      "license": "MIT",
+      "summary": "Veja o que está dentro de um aplicativo Flutter. Auditorias offline e no dispositivo para APKs Flutter: bibliotecas, endpoints, strings expostas e política de pacote. Sem root, sem conta, sem uploads.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "revo-ui",
+      "links": [
+        "https://github.com/revolist/revo-ui"
+      ],
+      "stars": 16,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "Componentes de UI para aplicativos financeiros e dashboards",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "MobShield-Android",
+      "links": [
+        "https://github.com/Inforaam/MobShield-Android"
+      ],
+      "stars": 13,
+      "language": "Kotlin",
+      "license": "Apache-2.0",
+      "summary": "RASP adaptável e modular para Android: pontuação de ameaças ajustável para root, hooks, depuradores e adulteração. Sem telemetria.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "kanban",
+      "links": [
+        "https://github.com/revolist/kanban"
+      ],
+      "stars": 11,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "RevoGrid Kanban: colunas de fluxo de trabalho, raias, limites de WIP, edição de cartões, arrastar e soltar, e quatro exemplos de framework.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "gantt",
+      "links": [
+        "https://github.com/revolist/gantt"
+      ],
+      "stars": 11,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "RevoGrid Gantt: linhas do tempo editáveis, dependências, calendários, recursos, baselines, caminho crítico, e quatro exemplos de framework.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "pivot",
+      "links": [
+        "https://github.com/revolist/pivot"
+      ],
+      "stars": 11,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "RevoGrid Pivot: análise multidimensional, drill-down, totais, filtragem, gráficos, e quatro exemplos de framework.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "scheduler",
+      "links": [
+        "https://github.com/revolist/scheduler"
+      ],
+      "stars": 11,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "RevoGrid Scheduler showcase: visualizações de calendário e recursos, disponibilidade, conflitos, edição de eventos, e quatro exemplos de framework.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "vicem",
+      "links": [
+        "https://github.com/RAKKUNN/vicem"
+      ],
+      "stars": 7,
+      "language": "JavaScript",
+      "license": "MIT",
+      "summary": "Suíte de bastão de contexto e dieta de agente de IA sem dependência. Transfira sessões entre Claude Code, Codex, Gemini e Cursor com 80% menos tokens.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "gemini-pro-mcp",
+      "links": [
+        "https://github.com/Muzaqil555/gemini-pro-mcp"
+      ],
+      "stars": 5,
+      "language": "Python",
+      "license": "MIT",
+      "summary": "Use sua assinatura Google AI Pro de Claude, Codex, Antigravity e Gemini CLI: Gemini via Antigravity, Flow, Gemini app, Notebooks, Jules, Omni video e imagens Nano Banana. Configuração com um comando. Servidor MCP.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "ai-meter",
+      "links": [
+        "https://github.com/dichiara19/ai-meter"
+      ],
+      "stars": 4,
+      "language": "C#",
+      "license": "Apache-2.0",
+      "summary": "Cada limite e sessão de IA no seu PC, diretamente na barra de tarefas do Windows 11: Claude, ChatGPT/Codex, Copilot, Cursor, modelos locais e agentes de codificação.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "mcp",
+      "links": [
+        "https://github.com/Sequenzy/mcp"
+      ],
+      "stars": 3,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "Servidor MCP para agentes de IA operarem fluxos de trabalho de e-mail transacionais, de campanha e de ciclo de vida do Sequenzy.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "appfuzz",
+      "links": [
+        "https://github.com/StephanSchmidt/appfuzz"
+      ],
+      "stars": 2,
+      "language": "Rust",
+      "license": "MIT",
+      "summary": "Fuzz aplicativos WebAssembly em vez de revisá-los: falhas, XSS, consultas n+1. Saída JSON, construído para agentes de IA.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "ai-usage-meter-vscode",
+      "links": [
+        "https://github.com/theluckystrike/ai-usage-meter-vscode"
+      ],
+      "stars": 2,
+      "language": "JavaScript",
+      "license": "MIT",
+      "summary": "Medidor de Uso de Código Claude e Custo de Uso Codex para VS Code: tokens e custo de logs de sessão locais, sem rede.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "imagera-skills",
+      "links": [
+        "https://github.com/alexadams6ix/imagera-skills"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "summary": "Servidor MCP para geração de imagens e vídeos em Claude, Claude Code, Cursor e ChatGPT: o plugin Imagera adiciona o servidor mais 37 habilidades (fotos de produtos, anúncios, UGC, reels, Character IDs) a Claude Code, Codex, Cursor, Copilot CLI, Gemini CLI e Grok CLI.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "linkjolt-mcp-server",
+      "links": [
+        "https://github.com/Efesop/linkjolt-mcp-server"
+      ],
+      "stars": 2,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "Servidor LinkJolt MCP: configure e execute seu programa de afiliados a partir de Claude, ChatGPT, Cursor, Gemini ou qualquer cliente MCP.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "gsc-pap-claude-plugin",
+      "links": [
+        "https://github.com/aliarifsoydas/gsc-pap-claude-plugin"
+      ],
+      "stars": 2,
+      "license": "MIT",
+      "summary": "38 ferramentas de SEO somente leitura sobre MCP para Claude, ChatGPT, Cursor e qualquer cliente MCP: Google Search Console + GA4 + PageSpeed + SERPs ao vivo. Gratuito, hospedado, sem projeto GCP, histórico dos últimos 16 meses.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "charts",
+      "links": [
+        "https://github.com/revolist/charts"
+      ],
+      "stars": 1,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "RevoGrid Charts: gráficos JavaScript interativos para relatórios e dashboards, com exemplos em TypeScript, React, Vue e Angular.",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "scopehaven-oss",
+      "links": [
+        "https://github.com/YusefSyed/scopehaven-oss"
+      ],
+      "stars": 1,
+      "language": "JavaScript",
+      "license": "Apache-2.0",
+      "summary": "Teste de segurança para agentes de IA: verifica o que um agente realmente fez em seu aplicativo, não o que ele disse. Local, determinístico, Apache-2.0.",
+      "date": "2026-11-07"
+    },
     {
       "title": "player",
       "links": [
