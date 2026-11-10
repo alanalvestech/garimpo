@@ -1,8 +1,91 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-11-05 18:07 UTC",
+  "updated_at": "2026-11-10 17:58 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "SWAM: Dimensionando Modelos de Ação Mundiais com Alinhamento Cross-Modal",
+      "links": [
+        "https://arxiv.org/abs/2611.12870"
+      ],
+      "summary": "Modelos de ação mundiais preveem vídeo e ações; o aprendizado de ações pode prejudicar o alinhamento linguagem-vídeo. SWAM, treinado com 47.000 horas de vídeo, alcança 88,10% de sucesso em tarefas reais, tratando o alinhamento como um problema de dados e supervisão.",
+      "authors": [
+        "Yu Zhou",
+        "Xinyuan Xia",
+        "Xuankun Yang",
+        "Cewu Lu",
+        "Yanwei Li et al."
+      ],
+      "published_at": "2026-11-09",
+      "date": "2026-11-09"
+    },
+    {
+      "title": "Aprendizado In-Contexto Mundial para Manipulação Robótica Agente",
+      "links": [
+        "https://arxiv.org/abs/2611.12885"
+      ],
+      "summary": "WICL permite que robôs aprendam tarefas de manipulação in-contexto, mantendo o modelo congelado e usando feedback de um simulador. Ele alcança 83,4% de sucesso médio em 50 tarefas RoboTwin 2.0 com uma única demonstração, superando políticas treinadas.",
+      "authors": [
+        "Heng Fang",
+        "Zehui Guo",
+        "Yuehan Zhang",
+        "Mingyang Du",
+        "Dingkang Liang",
+        "Xiang Bai"
+      ],
+      "published_at": "2026-11-09",
+      "date": "2026-11-09"
+    },
+    {
+      "title": "Sage-Taiyi: Uma Arquitetura Metacognitiva para Descoberta Científica",
+      "links": [
+        "https://arxiv.org/abs/2611.12762"
+      ],
+      "summary": "Sage-Taiyi é uma arquitetura metacognitiva que monitora evidências e escolhe métodos de raciocínio para descoberta científica. Ela alcança 84% de rendimento em carbonilação catalisada por cobalto e 69% em aminação alílica fotocatalítica, com resultados de laboratório.",
+      "authors": [
+        "Weida Wang",
+        "Benteng Chen",
+        "Dahua Lin",
+        "Xing Xie",
+        "Bowen Zhou",
+        "Lei Bai",
+        "Wenlong Zhang et al."
+      ],
+      "published_at": "2026-11-09",
+      "date": "2026-11-09"
+    },
+    {
+      "title": "A Generalização de Persona é Previsível?",
+      "links": [
+        "https://arxiv.org/abs/2611.12864"
+      ],
+      "summary": "O ajuste fino em um domínio pode induzir personas em outros, indicando desalinhamento emergente. Taxas de persona dentro e fora do domínio seguem uma relação probit-linear, e o ajuste fino apenas em camadas posteriores pode mitigar o desalinhamento fora do domínio.",
+      "authors": [
+        "Olina Mukherjee",
+        "Arnav Goel",
+        "Aditi Raghunathan",
+        "Jacob Mitchell Springer"
+      ],
+      "published_at": "2026-11-09",
+      "date": "2026-11-09"
+    },
+    {
+      "title": "Avaliações Duplo-Cegas: Resolvendo o Dilema da Confidencialidade Dupla na Auditoria de Segurança de IA",
+      "links": [
+        "https://arxiv.org/abs/2611.12604"
+      ],
+      "summary": "Este trabalho executa avaliações de segurança de IA dentro de um enclave seguro NVIDIA H100, protegendo prompts de avaliadores e pesos de modelos. Um piloto avaliou um modelo proprietário do Google DeepMind, eliminando a necessidade de vazar benchmarks ou pesos em auditorias de modelos fechados.",
+      "authors": [
+        "Andrew Trask",
+        "Sol Messing",
+        "Miles Brundage",
+        "Sean McGregor",
+        "William Isaac",
+        "Kristian Lum et al."
+      ],
+      "published_at": "2026-11-09",
+      "date": "2026-11-09"
+    },
     {
       "title": "De Pixels a Ações, Rumo a Políticas Nativas de Visão-Linguagem-Ação",
       "links": [
