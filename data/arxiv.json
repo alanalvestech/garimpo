@@ -1,8 +1,90 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-11-10 17:58 UTC",
+  "updated_at": "2026-11-11 17:56 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Uma Teoria de Otimização de Políticas no Pós-Treinamento: Colapso de Cobertura e Redefinições de Referência",
+      "links": [
+        "https://arxiv.org/abs/2611.14467"
+      ],
+      "summary": "REINFORCE, o motor por trás de PPO e GRPO, pode levar a probabilidade de respostas ótimas a zero, mesmo com o aumento da recompensa, resultando em convergência lenta. Redefinir repetidamente a referência KL para a política mais recente restaura atualizações que preservam a cobertura, oferecendo uma solução para uma falha comum em RLVR e indicando quais regularizadores mantêm a cobertura do modelo base.",
+      "authors": [
+        "Audrey Huang",
+        "Nan Jiang",
+        "Sham M. Kakade",
+        "Sadhika Malladi",
+        "Akshay Krishnamurthy",
+        "Dylan J. Foster"
+      ],
+      "published_at": "2026-11-10",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "Capacidades Biológicas Emergentes em um Modelo de Fundação para Interações Moleculares",
+      "links": [
+        "https://arxiv.org/abs/2611.14504"
+      ],
+      "summary": "Bonbon, um modelo treinado com 3,2 trilhões de tokens de sequências de proteína-ligante, demonstra capacidades biológicas emergentes, como mecanismo de ação e localização de sítios de ligação, sem rótulos de tarefa. O modelo supera métodos de co-folding em velocidade e alcança 61,5% de resposta à dose em validação laboratorial, provando que as leis de escala baseadas em perda podem ignorar o surgimento de capacidades zero-shot.",
+      "authors": [
+        "Adi Mashiach"
+      ],
+      "published_at": "2026-11-10",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "UGG: Modelo de Geometria Generativa Unificado",
+      "links": [
+        "https://arxiv.org/abs/2611.14440"
+      ],
+      "summary": "UGG unifica preditores de geometria e modelos de vídeo generativos em um único modelo, integrando RGB, profundidade e pose da câmera através de diferentes níveis de ruído. Isso permite que a geração e a previsão geométrica sejam completadas condicionalmente, eliminando a necessidade de arquiteturas separadas para vídeo controlado por câmera, profundidade e pose.",
+      "authors": [
+        "Amani Kiruga",
+        "Zhiyi Li",
+        "Ruojin Cai",
+        "Hansen Lillemark",
+        "Xiaoshan Wu",
+        "Ayush Tewari",
+        "Yilun Du"
+      ],
+      "published_at": "2026-11-10",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "Descoberta Contrastiva: Descoberta Científica Aberta sobre Explicações Concorrentes",
+      "links": [
+        "https://arxiv.org/abs/2611.14514"
+      ],
+      "summary": "A Descoberta Contrastiva substitui o teste de hipóteses contra sua negação por um conjunto de contrastes mutuamente exclusivos, avaliando experimentos pela redistribuição de crenças. Este método resolve 73% das rejeições para uma alternativa específica e 67% mais questões com o mesmo orçamento experimental, transformando uma rejeição em uma explicação concorrente para um co-cientista de IA.",
+      "authors": [
+        "Ziang Liu",
+        "James J. Kim",
+        "Yijia Dai",
+        "Jennifer J. Sun"
+      ],
+      "published_at": "2026-11-10",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "ARE-bench: Avaliando a Capacidade de Pesquisa de Agentes em Sessões e Espaços de Trabalho Reais de Pesquisadores",
+      "links": [
+        "https://arxiv.org/abs/2611.14364"
+      ],
+      "summary": "ARE-bench avalia agentes de pesquisa em 75 tarefas de sessões reais de pesquisadores, incluindo arquivos incompletos e tentativas falhas, ao contrário dos benchmarks que usam ambientes limpos. O modelo mais forte completa apenas 66,2% das tarefas, e a inclusão de requisitos históricos e de espaço de trabalho reduz as pontuações para 28,4, 40,0%, indicando que as métricas atuais de agentes de pesquisa são inflacionadas.",
+      "authors": [
+        "Jiahang Lin",
+        "Wanying Ren",
+        "Wanghan Xu",
+        "Huayu Sha",
+        "Yang Shu",
+        "Qi Zhang",
+        "Tao Gui",
+        "Xuanjing Huang",
+        "et al. (27 authors)"
+      ],
+      "published_at": "2026-11-10",
+      "date": "2026-11-10"
+    },
     {
       "title": "SWAM: Dimensionando Modelos de Ação Mundiais com Alinhamento Cross-Modal",
       "links": [
