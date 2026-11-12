@@ -5,7 +5,499 @@
     <link>https://github.com/alanalvestech/garimpo</link>
     <description>Notícias diárias de tecnologia, em português.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 12 Nov 2026 01:35:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 18:30:55 +0000</lastBuildDate>
+    <item>
+      <title>Memória de Agente de Codificação Pós-Treinamento II: Desbloqueando o Potencial de Memória de Operações de Arquivo Pré-treinadas para Tarefas de Longo Horizonte via Destilação On-Policy</title>
+      <link>https://arxiv.org/abs/2611.14009</link>
+      <description>Lirui Luo, Kelong Mao, Xinwei Yang, Rongqing Li, Luyu Chen, Kieran Wong, Yudong Guo, Xinrui Wang, Jiayin Zhu, Gu Simiu, Sulong Xu, Cong Fang
+
+CAMP-II permite que agentes de codificação usem operações de arquivo como interface de memória, treinando uma política em diversas tarefas com destilação assíncrona. Isso transforma a memória de longo prazo em uma habilidade nativa de arquivo, demonstrando ganhos significativos em benchmarks de codificação.
+
+Publicado em 10/11/2026</description>
+      <category>Arxiv</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.14009</guid>
+    </item>
+    <item>
+      <title>BioXArena-Pro: um benchmark de nível de pesquisa para agentes autônomos de aprendizado de máquina biomédico</title>
+      <link>https://arxiv.org/abs/2611.13994</link>
+      <description>Loka Li, Duzhen Zhang, Xingbo Du, Leonard Song, Kun Zhang, Le Song
+
+BioXArena-Pro é um benchmark de pesquisa que reconstrói 64 estudos de modelagem biomédica, avaliando agentes em tarefas complexas e resistentes a vazamentos. Ele mostra que a arquitetura e o reuso de modelos de base são cruciais para o desempenho, não apenas o LLM.
+
+Publicado em 10/11/2026</description>
+      <category>Arxiv</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.13994</guid>
+    </item>
+    <item>
+      <title>Compreendendo Modelos de Linguagem Mixture-of-Experts Além dos Limites dos Especialistas</title>
+      <link>https://arxiv.org/abs/2611.13975</link>
+      <description>Zhenhong Zhou, Mao Zheng, Mingyang Song, Qiankun Li, Kun Wang, Junfeng Fang
+
+Routing-Aware Magnitude Profiling revela que conjuntos de neurônios especializados por domínio se sobrepõem significativamente dentro de um domínio e menos entre eles. Uma regra de poda baseada nessa medida, RAMPr, mantém 91-98% do desempenho do modelo completo com 75% de retenção de neurônios, reduzindo a memória da GPU e aumentando o preenchimento em lote.
+
+Publicado em 10/11/2026</description>
+      <category>Arxiv</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.13975</guid>
+    </item>
+    <item>
+      <title>ZoomGain: Minando Lacunas de Percepção Global-para-Zoom para Supervisão Visual de Granularidade Fina</title>
+      <link>https://arxiv.org/abs/2611.14076</link>
+      <description>Haozhan Shen, Liangbo He, Jun Lan, Huijia Zhu, Weiqiang Wang, Tiancheng Zhao, Jianwei Yin
+
+ZoomGain cria perguntas a partir de lacunas de percepção em VLMs, onde detalhes finos são perdidos na imagem completa, mas visíveis ao ampliar. Treinar com apenas 9 mil amostras do ZoomGain permite que modelos menores superem sistemas maiores em benchmarks de percepção, abordando uma falha comum dos VLMs sem edição humana.
+
+Publicado em 10/11/2026</description>
+      <category>Arxiv</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.14076</guid>
+    </item>
+    <item>
+      <title>Da Superfície de Ataque à Arquitetura de Defesa: Segurança Composicional para Ferramentas de Codificação Agênticas</title>
+      <link>https://arxiv.org/abs/2611.13960</link>
+      <description>Simon Hegelich, Bardh Prenkaj, Habiba Sarhan, Morteza Shahrezaye, Kolja Hegelich, Christian Montag, Ralf Schneider, Erik Cambria
+
+ActiveSecHarness trata a segurança de agentes de codificação como uma arquitetura de permissões, separando inteligência de autoridade com tokens de capacidade HMAC e guardas de SO Ring-0. Ele demonstra que essa abordagem é mais rápida e eficaz do que guardrails baseados em LLM-as-judge, que são lentos e hostis ao trabalho real.
+
+Publicado em 10/11/2026</description>
+      <category>Arxiv</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.13960</guid>
+    </item>
+    <item>
+      <title>[AINews] D-Day (Dia dos Modelos de Decisão)</title>
+      <link>https://latent.space/p/ainews-d-day-decision-models-day</link>
+      <description>O Google entrou no mercado de modelos de decisão em 11 de novembro de 2026. Na AI Engineer, a Cloudflare demonstrou a capacidade de um classificador em gerenciar falhas de construção, enquanto a TypeSafe AI apresentou seus clientes de produção.
+
+Publicado em 12/11/2026</description>
+      <category>Blogs</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://latent.space/p/ainews-d-day-decision-models-day</guid>
+    </item>
+    <item>
+      <title>A Revolução Jev: O Que Engenheiros Já Estão Construindo com Modelos de Sistema Um</title>
+      <link>https://latent.space/p/jev-revolution</link>
+      <description>Diogo Almeida
+
+No AI Engineer Code Summit, Diogo Almeida, criador do Jev, incentivou desenvolvedores a automatizar processos. Empresas como Glean demonstraram o uso do Jev em suas operações.
+
+Publicado em 12/11/2026</description>
+      <category>Blogs</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://latent.space/p/jev-revolution</guid>
+    </item>
+    <item>
+      <title>Como Nosso Agente GTM Constrói Artefatos de Vendas Consistentes e de Alta Qualidade</title>
+      <link>https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts</link>
+      <description>A LangChain desenvolveu o Agente GTM usando Deep Agents para gerar artefatos de vendas personalizados. Estes artefatos são de alta qualidade e treinados com base no contexto de negócios.
+
+Publicado em 12/11/2026</description>
+      <category>Blogs</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts</guid>
+    </item>
+    <item>
+      <title>A Opinião da The Sequence - Edição #970: A Pressão de Financiamento da Neocloud</title>
+      <link>https://thesequence.substack.com/p/the-sequence-opinion-issue-970-the</link>
+      <description>O artigo explora como a alta demanda por inteligência artificial pode coexistir com balanços financeiros frágeis.
+
+Publicado em 12/11/2026</description>
+      <category>Blogs</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://thesequence.substack.com/p/the-sequence-opinion-issue-970-the</guid>
+    </item>
+    <item>
+      <title>Jensen Huang da Nvidia, seria um caso interno desta vez...?</title>
+      <link>https://blog.naver.com/ranto28/224474203548?fromRss=true&amp;trackingCode=rss</link>
+      <description>O artigo discute a estrutura de tomada de decisão da Nvidia, onde Jensen Huang supervisiona diretamente finanças, vendas, operações e assuntos jurídicos. Diferente de empresas como a Samsung, a Nvidia não possui divisões ou unidades de negócios separadas, com Huang atuando como chefe de divisão e unidade de negócios.
+
+Publicado em 12/11/2026</description>
+      <category>Blogs</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.naver.com/ranto28/224474203548?fromRss=true&amp;trackingCode=rss</guid>
+    </item>
+    <item>
+      <title>Após os Chips, Onde Está a Próxima Oportunidade de Crescimento?</title>
+      <link>https://aidisruption.ai/p/after-chips-where-is-the-next-growth</link>
+      <description>O Morgan Stanley aponta cinco ações de software que convertem IA em serviços empresariais. As empresas destacadas são Snowflake, Datadog, ServiceNow, Cloudflare e Palantir.
+
+Publicado em 12/11/2026</description>
+      <category>Blogs</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://aidisruption.ai/p/after-chips-where-is-the-next-growth</guid>
+    </item>
+    <item>
+      <title>6 Tipos de Isolamento no Código Claude, Classificados para Você</title>
+      <link>https://aidisruption.ai/p/6-types-of-isolation-in-claude-code</link>
+      <description>O artigo explora seis opções de isolamento para o Código Claude, incluindo /sandbox, VMs e sessões em nuvem. Ele orienta sobre qual limite se adequa melhor ao modelo de ameaça do usuário.
+
+Publicado em 12/11/2026</description>
+      <category>Blogs</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://aidisruption.ai/p/6-types-of-isolation-in-claude-code</guid>
+    </item>
+    <item>
+      <title>As Próximas Histórias de Origem dos Jogos</title>
+      <link>https://www.a16z.news/p/gamings-next-origin-stories</link>
+      <description>O texto aborda o potencial da inteligência artificial para desenvolvedores independentes, criadores de ferramentas e estúdios de jogos.
+
+Publicado em 12/11/2026</description>
+      <category>Blogs</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.a16z.news/p/gamings-next-origin-stories</guid>
+    </item>
+    <item>
+      <title>Minimaxir.bsky.social não havia considerado o ângulo do Hugging Face nas notícias da NVIDIA.</title>
+      <link>https://bsky.app/profile/minimaxir.bsky.social/post/3n24zbuy7622l</link>
+      <description>@minimaxir.bsky.social
+
+O CEO do Hugging Face prometeu continuar lutando pela IA de código aberto após a possível saída de Jensen Huang. Minimaxir.bsky.social expressa surpresa por não ter pensado nessa perspectiva.</description>
+      <category>Bluesky</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://bsky.app/profile/minimaxir.bsky.social/post/3n24zbuy7622l</guid>
+    </item>
+    <item>
+      <title>Gemini 4 Carbon se destaca em SVGs de pelicanos, mas isso não é novidade para Gemini.</title>
+      <link>https://simonwillison.net/2026/Nov/10/</link>
+      <description>@simonwillison.net
+
+Simonwillison.net observa que o Gemini 4 Carbon é eficaz com SVGs de pelicanos, uma capacidade já presente no Gemini. Ele também apresenta uma demonstração de um mech-stomping em Manhattan usando Three.js e OpenStreetMap.
+
+Também em: https://bsky.app/profile/simonwillison.net/post/3mzyd7r6ttc24</description>
+      <category>Bluesky</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Nov/10/</guid>
+    </item>
+    <item>
+      <title>Minimaxir.bsky.social relata ganhos de velocidade com Fable 5.2.</title>
+      <link>https://bsky.app/profile/minimaxir.bsky.social/post/3n22ophq4mc2o</link>
+      <description>@minimaxir.bsky.social
+
+Minimaxir.bsky.social questiona o desempenho do Fable 5.2 e relata acelerações significativas em seu software já otimizado. Ele considera o uso da ferramenta para 50% de suas aplicações.</description>
+      <category>Bluesky</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://bsky.app/profile/minimaxir.bsky.social/post/3n22ophq4mc2o</guid>
+    </item>
+    <item>
+      <title>A profissão de programador foi transformada pela IA em menos de um ano.</title>
+      <link>https://bsky.app/profile/emollick.bsky.social/post/3n22xdtz4kk2i</link>
+      <description>@emollick.bsky.social
+
+Emollick.bsky.social observa que pessoas sem contato com programadores não percebem a transformação da profissão pela IA em menos de um ano. Ele critica comentários que negam a mudança ou a qualidade do código gerado por IA.</description>
+      <category>Bluesky</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://bsky.app/profile/emollick.bsky.social/post/3n22xdtz4kk2i</guid>
+    </item>
+    <item>
+      <title>O lançamento de "The Last Human Game" marcará o fim dos jogos AAA sem assistência de IA.</title>
+      <link>https://bsky.app/profile/emollick.bsky.social/post/3mzzzl3lbbs2i</link>
+      <description>@emollick.bsky.social
+
+Emollick.bsky.social prevê que "The Last Human Game" será o último jogo AAA da escala de GTA 6 produzido sem assistência de IA. Ele sugere que futuros observadores verão jogos totalmente humanos com orçamentos bilionários com a mesma admiração das Pirâmides.</description>
+      <category>Bluesky</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://bsky.app/profile/emollick.bsky.social/post/3mzzzl3lbbs2i</guid>
+    </item>
+    <item>
+      <title>Uma Tabela, Muitas Consultas: Avaliando Modelos Tabulares Generalistas em Geração, Imputação e Predição</title>
+      <link>https://huggingface.co/papers/2611.13001</link>
+      <description>Publicado em 08/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.13001</guid>
+    </item>
+    <item>
+      <title>Escalonamento em Tempo de Teste para Modelos de Linguagem de Difusão com Remascaramento Sensível à Frequência</title>
+      <link>https://huggingface.co/papers/2611.10486</link>
+      <description>Publicado em 07/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.10486</guid>
+    </item>
+    <item>
+      <title>LEASH: Mantenha-se Seguro na Robótica Agente</title>
+      <link>https://huggingface.co/papers/2611.14115</link>
+      <description>Publicado em 10/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.14115</guid>
+    </item>
+    <item>
+      <title>GTAGym: Ambiente de Tarefas de Jogos AAA Reais para Avaliação e Aprendizado por Reforço</title>
+      <link>https://huggingface.co/papers/2611.13028</link>
+      <description>Publicado em 09/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.13028</guid>
+    </item>
+    <item>
+      <title>Incentivando o Autoaprendizado em Grandes Modelos de Linguagem via Aprendizado por Reforço</title>
+      <link>https://huggingface.co/papers/2610.39671</link>
+      <description>Publicado em 29/10/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.39671</guid>
+    </item>
+    <item>
+      <title>Similaridade Visual na Extensão de Palavras em Adultos e Aprendizagem de Palavras Artificiais</title>
+      <link>https://huggingface.co/papers/2611.14116</link>
+      <description>Publicado em 10/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.14116</guid>
+    </item>
+    <item>
+      <title>LO-World: Modelagem Latente BEV Unificada para Previsão Conjunta de Ocupação 4D e LiDAR</title>
+      <link>https://huggingface.co/papers/2611.11912</link>
+      <description>Publicado em 09/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.11912</guid>
+    </item>
+    <item>
+      <title>Prompt2Echo (P2Echo): Segmentação de Ecocardiografia Multivisualização Acionada por Texto com Um Modelo</title>
+      <link>https://huggingface.co/papers/2611.13425</link>
+      <description>Publicado em 10/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.13425</guid>
+    </item>
+    <item>
+      <title>ScroogeFrog AI</title>
+      <link>https://www.producthunt.com/products/scroogefrog-ai-antifraud?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>ScroogeFrog AI ajuda anunciantes a identificar desperdícios em orçamentos de publicidade. Ele audita o tráfego do site e campanhas do Google Ads para identificar cliques suspeitos, comportamento de bots e gastos de baixo desempenho, convertendo dados complexos em sugestões de melhoria.
+
+Também em: https://www.producthunt.com/r/XOB5A3DWYCGOGG?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/scroogefrog-ai-antifraud?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Nod by n8n</title>
+      <link>https://www.producthunt.com/products/n8n-io?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Nod é um assistente pessoal de código aberto que automatiza tarefas em aplicativos e sites, rodando em um ambiente privado no seu computador. Ele executa apenas comandos explícitos, confirmando ações não especificadas, e pode se conectar a serviços de IA de sua escolha.
+
+Também em: https://www.producthunt.com/r/BVJTK5BATUSE7H?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/n8n-io?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>CALL-E</title>
+      <link>https://www.producthunt.com/products/call-e?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>CALL-E permite que assistentes de IA como Muse, ChatGPT ou Claude façam chamadas telefônicas para agendar, consultar preços ou verificar estoque. Ele lida com menus telefônicos, esperas e caixas postais, fornecendo um resumo, transcrição e resultado da chamada.
+
+Também em: https://www.producthunt.com/r/Z5CBMYNIDVYDRO?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/call-e?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Scribe v3 da ElevenLabs</title>
+      <link>https://www.producthunt.com/products/elevenlabs?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>ElevenLabs
+
+Scribe v3 é o modelo de fala para texto mais preciso da ElevenLabs, projetado para desenvolvedores e transcrição de chamadas, reuniões e entrevistas. Ele reduziu a taxa de erro de palavras em 27% em mais de 90 idiomas em comparação com a versão anterior.
+
+Também em: https://www.producthunt.com/r/5KPGASERAIN5AK?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/elevenlabs?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Skillbox</title>
+      <link>https://www.producthunt.com/products/skillbox-5?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Skillbox gerencia e sincroniza habilidades de IA para plataformas como Claude Code, Cursor e Codex. Ele permite monitorar o código-fonte no GitHub, revisar diferenças e escanear versões para prevenir injeções de prompt.
+
+Também em: https://www.producthunt.com/r/X2BEUWEGGSVMCM?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/skillbox-5?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>MiniMax H3-Image</title>
+      <link>https://www.producthunt.com/products/minimax?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>MiniMax H3-Image é um modelo de geração e edição de imagens nativo de 16MP de código aberto. Ele completa operações em seis etapas de difusão, suportando geração de texto para imagem, edição de imagem e até 16 imagens de referência em um único modelo.
+
+Também em: https://www.producthunt.com/r/4HM3TRIWLZXN7K?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/minimax?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Relay</title>
+      <link>https://www.producthunt.com/products/relaytoai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Relay adiciona informações de contexto a documentos, permitindo que assistentes de IA e destinatários compreendam o conteúdo. Ele garante que decisões como descontos ou agendamentos sejam confirmadas pelo usuário.
+
+Também em: https://www.producthunt.com/r/NH66BMRYJHZFJH?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/relaytoai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Shot.video</title>
+      <link>https://www.producthunt.com/products/shot-video?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Shot.video transforma seu laptop e celular em um estúdio de gravação multicâmera. Ele sincroniza a gravação de múltiplos ângulos e usa IA para editar automaticamente, alternando cenas com base no foco do olhar e adicionando zooms e close-ups.
+
+Também em: https://www.producthunt.com/r/KBYLL6REYTIYL3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/shot-video?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Avaliações do Reddit</title>
+      <link>https://www.producthunt.com/products/reddit?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Reddit Reviews organiza discussões sobre produtos, destacando as opiniões e resumos mais importantes da comunidade. Ele oferece uma nova experiência para entender o sentimento dos subreddits.
+
+Também em: https://www.producthunt.com/r/WTFLJV7NTOIIFD?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/reddit?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Seedream 5.5 da ByteDance</title>
+      <link>https://www.producthunt.com/products/seedream-4-0?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>ByteDance
+
+Seedream 5.5 é o mais recente modelo de imagem de IA da ByteDance, permitindo até 100 edições consecutivas mantendo pixels inalterados. Ele gera materiais com fundo transparente nativo, produzindo imagens com iluminação natural e texturas realistas.
+
+Também em: https://www.producthunt.com/r/UIPBIBZW2SKX2W?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/seedream-4-0?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Valin</title>
+      <link>https://www.producthunt.com/products/valin?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Valin é um aplicativo de memória privada que salva vídeos, posts, artigos e documentos de vários aplicativos. Ele entende o conteúdo dos vídeos, permitindo encontrar informações mesmo sem lembrar de tê-las salvo.
+
+Também em: https://www.producthunt.com/r/J4H43QADOPBUWX?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/valin?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Xolace</title>
+      <link>https://www.producthunt.com/products/xolace?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Xolace ajuda a organizar pensamentos e oferece sugestões para dias difíceis, como conversar com um apoiador treinado ou ouvir áudios guiados. É uma ferramenta gratuita para auto-reflexão e suporte emocional.
+
+Também em: https://www.producthunt.com/r/OJD26HFPR74MML?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/xolace?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Stiro</title>
+      <link>https://www.producthunt.com/products/stiro?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Stiro é um assistente de integração e sucesso do cliente para SaaS, que se integra com uma tag de script. Ele resolve problemas e atende a solicitações operando dentro do seu produto em tempo real com o usuário.
+
+Também em: https://www.producthunt.com/r/Q4IZFOBLBGLJSX?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/stiro?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Kippy AI</title>
+      <link>https://www.producthunt.com/products/kippy-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Kippy é um parceiro de aprendizado de idiomas com IA, que ajuda a praticar a fala. Ele tem uma personalidade própria e ensina novos idiomas de forma divertida e envolvente.
+
+Também em: https://www.producthunt.com/r/TQ7WKXA24KBTB5?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/kippy-ai?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Earlybird</title>
+      <link>https://www.producthunt.com/products/earlybird-5?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Earlybird é um modelo local de fala para texto com 29 milhões de parâmetros e 17MB de tamanho. Ele prevê palavras com precisão cerca de 90 milissegundos antes de serem concluídas, fornecendo também a confiança para cada palavra.
+
+Também em: https://www.producthunt.com/r/X4VPYPLML7FXNO?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/earlybird-5?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Austin Lau, ex-Anthropic, anuncia sua entrada na OpenAI</title>
+      <link>https://x.com/helloitsaustin/status/2118161804463595931</link>
+      <description>Austin Lau, que ajudou a construir a função de crescimento da Anthropic, anunciou sua entrada na OpenAI.</description>
+      <category>Twitter</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/helloitsaustin/status/2118161804463595931</guid>
+    </item>
+    <item>
+      <title>Codex Security: Da Vulnerabilidade à Correção Verificada | DevDay 2026</title>
+      <link>https://www.youtube.com/watch?v=gUQN7juxvVI</link>
+      <description>O vídeo aborda a segurança do Codex, focando na transição de vulnerabilidades para correções verificadas, conforme apresentado no DevDay 2026.</description>
+      <category>Youtube</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=gUQN7juxvVI</guid>
+    </item>
+    <item>
+      <title>Next.js, mas para agentes de IA: por dentro do eve da Vercel</title>
+      <link>https://www.youtube.com/watch?v=K6HMKNECgqk</link>
+      <description>O vídeo explora o eve da Vercel, uma ferramenta descrita como o Next.js para agentes de IA.</description>
+      <category>Youtube</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=K6HMKNECgqk</guid>
+    </item>
+    <item>
+      <title>A Primeira Mensagem de uma IA Superinteligente Vazou.. Temos Até Janeiro</title>
+      <link>https://www.youtube.com/watch?v=UtpOOfxLVTA</link>
+      <description>O vídeo aborda o vazamento da primeira mensagem de uma IA superinteligente, indicando um prazo até janeiro.</description>
+      <category>Youtube</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=UtpOOfxLVTA</guid>
+    </item>
+    <item>
+      <title>O Próximo Mercado Trilionário da IA Não é Software | Max Jaderberg, Presidente da Isomorphic Labs</title>
+      <link>https://www.youtube.com/watch?v=yIFhTVMOH98</link>
+      <description>Max Jaderberg
+
+A Isomorphic Labs, liderada por Max Jaderberg, usa IA para projetar medicamentos computacionalmente, combinando modelos generativos com simulações de laboratório virtual. Isso permite testar menos moléculas experimentalmente, transformando a missão de "resolver todas as doenças" em metas mensuráveis.</description>
+      <category>Youtube</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=yIFhTVMOH98</guid>
+    </item>
+    <item>
+      <title>Demis Hassabis da Google DeepMind: Como a IA pode se tornar perigosa (com Reid Hoffman) | Summit '26</title>
+      <link>https://www.youtube.com/watch?v=x7Z_1miRWB8</link>
+      <description>Demis Hassabis, Reid Hoffman
+
+Demis Hassabis, da Google DeepMind, discute com Reid Hoffman como a inteligência artificial pode se tornar perigosa, em uma apresentação no Summit '26.</description>
+      <category>Youtube</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=x7Z_1miRWB8</guid>
+    </item>
+    <item>
+      <title>Minhas Reflexões Brutalmente Honestas Sobre a Bolha da IA.</title>
+      <link>https://www.youtube.com/watch?v=w1dRDj1QRks</link>
+      <description>Steve Eisman
+
+Steve Eisman compartilha suas reflexões honestas sobre a bolha da inteligência artificial.</description>
+      <category>Youtube</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=w1dRDj1QRks</guid>
+    </item>
+    <item>
+      <title>Massacre nas Eleições de Meio de Mandato, Venda de US$ 4T em IA, Congelamento de Data Centers, O Que Vem Por Aí para Trump</title>
+      <link>https://www.youtube.com/watch?v=2v8b062QzTI</link>
+      <description>O podcast analisa a derrota republicana nas eleições de meio de mandato, debatendo a recuperação de Trump e as ameaças da política de data centers e regulamentação de IA ao setor. O episódio também aborda a alegação da OpenAI de refutar a hipótese do tempo exponencial.</description>
+      <category>Youtube</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=2v8b062QzTI</guid>
+    </item>
+    <item>
+      <title>Bolha da IA: OpenAI não sobreviverá até 2028 | Ed Zitron</title>
+      <link>https://www.youtube.com/watch?v=YB3XE8mWNF0</link>
+      <description>Ed Zitron
+
+Ed Zitron argumenta que a OpenAI não sobreviverá até 2028, em uma discussão sobre a bolha da inteligência artificial.</description>
+      <category>Youtube</category>
+      <pubDate>Thu, 12 Nov 2026 18:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=YB3XE8mWNF0</guid>
+    </item>
     <item>
       <title>rocketride-server</title>
       <link>https://github.com/rocketride-org/rocketride-server</link>
@@ -541,6 +1033,22 @@ Também em: https://news.ycombinator.com/item?id=50422069</description>
       <guid isPermaLink="true">https://twitter.com/shanemelaugh/status/2119192075505893695</guid>
     </item>
     <item>
+      <title>Primeiro Exame Incorporado</title>
+      <link>https://huggingface.co/papers/2611.12177</link>
+      <description>Publicado em 09/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.12177</guid>
+    </item>
+    <item>
+      <title>PhyRubric: Avaliação Diagnóstica Baseada em Rubrica do Senso Comum Físico na Geração de Texto para Vídeo</title>
+      <link>https://huggingface.co/papers/2611.13576</link>
+      <description>Publicado em 10/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.13576</guid>
+    </item>
+    <item>
       <title>Tree-Ising: Reparando Modelos de Linguagem com Edições Ising em Nível de Bit</title>
       <link>https://huggingface.co/papers/2611.14210</link>
       <description>Também em: https://arxiv.org/abs/2611.14210</description>
@@ -615,16 +1123,6 @@ Também em: https://arxiv.org/abs/2611.13348</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.13348</guid>
     </item>
     <item>
-      <title>Primeiro Exame Incorporado</title>
-      <link>https://huggingface.co/papers/2611.12177</link>
-      <description>Publicado em 09/11/2026
-
-Também em: https://arxiv.org/abs/2611.12177</description>
-      <category>Papers</category>
-      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.12177</guid>
-    </item>
-    <item>
       <title>WaveGen: Geração de Forma de Onda Verdadeiramente Ponta a Ponta via Aprendizagem de Trajetória Espectral Interna</title>
       <link>https://huggingface.co/papers/2611.12527</link>
       <description>Publicado em 09/11/2026
@@ -633,483 +1131,6 @@ Também em: https://arxiv.org/abs/2611.12527</description>
       <category>Papers</category>
       <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.12527</guid>
-    </item>
-    <item>
-      <title>DepthGraft: Regularização Estrutural através da Reconstrução Hierárquica de KV entre Camadas</title>
-      <link>https://huggingface.co/papers/2611.03142</link>
-      <description>Publicado em 02/11/2026
-
-Também em: https://arxiv.org/abs/2611.03142</description>
-      <category>Papers</category>
-      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.03142</guid>
-    </item>
-    <item>
-      <title>PhyRubric: Avaliação Diagnóstica Baseada em Rubrica do Senso Comum Físico na Geração de Texto para Vídeo</title>
-      <link>https://huggingface.co/papers/2611.13576</link>
-      <description>Também em: https://arxiv.org/abs/2611.13576</description>
-      <category>Papers</category>
-      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.13576</guid>
-    </item>
-    <item>
-      <title>ScroogeFrog AI</title>
-      <link>https://www.producthunt.com/products/scroogefrog-ai-antifraud</link>
-      <description>Também em: https://www.producthunt.com/r/XOB5A3DWYCGOGG</description>
-      <category>Product</category>
-      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/scroogefrog-ai-antifraud</guid>
-    </item>
-    <item>
-      <title>Nod por n8n</title>
-      <link>https://www.producthunt.com/products/n8n-io</link>
-      <description>Também em: https://www.producthunt.com/r/BVJTK5BATUSE7H
-
-Também em: https://ph-files.imgix.net/681c69ed-1d0a-45f5-9d72-65dc3a62964c.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/n8n-io</guid>
-    </item>
-    <item>
-      <title>CALL-E</title>
-      <link>https://www.producthunt.com/products/call-e</link>
-      <description>Também em: https://www.producthunt.com/r/Z5CBMYNIDVYDRO
-
-Também em: https://ph-files.imgix.net/050d9b59-0ff0-4ca1-a6a9-e5086b98f6d0.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/call-e</guid>
-    </item>
-    <item>
-      <title>Scribe v3 por ElevenLabs</title>
-      <link>https://www.producthunt.com/products/elevenlabs</link>
-      <description>Também em: https://www.producthunt.com/r/5KPGASERAIN5AK</description>
-      <category>Product</category>
-      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/elevenlabs</guid>
-    </item>
-    <item>
-      <title>Skillbox</title>
-      <link>https://www.producthunt.com/products/skillbox-5</link>
-      <description>Também em: https://www.producthunt.com/r/X2BEUWEGGSVMCM
-
-Também em: https://ph-files.imgix.net/98ec0c8a-ec9a-4f6a-b784-7618207d029b.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/skillbox-5</guid>
-    </item>
-    <item>
-      <title>MiniMax H3-Image</title>
-      <link>https://www.producthunt.com/products/minimax</link>
-      <description>Também em: https://www.producthunt.com/r/4HM3TRIWLZXN7K
-
-Também em: https://ph-files.imgix.net/76747a32-13e4-44a0-a4c5-db9e0b86fc82.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/minimax</guid>
-    </item>
-    <item>
-      <title>Shot.video</title>
-      <link>https://www.producthunt.com/products/shot-video</link>
-      <description>Também em: https://www.producthunt.com/r/KBYLL6REYTIYL3
-
-Também em: https://ph-files.imgix.net/c22c2f24-47fd-47f1-a481-ff06c23e2733.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/shot-video</guid>
-    </item>
-    <item>
-      <title>Relay</title>
-      <link>https://www.producthunt.com/products/relaytoai</link>
-      <description>Também em: https://www.producthunt.com/r/NH66BMRYJHZFJH
-
-Também em: https://ph-files.imgix.net/mcp-draft-media/d23d7018-518c-4fd1-80d0-1d5d24dd0f1a.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/relaytoai</guid>
-    </item>
-    <item>
-      <title>Avaliações do Reddit</title>
-      <link>https://www.producthunt.com/products/reddit</link>
-      <description>Também em: https://www.producthunt.com/r/WTFLJV7NTOIIFD</description>
-      <category>Product</category>
-      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/reddit</guid>
-    </item>
-    <item>
-      <title>Seedream 5.5 por ByteDance</title>
-      <link>https://www.producthunt.com/products/seedream-4-0</link>
-      <description>Também em: https://www.producthunt.com/r/UIPBIBZW2SKX2W</description>
-      <category>Product</category>
-      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/seedream-4-0</guid>
-    </item>
-    <item>
-      <title>Valin</title>
-      <link>https://www.producthunt.com/products/valin</link>
-      <description>Também em: https://www.producthunt.com/r/J4H43QADOPBUWX
-
-Também em: https://ph-files.imgix.net/8e5dd890-34bd-4069-85ec-c28f7da65d03.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/valin</guid>
-    </item>
-    <item>
-      <title>Kippy AI</title>
-      <link>https://www.producthunt.com/products/kippy-ai</link>
-      <description>Também em: https://www.producthunt.com/r/TQ7WKXA24KBTB5
-
-Também em: https://ph-files.imgix.net/7caddde1-302d-429c-bf1e-4483d168eb16.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/kippy-ai</guid>
-    </item>
-    <item>
-      <title>Stiro</title>
-      <link>https://www.producthunt.com/products/stiro</link>
-      <description>Também em: https://www.producthunt.com/r/Q4IZFOBLBGLJSX
-
-Também em: https://ph-files.imgix.net/cbb79236-de66-41e5-bdf3-56c9bab01797.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/stiro</guid>
-    </item>
-    <item>
-      <title>Xolace</title>
-      <link>https://www.producthunt.com/products/xolace</link>
-      <description>Também em: https://www.producthunt.com/r/OJD26HFPR74MML
-
-Também em: https://ph-files.imgix.net/da53a026-2a04-460a-9eb5-ffdc4e6e2314.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/xolace</guid>
-    </item>
-    <item>
-      <title>Mitra MCP</title>
-      <link>https://www.producthunt.com/products/mitra-5</link>
-      <description>Também em: https://www.producthunt.com/r/AZNXHLOA7CNYV4</description>
-      <category>Product</category>
-      <pubDate>Wed, 11 Nov 2026 21:31:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/mitra-5</guid>
-    </item>
-    <item>
-      <title>Uma Teoria de Otimização de Políticas no Pós-Treinamento: Colapso de Cobertura e Redefinições de Referência</title>
-      <link>https://arxiv.org/abs/2611.14467</link>
-      <description>Audrey Huang, Nan Jiang, Sham M. Kakade, Sadhika Malladi, Akshay Krishnamurthy, Dylan J. Foster
-
-REINFORCE, o motor por trás de PPO e GRPO, pode levar a probabilidade de respostas ótimas a zero, mesmo com o aumento da recompensa, resultando em convergência lenta. Redefinir repetidamente a referência KL para a política mais recente restaura atualizações que preservam a cobertura, oferecendo uma solução para uma falha comum em RLVR e indicando quais regularizadores mantêm a cobertura do modelo base.</description>
-      <category>Arxiv</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://arxiv.org/abs/2611.14467</guid>
-    </item>
-    <item>
-      <title>Capacidades Biológicas Emergentes em um Modelo de Fundação para Interações Moleculares</title>
-      <link>https://arxiv.org/abs/2611.14504</link>
-      <description>Adi Mashiach
-
-Bonbon, um modelo treinado com 3,2 trilhões de tokens de sequências de proteína-ligante, demonstra capacidades biológicas emergentes, como mecanismo de ação e localização de sítios de ligação, sem rótulos de tarefa. O modelo supera métodos de co-folding em velocidade e alcança 61,5% de resposta à dose em validação laboratorial, provando que as leis de escala baseadas em perda podem ignorar o surgimento de capacidades zero-shot.</description>
-      <category>Arxiv</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://arxiv.org/abs/2611.14504</guid>
-    </item>
-    <item>
-      <title>UGG: Modelo de Geometria Generativa Unificado</title>
-      <link>https://arxiv.org/abs/2611.14440</link>
-      <description>Amani Kiruga, Zhiyi Li, Ruojin Cai, Hansen Lillemark, Xiaoshan Wu, Ayush Tewari, Yilun Du
-
-UGG unifica preditores de geometria e modelos de vídeo generativos em um único modelo, integrando RGB, profundidade e pose da câmera através de diferentes níveis de ruído. Isso permite que a geração e a previsão geométrica sejam completadas condicionalmente, eliminando a necessidade de arquiteturas separadas para vídeo controlado por câmera, profundidade e pose.</description>
-      <category>Arxiv</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://arxiv.org/abs/2611.14440</guid>
-    </item>
-    <item>
-      <title>Descoberta Contrastiva: Descoberta Científica Aberta sobre Explicações Concorrentes</title>
-      <link>https://arxiv.org/abs/2611.14514</link>
-      <description>Ziang Liu, James J. Kim, Yijia Dai, Jennifer J. Sun
-
-A Descoberta Contrastiva substitui o teste de hipóteses contra sua negação por um conjunto de contrastes mutuamente exclusivos, avaliando experimentos pela redistribuição de crenças. Este método resolve 73% das rejeições para uma alternativa específica e 67% mais questões com o mesmo orçamento experimental, transformando uma rejeição em uma explicação concorrente para um co-cientista de IA.</description>
-      <category>Arxiv</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://arxiv.org/abs/2611.14514</guid>
-    </item>
-    <item>
-      <title>ARE-bench: Avaliando a Capacidade de Pesquisa de Agentes em Sessões e Espaços de Trabalho Reais de Pesquisadores</title>
-      <link>https://arxiv.org/abs/2611.14364</link>
-      <description>Jiahang Lin, Wanying Ren, Wanghan Xu, Huayu Sha, Yang Shu, Qi Zhang, Tao Gui, Xuanjing Huang, et al. (27 authors)
-
-ARE-bench avalia agentes de pesquisa em 75 tarefas de sessões reais de pesquisadores, incluindo arquivos incompletos e tentativas falhas, ao contrário dos benchmarks que usam ambientes limpos. O modelo mais forte completa apenas 66,2% das tarefas, e a inclusão de requisitos históricos e de espaço de trabalho reduz as pontuações para 28,4, 40,0%, indicando que as métricas atuais de agentes de pesquisa são inflacionadas.</description>
-      <category>Arxiv</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://arxiv.org/abs/2611.14364</guid>
-    </item>
-    <item>
-      <title>Cúpula de Código de Engenheiros de IA: OpenAI sobre Novas Formas de Trabalhar com Codex</title>
-      <link>https://latent.space/p/codex-work</link>
-      <description>No primeiro dia da Cúpula de Código AIE, a OpenAI demonstrou como desenvolvedores podem controlar o Codex por voz, transferir trabalho para a nuvem e utilizar pontos.
-
-Publicado em 11/11/2026</description>
-      <category>Blogs</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://latent.space/p/codex-work</guid>
-    </item>
-    <item>
-      <title>[AINews] Mercor levanta US$ 750 milhões na Série D com avaliação de US$ 20 bilhões e taxa de execução de US$ 3 bilhões</title>
-      <link>https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate</link>
-      <description>Em 10 de novembro de 2026, o Google lançou o Gemini 4 Carbon.
-
-Publicado em 11/11/2026</description>
-      <category>Blogs</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate</guid>
-    </item>
-    <item>
-      <title>Aproveitando a Carona para a Fronteira</title>
-      <link>https://www.chinatalk.media/p/the-us-is-selling-rl-environments</link>
-      <description>A indústria de dados está em completa desordem.
-
-Publicado em 11/11/2026</description>
-      <category>Blogs</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.chinatalk.media/p/the-us-is-selling-rl-environments</guid>
-    </item>
-    <item>
-      <title>The Sequence Learning Loop - Edição #969: Semana Passada em IA: Agentes de Segurança, Modelos Personalizados e Vídeo Editável</title>
-      <link>https://thesequence.substack.com/p/the-sequence-learning-loop-issue-b13</link>
-      <description>GPT-6 Cyber, Inkling 2 Small e Gemini colocam o feedback no centro do trabalho útil.
-
-Publicado em 11/11/2026</description>
-      <category>Blogs</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://thesequence.substack.com/p/the-sequence-learning-loop-issue-b13</guid>
-    </item>
-    <item>
-      <title>Sobre a IAG</title>
-      <link>https://blog.naver.com/dhgusdnd44/224473543968?fromRss=true&amp;trackingCode=rss</link>
-      <description>A discussão sobre a IAG (Inteligência Artificial Geral) é comparada ao conto do menino que gritou lobo, com o foco mudando para o ARR das empresas de IA. No entanto, evidências recentes de "melhoria recursiva" sugerem um avanço rápido da IAG.
-
-Publicado em 11/11/2026</description>
-      <category>Blogs</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://blog.naver.com/dhgusdnd44/224473543968?fromRss=true&amp;trackingCode=rss</guid>
-    </item>
-    <item>
-      <title>Roadshow do IPO da Anthropic Começa Apesar da Avaliação Reduzida pela Metade</title>
-      <link>https://aidisruption.ai/p/anthropic-ipo-roadshow-begins-despite</link>
-      <description>A Anthropic iniciou seu roadshow de IPO em 10 de novembro, com uma faixa de preço de US$ 70 a US$ 78 e listagem na Nasdaq planejada para 19 de novembro sob o ticker $ANT.
-
-Publicado em 11/11/2026</description>
-      <category>Blogs</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://aidisruption.ai/p/anthropic-ipo-roadshow-begins-despite</guid>
-    </item>
-    <item>
-      <title>De Milagres e Fosso Econômicos</title>
-      <link>https://www.notboring.co/p/of-miracles-and-moats</link>
-      <description>Ciclos, bolhas e a era de ouro do excedente do consumidor.
-
-Publicado em 11/11/2026</description>
-      <category>Blogs</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.notboring.co/p/of-miracles-and-moats</guid>
-    </item>
-    <item>
-      <title>O Código Claude Escreveu Arquivos Fora do Repositório Novamente?</title>
-      <link>https://aidisruption.ai/p/claude-code-wrote-files-outside-the</link>
-      <description>Proteja o Código Claude com blockWritesOutsideWorkingDirectories. Evite que arquivos escapem do repositório, adicione limites de leitura/escrita e teste o limite em cinco minutos.
-
-Publicado em 11/11/2026</description>
-      <category>Blogs</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://aidisruption.ai/p/claude-code-wrote-files-outside-the</guid>
-    </item>
-    <item>
-      <title>Parceria com a Edelbyte: Infraestrutura de Dados que Acompanha a Curiosidade da IA</title>
-      <link>https://www.sequoiacap.com/article/partnering-with-edelbyte-data-infrastructure-that-keeps-up-with-ai-s-curiosity</link>
-      <description>Agentes de IA farão muito mais perguntas aos dados de uma empresa do que as pessoas. A Edelbyte está construindo uma plataforma de dados que pode responder a todas elas, rapidamente e a um preço razoável.
-
-Publicado em 11/11/2026</description>
-      <category>Blogs</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.sequoiacap.com/article/partnering-with-edelbyte-data-infrastructure-that-keeps-up-with-ai-s-curiosity</guid>
-    </item>
-    <item>
-      <title>Fábula 5.2: Bom Demais</title>
-      <link>https://www.thealgorithmicbridge.com/p/claude-fable-52-too-good</link>
-      <description>A realidade é o único parâmetro.
-
-Publicado em 11/11/2026</description>
-      <category>Blogs</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.thealgorithmicbridge.com/p/claude-fable-52-too-good</guid>
-    </item>
-    <item>
-      <title>Acelerando a Inteligência: Nosso Investimento na Fractile</title>
-      <link>https://lsvp.com/stories/accelerating-intelligence-our-investment-in-fractile</link>
-      <description>O Lightspeed Venture Partners investiu na Fractile para acelerar a inteligência.
-
-Publicado em 11/11/2026</description>
-      <category>Blogs</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://lsvp.com/stories/accelerating-intelligence-our-investment-in-fractile</guid>
-    </item>
-    <item>
-      <title>Fable 5.2 supera a linha de tendência em benchmarks importantes</title>
-      <link>https://bsky.app/profile/emollick.bsky.social/post/3mzwjwceb622e</link>
-      <description>emollick.bsky.social
-
-O Fable 5.2 está acima da linha de tendência em três benchmarks informativos e não saturados. Estes incluem ECI, uma composição de outros benchmarks, Remote Labor, que mede a capacidade de realizar trabalhos freelance completos, e RoboDojo, que envolve o controle de robótica.</description>
-      <category>Bluesky</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://bsky.app/profile/emollick.bsky.social/post/3mzwjwceb622e</guid>
-    </item>
-    <item>
-      <title>Gemini 4 Carbon se destaca em SVGs de pelicanos e animações 3D</title>
-      <link>https://bsky.app/profile/simonwillison.net/post/3mzyd7r6ttc24</link>
-      <description>simonwillison.net
-
-O Gemini 4 Carbon é bom em SVGs de pelicanos, uma capacidade já conhecida do Gemini. O modelo também pode criar animações 3D complexas, como um mech gigante em Nova York usando dados do OpenStreetMap.</description>
-      <category>Bluesky</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://bsky.app/profile/simonwillison.net/post/3mzyd7r6ttc24</guid>
-    </item>
-    <item>
-      <title>Saída de Jensen como CEO seria prejudicial para modelos abertos nos EUA</title>
-      <link>https://bsky.app/profile/natolambert.bsky.social/post/3mzyoi43wfo2w</link>
-      <description>natolambert.bsky.social
-
-Natol Lambert afirma que a saída de Jensen do cargo de CEO seria muito negativa para a causa dos modelos abertos nos Estados Unidos.</description>
-      <category>Bluesky</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://bsky.app/profile/natolambert.bsky.social/post/3mzyoi43wfo2w</guid>
-    </item>
-    <item>
-      <title>Mais laboratórios competindo com a Anthropic podem impulsionar a pesquisa em IA</title>
-      <link>https://bsky.app/profile/natolambert.bsky.social/post/3mzvu4akioi2s</link>
-      <description>natolambert.bsky.social
-
-Natol Lambert expressa entusiasmo pela competição de mais laboratórios com a Anthropic, distribuindo capacidades de pesquisa em IA. A comunidade de segurança e outros podem construir valor imenso nessas ferramentas, e os laboratórios podem melhorar suas próprias habilidades de P&amp;D em IA analisando dados de usuários.</description>
-      <category>Bluesky</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://bsky.app/profile/natolambert.bsky.social/post/3mzvu4akioi2s</guid>
-    </item>
-    <item>
-      <title>Melinda, MacKenzie e Lori possuem capital para financiar o movimento contra a IA</title>
-      <link>https://bsky.app/profile/alexhanna.bsky.social/post/3mzw7mlxirc22</link>
-      <description>alexhanna.bsky.social
-
-Alex Hanna sugere que Melinda, MacKenzie e Lori têm capital suficiente para financiar o movimento contra a IA.</description>
-      <category>Bluesky</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://bsky.app/profile/alexhanna.bsky.social/post/3mzw7mlxirc22</guid>
-    </item>
-    <item>
-      <title>Aprendizagem no Contexto Mundial para Manipulação Robótica Agente</title>
-      <link>https://huggingface.co/papers/2611.12885</link>
-      <description>Publicado em 09/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.12885</guid>
-    </item>
-    <item>
-      <title>MotionGraphicsBench: Avaliando a Geração de Gráficos em Movimento com Verificação Programática</title>
-      <link>https://huggingface.co/papers/2611.10592</link>
-      <description>Publicado em 07/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.10592</guid>
-    </item>
-    <item>
-      <title>Infrathon: Avaliando Agentes de Linguagem para Otimização de Infraestrutura de IA de Longo Prazo no Mundo Real</title>
-      <link>https://huggingface.co/papers/2611.11995</link>
-      <description>Publicado em 09/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.11995</guid>
-    </item>
-    <item>
-      <title>Geração de Vídeo em Streaming com Poucos Passos via Mudança de Condição</title>
-      <link>https://huggingface.co/papers/2611.14033</link>
-      <category>HuggingFacePapers</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.14033</guid>
-    </item>
-    <item>
-      <title>PhysOPSD: Código como Privilégio para Geração de Vídeo Fisicamente Plausível</title>
-      <link>https://huggingface.co/papers/2611.12411</link>
-      <description>Publicado em 09/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.12411</guid>
-    </item>
-    <item>
-      <title>EmoHarness: Aprimorando a Compreensão Emocional Multimodal com Evolução de Meta-Arreios</title>
-      <link>https://huggingface.co/papers/2611.11994</link>
-      <description>Publicado em 09/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.11994</guid>
-    </item>
-    <item>
-      <title>FraudBench: Uma Avaliação Legal da Decepção por IA</title>
-      <link>https://huggingface.co/papers/2611.12167</link>
-      <description>Publicado em 09/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.12167</guid>
-    </item>
-    <item>
-      <title>Surpresa Preditiva como Gargalo de Conceito de Auto-Fundamentação para Séries Temporais Interpretáveis</title>
-      <link>https://huggingface.co/papers/2611.12955</link>
-      <description>Publicado em 07/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.12955</guid>
-    </item>
-    <item>
-      <title>Poda de Especialistas Ciente da Modalidade para Modelos de Linguagem Grandes Multimodais Baseados em MoE</title>
-      <link>https://huggingface.co/papers/2611.05927</link>
-      <description>Publicado em 04/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.05927</guid>
-    </item>
-    <item>
-      <title>e-means: superando k-means (em um décimo das épocas)</title>
-      <link>https://huggingface.co/papers/2611.09501</link>
-      <description>Publicado em 06/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.09501</guid>
-    </item>
-    <item>
-      <title>Alsona</title>
-      <link>https://www.producthunt.com/products/alsona?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Alsona identifica clientes com intenção de compra imediata, monitorando mais de 32 sinais como contratações e financiamentos. A ferramenta gera conteúdo personalizado para LinkedIn e e-mail, facilitando a abertura de conversas durante a janela de compra do cliente.
-
-Também em: https://www.producthunt.com/r/6777NBXG6GHZDS?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/alsona?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Maxma</title>
-      <link>https://www.producthunt.com/products/maxma-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Maxma é uma plataforma de IA que gerencia todo o processo de anúncios pagos, desde a análise de dados e criação de anúncios até a otimização e relatórios. Ela oferece sugestões de otimização para melhorar o desempenho em plataformas como Google, Meta e TikTok.
-
-Também em: https://www.producthunt.com/r/GQHET4C6E2F2ZS?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/maxma-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>TK by Medium</title>
-      <link>https://www.producthunt.com/products/medium?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>TK, um caderno inteligente da Medium, permite registrar ideias e notas, com IA integrada para conectar pensamentos e descobrir novas possibilidades. Ele transforma reflexões em trabalhos escritos e se conecta a modelos de linguagem grandes e ferramentas de IA via servidor MCP.
-
-Também em: https://www.producthunt.com/r/LI2LWCHJGY3KGQ?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Wed, 11 Nov 2026 17:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/medium?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
     </item>
   </channel>
 </rss>

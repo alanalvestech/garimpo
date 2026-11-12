@@ -1,8 +1,102 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-11-11 17:56 UTC",
+  "updated_at": "2026-11-12 18:25 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Memória de Agente de Codificação Pós-Treinamento II: Desbloqueando o Potencial de Memória de Operações de Arquivo Pré-treinadas para Tarefas de Longo Horizonte via Destilação On-Policy",
+      "links": [
+        "https://arxiv.org/abs/2611.14009"
+      ],
+      "summary": "CAMP-II permite que agentes de codificação usem operações de arquivo como interface de memória, treinando uma política em diversas tarefas com destilação assíncrona. Isso transforma a memória de longo prazo em uma habilidade nativa de arquivo, demonstrando ganhos significativos em benchmarks de codificação.",
+      "authors": [
+        "Lirui Luo",
+        "Kelong Mao",
+        "Xinwei Yang",
+        "Rongqing Li",
+        "Luyu Chen",
+        "Kieran Wong",
+        "Yudong Guo",
+        "Xinrui Wang",
+        "Jiayin Zhu",
+        "Gu Simiu",
+        "Sulong Xu",
+        "Cong Fang"
+      ],
+      "published_at": "2026-11-10",
+      "date": "2026-11-11"
+    },
+    {
+      "title": "BioXArena-Pro: um benchmark de nível de pesquisa para agentes autônomos de aprendizado de máquina biomédico",
+      "links": [
+        "https://arxiv.org/abs/2611.13994"
+      ],
+      "summary": "BioXArena-Pro é um benchmark de pesquisa que reconstrói 64 estudos de modelagem biomédica, avaliando agentes em tarefas complexas e resistentes a vazamentos. Ele mostra que a arquitetura e o reuso de modelos de base são cruciais para o desempenho, não apenas o LLM.",
+      "authors": [
+        "Loka Li",
+        "Duzhen Zhang",
+        "Xingbo Du",
+        "Leonard Song",
+        "Kun Zhang",
+        "Le Song"
+      ],
+      "published_at": "2026-11-10",
+      "date": "2026-11-11"
+    },
+    {
+      "title": "Compreendendo Modelos de Linguagem Mixture-of-Experts Além dos Limites dos Especialistas",
+      "links": [
+        "https://arxiv.org/abs/2611.13975"
+      ],
+      "summary": "Routing-Aware Magnitude Profiling revela que conjuntos de neurônios especializados por domínio se sobrepõem significativamente dentro de um domínio e menos entre eles. Uma regra de poda baseada nessa medida, RAMPr, mantém 91-98% do desempenho do modelo completo com 75% de retenção de neurônios, reduzindo a memória da GPU e aumentando o preenchimento em lote.",
+      "authors": [
+        "Zhenhong Zhou",
+        "Mao Zheng",
+        "Mingyang Song",
+        "Qiankun Li",
+        "Kun Wang",
+        "Junfeng Fang"
+      ],
+      "published_at": "2026-11-10",
+      "date": "2026-11-11"
+    },
+    {
+      "title": "ZoomGain: Minando Lacunas de Percepção Global-para-Zoom para Supervisão Visual de Granularidade Fina",
+      "links": [
+        "https://arxiv.org/abs/2611.14076"
+      ],
+      "summary": "ZoomGain cria perguntas a partir de lacunas de percepção em VLMs, onde detalhes finos são perdidos na imagem completa, mas visíveis ao ampliar. Treinar com apenas 9 mil amostras do ZoomGain permite que modelos menores superem sistemas maiores em benchmarks de percepção, abordando uma falha comum dos VLMs sem edição humana.",
+      "authors": [
+        "Haozhan Shen",
+        "Liangbo He",
+        "Jun Lan",
+        "Huijia Zhu",
+        "Weiqiang Wang",
+        "Tiancheng Zhao",
+        "Jianwei Yin"
+      ],
+      "published_at": "2026-11-10",
+      "date": "2026-11-11"
+    },
+    {
+      "title": "Da Superfície de Ataque à Arquitetura de Defesa: Segurança Composicional para Ferramentas de Codificação Agênticas",
+      "links": [
+        "https://arxiv.org/abs/2611.13960"
+      ],
+      "summary": "ActiveSecHarness trata a segurança de agentes de codificação como uma arquitetura de permissões, separando inteligência de autoridade com tokens de capacidade HMAC e guardas de SO Ring-0. Ele demonstra que essa abordagem é mais rápida e eficaz do que guardrails baseados em LLM-as-judge, que são lentos e hostis ao trabalho real.",
+      "authors": [
+        "Simon Hegelich",
+        "Bardh Prenkaj",
+        "Habiba Sarhan",
+        "Morteza Shahrezaye",
+        "Kolja Hegelich",
+        "Christian Montag",
+        "Ralf Schneider",
+        "Erik Cambria"
+      ],
+      "published_at": "2026-11-10",
+      "date": "2026-11-11"
+    },
     {
       "title": "Uma Teoria de Otimização de Políticas no Pós-Treinamento: Colapso de Cobertura e Redefinições de Referência",
       "links": [
