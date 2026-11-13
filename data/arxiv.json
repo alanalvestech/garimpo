@@ -1,8 +1,96 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-11-12 18:25 UTC",
+  "updated_at": "2026-11-13 17:54 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Desagregando a Codificação de Visão Multimodal",
+      "links": [
+        "https://arxiv.org/abs/2611.17334"
+      ],
+      "summary": "Pesquisadores descobriram que o pré-treinamento visual separado é opcional para codificadores de visão multimodal, com um codificador treinado em conjunto igualando um pré-treinado. A capacidade de visão dedicada é crucial, e módulos apenas de visão em camadas iniciais podem substituir um codificador pré-fusão, reduzindo o tempo para o primeiro token.",
+      "authors": [
+        "Ellis Brown",
+        "Chris Hoang",
+        "Shengyi Qian",
+        "Shang-Wen Li",
+        "Mike Lewis",
+        "Marjan Ghazvininejad",
+        "Luke Zettlemoyer",
+        "Lucas Beyer",
+        "Mengye Ren",
+        "Jakob Verbeek",
+        "Saining Xie",
+        "Hu Xu"
+      ],
+      "published_at": "2026-11-12",
+      "date": "2026-11-12"
+    },
+    {
+      "title": "Codificação de Metas em LLMs",
+      "links": [
+        "https://arxiv.org/abs/2611.17297"
+      ],
+      "summary": "Um conjunto esparso de cabeças de atenção em LLMs codifica e decodifica submetas em tarefas de codificação, sendo essa codificação causal e transferível entre ambientes. O modelo mantém a codificação da meta durante a ação, o que é explicado pela releitura da especificação e comparação com o progresso visível.",
+      "authors": [
+        "Arnab Sen Sharma",
+        "Eric Todd",
+        "Sheridan Feucht",
+        "Andy Arditi",
+        "Rohit Gandikota",
+        "Natalie Shapira",
+        "Gabriele Sarti",
+        "Constanza Fierro",
+        "Lisa Schut",
+        "David Bau"
+      ],
+      "published_at": "2026-11-12",
+      "date": "2026-11-12"
+    },
+    {
+      "title": "Otimização de Política Apenas Negativa para Recompensas Verificáveis Unilaterais",
+      "links": [
+        "https://arxiv.org/abs/2611.17287"
+      ],
+      "summary": "NOPO é um método de RLVR para cenários onde o verificador só pode identificar erros, tratando positivos verificados como não rotulados e atualizando a política apenas suprimindo negativos confiáveis. O método melhora o desempenho em tarefas de código, lógica e matemática, impedindo que a política seja recompensada por explorar verificações parciais.",
+      "authors": [
+        "Jiacheng Xu",
+        "Shuo He",
+        "Fuxiang Zhang",
+        "Chaojie Wang",
+        "Bo An"
+      ],
+      "published_at": "2026-11-12",
+      "date": "2026-11-12"
+    },
+    {
+      "title": "Energias Clássicas Aprendem a Raciocinar 1.000x Mais Rápido que Modelos em Loop",
+      "links": [
+        "https://arxiv.org/abs/2611.17309"
+      ],
+      "summary": "CRAM, uma energia Hopfield, Tank aprendida, resolve Sudoku-Extreme e Maze-Unique até 1.000 vezes mais rápido que modelos em loop, com menos FLOPs de inferência e alta precisão. Este método oferece um treinamento de raciocínio mais barato e sugere que Sudoku e Maze são testes muito fáceis para métodos em loop.",
+      "authors": [
+        "Benjamin Hoover",
+        "Hugh Blayney",
+        "James C. R. Whittington"
+      ],
+      "published_at": "2026-11-12",
+      "date": "2026-11-12"
+    },
+    {
+      "title": "CapLite: Defesa Contra Injeção de Prompt para Agentes de Modelos de Linguagem Pequenos Sem Artefatos de Segurança Escritos pelo Modelo",
+      "links": [
+        "https://arxiv.org/abs/2611.17115"
+      ],
+      "summary": "CapLite é uma defesa contra injeção de prompt para agentes de LLMs pequenos que deriva políticas de esquemas de ferramentas, em vez de confiar em artefatos de segurança escritos pelo próprio modelo. O método impede ataques em 13.935 episódios do AgentDojo, superando a segurança e o custo de abordagens que permitem aos modelos escrever suas próprias salvaguardas.",
+      "authors": [
+        "Zimo Xu",
+        "Wenzhuo Liu",
+        "Hideki Nakayama"
+      ],
+      "published_at": "2026-11-12",
+      "date": "2026-11-12"
+    },
     {
       "title": "Memória de Agente de Codificação Pós-Treinamento II: Desbloqueando o Potencial de Memória de Operações de Arquivo Pré-treinadas para Tarefas de Longo Horizonte via Destilação On-Policy",
       "links": [
