@@ -1,8 +1,87 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-11-13 17:54 UTC",
+  "updated_at": "2026-11-14 16:39 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Sobre a Dificuldade do Aprendizado Supervisionado em Nível de Sequência para Modelos de Linguagem Autorregressivos",
+      "links": [
+        "https://arxiv.org/abs/2611.16736"
+      ],
+      "summary": "O teacher forcing é associado ao viés de exposição, e tentativas de correção com perdas em nível de sequência são ilimitadas inferiormente. Os autores concluem que o teacher forcing pode ser suficiente para o treinamento supervisionado de modelos de linguagem autorregressivos.",
+      "authors": [
+        "Mathieu Blondel",
+        "Michaël E. Sander",
+        "Germain Vivier-Ardisson",
+        "Tianlin Liu",
+        "Vincent Roulet"
+      ],
+      "published_at": "2026-11-12",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "daVinci-Prover: Treinamento Intermediário Nativo de Agente para Prova Formal de Teoremas",
+      "links": [
+        "https://arxiv.org/abs/2611.16433"
+      ],
+      "summary": "Provers Lean baseados em agentes exigem conhecimentos matemáticos e trajetórias de ferramentas de longo prazo. Os autores sintetizaram um corpus de treinamento intermediário de 33,7 bilhões de tokens e cerca de 36 mil trajetórias verificadas, obtendo um ganho de 13,7 pontos sobre uma linha de base Qwen3-8B SFT-only.",
+      "authors": [
+        "Wenhong Zhu",
+        "Xuefeng Li",
+        "Jiashuo Zhang",
+        "Yu Chen",
+        "Tiantian Mi",
+        "Qipeng Guo",
+        "Pengfei Liu"
+      ],
+      "published_at": "2026-11-12",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "Aprendizado por Reforço com Transferência de Experiência para Autoaperfeiçoamento Recursivo",
+      "links": [
+        "https://arxiv.org/abs/2611.16409"
+      ],
+      "summary": "O aprendizado por reforço (RL) com recompensa escalar descarta logs de erros, enquanto o ACE-RL co-treina ator, refletor e curador. Ele avalia cada transferência de experiência pelo seu impacto em rollouts futuros do ator, superando as linhas de base de recompensa escalar e de transferência não aprendida.",
+      "authors": [
+        "Doyoung Kim",
+        "Byeongguk Jeon",
+        "Kailin Zhang",
+        "Sherry Yang"
+      ],
+      "published_at": "2026-11-12",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "Ensinar com Piscar: Quebrando o Momento Linguístico na Destilação On-Policy para Percepção Multimodal de Granularidade Fina",
+      "links": [
+        "https://arxiv.org/abs/2611.16402"
+      ],
+      "summary": "A destilação on-policy (OPD) padrão permite que o professor continue o prefixo incorreto do aluno, enfraquecendo a correção. O BlinkOPD faz o professor ler cada prefixo duas vezes, alcançando o estado da arte em seis benchmarks com 500 imagens e transferindo zero-shot para dez conjuntos de percepção, alucinação e raciocínio.",
+      "authors": [
+        "Tangzheng Lian",
+        "Hang Zhang",
+        "Guanyu Hu",
+        "Renjiu Hu",
+        "Zhensong Zhang",
+        "Jiankang Deng",
+        "Jifei Song"
+      ],
+      "published_at": "2026-11-12",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "STEALTH: Codificação Esteganográfica de Texto Agnóstica a Hardware de Tensor de Baixo Nível",
+      "links": [
+        "https://arxiv.org/abs/2611.16928"
+      ],
+      "summary": "A esteganografia linguística segura assume que o receptor pode recalcular as probabilidades de token do remetente bit a bit, mas essa suposição falha em diferentes configurações de hardware. STEALTH utiliza uma corrida exponencial com chave e um código espinhal sem taxa, permitindo a recuperação de payloads testados em diversas precisões, arquiteturas de GPU e vocabulários.",
+      "authors": [
+        "William Fleshman"
+      ],
+      "published_at": "2026-11-12",
+      "date": "2026-11-13"
+    },
     {
       "title": "Desagregando a Codificação de Visão Multimodal",
       "links": [
