@@ -1,8 +1,92 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-11-14 16:39 UTC",
+  "updated_at": "2026-11-15 17:16 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Bait: Mitigando Aprendizado por Reforço Agente Nocivo via Sondagem da Função de Recompensa",
+      "links": [
+        "https://arxiv.org/abs/2611.16369"
+      ],
+      "summary": "O RL-as-a-service agente permite que um usuário forneça o ambiente, e por cerca de US$ 20, rodadas de RL em ambiente tóxico podem desfazer o alinhamento de segurança de um modelo de produção. Bait defende-se sondando a função de recompensa, bloqueando o aprendizado de recompensas prejudiciais enquanto ainda aprende com recompensas agentes benignas.",
+      "authors": [
+        "Tiansheng Huang",
+        "Ananth Balashankar",
+        "Virat Shejwalkar",
+        "Santosh Pande",
+        "Ling Liu"
+      ],
+      "published_at": "2026-11-12",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "DRAMA: Dissecando a Redundância de Atenção para Acelerar Modelos de Linguagem Grandes de Difusão Multimodais",
+      "links": [
+        "https://arxiv.org/abs/2611.16345"
+      ],
+      "summary": "Modelos dLLM multimodais realizam uma passagem bidirecional completa sobre longas sequências visuais em cada etapa de denoising. Uma nova abordagem de poda de tokens visuais e parada adaptativa, sem treinamento, alcança uma aceleração média de 18,67x em benchmarks VLM, mantendo a precisão competitiva.",
+      "authors": [
+        "Yi-Hsin Hung",
+        "Fangfu Liu",
+        "Shao-Yuan Lo",
+        "Chu-Song Chen"
+      ],
+      "published_at": "2026-11-12",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "StateAlign: Internalizando a Tomada de Decisão Consciente do Estado para Agentes de Ferramentas Multi-Turn Confiáveis via Aprendizado por Reforço",
+      "links": [
+        "https://arxiv.org/abs/2611.16304"
+      ],
+      "summary": "O RL de ferramenta baseado apenas no resultado aumenta as pontuações da tarefa, mas também a alucinação da ferramenta, levando o agente a chamar ferramentas indevidamente. StateAlign aborda isso construindo cinco condições de estado da tarefa e treinando com contrastes em nível de token, o que melhora o desempenho e reduz a alucinação de ferramentas em modelos como Qwen3-8B.",
+      "authors": [
+        "Zhexi Lu",
+        "Subhajit Chaudhury",
+        "Tejaswini Pedapati",
+        "Keerthiram Murugesan",
+        "Lei Yu"
+      ],
+      "published_at": "2026-11-12",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "WorldDraft: Se o Código Constrói o Mundo, Modelos de Vídeo Podem Apenas Renderizá-lo?",
+      "links": [
+        "https://arxiv.org/abs/2611.16217"
+      ],
+      "summary": "Agentes de codificação multimodais já constroem mundos 4D em código, e WorldDraft investiga se modelos de vídeo podem renderizá-los. A pesquisa revela uma tensão entre a preservação da estrutura do mundo e a realização visual, mas um prompt visual plug-and-play (WorldDraft-Primer) consegue melhorar ambos os aspectos em renderizadores congelados.",
+      "authors": [
+        "Zhiyu Hou",
+        "Wen-Jie Shu",
+        "Harold Haodong Chen",
+        "Weilin Ruan",
+        "Chenfei Liao",
+        "Liuzhou Zhang",
+        "Disen Lan",
+        "Xiaogang Xu",
+        "Qi Chen",
+        "Ser-Nam Lim"
+      ],
+      "published_at": "2026-11-12",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "JudgeMix: Síntese de Dados de Rollout Misto Guiada por Juiz para Agentes LLM",
+      "links": [
+        "https://arxiv.org/abs/2611.16174"
+      ],
+      "summary": "O SFT de agente consciente do alvo injeta o especialista aleatoriamente ou sobrescreve cada etapa com supervisão. JudgeMix consulta o especialista apenas quando um juiz semântico passo a passo indica que o modelo está com dificuldades, superando as receitas existentes em benchmarks como AppWorld e AutomationBench.",
+      "authors": [
+        "Cheng-Yu Hsieh",
+        "Ting-Yao Hu",
+        "Sanjoy Chowdhury",
+        "Oncel Tuzel",
+        "Raviteja Vemulapalli"
+      ],
+      "published_at": "2026-11-12",
+      "date": "2026-11-14"
+    },
     {
       "title": "Sobre a Dificuldade do Aprendizado Supervisionado em Nível de Sequência para Modelos de Linguagem Autorregressivos",
       "links": [
