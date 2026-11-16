@@ -1,8 +1,93 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-11-15 17:16 UTC",
+  "updated_at": "2026-11-16 20:34 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Treinando Modelos de Raciocínio em Simulação para Usar Nativamente Robôs Reais",
+      "links": [
+        "https://arxiv.org/abs/2611.18562"
+      ],
+      "summary": "Um modelo de raciocínio de 27B foi treinado com RL em simulação para uso de robôs, sem demonstrações. As habilidades transferiram para robôs reais, alcançando 60% de sucesso em braços duplos e elevando o LIBERO de 1,6% para 74,4%.",
+      "authors": [
+        "Jiaming Tang",
+        "Zhuoyang Zhang",
+        "Junxian Guo",
+        "Fangzhou Zhao",
+        "Yilong Zhao",
+        "Zekai Li",
+        "Xingyang Li",
+        "Yuyang Zhao",
+        "Song Bian",
+        "Zhijian Liu",
+        "Song Han"
+      ],
+      "published_at": "2026-11-13",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "Soteria: Planejamento Formalmente Verificado com Execução em Tempo de Execução para Agentes LLM Seguros",
+      "links": [
+        "https://arxiv.org/abs/2611.17880"
+      ],
+      "summary": "Soteria verifica um plano estruturado contra políticas de domínio antes da execução de qualquer ferramenta. Isso garante uma trajetória legal e fornece orientação de recuperação, alcançando 1,7 vezes o sucesso médio da tarefa dos melhores baselines com zero violações de política.",
+      "authors": [
+        "Mike He",
+        "Ankush Desai",
+        "Sharad Malik",
+        "Aarti Gupta"
+      ],
+      "published_at": "2026-11-13",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "V-JEPA-LM: Modelos de Vídeo-Linguagem que Leem Dinâmicas Além de Representações Estáticas Alinhadas a Texto",
+      "links": [
+        "https://arxiv.org/abs/2611.17831"
+      ],
+      "summary": "Modelos V-JEPA-LM foram treinados para ler dinâmicas de vídeo, como velocidade e ordem, em vez de apenas atributos nomeados. Usando transformações contrafactuais de pixels, modelos de 1B a 8B alcançaram o primeiro lugar em onze benchmarks de vídeo, superando os melhores modelos abertos existentes.",
+      "authors": [
+        "Keuntae Kim",
+        "Dongjun Kim",
+        "Yong Suk Choi"
+      ],
+      "published_at": "2026-11-13",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "Aprendendo Alvos de Predição Anisotrópicos para Modelos de Fluxo",
+      "links": [
+        "https://arxiv.org/abs/2611.17767"
+      ],
+      "summary": "AnisoFlow substitui o alvo de predição fixo em modelos de fluxo por um alvo totalmente aprendível, com um peso não negativo por direção em uma base aprendida. Isso reduz o FID de 1,90 para 1,55 no ImageNet 256x256 e diminui artefatos em inferência de precisão reduzida.",
+      "authors": [
+        "Rayhan Zirvi",
+        "Hansheng Chen",
+        "Gordon Wetzstein",
+        "Leonidas Guibas"
+      ],
+      "published_at": "2026-11-13",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "ModHarness-RL: Reformulando Arneses como Programas Aprendíveis e Evolutivos para RL Agêntico",
+      "links": [
+        "https://arxiv.org/abs/2611.18533"
+      ],
+      "summary": "ModHarness-RL aprende programas de Compressão e Direção a partir de interações, permitindo que o arnês de um agente de RL evolua com a política. Em benchmarks como CodeSearch e ALFWorld, a Compressão e Direção aprendidas superaram os arneses fixos.",
+      "authors": [
+        "Zelin He",
+        "Siyu Zhu",
+        "Jacob Helwig",
+        "Yujian Liu",
+        "Li An",
+        "Rohit Jain",
+        "Shiyu Chang",
+        "Alborz Geramifard"
+      ],
+      "published_at": "2026-11-13",
+      "date": "2026-11-15"
+    },
     {
       "title": "Bait: Mitigando Aprendizado por Reforço Agente Nocivo via Sondagem da Função de Recompensa",
       "links": [

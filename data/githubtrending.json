@@ -1,8 +1,326 @@
 {
   "category": "GitHubTrending",
-  "updated_at": "2026-11-15 17:16 UTC",
+  "updated_at": "2026-11-16 20:34 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "ag-ui",
+      "links": [
+        "https://github.com/ag-ui-protocol/ag-ui"
+      ],
+      "stars": 18820,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "AG-UI: o Protocolo de Interação Agente-Usuário. Traga Agentes para Aplicações Frontend.",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "stitch-skills",
+      "links": [
+        "https://github.com/google-labs-code/stitch-skills"
+      ],
+      "stars": 9687,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "summary": "Uma biblioteca de Habilidades de Agente projetada para funcionar com o servidor Stitch MCP. Cada habilidade segue o padrão aberto Agent Skills, para compatibilidade com agentes de codificação como Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "apkstart",
+      "links": [
+        "https://github.com/RoutineMiku/apkstart"
+      ],
+      "stars": 6464,
+      "language": "JavaScript",
+      "license": "MIT",
+      "summary": "Executor de aplicativos Android no Windows: clique duas vezes no APK para instalar, aplicativos executados em janelas independentes e com ícones na área de trabalho, com tempo de execução QEMU próprio.",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "SkillEvaluator",
+      "links": [
+        "https://github.com/NVIDIA/SkillEvaluator"
+      ],
+      "stars": 2540,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "summary": "Estrutura multi-camadas para avaliar habilidades e plugins de agentes de IA com portões de qualidade, detecção de sobreposição semântica, geração de conjunto de dados de avaliação sintética e avaliação de agente em tempo real que mede como as habilidades afetam o comportamento do agente.",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "LoopForge",
+      "links": [
+        "https://github.com/Tencent/LoopForge"
+      ],
+      "stars": 2301,
+      "language": "Go",
+      "summary": "Fluxos de trabalho auto-hospedados para entrega de agentes de codificação. Orquestre CodeBuddy, Codex e Claude Code com scripts e portões de aprovação humana. Inclui fluxos de trabalho locais para assistentes de codificação.",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "Erosion-CN",
+      "links": [
+        "https://github.com/Kianuni/Erosion-CN"
+      ],
+      "stars": 2194,
+      "language": "Swift",
+      "license": "GPL-3.0",
+      "summary": "Caixa de ferramentas de configuração do sistema iOS / iPadOS e pesquisa MobileGestalt (bilíngue EN/ZH · versão de segurança reforçada à prova de bootloop)",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "hortusfox-web",
+      "links": [
+        "https://github.com/danielbrendel/hortusfox-web"
+      ],
+      "stars": 1698,
+      "language": "PHP",
+      "license": "MIT",
+      "summary": "Sistema de gerenciamento e rastreamento colaborativo de plantas auto-hospedado para entusiastas de plantas",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "plant-it",
+      "links": [
+        "https://github.com/MDeLuise/plant-it"
+      ],
+      "stars": 1379,
+      "language": "Dart",
+      "license": "GPL-3.0",
+      "summary": "🪴 Aplicativo companheiro de jardinagem Android de código aberto",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "freebie-radar",
+      "links": [
+        "https://github.com/ZiChuanLan/freebie-radar"
+      ],
+      "stars": 1110,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "Radar agregador de recursos de informação e \"pechincha\": mais de 100 fontes coletadas regularmente + filtragem de falsos benefícios por IA em segunda revisão + métodos de obtenção isolados por nível (sorteio/teste/promoção) + notificação instantânea no Telegram",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "panel",
+      "links": [
+        "https://github.com/serveroshq/panel"
+      ],
+      "stars": 1034,
+      "language": "PHP",
+      "license": "AGPL-3.0",
+      "summary": "O painel ServerOS de código aberto: um lugar para executar os servidores Linux que você já possui.",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "lot-map",
+      "links": [
+        "https://github.com/alexeyw/lot-map"
+      ],
+      "stars": 923,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "Um mapa ao vivo ao lado do chat que mostra o que Claude Code está fazendo: chamadas de ferramentas, etapas do modelo, hooks, habilidades e subagentes acendem conforme acontecem. Apenas local, em 7 idiomas.",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "artex",
+      "links": [
+        "https://github.com/failsafe-security/artex"
+      ],
+      "stars": 774,
+      "language": "Go",
+      "license": "AGPL-3.0",
+      "summary": "Distribuição FailSafe do ARTEX (v0.3.15) construída a partir do código-fonte, vinculada localmente.",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "trefle-api",
+      "links": [
+        "https://github.com/treflehq/trefle-api"
+      ],
+      "stars": 590,
+      "language": "Ruby",
+      "license": "AGPL-3.0",
+      "summary": "🍀 Trefle é uma API REST JSON botânica para espécies de plantas, permitindo que você pesquise e consulte todas as espécies registradas, e construa os próximos aplicativos de jardinagem e robôs agrícolas.",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "org.nvim",
+      "links": [
+        "https://github.com/xheisenbugx/org.nvim"
+      ],
+      "stars": 134,
+      "language": "Lua",
+      "license": "MIT",
+      "summary": "Org mode para neovim",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "vey",
+      "links": [
+        "https://github.com/VEY-OSS/vey"
+      ],
+      "stars": 52,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "summary": "Suíte modular de proxy e gateway em Rust. Unifica proxy HTTP/SOCKS forward, HTTP/TLS reverse, TPROXY/SNI transparente e proxy de stream com roteamento dinâmico e inspeção TLS/ICAP.",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "telegram-bot-ui",
+      "links": [
+        "https://github.com/hlibsuslov/telegram-bot-ui"
+      ],
+      "stars": 11,
+      "language": "Python",
+      "license": "MIT",
+      "summary": "Habilidade de UI/UX de bot do Telegram para Claude Code, Codex, Cursor, Gemini CLI e Copilot: mensagens, teclados, botões, navegação, respostas de IA em streaming com Stop, Rich Messages, widgets HTML, emoji premium, publicação em canais e bots operados por agentes. Atualizado para cada novo lançamento da Bot API.",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "ratelimit-ada",
+      "links": [
+        "https://github.com/kokhlo/ratelimit-ada"
+      ],
+      "stars": 3,
+      "language": "Ada",
+      "license": "MIT",
+      "summary": "Limitadores de taxa de token bucket e janela fixa para Ada",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "topic",
+      "links": [
+        "https://github.com/yurirocha15/topic"
+      ],
+      "stars": 3,
+      "language": "Go",
+      "license": "MIT",
+      "summary": "Um monitor de terminal tipo top para contêineres que relata o uso de CPU, memória, GPU e processo contra os limites do cgroup",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "sofya-mcp",
+      "links": [
+        "https://github.com/sofya-co/sofya-mcp"
+      ],
+      "stars": 2,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "Servidor MCP para Sofya. Pesquisa web, busca, extração e pesquisa aprofundada.",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "ai-agent-templates",
+      "links": [
+        "https://github.com/workspace-templates/ai-agent-templates"
+      ],
+      "stars": 2,
+      "language": "JavaScript",
+      "license": "MIT",
+      "summary": "Modelos gratuitos para agentes de codificação de IA: habilidades, subagentes, comandos, configurações MCP, hooks e regras de projeto para Claude Code, Codex, Cursor, Gemini CLI e GitHub Copilot",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "nanoexpr",
+      "links": [
+        "https://github.com/AlixANNERAUD/nanoexpr"
+      ],
+      "stars": 2,
+      "language": "Rust",
+      "license": "MIT",
+      "summary": "⚡ Analisador e avaliador de expressões matemáticas rápido no_std para Rust e C: alocação de heap zero, pilha limitada, variáveis e funções, f32/f64/inteiros ou decimais exatos de calculadora. Para microcontroladores, WebAssembly e aplicativos de calculadora.",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "atrezzo",
+      "links": [
+        "https://github.com/zeta92/atrezzo"
+      ],
+      "stars": 1,
+      "language": "JavaScript",
+      "license": "MIT",
+      "summary": "Mocks de API construídos a partir de estados da aplicação: um mundo semeado, cada endpoint uma projeção determinística, verificado contra o DOM real. Plugin Claude Code.",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "manawg",
+      "links": [
+        "https://github.com/Abuarchiv/manawg"
+      ],
+      "stars": 1,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "summary": "Aplicativo gratuito e de código aberto para apartamentos compartilhados e colegas de quarto: dividir despesas, escala de limpeza, lista de compras, calendário e chat. Uma alternativa ao Splitwise auto-hospedável com Docker.",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "resume-claim-guard",
+      "links": [
+        "https://github.com/korey2028-prog/resume-claim-guard"
+      ],
+      "stars": 1,
+      "language": "Python",
+      "license": "MIT",
+      "summary": "Evite que a IA torne seu currículo cada vez mais falso: traga cada declaração do currículo de volta aos fatos que você pode provar.",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "websocket-ada",
+      "links": [
+        "https://github.com/kokhlo/websocket-ada"
+      ],
+      "stars": 1,
+      "language": "Ada",
+      "license": "MIT",
+      "summary": "Biblioteca cliente WebSocket RFC 6455 para Ada",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "embedded_i18n",
+      "links": [
+        "https://github.com/AlixANNERAUD/embedded_i18n"
+      ],
+      "stars": 1,
+      "language": "Rust",
+      "license": "MIT",
+      "summary": "i18n em tempo de compilação para Rust embarcado e no_std: traduções de arquivos JSON ou gettext PO incorporadas como &'static str na ROM. Custo de tempo de execução zero, sem alocador, chaves ausentes detectadas em tempo de compilação.",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "prometheus-ada",
+      "links": [
+        "https://github.com/kokhlo/prometheus-ada"
+      ],
+      "stars": 0,
+      "language": "Ada",
+      "license": "MIT",
+      "summary": "Cliente de métricas Prometheus para Ada: contadores, medidores, histogramas com rótulos, formato de exposição de texto",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "backoff-ada",
+      "links": [
+        "https://github.com/kokhlo/backoff-ada"
+      ],
+      "stars": 0,
+      "language": "Ada",
+      "license": "MIT",
+      "summary": "Backoff exponencial com jitter e retry para Ada (estilo Go cenkalti/backoff, testabilidade determinística)",
+      "date": "2026-11-15"
+    },
+    {
+      "title": "redis-ada",
+      "links": [
+        "https://github.com/kokhlo/redis-ada"
+      ],
+      "stars": 0,
+      "language": "Ada",
+      "license": "MIT",
+      "summary": "Biblioteca cliente Redis para Ada: suporte ao protocolo RESP2",
+      "date": "2026-11-15"
+    },
     {
       "title": "uptime-kuma",
       "links": [
