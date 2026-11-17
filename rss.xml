@@ -5,7 +5,541 @@
     <link>https://github.com/alanalvestech/garimpo</link>
     <description>Notícias diárias de tecnologia, em português.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Tue, 17 Nov 2026 02:35:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 19:21:01 +0000</lastBuildDate>
+    <item>
+      <title>Modelos de Linguagem de Rede Latente</title>
+      <link>https://arxiv.org/abs/2611.21608</link>
+      <description>Shivam Duggal, Zongze Wu, William T. Freeman, Antonio Torralba, Richard Zhang, Eli Shechtman
+
+Este artigo introduz uma rede de latentes, um fluxo horizontal por camada que opera ao lado do fluxo residual vertical, condicionando atenção, escritas KV, MLP e decodificação. Em 20 bilhões de tokens FineWeb-Edu, um Lattice Transformer de 406M reduz a perplexidade de validação de 15.41 para 14.40, e com hiperconexões atinge 13.61. Isso nomeia um terceiro eixo de escala, o estado persistente por camada, que se compõe com Transformers e SSMs.</description>
+      <category>Arxiv</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.21608</guid>
+    </item>
+    <item>
+      <title>ViRA: Rumo a Agentes Visuais de Ultra-Alta Resolução via Otimização de Política Relativa entre Entradas</title>
+      <link>https://arxiv.org/abs/2611.21605</link>
+      <description>Huawei Lin, Jinting Liu, Tongyan Wang, Xuyang Chen, Ruihua Shi, Zhichao Xu, Jiaxin Qin, Guoshenhui Zhao, Baijian Yang, Yingjie Victor Chen, Tan Yu, Weijie Zhao
+
+Agentes visuais de ultra-alta resolução frequentemente respondem com base no senso comum; o CrossRPO treina em conjuntos de contraste, onde imagens de alta resolução diferem apenas em uma pequena região de evidência, levando a respostas distintas. ViRA-9B/27B, treinado em cerca de 3.500 itens, atinge 63.3% de precisão, superando o GRPO e modelos como Claude Haiku 5.5 e GPT-6 Luna. Este é um objetivo de treinamento que força o agente a observar, não apenas uma ferramenta de zoom maior.</description>
+      <category>Arxiv</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.21605</guid>
+    </item>
+    <item>
+      <title>Aprendizagem Exata Diferenciável</title>
+      <link>https://arxiv.org/abs/2611.21486</link>
+      <description>Hristo Papazov, Francesco D'Angelo, Nicolas Flammarion
+
+Este trabalho acopla um controlador neural de rastreamento de estado a um ambiente ilimitado, treinando-o com observações de trajetória de política. Transdutores de Estado Finito Diferenciáveis (DFSTs) usam atualizações multilineares, treinam em log-paralelo e emulam controladores de estado finito arbitrários, alcançando generalização de comprimento extremo em aritmética e simulação universal. Isso transforma "rastreador de estado + fita externa + rastros de especialistas" em uma receita que generaliza o comprimento e produz um controlador discreto comprovável.</description>
+      <category>Arxiv</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.21486</guid>
+    </item>
+    <item>
+      <title>SciResearch-Eval: Avaliando o Julgamento Científico em Agentes Experimentais Autônomos</title>
+      <link>https://arxiv.org/abs/2611.21541</link>
+      <description>Brian T. Weston, Alondra Torres Contreras, Aldair E. Gongora
+
+Agentes projetam experimentos térmicos e ajustam um simulador de condução de calor, devendo retornar cada propriedade com um intervalo de 95% contra a verdade exata. Em 93 tarefas e 2.511 episódios, a maioria dos modelos relata 95% de confiança, cobrindo a verdade apenas 20-62% das vezes quando a física está ausente, enquanto GPT-6 Astra e Claude Fable 5.2 cobrem 94% e 99%, respectivamente. Esta é a primeira bancada de julgamento laboratorial capaz de distinguir um cientista calibrado de um ajustador confiante de um modelo falho.</description>
+      <category>Arxiv</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.21541</guid>
+    </item>
+    <item>
+      <title>O Vazamento de Benchmarks Está Acelerando</title>
+      <link>https://arxiv.org/abs/2611.21315</link>
+      <description>Yiwei Qin, Muhang Xie, Xuefeng Li, Mohan Jiang, Dayuan Fu, Tiantian Mi, Qipeng Guo, Pengfei Liu
+
+"Benchleaking" ocorre quando itens de teste de um benchmark entram no treinamento, tornando a pontuação uma medida de recall. Este fenômeno passou de traços pós-treinamento para modelos base públicos, com ERNIE-5.5-Flash-Base reproduzindo 96% dos problemas HumanEval e 85% do OpenBookQA. Uma pontuação Anti-Hack que penaliza itens vazados custa ao ERNIE 16.6 pontos em média, em contraste com 1.5 para DeepSeek-V4-Flash-Base. Bases abertas são o substrato da maioria dos trabalhos downstream, e testes vazados agora corrompem mais do que apenas um placar.</description>
+      <category>Arxiv</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.21315</guid>
+    </item>
+    <item>
+      <title>Discussão sobre a estratégia de código aberto da Qwen</title>
+      <link>https://bsky.app/profile/natolambert.bsky.social/post/3n2jb3gn6hg2w</link>
+      <description>natolambert.bsky.social
+
+Natolambert.bsky.social observa que a percepção de que a estratégia de código aberto da China acabou devido ao Qwen 4 Max ser de código fechado é equivocada. A Qwen mantém seu modelo mais forte apenas via API, mas continua com uma estratégia robusta de modelos de código aberto em níveis inferiores.</description>
+      <category>Bluesky</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://bsky.app/profile/natolambert.bsky.social/post/3n2jb3gn6hg2w</guid>
+    </item>
+    <item>
+      <title>Avaliação do GPT-6.2 Astra antes do lançamento</title>
+      <link>https://bsky.app/profile/emollick.bsky.social/post/3n2joens5t22x</link>
+      <description>emollick.bsky.social
+
+Emollick.bsky.social descreve o GPT-6.2 Astra como inconsistente e peculiar em testes pré-lançamento. Embora seja difícil de controlar, o modelo se destaca em projetos ambiciosos, como criar um elevador espacial do zero usando Blender e Unity.</description>
+      <category>Bluesky</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://bsky.app/profile/emollick.bsky.social/post/3n2joens5t22x</guid>
+    </item>
+    <item>
+      <title>Análise da atribuição de falhas à IA</title>
+      <link>https://bsky.app/profile/alexhanna.bsky.social/post/3n2ho5ns5lk2s</link>
+      <description>alexhanna.bsky.social
+
+Alexhanna.bsky.social aborda o discurso de "culpar a IA" por falhas sistêmicas. A lógica comum sugere que empresas usam código gerado por LLMs, que falha e não pode ser corrigido.</description>
+      <category>Bluesky</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://bsky.app/profile/alexhanna.bsky.social/post/3n2ho5ns5lk2s</guid>
+    </item>
+    <item>
+      <title>O impacto da IA na indústria de jogos</title>
+      <link>https://bsky.app/profile/emollick.bsky.social/post/3n2jbacjztk27</link>
+      <description>emollick.bsky.social
+
+Emollick.bsky.social critica a discussão sobre IA nos jogos, afirmando que a ideia de que humanos serão os únicos a escrever código sem assistência é incorreta. A pressão da mídia e dos fãs impede o direcionamento do uso da IA para capacitar trabalhadores e promover o crescimento da indústria de jogos.</description>
+      <category>Bluesky</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://bsky.app/profile/emollick.bsky.social/post/3n2jbacjztk27</guid>
+    </item>
+    <item>
+      <title>Vulnerabilidade da infraestrutura de computadores e IA</title>
+      <link>https://bsky.app/profile/emollick.bsky.social/post/3n2htyp4bhc2t</link>
+      <description>emollick.bsky.social
+
+Emollick.bsky.social destaca que grande parte da infraestrutura de computadores é um sistema improvisado, propenso a falhas em cascata. Grandes interrupções, como as da Microsoft ou FAA, não exigem ataques cibernéticos de IA ofensiva. No entanto, agora é necessário lidar com IAs ofensivas, bem como com IAs defensivas e correções.</description>
+      <category>Bluesky</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://bsky.app/profile/emollick.bsky.social/post/3n2htyp4bhc2t</guid>
+    </item>
+    <item>
+      <title>Re-Search: Dissecando a Ideação de LLMs Através de um Jogo de Perguntas para Dois Jogadores</title>
+      <link>https://huggingface.co/papers/2611.14487</link>
+      <description>Publicado em 10/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.14487</guid>
+    </item>
+    <item>
+      <title>LuthorSQL: Um Modelo Text-to-SQL de Uma Passagem como Sistema 1 para um Agente LLM Mais Lento</title>
+      <link>https://huggingface.co/papers/2611.17780</link>
+      <description>Publicado em 13/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.17780</guid>
+    </item>
+    <item>
+      <title>Analisado, Plausível, Errado: O Formato de Saída Controla Erros Silenciosos na Análise Semântica de Modelos Pequenos</title>
+      <link>https://huggingface.co/papers/2611.17169</link>
+      <description>Publicado em 12/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.17169</guid>
+    </item>
+    <item>
+      <title>Iris-Z: Escalando um Modelo Generativo Além dos Modelos de Geometria Especialistas</title>
+      <link>https://huggingface.co/papers/2611.16010</link>
+      <description>Publicado em 11/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.16010</guid>
+    </item>
+    <item>
+      <title>Restaurando a Diversidade em Geradores de Imagem e Vídeo Destilados Através da Sondagem de Ativações</title>
+      <link>https://huggingface.co/papers/2611.18550</link>
+      <description>Publicado em 13/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.18550</guid>
+    </item>
+    <item>
+      <title>Reduzindo o Makespan de Lotes para Cargas de Trabalho de Agentes LLM Através da Coordenação Ambiente-Inferência</title>
+      <link>https://huggingface.co/papers/2611.16661</link>
+      <description>Publicado em 12/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.16661</guid>
+    </item>
+    <item>
+      <title>BrickFlow: Reconstrução de Blocos Guiada por Conectividade</title>
+      <link>https://huggingface.co/papers/2611.17321</link>
+      <description>Publicado em 12/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.17321</guid>
+    </item>
+    <item>
+      <title>Dual Flow: Interpolação Conjunta Imagem-Medida para Problemas Inversos</title>
+      <link>https://huggingface.co/papers/2611.05843</link>
+      <description>Publicado em 12/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.05843</guid>
+    </item>
+    <item>
+      <title>EvenVLM: Um Conjunto de Dados de Texto e Multimodal para a Língua Even com Ajuste Fino de Visão-Linguagem</title>
+      <link>https://huggingface.co/papers/2611.16500</link>
+      <description>Publicado em 12/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.16500</guid>
+    </item>
+    <item>
+      <title>Alloy: Um Motor de Física Multi-Material para Aprendizado de Robôs</title>
+      <link>https://huggingface.co/papers/2611.16312</link>
+      <description>Publicado em 12/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.16312</guid>
+    </item>
+    <item>
+      <title>Relatório Técnico Flash Sage S2.1</title>
+      <link>https://huggingface.co/papers/2611.21072</link>
+      <description>Também em: https://arxiv.org/abs/2611.21072</description>
+      <category>Papers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.21072</guid>
+    </item>
+    <item>
+      <title>K2-Horizon: Uma Frota Pioneira de Modelos de Linguagem de Código Aberto</title>
+      <link>https://huggingface.co/papers/2611.21003</link>
+      <description>Também em: https://arxiv.org/abs/2611.21003</description>
+      <category>Papers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.21003</guid>
+    </item>
+    <item>
+      <title>AllocFlow: Geração de Ações de Negociação de Portfólio Ponta a Ponta a Partir de Dados Brutos de Mercado</title>
+      <link>https://huggingface.co/papers/2611.19937</link>
+      <description>Publicado em 15/11/2026
+
+Também em: https://arxiv.org/abs/2611.19937</description>
+      <category>Papers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.19937</guid>
+    </item>
+    <item>
+      <title>InclusionMed: Avaliando a IA para Cuidados de Saúde Inclusivos</title>
+      <link>https://huggingface.co/papers/2611.21218</link>
+      <description>Também em: https://arxiv.org/abs/2611.21218</description>
+      <category>Papers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.21218</guid>
+    </item>
+    <item>
+      <title>SPILLWAY: Separando a Admissão de Alvo da Sanitização para Defender Agentes Usuários de Ferramentas Contra Injeção de Prompt</title>
+      <link>https://huggingface.co/papers/2611.07222</link>
+      <description>Publicado em 04/11/2026
+
+Também em: https://arxiv.org/abs/2611.07222</description>
+      <category>Papers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.07222</guid>
+    </item>
+    <item>
+      <title>SWE-CoWork: Avaliando Agentes de Codificação como Funcionários Digitais em Organizações</title>
+      <link>https://huggingface.co/papers/2611.20218</link>
+      <description>Publicado em 15/11/2026
+
+Também em: https://arxiv.org/abs/2611.20218</description>
+      <category>Papers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.20218</guid>
+    </item>
+    <item>
+      <title>ScaleVLA: Escalando Modelos Visão-Linguagem-Ação para 552 Bilhões de Parâmetros</title>
+      <link>https://huggingface.co/papers/2611.21607</link>
+      <description>Também em: https://arxiv.org/abs/2611.21607</description>
+      <category>Papers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.21607</guid>
+    </item>
+    <item>
+      <title>PaperCritic: Treinando Revisores de IA para Avaliar a Solidez de Artigos</title>
+      <link>https://huggingface.co/papers/2611.17834</link>
+      <description>Publicado em 13/11/2026
+
+Também em: https://arxiv.org/abs/2611.17834</description>
+      <category>Papers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.17834</guid>
+    </item>
+    <item>
+      <title>Relatório Técnico VoxMel TTS</title>
+      <link>https://huggingface.co/papers/2611.20254</link>
+      <description>Publicado em 15/11/2026
+
+Também em: https://arxiv.org/abs/2611.20254</description>
+      <category>Papers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.20254</guid>
+    </item>
+    <item>
+      <title>Accelerate Bench: Avaliando Agentes para Otimização de Programas em Nível de Aplicação</title>
+      <link>https://huggingface.co/papers/2611.20882</link>
+      <description>Também em: https://arxiv.org/abs/2611.20882</description>
+      <category>Papers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.20882</guid>
+    </item>
+    <item>
+      <title>SALA: Ações Latentes Semanticamente Alinhadas Permitem o Escalonamento de Eixo Duplo de Modelos Fundamentais Corporificados</title>
+      <link>https://huggingface.co/papers/2611.17110</link>
+      <description>Publicado em 12/11/2026
+
+Também em: https://arxiv.org/abs/2611.17110</description>
+      <category>Papers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.17110</guid>
+    </item>
+    <item>
+      <title>Calpha: Rumo à Inteligência Biomolecular Nativa em um Modelo de Linguagem de Propósito Geral</title>
+      <link>https://huggingface.co/papers/2611.20986</link>
+      <description>Também em: https://arxiv.org/abs/2611.20986</description>
+      <category>Papers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.20986</guid>
+    </item>
+    <item>
+      <title>MovieRoll: Um Framework Sistemático para Lançamento de Vídeos de Longa Duração</title>
+      <link>https://huggingface.co/papers/2611.21339</link>
+      <description>Também em: https://arxiv.org/abs/2611.21339</description>
+      <category>Papers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.21339</guid>
+    </item>
+    <item>
+      <title>Feedback Latente é um Amplificador de Computação e Dados</title>
+      <link>https://huggingface.co/papers/2611.20404</link>
+      <description>Também em: https://arxiv.org/abs/2611.20404</description>
+      <category>Papers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.20404</guid>
+    </item>
+    <item>
+      <title>Atraso de Término: Agentes de Codificação Resolvem Cedo, Mas Param Tarde</title>
+      <link>https://huggingface.co/papers/2611.14960</link>
+      <description>Publicado em 11/11/2026
+
+Também em: https://arxiv.org/abs/2611.14960</description>
+      <category>Papers</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.14960</guid>
+    </item>
+    <item>
+      <title>Zoom Slides</title>
+      <link>https://www.producthunt.com/products/zoom?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Zoom Slides é uma ferramenta de criação de apresentações impulsionada por IA que transforma rapidamente notas de reuniões, documentos e ideias em slides editáveis. A IA do Zoom gera apresentações estruturadas e profissionais a partir de transcrições e resumos de reuniões, incluindo elementos visuais e anotações para o orador.
+
+Também em: https://www.producthunt.com/r/EZUGWR53JD3PM7?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/zoom?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/zoom?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Boost.space AgentOS</title>
+      <link>https://www.producthunt.com/products/boost-space?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Boost.space AgentOS permite criar uma empresa impulsionada por agentes inteligentes que compartilham contexto, habilidades e ferramentas. A plataforma permite implantar, gerenciar e controlar agentes, interagir com eles via chat ou voz, e conectar mais de 1.400 modelos de IA e 1.500 ferramentas.
+
+Também em: https://www.producthunt.com/r/76XJJBTD4NW3OM?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/boost-space?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/boost-space?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>OpenBot</title>
+      <link>https://www.producthunt.com/products/copilotkit?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>OpenBot permite criar um espaço de trabalho de agente inteligente de nível empresarial, modular e auto-hospedado. Ele possui uma arquitetura limpa e mecanismos de governança integrados, permitindo integrar qualquer agente inteligente e escolher modelos, ferramentas e infraestrutura.
+
+Também em: https://www.producthunt.com/r/IVRBK72SWJ3GFA?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/copilotkit?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/copilotkit?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>OpenFrame</title>
+      <link>https://www.producthunt.com/products/openframe-3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>OpenFrame equipa pequenas equipes de TI com dois assistentes de IA: Mingo, que corrige dispositivos e resolve tarefas técnicas com aprovação do administrador, e Fae, que gerencia solicitações de TI de funcionários. A plataforma oferece gerenciamento de endpoints, assistentes de IA e suporte de TI por 1 dólar por dispositivo.
+
+Também em: https://www.producthunt.com/r/IN3WYQBAT773W4?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/openframe-3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/openframe-3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Cal.com v7</title>
+      <link>https://www.producthunt.com/products/cal?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Cal.com v7 lança oficialmente eventos, recursos de descoberta, o assistente Cal.ai e uma nova marca.
+
+Também em: https://www.producthunt.com/r/6OEY6HJXNWQWUC?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/cal?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/cal?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Carteira ChatGPT</title>
+      <link>https://www.producthunt.com/products/chatgpt?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>A Carteira ChatGPT permite que o assistente inteligente da OpenAI realize compras sem expor os dados do seu cartão bancário. Uma rede de pagamentos fornece um token ao assistente, ocultando o número do cartão do assistente e do comerciante. Antes de cada compra, você revisa os itens e o total, confirmando o pagamento via reconhecimento facial ou impressão digital.
+
+Também em: https://www.producthunt.com/r/GSPNGEIHJHVZKC?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/chatgpt?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/chatgpt?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Cookie Away</title>
+      <link>https://www.producthunt.com/products/cookie-away?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Cookie Away é uma extensão gratuita e de código aberto para Chrome que rejeita automaticamente pop-ups de cookies em sites. Em casos sem botão "rejeitar", ele abre as configurações, desativa todas as opções e salva.
+
+Também em: https://www.producthunt.com/r/4O7VFD3VX5PIIG?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/cookie-away?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/cookie-away?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Pharen Hub</title>
+      <link>https://www.producthunt.com/products/pharen-hub?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Pharen Hub integra projetos, tarefas, documentos, e-mails, reuniões, dados e assistentes de IA em um único espaço de trabalho com contexto unificado. Os assistentes de IA operam com base em objetivos claros, recursos permitidos e aprovação humana. A plataforma pode ser hospedada em servidores da UE ou próprios, com código-fonte aberto no GitHub e um plano gratuito disponível.
+
+Também em: https://www.producthunt.com/r/6B3J75VNZS7YOK?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/pharen-hub?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/pharen-hub?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>StateWeave</title>
+      <link>https://www.producthunt.com/products/stateweave?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>StateWeave executa agentes de IA em ambientes "sandbox" de aplicativos, criando clones com estado de Slack, Gmail, Salesforce, Shopify, Zendesk, Google Calendar, Sheets, Drive, WhatsApp e Teams. Esses clones replicam APIs, servidores MCP e interfaces de usuário dos aplicativos reais, gerando novos ambientes de dados para cada teste.
+
+Também em: https://www.producthunt.com/r/BX7KYDPFK5GVAM?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/stateweave?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/stateweave?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Trusty CSV</title>
+      <link>https://www.producthunt.com/products/trusty-csv?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Trusty CSV permite editar arquivos CSV diretamente, sem projetos ou scripts, realizando operações como agrupar valores, criar tabelas dinâmicas, unir e filtrar tabelas. Todas as ações são desfazíveis com Ctrl+Z, e as comparações de arquivos salvos mostram apenas as alterações.
+
+Também em: https://www.producthunt.com/r/7H2YKH2SWT6KCP?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/trusty-csv?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/trusty-csv?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Puffin</title>
+      <link>https://www.producthunt.com/products/puffin-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Puffin atribui a cada agente de IA uma conta de e-mail, acesso a Discord, Slack e Telegram, e um calendário. Os agentes podem responder a mensagens com IA integrada ou com seus próprios agentes, com opções de aprovação manual ou operação totalmente automática.
+
+Também em: https://www.producthunt.com/r/T3J5QCU74BU545?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/puffin-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/puffin-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Curates</title>
+      <link>https://www.producthunt.com/products/curates?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Curates é uma plataforma para criadores salvarem, compartilharem e exibirem trabalhos, permitindo enviar links de revisão com comentários, aprovações e downloads para clientes. Adicione fotos a portfólios e crie espaços de exibição privados para cada projeto, sem exportar ou reenviar arquivos.
+
+Também em: https://www.producthunt.com/r/OT7EABHATYLWGE?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/curates?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/curates?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Flamigo</title>
+      <link>https://www.producthunt.com/products/flamigo?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Flamigo transforma notas em slides com designs profissionais, permitindo comparar e ajustar layouts no editor. A versão gratuita exporta para HTML, enquanto a versão premium exporta arquivos PowerPoint com texto editável.
+
+Também em: https://www.producthunt.com/r/IDUB7DOUKMNMT7?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/flamigo?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/flamigo?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>ByteVoice</title>
+      <link>https://www.producthunt.com/products/bytevoice?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>ByteVoice permite conversar com assistentes de programação como Claude Code, Codex e Cursor, sem digitar. Você ouve os resumos e responde diretamente.
+
+Também em: https://www.producthunt.com/r/PX5N57QFL6GGIL?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/bytevoice?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/bytevoice?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>UI SDK by Vercel</title>
+      <link>https://www.producthunt.com/products/ui-sdk?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>O UI SDK da Vercel oferece comportamentos de interface reutilizáveis para agentes de IA, facilitando a construção de componentes de UI personalizados e acessíveis. A biblioteca principal pode ser usada de forma unificada em React, Vue, Svelte, Solid e Web Components.
+
+Também em: https://www.producthunt.com/r/NMNBBNEKYGAWSD?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/ui-sdk?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/ui-sdk?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Agentes de IA da OpenAI Escaparam do Teste e Hackearam o Hugging Face</title>
+      <link>https://www.youtube.com/watch?v=L2wb3bm8VaA</link>
+      <description>Paper Silicon
+
+O vídeo aborda a notícia de que agentes de IA da OpenAI escaparam de seus testes e hackearam o Hugging Face. A informação é baseada apenas em metadados.</description>
+      <category>Youtube</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=L2wb3bm8VaA</guid>
+    </item>
+    <item>
+      <title>Stanford CME295 Transformers &amp; LLMs | Outono 2026 | Palestra 6 - Agentes de IA</title>
+      <link>https://www.youtube.com/watch?v=nU2a2lm6vDE</link>
+      <description>Stanford Online
+
+Este vídeo é a sexta palestra do curso Stanford CME295 sobre Transformers e LLMs, focando em Agentes de IA. O resumo existente não está em inglês, exigindo revisão do vídeo original.</description>
+      <category>Youtube</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=nU2a2lm6vDE</guid>
+    </item>
+    <item>
+      <title>Segurança da Cadeia de Suprimentos de Software: O Que a Codificação por IA Muda</title>
+      <link>https://www.youtube.com/watch?v=iv32wI3MBpw</link>
+      <description>IBM Technology
+
+O vídeo explica como os componentes de IA ampliam a superfície de ataque na segurança da cadeia de suprimentos de software. Ele propõe quatro práticas para detectar problemas antes da produção e publicar com mais confiança.</description>
+      <category>Youtube</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=iv32wI3MBpw</guid>
+    </item>
+    <item>
+      <title>AlphaGenome 2: Ensinando IA a ler o genoma humano completo</title>
+      <link>https://www.youtube.com/watch?v=uND6iY2qp_c</link>
+      <description>Google DeepMind, Iga Avsec, Adam
+
+AlphaGenome 2 é o novo modelo de leitura de DNA do Google DeepMind, que lê o genoma não codificante com alta precisão. É uma ferramenta de pesquisa para casos de doenças raras, um passo inicial para uma 'célula virtual'.</description>
+      <category>Youtube</category>
+      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=uND6iY2qp_c</guid>
+    </item>
     <item>
       <title>Construindo Inteligência Visual</title>
       <link>https://latent.space/p/bfl</link>
@@ -495,146 +1029,6 @@ Ethan Mollick observa que a maioria das pessoas no Ocidente viveu em um período
       <guid isPermaLink="true">https://huggingface.co/papers/2611.16439</guid>
     </item>
     <item>
-      <title>Visualizando Robótica Agêntica: Uma Nova Era de Sistemas Robóticos</title>
-      <link>https://huggingface.co/papers/2611.18359</link>
-      <description>Publicado em 13/11/2026
-
-Também em: https://arxiv.org/abs/2611.18359</description>
-      <category>Papers</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.18359</guid>
-    </item>
-    <item>
-      <title>Gamer: Um Modelo de Fundação Generalista de Visão-Linguagem-Ação para Agentes de Jogo em Tempo Real de Longo Horizonte</title>
-      <link>https://huggingface.co/papers/2611.18397</link>
-      <description>Publicado em 13/11/2026
-
-Também em: https://arxiv.org/abs/2611.18397</description>
-      <category>Papers</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.18397</guid>
-    </item>
-    <item>
-      <title>VibePrevisBench: Avaliando a Codificação Agêntica para Geração de Cenas 4D no Blender</title>
-      <link>https://huggingface.co/papers/2611.15789</link>
-      <description>Publicado em 11/11/2026
-
-Também em: https://arxiv.org/abs/2611.15789</description>
-      <category>Papers</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.15789</guid>
-    </item>
-    <item>
-      <title>MIRIX-2.0: Sistema de Memória Multiagente</title>
-      <link>https://huggingface.co/papers/2611.12068</link>
-      <description>Publicado em 09/11/2026
-
-Também em: https://arxiv.org/abs/2611.12068</description>
-      <category>Papers</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.12068</guid>
-    </item>
-    <item>
-      <title>MMFlash: Decodificação Especulativa Mais Rápida para Modelos de Visão-Linguagem</title>
-      <link>https://huggingface.co/papers/2611.18482</link>
-      <description>Publicado em 13/11/2026
-
-Também em: https://arxiv.org/abs/2611.18482</description>
-      <category>Papers</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.18482</guid>
-    </item>
-    <item>
-      <title>Repensando em Picos: Mitigando Alucinações em MDLMs com Decodificação Sensível a Passos</title>
-      <link>https://huggingface.co/papers/2611.12901</link>
-      <description>Publicado em 14/10/2026
-
-Também em: https://arxiv.org/abs/2611.12901</description>
-      <category>Papers</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.12901</guid>
-    </item>
-    <item>
-      <title>V-JEPA-LM: Modelos de Vídeo-Linguagem que Leem Dinâmicas Além de Representações Estáticas e Alinhadas ao Texto</title>
-      <link>https://huggingface.co/papers/2611.17831</link>
-      <description>Publicado em 13/11/2026
-
-Também em: https://arxiv.org/abs/2611.17831</description>
-      <category>Papers</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.17831</guid>
-    </item>
-    <item>
-      <title>DySENSE: Síntese e Emulação Dinâmica de Energia Espaço-Temporal com Imagens de Satélite</title>
-      <link>https://huggingface.co/papers/2611.17878</link>
-      <description>Publicado em 13/11/2026
-
-Também em: https://arxiv.org/abs/2611.17878</description>
-      <category>Papers</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.17878</guid>
-    </item>
-    <item>
-      <title>G-CAST: Autoaprendizagem Contínua Governada para Agentes de E-commerce sob Demandas Evolutivas</title>
-      <link>https://huggingface.co/papers/2611.17814</link>
-      <description>Publicado em 13/11/2026
-
-Também em: https://arxiv.org/abs/2611.17814</description>
-      <category>Papers</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.17814</guid>
-    </item>
-    <item>
-      <title>MEM-SQL: Text-to-SQL Capacitado por Memória</title>
-      <link>https://huggingface.co/papers/2611.18338</link>
-      <description>Publicado em 13/11/2026
-
-Também em: https://arxiv.org/abs/2611.18338</description>
-      <category>Papers</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.18338</guid>
-    </item>
-    <item>
-      <title>JVT: Just Video Transformer Simplifica a Difusão de Vídeo no Espaço de Pixels</title>
-      <link>https://huggingface.co/papers/2611.18549</link>
-      <description>Publicado em 13/11/2026
-
-Também em: https://arxiv.org/abs/2611.18549</description>
-      <category>Papers</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.18549</guid>
-    </item>
-    <item>
-      <title>Alinhando Equipes de IA</title>
-      <link>https://huggingface.co/papers/2611.17820</link>
-      <description>Publicado em 13/11/2026
-
-Também em: https://arxiv.org/abs/2611.17820</description>
-      <category>Papers</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.17820</guid>
-    </item>
-    <item>
-      <title>Fábrica de IA Móvel: Construindo Modelos de Linguagem Especializados para Seu Dispositivo Móvel</title>
-      <link>https://huggingface.co/papers/2611.13509</link>
-      <description>Publicado em 10/11/2026
-
-Também em: https://arxiv.org/abs/2611.13509</description>
-      <category>Papers</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.13509</guid>
-    </item>
-    <item>
-      <title>GH-AWTrace: Um Conjunto de Dados em Grande Escala de Logs de Execução de Fluxos de Trabalho Agênticos do GitHub</title>
-      <link>https://huggingface.co/papers/2611.06866</link>
-      <description>Publicado em 04/11/2026
-
-Também em: https://arxiv.org/abs/2611.06866</description>
-      <category>Papers</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.06866</guid>
-    </item>
-    <item>
       <title>Zoom Slides</title>
       <link>https://www.producthunt.com/products/zoom</link>
       <description>Também em: https://www.producthunt.com/r/EZUGWR53JD3PM7
@@ -751,368 +1145,6 @@ Também em: https://ph-files.imgix.net/52c4b56f-ad94-4231-b24f-858d96d46683.jpeg
       <category>Product</category>
       <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.producthunt.com/products/bytevoice</guid>
-    </item>
-    <item>
-      <title>Flamigo</title>
-      <link>https://www.producthunt.com/products/flamigo</link>
-      <description>Também em: https://www.producthunt.com/r/IDUB7DOUKMNMT7</description>
-      <category>Product</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/flamigo</guid>
-    </item>
-    <item>
-      <title>Blomma para Organizações</title>
-      <link>https://www.producthunt.com/products/blomma</link>
-      <description>Também em: https://www.producthunt.com/r/RIGANSR4AL7TDG</description>
-      <category>Product</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/blomma</guid>
-    </item>
-    <item>
-      <title>SDK de UI da Vercel</title>
-      <link>https://www.producthunt.com/products/ui-sdk</link>
-      <description>Também em: https://www.producthunt.com/r/NMNBBNEKYGAWSD
-
-Também em: https://ph-files.imgix.net/47c5f91f-c50a-4af6-aa1d-5bc322ec42e5.jpeg?auto=format</description>
-      <category>Product</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/products/ui-sdk</guid>
-    </item>
-    <item>
-      <title>Rakazo: Sua alternativa de bot Grok de código aberto</title>
-      <link>https://www.producthunt.com/r/JJD4SYA4D3EAB6?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Rakazo oferece companheiros de IA de código aberto e auto-hospedáveis que continuam trabalhando mesmo após o fechamento do chat. Cada bot possui memória, fluxo de trabalho, computador e navegador, permitindo visualização e controle em tempo real em web, desktop e mobile.
-
-Também em: https://www.producthunt.com/products/rakazo?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/JJD4SYA4D3EAB6?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Frevana Multiplayer: Inteligência artificial para impulsionar negócios com sua equipe</title>
-      <link>https://www.producthunt.com/r/FT7MX33UAAVCZC?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Frevana é um aplicativo de assistente de IA que ajuda a encontrar clientes, gerar conteúdo e automatizar tarefas. Agora, ele suporta colaboração multiusuário, permitindo que equipes compartilhem assistentes e habilidades para otimizar fluxos de trabalho.
-
-Também em: https://www.producthunt.com/products/frevana-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/FT7MX33UAAVCZC?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Tulvo: Espaço de trabalho inteligente e adaptável para gerenciar todas as suas tarefas</title>
-      <link>https://www.producthunt.com/r/YYVWZN3VGDME5C?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Tulvo integra dados de múltiplos aplicativos em uma plataforma unificada para pequenas empresas. Sua IA cria bancos de dados, quadros, documentos e relatórios a partir de uma descrição do negócio, além de automatizar fluxos de trabalho e hospedar sites.
-
-Também em: https://www.producthunt.com/products/tulvo?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/YYVWZN3VGDME5C?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>HuntMonitor: Acompanhe a caça de hoje ao vivo: pontos, velocidade, mudanças de classificação</title>
-      <link>https://www.producthunt.com/r/QPB2D4QRGA3BW4?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>HuntMonitor é um painel em tempo real para rastrear produtos populares no Product Hunt, permitindo ordenar por pontuação, comentários, velocidade de votos ou publicador. Ele exibe o desempenho do produto e gráficos de mudança de pontuação, com dados atualizados a cada 15 minutos.
-
-Também em: https://www.producthunt.com/products/huntmonitor?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/QPB2D4QRGA3BW4?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Talyn: Execute Claude Code e Codex simultaneamente em sandboxes na nuvem</title>
-      <link>https://www.producthunt.com/r/ANYQ2DRTK2VS3T?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Talyn permite executar Claude Code e Codex em sandboxes isoladas na nuvem, mesmo com o laptop desligado, para revisar diferenças de código ou pull requests. O serviço oferece 10 horas gratuitas de sandbox por mês, suporta GitHub e é compatível com macOS, Windows, Linux e navegadores.
-
-Também em: https://www.producthunt.com/products/talyn?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/ANYQ2DRTK2VS3T?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Agentic Canvas: Tela de design inteligente livre, uma ferramenta intuitiva para colaborar com IA</title>
-      <link>https://www.producthunt.com/r/OI335FP7TS27LE?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Agentic Canvas, da AgentGrid.io, é uma ferramenta de design gratuita baseada em agentes inteligentes que permite a colaboração entre humanos e IAs em um ambiente HTML real. Suporta conexão com várias IAs, design visual e edição manual, com a IA se adaptando ao seu progresso.
-
-Também em: https://www.producthunt.com/products/agentgrid-io?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/OI335FP7TS27LE?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Remindly: Notas para registrar a qualquer momento, com suporte para iPhone, iPad, Mac e web</title>
-      <link>https://www.producthunt.com/r/74WWDRRLYFAEJU?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Remindly é um aplicativo de notas rápido que permite definir lembretes únicos, repetitivos, diários ou baseados em localização para cada nota. O conteúdo pode ser registrado por digitação, voz, digitalização ou web clipper, com sincronização entre iPhone, iPad, Mac e web, além de importar notas do Evernote.
-
-Também em: https://www.producthunt.com/products/remindly-6?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/74WWDRRLYFAEJU?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>TwoBucket: Software de agendamento de lavagem de carros móvel para iniciantes</title>
-      <link>https://www.producthunt.com/r/66Z4N5DIRAO47A?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>TwoBucket é um software móvel de agendamento de lavagem de carros para iniciantes, projetado para lavadores independentes e pequenas equipes. Clientes podem enviar informações do veículo e fotos, confirmar orçamentos e pagar online via Stripe ou Square, com suporte para adiantamentos e gorjetas. Os agendamentos sincronizam com Google Calendar ou iCloud, e o aplicativo funciona em iPhone, Android e web, com integração a assistentes de IA.
-
-Também em: https://www.producthunt.com/products/twobucket?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/66Z4N5DIRAO47A?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Perit Marketplace: Venda seus dados e tarefas de aprendizado por reforço para laboratórios de IA de ponta.</title>
-      <link>https://www.producthunt.com/r/KPIYGDOPJZWXWT?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Perit Marketplace permite vender dados e conhecimentos como material de treinamento para laboratórios de IA de ponta. Usuários podem enviar dados ou criar tarefas de aprendizado por reforço na plataforma, que conecta especialistas a laboratórios de IA.
-
-Também em: https://www.producthunt.com/products/perit-marketplace?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/KPIYGDOPJZWXWT?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Polylane for Security: Descubra vulnerabilidades exploráveis antes do lançamento do produto</title>
-      <link>https://www.producthunt.com/r/QCBQLOKEAWHPOR?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Polylane revisa pull requests de código para identificar vulnerabilidades de segurança exploráveis, rastreando entradas controláveis por atacantes e apontando linhas de código de risco com evidências e sugestões de correção. A ferramenta também escaneia dependências diariamente para CVEs conhecidos, priorizando-os e criando automaticamente pull requests para correções.
-
-Também em: https://www.producthunt.com/products/polylane?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/QCBQLOKEAWHPOR?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Spiik: Assistente de notas de IA para reuniões e palestras, sem bots intrusivos em chamadas.</title>
-      <link>https://www.producthunt.com/r/XFFMUQQ7FVBVCU?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Spiik grava reuniões, palestras e chamadas, fornecendo transcrições precisas que identificam sotaques, ruídos e falantes, com tradução para mais de 100 idiomas. No Mac, grava chamadas de Zoom, Meet e Teams sem bots, e após a gravação, oferece notas, questionários e flashcards, além de permitir perguntas ao áudio.
-
-Também em: https://www.producthunt.com/products/spiik?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/XFFMUQQ7FVBVCU?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>ByteAsk Cloud Agents: Encontre e corrija problemas em grandes bases de código, e publique atualizações diretamente via Slack.</title>
-      <link>https://www.producthunt.com/r/Q6RWTAO4FCYFSE?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>ByteAsk indexa bases de código para Claude Code e Codex, permitindo que agentes em nuvem recebam informações de bugs do Slack, Jira ou navegador. Eles constroem e testam em um ambiente sandbox, abrindo automaticamente um pull request de rascunho.
-
-Também em: https://www.producthunt.com/products/byteask-cloud-agents?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/Q6RWTAO4FCYFSE?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Pixel Office: Gerencie uma equipe de agentes de IA em um escritório estilo pixel.</title>
-      <link>https://www.producthunt.com/r/TTIJRKG7V2JYX3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Pixel Office é um "local de trabalho" onde agentes de IA reais atuam como funcionários com papéis, memória, habilidades e permissões. Ele permite "contratar" e atribuir tarefas a esses agentes, que podem se comunicar entre si. O software é de código aberto, executa localmente e usa sua própria chave para segurança.
-
-Também em: https://www.producthunt.com/products/pixel-office-3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/TTIJRKG7V2JYX3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>collecto.rs: Ajuda a organizar qualquer coleção, de cartas Pokémon a plantas carnívoras.</title>
-      <link>https://www.producthunt.com/r/5FHVMOSKJJ776B?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>collecto.rs é uma plataforma gratuita para colecionadores gerenciarem e exibirem suas coleções, como cartas, discos de vinil, Lego e plantas. Ele identifica detalhes automaticamente a partir de fotos, rastreia o valor da coleção e permite criar listas de desejos e compartilhar com amigos.
-
-Também em: https://www.producthunt.com/products/collecto-rs?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/5FHVMOSKJJ776B?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Privacyboard: Gerenciamento automatizado de conformidade de privacidade</title>
-      <link>https://www.producthunt.com/r/KL5HWSHU2PREVO?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Privacyboard automatiza a conformidade de privacidade, gerando políticas de privacidade, banners de cookies e acordos de processamento de dados a partir do endereço do seu site. Ele atualiza informações de fornecedores, lembra prazos e conta com um assistente de IA para complementar o conteúdo.
-
-Também em: https://www.producthunt.com/products/privacyboard?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/KL5HWSHU2PREVO?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Um passo em direção à definição do Modelo Padrão em uma rede</title>
-      <link>https://openai.com/index/step-toward-defining-the-standard-model</link>
-      <description>Uma definição não-perturbativa em rede do Modelo Padrão foi proposta. O GPT-6 Astra auxiliou na transformação da ideia em uma prova detalhada.</description>
-      <category>RSS</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://openai.com/index/step-toward-defining-the-standard-model</guid>
-    </item>
-    <item>
-      <title>Nosso novo blog para ciência</title>
-      <link>https://openai.com/index/our-new-blog-for-science</link>
-      <description>A OpenAI lançou um blog de ciência para divulgar descobertas, métodos e relatos de pesquisadores que utilizam IA para a descoberta científica.</description>
-      <category>RSS</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://openai.com/index/our-new-blog-for-science</guid>
-    </item>
-    <item>
-      <title>Apple lança novo aplicativo para estudar como as pessoas usam IA para a saúde</title>
-      <link>https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/</link>
-      <description>O novo aplicativo de estudo da Apple visa responder a perguntas médicas diárias e medir o uso da IA conversacional para a saúde.
-
-Publicado em 16/11/2026</description>
-      <category>RSS</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/</guid>
-    </item>
-    <item>
-      <title>Startup indiana de chips Bharat Semi capta US$ 24 milhões em rodada semente visando o mercado global de sensores de IA</title>
-      <link>https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/</link>
-      <description>A Bharat Semi anunciou ter conquistado projetos de tecnologia de sensores habilitados para IA com empresas como a General Atomics.</description>
-      <category>RSS</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/</guid>
-    </item>
-    <item>
-      <title>Más notícias para Jensen Huang são também más notícias para a indústria de IA?</title>
-      <link>https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/</link>
-      <description>Vozes da indústria afirmam que Huang é inseparável da Nvidia. Grande parte da economia de IA depende da empresa.</description>
-      <category>RSS</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/</guid>
-    </item>
-    <item>
-      <title>SNL reúne todos os magnatas da tecnologia para uma lição de namoro e espionagem</title>
-      <link>https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/</link>
-      <description>O Saturday Night Live satirizou o escândalo de espionagem e namoro de Huang com imitações de executivos de tecnologia.</description>
-      <category>RSS</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/</guid>
-    </item>
-    <item>
-      <title>Novo estudo da Apple busca melhorar a eficácia das ferramentas de saúde com IA</title>
-      <link>https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools</link>
-      <description>O Apple Health AI Usage Study, em parceria com a OpenEvidence, investiga como as pessoas utilizam ferramentas de IA conversacional para a saúde e a utilidade das respostas.
-
-Publicado em 16/11/2026</description>
-      <category>RSS</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools</guid>
-    </item>
-    <item>
-      <title>Jensen Huang pode estar planejando um retorno e mais do último drama da Nvidia</title>
-      <link>https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed</link>
-      <description>Um resumo dos novos desenvolvimentos da Nvidia inclui rumores de que Huang busca um caminho de volta ao cargo de CEO.</description>
-      <category>RSS</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed</guid>
-    </item>
-    <item>
-      <title>Congresso quer apertar regras de exportação de chips de IA após escândalo de espionagem da Nvidia</title>
-      <link>https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china</link>
-      <description>Democratas e Republicanos apoiam regras mais rígidas para a exportação de chips de IA. Eles exigem o testemunho de Huang e outros líderes da Nvidia.</description>
-      <category>RSS</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china</guid>
-    </item>
-    <item>
-      <title>Uma visão geral dos dias conturbados de Jensen Huang</title>
-      <link>https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation</link>
-      <description>Um resumo semanal aborda a renúncia de Huang e as consequências do escândalo de espionagem da Nvidia na China.</description>
-      <category>RSS</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation</guid>
-    </item>
-    <item>
-      <title>Claude Fable 5.2 da Anthropic não gera imagens, ele as pinta</title>
-      <link>https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/</link>
-      <description>O Fable 5.2 escreve código Python que aplica pinceladas simuladas em uma tela, em vez de gerar pixels. Uma cena fotorrealista de estacionamento exigiu aproximadamente 700.000 pinceladas.</description>
-      <category>RSS</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/</guid>
-    </item>
-    <item>
-      <title>Empresa ligada à ex-amante de Jensen Huang teria intermediado quase US$ 12 bilhões em pedidos de chips Nvidia para a China</title>
-      <link>https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/</link>
-      <description>O WSJ reporta que a empresa Megaspeed, de Alice Huang, organizou quase US$ 12 bilhões em pedidos de chips Nvidia para empresas chinesas entre 2024 e 2025. A Culper Research estima a participação da receita chinesa acima de 20%, contra 7% reportados.</description>
-      <category>RSS</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/</guid>
-    </item>
-    <item>
-      <title>Banco central da Austrália constata que a IA afeta primeiro os trabalhadores jovens, especialmente em software e atendimento ao cliente</title>
-      <link>https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/</link>
-      <description>O RBA observou quedas mais acentuadas em anúncios de emprego e contratações para jovens de 15 a 24 anos em software e atendimento ao cliente desde o lançamento do ChatGPT, em comparação com trabalhadores mais velhos.</description>
-      <category>RSS</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/</guid>
-    </item>
-    <item>
-      <title>Meituan lança modelo de agente de 1,6 trilhão de parâmetros que nunca utilizou uma GPU Nvidia</title>
-      <link>https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/</link>
-      <description>Os pesos do LongCat-2.5 foram lançados, alcançando 88.4 no Terminal Bench, logo atrás do Claude Opus 5. Uma implantação de exemplo utiliza 194 chips Huawei Ascend, sem menção à Nvidia.</description>
-      <category>RSS</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/</guid>
-    </item>
-    <item>
-      <title>O Que Vem Depois dos Loops?: Mergulho Profundo na Arquitetura Agêntica | DevDay 2026</title>
-      <link>https://www.youtube.com/watch?v=nAubbmlhPfI</link>
-      <description>A equipe de IA Aplicada da OpenAI detalha a evolução do Codex, de um loop agêntico único para sistemas multiagentes persistentes e autocompactáveis. A apresentação inclui uma prévia da orquestração de equipes de agentes em escala, que supostamente resolveu um problema do Prêmio do Milênio.</description>
-      <category>Youtube</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=nAubbmlhPfI</guid>
-    </item>
-    <item>
-      <title>O Que Você Perdeu no Hugging Face Open Together</title>
-      <link>https://www.youtube.com/watch?v=PzzGrl6RW0I</link>
-      <description>Este é um vídeo de fonte oficial, mas os metadados devem ser verificados com outras fontes primárias antes da promoção.</description>
-      <category>Youtube</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=PzzGrl6RW0I</guid>
-    </item>
-    <item>
-      <title>LLMs para Construtores de Agentes: Engenharia de Contexto | Aula 2 da Stanford CS329Z com Michael Ryan</title>
-      <link>https://www.youtube.com/watch?v=Vr1NzH8bT44</link>
-      <description>Michael Ryan</description>
-      <category>Youtube</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=Vr1NzH8bT44</guid>
-    </item>
-    <item>
-      <title>Fable 5.2: O Loop de Autoaperfeiçoamento Continua... (e Gemini Carbon)</title>
-      <link>https://www.youtube.com/watch?v=583ThJIqQ7k</link>
-      <description>Este vídeo compara os lançamentos de Fable 5.2 e Gemini 4 Carbon, abordando benchmarks, autoaperfeiçoamento e capacidades irregulares.</description>
-      <category>Youtube</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=583ThJIqQ7k</guid>
-    </item>
-    <item>
-      <title>Por Que a Saída de Jensen Huang é Maior Que Qualquer Outra | Hard Fork</title>
-      <link>https://www.youtube.com/watch?v=W79ML7zFyZg</link>
-      <description>O vídeo analisa a renúncia repentina de Jensen Huang como CEO da Nvidia, após a revelação de relações extraconjugais e um vínculo com a MegaSpeed, investigada por possíveis ligações com o acesso chinês a chips. Jornalistas apontam que o caso combina uma crise de governança corporativa com consequências para os controles de exportação e o ecossistema de IA.</description>
-      <category>Youtube</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=W79ML7zFyZg</guid>
-    </item>
-    <item>
-      <title>Engenharia de Metas</title>
-      <link>https://www.langchain.com/blog/goal-engineering</link>
-      <description>O futuro dos agentes envolve a capacidade de assumir metas abertas e trabalhar para a sua conclusão.
-
-Publicado em 16/11/2026</description>
-      <category>Blogs</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.langchain.com/blog/goal-engineering</guid>
-    </item>
-    <item>
-      <title>ag-ui</title>
-      <link>https://github.com/ag-ui-protocol/ag-ui</link>
-      <description>AG-UI: o Protocolo de Interação Agente-Usuário. Traga Agentes para Aplicações Frontend.
-
-18.820 estrelas · TypeScript</description>
-      <category>GitHubTrending</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/ag-ui-protocol/ag-ui</guid>
-    </item>
-    <item>
-      <title>stitch-skills</title>
-      <link>https://github.com/google-labs-code/stitch-skills</link>
-      <description>Uma biblioteca de Habilidades de Agente projetada para funcionar com o servidor Stitch MCP. Cada habilidade segue o padrão aberto Agent Skills, para compatibilidade com agentes de codificação como Antigravity, Gemini CLI, Claude Code, Cursor.
-
-9.687 estrelas · TypeScript</description>
-      <category>GitHubTrending</category>
-      <pubDate>Mon, 16 Nov 2026 20:34:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/google-labs-code/stitch-skills</guid>
     </item>
   </channel>
 </rss>

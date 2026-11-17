@@ -1,8 +1,95 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-11-16 20:34 UTC",
+  "updated_at": "2026-11-17 19:14 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Modelos de Linguagem de Rede Latente",
+      "links": [
+        "https://arxiv.org/abs/2611.21608"
+      ],
+      "summary": "Este artigo introduz uma rede de latentes, um fluxo horizontal por camada que opera ao lado do fluxo residual vertical, condicionando atenção, escritas KV, MLP e decodificação. Em 20 bilhões de tokens FineWeb-Edu, um Lattice Transformer de 406M reduz a perplexidade de validação de 15.41 para 14.40, e com hiperconexões atinge 13.61. Isso nomeia um terceiro eixo de escala, o estado persistente por camada, que se compõe com Transformers e SSMs.",
+      "authors": [
+        "Shivam Duggal",
+        "Zongze Wu",
+        "William T. Freeman",
+        "Antonio Torralba",
+        "Richard Zhang",
+        "Eli Shechtman"
+      ],
+      "published_at": "2026-11-16",
+      "date": "2026-11-16"
+    },
+    {
+      "title": "ViRA: Rumo a Agentes Visuais de Ultra-Alta Resolução via Otimização de Política Relativa entre Entradas",
+      "links": [
+        "https://arxiv.org/abs/2611.21605"
+      ],
+      "summary": "Agentes visuais de ultra-alta resolução frequentemente respondem com base no senso comum; o CrossRPO treina em conjuntos de contraste, onde imagens de alta resolução diferem apenas em uma pequena região de evidência, levando a respostas distintas. ViRA-9B/27B, treinado em cerca de 3.500 itens, atinge 63.3% de precisão, superando o GRPO e modelos como Claude Haiku 5.5 e GPT-6 Luna. Este é um objetivo de treinamento que força o agente a observar, não apenas uma ferramenta de zoom maior.",
+      "authors": [
+        "Huawei Lin",
+        "Jinting Liu",
+        "Tongyan Wang",
+        "Xuyang Chen",
+        "Ruihua Shi",
+        "Zhichao Xu",
+        "Jiaxin Qin",
+        "Guoshenhui Zhao",
+        "Baijian Yang",
+        "Yingjie Victor Chen",
+        "Tan Yu",
+        "Weijie Zhao"
+      ],
+      "published_at": "2026-11-16",
+      "date": "2026-11-16"
+    },
+    {
+      "title": "Aprendizagem Exata Diferenciável",
+      "links": [
+        "https://arxiv.org/abs/2611.21486"
+      ],
+      "summary": "Este trabalho acopla um controlador neural de rastreamento de estado a um ambiente ilimitado, treinando-o com observações de trajetória de política. Transdutores de Estado Finito Diferenciáveis (DFSTs) usam atualizações multilineares, treinam em log-paralelo e emulam controladores de estado finito arbitrários, alcançando generalização de comprimento extremo em aritmética e simulação universal. Isso transforma \"rastreador de estado + fita externa + rastros de especialistas\" em uma receita que generaliza o comprimento e produz um controlador discreto comprovável.",
+      "authors": [
+        "Hristo Papazov",
+        "Francesco D'Angelo",
+        "Nicolas Flammarion"
+      ],
+      "published_at": "2026-11-16",
+      "date": "2026-11-16"
+    },
+    {
+      "title": "SciResearch-Eval: Avaliando o Julgamento Científico em Agentes Experimentais Autônomos",
+      "links": [
+        "https://arxiv.org/abs/2611.21541"
+      ],
+      "summary": "Agentes projetam experimentos térmicos e ajustam um simulador de condução de calor, devendo retornar cada propriedade com um intervalo de 95% contra a verdade exata. Em 93 tarefas e 2.511 episódios, a maioria dos modelos relata 95% de confiança, cobrindo a verdade apenas 20-62% das vezes quando a física está ausente, enquanto GPT-6 Astra e Claude Fable 5.2 cobrem 94% e 99%, respectivamente. Esta é a primeira bancada de julgamento laboratorial capaz de distinguir um cientista calibrado de um ajustador confiante de um modelo falho.",
+      "authors": [
+        "Brian T. Weston",
+        "Alondra Torres Contreras",
+        "Aldair E. Gongora"
+      ],
+      "published_at": "2026-11-16",
+      "date": "2026-11-16"
+    },
+    {
+      "title": "O Vazamento de Benchmarks Está Acelerando",
+      "links": [
+        "https://arxiv.org/abs/2611.21315"
+      ],
+      "summary": "\"Benchleaking\" ocorre quando itens de teste de um benchmark entram no treinamento, tornando a pontuação uma medida de recall. Este fenômeno passou de traços pós-treinamento para modelos base públicos, com ERNIE-5.5-Flash-Base reproduzindo 96% dos problemas HumanEval e 85% do OpenBookQA. Uma pontuação Anti-Hack que penaliza itens vazados custa ao ERNIE 16.6 pontos em média, em contraste com 1.5 para DeepSeek-V4-Flash-Base. Bases abertas são o substrato da maioria dos trabalhos downstream, e testes vazados agora corrompem mais do que apenas um placar.",
+      "authors": [
+        "Yiwei Qin",
+        "Muhang Xie",
+        "Xuefeng Li",
+        "Mohan Jiang",
+        "Dayuan Fu",
+        "Tiantian Mi",
+        "Qipeng Guo",
+        "Pengfei Liu"
+      ],
+      "published_at": "2026-11-16",
+      "date": "2026-11-16"
+    },
     {
       "title": "Treinando Modelos de Raciocínio em Simulação para Usar Nativamente Robôs Reais",
       "links": [
