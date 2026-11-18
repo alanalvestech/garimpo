@@ -1,8 +1,182 @@
 {
   "category": "Blogs",
-  "updated_at": "2026-11-17 02:25 UTC",
+  "updated_at": "2026-11-18 01:34 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Executando o aplicativo Python Datasette completo do lado do servidor no navegador com service workers e Pyodide",
+      "links": [
+        "https://simonwillison.net/2026/Nov/17/datasette-lite"
+      ],
+      "summary": "Datasette Lite é uma versão do aplicativo Python Datasette para rodar diretamente no navegador usando WebAssembly e Pyodide. Uma reescrita completa do Datasette Lite usando service workers foi lançada, tornando-o quase indistinguível do aplicativo real do lado do servidor.",
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "Citando Provérbios Go",
+      "links": [
+        "https://simonwillison.net/2026/Nov/17/go-proverbs"
+      ],
+      "summary": "O artigo cita um provérbio Go: \"Um pouco de cópia é melhor do que um pouco de dependência\".",
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "Cloudflare se junta à Jevolution e se autodenomina Neolab",
+      "links": [
+        "https://latent.space/p/cloudflare"
+      ],
+      "summary": "A Cloudflare, conhecida por acelerar a web, agora está desenvolvendo modelos System One para tomar decisões e extrair dados em milissegundos.",
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "[AINews] Perplexity atinge taxa de receita anual de US$ 1 bilhão, aumento de 4x em 2026",
+      "links": [
+        "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026"
+      ],
+      "summary": "A Perplexity atingiu uma taxa de receita anual de US$ 1 bilhão, representando um aumento de 4x em 2026. O artigo também destaca o lançamento da API Monitor da Perplexity e a inauguração de um novo laboratório de pesquisa.",
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "Conversei com sete especialistas em física lidando com a revolução da IA",
+      "links": [
+        "https://www.understandingai.org/p/i-spoke-to-seven-physics-experts"
+      ],
+      "summary": "A inteligência artificial agora pode realizar cálculos complexos. O artigo explora o que resta para os físicos teóricos diante dessa capacidade da IA.",
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "BIS aborda o vazamento de capacidade computacional",
+      "links": [
+        "https://www.chinatalk.media/p/bis-finally-takes-a-stand"
+      ],
+      "summary": "O artigo questiona se a era do vazamento de capacidade computacional chegou ao fim. O BIS (Bureau of Industry and Security) está tomando uma posição sobre o assunto.",
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "Construa Agentes Duráveis, Seguros e de Longa Duração",
+      "links": [
+        "https://www.decodingai.com/p/build-durable-secure-long-running-agents"
+      ],
+      "summary": "O artigo descreve a transição de falhas, código descartável e contas inesperadas para execuções de agentes confiáveis e bem-sucedidas. Ele foca na construção de agentes que são duráveis e seguros.",
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "Alta Ares vence contrato-quadro da OTAN para sistemas antidrones",
+      "links": [
+        "https://press.airstreet.com/p/alta-ares-nato-counter-drone-framework-contract"
+      ],
+      "summary": "A empresa de defesa aérea Alta Ares garantiu seis dos 16 lotes no contrato-quadro antidrones da OTAN. Isso a torna a fornecedora com o maior número de lotes vencidos.",
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "O Lakehouse para IA",
+      "links": [
+        "https://tomtunguz.com/the-lakehouse-for-ai"
+      ],
+      "summary": "A LanceDB levantou US$ 57,5 milhões em uma Série B, totalizando US$ 98,5 milhões, após um crescimento de receita de mais de 10x ano a ano e 6x em downloads de código aberto, atingindo mais de 120 milhões. Equipes estão substituindo cópias fragmentadas de blobs, Parquet e vetores por um único lakehouse multimodal.",
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "Por que a inferência é mais difícil do que você pensa",
+      "links": [
+        "https://www.generalist.com/p/why-inference-is-harder-than-you"
+      ],
+      "summary": "Tuhin Srivastava, CEO da Baseten, discute a inferência como o \"mercado final\" da IA. O artigo explora os desafios inerentes à inferência em sistemas de inteligência artificial.",
+      "authors": [
+        "Tuhin Srivastava"
+      ],
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "Como Construir Agentes Proativos e Sempre Ativos com o SDK de Agendamentos em Managed Deep Agents",
+      "links": [
+        "https://www.langchain.com/blog/proactive-agents"
+      ],
+      "summary": "O artigo explica o que as execuções agendadas desbloqueiam, desde memória até triagem inteligente. Ele demonstra como adicionar essas funcionalidades aos Managed Deep Agents.",
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "O que Aprendemos Construindo Agentes Proativos",
+      "links": [
+        "https://www.langchain.com/blog/what-weve-learned-building-proactive-agents"
+      ],
+      "summary": "Agentes proativos trabalham em segundo plano para atingir objetivos e interagem quando necessário. O artigo compartilha lições aprendidas sobre memória e experiência do usuário ao desenvolver agentes como GTM Agent e Robin.",
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "Os Principais Destaques do Cerebral Valley AI Summit da Newcomer",
+      "links": [
+        "https://www.newcomer.co/p/top-takes-from-cvai-2026"
+      ],
+      "summary": "O artigo apresenta as principais discussões e a agenda da indústria para o próximo ano. Inclui insights de Ali Ghodsi, Hemant Taneja, Nikesh Arora e outros.",
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "A IA pode ajudar a construir um futuro mais saudável?",
+      "links": [
+        "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future"
+      ],
+      "summary": "Doug Burger, Ava Amini, Eric Horvitz e Eric Topol exploram o potencial da IA na medicina. Eles discutem o que a inteligência artificial pode possibilitar e como alcançar esses avanços.",
+      "authors": [
+        "Doug Burger",
+        "Ava Amini",
+        "Eric Horvitz",
+        "Eric Topol"
+      ],
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "The Sequence Knowledge - Edição #973: Aprendendo RSI: Modelos de Mundo como Campos de Treinamento para Agentes Autoaperfeiçoáveis",
+      "links": [
+        "https://thesequence.substack.com/p/the-sequence-knowledge-issue-973"
+      ],
+      "summary": "O artigo aborda o SIMA 2 e o desafio de gerar experiência útil para agentes. Ele explora modelos de mundo como ambientes de treinamento para agentes autoaperfeiçoáveis.",
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "Novos desafios de engenharia de contexto no final de 2026",
+      "links": [
+        "https://www.langchain.com/blog/context-engineering-challenges-late-2026"
+      ],
+      "summary": "Harrison Chase, CEO da LangChain, compartilha insights sobre os maiores desafios de engenharia de 'harness' com o surgimento de agentes proativos. O artigo discute as complexidades da engenharia de contexto.",
+      "authors": [
+        "Harrison Chase"
+      ],
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "Os cinco componentes para construir um 'harness' de empresa",
+      "links": [
+        "https://www.langchain.com/blog/components-building-company-harness"
+      ],
+      "summary": "O artigo detalha como a LangChain construiu agentes internos para marketing, vendas e engenharia. Esses agentes transformaram completamente a forma como essas equipes trabalham.",
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "Proteja dados sensíveis em seus rastreamentos: novos controles no LangSmith",
+      "links": [
+        "https://www.langchain.com/blog/protect-sensitive-data-in-your-traces-new-controls-in-langsmith"
+      ],
+      "summary": "Novos controles foram implementados no LangSmith para ajudar as equipes a gerenciar o acesso a dados de rastreamento sensíveis. O artigo fornece mais informações sobre essas funcionalidades de proteção.",
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
     {
       "title": "Construindo Inteligência Visual",
       "links": [
