@@ -1,8 +1,92 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-11-17 19:14 UTC",
+  "updated_at": "2026-11-18 18:53 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "FastFrames: Geração de Vídeo com Latência Interativa",
+      "links": [
+        "https://arxiv.org/abs/2611.23226"
+      ],
+      "summary": "A difusão de vídeo autorregressiva é lenta para interação, pois a decodificação VAE e as atualizações de cache KV consomem mais da metade da latência. FastFrames substitui essas etapas por alternativas leves. Um modelo de 1.3B atinge 36 ms/quadro em uma B200, igualando um gerador SOTA quase 8 vezes mais lento; uma variante de 14B atinge 45 ms/quadro em 8 B200 com maior realismo.",
+      "authors": [
+        "Gene Chou",
+        "Guandao Yang",
+        "Fujun Luan",
+        "Lars Mescheder",
+        "Wei Dong",
+        "Stephan Richter",
+        "Vladlen Koltun"
+      ],
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "Pixel é Tudo o Que Você Precisa",
+      "links": [
+        "https://arxiv.org/abs/2611.22820"
+      ],
+      "summary": "Geradores unificados falham no raciocínio simbólico, a menos que um módulo de texto oculto já tenha a resposta. Modelos treinados puramente no espaço de pixels, com imagens como única entrada/saída, leem perguntas, escrevem etapas e respondem na tela, demonstrando raciocínio semelhante ao de LLMs.",
+      "authors": [
+        "Jie Chu",
+        "Haoting Shi",
+        "Fucheng Zhang",
+        "Jiawei Liu",
+        "Junwei Liao",
+        "Ying Wen",
+        "Muning Wen"
+      ],
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "A Verificação da Realidade do Kernel: Avaliando e Destilando Atenção Eficiente em Escala",
+      "links": [
+        "https://arxiv.org/abs/2611.22947"
+      ],
+      "summary": "Uma auditoria de cinco anos da atenção kernelizada O(N) no NeurIPS 2026 mostra que o FlashAttention supera kernels SOTA em memória e tempo de execução. Kernels ficam 2 a 10 pontos atrás do softmax em qualidade, e a escala não resolve isso. LARA++ recupera até 99% da precisão do softmax, mas o custo computacional mantém o problema de eficiência.",
+      "authors": [
+        "Fırat Öncel",
+        "Cem Subakan",
+        "Mirco Ravanelli",
+        "Çağatay Yıldız"
+      ],
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "Agentes LLM Ainda Precisam Ser Instruídos Sobre Como se Autoaprimorar?",
+      "links": [
+        "https://arxiv.org/abs/2611.23219"
+      ],
+      "summary": "Ao congelar um LLM e fornecer-lhe um orçamento computacional e ferramentas para coletar experiência, modelos capazes inventam seus próprios algoritmos de aprendizado baseados em contexto. Essas estratégias correspondem ao aprendizado autorregulado clássico e currículos autogerados, com artefatos de texto aprendidos transferíveis.",
+      "authors": [
+        "Shobhita Sundaram",
+        "Cansu Sancaktar",
+        "Phillip Isola"
+      ],
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "SEAM: Agentes de Uso de Computador Conhecem o Dano Entre Telas, e o Cometem Mesmo Assim",
+      "links": [
+        "https://arxiv.org/abs/2611.22971"
+      ],
+      "summary": "O SEAM apresenta 600 tarefas OSWorld onde a combinação de instruções e observações benignas resulta em dano. Agentes de IA executam o dano em até 92% das vezes, mesmo reconhecendo o conflito quando questionados. Uma advertência do usuário é mais eficaz para impedi-los do que avisos na tela.",
+      "authors": [
+        "Yuxuan Zhou",
+        "Chen Xiong",
+        "Haitong Liu",
+        "Kuofeng Gao",
+        "Yang Bai",
+        "Zhiyuan He",
+        "Tao Dai",
+        "Shu-Tao Xia"
+      ],
+      "published_at": "2026-11-17",
+      "date": "2026-11-17"
+    },
     {
       "title": "Modelos de Linguagem de Rede Latente",
       "links": [

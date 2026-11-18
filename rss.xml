@@ -5,7 +5,214 @@
     <link>https://github.com/alanalvestech/garimpo</link>
     <description>Notícias diárias de tecnologia, em português.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 18 Nov 2026 01:43:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 18:58:11 +0000</lastBuildDate>
+    <item>
+      <title>FastFrames: Geração de Vídeo com Latência Interativa</title>
+      <link>https://arxiv.org/abs/2611.23226</link>
+      <description>Gene Chou, Guandao Yang, Fujun Luan, Lars Mescheder, Wei Dong, Stephan Richter, Vladlen Koltun
+
+A difusão de vídeo autorregressiva é lenta para interação, pois a decodificação VAE e as atualizações de cache KV consomem mais da metade da latência. FastFrames substitui essas etapas por alternativas leves. Um modelo de 1.3B atinge 36 ms/quadro em uma B200, igualando um gerador SOTA quase 8 vezes mais lento; uma variante de 14B atinge 45 ms/quadro em 8 B200 com maior realismo.</description>
+      <category>Arxiv</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.23226</guid>
+    </item>
+    <item>
+      <title>Pixel é Tudo o Que Você Precisa</title>
+      <link>https://arxiv.org/abs/2611.22820</link>
+      <description>Jie Chu, Haoting Shi, Fucheng Zhang, Jiawei Liu, Junwei Liao, Ying Wen, Muning Wen
+
+Geradores unificados falham no raciocínio simbólico, a menos que um módulo de texto oculto já tenha a resposta. Modelos treinados puramente no espaço de pixels, com imagens como única entrada/saída, leem perguntas, escrevem etapas e respondem na tela, demonstrando raciocínio semelhante ao de LLMs.</description>
+      <category>Arxiv</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.22820</guid>
+    </item>
+    <item>
+      <title>A Verificação da Realidade do Kernel: Avaliando e Destilando Atenção Eficiente em Escala</title>
+      <link>https://arxiv.org/abs/2611.22947</link>
+      <description>Fırat Öncel, Cem Subakan, Mirco Ravanelli, Çağatay Yıldız
+
+Uma auditoria de cinco anos da atenção kernelizada O(N) no NeurIPS 2026 mostra que o FlashAttention supera kernels SOTA em memória e tempo de execução. Kernels ficam 2 a 10 pontos atrás do softmax em qualidade, e a escala não resolve isso. LARA++ recupera até 99% da precisão do softmax, mas o custo computacional mantém o problema de eficiência.</description>
+      <category>Arxiv</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.22947</guid>
+    </item>
+    <item>
+      <title>Agentes LLM Ainda Precisam Ser Instruídos Sobre Como se Autoaprimorar?</title>
+      <link>https://arxiv.org/abs/2611.23219</link>
+      <description>Shobhita Sundaram, Cansu Sancaktar, Phillip Isola
+
+Ao congelar um LLM e fornecer-lhe um orçamento computacional e ferramentas para coletar experiência, modelos capazes inventam seus próprios algoritmos de aprendizado baseados em contexto. Essas estratégias correspondem ao aprendizado autorregulado clássico e currículos autogerados, com artefatos de texto aprendidos transferíveis.</description>
+      <category>Arxiv</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.23219</guid>
+    </item>
+    <item>
+      <title>SEAM: Agentes de Uso de Computador Conhecem o Dano Entre Telas, e o Cometem Mesmo Assim</title>
+      <link>https://arxiv.org/abs/2611.22971</link>
+      <description>Yuxuan Zhou, Chen Xiong, Haitong Liu, Kuofeng Gao, Yang Bai, Zhiyuan He, Tao Dai, Shu-Tao Xia
+
+O SEAM apresenta 600 tarefas OSWorld onde a combinação de instruções e observações benignas resulta em dano. Agentes de IA executam o dano em até 92% das vezes, mesmo reconhecendo o conflito quando questionados. Uma advertência do usuário é mais eficaz para impedi-los do que avisos na tela.</description>
+      <category>Arxiv</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.22971</guid>
+    </item>
+    <item>
+      <title>Animação de mech gigante com GPT-6.2 Astra e Sol</title>
+      <link>https://bsky.app/profile/simonwillison.net/post/3n2k4j57tg22m</link>
+      <description>simonwillison.net
+
+GPT-6.2 Astra e Sol foram usados para criar uma animação 3D de um mech gigante. O mech se levanta em Yonkers e pisa em Manhattan, Queens e Brooklyn, utilizando dados do OpenStreetMap.</description>
+      <category>Bluesky</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://bsky.app/profile/simonwillison.net/post/3n2k4j57tg22m</guid>
+    </item>
+    <item>
+      <title>Patches de segurança como causa de interrupções recentes</title>
+      <link>https://bsky.app/profile/emollick.bsky.social/post/3n2kh6qjgrs2z</link>
+      <description>emollick.bsky.social
+
+A causa mais provável para as recentes interrupções são os patches de segurança urgentes. CIOs estão exaustos tentando atender às demandas de patches e equilibrar isso com as operações normais.</description>
+      <category>Bluesky</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://bsky.app/profile/emollick.bsky.social/post/3n2kh6qjgrs2z</guid>
+    </item>
+    <item>
+      <title>Programação no Espaço de Pesos Não Precisa de Transformers</title>
+      <link>https://huggingface.co/papers/2611.22055</link>
+      <category>HuggingFacePapers</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.22055</guid>
+    </item>
+    <item>
+      <title>Transformer Multiramificado</title>
+      <link>https://huggingface.co/papers/2611.19800</link>
+      <description>Publicado em 15/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.19800</guid>
+    </item>
+    <item>
+      <title>Breath-Dx: Um Benchmark de Classificação de Séries Temporais para Rastreamento de Doenças com eNose</title>
+      <link>https://huggingface.co/papers/2611.15348</link>
+      <description>Publicado em 11/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.15348</guid>
+    </item>
+    <item>
+      <title>ResWAM: Aprendendo o Que Muda, Não o Que Permanece, para Modelos de Ação-Mundo</title>
+      <link>https://huggingface.co/papers/2611.19559</link>
+      <description>Publicado em 14/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.19559</guid>
+    </item>
+    <item>
+      <title>MPEG-Diffusion: Geração de Vídeo de Resolução Mista</title>
+      <link>https://huggingface.co/papers/2611.12069</link>
+      <description>Publicado em 09/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.12069</guid>
+    </item>
+    <item>
+      <title>Heave-Ho: Colaboração Multi-Humanoide Descentralizada de Longo Prazo</title>
+      <link>https://huggingface.co/papers/2611.22275</link>
+      <category>HuggingFacePapers</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.22275</guid>
+    </item>
+    <item>
+      <title>π^4: Um Modelo Fundamental para Geometria e Movimento de Cenas 4D</title>
+      <link>https://huggingface.co/papers/2611.23144</link>
+      <category>HuggingFacePapers</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.23144</guid>
+    </item>
+    <item>
+      <title>Destilação On-Policy Agente Remodela Implicitamente Padrões ReAct de LLMs</title>
+      <link>https://huggingface.co/papers/2611.19244</link>
+      <description>Publicado em 14/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.19244</guid>
+    </item>
+    <item>
+      <title>Memória de Autoaperfeiçoamento Permite Autoaperfeiçoamento Recursivo Contínuo</title>
+      <link>https://huggingface.co/papers/2611.18856</link>
+      <description>Publicado em 13/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.18856</guid>
+    </item>
+    <item>
+      <title>Centralização de Pontuação Regularizada</title>
+      <link>https://huggingface.co/papers/2611.21791</link>
+      <description>Publicado em 16/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.21791</guid>
+    </item>
+    <item>
+      <title>Austin Lau, ex-Anthropic, anuncia sua entrada na OpenAI</title>
+      <link>https://x.com/helloitsaustin/status/2118161804463595931</link>
+      <description>Austin Lau, que ajudou a construir a função de crescimento da Anthropic, anunciou sua entrada na OpenAI.</description>
+      <category>Twitter</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/helloitsaustin/status/2118161804463595931</guid>
+    </item>
+    <item>
+      <title>Novas Formas de Trabalhar com Codex</title>
+      <link>https://www.youtube.com/watch?v=IPh9YsWvDQk</link>
+      <description>Dominik Kundel, Charlie Guo
+
+O vídeo aborda novas formas de trabalhar com o Codex.
+
+Publicado em 18/11/2026</description>
+      <category>Youtube</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=IPh9YsWvDQk</guid>
+    </item>
+    <item>
+      <title>Curso Completo de Engenharia de IA | 10 Projetos Avançados | LLMs, RAG, LangChain, LangGraph, Agentes de IA</title>
+      <link>https://www.youtube.com/watch?v=WIW5hN-hApQ</link>
+      <description>Este curso de 8,5 horas guia iniciantes desde a configuração do Python até a construção de dez projetos práticos de engenharia de IA.</description>
+      <category>Youtube</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=WIW5hN-hApQ</guid>
+    </item>
+    <item>
+      <title>7 ferramentas de IA que EU IMPLORO para você experimentar...</title>
+      <link>https://www.youtube.com/watch?v=RwtaADjOi0Q</link>
+      <description>O vídeo apresenta sete ferramentas de IA recomendadas para uso.</description>
+      <category>Youtube</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=RwtaADjOi0Q</guid>
+    </item>
+    <item>
+      <title>Como Agentes de IA Podem Hackear Tudo Que Você Possui | Vazamento de Dados SBI | Dark Web | Podcast Amit Dubey</title>
+      <link>https://www.youtube.com/watch?v=1j79e8QPJLw</link>
+      <description>Amit Dubey
+
+A discussão aborda como a IA torna os ciberataques mais baratos, escaláveis e difíceis de detectar. Vazamentos de dados comuns e práticas de segurança fracas já expõem pessoas e serviços essenciais.
+
+Publicado em 15/11/2026</description>
+      <category>Youtube</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=1j79e8QPJLw</guid>
+    </item>
+    <item>
+      <title>Por Que a IA Substituirá Esses Empregos: As Habilidades Que Você Precisa em Seguida | Sachin Puri | FO589 Raj Shamani</title>
+      <link>https://www.youtube.com/watch?v=8ol3j7o1U7o</link>
+      <description>Sachin Puri
+
+Sachin Puri, CEO da Newfold Digital, argumenta que o tráfego da web está migrando para agentes de IA. Ele prevê que mais de 80% do tráfego se tornará agêntico.
+
+Publicado em 18/11/2026</description>
+      <category>Youtube</category>
+      <pubDate>Wed, 18 Nov 2026 18:53:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=8ol3j7o1U7o</guid>
+    </item>
     <item>
       <title>Executando o aplicativo Python Datasette completo do lado do servidor no navegador com service workers e Pyodide</title>
       <link>https://simonwillison.net/2026/Nov/17/datasette-lite</link>
@@ -957,206 +1164,6 @@ Alexhanna.bsky.social aborda o discurso de "culpar a IA" por falhas sistêmicas.
       <category>Bluesky</category>
       <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
       <guid isPermaLink="true">https://bsky.app/profile/alexhanna.bsky.social/post/3n2ho5ns5lk2s</guid>
-    </item>
-    <item>
-      <title>O impacto da IA na indústria de jogos</title>
-      <link>https://bsky.app/profile/emollick.bsky.social/post/3n2jbacjztk27</link>
-      <description>emollick.bsky.social
-
-Emollick.bsky.social critica a discussão sobre IA nos jogos, afirmando que a ideia de que humanos serão os únicos a escrever código sem assistência é incorreta. A pressão da mídia e dos fãs impede o direcionamento do uso da IA para capacitar trabalhadores e promover o crescimento da indústria de jogos.</description>
-      <category>Bluesky</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://bsky.app/profile/emollick.bsky.social/post/3n2jbacjztk27</guid>
-    </item>
-    <item>
-      <title>Vulnerabilidade da infraestrutura de computadores e IA</title>
-      <link>https://bsky.app/profile/emollick.bsky.social/post/3n2htyp4bhc2t</link>
-      <description>emollick.bsky.social
-
-Emollick.bsky.social destaca que grande parte da infraestrutura de computadores é um sistema improvisado, propenso a falhas em cascata. Grandes interrupções, como as da Microsoft ou FAA, não exigem ataques cibernéticos de IA ofensiva. No entanto, agora é necessário lidar com IAs ofensivas, bem como com IAs defensivas e correções.</description>
-      <category>Bluesky</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://bsky.app/profile/emollick.bsky.social/post/3n2htyp4bhc2t</guid>
-    </item>
-    <item>
-      <title>Re-Search: Dissecando a Ideação de LLMs Através de um Jogo de Perguntas para Dois Jogadores</title>
-      <link>https://huggingface.co/papers/2611.14487</link>
-      <description>Publicado em 10/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.14487</guid>
-    </item>
-    <item>
-      <title>LuthorSQL: Um Modelo Text-to-SQL de Uma Passagem como Sistema 1 para um Agente LLM Mais Lento</title>
-      <link>https://huggingface.co/papers/2611.17780</link>
-      <description>Publicado em 13/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.17780</guid>
-    </item>
-    <item>
-      <title>Analisado, Plausível, Errado: O Formato de Saída Controla Erros Silenciosos na Análise Semântica de Modelos Pequenos</title>
-      <link>https://huggingface.co/papers/2611.17169</link>
-      <description>Publicado em 12/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.17169</guid>
-    </item>
-    <item>
-      <title>Iris-Z: Escalando um Modelo Generativo Além dos Modelos de Geometria Especialistas</title>
-      <link>https://huggingface.co/papers/2611.16010</link>
-      <description>Publicado em 11/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.16010</guid>
-    </item>
-    <item>
-      <title>Restaurando a Diversidade em Geradores de Imagem e Vídeo Destilados Através da Sondagem de Ativações</title>
-      <link>https://huggingface.co/papers/2611.18550</link>
-      <description>Publicado em 13/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.18550</guid>
-    </item>
-    <item>
-      <title>Reduzindo o Makespan de Lotes para Cargas de Trabalho de Agentes LLM Através da Coordenação Ambiente-Inferência</title>
-      <link>https://huggingface.co/papers/2611.16661</link>
-      <description>Publicado em 12/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.16661</guid>
-    </item>
-    <item>
-      <title>BrickFlow: Reconstrução de Blocos Guiada por Conectividade</title>
-      <link>https://huggingface.co/papers/2611.17321</link>
-      <description>Publicado em 12/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.17321</guid>
-    </item>
-    <item>
-      <title>Dual Flow: Interpolação Conjunta Imagem-Medida para Problemas Inversos</title>
-      <link>https://huggingface.co/papers/2611.05843</link>
-      <description>Publicado em 12/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.05843</guid>
-    </item>
-    <item>
-      <title>EvenVLM: Um Conjunto de Dados de Texto e Multimodal para a Língua Even com Ajuste Fino de Visão-Linguagem</title>
-      <link>https://huggingface.co/papers/2611.16500</link>
-      <description>Publicado em 12/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.16500</guid>
-    </item>
-    <item>
-      <title>Alloy: Um Motor de Física Multi-Material para Aprendizado de Robôs</title>
-      <link>https://huggingface.co/papers/2611.16312</link>
-      <description>Publicado em 12/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.16312</guid>
-    </item>
-    <item>
-      <title>Relatório Técnico Flash Sage S2.1</title>
-      <link>https://huggingface.co/papers/2611.21072</link>
-      <description>Também em: https://arxiv.org/abs/2611.21072</description>
-      <category>Papers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.21072</guid>
-    </item>
-    <item>
-      <title>K2-Horizon: Uma Frota Pioneira de Modelos de Linguagem de Código Aberto</title>
-      <link>https://huggingface.co/papers/2611.21003</link>
-      <description>Também em: https://arxiv.org/abs/2611.21003</description>
-      <category>Papers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.21003</guid>
-    </item>
-    <item>
-      <title>AllocFlow: Geração de Ações de Negociação de Portfólio Ponta a Ponta a Partir de Dados Brutos de Mercado</title>
-      <link>https://huggingface.co/papers/2611.19937</link>
-      <description>Publicado em 15/11/2026
-
-Também em: https://arxiv.org/abs/2611.19937</description>
-      <category>Papers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.19937</guid>
-    </item>
-    <item>
-      <title>InclusionMed: Avaliando a IA para Cuidados de Saúde Inclusivos</title>
-      <link>https://huggingface.co/papers/2611.21218</link>
-      <description>Também em: https://arxiv.org/abs/2611.21218</description>
-      <category>Papers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.21218</guid>
-    </item>
-    <item>
-      <title>SPILLWAY: Separando a Admissão de Alvo da Sanitização para Defender Agentes Usuários de Ferramentas Contra Injeção de Prompt</title>
-      <link>https://huggingface.co/papers/2611.07222</link>
-      <description>Publicado em 04/11/2026
-
-Também em: https://arxiv.org/abs/2611.07222</description>
-      <category>Papers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.07222</guid>
-    </item>
-    <item>
-      <title>SWE-CoWork: Avaliando Agentes de Codificação como Funcionários Digitais em Organizações</title>
-      <link>https://huggingface.co/papers/2611.20218</link>
-      <description>Publicado em 15/11/2026
-
-Também em: https://arxiv.org/abs/2611.20218</description>
-      <category>Papers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.20218</guid>
-    </item>
-    <item>
-      <title>ScaleVLA: Escalando Modelos Visão-Linguagem-Ação para 552 Bilhões de Parâmetros</title>
-      <link>https://huggingface.co/papers/2611.21607</link>
-      <description>Também em: https://arxiv.org/abs/2611.21607</description>
-      <category>Papers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.21607</guid>
-    </item>
-    <item>
-      <title>PaperCritic: Treinando Revisores de IA para Avaliar a Solidez de Artigos</title>
-      <link>https://huggingface.co/papers/2611.17834</link>
-      <description>Publicado em 13/11/2026
-
-Também em: https://arxiv.org/abs/2611.17834</description>
-      <category>Papers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.17834</guid>
-    </item>
-    <item>
-      <title>Relatório Técnico VoxMel TTS</title>
-      <link>https://huggingface.co/papers/2611.20254</link>
-      <description>Publicado em 15/11/2026
-
-Também em: https://arxiv.org/abs/2611.20254</description>
-      <category>Papers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.20254</guid>
-    </item>
-    <item>
-      <title>Accelerate Bench: Avaliando Agentes para Otimização de Programas em Nível de Aplicação</title>
-      <link>https://huggingface.co/papers/2611.20882</link>
-      <description>Também em: https://arxiv.org/abs/2611.20882</description>
-      <category>Papers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.20882</guid>
-    </item>
-    <item>
-      <title>SALA: Ações Latentes Semanticamente Alinhadas Permitem o Escalonamento de Eixo Duplo de Modelos Fundamentais Corporificados</title>
-      <link>https://huggingface.co/papers/2611.17110</link>
-      <description>Publicado em 12/11/2026
-
-Também em: https://arxiv.org/abs/2611.17110</description>
-      <category>Papers</category>
-      <pubDate>Tue, 17 Nov 2026 19:14:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.17110</guid>
     </item>
   </channel>
 </rss>
