@@ -1,8 +1,87 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-11-18 18:53 UTC",
+  "updated_at": "2026-11-19 19:03 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Modelos de Mundo Contrafactuais: JEPAs Que Raciocinam Sobre \"E Se\"",
+      "links": [
+        "https://arxiv.org/abs/2611.24778"
+      ],
+      "summary": "Modelos de mundo treinados apenas em transições factuais não conseguem responder a cenários \"e se\". Este método transforma o \"e se\" em uma propriedade da dinâmica, elevando o R² contrafactual de 38-46% para 86-96% em simuladores sem retreinamento ou parâmetros extras.",
+      "authors": [
+        "Randall Balestriero",
+        "Yann LeCun",
+        "Kerda Varaku"
+      ],
+      "published_at": "2026-11-18",
+      "date": "2026-11-18"
+    },
+    {
+      "title": "Progresso Geral Substitui Dados de Treinamento Específicos em Modelos de Linguagem",
+      "links": [
+        "https://arxiv.org/abs/2611.24844"
+      ],
+      "summary": "Reter o sinal de treinamento de uma habilidade em modelos de linguagem atrasa sua aquisição. No entanto, o progresso geral do treinamento permite que a habilidade seja adquirida com uma fração menor dos dados inicialmente necessários.",
+      "authors": [
+        "Mark Marosi",
+        "Peter Antal"
+      ],
+      "published_at": "2026-11-18",
+      "date": "2026-11-18"
+    },
+    {
+      "title": "Treinando Modelos de Linguagem para Supervisão Introspectiva",
+      "links": [
+        "https://arxiv.org/abs/2611.23365"
+      ],
+      "summary": "Um papel de observador de terceira pessoa, treinado para precisão contra comportamento verificado, melhora a supervisão introspectiva de modelos de linguagem. Este método alcança AUROC médio de 0.907 em avaliações de supervisão, superando outras abordagens.",
+      "authors": [
+        "Alex Lin Wang",
+        "Linus Yifeng Tang",
+        "Dami Choi",
+        "Neil Chowdhury"
+      ],
+      "published_at": "2026-11-17",
+      "date": "2026-11-18"
+    },
+    {
+      "title": "Toaster: Memória Não Linear a Partir de Memórias Lineares em Cascata e Propagação de Alvo",
+      "links": [
+        "https://arxiv.org/abs/2611.23648"
+      ],
+      "summary": "Toaster é um método que combina memórias lineares em cascata com propagação de alvo para criar memória não linear. Ele supera KDA e Titans em benchmarks, oferecendo um estado recorrente não linear sem sacrificar a velocidade do kernel de memória linear.",
+      "authors": [
+        "Zeman Li",
+        "Ali Behrouz",
+        "Yuan Deng",
+        "Praneeth Kacham",
+        "Rami Al-Rfou",
+        "Meisam Razaviyayn",
+        "Vahab Mirrokni"
+      ],
+      "published_at": "2026-11-18",
+      "date": "2026-11-18"
+    },
+    {
+      "title": "Pense Offline, Aja em Tempo Real: Agentes Visuais de Jogo Autoaperfeiçoáveis Através de Código",
+      "links": [
+        "https://arxiv.org/abs/2611.24590"
+      ],
+      "summary": "Agentes de jogo visuais em tempo real podem se autoaperfeiçoar escrevendo, testando e revisando programas offline. Esta abordagem, \"código como política\", alcança 47.80% de progresso médio em tarefas GameWorld, superando controladores treinados.",
+      "authors": [
+        "Zipeng Qiu",
+        "Shusheng Xu",
+        "Jiale Li",
+        "Yukun Zhou",
+        "Chenyue Li",
+        "Wenshuang Li",
+        "Tongkai Yang",
+        "Binhang Yuan"
+      ],
+      "published_at": "2026-11-18",
+      "date": "2026-11-18"
+    },
     {
       "title": "FastFrames: Geração de Vídeo com Latência Interativa",
       "links": [
