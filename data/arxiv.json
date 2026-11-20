@@ -1,8 +1,84 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-11-19 19:03 UTC",
+  "updated_at": "2026-11-20 18:39 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Relatório Técnico do Modelo Beam",
+      "links": [
+        "https://arxiv.org/abs/2611.26358"
+      ],
+      "summary": "Beam é um MoE esparso de 501,3B parâmetros (23,4B ativos) para codificação, raciocínio e agentes, pré-treinado com 23,8T tokens e contexto de 1M tokens. O pós-treinamento usou uma campanha RL assíncrona em 10,5K GPUs GB300, resultando em raciocínio de nível de fronteira com 3-4x menos computação de inferência e alta recusa a solicitações prejudiciais.",
+      "authors": [
+        "Reflection Team"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-19"
+    },
+    {
+      "title": "Pós-Treinamento RL em Transformers de Difusão é Direcionamento de Ativação",
+      "links": [
+        "https://arxiv.org/abs/2611.26627"
+      ],
+      "summary": "Um conjunto fixo de vetores de direcionamento em saídas de blocos DiT congelados recupera 90,0, 96,3% dos ganhos de recompensa de seis modelos de imagem ajustados por RL e supera o RL baseado em pesos em OCR e PickScore. Isso sugere que a maior parte do RL de difusão é um ajuste constante de um gerador existente, e não uma nova política dependente da entrada.",
+      "authors": [
+        "Tuna Han Salih Meral",
+        "Kaan Oktay",
+        "Alec Helbling",
+        "Atakan Kara",
+        "Duen Horng Chau",
+        "Pinar Yanardag"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-19"
+    },
+    {
+      "title": "TideCache: Servidor Híbrido Eficiente para LLMs com Gerenciamento Transparente de Cache e Streaming por Camadas",
+      "links": [
+        "https://arxiv.org/abs/2611.26619"
+      ],
+      "summary": "TideCache é uma solução para servir LLMs híbridos, utilizando um pool de páginas transparente, um streamer de prefixo por camadas e um agendador de requisições. Implementado em SGLang, ele aumenta o número de turnos de agente em até 2,04x e reduz a latência por token em 20-59% em comparação com SGLang+HiCache.",
+      "authors": [
+        "Jinbin Luo",
+        "Xiaozhe Yao",
+        "Shang Yang",
+        "Zhijian Liu",
+        "Song Han",
+        "Qinghao Hu"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-19"
+    },
+    {
+      "title": "ViDecide: Ensinando Modelos de Difusão de Vídeo a Raciocinar e Planejar Passo a Passo",
+      "links": [
+        "https://arxiv.org/abs/2611.26389"
+      ],
+      "summary": "ViDecide treina o denoiser de modelos de difusão de vídeo como um processo de decisão causal para prever transições de estado e o momento de parar. Usando o Ajuste Fino Corretivo (CFT), o modelo alcança uma taxa de sucesso de 83,8%, superando métodos anteriores e generalizando para novos cenários.",
+      "authors": [
+        "Kaiwen Zhang",
+        "Yiming Gao",
+        "Zeqi Xiao",
+        "Xintao Wang",
+        "Pengfei Wan",
+        "Kun Gai",
+        "Xingang Pan"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-19"
+    },
+    {
+      "title": "Awaken-HI: Escalando a Inteligência Humanoide com Experiência Humana de Corpo Inteiro",
+      "links": [
+        "https://arxiv.org/abs/2611.26420"
+      ],
+      "summary": "Awaken-HI utiliza 50.000 horas de dados humanos de corpo inteiro para treinar robôs humanoides, prevendo trajetórias humanas e ações robóticas. Após a adaptação T800, o modelo alcança 93,75% de sucesso em oito tarefas, superando outros modelos em avaliações de habilidade única e longo horizonte.",
+      "authors": [
+        "EngineAI"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-19"
+    },
     {
       "title": "Modelos de Mundo Contrafactuais: JEPAs Que Raciocinam Sobre \"E Se\"",
       "links": [

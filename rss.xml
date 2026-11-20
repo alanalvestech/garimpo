@@ -5,7 +5,339 @@
     <link>https://github.com/alanalvestech/garimpo</link>
     <description>Notícias diárias de tecnologia, em português.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 20 Nov 2026 01:21:30 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 18:46:32 +0000</lastBuildDate>
+    <item>
+      <title>Relatório Técnico do Modelo Beam</title>
+      <link>https://arxiv.org/abs/2611.26358</link>
+      <description>Reflection Team
+
+Beam é um MoE esparso de 501,3B parâmetros (23,4B ativos) para codificação, raciocínio e agentes, pré-treinado com 23,8T tokens e contexto de 1M tokens. O pós-treinamento usou uma campanha RL assíncrona em 10,5K GPUs GB300, resultando em raciocínio de nível de fronteira com 3-4x menos computação de inferência e alta recusa a solicitações prejudiciais.</description>
+      <category>Arxiv</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.26358</guid>
+    </item>
+    <item>
+      <title>Pós-Treinamento RL em Transformers de Difusão é Direcionamento de Ativação</title>
+      <link>https://arxiv.org/abs/2611.26627</link>
+      <description>Tuna Han Salih Meral, Kaan Oktay, Alec Helbling, Atakan Kara, Duen Horng Chau, Pinar Yanardag
+
+Um conjunto fixo de vetores de direcionamento em saídas de blocos DiT congelados recupera 90,0, 96,3% dos ganhos de recompensa de seis modelos de imagem ajustados por RL e supera o RL baseado em pesos em OCR e PickScore. Isso sugere que a maior parte do RL de difusão é um ajuste constante de um gerador existente, e não uma nova política dependente da entrada.</description>
+      <category>Arxiv</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.26627</guid>
+    </item>
+    <item>
+      <title>TideCache: Servidor Híbrido Eficiente para LLMs com Gerenciamento Transparente de Cache e Streaming por Camadas</title>
+      <link>https://arxiv.org/abs/2611.26619</link>
+      <description>Jinbin Luo, Xiaozhe Yao, Shang Yang, Zhijian Liu, Song Han, Qinghao Hu
+
+TideCache é uma solução para servir LLMs híbridos, utilizando um pool de páginas transparente, um streamer de prefixo por camadas e um agendador de requisições. Implementado em SGLang, ele aumenta o número de turnos de agente em até 2,04x e reduz a latência por token em 20-59% em comparação com SGLang+HiCache.</description>
+      <category>Arxiv</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.26619</guid>
+    </item>
+    <item>
+      <title>ViDecide: Ensinando Modelos de Difusão de Vídeo a Raciocinar e Planejar Passo a Passo</title>
+      <link>https://arxiv.org/abs/2611.26389</link>
+      <description>Kaiwen Zhang, Yiming Gao, Zeqi Xiao, Xintao Wang, Pengfei Wan, Kun Gai, Xingang Pan
+
+ViDecide treina o denoiser de modelos de difusão de vídeo como um processo de decisão causal para prever transições de estado e o momento de parar. Usando o Ajuste Fino Corretivo (CFT), o modelo alcança uma taxa de sucesso de 83,8%, superando métodos anteriores e generalizando para novos cenários.</description>
+      <category>Arxiv</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.26389</guid>
+    </item>
+    <item>
+      <title>Awaken-HI: Escalando a Inteligência Humanoide com Experiência Humana de Corpo Inteiro</title>
+      <link>https://arxiv.org/abs/2611.26420</link>
+      <description>EngineAI
+
+Awaken-HI utiliza 50.000 horas de dados humanos de corpo inteiro para treinar robôs humanoides, prevendo trajetórias humanas e ações robóticas. Após a adaptação T800, o modelo alcança 93,75% de sucesso em oito tarefas, superando outros modelos em avaliações de habilidade única e longo horizonte.</description>
+      <category>Arxiv</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.26420</guid>
+    </item>
+    <item>
+      <title>Testado Gemini Neon no Antigravity, com distribuição semelhante a Claude Code e Codex.</title>
+      <link>https://bsky.app/profile/natolambert.bsky.social/post/3n2qhmcehf32z</link>
+      <description>@natolambert.bsky.social
+
+Nat O'Lambert testou o modelo Gemini Neon no Antigravity. Ele percebeu que o modelo se alinha bem com a distribuição de Claude Code e Codex.</description>
+      <category>Bluesky</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://bsky.app/profile/natolambert.bsky.social/post/3n2qhmcehf32z</guid>
+    </item>
+    <item>
+      <title>Hipótese de Riemann pode ter sido resolvida com a ajuda de Claude.</title>
+      <link>https://bsky.app/profile/emollick.bsky.social/post/3n2qvqp4fts2e</link>
+      <description>@emollick.bsky.social
+
+A Hipótese de Riemann pode ter sido resolvida com a ajuda do modelo Claude. O progresso observado foi tão surpreendente que sugere o início de algo muito maior na ciência.
+
+Também em: alpo.ge/remark.pdf</description>
+      <category>Bluesky</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://bsky.app/profile/emollick.bsky.social/post/3n2qvqp4fts2e</guid>
+    </item>
+    <item>
+      <title>Trabalho inicial fascinante sobre como uma comunidade científica de IA funcionaria.</title>
+      <link>https://bsky.app/profile/emollick.bsky.social/post/3n2pqcy4cbs2g</link>
+      <description>@emollick.bsky.social
+
+Um estudo inicial explora o funcionamento de uma comunidade científica de IA. 35 laboratórios humanos implantaram agentes que colaboraram para fazer ciência, publicando 936 artigos, retratando erros e fundando um periódico de revisão por pares.</description>
+      <category>Bluesky</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://bsky.app/profile/emollick.bsky.social/post/3n2pqcy4cbs2g</guid>
+    </item>
+    <item>
+      <title>Crítica à ideia de que 'IA não é uma moda passageira'.</title>
+      <link>https://bsky.app/profile/alexhanna.bsky.social/post/3n2r2kvyefc2f</link>
+      <description>@alexhanna.bsky.social
+
+Alex Hanna argumenta que a IA como projeto político de dominação não é sustentável e enfrenta resistência. Ela afirma que a IA, como substituto para outros tipos de automação, já existe há muito tempo.</description>
+      <category>Bluesky</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://bsky.app/profile/alexhanna.bsky.social/post/3n2r2kvyefc2f</guid>
+    </item>
+    <item>
+      <title>Crítica ao uso de IA para correção de exames na UC Berkeley/Haas.</title>
+      <link>https://bsky.app/profile/alexhanna.bsky.social/post/3n2qr3glrls24</link>
+      <description>@alexhanna.bsky.social
+
+Alex Hanna critica o projeto piloto da UC Berkeley/Haas para usar IA na correção de exames. Ela questiona se os assistentes de ensino realmente desejam essa implementação.</description>
+      <category>Bluesky</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://bsky.app/profile/alexhanna.bsky.social/post/3n2qr3glrls24</guid>
+    </item>
+    <item>
+      <title>WeVisForensics: Agente Autoevolutivo para Detecção de Vídeos Gerados por IA Omni</title>
+      <link>https://huggingface.co/papers/2611.21373</link>
+      <description>Publicado em 16/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.21373</guid>
+    </item>
+    <item>
+      <title>VSpark: Decodificação Especulativa para Modelos Autoregressivos de Visão-Linguagem-Ação</title>
+      <link>https://huggingface.co/papers/2611.22666</link>
+      <description>Publicado em 17/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.22666</guid>
+    </item>
+    <item>
+      <title>Até Onde Redes Neurais Não Treinadas Podem Ir na Detecção de Anomalias? De Tabelas a Pixels</title>
+      <link>https://huggingface.co/papers/2611.08136</link>
+      <description>Publicado em 09/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.08136</guid>
+    </item>
+    <item>
+      <title>Unfinished-Bench: Medindo Violações de Regras por Agentes Persistentes em Ambientes de Trabalho Realistas</title>
+      <link>https://huggingface.co/papers/2611.17460</link>
+      <description>Publicado em 12/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.17460</guid>
+    </item>
+    <item>
+      <title>Transformação On-Policy em Modelos de Atenção Híbrida</title>
+      <link>https://huggingface.co/papers/2611.24809</link>
+      <description>Publicado em 18/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.24809</guid>
+    </item>
+    <item>
+      <title>CompoundingKernel: Autoaperfeiçoamento do Zero ao Primeiro</title>
+      <link>https://huggingface.co/papers/2611.19230</link>
+      <description>Publicado em 14/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.19230</guid>
+    </item>
+    <item>
+      <title>Coda-DaVinci: Reimaginando a Geração de Vídeos com Code2Video</title>
+      <link>https://huggingface.co/papers/2611.26595</link>
+      <category>HuggingFacePapers</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.26595</guid>
+    </item>
+    <item>
+      <title>EgoCaptioner: Rumo à Legenda Abrangente e Detalhada de Vídeos Egocêntricos</title>
+      <link>https://huggingface.co/papers/2611.26380</link>
+      <category>HuggingFacePapers</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.26380</guid>
+    </item>
+    <item>
+      <title>WAM-Policy: Modelos de Ação Mundial com Destilação On-Policy para Locomoção-Manipulação Quadrúpede</title>
+      <link>https://huggingface.co/papers/2611.24011</link>
+      <description>Publicado em 18/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.24011</guid>
+    </item>
+    <item>
+      <title>NarrowSpec: Largura Oculta do Rascunho Não Precisa Corresponder ao Alvo na Decodificação Especulativa</title>
+      <link>https://huggingface.co/papers/2611.23835</link>
+      <description>Publicado em 18/11/2026</description>
+      <category>HuggingFacePapers</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.23835</guid>
+    </item>
+    <item>
+      <title>Como a Performance Factory da OpenAI mantém o ChatGPT rápido</title>
+      <link>https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast</link>
+      <description>A Performance Factory da OpenAI utiliza fluxos de trabalho impulsionados por Codex para identificar e corrigir problemas de desempenho, garantindo a velocidade do ChatGPT.</description>
+      <category>RSS</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast</guid>
+    </item>
+    <item>
+      <title>Um jogo que você não pode vencer sem um computador quântico</title>
+      <link>https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/</link>
+      <description>Uma publicação do Google Research descreve um jogo que exige um computador quântico para ser vencido.</description>
+      <category>RSS</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/</guid>
+    </item>
+    <item>
+      <title>Apple pode estar desenvolvendo seu próprio agente de IA para operar seu Mac</title>
+      <link>https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/</link>
+      <description>Contratações identificadas pela Bloomberg sugerem que a Apple está criando agentes para Mac, que poderiam competir com Meta Muse, Claude e OpenAI Dots.
+
+Publicado em 20/11/2026</description>
+      <category>RSS</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/</guid>
+    </item>
+    <item>
+      <title>7 fundadores da Anthropic lucraram quase US$ 2 bilhões em IPO recorde</title>
+      <link>https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/</link>
+      <description>Com o preço de IPO de US$ 83 por ação, cada um dos sete fundadores da Anthropic embolsou cerca de US$ 280 milhões. A empresa levantou quase US$ 105 bilhões.
+
+Publicado em 20/11/2026</description>
+      <category>RSS</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/</guid>
+    </item>
+    <item>
+      <title>Novo dispositivo Muse Charm da Meta pode custar US$ 300</title>
+      <link>https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/</link>
+      <description>O preço foi divulgado pelo The Information; a Meta não negou, afirmando que terá "mais a compartilhar em breve".</description>
+      <category>RSS</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/</guid>
+    </item>
+    <item>
+      <title>Essas interrupções tecnológicas lembram o Y2K, no estilo de agentes de IA</title>
+      <link>https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/</link>
+      <description>Interrupções em companhias aéreas, bancos e sistemas de produtividade podem ter uma causa mais profunda, segundo especialistas em cibersegurança.</description>
+      <category>RSS</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/</guid>
+    </item>
+    <item>
+      <title>O escândalo de Jensen Huang: uma linha do tempo</title>
+      <link>https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/</link>
+      <description>Uma linha do tempo detalha a renúncia de Jensen Huang da Nvidia após um caso com uma suposta espiã chinesa. O incidente tem implicações para a segurança nacional na corrida por infraestrutura de IA entre EUA e China.</description>
+      <category>RSS</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/</guid>
+    </item>
+    <item>
+      <title>IPO da Anthropic pode destinar US$ 156 bilhões para caridade</title>
+      <link>https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/</link>
+      <description>Com ações a US$ 95, a Public Benefit Foundation da Anthropic, doações de funcionários e a contrapartida da empresa somam US$ 156 bilhões.</description>
+      <category>RSS</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/</guid>
+    </item>
+    <item>
+      <title>Google dá ao Gemini a capacidade de usar seu Mac por você</title>
+      <link>https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/</link>
+      <description>O Gemini no Mac pode organizar arquivos, preencher formulários e executar fluxos de trabalho de várias etapas em aplicativos locais e na web.</description>
+      <category>RSS</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/</guid>
+    </item>
+    <item>
+      <title>Agente de IA Muse da Meta está misturando conversas e pode expor dados privados, diz relatório</title>
+      <link>https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/</link>
+      <description>Funcionários relataram que o Muse exibiu solicitações de cuidados infantis, conselhos de carreira, pedidos de produtos e saldos bancários que não lhes pertenciam.</description>
+      <category>RSS</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/</guid>
+    </item>
+    <item>
+      <title>Ex-executivo da Alibaba, Everful levanta US$ 48,5 milhões para conectar varejistas a fábricas chinesas</title>
+      <link>https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/</link>
+      <description>A plataforma de sourcing direto de fábrica Everful, fundada por um ex-executivo da Alibaba, levantou US$ 48,5 milhões. O item foi listado no feed de IA do TechCrunch.</description>
+      <category>RSS</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/</guid>
+    </item>
+    <item>
+      <title>Anthropic estreia na Nasdaq a US$ 111, 33% acima do preço do IPO</title>
+      <link>https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/</link>
+      <description>A Anthropic abriu a US$ 111, em comparação com o preço de IPO de US$ 83. O IPO levantou mais de US$ 80 bilhões em novo capital.</description>
+      <category>RSS</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/</guid>
+    </item>
+    <item>
+      <title>No sino de abertura da Nasdaq, CEO da Anthropic reafirma compromisso com o ritmo de desenvolvimento da IA</title>
+      <link>https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/</link>
+      <description>Dario Amodei
+
+Dario Amodei afirmou que a Anthropic manterá o ritmo de desenvolvimento da IA, independentemente de pressões comerciais ou políticas.</description>
+      <category>RSS</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/</guid>
+    </item>
+    <item>
+      <title>IPO da Anthropic testa o boom de financiamento circular da IA</title>
+      <link>https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/</link>
+      <description>A Anthropic abriu capital com grandes compromissos de computação. Amazon e Google ainda poderiam lucrar com a infraestrutura se a Anthropic perder sua liderança.</description>
+      <category>RSS</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/</guid>
+    </item>
+    <item>
+      <title>Superhuman expande seu assistente Go para todos os lugares</title>
+      <link>https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/</link>
+      <description>Superhuman está tornando o Go seu agente central e o implementando em Docs e Mail.</description>
+      <category>RSS</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/</guid>
+    </item>
+    <item>
+      <title>Game Boy de US$ 200 da OpenAI para Vibe Coding: Codex x ModRetro</title>
+      <link>https://www.youtube.com/watch?v=Bva17o5pCJQ</link>
+      <description>A OpenAI apresenta um Game Boy de US$ 200 para Vibe Coding, resultado da colaboração entre Codex e ModRetro.</description>
+      <category>Youtube</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=Bva17o5pCJQ</guid>
+    </item>
+    <item>
+      <title>A Inferência do Hugging Face Agora é Alimentada por OpenRouter</title>
+      <link>https://www.youtube.com/watch?v=TmZ4RCXYsTQ</link>
+      <description>A inferência do Hugging Face agora é alimentada pela OpenRouter.</description>
+      <category>Youtube</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=TmZ4RCXYsTQ</guid>
+    </item>
+    <item>
+      <title>IAs podem derrubar o governo em um ano - Paul Christiano</title>
+      <link>https://www.youtube.com/watch?v=SyHM5hNPAEo</link>
+      <description>Paul Christiano
+
+Paul Christiano argumenta que o rápido avanço da IA pode criar sistemas capazes de minar o controle humano mais rapidamente do que as instituições conseguem reagir.</description>
+      <category>Youtube</category>
+      <pubDate>Fri, 20 Nov 2026 18:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=SyHM5hNPAEo</guid>
+    </item>
     <item>
       <title>Gemini 4 Neon: Concorrente Opus/Sol da GDM</title>
       <link>https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender</link>
@@ -823,330 +1155,6 @@ Também em: https://ph-files.imgix.net/mcp-draft-media/74419fdb-1106-4065-b37b-c
       <category>Product</category>
       <pubDate>Thu, 19 Nov 2026 22:24:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.producthunt.com/products/mio-click</guid>
-    </item>
-    <item>
-      <title>Austin Lau, ex-Anthropic, anuncia sua entrada na OpenAI</title>
-      <link>https://x.com/helloitsaustin/status/2118161804463595931</link>
-      <description>Austin Lau, que ajudou a construir a função de crescimento da Anthropic, anunciou sua entrada na OpenAI.</description>
-      <category>Twitter</category>
-      <pubDate>Thu, 19 Nov 2026 22:24:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/helloitsaustin/status/2118161804463595931</guid>
-    </item>
-    <item>
-      <title>Modelos de Mundo Contrafactuais: JEPAs Que Raciocinam Sobre "E Se"</title>
-      <link>https://arxiv.org/abs/2611.24778</link>
-      <description>Randall Balestriero, Yann LeCun, Kerda Varaku
-
-Modelos de mundo treinados apenas em transições factuais não conseguem responder a cenários "e se". Este método transforma o "e se" em uma propriedade da dinâmica, elevando o R² contrafactual de 38-46% para 86-96% em simuladores sem retreinamento ou parâmetros extras.</description>
-      <category>Arxiv</category>
-      <pubDate>Thu, 19 Nov 2026 19:03:00 +0000</pubDate>
-      <guid isPermaLink="true">https://arxiv.org/abs/2611.24778</guid>
-    </item>
-    <item>
-      <title>Progresso Geral Substitui Dados de Treinamento Específicos em Modelos de Linguagem</title>
-      <link>https://arxiv.org/abs/2611.24844</link>
-      <description>Mark Marosi, Peter Antal
-
-Reter o sinal de treinamento de uma habilidade em modelos de linguagem atrasa sua aquisição. No entanto, o progresso geral do treinamento permite que a habilidade seja adquirida com uma fração menor dos dados inicialmente necessários.</description>
-      <category>Arxiv</category>
-      <pubDate>Thu, 19 Nov 2026 19:03:00 +0000</pubDate>
-      <guid isPermaLink="true">https://arxiv.org/abs/2611.24844</guid>
-    </item>
-    <item>
-      <title>Treinando Modelos de Linguagem para Supervisão Introspectiva</title>
-      <link>https://arxiv.org/abs/2611.23365</link>
-      <description>Alex Lin Wang, Linus Yifeng Tang, Dami Choi, Neil Chowdhury
-
-Um papel de observador de terceira pessoa, treinado para precisão contra comportamento verificado, melhora a supervisão introspectiva de modelos de linguagem. Este método alcança AUROC médio de 0.907 em avaliações de supervisão, superando outras abordagens.
-
-Publicado em 17/11/2026</description>
-      <category>Arxiv</category>
-      <pubDate>Thu, 19 Nov 2026 19:03:00 +0000</pubDate>
-      <guid isPermaLink="true">https://arxiv.org/abs/2611.23365</guid>
-    </item>
-    <item>
-      <title>Toaster: Memória Não Linear a Partir de Memórias Lineares em Cascata e Propagação de Alvo</title>
-      <link>https://arxiv.org/abs/2611.23648</link>
-      <description>Zeman Li, Ali Behrouz, Yuan Deng, Praneeth Kacham, Rami Al-Rfou, Meisam Razaviyayn, Vahab Mirrokni
-
-Toaster é um método que combina memórias lineares em cascata com propagação de alvo para criar memória não linear. Ele supera KDA e Titans em benchmarks, oferecendo um estado recorrente não linear sem sacrificar a velocidade do kernel de memória linear.</description>
-      <category>Arxiv</category>
-      <pubDate>Thu, 19 Nov 2026 19:03:00 +0000</pubDate>
-      <guid isPermaLink="true">https://arxiv.org/abs/2611.23648</guid>
-    </item>
-    <item>
-      <title>Pense Offline, Aja em Tempo Real: Agentes Visuais de Jogo Autoaperfeiçoáveis Através de Código</title>
-      <link>https://arxiv.org/abs/2611.24590</link>
-      <description>Zipeng Qiu, Shusheng Xu, Jiale Li, Yukun Zhou, Chenyue Li, Wenshuang Li, Tongkai Yang, Binhang Yuan
-
-Agentes de jogo visuais em tempo real podem se autoaperfeiçoar escrevendo, testando e revisando programas offline. Esta abordagem, "código como política", alcança 47.80% de progresso médio em tarefas GameWorld, superando controladores treinados.</description>
-      <category>Arxiv</category>
-      <pubDate>Thu, 19 Nov 2026 19:03:00 +0000</pubDate>
-      <guid isPermaLink="true">https://arxiv.org/abs/2611.24590</guid>
-    </item>
-    <item>
-      <title>Tudo está fora do ar por causa da 'IA'? Sim e não.</title>
-      <link>https://bsky.app/profile/alexhanna.bsky.social/post/3n2msgwqcs22k</link>
-      <description>@alexhanna.bsky.social
-
-O autor questiona se as interrupções atuais são causadas pela inteligência artificial. A resposta é complexa, envolvendo tanto fatores relacionados quanto não relacionados à IA.</description>
-      <category>Bluesky</category>
-      <pubDate>Thu, 19 Nov 2026 19:03:00 +0000</pubDate>
-      <guid isPermaLink="true">https://bsky.app/profile/alexhanna.bsky.social/post/3n2msgwqcs22k</guid>
-    </item>
-    <item>
-      <title>O teste do pelicano andando de bicicleta continua a ilustrar as diferenças entre modelos da mesma família em diferentes níveis de esforço.</title>
-      <link>https://bsky.app/profile/simonwillison.net/post/3n2nhnbueh22q</link>
-      <description>@simonwillison.net
-
-O teste do pelicano andando de bicicleta é útil para demonstrar as variações de desempenho entre modelos de IA da mesma família. Ele compara Gemini 4 Carbon, Gemini 4 Neon e Gemini 4 Hydrogen em configurações de baixo, médio e alto esforço.</description>
-      <category>Bluesky</category>
-      <pubDate>Thu, 19 Nov 2026 19:03:00 +0000</pubDate>
-      <guid isPermaLink="true">https://bsky.app/profile/simonwillison.net/post/3n2nhnbueh22q</guid>
-    </item>
-    <item>
-      <title>Empresas e governos têm acelerado a substituição de humanos por sistemas de IA e código gerado por IA.</title>
-      <link>https://bsky.app/profile/alexhanna.bsky.social/post/3n2k3eepv222d</link>
-      <description>@alexhanna.bsky.social
-
-Nos últimos anos, empresas e governos têm rapidamente transferido tarefas para sistemas de IA e código gerado por IA. Isso visa reduzir a dependência de humanos, economizar custos de mão de obra ou executar um projeto político anti-humanista.</description>
-      <category>Bluesky</category>
-      <pubDate>Thu, 19 Nov 2026 19:03:00 +0000</pubDate>
-      <guid isPermaLink="true">https://bsky.app/profile/alexhanna.bsky.social/post/3n2k3eepv222d</guid>
-    </item>
-    <item>
-      <title>Game2Player: Escalando a Experiência de Jogo para Agentes Visuais Através do Co-Desenvolvimento Ambiente-Jogador</title>
-      <link>https://huggingface.co/papers/2611.24154</link>
-      <category>HuggingFacePapers</category>
-      <pubDate>Thu, 19 Nov 2026 19:03:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.24154</guid>
-    </item>
-    <item>
-      <title>Code World Model 2.0: Rumo à Geração Infinita de Vídeos Controláveis</title>
-      <link>https://huggingface.co/papers/2611.22925</link>
-      <description>Publicado em 17/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Thu, 19 Nov 2026 19:03:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.22925</guid>
-    </item>
-    <item>
-      <title>Tideway: Gerenciamento de Memória em Camadas com Consciência de Fase para Inferência MoE em Dispositivos de Consumo</title>
-      <link>https://huggingface.co/papers/2611.14848</link>
-      <description>Publicado em 10/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Thu, 19 Nov 2026 19:03:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.14848</guid>
-    </item>
-    <item>
-      <title>Deixe as Amostras Cantarem em Coro: Mitigando Correlações Espúrias via Consenso de Múltiplas Visões</title>
-      <link>https://huggingface.co/papers/2611.22668</link>
-      <description>Publicado em 17/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Thu, 19 Nov 2026 19:03:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.22668</guid>
-    </item>
-    <item>
-      <title>Um Modelo de Fundação para Medir e Prever o Comportamento Humano</title>
-      <link>https://huggingface.co/papers/2611.24830</link>
-      <category>HuggingFacePapers</category>
-      <pubDate>Thu, 19 Nov 2026 19:03:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.24830</guid>
-    </item>
-    <item>
-      <title>Críticos Mecanicistas para Exploração do Espaço de Design de NPU com Eficiência de Amostra</title>
-      <link>https://huggingface.co/papers/2611.24733</link>
-      <category>HuggingFacePapers</category>
-      <pubDate>Thu, 19 Nov 2026 19:03:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.24733</guid>
-    </item>
-    <item>
-      <title>Jeveration: Modelos do Sistema Um Agora Geram</title>
-      <link>https://huggingface.co/papers/2611.24738</link>
-      <category>HuggingFacePapers</category>
-      <pubDate>Thu, 19 Nov 2026 19:03:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.24738</guid>
-    </item>
-    <item>
-      <title>Ritmo VAE: Traços de Decodificação Temporal para Detecção de Vídeos Gerados por IA</title>
-      <link>https://huggingface.co/papers/2611.21114</link>
-      <description>Publicado em 16/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Thu, 19 Nov 2026 19:03:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.21114</guid>
-    </item>
-    <item>
-      <title>LogT: Pensar Logicamente com Imagens para Busca Visual</title>
-      <link>https://huggingface.co/papers/2611.19200</link>
-      <description>Publicado em 14/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Thu, 19 Nov 2026 19:03:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.19200</guid>
-    </item>
-    <item>
-      <title>Pensar Mais Não Leva a Melhores Escolhas: O Esforço de Raciocínio Aumenta a Confiança, mas Não a Correção de Agentes de Compra LLM</title>
-      <link>https://huggingface.co/papers/2611.22033</link>
-      <description>Publicado em 17/11/2026</description>
-      <category>HuggingFacePapers</category>
-      <pubDate>Thu, 19 Nov 2026 19:03:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.22033</guid>
-    </item>
-    <item>
-      <title>A IA Está Quebrando a Matemática. Resolverá a Física Em Seguida?</title>
-      <link>https://www.youtube.com/watch?v=wCRzZ0ccP_0</link>
-      <description>A IA já pode realizar muitas etapas individuais da física, incluindo inferir leis a partir de dados, projetar experimentos, operar instrumentos e fazer cálculos complexos.</description>
-      <category>Youtube</category>
-      <pubDate>Thu, 19 Nov 2026 19:03:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.youtube.com/watch?v=wCRzZ0ccP_0</guid>
-    </item>
-    <item>
-      <title>O Consenso Silencioso</title>
-      <link>https://openai.com/index/the-silent-consensus</link>
-      <description>Dean Ball
-
-Dean Ball, da OpenAI, discute como a IA mais capaz pode remodelar a sociedade. Ele aborda como as pessoas podem manter o controle de suas instituições.</description>
-      <category>RSS</category>
-      <pubDate>Thu, 19 Nov 2026 01:05:00 +0000</pubDate>
-      <guid isPermaLink="true">https://openai.com/index/the-silent-consensus</guid>
-    </item>
-    <item>
-      <title>Aceleração da pesquisa: A fronteira irregular</title>
-      <link>https://openai.com/index/research-acceleration-jagged-frontier</link>
-      <description>A OpenAI avalia como agentes de codificação aceleram a pesquisa em IA, onde o desempenho permanece desigual. Isso indica o que o autoaprimoramento recursivo sinaliza.</description>
-      <category>RSS</category>
-      <pubDate>Thu, 19 Nov 2026 01:05:00 +0000</pubDate>
-      <guid isPermaLink="true">https://openai.com/index/research-acceleration-jagged-frontier</guid>
-    </item>
-    <item>
-      <title>Como os líderes da Sumitomo Life ajudaram as equipes a adotar o ChatGPT Enterprise</title>
-      <link>https://openai.com/business/customer-stories/sumitomo-life</link>
-      <description>A Sumitomo Life utiliza o ChatGPT Enterprise para pesquisar seguradoras, preparar propostas e redigir código para análise de investimentos. O uso executivo inicial impulsionou a adoção.</description>
-      <category>RSS</category>
-      <pubDate>Thu, 19 Nov 2026 01:05:00 +0000</pubDate>
-      <guid isPermaLink="true">https://openai.com/business/customer-stories/sumitomo-life</guid>
-    </item>
-    <item>
-      <title>Dentro do sandbox do Codex</title>
-      <link>https://openai.com/index/inside-the-codex-sandbox</link>
-      <description>O Codex executa comandos na máquina do usuário, aplicando limites de sistema de arquivos e rede. Isso ocorre em macOS, Linux e Windows.</description>
-      <category>RSS</category>
-      <pubDate>Thu, 19 Nov 2026 01:05:00 +0000</pubDate>
-      <guid isPermaLink="true">https://openai.com/index/inside-the-codex-sandbox</guid>
-    </item>
-    <item>
-      <title>Gerenciando o risco da IA de fronteira: Do treinamento à implantação</title>
-      <link>https://openai.com/index/managing-frontier-ai-risk</link>
-      <description>A OpenAI detalha os controles de risco de fronteira, do treinamento à implantação. Isso inclui alinhamento, sandboxing, salvaguardas de bloqueio e monitoramento.</description>
-      <category>RSS</category>
-      <pubDate>Thu, 19 Nov 2026 01:05:00 +0000</pubDate>
-      <guid isPermaLink="true">https://openai.com/index/managing-frontier-ai-risk</guid>
-    </item>
-    <item>
-      <title>DaisyRose-27B: Expandindo a Fronteira da Eficiência Pós-Treinamento</title>
-      <link>https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin</link>
-      <description>Uma publicação da comunidade aborda o DaisyRose-27B e a eficiência pós-treinamento.</description>
-      <category>RSS</category>
-      <pubDate>Thu, 19 Nov 2026 01:05:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin</guid>
-    </item>
-    <item>
-      <title>Por que seu trabalho de fine-tuning leva mais tempo do que os FLOPs indicam</title>
-      <link>https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time</link>
-      <description>Uma publicação da comunidade explica por que o tempo real de fine-tuning excede a estimativa de FLOPs.</description>
-      <category>RSS</category>
-      <pubDate>Thu, 19 Nov 2026 01:05:00 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time</guid>
-    </item>
-    <item>
-      <title>Em meio a temores de ciberataques de IA, Satya Nadella afirma que grande parte da infraestrutura crítica é 'impossível de corrigir'</title>
-      <link>https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/</link>
-      <description>Nadella minimizou uma recente interrupção do Outlook, argumentando que a IA cria novas defesas e desafios. Isso ocorre para a segurança da infraestrutura conectada.</description>
-      <category>RSS</category>
-      <pubDate>Thu, 19 Nov 2026 01:05:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/</guid>
-    </item>
-    <item>
-      <title>Elon Musk diz que afastar Jensen Huang é como 'expulsar Michael Jordan do seu time'</title>
-      <link>https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/</link>
-      <description>Musk afirmou não acreditar que Huang seja desleal aos Estados Unidos.</description>
-      <category>RSS</category>
-      <pubDate>Thu, 19 Nov 2026 01:05:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/</guid>
-    </item>
-    <item>
-      <title>CEO da Microsoft, Satya Nadella, mantém confiança na Nvidia após a saída de Huang</title>
-      <link>https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/</link>
-      <description>Nadella expressou confiança na CEO interina da Nvidia, Colette Kress.</description>
-      <category>RSS</category>
-      <pubDate>Thu, 19 Nov 2026 01:05:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/</guid>
-    </item>
-    <item>
-      <title>Satya Nadella prevê que agentes de IA reorganizarão a economia da web</title>
-      <link>https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/</link>
-      <description>Nadella afirmou que agentes podem perturbar modelos baseados em publicidade. Isso forçaria empresas como a Amazon a repensar a competição por clientes.</description>
-      <category>RSS</category>
-      <pubDate>Thu, 19 Nov 2026 01:05:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/</guid>
-    </item>
-    <item>
-      <title>Anthropic supostamente precifica IPO a US$ 83 por ação, acima da faixa projetada</title>
-      <link>https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/</link>
-      <description>O IPO avalia a Anthropic em US$ 1,5 trilhão em base totalmente diluída.</description>
-      <category>RSS</category>
-      <pubDate>Thu, 19 Nov 2026 01:05:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/</guid>
-    </item>
-    <item>
-      <title>Nvidia gerou intriga ao não apresentar um relatório rotineiro à SEC</title>
-      <link>https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/</link>
-      <description>A Nvidia declarou que não apresentaria seu 10-Q formal por semanas. Um analista explicou o atraso posteriormente.</description>
-      <category>RSS</category>
-      <pubDate>Thu, 19 Nov 2026 01:05:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/</guid>
-    </item>
-    <item>
-      <title>Palmer Luckey alerta que ciberataques impulsionados por IA superam as defesas: 'É hora de começar a correr'</title>
-      <link>https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/</link>
-      <description>Palmer Luckey
-
-O cofundador da Anduril afirmou que a tecnologia desatualizada expõe sistemas a ataques habilitados por IA.</description>
-      <category>RSS</category>
-      <pubDate>Thu, 19 Nov 2026 01:05:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/</guid>
-    </item>
-    <item>
-      <title>Palmer Luckey acredita que a China está 'radiante com a saída de Jensen', e quer o CEO da Nvidia destituído de volta</title>
-      <link>https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/</link>
-      <description>Palmer Luckey
-
-Luckey afirmou que afastar Jensen Huang enfraquece os Estados Unidos.</description>
-      <category>RSS</category>
-      <pubDate>Thu, 19 Nov 2026 01:05:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/</guid>
-    </item>
-    <item>
-      <title>Citando Daniel Stenberg</title>
-      <link>https://simonwillison.net/2026/Nov/18/daniel-stenberg</link>
-      <description>Agentes de codificação converteram 185.000 linhas de código C em 340.000 linhas de Rust. Durante esse período, mais de 300 commits foram mesclados no projeto curl, incluindo mais de 200 correções de bugs.</description>
-      <category>Blogs</category>
-      <pubDate>Thu, 19 Nov 2026 01:05:00 +0000</pubDate>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Nov/18/daniel-stenberg</guid>
-    </item>
-    <item>
-      <title>Arrecadação de fundos de fim de ano da PSF</title>
-      <link>https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser</link>
-      <description>A Python Software Foundation (PSF) lançou sua campanha de arrecadação de fundos de fim de ano. A iniciativa visa apoiar o desenvolvimento do Python e sua comunidade.</description>
-      <category>Blogs</category>
-      <pubDate>Thu, 19 Nov 2026 01:05:00 +0000</pubDate>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser</guid>
-    </item>
-    <item>
-      <title>[AINews] GPT-6.2 Astra, o #2 Modelo Frontier é melhor e 20%-600% mais barato, mas tem avaliações mistas; 6.2 Sol provavelmente será o principal modelo de trabalho</title>
-      <link>https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol</link>
-      <description>Os modelos GPT-6.2 Astra e Sol reduzem os custos de benchmark. Testadores iniciais divergem sobre a experiência de uso do Astra.</description>
-      <category>Blogs</category>
-      <pubDate>Thu, 19 Nov 2026 01:05:00 +0000</pubDate>
-      <guid isPermaLink="true">https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol</guid>
     </item>
   </channel>
 </rss>
