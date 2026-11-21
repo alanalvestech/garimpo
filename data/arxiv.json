@@ -1,8 +1,103 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-11-20 18:39 UTC",
+  "updated_at": "2026-11-21 17:39 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Modelos de fronteira precisam de apenas um texto para desmascarar seu autor humano ou IA",
+      "links": [
+        "https://arxiv.org/abs/2611.26216"
+      ],
+      "summary": "Modelos de fronteira podem identificar se um texto foi escrito por um humano ou IA, qual laboratório o produziu e, frequentemente, quem é o autor, usando apenas um texto e um prompt zero-shot. Claude Fable 5.2, GPT-6.1 Sol e Gemini 4 Carbon igualam detectores treinados, com Opus 5.5 nomeando o laboratório correto em 98% dos textos da Anthropic/OpenAI/Google.",
+      "authors": [
+        "Atrey Desai",
+        "Deniz Böloni-Turgut",
+        "Ty Brassington",
+        "Minjoon Choi",
+        "Jenna Russell",
+        "Rishanth Rajendhran",
+        "Bradley Emi",
+        "Hila Gonen",
+        "Hal Daumé",
+        "John Wieting",
+        "Marzena Karpinska",
+        "Mohit Iyyer"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "Internalização de Orçamento: RLVR de Orçamento Fixo Troca Escalabilidade em Tempo de Teste por Precisão Dentro do Orçamento",
+      "links": [
+        "https://arxiv.org/abs/2611.26172"
+      ],
+      "summary": "O limite de rollout do RLVR não é apenas um controle de custo de treinamento. Após o treinamento, modelos como Qwen3.5-4B e Gemma4-E2B gastam poucos tokens extras além do limite, superando o modelo base dentro desse orçamento, mas perdendo para ele quando podem \"pensar\" por mais tempo.",
+      "authors": [
+        "Ilia Zavidnyi",
+        "Alexander Kovrigin",
+        "Arina Puchkova",
+        "Kirill Gelvan",
+        "Sergey Titov (JetBrains Research)"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "TwinLab-Bench: Avaliando Cientistas de IA em Gêmeos Agentes de Laboratórios Reais",
+      "links": [
+        "https://arxiv.org/abs/2611.26248"
+      ],
+      "summary": "TwinLab-Bench avalia experimentos autodesenhados por cientistas de IA em 52 tarefas de diversas áreas, usando um agente de ambiente TwinLab que executa o protocolo contra registros de laboratórios reais. Claude Fable 5.2 obteve uma média de 45.0, Opus 5.5 40.2 e GPT-6.1-sol 31.7, superando outros 10 agentes.",
+      "authors": [
+        "Yang Wan",
+        "Linchao Zhu"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "Streaming-AAA: Geração de Vídeo de Jogos AAA em Streaming com Alta Resolução, Alta Taxa de Quadros e Baixa Latência",
+      "links": [
+        "https://arxiv.org/abs/2611.26040"
+      ],
+      "summary": "Streaming-AAA gera jogabilidade 1080p a 43 FPS com 198 ms de interação ponta a ponta em A800s, mantendo a estabilidade em longas sessões. O sistema utiliza um VAE reconstruído para decodificação 1080p em tempo real, pré-treinamento com difusão de horizonte temporal mais longo e, em seguida, destilação e compressão de memória.",
+      "authors": [
+        "Zhihao Hu",
+        "Jianqi Ma",
+        "Jun Zhang",
+        "Jiayang Bai",
+        "Haifeng Shi",
+        "Yanxiang Zhuang",
+        "Zhongqian Sun",
+        "Weidong Zhang",
+        "Wei Yang"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "Rascunho Eficiente e Robusto com Predição Multi-Token",
+      "links": [
+        "https://arxiv.org/abs/2611.25813"
+      ],
+      "summary": "G-MTP é um único cabeçote de rascunho compartilhado no Gemma 4, utilizando injeção de ativação de destino, atenção cruzada de cache KV de cópia zero e projeção de vocabulário agrupado. Ele oferece aceleração de até 3.1× em servidores grandes e 2.3×/2.2× em H100 e GPUs de smartphone, mantendo o alinhamento sob mudança de domínio com menos forwards de destino.",
+      "authors": [
+        "Filippo Galgani",
+        "Ziwei Ji",
+        "Omri Homburger",
+        "Ganesh Jawahar",
+        "Michelle Ramanovich",
+        "Ivan Korotkov",
+        "Luciano Martins",
+        "Utku Evci",
+        "Edouard Yvinec",
+        "Pooja Consul",
+        "Vivek Kumar",
+        "Tal Schuster"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-20"
+    },
     {
       "title": "Relatório Técnico do Modelo Beam",
       "links": [

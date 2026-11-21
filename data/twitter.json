@@ -1,8 +1,93 @@
 {
   "category": "Twitter",
-  "updated_at": "2026-11-21 00:45 UTC",
+  "updated_at": "2026-11-21 17:39 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Elon Musk pondera sobre a prova Lean da Hipótese de Riemann de Alpöge, assistida por Claude, após compilação independente reportar verificação de tipos",
+      "links": [
+        "https://x.com/elonmusk/status/2124046857659650295",
+        "https://x.com/AndrewCurran_/status/2123819916768039149",
+        "https://x.com/elliotarledge/status/2123897560104599647",
+        "https://alpo.ge/remark.pdf",
+        "https://github.com/Infatoshi/rh-verification-receipts"
+      ],
+      "summary": "Elon Musk afirmou que a Hipótese de Riemann, mesmo que não totalmente resolvida, será em breve. Elliot Arledge relatou uma verificação independente do arquivo de Levent Alpöge, assistido por Claude, com zero erros, mas a Anthropic ainda não comentou a alegação.",
+      "authors": [
+        "Levent Alpöge",
+        "Elon Musk",
+        "Elliot Arledge"
+      ],
+      "date": "2026-11-20"
+    },
+    {
+      "title": "Novo artigo de destilação da OpenAI considera GPT-6.2 Astra como lançado e reduz a extração de rastros de raciocínio para 0,2%",
+      "links": [
+        "https://x.com/OpenAI/status/2123862344422088794",
+        "https://x.com/OpenAI/status/2123856316187975756",
+        "https://openai.com/index/combatting-adversarial-distillation/",
+        "https://openai.com/index/introducing-medchembench/"
+      ],
+      "summary": "A OpenAI publicou uma nota de pesquisa em 20 de novembro, nomeando GPT-6.2 Astra e Sol como modelos com salvaguardas atualizadas. Em uma avaliação interna, a recuperação de raciocínio protegido caiu de 54,0% para 0,2% no GPT-6.2 Astra. O GPT-6.2 Astra também obteve 84,5% no MedChemBench, superando o GPT-6 Astra.",
+      "authors": [
+        "OpenAI"
+      ],
+      "published_at": "2026-11-20",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "Thinking Machines lança Inkling 2 Mini: MoE em loop de 26,4B, Apache 2.0, projetado para 16GB de RAM",
+      "links": [
+        "https://x.com/UnslothAI/status/2123873656069877899",
+        "https://x.com/TheAhmadOsman/status/2123881763923746906",
+        "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+        "https://unsloth.ai/docs/models/inkling-2-mini",
+        "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+        "https://x.com/alexocheema/status/2123980842053816595"
+      ],
+      "summary": "A Thinking Machines lançou o Inkling 2 Mini, um modelo multimodal Apache 2.0 de 26,4B, otimizado para 16GB de RAM. Ele utiliza uma arquitetura MoE esparsa em loop com 3,4B de parâmetros ativos e oferece suporte para GGUF, llama.cpp, vLLM e SGLang.",
+      "authors": [
+        "Thinking Machines",
+        "Unsloth"
+      ],
+      "published_at": "2026-11-20",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "Demis Hassabis diz que Isomorphic Labs está colaborando com a Merck no desenvolvimento de um novo medicamento contra o câncer",
+      "links": [
+        "https://x.com/demishassabis/status/2123871861843075099"
+      ],
+      "summary": "Demis Hassabis anunciou que a Isomorphic Labs colabora com a Merck para desenvolver um novo medicamento contra o câncer. Esta parceria serve como prova da eficácia da plataforma de descoberta de medicamentos da Isomorphic Labs.",
+      "authors": [
+        "Demis Hassabis",
+        "Isomorphic Labs",
+        "Merck"
+      ],
+      "date": "2026-11-20"
+    },
+    {
+      "title": "Google DeepMind demonstra Gemini 4 Neon com simulador de esqui do Mont Blanc",
+      "links": [
+        "https://x.com/GoogleDeepMind/status/2123826572385833119"
+      ],
+      "summary": "Google DeepMind publicou uma demonstração do Gemini 4 Neon, um simulador de esqui do terreno real do Mont Blanc. O simulador foi construído em Antigravity com shaders personalizados e sem modelos 3D pré-fabricados.",
+      "authors": [
+        "Google DeepMind"
+      ],
+      "date": "2026-11-20"
+    },
+    {
+      "title": "Atualização de capacidade do Q4 da METR: humanos não superam modelos de ponta em tarefas",
+      "links": [
+        "https://x.com/iruletheworldmo/status/2123977061580574976"
+      ],
+      "summary": "A atualização de capacidade do Q4 da METR revelou que, apesar de gastar cerca de US$ 90 mil em especialistas, humanos não superaram modelos de ponta em suas tarefas. Os horizontes de tempo são de 27 horas, dobrando a cada 3,6 meses, com modelos como Opus 5.5 e GPT-6 Astra.",
+      "authors": [
+        "METR"
+      ],
+      "date": "2026-11-20"
+    },
     {
       "title": "Austin Lau, ex-Anthropic, anuncia sua entrada na OpenAI",
       "links": [
