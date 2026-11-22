@@ -1,8 +1,93 @@
 {
   "category": "Arxiv",
-  "updated_at": "2026-11-21 17:39 UTC",
+  "updated_at": "2026-11-22 17:54 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "VR-SparseQuant: Quantização FP4 Precisa com Esparsidade 2:4 em Vera Rubin",
+      "links": [
+        "https://arxiv.org/abs/2611.25717"
+      ],
+      "summary": "VR-SparseQuant utiliza a esparsidade elementar 2:4 da NVIDIA Vera Rubin para quantização FP4, permitindo que dois fluxos esparsos compartilhem o orçamento de valores FP4 e o apliquem às ativações com os maiores erros. Este método melhora a qualidade em modelos como Nemotron-3-Nano-30B-A3B e acelera operações GEMM e MoE em comparação com BF16.",
+      "authors": [
+        "Samir Khaki",
+        "Wei-Chen Wang",
+        "Song Han",
+        "Ryan Hanrui Wang"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-21"
+    },
+    {
+      "title": "Tether: Motor de Política Stateful Verificado para Monitoramento em Nível de Sistema de Agentes",
+      "links": [
+        "https://arxiv.org/abs/2611.25599"
+      ],
+      "summary": "Tether é um motor de política que monitora agentes em nível de sistema, executando ações propostas em um sandbox efêmero e inferindo semânticas de chamadas de sistema. Ele impõe políticas stateful escritas em Lean 4, como \"nenhuma rede após ler um arquivo secreto\", com invariantes comprovadas. Uma política bloqueou 100% dos ataques em testes, com menos de 5% de falsos positivos benignos.",
+      "authors": [
+        "Meghana Aparna Sistla",
+        "Alaia Solko-Breslin",
+        "Somesh Jha",
+        "Aditya Kanade",
+        "Krishnamurthy Dj Dvijotham"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-21"
+    },
+    {
+      "title": "WeightCode: Instalando Novas Capacidades em Redes Neurais via Programação no Espaço de Pesos",
+      "links": [
+        "https://arxiv.org/abs/2611.25476"
+      ],
+      "summary": "WeightCode permite que um modelo de linguagem congelado escreva programas executáveis que leem, constroem ou corrigem pesos diretamente em redes neurais, sem etapas de gradiente. As novas habilidades instaladas funcionam independentemente do LLM, melhorando o desempenho em tarefas como correspondência exata de comandos e robustez a ruído em ImageNet.",
+      "authors": [
+        "Bo Li",
+        "Taoyong Cui",
+        "Bob Zhang",
+        "Mengran Li",
+        "Chengyang Zhang",
+        "Yang Zhang",
+        "Pheng Ann Heng",
+        "Wanli Ouyang",
+        "Zhenfei Yin",
+        "Yingcheng Wu",
+        "Ling Yang"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-21"
+    },
+    {
+      "title": "Como a Autoevolução Sem Feedback Remodela as Habilidades dos Agentes",
+      "links": [
+        "https://arxiv.org/abs/2611.25534"
+      ],
+      "summary": "Modelos de agentes que reescrevem suas próprias habilidades sem feedback pioram, perdendo 15 pontos no SkillsBench após 30 rodadas. A reescrita direciona o texto para o conhecimento prévio do modelo, descartando informações que ele não criaria sozinho. SkillDiff recupera a perda marcando o conhecimento original, ganhando 4,8 pontos sem alterar a redação ou adicionar feedback.",
+      "authors": [
+        "Litao Guo",
+        "Man Chen",
+        "Xinli Xu",
+        "Jinsong Zhou",
+        "Zixin Zhang",
+        "Ying-Cong Chen"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-21"
+    },
+    {
+      "title": "PosteriorBench: Avaliando a Amostragem Posterior de Comportamento em Modelos de Linguagem",
+      "links": [
+        "https://arxiv.org/abs/2611.25735"
+      ],
+      "summary": "PosteriorBench avalia a amostragem posterior de comportamento em modelos de linguagem, focando em obter amostras baratas do posterior do modelo para comportamentos raros. Nenhuma das abordagens avaliadas, incluindo prompting e fine-tuning, mostrou-se eficiente e fiel simultaneamente para 21 tarefas no Qwen3.5-0.8B.",
+      "authors": [
+        "Zhiyang Xun",
+        "Daniel D. Johnson",
+        "Sarah Schwettmann",
+        "Neil Chowdhury (Transluce)"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-21"
+    },
     {
       "title": "Modelos de fronteira precisam de apenas um texto para desmascarar seu autor humano ou IA",
       "links": [

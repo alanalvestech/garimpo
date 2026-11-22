@@ -5,7 +5,599 @@
     <link>https://github.com/alanalvestech/garimpo</link>
     <description>Notícias diárias de tecnologia, em português.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 21 Nov 2026 23:45:55 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 18:01:12 +0000</lastBuildDate>
+    <item>
+      <title>VR-SparseQuant: Quantização FP4 Precisa com Esparsidade 2:4 em Vera Rubin</title>
+      <link>https://arxiv.org/abs/2611.25717</link>
+      <description>Samir Khaki, Wei-Chen Wang, Song Han, Ryan Hanrui Wang
+
+VR-SparseQuant utiliza a esparsidade elementar 2:4 da NVIDIA Vera Rubin para quantização FP4, permitindo que dois fluxos esparsos compartilhem o orçamento de valores FP4 e o apliquem às ativações com os maiores erros. Este método melhora a qualidade em modelos como Nemotron-3-Nano-30B-A3B e acelera operações GEMM e MoE em comparação com BF16.
+
+Publicado em 19/11/2026</description>
+      <category>Arxiv</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.25717</guid>
+    </item>
+    <item>
+      <title>Tether: Motor de Política Stateful Verificado para Monitoramento em Nível de Sistema de Agentes</title>
+      <link>https://arxiv.org/abs/2611.25599</link>
+      <description>Meghana Aparna Sistla, Alaia Solko-Breslin, Somesh Jha, Aditya Kanade, Krishnamurthy Dj Dvijotham
+
+Tether é um motor de política que monitora agentes em nível de sistema, executando ações propostas em um sandbox efêmero e inferindo semânticas de chamadas de sistema. Ele impõe políticas stateful escritas em Lean 4, como "nenhuma rede após ler um arquivo secreto", com invariantes comprovadas. Uma política bloqueou 100% dos ataques em testes, com menos de 5% de falsos positivos benignos.
+
+Publicado em 19/11/2026</description>
+      <category>Arxiv</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.25599</guid>
+    </item>
+    <item>
+      <title>WeightCode: Instalando Novas Capacidades em Redes Neurais via Programação no Espaço de Pesos</title>
+      <link>https://arxiv.org/abs/2611.25476</link>
+      <description>Bo Li, Taoyong Cui, Bob Zhang, Mengran Li, Chengyang Zhang, Yang Zhang, Pheng Ann Heng, Wanli Ouyang, Zhenfei Yin, Yingcheng Wu, Ling Yang
+
+WeightCode permite que um modelo de linguagem congelado escreva programas executáveis que leem, constroem ou corrigem pesos diretamente em redes neurais, sem etapas de gradiente. As novas habilidades instaladas funcionam independentemente do LLM, melhorando o desempenho em tarefas como correspondência exata de comandos e robustez a ruído em ImageNet.
+
+Publicado em 19/11/2026</description>
+      <category>Arxiv</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.25476</guid>
+    </item>
+    <item>
+      <title>Como a Autoevolução Sem Feedback Remodela as Habilidades dos Agentes</title>
+      <link>https://arxiv.org/abs/2611.25534</link>
+      <description>Litao Guo, Man Chen, Xinli Xu, Jinsong Zhou, Zixin Zhang, Ying-Cong Chen
+
+Modelos de agentes que reescrevem suas próprias habilidades sem feedback pioram, perdendo 15 pontos no SkillsBench após 30 rodadas. A reescrita direciona o texto para o conhecimento prévio do modelo, descartando informações que ele não criaria sozinho. SkillDiff recupera a perda marcando o conhecimento original, ganhando 4,8 pontos sem alterar a redação ou adicionar feedback.
+
+Publicado em 19/11/2026</description>
+      <category>Arxiv</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.25534</guid>
+    </item>
+    <item>
+      <title>PosteriorBench: Avaliando a Amostragem Posterior de Comportamento em Modelos de Linguagem</title>
+      <link>https://arxiv.org/abs/2611.25735</link>
+      <description>Zhiyang Xun, Daniel D. Johnson, Sarah Schwettmann, Neil Chowdhury (Transluce)
+
+PosteriorBench avalia a amostragem posterior de comportamento em modelos de linguagem, focando em obter amostras baratas do posterior do modelo para comportamentos raros. Nenhuma das abordagens avaliadas, incluindo prompting e fine-tuning, mostrou-se eficiente e fiel simultaneamente para 21 tarefas no Qwen3.5-0.8B.
+
+Publicado em 19/11/2026</description>
+      <category>Arxiv</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.25735</guid>
+    </item>
+    <item>
+      <title>🔮 Humano certificado, primos gêmeos, Anthropic++ #611</title>
+      <link>https://www.exponentialview.co/p/ev-611</link>
+      <description>Este é o resumo de domingo sobre IA e tecnologias exponenciais.
+
+Publicado em 22/11/2026</description>
+      <category>Blogs</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.exponentialview.co/p/ev-611</guid>
+    </item>
+    <item>
+      <title>AFFiNE</title>
+      <link>https://github.com/toeverything/AFFiNE</link>
+      <description>Pode haver mais do que Notion e Miro. AFFiNE(pronounced [ə‘fain]) é uma base de conhecimento de próxima geração que reúne planejamento, organização e criação. Privacidade em primeiro lugar, código aberto, personalizável e pronto para usar.
+
+76.681 estrelas · TypeScript</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/toeverything/AFFiNE</guid>
+    </item>
+    <item>
+      <title>Leonida</title>
+      <link>https://github.com/ItsNotRexed/Leonida</link>
+      <description>Leonida é uma recompilação nativa para PC da versão Xbox de Grand Theft Auto 6
+
+12.572 estrelas · Python</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/ItsNotRexed/Leonida</guid>
+    </item>
+    <item>
+      <title>fast-anything</title>
+      <link>https://github.com/EL4CTEO/fast-anything</link>
+      <description>Não reescreva em Rust. Reescreva os 5% que são lentos: faça o perfil de aplicativos Python, Node ou Ruby, porte as funções quentes com seu agente de codificação, prove que se comportam da mesma forma.
+
+1.511 estrelas · Rust</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/EL4CTEO/fast-anything</guid>
+    </item>
+    <item>
+      <title>Xbox2Windows</title>
+      <link>https://github.com/R0Y00/Xbox2Windows</link>
+      <description>Pesquisa de recompilação estática de GTA VI para Windows x64. EXEs compilados a partir do código-fonte rodam no Windows, e dois shaders de pixel traduzidos correspondem às saídas de referência em hardware e WARP. A inicialização completa do jogo não foi verificada.
+
+1.232 estrelas · Python</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/R0Y00/Xbox2Windows</guid>
+    </item>
+    <item>
+      <title>xbox-emulator</title>
+      <link>https://github.com/omonkeyz/xbox-emulator</link>
+      <description>Notas de progresso para rodar builds do Xbox Series X|S no PC (TomBox + rage9)
+
+1.193 estrelas · Rust</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/omonkeyz/xbox-emulator</guid>
+    </item>
+    <item>
+      <title>riemann-hypothesis</title>
+      <link>https://github.com/leanprover-community/riemann-hypothesis</link>
+      <description>Configuração de Comparador Independente para a formalização Lean da Hipótese de Riemann (Alpöge, 2026-11-20)
+
+564 estrelas · Lean</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/leanprover-community/riemann-hypothesis</guid>
+    </item>
+    <item>
+      <title>sprite-stacking</title>
+      <link>https://github.com/danielwh2/sprite-stacking</link>
+      <description>Habilidade de agente: transforme quatro visualizações de pixel art em sprites 3D falsos que você pode girar. Funciona com Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi.
+
+434 estrelas · HTML</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/danielwh2/sprite-stacking</guid>
+    </item>
+    <item>
+      <title>d3-3d</title>
+      <link>https://github.com/Niekes/d3-3d</link>
+      <description>Gráficos e formas 3D para D3.js. Projeta dados 3D para SVG ou canvas simples, sem necessidade de WebGL. TypeScript.
+
+415 estrelas · TypeScript</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/Niekes/d3-3d</guid>
+    </item>
+    <item>
+      <title>StableBar</title>
+      <link>https://github.com/stablebox/StableBar</link>
+      <description>Uma barra de menu nativa e personalizável para macOS, com temas, widgets, popups e workspaces AeroSpace, yabai ou OmniWM. Uma alternativa gratuita e de código aberto ao SketchyBar.
+
+288 estrelas · Swift</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/stablebox/StableBar</guid>
+    </item>
+    <item>
+      <title>micro-repl</title>
+      <link>https://github.com/Ma7moud3ly/micro-repl</link>
+      <description>Uma IDE MicroPython para Mobile, Desktop e Web.
+
+165 estrelas · Kotlin</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/Ma7moud3ly/micro-repl</guid>
+    </item>
+    <item>
+      <title>miro-mcp-server</title>
+      <link>https://github.com/olgasafonova/miro-mcp-server</link>
+      <description>Servidor MCP para controlar quadros brancos Miro com assistentes de IA
+
+33 estrelas · Go</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/olgasafonova/miro-mcp-server</guid>
+    </item>
+    <item>
+      <title>dataviz</title>
+      <link>https://github.com/dataviz-rs/dataviz</link>
+      <description>Plotagem rápida para Rust, Python, JavaScript e C/C++: mais de 120 tipos de gráficos, 3D, mapas, janelas ao vivo, gramática de gráficos. Comparado com matplotlib e plotters.
+
+32 estrelas · Rust</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/dataviz-rs/dataviz</guid>
+    </item>
+    <item>
+      <title>parse-everything-global</title>
+      <link>https://github.com/zenkdom/parse-everything-global</link>
+      <description>API de web scraping e motor de bypass anti-bot. Resolva Cloudflare, DataDome e Akamai com impersonificação TLS e proxies residenciais. SDKs para Python, Node.js e PHP.
+
+26 estrelas · Python</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/zenkdom/parse-everything-global</guid>
+    </item>
+    <item>
+      <title>falera</title>
+      <link>https://github.com/elixpo/falera</link>
+      <description>FaleraOS (anteriormente OreoOS) por Elixpo: OS MicroPython de código aberto e hardware para o ESP32-S3 Falera Badge, com aplicativos, uma App Store, atualizações OTA, hardware KiCad e vídeo RV565.
+
+14 estrelas · Python</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/elixpo/falera</guid>
+    </item>
+    <item>
+      <title>Backend-roadmap</title>
+      <link>https://github.com/TapanKumarBarik/Backend-roadmap</link>
+      <description>Currículo prático, gratuito e de código aberto para engenharia de backend, design de sistemas, cloud/DevOps e GenAI – construído abertamente. Colaboradores são bem-vindos.
+
+7 estrelas · JavaScript</description>
+      <category>GitHubTrending</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/TapanKumarBarik/Backend-roadmap</guid>
+    </item>
+    <item>
+      <title>AlterContacts</title>
+      <link>https://www.producthunt.com/products/alter-contacts-ai-client-relationships?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>AlterContacts é um assistente de IA focado em voz para gerenciar relacionamentos com clientes. Ele organiza detalhes de reuniões, atualiza perfis de clientes e lembra compromissos, além de preparar mensagens para acompanhamentos e aniversários.
+
+Também em: https://www.producthunt.com/r/P3PTYNAORNS7UV?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/alter-contacts-ai-client-relationships?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/alter-contacts-ai-client-relationships?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>AI Context Flow MCP</title>
+      <link>https://www.producthunt.com/products/ai-context-flow?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>AI Context Flow resolve o problema de memórias fragmentadas entre ferramentas de IA, permitindo que todas compartilhem uma única memória através do MCP. Ele categoriza memórias por projeto ou cliente, controla acesso e oferece histórico de versões com recuperação.
+
+Também em: https://www.producthunt.com/r/62GR7ZBTBONXEL?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/ai-context-flow?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/ai-context-flow?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Codemany</title>
+      <link>https://www.producthunt.com/products/codemany?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Codemany permite executar GitHub Actions em sua própria infraestrutura, gerenciando ambientes de execução com máquinas virtuais novas para cada tarefa. Isso acelera as operações em até três vezes e elimina a cobrança por minuto.
+
+Também em: https://www.producthunt.com/r/7PYDLDRHJO2VXR?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/codemany?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/codemany?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Glassmail</title>
+      <link>https://www.producthunt.com/products/glassmail?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Glassmail é um aplicativo de e-mail local para Mac com IA integrada, suportando Gmail, iCloud, Outlook e IMAP. A IA funciona no seu Mac, permitindo perguntas sobre tarefas e respostas com seu tom de voz.
+
+Também em: https://www.producthunt.com/r/AMEMZBGSYLXSVQ?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/glassmail?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/glassmail?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>OpenVorld</title>
+      <link>https://www.producthunt.com/products/openvorld?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>OpenVorld é uma plataforma de agentes de IA de código aberto com um mundo virtual visualizado em pixel art. Cada projeto é uma vila onde agentes com nomes, funções e "cérebros" (como Claude Code ou Codex) trabalham, solicitando permissão antes de ações arriscadas.
+
+Também em: https://www.producthunt.com/r/PRFDOJRZF6LOTD?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/openvorld?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/openvorld?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Backspin</title>
+      <link>https://www.producthunt.com/products/backspin?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Backspin ensina técnicas de DJ com 21 aulas curtas, usando um toca-discos virtual no navegador. O sistema demonstra cada movimento e fornece feedback sobre o desempenho do usuário.
+
+Também em: https://www.producthunt.com/r/E3NSGJQEJGQEGZ?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/backspin?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/backspin?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Doddle</title>
+      <link>https://www.producthunt.com/products/doddle-3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Doddle é uma câmera que permite "desenhar" no mundo real, fixando linhas no ar ou em paredes após alguns passos de filmagem. As criações podem ser salvas como vídeos verticais.
+
+Também em: https://www.producthunt.com/r/VH73TH73GS6FJG?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/doddle-3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/doddle-3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Beat Watcher</title>
+      <link>https://www.producthunt.com/products/beat-watcher?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Beat Watcher é um aplicativo para Apple Watch que alerta instantaneamente quando a frequência cardíaca excede ou fica abaixo de um limite definido. Ele permite compartilhar alertas com familiares ou amigos e monitora continuamente em segundo plano.
+
+Também em: https://www.producthunt.com/r/FBMGQWUFOWRDTC?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/beat-watcher?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/beat-watcher?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Shipyard</title>
+      <link>https://www.producthunt.com/products/shipyard?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Shipyard é uma ferramenta de linha de comando local e servidor MCP para Claude Code, Cursor e Codex, que automatiza a configuração de domínios, DNS, hospedagem, bancos de dados, e-mails e sistemas de pagamento para novos produtos. Ele acelera o lançamento de ideias, mantendo as chaves de API seguras no computador do usuário.
+
+Também em: https://www.producthunt.com/r/APQZ54KU3JOGBN?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/shipyard?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/shipyard?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Prompt Puncher</title>
+      <link>https://www.producthunt.com/products/prompt-puncher?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Prompt Puncher é um jogo de luta gratuito para navegador onde CEOs de IA, como Elon Musk e Sam Altman, se enfrentam. Não requer download nem registro.
+
+Também em: https://www.producthunt.com/r/UF2HFP67MJWMCP?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/prompt-puncher?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/prompt-puncher?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Smorza</title>
+      <link>https://www.producthunt.com/products/smorza?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Smorza é um aplicativo gratuito e de código aberto para Mac que permite configurar volume, mudo e saída de áudio independentes para cada aplicativo. Ele funciona sem drivers de áudio adicionais e é compatível com macOS 14.4 ou superior.
+
+Também em: https://www.producthunt.com/r/S74QZHVC25COEV?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/smorza?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/smorza?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Hollr</title>
+      <link>https://www.producthunt.com/products/hollr-3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Hollr é um aplicativo de intercomunicação familiar para iPhone e Apple Watch, permitindo enviar mensagens de voz com um toque. Ele suporta Apple Watches configurados para crianças sem iPhone e oferece transcrição de voz ou respostas rápidas.
+
+Também em: https://www.producthunt.com/r/3ORR336DFHHZMR?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/hollr-3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/hollr-3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Publicit</title>
+      <link>https://www.producthunt.com/products/publicit?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Publicit é uma plataforma de publicidade self-service que permite veicular anúncios em TV conectada, telas de rua e dispositivos móveis através de uma única API. O sistema de lances em tempo real otimiza a colocação de anúncios e monitora o desempenho por hora.
+
+Também em: https://www.producthunt.com/r/YFIU75PSYHA6LA?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/publicit?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/publicit?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Stitch Loop</title>
+      <link>https://www.producthunt.com/products/stitch-loop?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>Stitch Loop é um assistente de produto experimental do Google Labs que se conecta a repositórios GitHub e dados de produto em tempo real. Ele propõe automaticamente correções, constrói código em um ambiente sandbox e cria pull requests, com todas as fusões exigindo revisão humana.
+
+Também em: https://www.producthunt.com/r/FPBEULM4VZK4X6?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/stitch-loop?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/stitch-loop?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>AnyProfile</title>
+      <link>https://www.producthunt.com/products/anyprofile?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
+      <description>AnyProfile é um navegador anti-impressão digital gratuito e de código aberto para Mac e Windows. Ele isola cookies, proxies, máquinas virtuais Android 15 e ferramentas de gerenciamento de múltiplas contas de IA localmente, sem taxas mensais.
+
+Também em: https://www.producthunt.com/r/HSG27HNZT2OIBG?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29
+
+Também em: https://www.producthunt.com/products/anyprofile?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
+      <category>ProductHunt</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/anyprofile?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
+    </item>
+    <item>
+      <title>Signal restringe capturas de tela em celulares ao confrontar ‘ameaça existencial’ da vigilância por IA</title>
+      <link>https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/</link>
+      <description>Signal está limitando capturas de tela em seus aplicativos Android e iOS. A empresa considera a vigilância por IA no nível do sistema operacional uma ameaça existencial.</description>
+      <category>RSS</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/</guid>
+    </item>
+    <item>
+      <title>Uma história de duas Nvidias</title>
+      <link>https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/</link>
+      <description>Os últimos resultados financeiros da Nvidia são divulgados enquanto executivos de tecnologia pedem o retorno de Jensen Huang.</description>
+      <category>RSS</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/</guid>
+    </item>
+    <item>
+      <title>Aqui estão os principais agentes de IA que podem viver em suas mensagens de texto</title>
+      <link>https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/</link>
+      <description>Uma lista de agentes de IA notáveis que residem em SMS é apresentada. Inclui assistentes gerais e bots específicos para família, viagens e trabalho.</description>
+      <category>RSS</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/</guid>
+    </item>
+    <item>
+      <title>Vender uma versão de IA do seu rosto para esta startup de microdramas é o futuro de Hollywood?</title>
+      <link>https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/</link>
+      <description>Um ator licenciou seu rosto para uma startup de microdramas, prática comum na China. Especialistas alertam para riscos de longo prazo em Hollywood.</description>
+      <category>RSS</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/</guid>
+    </item>
+    <item>
+      <title>A ONU não consegue chegar a um acordo sobre regras para regular ‘robôs assassinos’</title>
+      <link>https://www.theverge.com/tech/1039554/un-regulations-killer-robots</link>
+      <description>As negociações em Genebra sobre armas autônomas terminaram sem regras. Diplomatas concordaram apenas em 'começar a discutir opções'.</description>
+      <category>RSS</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.theverge.com/tech/1039554/un-regulations-killer-robots</guid>
+    </item>
+    <item>
+      <title>A Anthropic pode se dar ao luxo de priorizar a segurança?</title>
+      <link>https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure</link>
+      <description>Um podcast da Verge com Hayden Field discute se a Anthropic pode manter sua postura de priorizar a segurança após seu IPO na Nasdaq.</description>
+      <category>RSS</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure</guid>
+    </item>
+    <item>
+      <title>O próximo passo do Chess.com é um novo centro para jogos clássicos, de mahjong a sudoku</title>
+      <link>https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai</link>
+      <description>Após o poker Gambit, o Chess.com adiciona 10 jogos clássicos. Isso inclui gamão, go, mahjong, shogi e sudoku.</description>
+      <category>RSS</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai</guid>
+    </item>
+    <item>
+      <title>Pesquisadores da Nvidia argumentam que janelas de contexto de IA muito grandes são um beco sem saída</title>
+      <link>https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/</link>
+      <description>Um artigo da Nvidia sugere que resumos periódicos e busca por palavras-chave geralmente igualam resultados de contexto completo. Isso ocorre a uma fração do custo.</description>
+      <category>RSS</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/</guid>
+    </item>
+    <item>
+      <title>A crescente obsessão do Vale do Silício com o apocalipse da IA está transformando partes da indústria de tecnologia em devoção semelhante a um culto</title>
+      <link>https://the-decoder.com/silicon-valleys-growing-obsessio-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/</link>
+      <description>A New Yorker relata que o mosteiro Maple, em Vermont, se posiciona como autoridade espiritual do Vale do Silício. Ele está treinando uma IA à imagem do líder Soryu Forall.</description>
+      <category>RSS</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://the-decoder.com/silicon-valleys-growing-obsessio-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/</guid>
+    </item>
+    <item>
+      <title>OpenAI compartilha novas dicas de prompt para GPT-6.2 Astra e Sol para corrigir respostas breves e perguntas desnecessárias</title>
+      <link>https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/</link>
+      <description>Novos modelos de prompt para Astra e Sol visam respostas concisas, perguntas de acompanhamento extras e testes excessivos em código. A edição do histórico de chat pode descartar tokens em cache.</description>
+      <category>RSS</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/</guid>
+    </item>
+    <item>
+      <title>GPT-6.2 Astra e Sol são mais diretos, mas pontuam menos em transparência que Claude</title>
+      <link>https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/</link>
+      <description>GPT-6.2 Astra e Sol fornecem respostas mais curtas e diretas que seus antecessores. Eles são menos propensos a admitir incerteza, e Claude pontua melhor em transparência.
+
+Publicado em 22/11/2026</description>
+      <category>RSS</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/</guid>
+    </item>
+    <item>
+      <title>Uma equipe de pesquisadores da Columbia e CertiK apresenta TensorLean para verificação formal de kernels de GPU</title>
+      <link>https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/</link>
+      <description>TensorLean verifica kernels de GPU de produção no nível PTX em Lean. Foram verificadas 149 instâncias, 83 provadas corretas e 38 bugs encontrados em FlashAttention, DeepGEMM e outros.
+
+Publicado em 22/11/2026</description>
+      <category>RSS</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/</guid>
+    </item>
+    <item>
+      <title>Muru</title>
+      <link>https://simonwillison.net/2026/Nov/21/muru/</link>
+      <description>Simon Willison
+
+Graham Dumpleton criou um servidor Rust assistido por IA para aplicativos Python ASGI/WSGI. Simon Willison faz um resumo do registro de construção de três semanas de Dumpleton.</description>
+      <category>RSS</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Nov/21/muru/</guid>
+    </item>
+    <item>
+      <title>GPT-6 Astra escreve prova de seis páginas do limite de Deligne/Weil a partir de nota de rodapé de Alpöge; nenhum humano a verificou</title>
+      <link>https://x.com/AndrewCurran_/status/2124288484563440073</link>
+      <description>Floris Alderliefste, GPT-6 Astra
+
+GPT-6 Astra, no modo ChatGPT Pro, produziu uma prova curta de seis páginas do limite de Deligne para autovalores de Frobenius, a partir de uma nota de rodapé de Levent Alpöge. O registro do preprint da Hexagon indica que o texto foi gerado principalmente por IA e não foi verificado por humanos.
+
+Também em: https://x.com/jdlichtman/status/2124244181417906543
+
+Também em: https://hexagonmath.org/2611.00789v1
+
+Também em: https://alpo.ge/remark.pdf
+
+Também em: https://github.com/KokunoYumeto/grothendieck-montpellier-archive/tree/main/research/grh_20261120/deligne_sign_only</description>
+      <category>Twitter</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/AndrewCurran_/status/2124288484563440073</guid>
+    </item>
+    <item>
+      <title>FSD v15 chega aos carros: Tesla afirma melhoria de 25 vezes no manuseio de casos críticos de segurança e um Reality View neural no veículo</title>
+      <link>https://x.com/Tesla/status/2124222447855743019</link>
+      <description>Tesla, Elon Musk, Phil Duan
+
+Proprietários de veículos Tesla começaram a baixar o FSD v15, que a empresa afirma melhorar em 25 vezes o manuseio de casos críticos de segurança. A atualização inclui um Reality View neural em tempo real, gerado por IA no veículo, que mostra o planejamento da pilha de software.
+
+Também em: https://x.com/TeslaSI/status/2124229673056113100
+
+Também em: https://x.com/elonmusk/status/2124270426402836626
+
+Também em: https://x.com/pduan/status/2124265867336966182
+
+Também em: https://x.com/SawyerMerritt/status/2124271378073530460</description>
+      <category>Twitter</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/Tesla/status/2124222447855743019</guid>
+    </item>
+    <item>
+      <title>Demis Hassabis e Aravind Srinivas destacam Gemini Neon como modelo inteligente e rápido</title>
+      <link>https://x.com/demishassabis/status/2124298609252528603</link>
+      <description>Demis Hassabis, Aravind Srinivas
+
+Demis Hassabis retweetou o CEO da Perplexity, Aravind Srinivas, que descreveu o Gemini Neon (Reasoning High) como o primeiro modelo inteligente e rápido em algum tempo. Hassabis também amplificou um testador que alegou que o Neon supera o GPT-6.2 Astra e o Claude Opus 5.5.
+
+Também em: https://x.com/AravSrinivas/status/2124254600723394644</description>
+      <category>Twitter</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/demishassabis/status/2124298609252528603</guid>
+    </item>
+    <item>
+      <title>Associação para Matemática Humana critica artefato Lean RH de Alpöge como incompreensível e publicidade de "superinteligência"</title>
+      <link>https://x.com/AndrewCurran_/status/2124305168888144211</link>
+      <description>The Association for Human Mathematics, Andrew Curran
+
+A Associação para Matemática Humana publicou uma declaração em 20 de novembro, argumentando que o artefato Lean RH de Alpöge não pode ser compreendido por humanos e serve como publicidade para "superinteligência". Andrew Curran circulou a declaração e observou o silêncio do Grupo Consultivo sobre Matemática e IA.
+
+Publicado em 20/11/2026
+
+Também em: https://www.ahmath.org/statements</description>
+      <category>Twitter</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/AndrewCurran_/status/2124305168888144211</guid>
+    </item>
+    <item>
+      <title>Repensando as Melhores Práticas de Código Claude - Lydia Hallie, Anthropic</title>
+      <link>https://www.youtube.com/watch?v=vlfCjWuv4es</link>
+      <description>Lydia Hallie
+
+O vídeo aborda a revisão das melhores práticas de código para Claude.</description>
+      <category>Youtube</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=vlfCjWuv4es</guid>
+    </item>
+    <item>
+      <title>Jordan Ellenberg sobre Ser Dispensável | Podcast 3b1b</title>
+      <link>https://www.youtube.com/watch?v=s_lGhOD8uN4</link>
+      <description>Jordan Ellenberg
+
+O matemático Jordan Ellenberg argumenta que provas geradas por IA e exploração assistida por máquina não ameaçam a alegria humana, o gosto e o tecido social da matemática.</description>
+      <category>Youtube</category>
+      <pubDate>Sun, 22 Nov 2026 17:54:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=s_lGhOD8uN4</guid>
+    </item>
     <item>
       <title>O boom da IA teve uma semana muito ruim, e está levantando alarmes altos - NPR</title>
       <link>https://www.npr.org/2026/11/21/nx-s1-6048729/ai-stock-markets-anthropic-nvidia</link>
@@ -445,112 +1037,6 @@ Um "eticista de IA" argumentou que os impactos sociais dos LLMs poderiam ter sid
       <guid isPermaLink="true">https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/</guid>
     </item>
     <item>
-      <title>Daniel Ek apoia startup de energia de fusão de pesquisador de IA</title>
-      <link>https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/</link>
-      <description>Daniel Ek, fundador do Spotify, está investindo na Europa Fusion, uma startup de energia de fusão criada por um pesquisador de IA.</description>
-      <category>RSS</category>
-      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/</guid>
-    </item>
-    <item>
-      <title>IA afirma ter solução para a Hipótese de Riemann de 167 anos, e um humano também</title>
-      <link>https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/</link>
-      <description>Uma alegação de solução para a Hipótese de Riemann, assistida por IA, surgiu junto com uma prova humana concorrente; nenhuma foi verificada independentemente.</description>
-      <category>RSS</category>
-      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/</guid>
-    </item>
-    <item>
-      <title>Chips podem sobreviver ao ambiente espacial, mas seu financiamento pode?</title>
-      <link>https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/</link>
-      <description>Credores hesitam em permitir que a SpaceX envie chips financiados para órbita, um obstáculo para planos de data centers espaciais.</description>
-      <category>RSS</category>
-      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/</guid>
-    </item>
-    <item>
-      <title>As consequências do escândalo de Jensen Huang da Nvidia continuam</title>
-      <link>https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/</link>
-      <description>A Nvidia registrou outro forte resultado financeiro, mas anunciou que deixará de vender chips H200 na China após a saída de Huang.</description>
-      <category>RSS</category>
-      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/</guid>
-    </item>
-    <item>
-      <title>Seis gadgets com IA que podem tornar seu escritório doméstico mais inteligente</title>
-      <link>https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/</link>
-      <description>Uma lista de seis gadgets com IA para o ambiente de trabalho, incluindo gravadores de notas e webcams.</description>
-      <category>RSS</category>
-      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/</guid>
-    </item>
-    <item>
-      <title>Trump ameaça "imposto tremendo" para data centers de IA movidos para fora dos EUA</title>
-      <link>https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax</link>
-      <description>Trump prometeu um "imposto tremendo" para empresas que construírem data centers fora dos EUA, enquanto estados e cidades restringem novos locais internamente.</description>
-      <category>RSS</category>
-      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax</guid>
-    </item>
-    <item>
-      <title>Matemático da Anthropic afirma ter resolvido problema do Prêmio Millennium com Claude</title>
-      <link>https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem</link>
-      <description>Levent Alpöge
-
-O matemático da Anthropic, Levent Alpöge, afirma ter provado a hipótese de Riemann com Claude; se verificada, seria um resultado do Prêmio Millennium.</description>
-      <category>RSS</category>
-      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem</guid>
-    </item>
-    <item>
-      <title>A semana em que tudo desmoronou</title>
-      <link>https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast</link>
-      <description>O Vergecast discute uma semana de interrupções, incluindo Outlook, paralisação aérea nacional, bancos e iCloud.</description>
-      <category>RSS</category>
-      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast</guid>
-    </item>
-    <item>
-      <title>Google lança nova página inicial de busca com histórico de chat de IA e sem botão de busca</title>
-      <link>https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/</link>
-      <description>A página inicial do Google Search foi redesenhada, removendo o botão de busca e adicionando uma barra lateral com histórico de chat de IA.</description>
-      <category>RSS</category>
-      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
-      <guid isPermaLink="true">https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/</guid>
-    </item>
-    <item>
-      <title>Meta reconsidera meta de emissões líquidas zero até 2030 em meio a emissões recordes de data centers de IA</title>
-      <link>https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/</link>
-      <description>A Meta está "reavaliando" suas metas de sustentabilidade para 2030, pois as emissões de seus data centers de IA atingiram níveis recordes.</description>
-      <category>RSS</category>
-      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
-      <guid isPermaLink="true">https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/</guid>
-    </item>
-    <item>
-      <title>Pesquisador insere 2 milhões de "canários" na cadeia de suprimentos de IA, revelando desastre de privacidade</title>
-      <link>https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/</link>
-      <description>Segredos únicos e rastreáveis em prompts demonstraram vazamento de dados de usuários através da cadeia de suprimentos de IA.</description>
-      <category>RSS</category>
-      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
-      <guid isPermaLink="true">https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/</guid>
-    </item>
-    <item>
-      <title>O gráfico mais mal compreendido em IA acaba de receber uma grande atualização</title>
-      <link>https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/</link>
-      <description>O gráfico de horizonte temporal atualizado do METR ainda mostra ganhos exponenciais, mas os modelos ficam mais atrasados em tarefas que exigem julgamento do que em codificação.</description>
-      <category>RSS</category>
-      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/</guid>
-    </item>
-    <item>
-      <title>OpenAI dificulta a extração do raciocínio de seus modelos de IA mais recentes por atacantes</title>
-      <link>https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/</link>
-      <description>Com o red-teaming adaptativo, a extração de raciocínio protegido dos modelos GPT-6.2 Astra e Sol da OpenAI teve sua taxa de sucesso reduzida de 54% para 0,2%.</description>
-      <category>RSS</category>
-      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
-      <guid isPermaLink="true">https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/</guid>
-    </item>
-    <item>
       <title>Elon Musk pondera sobre a prova Lean da Hipótese de Riemann de Alpöge, assistida por Claude, após compilação independente reportar verificação de tipos</title>
       <link>https://x.com/elonmusk/status/2124046857659650295</link>
       <description>Levent Alpöge, Elon Musk, Elliot Arledge
@@ -677,490 +1163,62 @@ Publicado em 15/11/2026</description>
       <guid isPermaLink="true">https://www.youtube.com/watch?v=y1-9yeYLJUo</guid>
     </item>
     <item>
-      <title>Citando Ravi Vakil</title>
-      <link>https://simonwillison.net/2026/Nov/20/ravi-vakil</link>
-      <description>Alessandro Masullo propôs uma prova da Hipótese Generalizada de Riemann, com Brian Conrad fornecendo feedback extenso. O trabalho é inteiramente humano, sem uso de IA.</description>
-      <category>Blogs</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Nov/20/ravi-vakil</guid>
+      <title>Daniel Ek apoia startup de energia de fusão de pesquisador de IA</title>
+      <link>https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/</link>
+      <description>Daniel Ek, fundador do Spotify, está investindo na Europa Fusion, uma startup de energia de fusão criada por um pesquisador de IA.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/</guid>
     </item>
     <item>
-      <title>Citando Levent Alpöge</title>
-      <link>https://simonwillison.net/2026/Nov/20/levent-alpoge</link>
+      <title>IA afirma ter solução para a Hipótese de Riemann de 167 anos, e um humano também</title>
+      <link>https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/</link>
+      <description>Uma alegação de solução para a Hipótese de Riemann, assistida por IA, surgiu junto com uma prova humana concorrente; nenhuma foi verificada independentemente.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/</guid>
+    </item>
+    <item>
+      <title>Chips podem sobreviver ao ambiente espacial, mas seu financiamento pode?</title>
+      <link>https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/</link>
+      <description>Credores hesitam em permitir que a SpaceX envie chips financiados para órbita, um obstáculo para planos de data centers espaciais.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/</guid>
+    </item>
+    <item>
+      <title>As consequências do escândalo de Jensen Huang da Nvidia continuam</title>
+      <link>https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/</link>
+      <description>A Nvidia registrou outro forte resultado financeiro, mas anunciou que deixará de vender chips H200 na China após a saída de Huang.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/</guid>
+    </item>
+    <item>
+      <title>Seis gadgets com IA que podem tornar seu escritório doméstico mais inteligente</title>
+      <link>https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/</link>
+      <description>Uma lista de seis gadgets com IA para o ambiente de trabalho, incluindo gravadores de notas e webcams.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/</guid>
+    </item>
+    <item>
+      <title>Trump ameaça "imposto tremendo" para data centers de IA movidos para fora dos EUA</title>
+      <link>https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax</link>
+      <description>Trump prometeu um "imposto tremendo" para empresas que construírem data centers fora dos EUA, enquanto estados e cidades restringem novos locais internamente.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax</guid>
+    </item>
+    <item>
+      <title>Matemático da Anthropic afirma ter resolvido problema do Prêmio Millennium com Claude</title>
+      <link>https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem</link>
       <description>Levent Alpöge
 
-Levent Alpöge, em colaboração com Claude, afirma ter descoberto uma prova da Hipótese de Riemann. O método também se estende para resolver a Hipótese Generalizada de Riemann.</description>
-      <category>Blogs</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Nov/20/levent-alpoge</guid>
-    </item>
-    <item>
-      <title>Fraude de token chegou e é RUIM (YouTube)</title>
-      <link>https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad</link>
-      <description>Claire Vo, da plataforma ChatPRD, discute a fraude de tokens em um vídeo do YouTube. Ela tem desenvolvido a plataforma publicamente desde a era GPT-4.</description>
-      <category>Blogs</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad</guid>
-    </item>
-    <item>
-      <title>[AINews] Anthropic conclui com sucesso o maior IPO da história, avaliada em US$ 1,5 trilhão</title>
-      <link>https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t</link>
-      <description>A Anthropic concluiu seu IPO em 19 de novembro de 2026, com as ações abrindo a US$ 111,50 e fechando a US$ 97,17. Além disso, o Google disponibiliza o Genie 4 para desenvolvedores.</description>
-      <category>Blogs</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t</guid>
-    </item>
-    <item>
-      <title>Robôs Ainda São Ruins</title>
-      <link>https://www.chinatalk.media/p/we-went-to-austin-to-see-robots</link>
-      <description>Um relatório de viagem da CoRL.</description>
-      <category>Blogs</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.chinatalk.media/p/we-went-to-austin-to-see-robots</guid>
-    </item>
-    <item>
-      <title>A Barreira de 10x</title>
-      <link>https://tomtunguz.com/the-10x-wall</link>
-      <description>Tomasz Tunguz
-
-Anthropic e SpaceX negociam com um múltiplo idêntico de 9,5x a receita estimada para 2027, apesar de crescimentos projetados de 288% e 466%. Acima de US$ 1 trilhão em valor empresarial, os mercados públicos deixam de valorizar o crescimento da receita e se fixam em uma faixa de 20x a 26x os lucros.</description>
-      <category>Blogs</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://tomtunguz.com/the-10x-wall</guid>
-    </item>
-    <item>
-      <title>Julgamento Nublado 11.19.26 - Armagedom de Segurança</title>
-      <link>https://cloudedjudgement.substack.com/p/clouded-judgement-111926-security</link>
-      <description>Este artigo oferece atualizações semanais sobre as últimas tendências em empresas de software em nuvem.</description>
-      <category>Blogs</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://cloudedjudgement.substack.com/p/clouded-judgement-111926-security</guid>
-    </item>
-    <item>
-      <title>Após a Euforia da Anthropic, Nvidia, AMD e o Mercado Geral Oferecem um Duro Banho de Realidade</title>
-      <link>https://www.newcomer.co/p/after-anthropic-euphoria-nvidia-amd</link>
-      <description>O Google demonstra sua posição na fronteira tecnológica, enquanto os mercados de previsão enfrentam crescente pressão legal.</description>
-      <category>Blogs</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.newcomer.co/p/after-anthropic-euphoria-nvidia-amd</guid>
-    </item>
-    <item>
-      <title>Por que a governança de agentes começa com a observabilidade</title>
-      <link>https://www.langchain.com/blog/agent-governance-observability</link>
-      <description>Uma estratégia robusta de governança para agentes de IA.</description>
-      <category>Blogs</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.langchain.com/blog/agent-governance-observability</guid>
-    </item>
-    <item>
-      <title>Nosso investimento na LATO</title>
-      <link>https://press.airstreet.com/p/lato-labs-investment-ai-expert-research</link>
-      <description>A Air Street Capital liderou uma rodada semente de US$ 4,7 milhões para tornar a pesquisa primária acessível a todas as decisões de investimento.</description>
-      <category>Blogs</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://press.airstreet.com/p/lato-labs-investment-ai-expert-research</guid>
-    </item>
-    <item>
-      <title>Qwen3 TTS agora disponível na Together AI</title>
-      <link>https://www.together.ai/blog/qwen3-tts</link>
-      <description>O Qwen3 TTS está agora disponível na Together AI. Ele permite manter uma voz consistente em seu produto, alterar seu tom com instruções simples e alternar entre 10 idiomas, com o primeiro áudio em apenas 97ms.</description>
-      <category>Blogs</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.together.ai/blog/qwen3-tts</guid>
-    </item>
-    <item>
-      <title>The Sequence Robotics - Edição #976: Robôs Precisam de Escolas, Não Apenas de Cérebros</title>
-      <link>https://thesequence.substack.com/p/the-sequence-robotics-issue-976-robots</link>
-      <description>A Genesis AI investiu US$ 500 milhões em experiência humana e no ensino de máquinas para aprender.</description>
-      <category>Blogs</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://thesequence.substack.com/p/the-sequence-robotics-issue-976-robots</guid>
-    </item>
-    <item>
-      <title>Prevenção da demência, uma pista surgiu de um lugar inesperado</title>
-      <link>https://blog.naver.com/ranto28/224484741826?fromRss=true&amp;trackingCode=rss</link>
-      <description>A pesquisa sobre demência focou na remoção de placas amiloides no cérebro, mas os resultados dos novos medicamentos foram decepcionantes. Uma nova pista inesperada aponta para o herpes zoster, um vírus que permanece latente em células nervosas após a catapora infantil e pode reativar com a idade ou baixa imunidade.</description>
-      <category>Blogs</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://blog.naver.com/ranto28/224484741826?fromRss=true&amp;trackingCode=rss</guid>
-    </item>
-    <item>
-      <title>Dose Semanal de Otimismo #220</title>
-      <link>https://www.notboring.co/p/weekly-dose-of-optimism-220</link>
-      <description>Este artigo aborda a reutilização da SpaceX, uma vacina contra leucemia, SLAB, Tesla Powercore e Earth AI Gold, além de dez doses extras de otimismo.</description>
-      <category>Blogs</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.notboring.co/p/weekly-dose-of-optimism-220</guid>
-    </item>
-    <item>
-      <title>Anthropic Dispara 17% na Estreia, Nvidia Cai: Mudança na Avaliação de IA</title>
-      <link>https://aidisruption.ai/p/anthropic-soars-17-at-debut-nvidia</link>
-      <description>A estreia da Anthropic na Nasdaq viu suas ações subirem 17%, enquanto as da Nvidia caíram. Esta divergência sinaliza mudanças nas avaliações de IA, custos de computação e receita empresarial.</description>
-      <category>Blogs</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://aidisruption.ai/p/anthropic-soars-17-at-debut-nvidia</guid>
-    </item>
-    <item>
-      <title>firecrawl</title>
-      <link>https://github.com/firecrawl/firecrawl</link>
-      <description>Infraestrutura de conhecimento para tornar seus agentes mais inteligentes. Pesquise, extraia e acesse mais de 550 provedores de dados através de uma API.
-
-205.273 estrelas · TypeScript</description>
-      <category>GitHubTrending</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/firecrawl/firecrawl</guid>
-    </item>
-    <item>
-      <title>Ghost-Downloader-3</title>
-      <link>https://github.com/XiaoYouChR/Ghost-Downloader-3</link>
-      <description>O único downloader que você precisa. 下载器的集大成者。
-
-13.702 estrelas · Python</description>
-      <category>GitHubTrending</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/XiaoYouChR/Ghost-Downloader-3</guid>
-    </item>
-    <item>
-      <title>SoduWork</title>
-      <link>https://github.com/mdiri-ai/SoduWork</link>
-      <description>O motor nativo de IA para equipes e seus agentes. Multi-arnês, multi-agente, auto-hospedado.
-
-5.978 estrelas · JavaScript</description>
-      <category>GitHubTrending</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/mdiri-ai/SoduWork</guid>
-    </item>
-    <item>
-      <title>app-store-compliance</title>
-      <link>https://github.com/mjmirza/app-store-compliance</link>
-      <description>Evite rejeições comuns da App Store e Google Play. Playbook aberto e guarda de pré-submissão com 117 padrões de rejeição documentados e correções, manifestos de privacidade e verificações de segurança de dados, 95 prazos rastreados (EU AI Act, DSA, COPPA, leis de idade), e uma skill para agentes de codificação de IA.
-
-2.745 estrelas · Shell</description>
-      <category>GitHubTrending</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/mjmirza/app-store-compliance</guid>
-    </item>
-    <item>
-      <title>jaxtyping</title>
-      <link>https://github.com/patrick-kidger/jaxtyping</link>
-      <description>Anotações de tipo e verificação em tempo de execução para forma e dtype de arrays JAX/NumPy/PyTorch/etc. https://docs.kidger.site/jaxtyping/
-
-1.882 estrelas · Python</description>
-      <category>GitHubTrending</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/patrick-kidger/jaxtyping</guid>
-    </item>
-    <item>
-      <title>spaceship</title>
-      <link>https://github.com/chuanqisun/spaceship</link>
-      <description>Dirija ideias como um piloto espacial!
-
-993 estrelas · HTML</description>
-      <category>GitHubTrending</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/chuanqisun/spaceship</guid>
-    </item>
-    <item>
-      <title>shapeshift-labs-ink-studio</title>
-      <link>https://github.com/siliconjungle/shapeshift-labs-ink-studio</link>
-      <description>Kit de ferramentas de escultura, animação e simulação para splats gaussianos de pixel-art
-
-870 estrelas · JavaScript</description>
-      <category>GitHubTrending</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/siliconjungle/shapeshift-labs-ink-studio</guid>
-    </item>
-    <item>
-      <title>Jiumi</title>
-      <link>https://github.com/ybblab/Jiumi</link>
-      <description>揪咪 Jiumi: Monitor de atividade e privacidade de aplicativos Android. Não requer root.
-
-800 estrelas · Kotlin</description>
-      <category>GitHubTrending</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/ybblab/Jiumi</guid>
-    </item>
-    <item>
-      <title>yab</title>
-      <link>https://github.com/yetanotherbrowser/yab</link>
-      <description>Yab, yet another browser: um navegador macOS nativo rápido com um aplicativo complementar para iPhone e Android
-
-761 estrelas · Swift</description>
-      <category>GitHubTrending</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/yetanotherbrowser/yab</guid>
-    </item>
-    <item>
-      <title>pear</title>
-      <link>https://github.com/mit-han-lab/pear</link>
-      <description>Treinando Modelos de Raciocínio em Simulação para Usar Nativamente Robôs Reais
-
-760 estrelas · Python</description>
-      <category>GitHubTrending</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/mit-han-lab/pear</guid>
-    </item>
-    <item>
-      <title>HyprMac</title>
-      <link>https://github.com/zacharytgray/HyprMac</link>
-      <description>Gerenciador de janelas de mosaico estilo Hyprland para macOS: layout dwindle (BSP) automático, 10 áreas de trabalho, prioridade de teclado, SIP permanece ativado.
-
-347 estrelas · Swift</description>
-      <category>GitHubTrending</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/zacharytgray/HyprMac</guid>
-    </item>
-    <item>
-      <title>loom</title>
-      <link>https://github.com/ClickHouse/loom</link>
-      <description>Memória de longo prazo compartilhada, pesquisa de documentos e um índice de código para agentes de IA, vinculado ao seu código. As memórias apontam para os arquivos e símbolos sobre os quais elas se referem e aparecem quando um agente os edita. Servidor MCP, plugins Claude Code e Codex, SDKs. Auto-hospedado no ClickHouse.
-
-174 estrelas · Python</description>
-      <category>GitHubTrending</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/ClickHouse/loom</guid>
-    </item>
-    <item>
-      <title>hypequery</title>
-      <link>https://github.com/hypequery/hypequery</link>
-      <description>hypequery - A camada de analytics para ClickHouse
-
-106 estrelas · TypeScript</description>
-      <category>GitHubTrending</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/hypequery/hypequery</guid>
-    </item>
-    <item>
-      <title>goncordia</title>
-      <link>https://github.com/kirimatt/goncordia</link>
-      <description>Fila de jobs em segundo plano para Go no banco de dados que você já usa: Postgres, MySQL, MariaDB, SQLite, MongoDB, Redis, DynamoDB, Firestore, Cassandra, ClickHouse. Enfileiramento de outbox transacional, futures tipados (aguardar resultados de jobs), retentativas, cron, retenção, UI de administração, OpenTelemetry.
-
-70 estrelas · Go</description>
-      <category>GitHubTrending</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/kirimatt/goncordia</guid>
-    </item>
-    <item>
-      <title>unbraid-mac</title>
-      <link>https://github.com/quiet-crafts/unbraid-mac</link>
-      <description>Cliente VPN com split tunneling para macOS: diferentes aplicativos, diferentes saídas, ao mesmo tempo. Tailscale e suas VPNs juntos. Traga sua própria VPN.
-
-39 estrelas · Swift</description>
-      <category>GitHubTrending</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://github.com/quiet-crafts/unbraid-mac</guid>
-    </item>
-    <item>
-      <title>TestSprite 4.0</title>
-      <link>https://www.producthunt.com/r/7TKIXW445YMK2C?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>TestSprite 4.0 é uma ferramenta de teste que lembra o comportamento esperado de um aplicativo. Ela explora o aplicativo em execução, escreve e executa testes de ponta a ponta, identificando bugs e monitorando alterações.
-
-Publicado em 19/11/2026
-
-Também em: https://www.producthunt.com/products/testsprite?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/7TKIXW445YMK2C?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Verse Engine por Ctruh</title>
-      <link>https://www.producthunt.com/r/CBNSNOACCLEF75?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Verse Engine é um motor 3D e XR baseado em navegador que transforma qualquer conteúdo 3D em um link. Ele permite importar arquivos ou publicar diretamente de Blender, Unity e Unreal, abrindo em qualquer navegador sem instalação.
-
-Publicado em 19/11/2026
-
-Também em: https://www.producthunt.com/products/verse-engine-by-ctruh?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/CBNSNOACCLEF75?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Netlify Server</title>
-      <link>https://www.producthunt.com/r/VOJHOAWTB6DIXE?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Netlify Server oferece um ambiente de backend contínuo para aplicações, suportando experiências interativas em tempo real e jogos multiplayer. Ele permite criar ou integrar código existente, mantendo conexões WebSocket e estado em memória.
-
-Publicado em 19/11/2026
-
-Também em: https://www.producthunt.com/products/netlify?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/VOJHOAWTB6DIXE?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Widgets de E-mail Stripo</title>
-      <link>https://www.producthunt.com/r/Q2V6HYMV6Q7K4J?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Stripo permite adicionar raspadinhas, questionários, enquetes e pesquisas NPS a e-mails, usando um editor de arrastar e soltar com assistência de IA. Os widgets incluem design, interatividade e lógica de fallback para clientes de e-mail não interativos.
-
-Publicado em 19/11/2026
-
-Também em: https://www.producthunt.com/products/stripo-email?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/Q2V6HYMV6Q7K4J?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Adside</title>
-      <link>https://www.producthunt.com/r/32JCPUC6N6DHBO?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Adside oferece uma equipe de assistentes de IA especializados para gerenciar anúncios pagos no Google, Meta, LinkedIn, Reddit e Twitter. Os usuários podem operar a plataforma ou optar por gerenciamento por especialistas humanos.
-
-Publicado em 19/11/2026
-
-Também em: https://www.producthunt.com/products/adside?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/32JCPUC6N6DHBO?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Manufact</title>
-      <link>https://www.producthunt.com/r/UI6BJYW7WUUNYS?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Manufact auxilia equipes na publicação de servidores e plugins MCP, monitorando o uso por agentes e testando versões em diferentes clientes. A ferramenta integra verificações de lançamento, rastreamento de sessão e testes entre clientes em um único fluxo.
-
-Publicado em 19/11/2026
-
-Também em: https://www.producthunt.com/products/manufact?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/UI6BJYW7WUUNYS?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Spellar para Chrome</title>
-      <link>https://www.producthunt.com/r/Z7H2A7X3VNOPOU?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Spellar para Chrome é uma ferramenta gratuita de gravação de reuniões sem bots para navegadores Windows e Mac, compatível com Google Meet, Zoom, Teams e Webex. Ele transcreve reuniões, exibe nomes de oradores no Google Meet e armazena notas em um banco de memória unificado.
-
-Publicado em 19/11/2026
-
-Também em: https://www.producthunt.com/products/spellar?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/Z7H2A7X3VNOPOU?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Tabstack por Mozilla</title>
-      <link>https://www.producthunt.com/r/FM63R7JHAJZXNE?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Tabstack, da Mozilla, oferece uma API unificada para raspagem, extração e automação de dados da web, fornecendo respostas citadas, texto limpo e dados JSON. Ele opera ciclos de navegador e web fora do modelo do usuário, focando na privacidade por padrão.
-
-Publicado em 19/11/2026
-
-Também em: https://www.producthunt.com/products/tabstack?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/FM63R7JHAJZXNE?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Teaflask</title>
-      <link>https://www.producthunt.com/r/P7M5XVDZPLYNNQ?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Teaflask permite transformar SaaS existente em produtos nativos de IA sem refatorar o backend, oferecendo um assistente de IA hospedado que executa tarefas por meio de linguagem natural. Ele integra-se via frontend, aprende com o uso real e permite testar alterações antes do lançamento.
-
-Publicado em 19/11/2026
-
-Também em: https://www.producthunt.com/products/teaflask?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/P7M5XVDZPLYNNQ?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Gemini 4 Neon</title>
-      <link>https://www.producthunt.com/r/VNQ2C436QNLPO3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Gemini 4 Neon aprimora os fluxos de trabalho de codificação, pesquisa e agentes inteligentes com recursos de inferência avançados. Baseado no Gemini 4 Carbon, ele suporta entrada multimodal e uma janela de contexto de até 1 milhão de tokens.
-
-Publicado em 19/11/2026
-
-Também em: https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/VNQ2C436QNLPO3?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Mesh API</title>
-      <link>https://www.producthunt.com/r/UXMJJTC7X6QE6N?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Mesh API é um gateway de IA que reduz os custos de IA em 2 a 4 vezes, suportando mais de 1000 modelos. Ele oferece roteamento automático para modelos econômicos e de qualidade, descontos diretos e failover automático para garantir a continuidade do serviço.
-
-Publicado em 19/11/2026
-
-Também em: https://www.producthunt.com/products/mesh-api?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/UXMJJTC7X6QE6N?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Wispr Flow Notetaker para iPhone</title>
-      <link>https://www.producthunt.com/r/HTWKRZXSXSNV54?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Wispr Flow Notetaker agora está disponível para iPhone, permitindo gravar reuniões presenciais e online gratuitamente. Todas as notas são sincronizadas entre dispositivos, garantindo acesso contínuo e sem perda de conteúdo.
-
-Publicado em 19/11/2026
-
-Também em: https://www.producthunt.com/products/wisprflow?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/HTWKRZXSXSNV54?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Enrichable por Context.dev</title>
-      <link>https://www.producthunt.com/r/3LIRC5KMTJRIG5?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Enrichable é uma ferramenta de planilha inteligente, gratuita e de código aberto, que enriquece dados. Ela gera listas de leads, extrai informações da web em tempo real e encontra e-mails de trabalho automaticamente.
-
-Publicado em 19/11/2026
-
-Também em: https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/3LIRC5KMTJRIG5?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Cleared</title>
-      <link>https://www.producthunt.com/r/QI6NDILPISPNA5?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Cleared oferece um plano personalizado para parar de usar vapes, bolsas de tabaco e cigarros, baseado no uso atual do usuário. Ele inclui check-ins diários, um treinador dedicado, registro fácil e um recurso de "ajuda para o desejo".
-
-Publicado em 19/11/2026
-
-Também em: https://www.producthunt.com/products/cleared-quit-nicotine?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/QI6NDILPISPNA5?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Impractical</title>
-      <link>https://www.producthunt.com/r/P52M6QUEUFMMAC?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</link>
-      <description>Impractical permite criar vídeos de lançamento de produtos, apresentações de recursos e vídeos explicativos usando modelos e assistência de IA. A ferramenta ajuda empreendedores e profissionais de marketing a produzir conteúdo de vídeo rapidamente.
-
-Publicado em 19/11/2026
-
-Também em: https://www.producthunt.com/products/impractical?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</description>
-      <category>ProductHunt</category>
-      <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.producthunt.com/r/P52M6QUEUFMMAC?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+My_PH_APP+%28ID%3A+138680%29</guid>
-    </item>
-    <item>
-      <title>Ações da Anthropic caem enquanto a venda de ações de IA e tecnologia continua - The New York Times</title>
-      <link>https://www.nytimes.com/2026/11/20/business/anthropic-ai-stocks-sp500.html</link>
-      <description>Publicado em 20/11/2026</description>
-      <category>GoogleNews</category>
-      <pubDate>Fri, 20 Nov 2026 21:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.nytimes.com/2026/11/20/business/anthropic-ai-stocks-sp500.html</guid>
-    </item>
-    <item>
-      <title>Queda da tecnologia se aprofunda com a queda das ações da Anthropic - WSJ</title>
-      <link>https://www.wsj.com/finance/stocks/nasdaq-set-for-fresh-decline-as-ai-selloff-intensifies-e974bbb5</link>
-      <description>Publicado em 20/11/2026</description>
-      <category>GoogleNews</category>
-      <pubDate>Fri, 20 Nov 2026 21:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.wsj.com/finance/stocks/nasdaq-set-for-fresh-decline-as-ai-selloff-intensifies-e974bbb5</guid>
-    </item>
-    <item>
-      <title>O tropeço pós-estreia da Anthropic traz um choque de realidade para o comércio de IA - Reuters</title>
-      <link>https://www.reuters.com/business/anthropics-post-debut-stumble-delivers-reality-check-ai-trade-2026-11-20/</link>
-      <description>Publicado em 20/11/2026</description>
-      <category>GoogleNews</category>
-      <pubDate>Fri, 20 Nov 2026 21:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.reuters.com/business/anthropics-post-debut-stumble-delivers-reality-check-ai-trade-2026-11-20/</guid>
-    </item>
-    <item>
-      <title>A subsidiária da SpaceX, Cursor, informa aos legisladores que está considerando eliminar gradualmente os modelos chineses de IA - CNBC</title>
-      <link>https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html</link>
-      <description>Publicado em 20/11/2026</description>
-      <category>GoogleNews</category>
-      <pubDate>Fri, 20 Nov 2026 21:56:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html</guid>
+O matemático da Anthropic, Levent Alpöge, afirma ter provado a hipótese de Riemann com Claude; se verificada, seria um resultado do Prêmio Millennium.</description>
+      <category>RSS</category>
+      <pubDate>Sat, 21 Nov 2026 17:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem</guid>
     </item>
   </channel>
 </rss>
