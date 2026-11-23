@@ -1,8 +1,71 @@
 {
   "category": "Twitter",
-  "updated_at": "2026-11-22 17:54 UTC",
+  "updated_at": "2026-11-23 00:12 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "OpenAI publica curva de perplexidade de pré-treinamento e propõe limites de desenvolvimento baseados em perplexidade",
+      "links": [
+        "https://x.com/merettm/status/2124549218995949967",
+        "https://x.com/sama/status/2124551594691932405",
+        "https://x.com/sama/status/2124558713646428663",
+        "https://x.com/AndrewCurran_/status/2124555086039015911",
+        "https://x.com/swyx/status/2124583459356373052",
+        "https://x.com/sama/status/2124551883130114403"
+      ],
+      "summary": "OpenAI publicou sua curva de perplexidade de pré-treinamento e propôs que laboratórios de fronteira estabeleçam limites conjuntos baseados nessa métrica. O objetivo é manter o desenvolvimento abaixo de um certo patamar até que a capacidade de monitorar o comportamento da IA atinja um marco concreto.",
+      "authors": [
+        "Jakub Pachocki",
+        "Sam Altman",
+        "Andrew Curran",
+        "swyx"
+      ],
+      "date": "2026-11-22"
+    },
+    {
+      "title": "Versão 'herética' e obliterada do Inkling-2-Mini da Thinking Machines é lançada no Hugging Face",
+      "links": [
+        "https://x.com/elliotarledge/status/2124568066688434669"
+      ],
+      "summary": "Uma versão 'herética' e obliterada do Inkling-2-Mini da Thinking Machines, com licença Apache-2.0, foi disponibilizada no Hugging Face. O autor relata que a conformidade prejudicial no HarmBench aumentou de 4,33% para 73,33%, enquanto o GSM8K caiu 0,61 pontos percentuais.",
+      "authors": [
+        "elliotarledge"
+      ],
+      "date": "2026-11-22"
+    },
+    {
+      "title": "Inkling-2-Mini alcança aceleração de 10,04 vezes no KernelBench-Mega em RTX PRO 6000",
+      "links": [
+        "https://x.com/elliotarledge/status/2124568616964333644"
+      ],
+      "summary": "O mesmo testador relata que o Inkling-2-Mini alcançou uma aceleração de 10,04 vezes no KernelBench-Mega em uma RTX PRO 6000. Este resultado o coloca à frente do Grok 4.7 (6,34x) e do Claude Sonnet 5 (3,92x) na mesma GPU.",
+      "authors": [
+        "elliotarledge"
+      ],
+      "date": "2026-11-22"
+    },
+    {
+      "title": "Primeira portabilidade do Inkling Mini para Tenstorrent atinge 100 tokens/s",
+      "links": [
+        "https://x.com/LottoLabs/status/2124556361954640379"
+      ],
+      "summary": "Uma primeira portabilidade do Inkling Mini para Tenstorrent, incluindo quantização e tempo de execução, foi relatada. O modelo atinge uma média de cerca de 100 tokens por segundo em prompts mistos.",
+      "authors": [
+        "LottoLabs"
+      ],
+      "date": "2026-11-22"
+    },
+    {
+      "title": "Gemini 4 Neon lidera LiveBench 2.0, superando Claude Fable 5.2 e GPT-6.2 Astra",
+      "links": [
+        "https://x.com/AI_Screening/status/2124370923705024753"
+      ],
+      "summary": "Demis Hassabis amplificou uma captura de tela que mostra o Gemini 4 Neon em primeiro lugar geral no LiveBench 2.0, com pontuação de 87,4. Ele superou o Claude Fable 5.2 e o GPT-6.2 Astra, ambos com 84,9 pontos.",
+      "authors": [
+        "Demis Hassabis"
+      ],
+      "date": "2026-11-22"
+    },
     {
       "title": "GPT-6 Astra escreve prova de seis páginas do limite de Deligne/Weil a partir de nota de rodapé de Alpöge; nenhum humano a verificou",
       "links": [
