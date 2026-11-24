@@ -1,8 +1,386 @@
 {
   "category": "Papers",
-  "updated_at": "2026-11-23 22:06 UTC",
+  "updated_at": "2026-11-24 20:42 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Motion Mamba 2.0: Mamba de Difusão Autorregressiva para Controle Humanoide de Longo Horizonte",
+      "links": [
+        "https://huggingface.co/papers/2611.29897",
+        "https://arxiv.org/abs/2611.29897"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Embo-Harness: Rumo à Compreensão do Harness de Modelo de Fronteira como Política",
+      "links": [
+        "https://huggingface.co/papers/2611.31201",
+        "https://arxiv.org/abs/2611.31201"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "WorldLeague: Avaliando a Agência Física",
+      "links": [
+        "https://huggingface.co/papers/2611.30989",
+        "https://arxiv.org/abs/2611.30989"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "3AGameFactory-Motion: Rigging Agêntico e Geração Confiável de Movimento Complexo para Diversos Ativos 3D",
+      "links": [
+        "https://huggingface.co/papers/2611.30013",
+        "https://arxiv.org/abs/2611.30013"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "WeMM-Ecom: Avançando a Compreensão de Conteúdo Multimodal para E-Commerce do WeChat",
+      "links": [
+        "https://huggingface.co/papers/2611.30662",
+        "https://arxiv.org/abs/2611.30662"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Deixe o Corretor Decidir: Treinando um Localizador de Código a partir da Probabilidade do Corretor",
+      "links": [
+        "https://huggingface.co/papers/2611.12164",
+        "https://arxiv.org/abs/2611.12164"
+      ],
+      "published_at": "2026-11-09",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Um Vislimbre do Treinamento de VLMs como Modelos Fundamentais para Manipulação Robótica",
+      "links": [
+        "https://huggingface.co/papers/2611.29338",
+        "https://arxiv.org/abs/2611.29338"
+      ],
+      "published_at": "2026-11-22",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "ViDecide: Ensinando Modelos de Difusão de Vídeo a Raciocinar e Planejar Passo a Passo",
+      "links": [
+        "https://huggingface.co/papers/2611.26389",
+        "https://arxiv.org/abs/2611.26389"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "AutoPILOT: Um Harness de Agente Visual para Jogabilidade em Tempo Real",
+      "links": [
+        "https://huggingface.co/papers/2611.28202",
+        "https://arxiv.org/abs/2611.28202"
+      ],
+      "published_at": "2026-11-20",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Plan4D: Mundos 4D Planejáveis Generativos",
+      "links": [
+        "https://huggingface.co/papers/2611.26516",
+        "https://arxiv.org/abs/2611.26516"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Modelos de Mundo como Modelos Nativos de Ação Latente",
+      "links": [
+        "https://huggingface.co/papers/2611.30898",
+        "https://arxiv.org/abs/2611.30898"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Destilação Componível de Soft-Prompt de Especialistas de RL: Rumo ao Pós-Treinamento Contínuo",
+      "links": [
+        "https://huggingface.co/papers/2611.27376",
+        "https://arxiv.org/abs/2611.27376"
+      ],
+      "published_at": "2026-11-20",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "RUIBench: O Que Torna uma Boa Interface de Uso de Robôs?",
+      "links": [
+        "https://huggingface.co/papers/2611.31115",
+        "https://arxiv.org/abs/2611.31115"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "ViDiHand2: Unificando Priores de Difusão de Vídeo e Geometria da Mão para Reconstrução de Movimento 3D da Mão em Ambientes Reais",
+      "links": [
+        "https://huggingface.co/papers/2611.30597",
+        "https://arxiv.org/abs/2611.30597"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Destilando Agentes Visuais a partir de Experiência de Interação Limitada",
+      "links": [
+        "https://huggingface.co/papers/2611.28618",
+        "https://arxiv.org/abs/2611.28618"
+      ],
+      "published_at": "2026-11-21",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "DiLE: Aprendizagem de Espaço Latente Sensível à Discriminação para Embeddings Multimodais Universais",
+      "links": [
+        "https://huggingface.co/papers/2611.25419",
+        "https://arxiv.org/abs/2611.25419"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Open Vision Banana: Um Framework Aberto para Percepção Visual Unificada através da Geração no Espaço RGB",
+      "links": [
+        "https://huggingface.co/papers/2611.28489",
+        "https://arxiv.org/abs/2611.28489"
+      ],
+      "published_at": "2026-11-21",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Polytropos: O Que as Descrições de Modelos Visão-Linguagem Fazem de um Objeto Cultural?",
+      "links": [
+        "https://huggingface.co/papers/2611.29355",
+        "https://arxiv.org/abs/2611.29355"
+      ],
+      "published_at": "2026-11-22",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "UUBench: Compreendendo o Não Dito para Interação Multimodal Full-Duplex",
+      "links": [
+        "https://huggingface.co/papers/2611.30157",
+        "https://arxiv.org/abs/2611.30157"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "DexDuet: Aprendendo Destreza Bimanual com Preservação de Contato a partir de Demonstrações Humanas",
+      "links": [
+        "https://huggingface.co/papers/2611.30495",
+        "https://arxiv.org/abs/2611.30495"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "GameAnything: De Qualquer Inspiração a Mundos de Jogo Jogáveis",
+      "links": [
+        "https://huggingface.co/papers/2611.29238",
+        "https://arxiv.org/abs/2611.29238"
+      ],
+      "published_at": "2026-11-22",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "WeightCode: Instalando Novas Capacidades em Redes Neurais via Programação no Espaço de Pesos",
+      "links": [
+        "https://huggingface.co/papers/2611.25476",
+        "https://arxiv.org/abs/2611.25476"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "O Que Torna Bons Dados para Treinar Agentes de Codificação? Um Estudo Sistemático no SWE-Gym",
+      "links": [
+        "https://huggingface.co/papers/2611.30207",
+        "https://arxiv.org/abs/2611.30207"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Self-WSP: Modelos de Linguagem Podem Melhorar a Si Mesmos Através da Programação no Espaço de Pesos?",
+      "links": [
+        "https://huggingface.co/papers/2611.28833",
+        "https://arxiv.org/abs/2611.28833"
+      ],
+      "published_at": "2026-11-21",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Relatório Técnico do Modelo Beam",
+      "links": [
+        "https://huggingface.co/papers/2611.26358",
+        "https://arxiv.org/abs/2611.26358"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "HIVE-Bench: Avaliando Representações Visuais em Nível de Patch para Manipulação Robótica Egocêntrica",
+      "links": [
+        "https://huggingface.co/papers/2611.30813",
+        "https://arxiv.org/abs/2611.30813"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "O Raciocínio Latente Pode Impulsionar as Saídas de LLMs Sem Deixar Rastros?",
+      "links": [
+        "https://huggingface.co/papers/2611.31015",
+        "https://arxiv.org/abs/2611.31015"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "SynthDCB: Destilação de Mundo para Benchmarking Escalável de Controle de Dispositivos",
+      "links": [
+        "https://huggingface.co/papers/2611.18639",
+        "https://arxiv.org/abs/2611.18639"
+      ],
+      "published_at": "2026-10-14",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Um Sistema Paralelo de Pipeline para Modelos Recorrentes em Profundidade",
+      "links": [
+        "https://huggingface.co/papers/2611.30581",
+        "https://arxiv.org/abs/2611.30581"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "GameDojo: Avaliando Agentes Interativos em Tempo Real em Videogames",
+      "links": [
+        "https://huggingface.co/papers/2611.30771",
+        "https://arxiv.org/abs/2611.30771"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Embodied-Harness: Rumo à Auto-Melhoria Recursiva para Manipulação Robótica",
+      "links": [
+        "https://huggingface.co/papers/2611.27689",
+        "https://arxiv.org/abs/2611.27689"
+      ],
+      "published_at": "2026-11-20",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Desbloqueando o Poder dos Loops em LLMs Pré-treinados com Resíduos de Loop",
+      "links": [
+        "https://huggingface.co/papers/2611.31094",
+        "https://arxiv.org/abs/2611.31094"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "ToolSmith: Um Framework de Geração Automática de Ferramentas para Agentes de Busca Multimodais",
+      "links": [
+        "https://huggingface.co/papers/2611.31198",
+        "https://arxiv.org/abs/2611.31198"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "MomentMem: Memorizando Momentos Chave para Manipulação Robótica",
+      "links": [
+        "https://huggingface.co/papers/2611.26745",
+        "https://arxiv.org/abs/2611.26745"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Destile a Correção, Não a Reescríta: Gêmeos Retrospectivos para Modelos de Texto para Imagem Auto-Aprimoráveis",
+      "links": [
+        "https://huggingface.co/papers/2611.31048",
+        "https://arxiv.org/abs/2611.31048"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "WorldLatent: Um Espaço Latente 4D Unificado para Percepção e Geração de Mundo",
+      "links": [
+        "https://huggingface.co/papers/2611.31209",
+        "https://arxiv.org/abs/2611.31209"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Difusão Latente de Transformador Único",
+      "links": [
+        "https://huggingface.co/papers/2611.29064",
+        "https://arxiv.org/abs/2611.29064"
+      ],
+      "published_at": "2026-11-21",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "LLMs Memorizam Suas Próprias Alucinações Durante o Pós-Treinamento",
+      "links": [
+        "https://huggingface.co/papers/2611.26863",
+        "https://arxiv.org/abs/2611.26863"
+      ],
+      "published_at": "2026-11-19",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Wactorz: Agentes LLM Autoescritos Que Descobrem, Reparam e Migram na Borda",
+      "links": [
+        "https://huggingface.co/papers/2611.29619",
+        "https://arxiv.org/abs/2611.29619"
+      ],
+      "published_at": "2026-11-22",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Atalho de Feedback: Decodificação Especulativa para Transformadores de Feedback Latente",
+      "links": [
+        "https://huggingface.co/papers/2611.28227",
+        "https://arxiv.org/abs/2611.28227"
+      ],
+      "published_at": "2026-11-20",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "Escrever, Evoluir, Ler: Transmitindo Câmeras para um Estado de Mundo Persistente para Previsão de Ocupação 4D",
+      "links": [
+        "https://huggingface.co/papers/2611.30573",
+        "https://arxiv.org/abs/2611.30573"
+      ],
+      "published_at": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "title": "KernelShift: Avaliando a Otimização de Kernel em Hardware em Evolução",
+      "links": [
+        "https://huggingface.co/papers/2611.29590",
+        "https://arxiv.org/abs/2611.29590"
+      ],
+      "published_at": "2026-11-22",
+      "date": "2026-11-23"
+    },
     {
       "title": "cmHC: Equilibrando a Mistura de Fluxos em Hiperconexões via Contração Geométrica",
       "links": [
