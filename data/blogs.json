@@ -1,8 +1,171 @@
 {
   "category": "Blogs",
-  "updated_at": "2026-11-24 01:51 UTC",
+  "updated_at": "2026-11-25 02:59 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "datasette-agent 0.7a1",
+      "links": [
+        "https://simonwillison.net/2026/Nov/24/datasette-agent"
+      ],
+      "summary": "Esta versão do Datasette Agent melhora a navegação por hashes de fragmento, permitindo uma integração mais profunda com outros plugins do Datasette. As sessões de chat já podiam abrir um painel lateral de iframe que navegava para diferentes páginas.",
+      "published_at": "2026-11-24",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "GPT 6.2 Astra Resolve um Mistério Histórico",
+      "links": [
+        "https://simonwillison.net/2026/Nov/24/astra-historical-mystery"
+      ],
+      "summary": "O professor de história Mark Humphries utilizou o GPT-6.2 Astra para pesquisa histórica. A IA identificou autonomamente o criador de um caderno de esboços anônimo de 1808 da Biblioteca Beinecke de Yale.",
+      "authors": [
+        "Mark Humphries"
+      ],
+      "published_at": "2026-11-24",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "datasette-charts 0.2a0",
+      "links": [
+        "https://simonwillison.net/2026/Nov/24/datasette-charts"
+      ],
+      "summary": "O novo plugin de gráficos para Datasette, datasette-charts 0.2a0, agora possui integração com o Datasette Agent. Usuários podem solicitar um gráfico via chat, e a ferramenta o criará usando as mesmas ferramentas de sugestão e geração.",
+      "published_at": "2026-11-24",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "[AINews] Jensen Está de Volta! e OpenAI Mostra Sua Curva de Pré-treinamento, com a Participação da Microsoft",
+      "links": [
+        "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft"
+      ],
+      "summary": "A Nvidia reintegra seu fundador, e a OpenAI publica sua curva de perda interna. A empresa também propõe um limite de treinamento compartilhado.",
+      "published_at": "2026-11-24",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Um matemático da Anthropic acaba de resolver o problema mais famoso da matemática",
+      "links": [
+        "https://www.understandingai.org/p/an-anthropic-mathematician-just-solved"
+      ],
+      "summary": "Um matemático da Anthropic resolveu o problema mais famoso da matemática, a Hipótese de Riemann. A questão é se isso serve como um alerta para IAs perigosamente avançadas.",
+      "published_at": "2026-11-24",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "A Regra de Acesso Remoto Garante Seis Meses de Vantagem Computacional",
+      "links": [
+        "https://www.chinatalk.media/p/the-remote-access-rule-will-slow"
+      ],
+      "summary": "A regra de acesso remoto pode proporcionar seis meses de vantagem em capacidade de computação. Isso ocorrerá se Lutnick a aplicar.",
+      "published_at": "2026-11-24",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Apresentando Quest: a IA que melhor te conhece",
+      "links": [
+        "https://press.airstreet.com/p/introducing-quest-the-ai-that-knows"
+      ],
+      "summary": "Apresentamos Quest, uma IA que promete conhecer o usuário melhor. A Air Street Press liderou o investimento inicial, acreditando que um agente confiável para metas pessoais pode superar outros agentes.",
+      "published_at": "2026-11-24",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Jensen Retorna",
+      "links": [
+        "https://www.chinatalk.media/p/jensen-returns"
+      ],
+      "summary": "Jensen está de volta, com Chris McGuire e Peter Harrell. O retorno de Jensen é um tópico de discussão.",
+      "authors": [
+        "Chris McGuire",
+        "Peter Harrell"
+      ],
+      "published_at": "2026-11-24",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Inngest vs. LangChain: Construí o Mesmo Agente de Longa Duração Duas Vezes",
+      "links": [
+        "https://www.decodingai.com/p/inngest-vs-langchain-durable-agent-stack"
+      ],
+      "summary": "Um agente de longa duração foi construído duas vezes, usando Inngest e LangChain. Ambos os stacks foram avaliados em seis dimensões para determinar o vencedor.",
+      "published_at": "2026-11-24",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Engenharia na Velocidade da Máquina",
+      "links": [
+        "https://tomtunguz.com/engineering-at-machine-speed-office-hours"
+      ],
+      "summary": "Dan Shiebler, cofundador e CTO da Artemis Security, discute engenharia em velocidade de máquina. Ele explica como a Artemis mesclou mais de 31.000 pull requests em um trimestre e entrega a maioria das solicitações de recursos em menos de um dia.",
+      "authors": [
+        "Dan Shiebler"
+      ],
+      "published_at": "2026-11-24",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Respondendo a objeções ao autoaprimoramento recursivo",
+      "links": [
+        "https://www.dwarkesh.com/p/rsiobjections"
+      ],
+      "summary": "Este artigo responde às objeções ao autoaprimoramento recursivo. Ele aborda os pontos válidos levantados pelos céticos sobre a superinteligência.",
+      "published_at": "2026-11-24",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "EXCLUSIVO: Plataforma de Busca de IA Exa em Negociações para Levantar Novos Fundos com Avaliação de Cerca de US$ 7 Bilhões",
+      "links": [
+        "https://www.newcomer.co/p/scoop-ai-search-platform-exa-in-talks"
+      ],
+      "summary": "A plataforma de busca de IA Exa está em negociações para levantar novos fundos, com uma avaliação de cerca de US$ 7 bilhões. A Menlo Ventures deve liderar a rodada da Série D.",
+      "published_at": "2026-11-24",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "The Sequence Knowledge - Edição #978: Aprendendo RSI: Agentes de IA que Melhoram Seu Próprio Processo de Melhoria",
+      "links": [
+        "https://thesequence.substack.com/p/the-sequence-knowledge-issue-978"
+      ],
+      "summary": "Este artigo aborda agentes de IA que aprimoram seu próprio processo de melhoria, conhecido como RSI. A aprendizagem recursiva evolui de corrigir erros para redesenhar os mecanismos de correção.",
+      "published_at": "2026-11-24",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Acho que agentes de IA precisam de uma nova camada de dados",
+      "links": [
+        "https://gradientflow.substack.com/p/your-ai-agents-can-connect-to-data"
+      ],
+      "summary": "Agentes de IA necessitam de uma nova camada de dados para integrar dados, aprendizado de máquina e IA de forma eficaz. Isso permite que os agentes de IA se conectem a dados.",
+      "published_at": "2026-11-24",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Por que Taiwan ativa rapidamente o fundo de estabilização de ações e paga renda de IA",
+      "links": [
+        "https://blog.naver.com/ranto28/224490020232?fromRss=true&trackingCode=rss"
+      ],
+      "summary": "As seções 1 a 47 explicam a história de Taiwan para auxiliar na compreensão. Este contexto histórico precede a discussão sobre a ativação do fundo de estabilização de ações e o pagamento de renda de IA.",
+      "published_at": "2026-11-24",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Jensen Huang: Um Ativo Chave para a IA dos EUA",
+      "links": [
+        "https://aidisruption.ai/p/jensen-huang-a-key-asset-for-us-ai"
+      ],
+      "summary": "O retorno de Jensen Huang adicionou US$ 954 bilhões à Nvidia. O artigo questiona se um único CEO pode ser um ativo chave para a indústria de IA dos EUA.",
+      "published_at": "2026-11-24",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Mesmo Código Claude, Metade dos Recursos?",
+      "links": [
+        "https://aidisruption.ai/p/same-claude-code-half-the-features"
+      ],
+      "summary": "As funcionalidades do Claude Code diferem conforme o método de login. É recomendado verificar o status e comparar as opções de assinatura, chave de API e Bedrock. Isso ajuda a entender a ausência de recursos.",
+      "published_at": "2026-11-24",
+      "date": "2026-11-24"
+    },
     {
       "title": "Primeira versão alfa do Ladybird",
       "links": [

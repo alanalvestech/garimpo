@@ -1,8 +1,607 @@
 {
   "category": "GitHubTrending",
-  "updated_at": "2026-11-24 01:51 UTC",
+  "updated_at": "2026-11-25 02:59 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "xcl",
+      "links": [
+        "https://github.com/xcl-dev/xcl"
+      ],
+      "stars": 7899,
+      "language": "Rust",
+      "license": "GPL-2.0",
+      "summary": "Camada de compatibilidade Xbox Series para Windows: executa código de jogo de console nativamente, reimplementa as bibliotecas de sistema do console e recompila shaders RDNA2 para DXIL.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "chat-demo",
+      "links": [
+        "https://github.com/deepseek-ai/chat-demo"
+      ],
+      "stars": 5405,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "Demonstração de Chat",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "terraform-skill",
+      "links": [
+        "https://github.com/antonbabenko/terraform-skill"
+      ],
+      "stars": 2489,
+      "summary": "Habilidade Terraform & OpenTofu para Agentes de IA: testes, módulos, CI/CD e padrões de produção",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "victory-fork",
+      "links": [
+        "https://github.com/fxceless/victory-fork"
+      ],
+      "stars": 2103,
+      "language": "Rust",
+      "license": "GPL-3.0",
+      "summary": "Fork em andamento de VIctory: fazendo um título de Xbox Series renderizar e rodar em um PC Windows. Sem arquivos de jogo.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "leonida",
+      "links": [
+        "https://github.com/ubiquitarianism/leonida"
+      ],
+      "stars": 1936,
+      "language": "Python",
+      "license": "GPL-3.0",
+      "summary": "Uma continuação de Leonida, a interface de portabilidade Xbox > PC para GTA VI",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "nospeaker",
+      "links": [
+        "https://github.com/os6/nospeaker"
+      ],
+      "stars": 1767,
+      "language": "Swift",
+      "license": "MIT",
+      "summary": "faça o trackpad do seu macbook falar usando seu motor háptico",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "splat-transform",
+      "links": [
+        "https://github.com/playcanvas/splat-transform"
+      ],
+      "stars": 1453,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "Ferramenta CLI e biblioteca para processamento e conversão de splat gaussiano 3D",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Stream-Tube-Desktop",
+      "links": [
+        "https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop"
+      ],
+      "stars": 890,
+      "language": "Rust",
+      "license": "MIT",
+      "summary": "Cliente nativo do YouTube para Windows em Rust, com SponsorBlock, DeArrow e Return YouTube Dislike integrados.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "kapitsa",
+      "links": [
+        "https://github.com/nace-ai/kapitsa"
+      ],
+      "stars": 886,
+      "language": "C++",
+      "license": "Apache-2.0",
+      "summary": "Mecanismo de inferência super rápido para Apple Silicon otimizado para Qwen & Nemotron. Compatível com API OpenAI + Anthropic. Construído por pessoas da nace.ai",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "deslop-please",
+      "links": [
+        "https://github.com/deterministic-machines/deslop-please"
+      ],
+      "stars": 796,
+      "language": "Rust",
+      "license": "MIT",
+      "summary": "Traga (de volta) sanidade ao seu código",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "offline-file-converter-windows",
+      "links": [
+        "https://github.com/zero5122/offline-file-converter-windows"
+      ],
+      "stars": 705,
+      "language": "Python",
+      "license": "MIT",
+      "summary": "Conversor de arquivos offline gratuito para Windows: converta PDF, documentos, imagens, áudio e vídeo de forma privada.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "stardew-valley-mod-manager",
+      "links": [
+        "https://github.com/rowanbyte3329/stardew-valley-mod-manager"
+      ],
+      "stars": 704,
+      "language": "C#",
+      "license": "MIT",
+      "summary": "Gerenciador de mods gratuito e de código aberto para Stardew Valley para Windows com suporte a SMAPI, atualizações de mods e perfis de mods personalizados.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "clipboard-history-manager-windows",
+      "links": [
+        "https://github.com/Umbra9179/clipboard-history-manager-windows"
+      ],
+      "stars": 691,
+      "language": "C#",
+      "license": "MIT",
+      "summary": "Gerenciador de área de transferência gratuito e de código aberto para Windows com histórico pesquisável, pré-visualizações de imagens, tags, edição e backup.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "steam-achievement-manager-windows",
+      "links": [
+        "https://github.com/solv4626/steam-achievement-manager-windows"
+      ],
+      "stars": 688,
+      "language": "Rust",
+      "license": "MIT",
+      "summary": "Gerenciador de Conquistas Steam gratuito e de código aberto para Windows para gerenciar conquistas de jogos e editar estatísticas de jogos Steam.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "steam-library-manager-windows",
+      "links": [
+        "https://github.com/olive527/steam-library-manager-windows"
+      ],
+      "stars": 686,
+      "language": "C#",
+      "license": "MIT",
+      "summary": "Gerenciador de biblioteca de jogos e ferramenta de backup gratuita para Windows para Steam, Origin e Ubisoft Connect com suporte a múltiplas bibliotecas.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "ffmpeg-video-audio-converter",
+      "links": [
+        "https://github.com/kai415-debug/ffmpeg-video-audio-converter"
+      ],
+      "stars": 685,
+      "language": "C++",
+      "license": "MIT",
+      "summary": "GUI FFmpeg gratuita para Windows para conversão de vídeo e áudio, transcodificação em lote e codificação de formato multimídia.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "clips-studio",
+      "links": [
+        "https://github.com/ColinGPT9/clips-studio"
+      ],
+      "stars": 660,
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "summary": "Clips Kitty: Cortador de vídeo de IA gratuito e de código aberto. Alternativa local ao Opus Clip (também Klap & Vizard) que transforma streams do Twitch, Kick e YouTube (GTA 6 também) em Shorts, Reels e TikToks com legendas automáticas, e pode publicá-los automaticamente 24/7 de um mini PC. IA local (Ollama, Whisper): sem taxas de uso ou assinatura. Ou OpenRouter: um VOD de 2 horas me custou 11 centavos.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "rusttype",
+      "links": [
+        "https://github.com/redox-os/rusttype"
+      ],
+      "stars": 639,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "summary": "Espelho de https://gitlab.redox-os.org/redox-os/rusttype",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "modulestf",
+      "links": [
+        "https://github.com/modulestf/modulestf"
+      ],
+      "stars": 377,
+      "language": "Shell",
+      "license": "Apache-2.0",
+      "summary": "Habilidades de agente para Claude Code e Codex que revisam, alteram e criam módulos Terraform reutilizáveis pelas regras de terraform-aws-modules.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "harfrust",
+      "links": [
+        "https://github.com/harfbuzz/harfrust"
+      ],
+      "stars": 332,
+      "language": "Rust",
+      "license": "MIT",
+      "summary": "Port do HarfBuzz para Rust",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "MySpotify",
+      "links": [
+        "https://github.com/margbug01/MySpotify"
+      ],
+      "stars": 252,
+      "language": "Go",
+      "license": "AGPL-3.0",
+      "summary": "Cliente de desktop Spotify não oficial para Windows/macOS: UI Go nativa, letras sincronizadas, vídeos de música. Leia os riscos da conta antes de usar.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "go-rest-template",
+      "links": [
+        "https://github.com/antoniopaya22/go-rest-template"
+      ],
+      "stars": 176,
+      "language": "Go",
+      "license": "MIT",
+      "summary": "Modelo de API REST em Go que você pode adaptar ao que precisa: contrato OpenAPI 3.1, autenticação JWT com rotação de refresh, PostgreSQL/SQLite, observabilidade e uma ferramenta de inicialização que remove o que você não usa.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "NexQ",
+      "links": [
+        "https://github.com/naxhq/NexQ"
+      ],
+      "stars": 153,
+      "language": "Rust",
+      "license": "MIT",
+      "summary": "Assistente de reunião de IA de código aberto para Windows e macOS (beta). Transcreve ambos os lados de uma chamada ao vivo e responde a partir de suas próprias notas, com modelos locais ou a IA que você já usa. https://getnexq.com",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "web-game-samples",
+      "links": [
+        "https://github.com/google/web-game-samples"
+      ],
+      "stars": 133,
+      "language": "JavaScript",
+      "license": "Apache-2.0",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Img2Num",
+      "links": [
+        "https://github.com/Ryan-Millard/Img2Num"
+      ],
+      "stars": 126,
+      "language": "C++",
+      "license": "MIT",
+      "summary": "Biblioteca multiplataforma para converter imagens raster naturais em SVGs limpos: rápida, precisa e configurável.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "open-contexts",
+      "links": [
+        "https://github.com/zshnb/open-contexts"
+      ],
+      "stars": 72,
+      "language": "Swift",
+      "license": "Apache-2.0",
+      "summary": "Alternador de janelas e barra de aplicativos gratuito e de código aberto para macOS. Alterne janelas individuais com ⌘Tab, agrupe janelas e mantenha-as a um clique de distância.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "shak",
+      "links": [
+        "https://github.com/yashx/shak"
+      ],
+      "stars": 64,
+      "language": "Go",
+      "license": "MIT",
+      "summary": "Uma biblioteca de validação Go com segurança de tipo construída sobre genéricos e funções de ordem superior. Usa construções Go simples: sem reflexão, sem struct tags, então as regras de validação são apenas funções que se compõem naturalmente com o resto do seu código.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "create-playcanvas",
+      "links": [
+        "https://github.com/playcanvas/create-playcanvas"
+      ],
+      "stars": 63,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "Estruture rapidamente um projeto PlayCanvas",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "platform",
+      "links": [
+        "https://github.com/KafScale/platform"
+      ],
+      "stars": 59,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "summary": "Streaming compatível com Kafka que mantém seus dados no S3. Brokers sem estado, clientes Kafka padrão, Apache 2.0.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "openreceive",
+      "links": [
+        "https://github.com/OpenReceive/openreceive"
+      ],
+      "stars": 32,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "Aceite pagamentos em Bitcoin e stablecoin em seu aplicativo: Node, Django, Flask, FastAPI, PHP, Laravel, Rails, WooCommerce e mais. Auto-hospedado, código aberto, somente recebimento.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "forestui",
+      "links": [
+        "https://github.com/flipbit03/forestui"
+      ],
+      "stars": 26,
+      "language": "Rust",
+      "license": "MIT",
+      "summary": "Gerenciador de worktree baseado em tmux para Claude",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "facts",
+      "links": [
+        "https://github.com/modulestf/facts"
+      ],
+      "stars": 21,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "summary": "Mecanismo de fatos offline para revisão e autoria de módulos Terraform",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "chroma.nvim",
+      "links": [
+        "https://github.com/Malick-Tammal/chroma.nvim"
+      ],
+      "stars": 18,
+      "language": "Lua",
+      "summary": "Mecanismo de temas Lua rápido e personalizável para Neovim com mais de 99 esquemas de cores compatíveis com base46.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "folderglass",
+      "links": [
+        "https://github.com/justadityaraj/folderglass"
+      ],
+      "stars": 17,
+      "language": "Swift",
+      "license": "MIT",
+      "summary": "Folderglass: pressione Espaço em uma pasta no Finder para ver seu tamanho real, tipos de arquivo, arquivos maiores e recentes, status do git e README. Extensão gratuita e de código aberto do Quick Look para macOS.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "AgentBar",
+      "links": [
+        "https://github.com/michalstrnadel/AgentBar"
+      ],
+      "stars": 16,
+      "language": "Swift",
+      "license": "MIT",
+      "summary": "Aprove os prompts de permissão dos seus agentes de codificação de IA na barra de menus ou em uma Dynamic Island sob o notch, e veja o que cada um está fazendo agora: Claude Code, Codex, Copilot, Cursor, Gemini e mais.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "repro-lambda",
+      "links": [
+        "https://github.com/antonbabenko/repro-lambda"
+      ],
+      "stars": 15,
+      "language": "Python",
+      "license": "MIT",
+      "summary": "Crie pacotes AWS Lambda reproduzíveis fora do Terraform, otimizado para terraform-aws-lambda por serverless.tf.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "specwithcode",
+      "links": [
+        "https://github.com/anton-abyzov/specwithcode"
+      ],
+      "stars": 15,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "Execute Claude Code, Codex, Copilot e outros agentes de codificação lado a lado em todas as suas máquinas. Quando um atinge seu limite, outro continua o fluxo. Aplicativo de desktop gratuito, MIT.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "unison-ui-mac",
+      "links": [
+        "https://github.com/bcourbage/unison-ui-mac"
+      ],
+      "stars": 10,
+      "language": "Swift",
+      "license": "GPL-3.0",
+      "summary": "GUI nativa do macOS para o Unison File Synchronizer (Swift + AppKit, GPLv3)",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "curlgo",
+      "links": [
+        "https://github.com/echoVic/curlgo"
+      ],
+      "stars": 10,
+      "language": "Go",
+      "license": "MIT",
+      "summary": "Cliente API offline leve, UI nativa, suporta importação e exportação HTTP, SSE, WebSocket e curl.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "rebind",
+      "links": [
+        "https://github.com/Blinks44/rebind"
+      ],
+      "stars": 9,
+      "language": "Swift",
+      "license": "MIT",
+      "summary": "Remapeador de entrada nativo do macOS para teclados, mouses multi-botão e Logitech HID++, rolagem suave, Trackpad e Magic Mouse",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "DockAMP",
+      "links": [
+        "https://github.com/KeepCoolCH/DockAMP"
+      ],
+      "stars": 8,
+      "language": "Swift",
+      "summary": "DockAMP é uma imagem Docker com uma interface web responsiva para gerenciar contêineres oficiais Apache/Nginx, PHP, Python, Node.js, MySQL/MariaDB/PostgreSQL e proxy no Docker: também disponível como aplicativo macOS.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "clawpypaste",
+      "links": [
+        "https://github.com/krisbradley/clawpypaste"
+      ],
+      "stars": 6,
+      "language": "Swift",
+      "license": "MIT",
+      "summary": "Copie qualquer coisa do Claude Code e cole no Slack, Docs ou e-mail com a formatação correta. Aplicativo para barra de menus do macOS.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "openbymadata",
+      "links": [
+        "https://github.com/carvalab/openbymadata"
+      ],
+      "stars": 4,
+      "language": "Go",
+      "license": "MIT",
+      "summary": "Cliente Go para BYMA Open Data: ações argentinas, CEDEARs, títulos, índices, cotações e OHLCV histórico. API gratuita, sem chave.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "terraform-provider-aws",
+      "links": [
+        "https://github.com/compliancetf/terraform-provider-aws"
+      ],
+      "stars": 4,
+      "language": "Go",
+      "summary": "Provedor AWS para Terraform e OpenTofu com controles de conformidade integrados. Executa hashicorp/aws sem modificações e verifica recursos aws_* antes de aplicar. Por compliance.tf.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "ctfkit",
+      "links": [
+        "https://github.com/compliancetf/ctfkit"
+      ],
+      "stars": 4,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "summary": "ctfkit por compliance.tf: execute as mesmas verificações de Terraform e OpenTofu em seus pipelines",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Verticar",
+      "links": [
+        "https://github.com/sarogreco/Verticar"
+      ],
+      "stars": 4,
+      "language": "Swift",
+      "license": "MIT",
+      "summary": "Use seu iPad como um monitor vertical (retrato) no seu Mac via Sidecar. Pequeno aplicativo de código aberto para barra de menus.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "ultrafast",
+      "links": [
+        "https://github.com/ultrafastmov/ultrafast"
+      ],
+      "stars": 3,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "summary": "Renderizado na GPU. Shaders, 3D, tipo de movimento e ótica de câmera, escritos pelo seu agente e renderizados na GPU. Código aberto.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "ctfkit-action",
+      "links": [
+        "https://github.com/compliancetf/ctfkit-action"
+      ],
+      "stars": 2,
+      "language": "HTML",
+      "license": "Apache-2.0",
+      "summary": "ctfkit por compliance.tf no GitHub Actions: descobertas de Terraform e OpenTofu na aba Segurança, resumo do job e comentários de pull request. Apache-2.0.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "cinenotch",
+      "links": [
+        "https://github.com/NikOneZ1/cinenotch"
+      ],
+      "stars": 2,
+      "language": "Swift",
+      "license": "GPL-3.0",
+      "summary": "Olhe para sua câmera e o vídeo Picture in Picture do Safari ou Chrome desliza para fora do notch do MacBook. Desvie o olhar e ele volta para dentro.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "out-to-sea",
+      "links": [
+        "https://github.com/cwdx/out-to-sea"
+      ],
+      "stars": 2,
+      "language": "TypeScript",
+      "license": "MIT",
+      "summary": "Um aplicativo de pausa e respiração para a barra de menus do Mac e a web: olhe para o mar, depois respire.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "tsconfig-lens.nvim",
+      "links": [
+        "https://github.com/harukikuri/tsconfig-lens.nvim"
+      ],
+      "stars": 2,
+      "language": "Lua",
+      "license": "MIT",
+      "summary": "Veja qual tsconfig se aplica ao arquivo atual (plugin nvim)",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "swimd",
+      "links": [
+        "https://github.com/Irdis/swimd"
+      ],
+      "stars": 2,
+      "language": "C",
+      "license": "MIT",
+      "summary": "Um plugin Neovim de busca difusa com algoritmo Smith Waterman em C e SIMD",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "brewpage-nvim",
+      "links": [
+        "https://github.com/kochetkov-ma/brewpage-nvim"
+      ],
+      "stars": 2,
+      "language": "Lua",
+      "license": "MIT",
+      "summary": "Publique buffers/seleções para brewpage.app do Neovim",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "go-smart-proxy",
+      "links": [
+        "https://github.com/apeironlab/go-smart-proxy"
+      ],
+      "stars": 0,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "summary": "Um proxy inteligente em Go",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Vaquero",
+      "links": [
+        "https://github.com/BitWise-0x/Vaquero"
+      ],
+      "stars": 0,
+      "language": "Python",
+      "license": "MIT",
+      "summary": "Encontre e reúna todas as fotos e vídeos, por rosto. Um aplicativo macOS privado, no dispositivo, que organiza fotos e vídeos pelas pessoas neles.",
+      "date": "2026-11-24"
+    },
     {
       "title": "xcl",
       "links": [

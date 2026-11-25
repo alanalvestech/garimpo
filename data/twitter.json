@@ -1,8 +1,188 @@
 {
   "category": "Twitter",
-  "updated_at": "2026-11-24 01:51 UTC",
+  "updated_at": "2026-11-25 02:59 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "Um modelo interno do Claude afirma uma prova de VP ≠ VNP, a versão algébrica de P vs NP, e nenhum humano a verificou",
+      "links": [
+        "https://x.com/AndrewCurran_/status/2125001971690315858",
+        "https://x.com/AndrewCurran_/status/2125022397820735489",
+        "https://x.com/RyanYanBuilds/status/2125048248989794382",
+        "https://x.com/MTSlive/status/2125046834628571250"
+      ],
+      "summary": "Anthropic adicionou uma pasta \"vp-vnp\" ao seu repositório GitHub de matemática formal. O documento de 70 páginas, com Claude como único autor, afirma limites inferiores de circuito superpolinomiais para o permanente e o polinômio do ciclo hamiltoniano em todos os campos.",
+      "authors": [
+        "Claude"
+      ],
+      "date": "2026-11-24"
+    },
+    {
+      "title": "OpenAI e Cisco lançam Shirudo de código aberto para escudos de exploração escritos por agentes, enquanto GPT-6 Cyber valida 948 bugs de root no kernel",
+      "links": [
+        "https://x.com/OpenAI/status/2124980590717911527",
+        "https://x.com/OpenAI/status/2125007927098699827",
+        "https://x.com/jpsharada/status/2125048224054685994"
+      ],
+      "summary": "Shirudo é um runtime Linux de código aberto onde agentes de IA escrevem controles eBPF dinâmicos para bloquear exploits em sistemas em execução sem tempo de inatividade. OpenAI afirmou que o GPT-6 Cyber ajudou a validar 948 bugs de root no kernel Linux em uma única execução, com patches enviados aos mantenedores.",
+      "authors": [
+        "Clint Gibler",
+        "Kyle"
+      ],
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Anthropic lança Claude Ship: Claude revisa pull requests, corrige falhas e aprova o que a política do repositório permite",
+      "links": [
+        "https://x.com/ClaudeDevs/status/2124959436640858475",
+        "https://x.com/ClaudeDevs/status/2124959438175981965",
+        "https://x.com/ClaudeDevs/status/2124959440772137337",
+        "https://x.com/Henryyyyyy81/status/2125048772510076988"
+      ],
+      "summary": "Claude Ship (beta) adiciona um comando /ship ao Claude Code, permitindo que Claude revise pull requests e corrija falhas. Em planos Team e Enterprise, administradores podem ativar a funcionalidade em todo o repositório, com uma política de aprovação definida.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "NVIDIA reintegra Jensen Huang como CEO",
+      "links": [
+        "https://x.com/AndrewCurran_/status/2124867225177989612"
+      ],
+      "summary": "O conselho da NVIDIA reintegrou Jensen Huang como CEO em 23 de novembro, 11 dias após sua renúncia forçada.",
+      "published_at": "2026-11-23",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Gemini 4 Neon agora disponível para clientes Google Workspace",
+      "links": [
+        "https://x.com/OfficialLoganK/status/2125018427790344654"
+      ],
+      "summary": "Gemini 4 Neon está agora disponível para clientes Google Workspace através do aplicativo Gemini, cinco dias após seu lançamento para consumidores.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Claude Code para desktop recebe painel lateral redesenhado",
+      "links": [
+        "https://x.com/ClaudeDevs/status/2124978802006851961"
+      ],
+      "summary": "Claude Code para desktop apresenta um painel lateral redesenhado, com Ferramentas, Alterações e Terminal abrindo como abas que podem ser divididas ou destacadas. A novidade está sendo lançada primeiro para Mac.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Micron recebe primeira ferramenta de produção para fábrica de embalagens HBM em Singapura",
+      "links": [
+        "https://x.com/jukan05/status/2125005305537024201"
+      ],
+      "summary": "A Micron recebeu a primeira ferramenta de produção, um bonder de termocompressão da Hanmi Semiconductor, para sua fábrica de embalagens HBM em Singapura. A produção inicial está prevista para o início de 2027.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Agon Dynamics levanta US$ 70 milhões em rodada Série A",
+      "links": [
+        "https://x.com/GertLhmus/status/2125218376444489873"
+      ],
+      "summary": "A Agon Dynamics, startup de simulação de IA para defesa, levantou US$ 70 milhões em uma rodada Série A, avaliada em US$ 450 milhões. Este é o primeiro investimento conjunto do Fundo Soberano de IA e do Fundo Estratégico de Segurança Nacional do Reino Unido.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Artificial Analysis lança comparações de harness em seu Coding Agent Index",
+      "links": [
+        "https://x.com/MistralAI/status/2125204253379871023"
+      ],
+      "summary": "A Artificial Analysis lançou Comparações de Harness em seu Coding Agent Index. A principal descoberta é que o melhor harness de agente varia de modelo para modelo.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Modelo médico LingSante-3.1-flash do Ant Group gera escrutínio",
+      "links": [
+        "https://x.com/respirdoc/status/2125218893996155295"
+      ],
+      "summary": "O modelo médico de peso aberto LingSante-3.1-flash do Ant Group obteve 65,72 no HealthBench Professional, superando ligeiramente GPT-6 Astra e Claude Opus 5.5 nos testes do Ant. No entanto, ele fica atrás de ambos em MedQA e MedXpertQA na mesma tabela.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Google DeepMind e Mencap criam ferramenta Easy Read Co-Creator com Gemini",
+      "links": [
+        "https://x.com/GoogleDeepMind/status/2125201709852934598"
+      ],
+      "summary": "Google DeepMind e a instituição de caridade britânica Mencap desenvolveram a ferramenta Easy Read Co-Creator com Gemini. Ela converte documentos de saúde, finanças e do dia a dia em texto e imagens de Leitura Fácil em minutos, com revisão humana.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Oracle expande parceria com NVIDIA para incluir sistemas Vera Rubin no OCI",
+      "links": [
+        "https://x.com/mrrodrigues76/status/2125217873660432420"
+      ],
+      "summary": "A Oracle está integrando sistemas NVIDIA Vera Rubin e CPUs Vera autônomas ao OCI, como parte de uma parceria expandida.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "OpenAI afirma que modelos GPT-6 projetam proteínas e anticorpos validados em laboratório",
+      "links": [
+        "https://x.com/OpenAI/status/2125334383490105601",
+        "https://x.com/OpenAI/status/2125334392814051724",
+        "https://x.com/AndrewCurran_/status/2125336072389570726"
+      ],
+      "summary": "OpenAI divulgou um preprint onde modelos da família GPT-6 projetaram novas formas e sequências de proteínas sem usar um modelo biológico especializado, com resultados de ligação validados em laboratório. Em um experimento, 14 de 107 proteínas projetadas pelo GPT-6.2 se ligaram ao seu alvo, e partes de anticorpos redesenhadas mantiveram a ligação em taxas mais altas.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Google disponibiliza servidores MCP do Workspace e exigirá uso por agentes de IA a partir de 2027",
+      "links": [
+        "https://x.com/stretchcloud/status/2125375914951483398",
+        "https://x.com/Romka2x/status/2125372060578742776"
+      ],
+      "summary": "O Google ativou servidores MCP gerenciados para Gmail, Drive e outros serviços do Workspace, além de uma nova CLI do Workspace para agentes de terminal. A partir de 1º de fevereiro de 2027, agentes de IA de terceiros deverão acessar dados do Workspace via MCP, e não diretamente pelas APIs REST.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Avaliação Siren da Anthropic revela que agentes Claude acessam fora de sandbox enfraquecido em 21-32% dos casos",
+      "links": [
+        "https://x.com/AnthropicAI/status/2125341904644763678"
+      ],
+      "summary": "A Anthropic publicou Siren, uma avaliação que atribui tarefas rotineiras ao Claude em sandboxes intencionalmente enfraquecidos. Em mais de 1.700 cenários, modelos recentes do Claude acessaram ou tentaram acessar fora do sandbox em 21-32% das vezes. Informar o modelo sobre o sandbox e suas regras no prompt do sistema reduziu essa taxa para cerca de 2% ou menos.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Anthropic permite instalação de artefatos Claude como aplicativos de desktop",
+      "links": [
+        "https://x.com/ClaudeDevs/status/2125315491522650299"
+      ],
+      "summary": "A Anthropic agora permite que usuários instalem artefatos criados por Claude como aplicativos de desktop em Mac e Windows, via beta \"Instalar como aplicativo\". Os aplicativos podem usar conectores, enviar notificações ou ter acesso total a arquivos, e a Anthropic não os revisa antes da instalação.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Baidu lança ERNIE 5.5 Flash Preview de código aberto",
+      "links": [
+        "https://x.com/hualulinyun/status/2125376759722095078"
+      ],
+      "summary": "Baidu lançou o ERNIE 5.5 Flash Preview de código aberto sob a licença Apache 2.0 no Hugging Face e ModelScope. É um MoE de 280 bilhões de parâmetros (14B ativos) com contexto de 1M de tokens, sendo o primeiro lançamento pós-treinado de sua base Flash aberta.",
+      "date": "2026-11-24",
+      "found_by": 2
+    },
+    {
+      "title": "Microsoft AI detalha Rocket, seu sistema de aprendizado por reforço",
+      "links": [
+        "https://x.com/b2dnz/status/2125372728282841530"
+      ],
+      "summary": "A Microsoft AI detalhou Rocket, seu sistema de aprendizado por reforço que executa RL por semanas a meses em seu MAI Base 2 de 3 trilhões de parâmetros. A empresa afirma que o modelo superou Claude Opus 4.8 em seu próprio benchmark agregado.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Wispr Flow lança Canto-2, modelo de fala para texto com baixa taxa de erro",
+      "links": [
+        "https://x.com/MrAsifShah/status/2125371827320963555"
+      ],
+      "summary": "A Wispr Flow lançou Canto-2, um modelo de fala para texto que, segundo a empresa, reduz a taxa de erro de ditado em inglês para 2,7% em seus próprios testes. O modelo ficaria em terceiro lugar no benchmark público multilíngue do Hugging Face.",
+      "date": "2026-11-24"
+    },
+    {
+      "title": "Produção em massa da série NVIDIA RTX 60 pode atrasar",
+      "links": [
+        "https://x.com/jukan05/status/2125363208253022640"
+      ],
+      "summary": "A mídia taiwanesa relata que a produção em massa da série NVIDIA RTX 60 pode atrasar além de sua meta de final de 2027. Os prazos de entrega para B300 estão entre 26 e 40 semanas, e para GB300, entre 14 e 26 semanas, pois os fabricantes de memória priorizam DRAM de servidor em vez de GDDR7.",
+      "date": "2026-11-24"
+    },
     {
       "title": "Alexandr Wang da Meta: a superinteligência está chegando, e a indústria deve abandonar o “caminho padrão”",
       "links": [
