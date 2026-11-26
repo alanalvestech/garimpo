@@ -1,8 +1,103 @@
 {
   "category": "Twitter",
-  "updated_at": "2026-11-25 02:59 UTC",
+  "updated_at": "2026-11-26 02:08 UTC",
   "pending": false,
   "items": [
+    {
+      "title": "MCP completa dois anos: Tasks agora está disponível para todos no Claude, com Skills via MCP",
+      "links": [
+        "https://x.com/ClaudeDevs/status/2125289794871963935",
+        "https://x.com/ClaudeDevs/status/2125290306539253760"
+      ],
+      "summary": "Com Tasks, servidores MCP podem executar operações longas ou ciclos completos de agentes enquanto Claude continua trabalhando e coleta o resultado posteriormente. O Upload de Arquivos, que envia PDFs, planilhas e imagens para um servidor sem passá-los pela janela de contexto, será lançado em breve.",
+      "date": "2026-11-25"
+    },
+    {
+      "title": "OpenAI supostamente responde à prova VP ≠ VNP da Anthropic com a sua própria",
+      "links": [
+        "https://x.com/AndrewCurran_/status/2125289527531245998",
+        "https://x.com/AndrewCurran_/status/2125403132427731308"
+      ],
+      "summary": "Andrew Curran afirma que a OpenAI carregou uma prova não anunciada e não assinada da mesma conjectura em seu repositório openai/math, datada de 6 de novembro de 2026. Nenhuma das provas foi verificada por um teórico de complexidade externo, e a OpenAI não fez nenhuma declaração sobre isso.",
+      "authors": [
+        "Andrew Curran"
+      ],
+      "published_at": "2026-11-06",
+      "date": "2026-11-25"
+    },
+    {
+      "title": "Pesquisadores da Anthropic defendem o retorno aos neurônios individuais como unidade de interpretabilidade",
+      "links": [
+        "https://x.com/AnthropicAI/status/2125365268381929637",
+        "https://x.com/tszzl/status/2125406396334403967"
+      ],
+      "summary": "Medidos pelo que cada neurônio contribui para as saídas, em vez do que o faz disparar, os neurônios raramente adicionam dois conceitos não relacionados e mantêm os fatos legíveis. Sem treinamento extra, neurônios em modelos de peso aberto ajudaram a detectar texto prejudicial e a encontrar comportamentos ocultos em modelos ajustados.",
+      "date": "2026-11-25"
+    },
+    {
+      "title": "ShellBench: os melhores agentes ainda falham em cerca de 4 de 10 tarefas diárias",
+      "links": [
+        "https://x.com/Yashpatil/status/2125504306413531288",
+        "https://x.com/mhdfaran/status/2125502933030867297"
+      ],
+      "summary": "O benchmark ShellBench, com 100 solicitações curtas executadas em pastas com cerca de 188 arquivos, mostra que os agentes ainda falham em 40% das tarefas. A pontuação máxima original é do GPT-6 Astra com 62,5%, à frente do Claude Fable 5.2 (61,9%) e GPT-6.1 Sol (61,4%).",
+      "date": "2026-11-25"
+    },
+    {
+      "title": "Dario Amodei rejeita a acusação de que ele quer que a IA substitua a governança humana e afirma que a Anthropic não permitirá que Claude construa modelos de fronteira sem supervisão",
+      "links": [
+        "https://x.com/AndrewCurran_/status/2125657068669730991",
+        "https://x.com/AndrewCurran_/status/2125625597573713953",
+        "https://x.com/sama/status/2117794005165748448"
+      ],
+      "summary": "O CEO da Anthropic, Dario Amodei, chamou de \"absurdo\" dizer que ele favorece entregar a governança ou o \"livre arbítrio humano\" à IA. Ele defende limites no autoaperfeiçoamento recursivo e acusou CEOs rivais de repetir slogans de \"controle humano\" sem diferenciar seus produtos.",
+      "authors": [
+        "Dario Amodei"
+      ],
+      "date": "2026-11-25"
+    },
+    {
+      "title": "Anthropic migrou sua API de Mensagens de Python para Rust, usando agentes Claude para verificar a reescrita",
+      "links": [
+        "https://x.com/AnthropicAI/status/2125627317263466739",
+        "https://x.com/ClaudeDevs/status/2125628717263372512"
+      ],
+      "summary": "O serviço Python ativo serviu como referência, e equipes de agentes Claude rastrearam e corrigiram diferenças de comportamento entre as duas versões. Uma afirmação secundária de 40-50% menos uso de CPU não está nas publicações da Anthropic.",
+      "date": "2026-11-25"
+    },
+    {
+      "title": "OpenAI está testando \"Inferência Privada\" com um pequeno grupo de clientes",
+      "links": [
+        "https://x.com/sama/status/2125638790593274259"
+      ],
+      "summary": "A \"Inferência Privada\" faz parte da OpenAI Private Intelligence. Sam Altman afirma que a retenção zero de dados (ZDR) com \"Processamento de Segurança Privada\" permite à OpenAI realizar revisões de segurança automatizadas sem que sua equipe veja o conteúdo do cliente.",
+      "authors": [
+        "Sam Altman"
+      ],
+      "date": "2026-11-25"
+    },
+    {
+      "title": "Ações da Anthropic supostamente caíram abaixo do preço de IPO de US$ 83",
+      "links": [
+        "https://x.com/theinformation/status/2125664087715496249"
+      ],
+      "summary": "The Information relata que a \"queda rápida abaixo do preço de oferta\" está diminuindo as esperanças de IPO, e que empresas de tecnologia com necessidade de caixa estão recorrendo a warrants, vendas no mercado e SPACs. O tamanho da queda não foi confirmado.",
+      "authors": [
+        "The Information"
+      ],
+      "date": "2026-11-25"
+    },
+    {
+      "title": "Google supostamente publicou seis artigos de pesquisa produzidos com modelos Gemini 4 não nomeados, sem anunciá-los",
+      "links": [
+        "https://x.com/AndrewCurran_/status/2125596087520223658"
+      ],
+      "summary": "Andrew Curran afirma que o Google lançou os artigos sem um blog post ou tweet, usando seu sistema de agente \"Cogentic\". O Google não confirmou nada disso.",
+      "authors": [
+        "Andrew Curran"
+      ],
+      "date": "2026-11-25"
+    },
     {
       "title": "Um modelo interno do Claude afirma uma prova de VP ≠ VNP, a versão algébrica de P vs NP, e nenhum humano a verificou",
       "links": [
